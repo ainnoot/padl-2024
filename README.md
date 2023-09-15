@@ -1,11 +1,21 @@
 # TODO
 
 - [ ] Fuzz syntax tree encoding wrt automata definitions for each constraint
+  - [x] encoding
+  - [ ] bash scripts
+  - [ ] be sure-sure-sure all encodings work
 - [ ] Scripts for each task
+  - [ ] conformance checking
+  - [ ] query checking
+  - [ ] log generation/bounded satisfiability
 - [ ] Scripts to benchmark over a suite of logs
 - [x] Script to map LTLf into facts
+  - [x] automaton encoding
+  - [x] syntax tree encoding
 - [ ] Script to map XES into facts
 - [ ] Script to map Declare models into facts
+  - [ ] d4py
+  - [ ] minerful
 
 # Fact Schema
 ## Traces
