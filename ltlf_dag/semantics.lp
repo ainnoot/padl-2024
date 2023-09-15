@@ -91,4 +91,4 @@ eval(F,T,TID) :-
 % Last -- TODO
 
 
-ltlf_dag_sat(C,TID) :- eval(F,0,TID), root(C,F).
+sat(method(ltlf_dag),C,TID) :- eval(F,0,TID), root(C,F).
