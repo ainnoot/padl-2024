@@ -1,3 +1,21 @@
+#script(python)
+
+def print_witness(model):
+	trace = []
+	for symbol in model.symbols(atoms=True):
+		if symbol.name != 'trace':
+			continue
+		trace.append((symbol.arguments[1].number, symbol.arguments[2].name))
+	trace.sort(key=lambda x: x[0])
+	trace_string = ''.join(x[1] for x in trace)
+
+	print("Found a trace where two methods mismatch:", trace_string)
+
+def main(ctl):
+	ctl.ground([("base",[])])
+	ctl.solve(on_model=print_witness)
+#end.
+
 % Idea: Search for a trace that causes an encoding 
 % to mismatch wrt the automata.
 %
