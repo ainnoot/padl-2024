@@ -55,6 +55,7 @@ eval(F,T,TID) :-
 eval(F,T,TID) :-
 	subformula(F), F = (always,G),
 	eval(F,T+1,TID),
+	eval(G,T,TID),
 	trace(TID,T,_).
 
 % And
@@ -90,9 +91,4 @@ eval(F,T,TID) :-
 % Last -- TODO
 
 
-satisfied(C,TID) :- eval(F,0,TID), root(C,F).
-unsatisfied(C,TID) :- constraint(C,_), trace(TID,_,_), not satisfied(C,TID).
-
-#show.
-#show satisfied/2.
-#show unsatisfied/2.
+sat(C,TID) :- eval(F,0,TID), root(C,F).

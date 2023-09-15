@@ -9,8 +9,7 @@ last(TID,T) :- trace(TID,T,_), not trace(TID,T+1,_).
 
 % A trace models a constraint if its root subformula (0) is true in the first state
 % eval(Subformula, Constraint, Time, Trace)
-satisfied(C,TID) :- eval(0, C, 0, TID).
--satisfied(C,TID) :- constraint(C,_), trace(TID,_,_), not satisfied(C,TID).
+sat(C,TID) :- eval(0, C, 0, TID).
 
 %%%% These follow the Stepped Normal Form: 
 %%%% https://drops.dagstuhl.de/opus/volltexte/2021/14784/pdf/LIPIcs-TIME-2021-8.pdf
