@@ -32,5 +32,7 @@ cur_state(C,TID,S2,T) :-
   trace(TID,T,A), 
   bind(C,Arg,A).
 
-sat(C,TID) :- 
+automata_sat(C,TID) :- 
   cur_state(C,TID,S,T), last(TID,T), constraint(C,Template), accepting(Template,S). 
+
+automata_unsat(C,TID) :- constraint(C,_), trace(TID,_,_), not automata_sat(C,TID).
