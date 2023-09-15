@@ -1,6 +1,6 @@
 import sys
-from ltlf2dfa.ltlf import *
-from ltlf2dfa.parser.ltlf import LTLfParser
+from flloat.ltlf import *
+from flloat.parser.ltlf import LTLfParser
 from pathlib import Path
 import re
 
@@ -58,6 +58,9 @@ def syntax_tree_of(f):
 
 		elif isinstance(node, LTLfUntil):
 			return "until({},{},{})"
+
+		elif isinstance(node, LTLfWeakNext):
+			return "weak_next({},{},{})"
 
 	prg = []
 	queue = [(f,id_pool())]
