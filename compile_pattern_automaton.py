@@ -39,7 +39,7 @@ def automaton_of(f):
 			delta.append((s_0, symbol, s_1))
 
 	accepting = list(dfa.accepting_states)
-	return delta, accepting
+	return delta, accepting, dfa.initial_state
 
 def compile_patterns(filename):
 	parser = LTLfParser()
@@ -52,13 +52,14 @@ def compile_patterns(filename):
 			continue
 
 		name, formula = line.split(':')
-		delta, accepting = automaton_of(parser(formula))
+		delta, accepting, initial = automaton_of(parser(formula))
 
 		pattern_facts = ['% {} -- {}'.format(name.strip(), formula.strip())]
 		for s_0, symbol, s_1 in delta:
 			pattern_facts.append("template(\"{}\",{},{},{}).".format(name, s_0, symbol, s_1))
 		for s in accepting:
 			pattern_facts.append("accepting(\"{}\",{}).".format(name, s))		
+		pattern_facts.append("initial(\"{}\",{}).".format(name, initial))
 		patterns_prg.append('\n'.join(pattern_facts) + "\n")
 
 	return '\n'.join(patterns_prg)
