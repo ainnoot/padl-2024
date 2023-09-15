@@ -5,7 +5,7 @@ def print_witness(model):
 	for symbol in model.symbols(atoms=True):
 		if symbol.name != 'trace':
 			continue
-		trace.append((symbol.arguments[1].number, symbol.arguments[2].name))
+		trace.append((symbol.arguments[1].number, symbol.arguments[2].string))
 	trace.sort(key=lambda x: x[0])
 	trace_string = ''.join(x[1] for x in trace)
 
@@ -46,3 +46,4 @@ time(0..t-1).
 #show.
 #show sat/3.
 #show trace/3.
+#show constraint/2.

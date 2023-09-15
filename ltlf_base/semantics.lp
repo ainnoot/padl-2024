@@ -28,7 +28,7 @@ eval(S,C,T,TID) :-
   constraint(C, Template),
   template(Template, conjunction(S,LHS,RHS)),
   eval(LHS,C,T,TID),
-  eval(LHS,C,T,TID).
+  eval(RHS,C,T,TID).
 
 % Or
 % 3 true(F,S):- disjunction(F,G,H), state(S), 1{true(G,S); true(H,S)}.
@@ -44,7 +44,7 @@ eval(S,C,T,TID) :-
 eval(S,C,T,TID) :- 
   constraint(C, Template),
   template(Template, negate(S,F)),
-  not eval(S,C,T,TID),
+  not eval(F,C,T,TID),
   trace(TID,T,_).
 
 % Implies
@@ -64,7 +64,7 @@ eval(S,C,Ti,TID) :-
   trace(TID,Ti,_),
   last(TID,L),
   Ti < L,
-  eval(S,C,Ti+1,TID).
+  eval(F,C,Ti+1,TID).
 
 % Until
 % true(F,Si):- until(F,G,H), state(Si), state(Sj), Sj>Si, Sj<=M, finalState(M), X{true(G,S): state(S), S>=Si, S<Sj}X, X=Sj-Si, true(H,Sj).
@@ -83,9 +83,10 @@ eval(S,C,Ti,TID) :-
 eval(S,C,Ti,TID) :-
   constraint(C, Template), 
   template(Template, always(S,F)),
-  last(TID,L),
-  X = L-Ti,
   trace(TID,Ti,_),
+  last(TID,M),
+  X=M-Ti,
+  eval(F,C,Ti,TID),         %%%% >= altrimenti salta t=0, ho perso una nottata
   X {eval(F,C,T,TID): trace(TID,T,_), T > Ti } X.
 
 % Eventually
@@ -95,7 +96,7 @@ eval(S,C,Ti,TID) :-
   template(Template, eventually(S,F)), 
   trace(TID,Ti,_),
   trace(TID,Tj,_),
-  Tj > Ti, 
+  Tj >= Ti,                   %%%% >= altrimenti salta t=0, ho perso una nottata 
   eval(F,C,Tj,TID).
 
 % True, False, Last
