@@ -66,6 +66,7 @@ eval(S,C,T,TID) :-
   constraint(C, Template), 
   template(Template, always(S,F)), 
   eval(S,C,T+1,TID), 
+  eval(F,C,T,TID),
   trace(TID, T, _).
 
 % And
@@ -131,6 +132,3 @@ eval(S,C,T,TID) :-
   eval(RHS,C,T,TID), 
   eval(S,C,T+1,TID),
   trace(TID,T,_).
-
-#show.
-#show satisfied/2.

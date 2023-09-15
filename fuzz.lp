@@ -20,8 +20,11 @@
 time(0..t-1).
 1 { trace(1,T,A): activity(A) } 1 :- time(T).
 
-method(automata; ltlf_base; ltlf_xnf; ltlf_dag).
-unsat(M,C,TID) :- method(M), constraint(C,_), trace(TID,_,_), not sat(M,C,TID).
-sat(C,TID) :- sat(_,C,TID).
-unsat(C,TID) :- unsat(_,C,TID).
-:- sat(C,TID), unsat(C,TID).
+% count = 2 -> both SAT
+% count = 0 -> both UNSAT
+% count = 1 -> counterexample
+:- #count{M: sat(M,C,_)} != 1, constraint(C,_).
+
+#show.
+#show sat/3.
+#show trace/3.

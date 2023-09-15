@@ -33,4 +33,4 @@ cur_state(C,TID,S2,T) :-
   bind(C,Arg,A).
 
 sat(method(automata),C,TID) :- 
-  cur_state(C,TID,S,T), last(TID,T), constraint(C,Template), accepting(Template,S). 
+  cur_state(C,TID,S,T), last(TID,T), constraint(C,Template), accepting(Template,S).

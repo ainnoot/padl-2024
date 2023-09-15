@@ -113,6 +113,3 @@ eval(S,C,T,TID) :-
   constraint(C, Template), 
   template(Template, last(S)), 
   last(TID,T).
-
-#show.
-#show satisfied/2.
