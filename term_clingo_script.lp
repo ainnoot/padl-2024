@@ -1,5 +1,4 @@
 #script(python)
-
 from ltlf2dfa.ltlf import *
 from ltlf2dfa.parser.ltlf import LTLfParser
 import re
