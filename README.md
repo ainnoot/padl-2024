@@ -79,3 +79,12 @@ where `model.lp` is a set of facts according to the `Describing a model` section
 
 - templates of the constraints used in `model.lp`, obtained by running the script in `Compiling formulae into facts`
 - `semantics.lp` 
+
+# Fuzzing two encodings
+```
+clingo fuzz.lp [model] [enc 1]/* [enc 2]/* -c t=[length]
+```
+
+if the logic program is satisfiable, there's a witness string that `enc 1`, `enc 2` "behave in a different way", e.g. one of them (the non automata one...) is wrong. If unsatisfiable, there's no witness simple trace up to length `length` that shows errors in the encoding.
+
+`model` should also supply a `activity/1` facts that are the available activities to put within the trace. It is sufficient to use `k+1` activities, where `k` is the total distinct number of activities bound to arguments in constraints. The extra one is needed to model "everything else". (Two activities are 'undistinguishable' if none of them affects a constraint, e.g. none of them is bound to an argument.)
