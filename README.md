@@ -3,6 +3,8 @@
 - [ ] Add copyright or something to `flloat` classes, `ltlf2dfa` classes, `processtrace2dfa` classes
 - [ ] Check that Declare LTLf definition is correctly in the `declare_templates.txt`
 
+
+- [ ] rewrite `ltlf_dag` Clingo script to be a "preprocessing" step as in the other encodings
 - [x] custom `flloat` grammar, `LTLfParser` to support `W` operator in Declare constraints
 - [ ] Fuzz syntax tree encoding wrt automata definitions for each constraint
   - [x] encoding
