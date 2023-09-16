@@ -1,5 +1,6 @@
 # TODO
 
+- [x] custom `flloat` grammar, `LTLfParser` to support `W` operator in Declare constraints
 - [ ] Fuzz syntax tree encoding wrt automata definitions for each constraint
   - [x] encoding
   - [ ] bash scripts
