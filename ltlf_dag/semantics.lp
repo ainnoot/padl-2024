@@ -1,12 +1,18 @@
-root(C,F) :- constraint(C,F).
-subformula(F) :- root(_,F).
-
+constraint_formula(C,@substitute(BaseFormula,B)) :- constraint(C, Template, B), template(Template, BaseFormula).
 % Covers all binary operators
+
 subformula(LHS;RHS) :- subformula((_,LHS,RHS)).
 
+root(C, @substitute(Formula,Bindings)) :-
+  constraint(C, Template, Bindings), 
+  template(Template, Formula).
+
 % Covers all unary operators
-unary_op(negate; next; eventually; always).
-subformula(F) :- subformula((OP,F)), unary_op(OP).
+ltlf_unary(negate; next; eventually; always).
+ltlf_binary(until; and; or; implies; equals; release).
+subformula(F) :- root(_,F).
+subformula(F) :- subformula((OP,F)), ltlf_unary(OP).
+subformula(LHS;RHS) :- subformula((OP,LHS,RHS)), ltlf_binary(OP).
 
 % Subformula F on trace TID @ time T
 
@@ -14,6 +20,7 @@ last(TID,T) :- trace(TID,T,_), not trace(TID,T+1,_).
 
 % Atomic
 eval(F,T,TID) :- 
+    % An atomic subformula involving Arg
 	subformula(F), F = (atom,A),
 	trace(TID,T,A).
 
