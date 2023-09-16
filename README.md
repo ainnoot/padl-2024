@@ -35,3 +35,47 @@ Arguments are bound by means of the predicate `bind(C,Arg,A)`, which denotes tha
 Consider the constraint `Response(a,b)`. This is represented by the facts:
 
 `constraint(c1, "Response"). bind(c1, arg_0, a). bind(c2, arg_1, b).`
+
+# Compiling formulae into facts
+A template is an LTLf formula with an associated name. Assuming a set of constraints is stored as key-value pairs in a text file:
+
+```
+Response: G(arg_0 -> F(arg_1))
+```
+where `arg_*` denotes a template variable. Constraints are instantiated by providing substitutions for each variable in the template.
+
+To compile a template into a set of facts, to be used in further conformance checking scripts, run:
+
+```
+python3 compile_template_automata.py [input file] > [output file]
+python3 compile_template_syntax_tree.py [input file] > [output file]
+python3 compile_template_dag.py [input file] > [output file]
+```
+
+# Describing a model
+## Automata, Syntax Tree, XNF Syntax Tree
+A model is a set of constraints. A constraint has a unique identifier, and belongs to a template. For each argument of the corresponding template, each constraint has to bind a value:
+
+```
+constraint(c1, "Response").
+bind(c1, arg_0, "a").
+bind(c2, arg_1, "b").
+```
+
+## Syntax Tree DAG
+The syntax is a bit more involved, but similar to the previous example:
+
+```
+constraint(c1, "Response", ((arg_0, "a"),(arg_1, "b"))).
+```
+
+# Conformance Checking
+
+```
+clingo [encoding folder]/*.lp model.lp log.lp
+```
+
+where `model.lp` is a set of facts according to the `Describing a model` section, `log.lp` is an event log mapped to ASP facts, and `encoding folder` is a folder containing:
+
+- templates of the constraints used in `model.lp`, obtained by running the script in `Compiling formulae into facts`
+- `semantics.lp` 
