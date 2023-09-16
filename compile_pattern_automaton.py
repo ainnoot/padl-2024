@@ -1,5 +1,5 @@
 import sys
-from flloat.parser.ltlf import LTLfParser
+from custom_ltlf_parser import LTLfParser
 from pythomata import SimpleDFA
 from pathlib import Path
 
@@ -10,7 +10,7 @@ def symbolic_to_singleton(symbolic_dfa, letters):
     states = symbolic_dfa.states
     initial_state = symbolic_dfa.initial_state
     accepting_states = symbolic_dfa.accepting_states
-    
+
     transition_function = {}
     for s in states:
         transitions_of_s = {}
@@ -21,7 +21,7 @@ def symbolic_to_singleton(symbolic_dfa, letters):
                 if formula.subs(interpretation):
                     transitions_of_s[letter] = s_1
         transition_function[s] = transitions_of_s
-    
+
     singleton_dfa = SimpleDFA(states, letters, initial_state, accepting_states, transition_function)
     singleton_dfa = singleton_dfa
     singleton_dfa = singleton_dfa.complete()

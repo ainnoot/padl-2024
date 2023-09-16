@@ -1,6 +1,6 @@
 import sys
 from flloat.ltlf import *
-from flloat.parser.ltlf import LTLfParser
+from custom_ltlf_parser import LTLfParser
 from pathlib import Path
 import re
 
@@ -26,6 +26,7 @@ def syntax_tree_of(f):
 		if isinstance(node, LTLfFalse):
 			return "false({})"
 
+		## Recall (a W b) is compiled into (b R (a | b))
 		if isinstance(node, LTLfRelease):
 			return "relase({},{},{})"
 
