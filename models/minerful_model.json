@@ -1,0 +1,202 @@
+{
+  "name": "Process model discovered from Road_Traffic_Fine_Management_Process.xes",
+  "tasks": [
+    "Payment",
+    "Insert Date Appeal to Prefecture",
+    "Receive Result Appeal from Prefecture",
+    "Notify Result Appeal to Offender",
+    "Send Appeal to Prefecture",
+    "Appeal to Judge",
+    "Add penalty",
+    "Insert Fine Notification",
+    "Send for Credit Collection",
+    "Create Fine",
+    "Send Fine"
+  ],
+  "constraints": [
+    {
+      "template": "AlternateSuccession",
+      "parameters": [
+        [
+          "Insert Fine Notification"
+        ],
+        [
+          "Add penalty"
+        ]
+      ],
+      "support": 1,
+      "confidence": 0.5310899780541332,
+      "interestFactor": 0.28205656478953967
+    },
+    {
+      "template": "NotChainSuccession",
+      "parameters": [
+        [
+          "Send Fine"
+        ],
+        [
+          "Payment"
+        ]
+      ],
+      "support": 0.9636539859462079,
+      "confidence": 0.4467722127434986,
+      "interestFactor": 0.30896124284470433
+    },
+    {
+      "template": "Init",
+      "parameters": [
+        [
+          "Create Fine"
+        ]
+      ],
+      "support": 1,
+      "confidence": 1,
+      "interestFactor": 1
+    },
+    {
+      "template": "AtMost1",
+      "parameters": [
+        [
+          "Send Fine"
+        ]
+      ],
+      "support": 1,
+      "confidence": 0.6915408658642017,
+      "interestFactor": 0.47822876916020984
+    },
+    {
+      "template": "NotChainSuccession",
+      "parameters": [
+        [
+          "Payment"
+        ],
+        [
+          "Insert Fine Notification"
+        ]
+      ],
+      "support": 0.9990600847193908,
+      "confidence": 0.463187296709532,
+      "interestFactor": 0.24599413124441863
+    },
+    {
+      "template": "AtMost3",
+      "parameters": [
+        [
+          "Payment"
+        ]
+      ],
+      "support": 0.9996475360776751,
+      "confidence": 0.4634596527076885,
+      "interestFactor": 0.21487058381669552
+    },
+    {
+      "template": "AtMost1",
+      "parameters": [
+        [
+          "Create Fine"
+        ]
+      ],
+      "support": 1,
+      "confidence": 1,
+      "interestFactor": 1
+    },
+    {
+      "template": "NotChainSuccession",
+      "parameters": [
+        [
+          "Payment"
+        ],
+        [
+          "Add penalty"
+        ]
+      ],
+      "support": 0.9504385212846356,
+      "confidence": 0.44064521853666533,
+      "interestFactor": 0.2340222594422963
+    },
+    {
+      "template": "NotChainSuccession",
+      "parameters": [
+        [
+          "Payment"
+        ],
+        [
+          "Send for Credit Collection"
+        ]
+      ],
+      "support": 0.9774840060315927,
+      "confidence": 0.3836155060713066,
+      "interestFactor": 0.17785299598165286
+    },
+    {
+      "template": "AlternatePrecedence",
+      "parameters": [
+        [
+          "Send Fine"
+        ],
+        [
+          "Insert Fine Notification"
+        ]
+      ],
+      "support": 1,
+      "confidence": 0.6915408658642017,
+      "interestFactor": 0.36727042327535514
+    },
+    {
+      "template": "AlternatePrecedence",
+      "parameters": [
+        [
+          "Add penalty"
+        ],
+        [
+          "Send for Credit Collection"
+        ]
+      ],
+      "support": 1,
+      "confidence": 0.5310899780541332,
+      "interestFactor": 0.20842729849643252
+    },
+    {
+      "template": "NotChainSuccession",
+      "parameters": [
+        [
+          "Payment"
+        ],
+        [
+          "Send Fine"
+        ]
+      ],
+      "support": 0.993733066061634,
+      "confidence": 0.4607175680021734,
+      "interestFactor": 0.3186050258950722
+    },
+    {
+      "template": "NotChainSuccession",
+      "parameters": [
+        [
+          "Insert Fine Notification"
+        ],
+        [
+          "Payment"
+        ]
+      ],
+      "support": 0.9505782384209424,
+      "confidence": 0.440709994623369,
+      "interestFactor": 0.2340566613727622
+    },
+    {
+      "template": "NotSuccession",
+      "parameters": [
+        [
+          "Send for Credit Collection"
+        ],
+        [
+          "Payment"
+        ]
+      ],
+      "support": 1,
+      "confidence": 0.39245195185209814,
+      "interestFactor": 0.18194977604155763
+    }
+  ]
+}
