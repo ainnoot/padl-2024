@@ -4,7 +4,7 @@
 - [ ] Check that Declare LTLf definition is correctly in the `declare_templates.txt`
 
 
-- [ ] rewrite `ltlf_dag` Clingo script to be a "preprocessing" step as in the other encodings
+- [x] rewrite `ltlf_dag` Clingo script to be a "preprocessing" step as in the other encodings
 - [x] custom `flloat` grammar, `LTLfParser` to support `W` operator in Declare constraints
 - [ ] Fuzz syntax tree encoding wrt automata definitions for each constraint
   - [x] encoding
@@ -18,10 +18,10 @@
 - [x] Script to map LTLf into facts
   - [x] automaton encoding
   - [x] syntax tree encoding
-- [ ] Script to map XES into facts
-- [ ] Script to map Declare models into facts
-  - [ ] d4py
-  - [ ] minerful
+- [x] Script to map XES into facts
+- [x] Script to map Declare models into facts
+  - [x] d4py -- al momento installandola da pip è rotta e non si può usare
+  - [x] minerful
 
 # Fact Schema
 ## Traces

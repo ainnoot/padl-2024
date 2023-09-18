@@ -2,3 +2,4 @@ ltlf2dfa
 pythomata
 flloat
 pm4py
+declare4py
