@@ -13,7 +13,7 @@ class Constraint:
 
 	@property
 	def name(self):
-		return "{}({})".format(self.template, ",".join(x[0] for x in self.parameters))
+		return "{}({})".format(self.template, ",".join(self.parameters))
 
 @dataclass
 class MinerfulModel:
