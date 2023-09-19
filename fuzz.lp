@@ -43,9 +43,16 @@ activity(A) :- bind(_,_,A).
 % count = 2 -> both SAT
 % count = 0 -> both UNSAT
 % count = 1 -> counterexample
-:- #count{M: sat(M,_,_)} != 1.
+:- #count{M: sat(M,C,_)} != 1, constraint(C, _).
 
 #show.
 #show sat/3.
 #show trace/3.
 #show constraint/2.
+#show holds/2.
+#show fail/2.
+#show bind/3.
+#show fail/2.
+#show fail/3.
+#show witness/3.
+#show holds/2.
