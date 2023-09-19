@@ -26,7 +26,6 @@ def syntax_tree_of(f):
 		if isinstance(node, LTLfFalse):
 			return "false({})"
 
-		## Recall (a W b) is compiled into (b R (a | b))
 		if isinstance(node, LTLfRelease):
 			return "relase({},{},{})"
 

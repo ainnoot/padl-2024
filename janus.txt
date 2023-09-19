@@ -1,0 +1,11 @@
+% DECLARE definitions from here:
+% Measurement of Rule-based LTLf Declarative Process Specifications
+
+Responded Existence: F(arg_0) -> F(arg_1)
+Co Existence: (F(arg_0) -> F(arg_1)) & (F(arg_1) -> F(arg_0))
+Response: G(arg_0 -> F(arg_1))
+Alternate Response: G(arg_0 -> F(arg_1)) & G(arg_0 -> X(!arg_0 W arg_1))
+Chain Response: G(arg_0-> F(arg_1)) & G(arg_0 -> X(arg_1))
+Precedence: !arg_1 W arg_0
+Alternate Precedence: (!arg_1 W arg_0) & G(arg_1 -> X(!arg_1 W arg_0))
+Chain Precedence: (!arg_1 W arg_0) & G(X(arg_1) -> arg_0)

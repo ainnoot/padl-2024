@@ -94,9 +94,10 @@ class LTLfTransformer(Transformer):
         if (len(args) - 1) % 2 == 0:
             subformulas = args[::2]
             lhs, rhs = subformulas
-            # ψ W φ ≡ (ψ U φ) ∨ G ψ ≡ ψ U (φ ∨ G ψ) ≡ φ R (φ ∨ ψ)
-            # Using this definition: ψ W φ ≡ φ R (φ ∨ ψ)
-            return LTLfRelease([rhs, LTLfOr([rhs, lhs])])
+
+            # \phi_1 W \phi_2 := (\phi_1 U \phi_2) | G(\phi_1)
+            # https://www.inf.unibz.it/~montali/papers/alman-etal-IS2022-probdeclare.pdf
+            return LTLfOr([LTLfUntil([lhs, rhs]), LTLfAlways(lhs)])
         else:
             raise ParsingError
 

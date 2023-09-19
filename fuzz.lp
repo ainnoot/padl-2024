@@ -48,11 +48,5 @@ activity(A) :- bind(_,_,A).
 #show.
 #show sat/3.
 #show trace/3.
-#show constraint/2.
-#show holds/2.
-#show fail/2.
-#show bind/3.
-#show fail/2.
-#show fail/3.
 #show witness/3.
-#show holds/2.
+#show fail/2.
