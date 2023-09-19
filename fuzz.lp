@@ -36,12 +36,14 @@ def main(ctl):
 
 #const t=6.
 time(0..t-1).
+activity("*").
+activity(A) :- bind(_,_,A).
 1 { trace(1,T,A): activity(A) } 1 :- time(T).
 
 % count = 2 -> both SAT
 % count = 0 -> both UNSAT
 % count = 1 -> counterexample
-:- #count{M: sat(M,C,_)} != 1, constraint(C,_).
+:- #count{M: sat(M,_,_)} != 1.
 
 #show.
 #show sat/3.
