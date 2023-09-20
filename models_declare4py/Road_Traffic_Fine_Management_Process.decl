@@ -1,0 +1,15 @@
+activity Insert Fine Notification
+activity Receive Result Appeal from Prefecture
+activity Send Fine
+activity Create Fine
+activity Notify Result Appeal to Offender
+activity Payment
+activity Send Appeal to Prefecture
+activity Send for Credit Collection
+activity Appeal to Judge
+activity Insert Date Appeal to Prefecture
+activity Add penalty
+Existence1[Create Fine] | |
+Absence2[Create Fine] | |
+Exactly1[Create Fine] | |
+Init[Create Fine] | |

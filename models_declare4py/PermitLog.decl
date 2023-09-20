@@ -1,0 +1,111 @@
+activity Request For Payment SAVED by EMPLOYEE
+activity Declaration REJECTED by ADMINISTRATION
+activity Request For Payment REJECTED by BUDGET OWNER
+activity Permit REJECTED by SUPERVISOR
+activity Permit REJECTED by ADMINISTRATION
+activity Declaration REJECTED by BUDGET OWNER
+activity Permit REJECTED by DIRECTOR
+activity Declaration REJECTED by EMPLOYEE
+activity Request For Payment FINAL_APPROVED by SUPERVISOR
+activity Request For Payment SUBMITTED by EMPLOYEE
+activity Send Reminder
+activity End trip
+activity Permit FOR_APPROVAL by SUPERVISOR
+activity Permit FOR_APPROVAL by ADMINISTRATION
+activity Declaration APPROVED by PRE_APPROVER
+activity Declaration REJECTED by SUPERVISOR
+activity Declaration SAVED by EMPLOYEE
+activity Request Payment
+activity Request For Payment REJECTED by ADMINISTRATION
+activity Permit SUBMITTED by EMPLOYEE
+activity Declaration APPROVED by BUDGET OWNER
+activity Start trip
+activity Request For Payment APPROVED by BUDGET OWNER
+activity Permit SAVED by EMPLOYEE
+activity Request For Payment APPROVED by PRE_APPROVER
+activity Permit APPROVED by ADMINISTRATION
+activity Declaration REJECTED by MISSING
+activity Declaration APPROVED by SUPERVISOR
+activity Declaration REJECTED by DIRECTOR
+activity Payment Handled
+activity Request For Payment FINAL_APPROVED by DIRECTOR
+activity Declaration APPROVED by ADMINISTRATION
+activity Request For Payment REJECTED by EMPLOYEE
+activity Permit REJECTED by BUDGET OWNER
+activity Request For Payment REJECTED by SUPERVISOR
+activity Permit REJECTED by MISSING
+activity Request For Payment APPROVED by SUPERVISOR
+activity Permit REJECTED by PRE_APPROVER
+activity Request For Payment APPROVED by ADMINISTRATION
+activity Permit APPROVED by BUDGET OWNER
+activity Permit FINAL_APPROVED by DIRECTOR
+activity Declaration SUBMITTED by EMPLOYEE
+activity Permit APPROVED by PRE_APPROVER
+activity Request For Payment REJECTED by PRE_APPROVER
+activity Permit APPROVED by SUPERVISOR
+activity Declaration REJECTED by PRE_APPROVER
+activity Permit FINAL_APPROVED by SUPERVISOR
+activity Declaration FINAL_APPROVED by DIRECTOR
+activity Permit REJECTED by EMPLOYEE
+activity Declaration FINAL_APPROVED by SUPERVISOR
+activity Request For Payment REJECTED by MISSING
+Existence1[Start trip] | |
+Absence2[Start trip] | |
+Exactly1[Start trip] | |
+Init[Start trip] | |
+Existence1[End trip] | |
+Absence2[End trip] | |
+Exactly1[End trip] | |
+Existence1[Permit SUBMITTED by EMPLOYEE] | |
+Absence2[Permit SUBMITTED by EMPLOYEE] | |
+Exactly1[Permit SUBMITTED by EMPLOYEE] | |
+Init[Permit SUBMITTED by EMPLOYEE] | |
+Choice[End trip, Start trip] | | |
+Choice[Start trip, End trip] | | |
+Responded Existence[End trip, Start trip] | | |
+Responded Existence[Start trip, End trip] | | |
+Response[Start trip, End trip] | | |
+Alternate Response[Start trip, End trip] | | |
+Chain Response[Start trip, End trip] | | |
+Precedence[Start trip, End trip] | | |
+Alternate Precedence[Start trip, End trip] | | |
+Chain Precedence[Start trip, End trip] | | |
+Not Response[End trip, Start trip] | | |
+Not Chain Response[End trip, Start trip] | | |
+Not Chain Response[Start trip, End trip] | | |
+Not Precedence[End trip, Start trip] | | |
+Not Chain Precedence[End trip, Start trip] | | |
+Not Chain Precedence[Start trip, End trip] | | |
+Choice[Start trip, Permit SUBMITTED by EMPLOYEE] | | |
+Choice[Permit SUBMITTED by EMPLOYEE, Start trip] | | |
+Responded Existence[Start trip, Permit SUBMITTED by EMPLOYEE] | | |
+Responded Existence[Permit SUBMITTED by EMPLOYEE, Start trip] | | |
+Response[Start trip, Permit SUBMITTED by EMPLOYEE] | | |
+Response[Permit SUBMITTED by EMPLOYEE, Start trip] | | |
+Alternate Response[Start trip, Permit SUBMITTED by EMPLOYEE] | | |
+Alternate Response[Permit SUBMITTED by EMPLOYEE, Start trip] | | |
+Precedence[Start trip, Permit SUBMITTED by EMPLOYEE] | | |
+Precedence[Permit SUBMITTED by EMPLOYEE, Start trip] | | |
+Alternate Precedence[Permit SUBMITTED by EMPLOYEE, Start trip] | | |
+Not Response[Start trip, Permit SUBMITTED by EMPLOYEE] | | |
+Not Response[Permit SUBMITTED by EMPLOYEE, Start trip] | | |
+Not Chain Response[Start trip, Permit SUBMITTED by EMPLOYEE] | | |
+Not Chain Response[Permit SUBMITTED by EMPLOYEE, Start trip] | | |
+Not Precedence[Start trip, Permit SUBMITTED by EMPLOYEE] | | |
+Not Precedence[Permit SUBMITTED by EMPLOYEE, Start trip] | | |
+Not Chain Precedence[Start trip, Permit SUBMITTED by EMPLOYEE] | | |
+Not Chain Precedence[Permit SUBMITTED by EMPLOYEE, Start trip] | | |
+Choice[End trip, Permit SUBMITTED by EMPLOYEE] | | |
+Choice[Permit SUBMITTED by EMPLOYEE, End trip] | | |
+Responded Existence[End trip, Permit SUBMITTED by EMPLOYEE] | | |
+Responded Existence[Permit SUBMITTED by EMPLOYEE, End trip] | | |
+Response[Permit SUBMITTED by EMPLOYEE, End trip] | | |
+Alternate Response[Permit SUBMITTED by EMPLOYEE, End trip] | | |
+Precedence[Permit SUBMITTED by EMPLOYEE, End trip] | | |
+Alternate Precedence[Permit SUBMITTED by EMPLOYEE, End trip] | | |
+Not Response[End trip, Permit SUBMITTED by EMPLOYEE] | | |
+Not Chain Response[End trip, Permit SUBMITTED by EMPLOYEE] | | |
+Not Chain Response[Permit SUBMITTED by EMPLOYEE, End trip] | | |
+Not Precedence[End trip, Permit SUBMITTED by EMPLOYEE] | | |
+Not Chain Precedence[End trip, Permit SUBMITTED by EMPLOYEE] | | |
+Not Chain Precedence[Permit SUBMITTED by EMPLOYEE, End trip] | | |
