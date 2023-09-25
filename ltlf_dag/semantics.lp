@@ -99,3 +99,4 @@ eval(F,T,TID) :-
 
 
 sat(method(ltlf_dag),C,TID) :- eval(F,0,TID), root(C,F).
+-sat(method(ltlf_dag),C,TID) :- not eval(F,0,TID), root(C,F), trace(TID,_,_).
