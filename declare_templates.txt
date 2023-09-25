@@ -5,7 +5,7 @@
 
 % Existence templates
 Existence: F(arg_0)
-Absence 2: !F(arg_0 & F(arg_0))
+Absence 2: !F(arg_0 & XF(arg_0))
 
 % Choice templates
 Choice: F(arg_0) | F(arg_1)
@@ -15,13 +15,13 @@ Exclusive Choice: (F(arg_0) | F(arg_1)) & !(F(arg_0) & F(arg_1))
 Responded Existence: F(arg_0) -> F(arg_1)
 Coexistence: F(arg_0) <-> F(arg_1)
 Response: G(arg_0 -> F(arg_1))
-Precedence: arg_1 W arg_0
-Succession: G(arg_0 -> F(arg_1)) & (arg_1 W arg_0)
-Alternate Response: G(arg_0 -> X(!arg_0 W arg_1))
-Alternate Precedence: (!arg_1 W arg_0) & G(arg_1 -> X(!arg_1 W arg_0))
-Alternate Succession: G(arg_0 -> X(!arg_0 W arg_1)) & (!arg_1 W arg_0) & G(arg_1 -> X(!arg_1 W arg_0))
+Precedence: !arg_1 W arg_0
+Succession: G(arg_0 -> F(arg_1)) & (!arg_1 W arg_0)
+Alternate Response: G(arg_0 -> X(!arg_0 U arg_1))
+Alternate Precedence: (!arg_1 W arg_0) & G(arg_1 -> WX(!arg_1 W arg_0))
+Alternate Succession: G(arg_0 -> X(!arg_0 U arg_1)) & (!arg_1 W arg_0) & G(arg_1 -> WX(!arg_1 W arg_0))
 Chain Response: G(arg_0 -> X(arg_1))
-Chain Precedence: G(X(arg_1) -> arg_0))
+Chain Precedence: G(X(arg_1) -> arg_0)
 Chain Succession: G(arg_0 <-> X(arg_1))
 
 % Negation templates
