@@ -60,7 +60,7 @@ def syntax_tree_of(f):
 			return "until({},{},{})"
 
 		elif isinstance(node, LTLfWeakNext):
-			return "weak_next({},{},{})"
+			return "weak_next({},{})"
 
 	prg = []
 	queue = [(f,id_pool())]
