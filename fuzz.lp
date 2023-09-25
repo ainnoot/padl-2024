@@ -1,5 +1,4 @@
 #script(python)
-
 def print_witness(model):
 	trace = []
 	for symbol in model.symbols(atoms=True):
@@ -34,7 +33,7 @@ def main(ctl):
 % where `a` is the pattern activation, `b` is the pattern target
 % 
 
-#const t=6.
+#const t=12.
 time(0..t-1).
 activity("*").
 activity(A) :- bind(_,_,A).
@@ -47,6 +46,3 @@ activity(A) :- bind(_,_,A).
 
 #show.
 #show sat/3.
-#show trace/3.
-#show witness/3.
-#show fail/2.
