@@ -1,17 +1,54 @@
-% Absence
-fail(C, TID) :-
-  constraint(C, "Absence"),
-  bind(C, arg_0, X),
-  trace(TID,_,X).
-
-% Existence
+% Template: Existence(arg_0)
+% Description: `arg_0` must be executed at least once.
+% Fails when: `arg_0` is never executed.
 fail(C, TID) :-
   constraint(C, "Existence"),
   bind(C, arg_0, X),
   not trace(TID, _, X), 
   trace(TID, _, _).
 
-% Responded Existence
+% Template: Absence 2
+% Description: `arg_0` can be executed at most once.
+% Fails when: `arg_0` is executed at least two times.
+fail(C, TID) :-
+  constraint(C, "Absence 2"),
+  bind(C, arg_0, X),
+  trace(TID,T,X), 
+  trace(TID,T',X),
+  T' > T.
+
+% Template: Choice
+% Description: `arg_0` or `arg_1` must be executed.
+% Fails when: `arg_0`, `arg_1` are never executed.
+fail(C, TID) :-
+  constraint(C, "Choice"), 
+  bind(C, arg_0, X), 
+  bind(C, arg_1, Y), 
+  trace(TID, _, _), 
+  not trace(TID, _, X),
+  not trace(TID, _, Y).
+  
+% Template: Exclusive Choice
+% Description: Either `arg_0` or `arg_1` must be executed, but not both.
+% Fails when: (i) `arg_0`, `arg_1` are never executed; (ii) `arg_0`, `arg_1` are both executed.
+fail(C, TID) :-
+  constraint(C, "Exclusive Choice"), 
+  bind(C, arg_0, X), 
+  bind(C, arg_1, Y), 
+  trace(TID,_,X),
+  trace(TID,_,Y).
+
+fail(C, TID) :-
+  constraint(C, "Exclusive Choice"), 
+  bind(C, arg_0, X), 
+  bind(C, arg_1, Y), 
+  trace(TID, _, _), 
+  not trace(TID, _, X), 
+  not trace(TID, _, Y).
+
+% Template: Responded Existence
+% Description: If `arg_0` is executed, then `arg_1` must be executed as well.
+% Fails when: `arg_0` is executed and `arg_1` is not.
 fail(C,TID) :-
   constraint(C, "Responded Existence"),
   bind(C, arg_0, X), 
@@ -19,43 +56,44 @@ fail(C,TID) :-
   trace(TID,_,X), 
   not trace(TID,_,Y).
 
-% Response
+% Template: Coexistence
+% Description: Either `arg_0` and `arg_1` are both executed, or none of them is executed.
+% Fails when: (i) `arg_0` is executed, `arg_1` is not; (ii) `arg_0` is not executed, `arg_1` is.
+fail(C,TID) :-
+  constraint(C, "Coexistence"),
+  bind(C, arg_0, X), 
+  bind(C, arg_1, Y),
+  trace(TID,_,_),
+  trace(TID,_,X), 
+  not trace(TID,_,Y).
+
+fail(C,TID) :-
+  constraint(C, "Coexistence"),
+  bind(C, arg_0, X), 
+  bind(C, arg_1, Y),
+  trace(TID,_,_),
+  trace(TID,_,Y), 
+  not trace(TID,_,X).
+
+% Template: Response
+% Description: Every time `arg_0` is executed, `arg_1` must be executed afterwards.
+% Fails when: `arg_0` is executed and `arg_1` is not executed afterwards.
+
 witness(C,T,TID) :- 
   constraint(C, "Response"),
   bind(C, arg_0, X), 
   bind(C, arg_1, Y), 
   trace(TID, T, X), trace(TID, T', Y), T' > T.
-
 fail(C,TID) :-
   constraint(C, "Response"),
   bind(C, arg_0, X), 
+  bind(C, arg_1, Y), 
   trace(TID, T, X), 
   not witness(C,T,TID).
- 
-% Alternate Response
-witness(C,T,TID) :-
-  constraint(C, "Alternate Response"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID,T,X),
-  T'' = #min{Q: trace(TID,Q,X), Q > T}, 
-  trace(TID,T',Y), T'' > T', T' > T.
 
-fail(C,TID) :- 
-  constraint(C, "Alternate Response"),
-  bind(C, arg_0, X), 
-  trace(TID,T,X), 
-  not witness(C,T,TID).
-
-% Chain Response
-fail(C,TID) :- 
-  constraint(C, "Chain Response"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID,T,X), 
-  not trace(TID,T+1,Y).
-
-% Precedence
+% Template: Precedence
+% Description: `arg_1` can be executed only if `arg_0` has been executed before
+% Fails when: `arg_1` is executed, but `arg_0` has not been executed beforehand.
 fail(C,TID) :-
   constraint(C, "Precedence"),
   bind(C, arg_0, X), 
@@ -72,8 +110,33 @@ fail(C,TID) :-
   trace(TID,_,Y),
   not trace(TID,_,X).
 
+% Template: Succession
+% Description: `arg_1` must be executed after `arg_0`, and `arg_0` must precede `arg_1`
+% Fails when: (i) Response fails; (ii) Precedence fails.
+constraint(C, "Response") :- constraint(C, "Succession").
+constraint(C, "Precedence") :- constraint(C, "Succession").
 
-% Alternate Precedence
+% Template: Alternate Response
+% Description: Every `arg_0` must be followed by `arg_1`, without any other `arg_0` in between.
+% Fails when: (i) `arg_0` re-occurs before an `arg_1` occurs; (ii) Response fails.
+
+witness(C,T,TID) :-
+  constraint(C, "Alternate Response"),
+  bind(C, arg_0, X), 
+  bind(C, arg_1, Y), 
+  trace(TID,T,X),
+  T'' = #min{Q: trace(TID,Q,X), Q > T}, 
+  trace(TID,T',Y), T'' > T', T' > T.
+
+fail(C,TID) :- 
+  constraint(C, "Alternate Response"),
+  bind(C, arg_0, X), 
+  trace(TID,T,X), 
+  not witness(C,T,TID).
+
+% Template: Alternate Precedence
+% Description: Every `arg_1` must be preceded by `arg_0`, without any other `arg_1` in between.
+
 witness(C, T2, TID) :-
   trace(TID, T2, Y),
   T0 = #max{T: trace(TID, T, Y), T2> T},
@@ -90,38 +153,85 @@ fail(C, TID) :-
   trace(TID, T, Y),
   not witness(C, T, TID).
 
-%                               v
-% (~arg_1 W arg_0) & G(arg_1 -> X(~arg_1 W arg_0))
-% in alternate precedence, le tracce non possono finire con l'activation!?
-fail(C, TID) :-
-  constraint(C, "Alternate Precedence"), 
-  bind(C, arg_1, Y), 
-  trace(TID, T, Y), 
-  not trace(TID, T+1, _).
+% Template: Alternate Succession
+% Description: Combination of alternate response and alternate precedence. 
+% Fails when: (i) Alternate Response fails; (ii) Alternate Precedence fails.
 
-% Chain Precedence
+constraint(C, "Alternate Response") :- constraint(C, "Alternate Succession").
+constraint(C, "Alternate Precedence") :- constraint(C, "Alternate Succession").
+
+% Template: Chain Response
+% Description: If `arg_0` is executed then `arg_1` must be executed next.
+% Fails when: `arg_0` is executed, `arg_1` does not immediately follow.
+
+fail(C,TID) :- 
+  constraint(C, "Chain Response"),
+  bind(C, arg_0, X), 
+  bind(C, arg_1, Y), 
+  trace(TID,T,X), 
+  not trace(TID,T+1,Y).
+
+% Template: Chain Precedence
+% Description: Task `arg_1` can be executed only immediately after `arg_0`
+
 fail(C, TID) :- 
   constraint(C, "Chain Precedence"),
   bind(C, arg_0, X), 
   bind(C, arg_1, Y),
-  trace(TID,T,Y),
-  not trace(TID,T-1,X).
+  trace(TID,T+1,Y),
+  trace(TID,T,_),     % first state is not next of someone!
+  not trace(TID,T,X).
 
-% Co-Existence
+% Chain Succession
+% ChainSuccession(a,b) := ChainResponse(a,b) & ChainPrecedence(a,b)
+% Thus it has the union of failures 
+% Chain Precedence
+
+constraint(C, "Chain Response") :- constraint(C, "Chain Succession").
+constraint(C, "Chain Precedence") :- constraint(C, "Chain Succession").
+
+% Template: Not Coexistence
+% Description: Only one among tasks `arg_0`, `arg_1` can be executed, but not both 
 fail(C,TID) :-
-  constraint(C, "Co Existence"),
+  constraint(C, "Not Coexistence"), 
   bind(C, arg_0, X), 
-  bind(C, arg_1, Y),
-  trace(TID,_,_),
-  trace(TID,_,X), 
-  not trace(TID,_,Y).
+  bind(C, arg_0, Y), 
+  trace(TID,_,X),
+  trace(TID,_,Y).
 
-fail(C,TID) :-
-  constraint(C, "Co Existence"),
+% Template: Neg Succession
+% Description: Task `arg_0` cannot be followed by `arg_1` and task `arg_1` cannot be preceded by `arg_0`
+fail(C, TID) :-
+  constraint(C, "Neg Succession"), 
   bind(C, arg_0, X), 
-  bind(C, arg_1, Y),
-  trace(TID,_,_),
-  trace(TID,_,Y), 
-  not trace(TID,_,X).
+  bind(C, arg_1, Y), 
+  trace(TID, T, X), 
+  trace(TID, T', Y), 
+  T' > T.
 
-sat(method(adhoc),C,TID) :- constraint(C,_), not fail(C, TID), trace(TID,_,_).
+fail(C, TID) :-
+  constraint(C, "Neg Succession"), 
+  bind(C, arg_0, X), 
+  bind(C, arg_1, Y), 
+  trace(TID, T, X), 
+  trace(TID, T', Y), 
+  T < T'.
+
+% Template: Neg Chain Succession
+% Description: Task `arg_0` and `arg_1` cannot be executed next to each other
+fail(C, TID) :-
+  constraint(C, "Neg Chain Succession"), 
+  bind(C, arg_0, X), 
+  bind(C, arg_1, Y), 
+  trace(TID, T, X), 
+  trace(TID, T+1, Y).
+
+fail(C, TID) :-
+  constraint(C, "Neg Chain Succession"), 
+  bind(C, arg_0, X), 
+  bind(C, arg_1, Y), 
+  trace(TID, T, Y), 
+  trace(TID, T+1, X).
+
+-sat(adhoc, C, TID) :- constraint(C,_), trace(TID,_,_), fail(C,TID).
+sat(adhoc, C, TID) :- constraint(C,_), trace(TID,_,_), not fail(C,TID).
