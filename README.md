@@ -99,5 +99,5 @@ Example:
 
 where `a` is the pattern activation, `b` is the pattern target for Response.
  
-The script `testing/pairwise.py` performs pairwise fuzzing between two encodings. The script `testing/all_pairs` repeats it for all possible combinations in `{ad_hoc, ltlf_xnf, ltlf_base, ltlf_dag, automata}`.
+The script `testing/fuzz.py` performs pairwise fuzzing between combinations in `{ad_hoc, ltlf_xnf, ltlf_base, ltlf_dag, automata}`. The flag `-v` enables verbose output, errors are always reported.
 
