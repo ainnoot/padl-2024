@@ -69,6 +69,11 @@ def term_representation_of(node):
 			term_representation_of(node.formulas[1])
 		)
 
+	elif isinstance(node, LTLfWeakNext):
+		return "(weak_next,{})".format(
+			term_representation_of(node.f),
+		)
+
 
 def compile_patterns(filename):
 	parser = LTLfParser()
@@ -83,7 +88,7 @@ def compile_patterns(filename):
 		name, formula = line.split(':')
 		term_encoding = term_representation_of(parser(formula))
 
-		patterns_prg.append('% {} -- {}\ntemplate(\"{}\", {}).\n'.format(name, formula, name, term_encoding))
+		patterns_prg.append('% {} -- {}\nterm_template(\"{}\", {}).\n'.format(name, formula, name, term_encoding))
 
 	return '\n'.join(patterns_prg)
 

@@ -90,7 +90,7 @@ class LTLfTransformer(Transformer):
         if len(args) == 1:
             return args[0]
         if len(args) - 1 != 2:
-            raise Exception("Weak Until operator is not supported by `flloat` grammar. This is an ugly hack. Please fully parenthesize W, e.g. ((a W b) W c). You have used it as: {}".format(args))
+            raise Exception("Weak Until operator is not supported by `ltlf2dfa` grammar. This is an ugly hack. Please fully parenthesize W, e.g. ((a W b) W c). You have used it as: {}".format(args))
         if (len(args) - 1) % 2 == 0:
             subformulas = args[::2]
             lhs, rhs = subformulas
