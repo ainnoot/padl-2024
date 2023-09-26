@@ -18,7 +18,7 @@ if __name__ == '__main__':
     log_folder = sys.argv[1]
     for log in Path(log_folder).glob('xes/*.xes'):
         log_prg = xes2lp(log)
-        with open(Path(log_folder).parent / (log.stem + '.lp'), 'w') as f:
+        with open(Path(log_folder) / (log.stem + '.lp'), 'w') as f:
             f.write(log_prg)
 
     sys.exit(0)
