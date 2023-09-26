@@ -1,16264 +1,15214 @@
-trace(0,"er registration",1).
-trace(0,"leucocytes",2).
-trace(0,"crp",3).
-trace(0,"lacticacid",4).
-trace(0,"er triage",5).
-trace(0,"er sepsis triage",6).
-trace(0,"iv liquid",7).
-trace(0,"iv antibiotics",8).
-trace(0,"admission nc",9).
-trace(0,"crp",10).
-trace(0,"leucocytes",11).
-trace(0,"leucocytes",12).
-trace(0,"crp",13).
-trace(0,"leucocytes",14).
-trace(0,"crp",15).
-trace(0,"crp",16).
-trace(0,"leucocytes",17).
-trace(0,"leucocytes",18).
-trace(0,"crp",19).
-trace(0,"crp",20).
-trace(0,"leucocytes",21).
-trace(0,"release a",22).
-
-trace(1,"er registration",1).
-trace(1,"er triage",2).
-trace(1,"crp",3).
-trace(1,"lacticacid",4).
-trace(1,"leucocytes",5).
-trace(1,"er sepsis triage",6).
-trace(1,"iv liquid",7).
-trace(1,"iv antibiotics",8).
-trace(1,"admission nc",9).
-trace(1,"crp",10).
-trace(1,"crp",11).
-trace(1,"release a",12).
-
-trace(2,"er registration",1).
-trace(2,"er triage",2).
-trace(2,"er sepsis triage",3).
-trace(2,"leucocytes",4).
-trace(2,"crp",5).
-trace(2,"iv liquid",6).
-trace(2,"iv antibiotics",7).
-trace(2,"admission nc",8).
-trace(2,"admission nc",9).
-trace(2,"leucocytes",10).
-trace(2,"crp",11).
-trace(2,"leucocytes",12).
-trace(2,"crp",13).
-trace(2,"release a",14).
-
-trace(3,"er registration",1).
-trace(3,"er triage",2).
-trace(3,"er sepsis triage",3).
-trace(3,"crp",4).
-trace(3,"lacticacid",5).
-trace(3,"leucocytes",6).
-trace(3,"iv liquid",7).
-trace(3,"iv antibiotics",8).
-trace(3,"admission nc",9).
-trace(3,"leucocytes",10).
-trace(3,"crp",11).
-trace(3,"release a",12).
-trace(3,"return er",13).
-
-trace(4,"er registration",1).
-trace(4,"er triage",2).
-trace(4,"er sepsis triage",3).
-trace(4,"iv liquid",4).
-trace(4,"crp",5).
-trace(4,"leucocytes",6).
-trace(4,"lacticacid",7).
-trace(4,"iv antibiotics",8).
-
-trace(5,"er registration",1).
-trace(5,"er triage",2).
-trace(5,"er sepsis triage",3).
-trace(5,"leucocytes",4).
-trace(5,"crp",5).
-trace(5,"lacticacid",6).
-trace(5,"iv antibiotics",7).
-trace(5,"iv liquid",8).
-trace(5,"admission nc",9).
-trace(5,"release a",10).
-
-trace(6,"er registration",1).
-trace(6,"er triage",2).
-trace(6,"er sepsis triage",3).
-trace(6,"iv liquid",4).
-trace(6,"iv antibiotics",5).
-trace(6,"lacticacid",6).
-trace(6,"crp",7).
-trace(6,"leucocytes",8).
-trace(6,"admission nc",9).
-trace(6,"leucocytes",10).
-trace(6,"crp",11).
-trace(6,"release a",12).
-
-trace(7,"er registration",1).
-trace(7,"er triage",2).
-trace(7,"er sepsis triage",3).
-trace(7,"crp",4).
-trace(7,"lacticacid",5).
-trace(7,"leucocytes",6).
-trace(7,"admission ic",7).
-trace(7,"admission nc",8).
-trace(7,"crp",9).
-trace(7,"leucocytes",10).
-trace(7,"crp",11).
-trace(7,"admission nc",12).
-trace(7,"release b",13).
-
-trace(8,"er registration",1).
-trace(8,"er triage",2).
-trace(8,"er sepsis triage",3).
-trace(8,"iv antibiotics",4).
-trace(8,"leucocytes",5).
-trace(8,"crp",6).
-trace(8,"lacticacid",7).
-trace(8,"admission nc",8).
-trace(8,"leucocytes",9).
-trace(8,"crp",10).
-trace(8,"release a",11).
-
-trace(9,"er registration",1).
-trace(9,"er triage",2).
-trace(9,"er sepsis triage",3).
-trace(9,"crp",4).
-trace(9,"leucocytes",5).
-trace(9,"lacticacid",6).
-trace(9,"iv liquid",7).
-trace(9,"iv antibiotics",8).
-trace(9,"admission nc",9).
-trace(9,"crp",10).
-trace(9,"release a",11).
-
-trace(10,"er registration",1).
-trace(10,"er triage",2).
-trace(10,"er sepsis triage",3).
-trace(10,"lacticacid",4).
-trace(10,"crp",5).
-trace(10,"leucocytes",6).
-trace(10,"iv antibiotics",7).
-trace(10,"admission nc",8).
-trace(10,"leucocytes",9).
-trace(10,"crp",10).
-trace(10,"admission nc",11).
-trace(10,"iv liquid",12).
-trace(10,"crp",13).
-trace(10,"leucocytes",14).
-trace(10,"release a",15).
-trace(10,"return er",16).
-
-trace(11,"er registration",1).
-trace(11,"er triage",2).
-trace(11,"er sepsis triage",3).
-trace(11,"leucocytes",4).
-trace(11,"crp",5).
-trace(11,"lacticacid",6).
-trace(11,"iv liquid",7).
-trace(11,"iv antibiotics",8).
-trace(11,"admission nc",9).
-trace(11,"leucocytes",10).
-trace(11,"leucocytes",11).
-trace(11,"leucocytes",12).
-trace(11,"crp",13).
-trace(11,"release a",14).
-trace(11,"return er",15).
-
-trace(12,"er registration",1).
-trace(12,"er triage",2).
-trace(12,"er sepsis triage",3).
-
-trace(13,"er registration",1).
-trace(13,"er triage",2).
-trace(13,"er sepsis triage",3).
-trace(13,"crp",4).
-trace(13,"lacticacid",5).
-trace(13,"leucocytes",6).
-trace(13,"admission nc",7).
-trace(13,"iv liquid",8).
-trace(13,"iv antibiotics",9).
-trace(13,"crp",10).
-trace(13,"leucocytes",11).
-trace(13,"release a",12).
-
-trace(14,"er registration",1).
-trace(14,"er triage",2).
-trace(14,"er sepsis triage",3).
-trace(14,"iv liquid",4).
-trace(14,"crp",5).
-trace(14,"leucocytes",6).
-trace(14,"lacticacid",7).
-trace(14,"iv antibiotics",8).
-trace(14,"admission nc",9).
-trace(14,"release a",10).
-trace(14,"return er",11).
-
-trace(15,"er registration",1).
-trace(15,"er triage",2).
-trace(15,"er sepsis triage",3).
-
-trace(16,"er registration",1).
-trace(16,"er triage",2).
-trace(16,"er sepsis triage",3).
-
-trace(17,"er registration",1).
-trace(17,"er triage",2).
-trace(17,"er sepsis triage",3).
-trace(17,"crp",4).
-trace(17,"leucocytes",5).
-
-trace(18,"er registration",1).
-trace(18,"er triage",2).
-trace(18,"er sepsis triage",3).
-trace(18,"leucocytes",4).
-trace(18,"crp",5).
-trace(18,"lacticacid",6).
-trace(18,"iv liquid",7).
-trace(18,"iv antibiotics",8).
-trace(18,"admission nc",9).
-trace(18,"admission ic",10).
-trace(18,"lacticacid",11).
-trace(18,"leucocytes",12).
-trace(18,"crp",13).
-trace(18,"admission nc",14).
-trace(18,"leucocytes",15).
-trace(18,"crp",16).
-trace(18,"leucocytes",17).
-trace(18,"release a",18).
-trace(18,"return er",19).
-
-trace(19,"er registration",1).
-trace(19,"er triage",2).
-trace(19,"er sepsis triage",3).
-trace(19,"iv liquid",4).
-trace(19,"iv antibiotics",5).
-trace(19,"crp",6).
-trace(19,"lacticacid",7).
-trace(19,"leucocytes",8).
-trace(19,"admission nc",9).
-trace(19,"release b",10).
-
-trace(20,"er registration",1).
-trace(20,"er triage",2).
-trace(20,"er sepsis triage",3).
-trace(20,"leucocytes",4).
-trace(20,"admission nc",5).
-trace(20,"leucocytes",6).
-trace(20,"leucocytes",7).
-trace(20,"leucocytes",8).
-trace(20,"leucocytes",9).
-trace(20,"crp",10).
-trace(20,"release b",11).
-
-trace(21,"er registration",1).
-trace(21,"er triage",2).
-trace(21,"er sepsis triage",3).
-trace(21,"iv liquid",4).
-trace(21,"leucocytes",5).
-trace(21,"lacticacid",6).
-trace(21,"crp",7).
-trace(21,"iv antibiotics",8).
-trace(21,"admission ic",9).
-trace(21,"lacticacid",10).
-trace(21,"crp",11).
-trace(21,"leucocytes",12).
-trace(21,"lacticacid",13).
-trace(21,"lacticacid",14).
-trace(21,"crp",15).
-trace(21,"leucocytes",16).
-trace(21,"admission nc",17).
-trace(21,"leucocytes",18).
-trace(21,"crp",19).
-trace(21,"release a",20).
-trace(21,"return er",21).
-
-trace(22,"er registration",1).
-trace(22,"er triage",2).
-trace(22,"er sepsis triage",3).
-trace(22,"iv liquid",4).
-trace(22,"lacticacid",5).
-trace(22,"leucocytes",6).
-trace(22,"crp",7).
-trace(22,"iv antibiotics",8).
-trace(22,"admission nc",9).
-trace(22,"crp",10).
-trace(22,"release a",11).
-
-trace(23,"er registration",1).
-trace(23,"er triage",2).
-trace(23,"leucocytes",3).
-trace(23,"crp",4).
-trace(23,"lacticacid",5).
-trace(23,"er sepsis triage",6).
-trace(23,"leucocytes",7).
-trace(23,"crp",8).
-trace(23,"lacticacid",9).
-trace(23,"admission nc",10).
-trace(23,"crp",11).
-trace(23,"release a",12).
-trace(23,"return er",13).
-
-trace(24,"er registration",1).
-trace(24,"er triage",2).
-trace(24,"er sepsis triage",3).
-trace(24,"iv antibiotics",4).
-trace(24,"crp",5).
-trace(24,"lacticacid",6).
-trace(24,"leucocytes",7).
-trace(24,"iv liquid",8).
-
-trace(25,"er registration",1).
-trace(25,"er triage",2).
-trace(25,"er sepsis triage",3).
-trace(25,"leucocytes",4).
-trace(25,"lacticacid",5).
-trace(25,"crp",6).
-trace(25,"admission ic",7).
-trace(25,"admission nc",8).
-trace(25,"admission nc",9).
-trace(25,"release a",10).
-
-trace(26,"er registration",1).
-trace(26,"er triage",2).
-trace(26,"er sepsis triage",3).
-trace(26,"leucocytes",4).
-trace(26,"lacticacid",5).
-trace(26,"crp",6).
-trace(26,"iv liquid",7).
-trace(26,"iv antibiotics",8).
-
-trace(27,"er registration",1).
-trace(27,"er triage",2).
-trace(27,"er sepsis triage",3).
-trace(27,"iv liquid",4).
-trace(27,"iv antibiotics",5).
-trace(27,"lacticacid",6).
-trace(27,"crp",7).
-trace(27,"leucocytes",8).
-trace(27,"admission nc",9).
-trace(27,"crp",10).
-trace(27,"leucocytes",11).
-trace(27,"release a",12).
-trace(27,"return er",13).
-
-trace(28,"er registration",1).
-trace(28,"er triage",2).
-trace(28,"er sepsis triage",3).
-trace(28,"iv liquid",4).
-trace(28,"iv antibiotics",5).
-trace(28,"crp",6).
-trace(28,"lacticacid",7).
-trace(28,"leucocytes",8).
-
-trace(29,"er registration",1).
-trace(29,"er triage",2).
-trace(29,"er sepsis triage",3).
-trace(29,"crp",4).
-trace(29,"leucocytes",5).
-trace(29,"lacticacid",6).
-trace(29,"iv antibiotics",7).
-trace(29,"admission nc",8).
-trace(29,"iv liquid",9).
-trace(29,"leucocytes",10).
-trace(29,"crp",11).
-trace(29,"release c",12).
-
-trace(30,"er registration",1).
-trace(30,"er triage",2).
-trace(30,"er sepsis triage",3).
-trace(30,"leucocytes",4).
-trace(30,"crp",5).
-trace(30,"lacticacid",6).
-trace(30,"iv liquid",7).
-trace(30,"iv antibiotics",8).
-trace(30,"admission nc",9).
-trace(30,"admission nc",10).
-trace(30,"leucocytes",11).
-trace(30,"crp",12).
-trace(30,"crp",13).
-trace(30,"release a",14).
-trace(30,"return er",15).
-
-trace(31,"er registration",1).
-trace(31,"er triage",2).
-trace(31,"crp",3).
-trace(31,"lacticacid",4).
-trace(31,"leucocytes",5).
-trace(31,"er sepsis triage",6).
-trace(31,"iv liquid",7).
-trace(31,"iv antibiotics",8).
-
-trace(32,"er registration",1).
-trace(32,"er triage",2).
-trace(32,"er sepsis triage",3).
-trace(32,"iv liquid",4).
-trace(32,"iv antibiotics",5).
-trace(32,"crp",6).
-trace(32,"leucocytes",7).
-trace(32,"lacticacid",8).
-trace(32,"admission nc",9).
-trace(32,"crp",10).
-trace(32,"leucocytes",11).
-trace(32,"release a",12).
-
-trace(33,"er registration",1).
-trace(33,"er triage",2).
-trace(33,"leucocytes",3).
-trace(33,"crp",4).
-trace(33,"lacticacid",5).
-trace(33,"er sepsis triage",6).
-trace(33,"admission nc",7).
-trace(33,"admission nc",8).
-trace(33,"leucocytes",9).
-trace(33,"crp",10).
-trace(33,"release a",11).
-
-trace(34,"iv liquid",1).
-trace(34,"er registration",2).
-trace(34,"er triage",3).
-trace(34,"er sepsis triage",4).
-trace(34,"lacticacid",5).
-trace(34,"crp",6).
-trace(34,"leucocytes",7).
-trace(34,"iv antibiotics",8).
-
-trace(35,"er registration",1).
-trace(35,"er sepsis triage",2).
-trace(35,"iv antibiotics",3).
-trace(35,"er triage",4).
-trace(35,"leucocytes",5).
-trace(35,"lacticacid",6).
-trace(35,"crp",7).
-trace(35,"admission nc",8).
-trace(35,"admission nc",9).
-trace(35,"crp",10).
-trace(35,"lacticacid",11).
-trace(35,"leucocytes",12).
-trace(35,"release a",13).
-trace(35,"return er",14).
-
-trace(36,"er registration",1).
-trace(36,"er triage",2).
-trace(36,"er sepsis triage",3).
-trace(36,"iv liquid",4).
-trace(36,"iv antibiotics",5).
-trace(36,"crp",6).
-trace(36,"lacticacid",7).
-trace(36,"leucocytes",8).
-trace(36,"admission nc",9).
-trace(36,"leucocytes",10).
-trace(36,"crp",11).
-trace(36,"leucocytes",12).
-trace(36,"crp",13).
-trace(36,"crp",14).
-trace(36,"leucocytes",15).
-trace(36,"release a",16).
-
-trace(37,"er registration",1).
-trace(37,"er triage",2).
-trace(37,"er sepsis triage",3).
-trace(37,"leucocytes",4).
-trace(37,"crp",5).
-
-trace(38,"er registration",1).
-trace(38,"er triage",2).
-trace(38,"er sepsis triage",3).
-trace(38,"lacticacid",4).
-trace(38,"leucocytes",5).
-trace(38,"crp",6).
-trace(38,"iv liquid",7).
-trace(38,"iv antibiotics",8).
-trace(38,"admission nc",9).
-trace(38,"leucocytes",10).
-trace(38,"crp",11).
-trace(38,"crp",12).
-trace(38,"leucocytes",13).
-trace(38,"release a",14).
-
-trace(39,"er registration",1).
-trace(39,"er triage",2).
-trace(39,"er sepsis triage",3).
-trace(39,"iv antibiotics",4).
-trace(39,"iv liquid",5).
-trace(39,"leucocytes",6).
-trace(39,"crp",7).
-trace(39,"lacticacid",8).
-trace(39,"admission nc",9).
-trace(39,"admission nc",10).
-trace(39,"leucocytes",11).
-trace(39,"crp",12).
-trace(39,"crp",13).
-trace(39,"leucocytes",14).
-trace(39,"leucocytes",15).
-trace(39,"leucocytes",16).
-trace(39,"leucocytes",17).
-trace(39,"leucocytes",18).
-trace(39,"crp",19).
-trace(39,"lacticacid",20).
-trace(39,"leucocytes",21).
-trace(39,"crp",22).
-trace(39,"leucocytes",23).
-trace(39,"release c",24).
-
-trace(40,"er registration",1).
-trace(40,"er triage",2).
-trace(40,"er sepsis triage",3).
-trace(40,"iv liquid",4).
-trace(40,"iv antibiotics",5).
-trace(40,"lacticacid",6).
-trace(40,"crp",7).
-trace(40,"leucocytes",8).
-trace(40,"leucocytes",9).
-trace(40,"crp",10).
-trace(40,"lacticacid",11).
-
-trace(41,"er registration",1).
-trace(41,"er triage",2).
-trace(41,"er sepsis triage",3).
-trace(41,"leucocytes",4).
-trace(41,"crp",5).
-trace(41,"lacticacid",6).
-
-trace(42,"er registration",1).
-trace(42,"er triage",2).
-trace(42,"er sepsis triage",3).
-trace(42,"iv liquid",4).
-trace(42,"leucocytes",5).
-trace(42,"lacticacid",6).
-trace(42,"crp",7).
-trace(42,"iv antibiotics",8).
-trace(42,"admission nc",9).
-trace(42,"crp",10).
-trace(42,"leucocytes",11).
-trace(42,"crp",12).
-trace(42,"leucocytes",13).
-trace(42,"release d",14).
-
-trace(43,"er registration",1).
-trace(43,"er triage",2).
-trace(43,"er sepsis triage",3).
-
-trace(44,"er registration",1).
-trace(44,"er triage",2).
-trace(44,"er sepsis triage",3).
-trace(44,"iv liquid",4).
-trace(44,"crp",5).
-trace(44,"lacticacid",6).
-trace(44,"leucocytes",7).
-trace(44,"iv antibiotics",8).
-trace(44,"admission nc",9).
-trace(44,"crp",10).
-trace(44,"leucocytes",11).
-trace(44,"crp",12).
-trace(44,"release a",13).
-trace(44,"return er",14).
-
-trace(45,"er registration",1).
-trace(45,"er triage",2).
-trace(45,"er sepsis triage",3).
-trace(45,"crp",4).
-trace(45,"leucocytes",5).
-trace(45,"admission nc",6).
-trace(45,"crp",7).
-trace(45,"leucocytes",8).
-trace(45,"crp",9).
-trace(45,"release a",10).
-
-trace(46,"er registration",1).
-trace(46,"er triage",2).
-trace(46,"er sepsis triage",3).
-trace(46,"lacticacid",4).
-trace(46,"leucocytes",5).
-trace(46,"crp",6).
-trace(46,"iv liquid",7).
-trace(46,"iv antibiotics",8).
-trace(46,"admission nc",9).
-trace(46,"lacticacid",10).
-trace(46,"release a",11).
-
-trace(47,"er registration",1).
-trace(47,"er triage",2).
-trace(47,"er sepsis triage",3).
-trace(47,"crp",4).
-trace(47,"lacticacid",5).
-trace(47,"leucocytes",6).
-trace(47,"iv liquid",7).
-trace(47,"iv antibiotics",8).
-trace(47,"admission nc",9).
-trace(47,"crp",10).
-trace(47,"leucocytes",11).
-trace(47,"admission nc",12).
-trace(47,"release a",13).
-
-trace(48,"er registration",1).
-trace(48,"er triage",2).
-trace(48,"er sepsis triage",3).
-trace(48,"crp",4).
-trace(48,"admission nc",5).
-trace(48,"admission nc",6).
-trace(48,"release a",7).
-trace(48,"return er",8).
-
-trace(49,"er registration",1).
-trace(49,"er triage",2).
-trace(49,"er sepsis triage",3).
-
-trace(50,"er registration",1).
-trace(50,"er triage",2).
-trace(50,"er sepsis triage",3).
-trace(50,"leucocytes",4).
-trace(50,"crp",5).
-trace(50,"lacticacid",6).
-
-trace(51,"er registration",1).
-trace(51,"er triage",2).
-trace(51,"er sepsis triage",3).
-trace(51,"crp",4).
-trace(51,"lacticacid",5).
-trace(51,"leucocytes",6).
-trace(51,"iv liquid",7).
-trace(51,"iv antibiotics",8).
-
-trace(52,"er registration",1).
-trace(52,"er triage",2).
-trace(52,"er sepsis triage",3).
-trace(52,"crp",4).
-trace(52,"lacticacid",5).
-trace(52,"leucocytes",6).
-trace(52,"iv liquid",7).
-trace(52,"iv antibiotics",8).
-
-trace(53,"er registration",1).
-trace(53,"er triage",2).
-trace(53,"er sepsis triage",3).
-trace(53,"crp",4).
-trace(53,"lacticacid",5).
-trace(53,"leucocytes",6).
-
-trace(54,"er registration",1).
-trace(54,"er triage",2).
-trace(54,"er sepsis triage",3).
-trace(54,"crp",4).
-trace(54,"lacticacid",5).
-trace(54,"leucocytes",6).
-trace(54,"iv liquid",7).
-trace(54,"iv antibiotics",8).
-trace(54,"admission nc",9).
-trace(54,"admission nc",10).
-trace(54,"crp",11).
-trace(54,"leucocytes",12).
-trace(54,"crp",13).
-trace(54,"release a",14).
-
-trace(55,"er registration",1).
-trace(55,"er triage",2).
-trace(55,"er sepsis triage",3).
-trace(55,"crp",4).
-trace(55,"lacticacid",5).
-trace(55,"leucocytes",6).
-trace(55,"iv liquid",7).
-trace(55,"iv antibiotics",8).
-trace(55,"admission nc",9).
-trace(55,"leucocytes",10).
-trace(55,"crp",11).
-trace(55,"release a",12).
-
-trace(56,"er registration",1).
-trace(56,"er triage",2).
-trace(56,"er sepsis triage",3).
-trace(56,"leucocytes",4).
-trace(56,"crp",5).
-trace(56,"lacticacid",6).
-trace(56,"iv liquid",7).
-trace(56,"iv antibiotics",8).
-
-trace(57,"er registration",1).
-trace(57,"er triage",2).
-trace(57,"er sepsis triage",3).
-trace(57,"iv liquid",4).
-trace(57,"iv antibiotics",5).
-trace(57,"crp",6).
-trace(57,"leucocytes",7).
-trace(57,"lacticacid",8).
-
-trace(58,"er registration",1).
-trace(58,"leucocytes",2).
-trace(58,"lacticacid",3).
-trace(58,"crp",4).
-trace(58,"er triage",5).
-trace(58,"er sepsis triage",6).
-trace(58,"iv liquid",7).
-trace(58,"iv antibiotics",8).
-trace(58,"admission nc",9).
-trace(58,"leucocytes",10).
-trace(58,"crp",11).
-trace(58,"release a",12).
-trace(58,"return er",13).
-
-trace(59,"er registration",1).
-trace(59,"er triage",2).
-trace(59,"er sepsis triage",3).
-trace(59,"crp",4).
-trace(59,"lacticacid",5).
-trace(59,"leucocytes",6).
-trace(59,"iv liquid",7).
-trace(59,"iv antibiotics",8).
-trace(59,"admission nc",9).
-trace(59,"crp",10).
-trace(59,"leucocytes",11).
-trace(59,"admission nc",12).
-trace(59,"leucocytes",13).
-trace(59,"crp",14).
-trace(59,"release a",15).
-
-trace(60,"er registration",1).
-trace(60,"leucocytes",2).
-trace(60,"crp",3).
-trace(60,"lacticacid",4).
-trace(60,"er triage",5).
-trace(60,"er sepsis triage",6).
-trace(60,"iv liquid",7).
-trace(60,"iv antibiotics",8).
-trace(60,"admission nc",9).
-trace(60,"leucocytes",10).
-trace(60,"admission nc",11).
-trace(60,"crp",12).
-trace(60,"leucocytes",13).
-trace(60,"release a",14).
-
-trace(61,"er registration",1).
-trace(61,"er triage",2).
-trace(61,"er sepsis triage",3).
-trace(61,"crp",4).
-trace(61,"lacticacid",5).
-trace(61,"leucocytes",6).
-trace(61,"iv liquid",7).
-trace(61,"iv antibiotics",8).
-
-trace(62,"er registration",1).
-trace(62,"er triage",2).
-trace(62,"er sepsis triage",3).
-trace(62,"lacticacid",4).
-trace(62,"crp",5).
-trace(62,"leucocytes",6).
-trace(62,"iv antibiotics",7).
-trace(62,"iv liquid",8).
-trace(62,"admission nc",9).
-trace(62,"release a",10).
-trace(62,"return er",11).
-
-trace(63,"er registration",1).
-trace(63,"er triage",2).
-trace(63,"lacticacid",3).
-trace(63,"crp",4).
-trace(63,"leucocytes",5).
-trace(63,"er sepsis triage",6).
-trace(63,"iv liquid",7).
-trace(63,"iv antibiotics",8).
-trace(63,"admission nc",9).
-trace(63,"admission nc",10).
-trace(63,"crp",11).
-trace(63,"leucocytes",12).
-trace(63,"leucocytes",13).
-trace(63,"crp",14).
-trace(63,"crp",15).
-trace(63,"leucocytes",16).
-trace(63,"leucocytes",17).
-trace(63,"crp",18).
-trace(63,"release b",19).
-
-trace(64,"er registration",1).
-trace(64,"er triage",2).
-trace(64,"er sepsis triage",3).
-
-trace(65,"er registration",1).
-trace(65,"er triage",2).
-trace(65,"er sepsis triage",3).
-trace(65,"leucocytes",4).
-trace(65,"lacticacid",5).
-trace(65,"crp",6).
-trace(65,"iv liquid",7).
-trace(65,"iv antibiotics",8).
-trace(65,"admission nc",9).
-trace(65,"crp",10).
-trace(65,"leucocytes",11).
-trace(65,"lacticacid",12).
-trace(65,"admission nc",13).
-trace(65,"crp",14).
-trace(65,"leucocytes",15).
-trace(65,"crp",16).
-trace(65,"crp",17).
-trace(65,"leucocytes",18).
-trace(65,"crp",19).
-trace(65,"leucocytes",20).
-trace(65,"release a",21).
-
-trace(66,"er registration",1).
-trace(66,"er triage",2).
-trace(66,"crp",3).
-trace(66,"lacticacid",4).
-trace(66,"leucocytes",5).
-trace(66,"er sepsis triage",6).
-trace(66,"iv liquid",7).
-trace(66,"iv antibiotics",8).
-trace(66,"admission nc",9).
-trace(66,"crp",10).
-trace(66,"leucocytes",11).
-trace(66,"leucocytes",12).
-trace(66,"crp",13).
-trace(66,"leucocytes",14).
-trace(66,"crp",15).
-trace(66,"release a",16).
-
-trace(67,"er registration",1).
-trace(67,"er triage",2).
-trace(67,"er sepsis triage",3).
-trace(67,"iv liquid",4).
-trace(67,"crp",5).
-trace(67,"lacticacid",6).
-trace(67,"leucocytes",7).
-trace(67,"iv antibiotics",8).
-trace(67,"admission nc",9).
-trace(67,"leucocytes",10).
-trace(67,"crp",11).
-trace(67,"leucocytes",12).
-trace(67,"crp",13).
-trace(67,"leucocytes",14).
-trace(67,"release a",15).
-trace(67,"return er",16).
-
-trace(68,"er registration",1).
-trace(68,"er triage",2).
-trace(68,"er sepsis triage",3).
-trace(68,"iv liquid",4).
-trace(68,"crp",5).
-trace(68,"lacticacid",6).
-trace(68,"leucocytes",7).
-trace(68,"iv antibiotics",8).
-trace(68,"admission nc",9).
-trace(68,"crp",10).
-trace(68,"leucocytes",11).
-trace(68,"leucocytes",12).
-trace(68,"crp",13).
-trace(68,"leucocytes",14).
-trace(68,"release a",15).
-trace(68,"return er",16).
-
-trace(69,"er registration",1).
-trace(69,"er triage",2).
-trace(69,"er sepsis triage",3).
-trace(69,"leucocytes",4).
-trace(69,"crp",5).
-trace(69,"admission nc",6).
-trace(69,"release a",7).
-
-trace(70,"er registration",1).
-trace(70,"er triage",2).
-trace(70,"er sepsis triage",3).
-trace(70,"iv liquid",4).
-trace(70,"iv antibiotics",5).
-trace(70,"leucocytes",6).
-trace(70,"crp",7).
-trace(70,"lacticacid",8).
-trace(70,"admission nc",9).
-trace(70,"crp",10).
-trace(70,"admission nc",11).
-trace(70,"crp",12).
-trace(70,"release a",13).
-trace(70,"return er",14).
-
-trace(71,"er registration",1).
-trace(71,"er triage",2).
-trace(71,"er sepsis triage",3).
-trace(71,"leucocytes",4).
-trace(71,"lacticacid",5).
-trace(71,"crp",6).
-trace(71,"admission nc",7).
-trace(71,"release a",8).
-trace(71,"return er",9).
-
-trace(72,"er registration",1).
-trace(72,"er triage",2).
-trace(72,"er sepsis triage",3).
-trace(72,"iv liquid",4).
-trace(72,"crp",5).
-trace(72,"lacticacid",6).
-trace(72,"leucocytes",7).
-trace(72,"iv antibiotics",8).
-trace(72,"admission nc",9).
-
-trace(73,"er registration",1).
-trace(73,"er triage",2).
-trace(73,"er sepsis triage",3).
-trace(73,"leucocytes",4).
-trace(73,"crp",5).
-trace(73,"lacticacid",6).
-trace(73,"iv antibiotics",7).
-trace(73,"admission nc",8).
-trace(73,"admission nc",9).
-trace(73,"crp",10).
-trace(73,"leucocytes",11).
-trace(73,"release a",12).
-trace(73,"return er",13).
-
-trace(74,"er registration",1).
-trace(74,"er triage",2).
-trace(74,"er sepsis triage",3).
-trace(74,"crp",4).
-trace(74,"leucocytes",5).
-
-trace(75,"er registration",1).
-trace(75,"er triage",2).
-trace(75,"er sepsis triage",3).
-trace(75,"leucocytes",4).
-trace(75,"lacticacid",5).
-trace(75,"crp",6).
-trace(75,"iv liquid",7).
-trace(75,"iv antibiotics",8).
-trace(75,"admission nc",9).
-trace(75,"lacticacid",10).
-trace(75,"release b",11).
-
-trace(76,"er registration",1).
-trace(76,"er triage",2).
-trace(76,"er sepsis triage",3).
-trace(76,"crp",4).
-trace(76,"lacticacid",5).
-trace(76,"leucocytes",6).
-trace(76,"iv antibiotics",7).
-trace(76,"iv liquid",8).
-trace(76,"admission nc",9).
-trace(76,"admission nc",10).
-trace(76,"crp",11).
-trace(76,"leucocytes",12).
-trace(76,"leucocytes",13).
-trace(76,"crp",14).
-trace(76,"release a",15).
-
-trace(77,"er registration",1).
-trace(77,"er triage",2).
-trace(77,"er sepsis triage",3).
-trace(77,"leucocytes",4).
-trace(77,"lacticacid",5).
-trace(77,"crp",6).
-trace(77,"iv antibiotics",7).
-trace(77,"admission nc",8).
-trace(77,"iv liquid",9).
-trace(77,"leucocytes",10).
-trace(77,"crp",11).
-trace(77,"leucocytes",12).
-trace(77,"crp",13).
-trace(77,"leucocytes",14).
-trace(77,"release a",15).
-trace(77,"return er",16).
-
-trace(78,"er registration",1).
-trace(78,"er triage",2).
-trace(78,"er sepsis triage",3).
-trace(78,"leucocytes",4).
-trace(78,"lacticacid",5).
-trace(78,"crp",6).
-trace(78,"iv liquid",7).
-trace(78,"iv antibiotics",8).
-trace(78,"admission nc",9).
-trace(78,"crp",10).
-trace(78,"leucocytes",11).
-trace(78,"release a",12).
-trace(78,"return er",13).
-
-trace(79,"er registration",1).
-trace(79,"er triage",2).
-trace(79,"er sepsis triage",3).
-trace(79,"leucocytes",4).
-trace(79,"crp",5).
-
-trace(80,"er registration",1).
-trace(80,"er triage",2).
-trace(80,"er sepsis triage",3).
-trace(80,"iv liquid",4).
-trace(80,"iv antibiotics",5).
-trace(80,"crp",6).
-trace(80,"leucocytes",7).
-trace(80,"lacticacid",8).
-trace(80,"admission nc",9).
-trace(80,"admission nc",10).
-trace(80,"crp",11).
-trace(80,"leucocytes",12).
-trace(80,"release d",13).
-trace(80,"return er",14).
-
-trace(81,"er registration",1).
-trace(81,"er triage",2).
-trace(81,"er sepsis triage",3).
-trace(81,"lacticacid",4).
-trace(81,"leucocytes",5).
-trace(81,"crp",6).
-trace(81,"iv liquid",7).
-trace(81,"iv antibiotics",8).
-trace(81,"admission nc",9).
-trace(81,"crp",10).
-trace(81,"release a",11).
-trace(81,"return er",12).
-
-trace(82,"er registration",1).
-trace(82,"er triage",2).
-trace(82,"er sepsis triage",3).
-trace(82,"lacticacid",4).
-trace(82,"leucocytes",5).
-trace(82,"crp",6).
-trace(82,"iv liquid",7).
-trace(82,"iv antibiotics",8).
-trace(82,"admission nc",9).
-trace(82,"crp",10).
-trace(82,"leucocytes",11).
-trace(82,"leucocytes",12).
-trace(82,"crp",13).
-trace(82,"leucocytes",14).
-trace(82,"crp",15).
-trace(82,"leucocytes",16).
-trace(82,"release a",17).
-
-trace(83,"er registration",1).
-trace(83,"er triage",2).
-trace(83,"er sepsis triage",3).
-trace(83,"leucocytes",4).
-trace(83,"crp",5).
-trace(83,"admission nc",6).
-trace(83,"release a",7).
-
-trace(84,"er registration",1).
-trace(84,"er triage",2).
-trace(84,"er sepsis triage",3).
-trace(84,"iv liquid",4).
-trace(84,"iv antibiotics",5).
-trace(84,"leucocytes",6).
-trace(84,"crp",7).
-trace(84,"lacticacid",8).
-trace(84,"admission nc",9).
-trace(84,"crp",10).
-trace(84,"leucocytes",11).
-trace(84,"release a",12).
-
-trace(85,"er registration",1).
-trace(85,"er triage",2).
-trace(85,"er sepsis triage",3).
-trace(85,"leucocytes",4).
-trace(85,"crp",5).
-
-trace(86,"er triage",1).
-trace(86,"er registration",2).
-trace(86,"er sepsis triage",3).
-trace(86,"iv liquid",4).
-trace(86,"iv antibiotics",5).
-trace(86,"leucocytes",6).
-trace(86,"crp",7).
-trace(86,"lacticacid",8).
-trace(86,"admission nc",9).
-trace(86,"leucocytes",10).
-trace(86,"release a",11).
-trace(86,"return er",12).
-
-trace(87,"er registration",1).
-trace(87,"er triage",2).
-trace(87,"er sepsis triage",3).
-trace(87,"iv liquid",4).
-trace(87,"iv antibiotics",5).
-trace(87,"leucocytes",6).
-trace(87,"crp",7).
-trace(87,"lacticacid",8).
-trace(87,"admission nc",9).
-trace(87,"crp",10).
-trace(87,"leucocytes",11).
-trace(87,"crp",12).
-trace(87,"leucocytes",13).
-trace(87,"release a",14).
-trace(87,"return er",15).
-
-trace(88,"er registration",1).
-trace(88,"er triage",2).
-trace(88,"er sepsis triage",3).
-trace(88,"leucocytes",4).
-trace(88,"lacticacid",5).
-trace(88,"crp",6).
-trace(88,"iv liquid",7).
-trace(88,"iv antibiotics",8).
-trace(88,"admission nc",9).
-trace(88,"crp",10).
-trace(88,"leucocytes",11).
-trace(88,"crp",12).
-trace(88,"release a",13).
-
-trace(89,"er registration",1).
-trace(89,"er triage",2).
-trace(89,"er sepsis triage",3).
-trace(89,"crp",4).
-trace(89,"lacticacid",5).
-trace(89,"leucocytes",6).
-trace(89,"iv antibiotics",7).
-trace(89,"admission nc",8).
-trace(89,"admission nc",9).
-trace(89,"crp",10).
-trace(89,"crp",11).
-trace(89,"leucocytes",12).
-trace(89,"crp",13).
-trace(89,"crp",14).
-trace(89,"leucocytes",15).
-trace(89,"crp",16).
-trace(89,"leucocytes",17).
-trace(89,"crp",18).
-trace(89,"leucocytes",19).
-trace(89,"release a",20).
-trace(89,"return er",21).
-
-trace(90,"er registration",1).
-trace(90,"er triage",2).
-trace(90,"er sepsis triage",3).
-trace(90,"iv liquid",4).
-trace(90,"leucocytes",5).
-trace(90,"crp",6).
-trace(90,"lacticacid",7).
-trace(90,"iv antibiotics",8).
-trace(90,"admission nc",9).
-trace(90,"leucocytes",10).
-trace(90,"crp",11).
-trace(90,"leucocytes",12).
-trace(90,"release a",13).
-trace(90,"return er",14).
-
-trace(91,"er registration",1).
-trace(91,"er triage",2).
-trace(91,"er sepsis triage",3).
-trace(91,"leucocytes",4).
-trace(91,"crp",5).
-trace(91,"iv antibiotics",6).
-trace(91,"iv liquid",7).
-
-trace(92,"er registration",1).
-trace(92,"er triage",2).
-trace(92,"er sepsis triage",3).
-trace(92,"iv liquid",4).
-trace(92,"iv antibiotics",5).
-trace(92,"leucocytes",6).
-trace(92,"crp",7).
-trace(92,"crp",8).
-trace(92,"leucocytes",9).
-trace(92,"lacticacid",10).
-trace(92,"admission ic",11).
-trace(92,"crp",12).
-trace(92,"lacticacid",13).
-trace(92,"leucocytes",14).
-trace(92,"leucocytes",15).
-trace(92,"crp",16).
-trace(92,"lacticacid",17).
-trace(92,"admission nc",18).
-trace(92,"leucocytes",19).
-trace(92,"crp",20).
-trace(92,"release a",21).
-trace(92,"return er",22).
-
-trace(93,"er registration",1).
-trace(93,"er triage",2).
-trace(93,"er sepsis triage",3).
-trace(93,"leucocytes",4).
-trace(93,"crp",5).
-
-trace(94,"er registration",1).
-trace(94,"er triage",2).
-trace(94,"er sepsis triage",3).
-trace(94,"leucocytes",4).
-trace(94,"crp",5).
-trace(94,"lacticacid",6).
-trace(94,"iv liquid",7).
-trace(94,"iv antibiotics",8).
-trace(94,"admission nc",9).
-trace(94,"crp",10).
-trace(94,"leucocytes",11).
-trace(94,"crp",12).
-trace(94,"leucocytes",13).
-trace(94,"crp",14).
-trace(94,"release a",15).
-
-trace(95,"er registration",1).
-trace(95,"er triage",2).
-trace(95,"er sepsis triage",3).
-trace(95,"crp",4).
-trace(95,"leucocytes",5).
-trace(95,"iv liquid",6).
-trace(95,"iv antibiotics",7).
-trace(95,"admission nc",8).
-trace(95,"admission nc",9).
-trace(95,"crp",10).
-trace(95,"crp",11).
-trace(95,"release a",12).
-trace(95,"return er",13).
-
-trace(96,"er registration",1).
-trace(96,"er triage",2).
-trace(96,"er sepsis triage",3).
-trace(96,"crp",4).
-trace(96,"lacticacid",5).
-trace(96,"leucocytes",6).
-trace(96,"iv antibiotics",7).
-trace(96,"iv liquid",8).
-trace(96,"lacticacid",9).
-
-trace(97,"er registration",1).
-trace(97,"iv liquid",2).
-trace(97,"er triage",3).
-trace(97,"er sepsis triage",4).
-trace(97,"iv antibiotics",5).
-trace(97,"crp",6).
-trace(97,"lacticacid",7).
-trace(97,"leucocytes",8).
-trace(97,"admission ic",9).
-trace(97,"crp",10).
-trace(97,"lacticacid",11).
-trace(97,"leucocytes",12).
-trace(97,"crp",13).
-trace(97,"leucocytes",14).
-trace(97,"lacticacid",15).
-trace(97,"lacticacid",16).
-trace(97,"crp",17).
-trace(97,"leucocytes",18).
-trace(97,"leucocytes",19).
-trace(97,"crp",20).
-trace(97,"lacticacid",21).
-trace(97,"admission nc",22).
-trace(97,"release a",23).
-trace(97,"return er",24).
-
-trace(98,"er registration",1).
-trace(98,"er triage",2).
-trace(98,"er sepsis triage",3).
-trace(98,"iv liquid",4).
-trace(98,"leucocytes",5).
-trace(98,"crp",6).
-trace(98,"iv antibiotics",7).
-trace(98,"admission nc",8).
-trace(98,"admission ic",9).
-trace(98,"lacticacid",10).
-trace(98,"crp",11).
-trace(98,"leucocytes",12).
-trace(98,"leucocytes",13).
-trace(98,"crp",14).
-trace(98,"lacticacid",15).
-trace(98,"lacticacid",16).
-trace(98,"leucocytes",17).
-trace(98,"lacticacid",18).
-trace(98,"crp",19).
-trace(98,"leucocytes",20).
-trace(98,"lacticacid",21).
-trace(98,"lacticacid",22).
-trace(98,"leucocytes",23).
-trace(98,"lacticacid",24).
-trace(98,"crp",25).
-trace(98,"admission nc",26).
-trace(98,"leucocytes",27).
-trace(98,"crp",28).
-trace(98,"leucocytes",29).
-trace(98,"crp",30).
-trace(98,"release a",31).
-trace(98,"return er",32).
-
-trace(99,"er registration",1).
-trace(99,"er triage",2).
-trace(99,"er sepsis triage",3).
-trace(99,"lacticacid",4).
-trace(99,"leucocytes",5).
-trace(99,"crp",6).
-trace(99,"iv antibiotics",7).
-trace(99,"iv liquid",8).
-trace(99,"admission nc",9).
-trace(99,"crp",10).
-trace(99,"leucocytes",11).
-trace(99,"crp",12).
-trace(99,"release a",13).
-
-trace(100,"iv liquid",1).
-trace(100,"er registration",2).
-trace(100,"er triage",3).
-trace(100,"er sepsis triage",4).
-trace(100,"lacticacid",5).
-trace(100,"crp",6).
-trace(100,"leucocytes",7).
-trace(100,"iv antibiotics",8).
-trace(100,"admission nc",9).
-trace(100,"admission nc",10).
-trace(100,"release a",11).
-trace(100,"return er",12).
-
-trace(101,"er registration",1).
-trace(101,"er triage",2).
-trace(101,"er sepsis triage",3).
-trace(101,"iv liquid",4).
-trace(101,"iv antibiotics",5).
-trace(101,"lacticacid",6).
-trace(101,"leucocytes",7).
-trace(101,"crp",8).
-
-trace(102,"crp",1).
-trace(102,"leucocytes",2).
-trace(102,"er registration",3).
-trace(102,"er triage",4).
-trace(102,"leucocytes",5).
-trace(102,"crp",6).
-trace(102,"er sepsis triage",7).
-trace(102,"iv liquid",8).
-trace(102,"iv antibiotics",9).
-
-trace(103,"er registration",1).
-trace(103,"lacticacid",2).
-trace(103,"crp",3).
-trace(103,"leucocytes",4).
-trace(103,"er triage",5).
-trace(103,"er sepsis triage",6).
-trace(103,"lacticacid",7).
-trace(103,"lacticacid",8).
-trace(103,"iv liquid",9).
-trace(103,"iv antibiotics",10).
-
-trace(104,"er registration",1).
-trace(104,"er triage",2).
-trace(104,"er sepsis triage",3).
-trace(104,"lacticacid",4).
-trace(104,"crp",5).
-trace(104,"leucocytes",6).
-trace(104,"iv liquid",7).
-trace(104,"iv antibiotics",8).
-trace(104,"admission nc",9).
-trace(104,"admission ic",10).
-trace(104,"leucocytes",11).
-trace(104,"lacticacid",12).
-trace(104,"crp",13).
-trace(104,"lacticacid",14).
-trace(104,"leucocytes",15).
-trace(104,"crp",16).
-trace(104,"leucocytes",17).
-trace(104,"crp",18).
-trace(104,"lacticacid",19).
-trace(104,"crp",20).
-trace(104,"lacticacid",21).
-trace(104,"leucocytes",22).
-trace(104,"admission nc",23).
-trace(104,"crp",24).
-trace(104,"leucocytes",25).
-trace(104,"leucocytes",26).
-trace(104,"crp",27).
-trace(104,"release a",28).
-trace(104,"return er",29).
-
-trace(105,"er registration",1).
-trace(105,"er triage",2).
-trace(105,"iv liquid",3).
-trace(105,"er sepsis triage",4).
-trace(105,"crp",5).
-trace(105,"lacticacid",6).
-trace(105,"leucocytes",7).
-trace(105,"iv antibiotics",8).
-trace(105,"admission nc",9).
-trace(105,"leucocytes",10).
-trace(105,"crp",11).
-trace(105,"release a",12).
-
-trace(106,"er registration",1).
-trace(106,"er triage",2).
-trace(106,"er sepsis triage",3).
-trace(106,"leucocytes",4).
-trace(106,"lacticacid",5).
-trace(106,"crp",6).
-trace(106,"iv liquid",7).
-trace(106,"iv antibiotics",8).
-
-trace(107,"er registration",1).
-trace(107,"er triage",2).
-trace(107,"er sepsis triage",3).
-trace(107,"leucocytes",4).
-trace(107,"crp",5).
-trace(107,"lacticacid",6).
-trace(107,"admission nc",7).
-trace(107,"release b",8).
-
-trace(108,"er registration",1).
-trace(108,"er triage",2).
-trace(108,"er sepsis triage",3).
-trace(108,"leucocytes",4).
-trace(108,"crp",5).
-trace(108,"lacticacid",6).
-trace(108,"iv liquid",7).
-trace(108,"iv antibiotics",8).
-trace(108,"admission nc",9).
-trace(108,"leucocytes",10).
-trace(108,"admission nc",11).
-trace(108,"leucocytes",12).
-trace(108,"leucocytes",13).
-trace(108,"crp",14).
-trace(108,"crp",15).
-trace(108,"crp",16).
-trace(108,"leucocytes",17).
-trace(108,"leucocytes",18).
-trace(108,"leucocytes",19).
-trace(108,"leucocytes",20).
-trace(108,"leucocytes",21).
-trace(108,"crp",22).
-trace(108,"admission nc",23).
-trace(108,"admission nc",24).
-trace(108,"leucocytes",25).
-trace(108,"leucocytes",26).
-trace(108,"crp",27).
-trace(108,"crp",28).
-trace(108,"leucocytes",29).
-trace(108,"crp",30).
-trace(108,"leucocytes",31).
-trace(108,"release a",32).
-trace(108,"return er",33).
-
-trace(109,"er registration",1).
-trace(109,"er triage",2).
-trace(109,"er sepsis triage",3).
-trace(109,"crp",4).
-trace(109,"leucocytes",5).
-trace(109,"lacticacid",6).
-trace(109,"iv liquid",7).
-trace(109,"iv antibiotics",8).
-trace(109,"crp",9).
-trace(109,"leucocytes",10).
-trace(109,"lacticacid",11).
-
-trace(110,"er registration",1).
-trace(110,"er triage",2).
-trace(110,"er sepsis triage",3).
-trace(110,"leucocytes",4).
-trace(110,"lacticacid",5).
-trace(110,"crp",6).
-trace(110,"iv liquid",7).
-trace(110,"iv antibiotics",8).
-trace(110,"admission nc",9).
-trace(110,"leucocytes",10).
-trace(110,"crp",11).
-trace(110,"leucocytes",12).
-trace(110,"crp",13).
-trace(110,"release c",14).
-
-trace(111,"er registration",1).
-trace(111,"er triage",2).
-trace(111,"leucocytes",3).
-trace(111,"crp",4).
-trace(111,"lacticacid",5).
-trace(111,"er sepsis triage",6).
-trace(111,"iv liquid",7).
-trace(111,"iv antibiotics",8).
-trace(111,"admission ic",9).
-trace(111,"admission ic",10).
-trace(111,"leucocytes",11).
-trace(111,"crp",12).
-trace(111,"lacticacid",13).
-trace(111,"leucocytes",14).
-trace(111,"crp",15).
-trace(111,"lacticacid",16).
-trace(111,"leucocytes",17).
-trace(111,"leucocytes",18).
-trace(111,"crp",19).
-trace(111,"lacticacid",20).
-trace(111,"lacticacid",21).
-trace(111,"crp",22).
-trace(111,"lacticacid",23).
-trace(111,"leucocytes",24).
-trace(111,"lacticacid",25).
-trace(111,"leucocytes",26).
-trace(111,"crp",27).
-trace(111,"leucocytes",28).
-trace(111,"lacticacid",29).
-trace(111,"crp",30).
-trace(111,"admission nc",31).
-trace(111,"release a",32).
-
-trace(112,"er registration",1).
-trace(112,"er triage",2).
-trace(112,"er sepsis triage",3).
-
-trace(113,"er registration",1).
-trace(113,"lacticacid",2).
-trace(113,"leucocytes",3).
-trace(113,"crp",4).
-trace(113,"er triage",5).
-trace(113,"er sepsis triage",6).
-trace(113,"iv liquid",7).
-trace(113,"iv antibiotics",8).
-trace(113,"admission nc",9).
-trace(113,"admission nc",10).
-trace(113,"leucocytes",11).
-trace(113,"crp",12).
-trace(113,"release a",13).
-trace(113,"return er",14).
-
-trace(114,"er sepsis triage",1).
-trace(114,"er registration",2).
-trace(114,"er triage",3).
-trace(114,"leucocytes",4).
-trace(114,"crp",5).
-trace(114,"lacticacid",6).
-trace(114,"iv liquid",7).
-trace(114,"iv antibiotics",8).
-trace(114,"admission ic",9).
-trace(114,"lacticacid",10).
-trace(114,"crp",11).
-trace(114,"crp",12).
-trace(114,"lacticacid",13).
-trace(114,"leucocytes",14).
-trace(114,"admission nc",15).
-trace(114,"release a",16).
-trace(114,"return er",17).
-
-trace(115,"er registration",1).
-trace(115,"er triage",2).
-trace(115,"er sepsis triage",3).
-trace(115,"iv liquid",4).
-trace(115,"crp",5).
-trace(115,"lacticacid",6).
-trace(115,"leucocytes",7).
-trace(115,"iv antibiotics",8).
-trace(115,"admission nc",9).
-trace(115,"leucocytes",10).
-trace(115,"crp",11).
-trace(115,"leucocytes",12).
-trace(115,"crp",13).
-trace(115,"release a",14).
-
-trace(116,"er registration",1).
-trace(116,"er triage",2).
-trace(116,"crp",3).
-trace(116,"lacticacid",4).
-trace(116,"leucocytes",5).
-trace(116,"er sepsis triage",6).
-trace(116,"iv liquid",7).
-trace(116,"iv antibiotics",8).
-trace(116,"admission nc",9).
-trace(116,"leucocytes",10).
-trace(116,"crp",11).
-trace(116,"crp",12).
-trace(116,"leucocytes",13).
-trace(116,"release a",14).
-trace(116,"return er",15).
-
-trace(117,"er registration",1).
-trace(117,"er triage",2).
-trace(117,"er sepsis triage",3).
-trace(117,"crp",4).
-trace(117,"leucocytes",5).
-trace(117,"lacticacid",6).
-trace(117,"iv antibiotics",7).
-trace(117,"admission nc",8).
-trace(117,"admission nc",9).
-trace(117,"iv liquid",10).
-trace(117,"crp",11).
-trace(117,"leucocytes",12).
-trace(117,"leucocytes",13).
-trace(117,"crp",14).
-trace(117,"leucocytes",15).
-trace(117,"release a",16).
-
-trace(118,"er registration",1).
-trace(118,"crp",2).
-trace(118,"leucocytes",3).
-trace(118,"er triage",4).
-trace(118,"er sepsis triage",5).
-trace(118,"iv liquid",6).
-trace(118,"iv antibiotics",7).
-trace(118,"admission ic",8).
-trace(118,"lacticacid",9).
-trace(118,"crp",10).
-trace(118,"leucocytes",11).
-trace(118,"lacticacid",12).
-trace(118,"lacticacid",13).
-trace(118,"leucocytes",14).
-trace(118,"crp",15).
-trace(118,"crp",16).
-trace(118,"leucocytes",17).
-trace(118,"lacticacid",18).
-trace(118,"leucocytes",19).
-trace(118,"crp",20).
-trace(118,"lacticacid",21).
-trace(118,"crp",22).
-trace(118,"lacticacid",23).
-trace(118,"leucocytes",24).
-trace(118,"leucocytes",25).
-trace(118,"crp",26).
-trace(118,"lacticacid",27).
-trace(118,"leucocytes",28).
-trace(118,"lacticacid",29).
-trace(118,"crp",30).
-trace(118,"crp",31).
-trace(118,"lacticacid",32).
-trace(118,"leucocytes",33).
-trace(118,"leucocytes",34).
-trace(118,"crp",35).
-trace(118,"lacticacid",36).
-trace(118,"crp",37).
-trace(118,"leucocytes",38).
-trace(118,"lacticacid",39).
-trace(118,"crp",40).
-trace(118,"leucocytes",41).
-trace(118,"lacticacid",42).
-trace(118,"lacticacid",43).
-trace(118,"leucocytes",44).
-trace(118,"crp",45).
-trace(118,"lacticacid",46).
-trace(118,"crp",47).
-trace(118,"leucocytes",48).
-trace(118,"leucocytes",49).
-trace(118,"crp",50).
-trace(118,"lacticacid",51).
-trace(118,"lacticacid",52).
-trace(118,"leucocytes",53).
-trace(118,"crp",54).
-trace(118,"crp",55).
-trace(118,"leucocytes",56).
-trace(118,"lacticacid",57).
-trace(118,"leucocytes",58).
-trace(118,"crp",59).
-trace(118,"lacticacid",60).
-trace(118,"crp",61).
-trace(118,"lacticacid",62).
-trace(118,"leucocytes",63).
-trace(118,"lacticacid",64).
-trace(118,"crp",65).
-trace(118,"leucocytes",66).
-trace(118,"leucocytes",67).
-trace(118,"crp",68).
-trace(118,"lacticacid",69).
-trace(118,"lacticacid",70).
-trace(118,"crp",71).
-trace(118,"leucocytes",72).
-trace(118,"lacticacid",73).
-trace(118,"leucocytes",74).
-trace(118,"crp",75).
-trace(118,"leucocytes",76).
-trace(118,"crp",77).
-trace(118,"lacticacid",78).
-trace(118,"leucocytes",79).
-trace(118,"lacticacid",80).
-trace(118,"crp",81).
-trace(118,"crp",82).
-trace(118,"leucocytes",83).
-trace(118,"lacticacid",84).
-trace(118,"crp",85).
-trace(118,"lacticacid",86).
-trace(118,"leucocytes",87).
-trace(118,"leucocytes",88).
-trace(118,"crp",89).
-trace(118,"leucocytes",90).
-trace(118,"lacticacid",91).
-trace(118,"leucocytes",92).
-trace(118,"crp",93).
-trace(118,"lacticacid",94).
-trace(118,"leucocytes",95).
-trace(118,"lacticacid",96).
-trace(118,"crp",97).
-trace(118,"lacticacid",98).
-trace(118,"leucocytes",99).
-trace(118,"crp",100).
-trace(118,"crp",101).
-trace(118,"lacticacid",102).
-trace(118,"leucocytes",103).
-trace(118,"leucocytes",104).
-trace(118,"crp",105).
-trace(118,"lacticacid",106).
-trace(118,"lacticacid",107).
-trace(118,"lacticacid",108).
-trace(118,"crp",109).
-trace(118,"leucocytes",110).
-trace(118,"leucocytes",111).
-trace(118,"leucocytes",112).
-trace(118,"crp",113).
-trace(118,"lacticacid",114).
-trace(118,"crp",115).
-trace(118,"lacticacid",116).
-trace(118,"leucocytes",117).
-trace(118,"release b",118).
-
-trace(119,"er registration",1).
-trace(119,"leucocytes",2).
-trace(119,"lacticacid",3).
-trace(119,"crp",4).
-trace(119,"er triage",5).
-trace(119,"er sepsis triage",6).
-trace(119,"iv liquid",7).
-trace(119,"iv antibiotics",8).
-trace(119,"leucocytes",9).
-
-trace(120,"er registration",1).
-trace(120,"er triage",2).
-trace(120,"er sepsis triage",3).
-trace(120,"crp",4).
-trace(120,"lacticacid",5).
-trace(120,"leucocytes",6).
-trace(120,"iv antibiotics",7).
-trace(120,"admission nc",8).
-trace(120,"admission nc",9).
-trace(120,"crp",10).
-trace(120,"leucocytes",11).
-trace(120,"release b",12).
-
-trace(121,"er registration",1).
-trace(121,"er triage",2).
-trace(121,"er sepsis triage",3).
-trace(121,"leucocytes",4).
-trace(121,"crp",5).
-trace(121,"iv liquid",6).
-trace(121,"iv antibiotics",7).
-
-trace(122,"er registration",1).
-trace(122,"er triage",2).
-trace(122,"crp",3).
-trace(122,"lacticacid",4).
-trace(122,"leucocytes",5).
-trace(122,"er sepsis triage",6).
-trace(122,"iv antibiotics",7).
-trace(122,"iv liquid",8).
-trace(122,"admission nc",9).
-trace(122,"leucocytes",10).
-trace(122,"crp",11).
-trace(122,"leucocytes",12).
-trace(122,"crp",13).
-trace(122,"release a",14).
-
-trace(123,"er registration",1).
-trace(123,"er triage",2).
-trace(123,"er sepsis triage",3).
-trace(123,"leucocytes",4).
-trace(123,"crp",5).
-trace(123,"iv antibiotics",6).
-trace(123,"admission nc",7).
-trace(123,"lacticacid",8).
-trace(123,"admission nc",9).
-trace(123,"admission nc",10).
-trace(123,"iv liquid",11).
-trace(123,"leucocytes",12).
-trace(123,"crp",13).
-trace(123,"crp",14).
-trace(123,"leucocytes",15).
-trace(123,"release b",16).
-
-trace(124,"er registration",1).
-trace(124,"er triage",2).
-trace(124,"er sepsis triage",3).
-trace(124,"crp",4).
-trace(124,"lacticacid",5).
-trace(124,"leucocytes",6).
-trace(124,"iv liquid",7).
-trace(124,"iv antibiotics",8).
-trace(124,"admission nc",9).
-trace(124,"lacticacid",10).
-trace(124,"leucocytes",11).
-trace(124,"crp",12).
-trace(124,"admission nc",13).
-trace(124,"leucocytes",14).
-trace(124,"crp",15).
-trace(124,"crp",16).
-trace(124,"leucocytes",17).
-trace(124,"leucocytes",18).
-trace(124,"crp",19).
-trace(124,"crp",20).
-trace(124,"leucocytes",21).
-trace(124,"crp",22).
-trace(124,"crp",23).
-trace(124,"crp",24).
-trace(124,"leucocytes",25).
-trace(124,"crp",26).
-trace(124,"leucocytes",27).
-trace(124,"crp",28).
-trace(124,"crp",29).
-trace(124,"release d",30).
-trace(124,"return er",31).
-
-trace(125,"er registration",1).
-trace(125,"leucocytes",2).
-trace(125,"lacticacid",3).
-trace(125,"crp",4).
-trace(125,"er triage",5).
-trace(125,"er sepsis triage",6).
-trace(125,"iv antibiotics",7).
-trace(125,"admission nc",8).
-trace(125,"admission nc",9).
-trace(125,"iv liquid",10).
-trace(125,"release a",11).
-
-trace(126,"er registration",1).
-trace(126,"er triage",2).
-trace(126,"er sepsis triage",3).
-
-trace(127,"er registration",1).
-trace(127,"iv liquid",2).
-trace(127,"er triage",3).
-trace(127,"er sepsis triage",4).
-trace(127,"iv antibiotics",5).
-trace(127,"crp",6).
-trace(127,"lacticacid",7).
-trace(127,"leucocytes",8).
-trace(127,"admission nc",9).
-trace(127,"release a",10).
-
-trace(128,"er registration",1).
-trace(128,"er triage",2).
-trace(128,"er sepsis triage",3).
-trace(128,"lacticacid",4).
-trace(128,"leucocytes",5).
-trace(128,"crp",6).
-trace(128,"iv liquid",7).
-trace(128,"iv antibiotics",8).
-
-trace(129,"er registration",1).
-trace(129,"er triage",2).
-trace(129,"er sepsis triage",3).
-trace(129,"crp",4).
-trace(129,"leucocytes",5).
-trace(129,"admission nc",6).
-trace(129,"release a",7).
-
-trace(130,"er registration",1).
-trace(130,"er triage",2).
-trace(130,"er sepsis triage",3).
-trace(130,"leucocytes",4).
-trace(130,"crp",5).
-trace(130,"lacticacid",6).
-trace(130,"iv liquid",7).
-trace(130,"iv antibiotics",8).
-trace(130,"admission nc",9).
-trace(130,"leucocytes",10).
-trace(130,"crp",11).
-trace(130,"admission ic",12).
-trace(130,"leucocytes",13).
-trace(130,"lacticacid",14).
-trace(130,"crp",15).
-trace(130,"admission nc",16).
-trace(130,"release a",17).
-trace(130,"return er",18).
-
-trace(131,"er registration",1).
-trace(131,"er triage",2).
-trace(131,"er sepsis triage",3).
-trace(131,"leucocytes",4).
-trace(131,"crp",5).
-trace(131,"lacticacid",6).
-trace(131,"iv antibiotics",7).
-trace(131,"iv liquid",8).
-trace(131,"admission nc",9).
-trace(131,"leucocytes",10).
-trace(131,"admission nc",11).
-trace(131,"crp",12).
-trace(131,"leucocytes",13).
-trace(131,"release a",14).
-trace(131,"return er",15).
-
-trace(132,"er registration",1).
-trace(132,"er triage",2).
-trace(132,"er sepsis triage",3).
-trace(132,"leucocytes",4).
-trace(132,"lacticacid",5).
-trace(132,"crp",6).
-trace(132,"iv liquid",7).
-trace(132,"iv antibiotics",8).
-trace(132,"admission nc",9).
-trace(132,"admission nc",10).
-trace(132,"release a",11).
-
-trace(133,"er registration",1).
-trace(133,"er triage",2).
-trace(133,"er sepsis triage",3).
-trace(133,"crp",4).
-trace(133,"leucocytes",5).
-
-trace(134,"er registration",1).
-trace(134,"er triage",2).
-trace(134,"er sepsis triage",3).
-trace(134,"leucocytes",4).
-trace(134,"crp",5).
-trace(134,"admission nc",6).
-trace(134,"release a",7).
-
-trace(135,"er registration",1).
-trace(135,"er triage",2).
-trace(135,"leucocytes",3).
-trace(135,"lacticacid",4).
-trace(135,"crp",5).
-trace(135,"er sepsis triage",6).
-trace(135,"admission nc",7).
-trace(135,"crp",8).
-trace(135,"leucocytes",9).
-trace(135,"crp",10).
-trace(135,"leucocytes",11).
-trace(135,"crp",12).
-trace(135,"leucocytes",13).
-trace(135,"crp",14).
-trace(135,"leucocytes",15).
-trace(135,"release a",16).
-trace(135,"return er",17).
-
-trace(136,"er registration",1).
-trace(136,"er triage",2).
-trace(136,"er sepsis triage",3).
-trace(136,"leucocytes",4).
-trace(136,"lacticacid",5).
-trace(136,"crp",6).
-trace(136,"iv liquid",7).
-trace(136,"iv antibiotics",8).
-trace(136,"admission nc",9).
-trace(136,"admission nc",10).
-trace(136,"leucocytes",11).
-trace(136,"crp",12).
-trace(136,"crp",13).
-trace(136,"leucocytes",14).
-trace(136,"release a",15).
-
-trace(137,"er registration",1).
-trace(137,"er triage",2).
-trace(137,"er sepsis triage",3).
-trace(137,"crp",4).
-trace(137,"lacticacid",5).
-trace(137,"leucocytes",6).
-trace(137,"iv liquid",7).
-trace(137,"iv antibiotics",8).
-trace(137,"admission nc",9).
-trace(137,"leucocytes",10).
-trace(137,"crp",11).
-trace(137,"admission nc",12).
-trace(137,"leucocytes",13).
-trace(137,"crp",14).
-trace(137,"crp",15).
-trace(137,"crp",16).
-trace(137,"release a",17).
-
-trace(138,"er registration",1).
-trace(138,"er triage",2).
-trace(138,"er sepsis triage",3).
-trace(138,"leucocytes",4).
-trace(138,"crp",5).
-trace(138,"admission nc",6).
-trace(138,"release a",7).
-
-trace(139,"er registration",1).
-trace(139,"er triage",2).
-trace(139,"er sepsis triage",3).
-trace(139,"leucocytes",4).
-trace(139,"crp",5).
-trace(139,"lacticacid",6).
-trace(139,"iv antibiotics",7).
-trace(139,"iv liquid",8).
-trace(139,"admission nc",9).
-trace(139,"admission nc",10).
-trace(139,"leucocytes",11).
-trace(139,"crp",12).
-trace(139,"crp",13).
-trace(139,"leucocytes",14).
-trace(139,"release a",15).
-trace(139,"return er",16).
-
-trace(140,"er registration",1).
-trace(140,"er triage",2).
-trace(140,"er sepsis triage",3).
-trace(140,"crp",4).
-trace(140,"lacticacid",5).
-trace(140,"leucocytes",6).
-trace(140,"iv antibiotics",7).
-trace(140,"iv liquid",8).
-trace(140,"admission nc",9).
-trace(140,"leucocytes",10).
-trace(140,"crp",11).
-trace(140,"admission nc",12).
-trace(140,"leucocytes",13).
-trace(140,"crp",14).
-trace(140,"release a",15).
-trace(140,"return er",16).
-
-trace(141,"er registration",1).
-trace(141,"er triage",2).
-trace(141,"er sepsis triage",3).
-trace(141,"crp",4).
-trace(141,"leucocytes",5).
-trace(141,"lacticacid",6).
-trace(141,"iv antibiotics",7).
-trace(141,"iv liquid",8).
-trace(141,"admission nc",9).
-trace(141,"leucocytes",10).
-trace(141,"crp",11).
-trace(141,"release b",12).
-
-trace(142,"er registration",1).
-trace(142,"er triage",2).
-trace(142,"crp",3).
-trace(142,"lacticacid",4).
-trace(142,"leucocytes",5).
-trace(142,"er sepsis triage",6).
-trace(142,"iv liquid",7).
-trace(142,"iv antibiotics",8).
-trace(142,"admission nc",9).
-trace(142,"crp",10).
-trace(142,"leucocytes",11).
-trace(142,"crp",12).
-trace(142,"leucocytes",13).
-trace(142,"release a",14).
-trace(142,"return er",15).
-
-trace(143,"er registration",1).
-trace(143,"er triage",2).
-trace(143,"er sepsis triage",3).
-trace(143,"crp",4).
-trace(143,"leucocytes",5).
-
-trace(144,"er registration",1).
-trace(144,"er triage",2).
-trace(144,"er sepsis triage",3).
-
-trace(145,"er registration",1).
-trace(145,"er triage",2).
-trace(145,"er sepsis triage",3).
-trace(145,"iv liquid",4).
-trace(145,"iv antibiotics",5).
-trace(145,"crp",6).
-trace(145,"leucocytes",7).
-trace(145,"lacticacid",8).
-
-trace(146,"er registration",1).
-trace(146,"er triage",2).
-trace(146,"er sepsis triage",3).
-trace(146,"leucocytes",4).
-trace(146,"lacticacid",5).
-trace(146,"crp",6).
-trace(146,"iv liquid",7).
-trace(146,"iv antibiotics",8).
-trace(146,"admission ic",9).
-trace(146,"crp",10).
-trace(146,"lacticacid",11).
-trace(146,"leucocytes",12).
-trace(146,"admission nc",13).
-trace(146,"crp",14).
-trace(146,"leucocytes",15).
-trace(146,"crp",16).
-trace(146,"leucocytes",17).
-trace(146,"leucocytes",18).
-trace(146,"crp",19).
-trace(146,"release a",20).
-trace(146,"return er",21).
-
-trace(147,"er registration",1).
-trace(147,"er triage",2).
-trace(147,"er sepsis triage",3).
-trace(147,"iv liquid",4).
-trace(147,"crp",5).
-trace(147,"leucocytes",6).
-trace(147,"lacticacid",7).
-trace(147,"iv antibiotics",8).
-
-trace(148,"er registration",1).
-trace(148,"er triage",2).
-trace(148,"er sepsis triage",3).
-trace(148,"iv liquid",4).
-trace(148,"crp",5).
-trace(148,"lacticacid",6).
-trace(148,"leucocytes",7).
-trace(148,"iv antibiotics",8).
-trace(148,"admission nc",9).
-trace(148,"release a",10).
-
-trace(149,"er registration",1).
-trace(149,"er triage",2).
-trace(149,"crp",3).
-trace(149,"leucocytes",4).
-trace(149,"er sepsis triage",5).
-
-trace(150,"er registration",1).
-trace(150,"er triage",2).
-trace(150,"er sepsis triage",3).
-trace(150,"iv liquid",4).
-trace(150,"iv antibiotics",5).
-trace(150,"leucocytes",6).
-trace(150,"crp",7).
-trace(150,"lacticacid",8).
-trace(150,"admission nc",9).
-trace(150,"crp",10).
-trace(150,"leucocytes",11).
-trace(150,"admission nc",12).
-trace(150,"crp",13).
-trace(150,"leucocytes",14).
-trace(150,"leucocytes",15).
-trace(150,"crp",16).
-trace(150,"leucocytes",17).
-trace(150,"crp",18).
-trace(150,"release a",19).
-
-trace(151,"er registration",1).
-trace(151,"er triage",2).
-trace(151,"er sepsis triage",3).
-trace(151,"lacticacid",4).
-trace(151,"crp",5).
-trace(151,"leucocytes",6).
-trace(151,"iv liquid",7).
-trace(151,"iv antibiotics",8).
-trace(151,"admission ic",9).
-trace(151,"leucocytes",10).
-trace(151,"crp",11).
-trace(151,"lacticacid",12).
-trace(151,"lacticacid",13).
-trace(151,"crp",14).
-trace(151,"leucocytes",15).
-trace(151,"crp",16).
-trace(151,"lacticacid",17).
-trace(151,"leucocytes",18).
-trace(151,"release a",19).
-
-trace(152,"er registration",1).
-trace(152,"er triage",2).
-trace(152,"crp",3).
-trace(152,"lacticacid",4).
-trace(152,"leucocytes",5).
-trace(152,"er sepsis triage",6).
-trace(152,"admission ic",7).
-trace(152,"lacticacid",8).
-trace(152,"leucocytes",9).
-trace(152,"crp",10).
-trace(152,"lacticacid",11).
-trace(152,"leucocytes",12).
-trace(152,"crp",13).
-trace(152,"lacticacid",14).
-trace(152,"admission nc",15).
-trace(152,"release a",16).
-trace(152,"return er",17).
-
-trace(153,"er registration",1).
-trace(153,"er triage",2).
-trace(153,"er sepsis triage",3).
-trace(153,"iv liquid",4).
-trace(153,"iv antibiotics",5).
-trace(153,"leucocytes",6).
-trace(153,"lacticacid",7).
-trace(153,"crp",8).
-
-trace(154,"er registration",1).
-trace(154,"er triage",2).
-trace(154,"er sepsis triage",3).
-trace(154,"lacticacid",4).
-trace(154,"leucocytes",5).
-trace(154,"crp",6).
-trace(154,"iv liquid",7).
-trace(154,"iv antibiotics",8).
-trace(154,"admission nc",9).
-trace(154,"admission nc",10).
-trace(154,"leucocytes",11).
-trace(154,"crp",12).
-trace(154,"release a",13).
-
-trace(155,"er registration",1).
-trace(155,"er triage",2).
-trace(155,"er sepsis triage",3).
-trace(155,"leucocytes",4).
-trace(155,"lacticacid",5).
-trace(155,"crp",6).
-trace(155,"iv liquid",7).
-trace(155,"iv antibiotics",8).
-trace(155,"admission nc",9).
-trace(155,"leucocytes",10).
-trace(155,"leucocytes",11).
-trace(155,"crp",12).
-trace(155,"leucocytes",13).
-trace(155,"leucocytes",14).
-trace(155,"crp",15).
-trace(155,"release b",16).
-
-trace(156,"er registration",1).
-trace(156,"crp",2).
-trace(156,"leucocytes",3).
-trace(156,"er triage",4).
-trace(156,"er sepsis triage",5).
-trace(156,"lacticacid",6).
-trace(156,"iv liquid",7).
-trace(156,"iv antibiotics",8).
-trace(156,"admission nc",9).
-trace(156,"crp",10).
-trace(156,"leucocytes",11).
-trace(156,"leucocytes",12).
-trace(156,"crp",13).
-trace(156,"crp",14).
-trace(156,"leucocytes",15).
-trace(156,"release a",16).
-trace(156,"return er",17).
-
-trace(157,"er registration",1).
-trace(157,"er triage",2).
-trace(157,"er sepsis triage",3).
-trace(157,"iv liquid",4).
-trace(157,"leucocytes",5).
-trace(157,"crp",6).
-trace(157,"lacticacid",7).
-trace(157,"iv antibiotics",8).
-trace(157,"admission nc",9).
-trace(157,"leucocytes",10).
-trace(157,"crp",11).
-trace(157,"release a",12).
-trace(157,"return er",13).
-
-trace(158,"er registration",1).
-trace(158,"er triage",2).
-trace(158,"er sepsis triage",3).
-trace(158,"lacticacid",4).
-trace(158,"crp",5).
-trace(158,"leucocytes",6).
-trace(158,"iv antibiotics",7).
-trace(158,"admission nc",8).
-trace(158,"crp",9).
-trace(158,"leucocytes",10).
-trace(158,"crp",11).
-trace(158,"leucocytes",12).
-trace(158,"leucocytes",13).
-trace(158,"crp",14).
-trace(158,"leucocytes",15).
-trace(158,"crp",16).
-trace(158,"crp",17).
-trace(158,"leucocytes",18).
-trace(158,"leucocytes",19).
-trace(158,"crp",20).
-trace(158,"leucocytes",21).
-trace(158,"crp",22).
-trace(158,"crp",23).
-trace(158,"crp",24).
-trace(158,"leucocytes",25).
-trace(158,"release a",26).
-trace(158,"return er",27).
-
-trace(159,"er registration",1).
-trace(159,"er triage",2).
-trace(159,"crp",3).
-trace(159,"leucocytes",4).
-trace(159,"er sepsis triage",5).
-
-trace(160,"er registration",1).
-trace(160,"lacticacid",2).
-trace(160,"crp",3).
-trace(160,"leucocytes",4).
-trace(160,"er triage",5).
-trace(160,"er sepsis triage",6).
-trace(160,"iv antibiotics",7).
-trace(160,"iv liquid",8).
-trace(160,"admission nc",9).
-trace(160,"leucocytes",10).
-trace(160,"crp",11).
-trace(160,"leucocytes",12).
-trace(160,"crp",13).
-trace(160,"release a",14).
-
-trace(161,"er registration",1).
-trace(161,"er triage",2).
-trace(161,"er sepsis triage",3).
-trace(161,"crp",4).
-trace(161,"leucocytes",5).
-trace(161,"lacticacid",6).
-trace(161,"iv liquid",7).
-trace(161,"iv antibiotics",8).
-
-trace(162,"er registration",1).
-trace(162,"er triage",2).
-trace(162,"er sepsis triage",3).
-trace(162,"leucocytes",4).
-trace(162,"crp",5).
-trace(162,"lacticacid",6).
-trace(162,"iv liquid",7).
-trace(162,"iv antibiotics",8).
-trace(162,"admission ic",9).
-trace(162,"leucocytes",10).
-trace(162,"crp",11).
-trace(162,"lacticacid",12).
-trace(162,"crp",13).
-trace(162,"lacticacid",14).
-trace(162,"leucocytes",15).
-trace(162,"lacticacid",16).
-trace(162,"leucocytes",17).
-trace(162,"crp",18).
-trace(162,"leucocytes",19).
-trace(162,"crp",20).
-trace(162,"lacticacid",21).
-trace(162,"leucocytes",22).
-trace(162,"crp",23).
-trace(162,"lacticacid",24).
-trace(162,"leucocytes",25).
-trace(162,"lacticacid",26).
-trace(162,"crp",27).
-trace(162,"leucocytes",28).
-trace(162,"lacticacid",29).
-trace(162,"leucocytes",30).
-trace(162,"crp",31).
-trace(162,"leucocytes",32).
-trace(162,"crp",33).
-trace(162,"lacticacid",34).
-trace(162,"admission nc",35).
-trace(162,"leucocytes",36).
-trace(162,"crp",37).
-trace(162,"crp",38).
-trace(162,"leucocytes",39).
-trace(162,"crp",40).
-trace(162,"leucocytes",41).
-trace(162,"leucocytes",42).
-trace(162,"leucocytes",43).
-trace(162,"leucocytes",44).
-trace(162,"crp",45).
-trace(162,"crp",46).
-trace(162,"leucocytes",47).
-trace(162,"crp",48).
-trace(162,"leucocytes",49).
-trace(162,"leucocytes",50).
-trace(162,"crp",51).
-trace(162,"crp",52).
-trace(162,"leucocytes",53).
-trace(162,"crp",54).
-trace(162,"leucocytes",55).
-trace(162,"leucocytes",56).
-trace(162,"crp",57).
-trace(162,"release a",58).
-trace(162,"return er",59).
-
-trace(163,"er registration",1).
-trace(163,"er triage",2).
-trace(163,"er sepsis triage",3).
-trace(163,"iv liquid",4).
-trace(163,"leucocytes",5).
-trace(163,"crp",6).
-trace(163,"lacticacid",7).
-trace(163,"iv antibiotics",8).
-trace(163,"admission nc",9).
-trace(163,"admission nc",10).
-trace(163,"leucocytes",11).
-trace(163,"crp",12).
-trace(163,"release a",13).
-
-trace(164,"leucocytes",1).
-trace(164,"crp",2).
-trace(164,"er registration",3).
-trace(164,"er triage",4).
-trace(164,"er sepsis triage",5).
-trace(164,"iv liquid",6).
-trace(164,"lacticacid",7).
-trace(164,"crp",8).
-trace(164,"leucocytes",9).
-trace(164,"iv antibiotics",10).
-trace(164,"admission nc",11).
-trace(164,"crp",12).
-trace(164,"crp",13).
-trace(164,"leucocytes",14).
-trace(164,"crp",15).
-trace(164,"leucocytes",16).
-trace(164,"release a",17).
-
-trace(165,"er registration",1).
-trace(165,"er triage",2).
-trace(165,"er sepsis triage",3).
-trace(165,"iv liquid",4).
-trace(165,"leucocytes",5).
-trace(165,"crp",6).
-trace(165,"lacticacid",7).
-trace(165,"iv antibiotics",8).
-
-trace(166,"er registration",1).
-trace(166,"er triage",2).
-trace(166,"er sepsis triage",3).
-trace(166,"crp",4).
-trace(166,"leucocytes",5).
-trace(166,"lacticacid",6).
-trace(166,"iv liquid",7).
-trace(166,"iv antibiotics",8).
-trace(166,"admission nc",9).
-trace(166,"crp",10).
-trace(166,"leucocytes",11).
-trace(166,"admission nc",12).
-trace(166,"crp",13).
-trace(166,"leucocytes",14).
-trace(166,"release a",15).
-
-trace(167,"er registration",1).
-trace(167,"er triage",2).
-trace(167,"er sepsis triage",3).
-trace(167,"leucocytes",4).
-trace(167,"crp",5).
-
-trace(168,"er registration",1).
-trace(168,"er triage",2).
-trace(168,"er sepsis triage",3).
-
-trace(169,"er registration",1).
-trace(169,"er triage",2).
-trace(169,"er sepsis triage",3).
-trace(169,"leucocytes",4).
-trace(169,"crp",5).
-trace(169,"iv liquid",6).
-trace(169,"iv antibiotics",7).
-trace(169,"admission nc",8).
-trace(169,"admission nc",9).
-trace(169,"crp",10).
-trace(169,"leucocytes",11).
-trace(169,"leucocytes",12).
-trace(169,"crp",13).
-trace(169,"crp",14).
-trace(169,"leucocytes",15).
-trace(169,"crp",16).
-trace(169,"leucocytes",17).
-trace(169,"crp",18).
-trace(169,"leucocytes",19).
-trace(169,"crp",20).
-trace(169,"leucocytes",21).
-trace(169,"crp",22).
-trace(169,"crp",23).
-trace(169,"leucocytes",24).
-trace(169,"crp",25).
-trace(169,"crp",26).
-trace(169,"leucocytes",27).
-trace(169,"release a",28).
-
-trace(170,"er registration",1).
-trace(170,"er triage",2).
-trace(170,"er sepsis triage",3).
-
-trace(171,"er registration",1).
-trace(171,"er triage",2).
-trace(171,"er sepsis triage",3).
-trace(171,"crp",4).
-trace(171,"lacticacid",5).
-trace(171,"leucocytes",6).
-trace(171,"iv liquid",7).
-trace(171,"iv antibiotics",8).
-trace(171,"admission nc",9).
-trace(171,"leucocytes",10).
-trace(171,"crp",11).
-trace(171,"admission nc",12).
-trace(171,"crp",13).
-trace(171,"leucocytes",14).
-trace(171,"release a",15).
-
-trace(172,"er registration",1).
-trace(172,"er triage",2).
-trace(172,"er sepsis triage",3).
-trace(172,"iv liquid",4).
-trace(172,"leucocytes",5).
-trace(172,"crp",6).
-trace(172,"lacticacid",7).
-trace(172,"iv antibiotics",8).
-trace(172,"admission nc",9).
-trace(172,"leucocytes",10).
-trace(172,"crp",11).
-trace(172,"admission nc",12).
-trace(172,"leucocytes",13).
-trace(172,"crp",14).
-trace(172,"release a",15).
-trace(172,"return er",16).
-
-trace(173,"er registration",1).
-trace(173,"er triage",2).
-trace(173,"er sepsis triage",3).
-trace(173,"leucocytes",4).
-trace(173,"lacticacid",5).
-trace(173,"crp",6).
-trace(173,"iv liquid",7).
-trace(173,"iv antibiotics",8).
-trace(173,"admission nc",9).
-
-trace(174,"er registration",1).
-trace(174,"er triage",2).
-trace(174,"crp",3).
-trace(174,"lacticacid",4).
-trace(174,"leucocytes",5).
-trace(174,"er sepsis triage",6).
-trace(174,"iv antibiotics",7).
-trace(174,"iv liquid",8).
-trace(174,"admission nc",9).
-trace(174,"admission nc",10).
-trace(174,"release a",11).
-trace(174,"return er",12).
-
-trace(175,"er registration",1).
-trace(175,"er triage",2).
-trace(175,"er sepsis triage",3).
-trace(175,"crp",4).
-trace(175,"leucocytes",5).
-trace(175,"admission nc",6).
-trace(175,"leucocytes",7).
-trace(175,"crp",8).
-trace(175,"leucocytes",9).
-trace(175,"leucocytes",10).
-trace(175,"crp",11).
-trace(175,"crp",12).
-trace(175,"leucocytes",13).
-trace(175,"release a",14).
-trace(175,"crp",15).
-trace(175,"leucocytes",16).
-
-trace(176,"er registration",1).
-trace(176,"er triage",2).
-trace(176,"er sepsis triage",3).
-trace(176,"crp",4).
-trace(176,"leucocytes",5).
-trace(176,"lacticacid",6).
-trace(176,"iv liquid",7).
-trace(176,"iv antibiotics",8).
-trace(176,"admission ic",9).
-trace(176,"lacticacid",10).
-trace(176,"leucocytes",11).
-trace(176,"lacticacid",12).
-trace(176,"crp",13).
-trace(176,"lacticacid",14).
-trace(176,"crp",15).
-trace(176,"lacticacid",16).
-trace(176,"leucocytes",17).
-trace(176,"lacticacid",18).
-trace(176,"leucocytes",19).
-trace(176,"crp",20).
-trace(176,"admission nc",21).
-trace(176,"leucocytes",22).
-trace(176,"crp",23).
-trace(176,"admission nc",24).
-trace(176,"crp",25).
-trace(176,"leucocytes",26).
-trace(176,"crp",27).
-trace(176,"crp",28).
-trace(176,"release a",29).
-
-trace(177,"er registration",1).
-trace(177,"er triage",2).
-trace(177,"er sepsis triage",3).
-trace(177,"leucocytes",4).
-trace(177,"crp",5).
-trace(177,"lacticacid",6).
-trace(177,"iv liquid",7).
-trace(177,"iv antibiotics",8).
-trace(177,"admission nc",9).
-trace(177,"admission nc",10).
-trace(177,"leucocytes",11).
-trace(177,"crp",12).
-trace(177,"release a",13).
-
-trace(178,"er registration",1).
-trace(178,"er triage",2).
-trace(178,"er sepsis triage",3).
-trace(178,"leucocytes",4).
-trace(178,"lacticacid",5).
-trace(178,"crp",6).
-trace(178,"iv antibiotics",7).
-trace(178,"iv liquid",8).
-trace(178,"admission nc",9).
-trace(178,"crp",10).
-trace(178,"leucocytes",11).
-trace(178,"crp",12).
-trace(178,"admission nc",13).
-trace(178,"leucocytes",14).
-trace(178,"leucocytes",15).
-trace(178,"crp",16).
-trace(178,"admission nc",17).
-trace(178,"crp",18).
-trace(178,"leucocytes",19).
-trace(178,"release a",20).
-trace(178,"return er",21).
-
-trace(179,"er registration",1).
-trace(179,"er triage",2).
-trace(179,"er sepsis triage",3).
-trace(179,"iv liquid",4).
-trace(179,"leucocytes",5).
-trace(179,"crp",6).
-trace(179,"lacticacid",7).
-trace(179,"iv antibiotics",8).
-trace(179,"admission nc",9).
-trace(179,"admission nc",10).
-trace(179,"crp",11).
-trace(179,"release a",12).
-
-trace(180,"er registration",1).
-trace(180,"er triage",2).
-trace(180,"er sepsis triage",3).
-trace(180,"iv liquid",4).
-trace(180,"leucocytes",5).
-trace(180,"lacticacid",6).
-trace(180,"crp",7).
-trace(180,"iv antibiotics",8).
-trace(180,"admission nc",9).
-trace(180,"admission ic",10).
-trace(180,"crp",11).
-trace(180,"lacticacid",12).
-trace(180,"leucocytes",13).
-trace(180,"lacticacid",14).
-trace(180,"leucocytes",15).
-trace(180,"crp",16).
-trace(180,"admission nc",17).
-trace(180,"crp",18).
-trace(180,"leucocytes",19).
-trace(180,"crp",20).
-trace(180,"lacticacid",21).
-trace(180,"leucocytes",22).
-trace(180,"crp",23).
-trace(180,"lacticacid",24).
-trace(180,"crp",25).
-trace(180,"leucocytes",26).
-trace(180,"leucocytes",27).
-trace(180,"crp",28).
-trace(180,"release a",29).
-
-trace(181,"er registration",1).
-trace(181,"er triage",2).
-trace(181,"er sepsis triage",3).
-trace(181,"iv liquid",4).
-trace(181,"iv antibiotics",5).
-trace(181,"leucocytes",6).
-trace(181,"crp",7).
-trace(181,"lacticacid",8).
-trace(181,"lacticacid",9).
-trace(181,"admission nc",10).
-trace(181,"admission nc",11).
-trace(181,"crp",12).
-trace(181,"leucocytes",13).
-trace(181,"release a",14).
-
-trace(182,"er sepsis triage",1).
-trace(182,"er registration",2).
-trace(182,"er triage",3).
-trace(182,"leucocytes",4).
-trace(182,"crp",5).
-
-trace(183,"er registration",1).
-trace(183,"er triage",2).
-trace(183,"er sepsis triage",3).
-trace(183,"crp",4).
-trace(183,"leucocytes",5).
-trace(183,"admission nc",6).
-trace(183,"leucocytes",7).
-trace(183,"leucocytes",8).
-trace(183,"admission nc",9).
-trace(183,"release a",10).
-
-trace(184,"er registration",1).
-trace(184,"er triage",2).
-trace(184,"er sepsis triage",3).
-trace(184,"lacticacid",4).
-trace(184,"crp",5).
-trace(184,"leucocytes",6).
-trace(184,"iv liquid",7).
-trace(184,"iv antibiotics",8).
-trace(184,"admission nc",9).
-trace(184,"leucocytes",10).
-trace(184,"crp",11).
-trace(184,"leucocytes",12).
-trace(184,"crp",13).
-trace(184,"leucocytes",14).
-trace(184,"release a",15).
-
-trace(185,"er registration",1).
-trace(185,"er triage",2).
-trace(185,"er sepsis triage",3).
-trace(185,"crp",4).
-trace(185,"lacticacid",5).
-trace(185,"leucocytes",6).
-trace(185,"iv liquid",7).
-trace(185,"iv antibiotics",8).
-trace(185,"admission nc",9).
-trace(185,"crp",10).
-trace(185,"leucocytes",11).
-trace(185,"release a",12).
-
-trace(186,"er registration",1).
-trace(186,"er triage",2).
-trace(186,"crp",3).
-trace(186,"leucocytes",4).
-trace(186,"er sepsis triage",5).
-
-trace(187,"er registration",1).
-trace(187,"er triage",2).
-trace(187,"er sepsis triage",3).
-trace(187,"iv liquid",4).
-trace(187,"iv antibiotics",5).
-trace(187,"leucocytes",6).
-trace(187,"lacticacid",7).
-trace(187,"crp",8).
-trace(187,"admission nc",9).
-trace(187,"crp",10).
-trace(187,"release a",11).
-
-trace(188,"er registration",1).
-trace(188,"er triage",2).
-trace(188,"er sepsis triage",3).
-trace(188,"leucocytes",4).
-trace(188,"crp",5).
-trace(188,"admission nc",6).
-trace(188,"leucocytes",7).
-trace(188,"crp",8).
-trace(188,"leucocytes",9).
-trace(188,"leucocytes",10).
-trace(188,"leucocytes",11).
-trace(188,"leucocytes",12).
-trace(188,"leucocytes",13).
-trace(188,"lacticacid",14).
-trace(188,"crp",15).
-trace(188,"leucocytes",16).
-trace(188,"release a",17).
-trace(188,"return er",18).
-
-trace(189,"er registration",1).
-trace(189,"er triage",2).
-trace(189,"er sepsis triage",3).
-trace(189,"crp",4).
-trace(189,"leucocytes",5).
-trace(189,"lacticacid",6).
-trace(189,"iv antibiotics",7).
-trace(189,"admission nc",8).
-trace(189,"admission nc",9).
-trace(189,"leucocytes",10).
-trace(189,"crp",11).
-trace(189,"leucocytes",12).
-trace(189,"crp",13).
-trace(189,"release a",14).
-trace(189,"return er",15).
-
-trace(190,"er registration",1).
-trace(190,"er triage",2).
-trace(190,"er sepsis triage",3).
-trace(190,"leucocytes",4).
-trace(190,"admission nc",5).
-trace(190,"leucocytes",6).
-trace(190,"leucocytes",7).
-trace(190,"leucocytes",8).
-trace(190,"crp",9).
-trace(190,"leucocytes",10).
-trace(190,"leucocytes",11).
-trace(190,"leucocytes",12).
-trace(190,"leucocytes",13).
-trace(190,"leucocytes",14).
-trace(190,"leucocytes",15).
-trace(190,"crp",16).
-trace(190,"leucocytes",17).
-trace(190,"release a",18).
-
-trace(191,"er registration",1).
-trace(191,"er triage",2).
-trace(191,"er sepsis triage",3).
-trace(191,"iv liquid",4).
-trace(191,"iv antibiotics",5).
-trace(191,"leucocytes",6).
-trace(191,"lacticacid",7).
-trace(191,"crp",8).
-trace(191,"admission nc",9).
-trace(191,"leucocytes",10).
-trace(191,"leucocytes",11).
-trace(191,"crp",12).
-trace(191,"release a",13).
-
-trace(192,"leucocytes",1).
-trace(192,"crp",2).
-trace(192,"er registration",3).
-trace(192,"er triage",4).
-trace(192,"er sepsis triage",5).
-trace(192,"lacticacid",6).
-trace(192,"leucocytes",7).
-trace(192,"crp",8).
-trace(192,"iv liquid",9).
-trace(192,"iv antibiotics",10).
-trace(192,"admission nc",11).
-trace(192,"leucocytes",12).
-trace(192,"crp",13).
-trace(192,"crp",14).
-trace(192,"leucocytes",15).
-trace(192,"release a",16).
-
-trace(193,"er registration",1).
-trace(193,"er triage",2).
-trace(193,"er sepsis triage",3).
-trace(193,"crp",4).
-trace(193,"leucocytes",5).
-trace(193,"lacticacid",6).
-trace(193,"iv liquid",7).
-trace(193,"iv antibiotics",8).
-trace(193,"admission nc",9).
-trace(193,"admission nc",10).
-trace(193,"admission ic",11).
-trace(193,"crp",12).
-trace(193,"leucocytes",13).
-trace(193,"lacticacid",14).
-trace(193,"lacticacid",15).
-trace(193,"lacticacid",16).
-trace(193,"leucocytes",17).
-trace(193,"crp",18).
-trace(193,"crp",19).
-trace(193,"lacticacid",20).
-trace(193,"leucocytes",21).
-trace(193,"crp",22).
-trace(193,"leucocytes",23).
-trace(193,"lacticacid",24).
-trace(193,"lacticacid",25).
-trace(193,"crp",26).
-trace(193,"leucocytes",27).
-trace(193,"crp",28).
-trace(193,"leucocytes",29).
-trace(193,"lacticacid",30).
-trace(193,"leucocytes",31).
-trace(193,"lacticacid",32).
-trace(193,"crp",33).
-trace(193,"crp",34).
-trace(193,"leucocytes",35).
-trace(193,"lacticacid",36).
-trace(193,"lacticacid",37).
-trace(193,"leucocytes",38).
-trace(193,"crp",39).
-trace(193,"release e",40).
-trace(193,"return er",41).
-
-trace(194,"er registration",1).
-trace(194,"er triage",2).
-trace(194,"er sepsis triage",3).
-trace(194,"leucocytes",4).
-trace(194,"crp",5).
-trace(194,"leucocytes",6).
-
-trace(195,"er registration",1).
-trace(195,"er triage",2).
-trace(195,"er sepsis triage",3).
-trace(195,"crp",4).
-trace(195,"leucocytes",5).
-trace(195,"lacticacid",6).
-
-trace(196,"er registration",1).
-trace(196,"er triage",2).
-trace(196,"er sepsis triage",3).
-trace(196,"crp",4).
-trace(196,"lacticacid",5).
-trace(196,"leucocytes",6).
-trace(196,"admission nc",7).
-trace(196,"admission nc",8).
-trace(196,"release a",9).
-
-trace(197,"er registration",1).
-trace(197,"iv liquid",2).
-trace(197,"er sepsis triage",3).
-trace(197,"iv antibiotics",4).
-trace(197,"er triage",5).
-trace(197,"lacticacid",6).
-trace(197,"crp",7).
-trace(197,"leucocytes",8).
-trace(197,"admission nc",9).
-trace(197,"leucocytes",10).
-trace(197,"crp",11).
-trace(197,"release a",12).
-trace(197,"return er",13).
-
-trace(198,"er registration",1).
-trace(198,"er triage",2).
-trace(198,"er sepsis triage",3).
-trace(198,"leucocytes",4).
-trace(198,"crp",5).
-trace(198,"lacticacid",6).
-trace(198,"iv liquid",7).
-trace(198,"iv antibiotics",8).
-trace(198,"admission nc",9).
-trace(198,"crp",10).
-trace(198,"leucocytes",11).
-trace(198,"release a",12).
-trace(198,"return er",13).
-
-trace(199,"er registration",1).
-trace(199,"er triage",2).
-trace(199,"er sepsis triage",3).
-trace(199,"lacticacid",4).
-trace(199,"leucocytes",5).
-trace(199,"crp",6).
-trace(199,"admission nc",7).
-trace(199,"leucocytes",8).
-trace(199,"crp",9).
-trace(199,"leucocytes",10).
-trace(199,"crp",11).
-trace(199,"leucocytes",12).
-trace(199,"crp",13).
-trace(199,"crp",14).
-trace(199,"leucocytes",15).
-trace(199,"leucocytes",16).
-trace(199,"crp",17).
-trace(199,"crp",18).
-trace(199,"leucocytes",19).
-trace(199,"crp",20).
-trace(199,"lacticacid",21).
-trace(199,"crp",22).
-trace(199,"leucocytes",23).
-trace(199,"crp",24).
-trace(199,"crp",25).
-trace(199,"crp",26).
-trace(199,"crp",27).
-trace(199,"leucocytes",28).
-trace(199,"crp",29).
-trace(199,"leucocytes",30).
-trace(199,"crp",31).
-trace(199,"release a",32).
-trace(199,"return er",33).
-
-trace(200,"er registration",1).
-trace(200,"er triage",2).
-trace(200,"crp",3).
-trace(200,"leucocytes",4).
-trace(200,"er sepsis triage",5).
-
-trace(201,"er registration",1).
-trace(201,"er triage",2).
-trace(201,"er sepsis triage",3).
-trace(201,"crp",4).
-trace(201,"lacticacid",5).
-trace(201,"leucocytes",6).
-trace(201,"iv antibiotics",7).
-trace(201,"admission nc",8).
-trace(201,"leucocytes",9).
-trace(201,"crp",10).
-trace(201,"release a",11).
-
-trace(202,"er registration",1).
-trace(202,"er triage",2).
-trace(202,"er sepsis triage",3).
-trace(202,"leucocytes",4).
-trace(202,"crp",5).
-trace(202,"lacticacid",6).
-trace(202,"iv liquid",7).
-trace(202,"iv antibiotics",8).
-
-trace(203,"er registration",1).
-trace(203,"er triage",2).
-trace(203,"er sepsis triage",3).
-trace(203,"lacticacid",4).
-trace(203,"leucocytes",5).
-trace(203,"crp",6).
-trace(203,"admission nc",7).
-trace(203,"crp",8).
-trace(203,"leucocytes",9).
-trace(203,"crp",10).
-trace(203,"leucocytes",11).
-trace(203,"crp",12).
-trace(203,"leucocytes",13).
-trace(203,"crp",14).
-trace(203,"release a",15).
-trace(203,"return er",16).
-
-trace(204,"er registration",1).
-trace(204,"er triage",2).
-trace(204,"er sepsis triage",3).
-trace(204,"crp",4).
-trace(204,"leucocytes",5).
-trace(204,"lacticacid",6).
-trace(204,"iv liquid",7).
-trace(204,"iv antibiotics",8).
-trace(204,"admission nc",9).
-trace(204,"leucocytes",10).
-trace(204,"crp",11).
-trace(204,"crp",12).
-trace(204,"leucocytes",13).
-trace(204,"release a",14).
-
-trace(205,"er registration",1).
-trace(205,"er triage",2).
-trace(205,"er sepsis triage",3).
-trace(205,"lacticacid",4).
-trace(205,"leucocytes",5).
-trace(205,"crp",6).
-trace(205,"iv liquid",7).
-trace(205,"iv antibiotics",8).
-
-trace(206,"er registration",1).
-trace(206,"er triage",2).
-trace(206,"er sepsis triage",3).
-trace(206,"iv liquid",4).
-trace(206,"iv antibiotics",5).
-trace(206,"lacticacid",6).
-trace(206,"leucocytes",7).
-trace(206,"crp",8).
-trace(206,"admission nc",9).
-trace(206,"admission nc",10).
-trace(206,"leucocytes",11).
-trace(206,"crp",12).
-trace(206,"leucocytes",13).
-trace(206,"leucocytes",14).
-trace(206,"leucocytes",15).
-trace(206,"leucocytes",16).
-trace(206,"leucocytes",17).
-trace(206,"crp",18).
-trace(206,"leucocytes",19).
-trace(206,"leucocytes",20).
-trace(206,"leucocytes",21).
-trace(206,"crp",22).
-trace(206,"leucocytes",23).
-trace(206,"crp",24).
-trace(206,"leucocytes",25).
-trace(206,"leucocytes",26).
-trace(206,"crp",27).
-trace(206,"leucocytes",28).
-trace(206,"release d",29).
-
-trace(207,"er registration",1).
-trace(207,"er triage",2).
-trace(207,"er sepsis triage",3).
-trace(207,"crp",4).
-trace(207,"lacticacid",5).
-trace(207,"leucocytes",6).
-trace(207,"iv antibiotics",7).
-trace(207,"admission nc",8).
-trace(207,"iv liquid",9).
-trace(207,"release b",10).
-
-trace(208,"er registration",1).
-trace(208,"er triage",2).
-trace(208,"er sepsis triage",3).
-trace(208,"lacticacid",4).
-trace(208,"leucocytes",5).
-trace(208,"crp",6).
-trace(208,"iv antibiotics",7).
-trace(208,"admission nc",8).
-trace(208,"leucocytes",9).
-trace(208,"crp",10).
-trace(208,"release a",11).
-
-trace(209,"er registration",1).
-trace(209,"er triage",2).
-trace(209,"er sepsis triage",3).
-trace(209,"leucocytes",4).
-trace(209,"lacticacid",5).
-trace(209,"crp",6).
-trace(209,"iv antibiotics",7).
-trace(209,"iv liquid",8).
-trace(209,"admission nc",9).
-trace(209,"leucocytes",10).
-trace(209,"crp",11).
-trace(209,"admission nc",12).
-trace(209,"crp",13).
-trace(209,"leucocytes",14).
-trace(209,"admission nc",15).
-trace(209,"leucocytes",16).
-trace(209,"crp",17).
-trace(209,"leucocytes",18).
-trace(209,"crp",19).
-trace(209,"release a",20).
-
-trace(210,"er registration",1).
-trace(210,"er triage",2).
-trace(210,"er sepsis triage",3).
-trace(210,"iv antibiotics",4).
-trace(210,"leucocytes",5).
-trace(210,"crp",6).
-trace(210,"lacticacid",7).
-trace(210,"admission nc",8).
-trace(210,"release a",9).
-
-trace(211,"er registration",1).
-trace(211,"er triage",2).
-trace(211,"er sepsis triage",3).
-trace(211,"iv liquid",4).
-trace(211,"leucocytes",5).
-trace(211,"crp",6).
-trace(211,"iv antibiotics",7).
-trace(211,"admission nc",8).
-trace(211,"leucocytes",9).
-trace(211,"leucocytes",10).
-trace(211,"crp",11).
-trace(211,"crp",12).
-trace(211,"leucocytes",13).
-trace(211,"release a",14).
-trace(211,"return er",15).
-
-trace(212,"er registration",1).
-trace(212,"er triage",2).
-trace(212,"er sepsis triage",3).
-trace(212,"crp",4).
-trace(212,"lacticacid",5).
-trace(212,"leucocytes",6).
-trace(212,"iv liquid",7).
-trace(212,"iv antibiotics",8).
-trace(212,"admission nc",9).
-trace(212,"release a",10).
-
-trace(213,"er registration",1).
-trace(213,"er triage",2).
-trace(213,"er sepsis triage",3).
-trace(213,"lacticacid",4).
-trace(213,"crp",5).
-trace(213,"leucocytes",6).
-trace(213,"iv antibiotics",7).
-trace(213,"admission nc",8).
-trace(213,"crp",9).
-trace(213,"crp",10).
-trace(213,"leucocytes",11).
-trace(213,"release a",12).
-trace(213,"return er",13).
-
-trace(214,"er registration",1).
-trace(214,"er triage",2).
-trace(214,"crp",3).
-trace(214,"lacticacid",4).
-trace(214,"leucocytes",5).
-trace(214,"er sepsis triage",6).
-trace(214,"iv liquid",7).
-trace(214,"iv antibiotics",8).
-
-trace(215,"er registration",1).
-trace(215,"er triage",2).
-trace(215,"er sepsis triage",3).
-trace(215,"leucocytes",4).
-trace(215,"lacticacid",5).
-trace(215,"crp",6).
-trace(215,"iv liquid",7).
-trace(215,"iv antibiotics",8).
-trace(215,"admission nc",9).
-trace(215,"crp",10).
-trace(215,"leucocytes",11).
-trace(215,"release a",12).
-
-trace(216,"er registration",1).
-trace(216,"er triage",2).
-trace(216,"er sepsis triage",3).
-trace(216,"leucocytes",4).
-trace(216,"crp",5).
-trace(216,"lacticacid",6).
-trace(216,"iv antibiotics",7).
-trace(216,"admission nc",8).
-trace(216,"admission nc",9).
-trace(216,"iv liquid",10).
-trace(216,"crp",11).
-trace(216,"leucocytes",12).
-trace(216,"admission nc",13).
-trace(216,"leucocytes",14).
-trace(216,"crp",15).
-trace(216,"release a",16).
-trace(216,"return er",17).
-
-trace(217,"er registration",1).
-trace(217,"er sepsis triage",2).
-trace(217,"er triage",3).
-trace(217,"iv liquid",4).
-trace(217,"iv antibiotics",5).
-trace(217,"crp",6).
-trace(217,"leucocytes",7).
-trace(217,"lacticacid",8).
-trace(217,"admission nc",9).
-trace(217,"admission nc",10).
-trace(217,"release a",11).
-trace(217,"return er",12).
-
-trace(218,"er registration",1).
-trace(218,"er triage",2).
-trace(218,"er sepsis triage",3).
-trace(218,"iv liquid",4).
-trace(218,"crp",5).
-trace(218,"lacticacid",6).
-trace(218,"leucocytes",7).
-trace(218,"iv antibiotics",8).
-trace(218,"admission nc",9).
-trace(218,"crp",10).
-trace(218,"leucocytes",11).
-trace(218,"release a",12).
-
-trace(219,"er registration",1).
-trace(219,"er triage",2).
-trace(219,"er sepsis triage",3).
-trace(219,"crp",4).
-trace(219,"leucocytes",5).
-trace(219,"admission nc",6).
-trace(219,"leucocytes",7).
-trace(219,"crp",8).
-trace(219,"crp",9).
-trace(219,"leucocytes",10).
-trace(219,"crp",11).
-trace(219,"leucocytes",12).
-trace(219,"leucocytes",13).
-trace(219,"crp",14).
-trace(219,"crp",15).
-trace(219,"leucocytes",16).
-trace(219,"release a",17).
-
-trace(220,"er registration",1).
-trace(220,"er triage",2).
-trace(220,"er sepsis triage",3).
-trace(220,"crp",4).
-trace(220,"leucocytes",5).
-
-trace(221,"er registration",1).
-trace(221,"er triage",2).
-trace(221,"er sepsis triage",3).
-trace(221,"crp",4).
-trace(221,"lacticacid",5).
-trace(221,"leucocytes",6).
-trace(221,"iv liquid",7).
-trace(221,"iv antibiotics",8).
-trace(221,"admission nc",9).
-trace(221,"leucocytes",10).
-trace(221,"crp",11).
-trace(221,"release a",12).
-trace(221,"return er",13).
-
-trace(222,"er registration",1).
-trace(222,"er triage",2).
-trace(222,"er sepsis triage",3).
-trace(222,"crp",4).
-trace(222,"leucocytes",5).
-trace(222,"lacticacid",6).
-trace(222,"iv antibiotics",7).
-trace(222,"iv liquid",8).
-trace(222,"admission nc",9).
-trace(222,"leucocytes",10).
-trace(222,"crp",11).
-trace(222,"admission nc",12).
-trace(222,"leucocytes",13).
-trace(222,"crp",14).
-trace(222,"release a",15).
-trace(222,"return er",16).
-
-trace(223,"er registration",1).
-trace(223,"crp",2).
-trace(223,"lacticacid",3).
-trace(223,"leucocytes",4).
-trace(223,"iv liquid",5).
-trace(223,"er triage",6).
-trace(223,"er sepsis triage",7).
-trace(223,"iv antibiotics",8).
-
-trace(224,"er registration",1).
-trace(224,"er triage",2).
-trace(224,"er sepsis triage",3).
-trace(224,"leucocytes",4).
-trace(224,"crp",5).
-trace(224,"admission ic",6).
-trace(224,"crp",7).
-trace(224,"leucocytes",8).
-trace(224,"lacticacid",9).
-trace(224,"leucocytes",10).
-trace(224,"leucocytes",11).
-trace(224,"leucocytes",12).
-trace(224,"leucocytes",13).
-trace(224,"lacticacid",14).
-trace(224,"lacticacid",15).
-trace(224,"leucocytes",16).
-trace(224,"crp",17).
-trace(224,"leucocytes",18).
-trace(224,"lacticacid",19).
-trace(224,"leucocytes",20).
-trace(224,"crp",21).
-trace(224,"lacticacid",22).
-trace(224,"release b",23).
-
-trace(225,"er registration",1).
-trace(225,"er triage",2).
-trace(225,"er sepsis triage",3).
-trace(225,"leucocytes",4).
-trace(225,"leucocytes",5).
-
-trace(226,"er registration",1).
-trace(226,"er triage",2).
-trace(226,"er sepsis triage",3).
-trace(226,"leucocytes",4).
-trace(226,"lacticacid",5).
-trace(226,"crp",6).
-trace(226,"iv antibiotics",7).
-trace(226,"admission nc",8).
-trace(226,"crp",9).
-trace(226,"leucocytes",10).
-trace(226,"release a",11).
-trace(226,"return er",12).
-
-trace(227,"er registration",1).
-trace(227,"er triage",2).
-trace(227,"crp",3).
-trace(227,"lacticacid",4).
-trace(227,"leucocytes",5).
-trace(227,"iv liquid",6).
-trace(227,"er sepsis triage",7).
-trace(227,"iv antibiotics",8).
-trace(227,"admission nc",9).
-trace(227,"crp",10).
-trace(227,"lacticacid",11).
-trace(227,"crp",12).
-trace(227,"release a",13).
-
-trace(228,"er registration",1).
-trace(228,"er triage",2).
-trace(228,"er sepsis triage",3).
-
-trace(229,"er registration",1).
-trace(229,"er triage",2).
-trace(229,"er sepsis triage",3).
-trace(229,"leucocytes",4).
-trace(229,"crp",5).
-
-trace(230,"er registration",1).
-trace(230,"er triage",2).
-trace(230,"er sepsis triage",3).
-trace(230,"crp",4).
-trace(230,"leucocytes",5).
-
-trace(231,"er registration",1).
-trace(231,"er triage",2).
-trace(231,"er sepsis triage",3).
-trace(231,"crp",4).
-trace(231,"leucocytes",5).
-trace(231,"lacticacid",6).
-trace(231,"iv antibiotics",7).
-trace(231,"iv liquid",8).
-trace(231,"admission nc",9).
-trace(231,"crp",10).
-trace(231,"leucocytes",11).
-trace(231,"crp",12).
-trace(231,"leucocytes",13).
-trace(231,"crp",14).
-trace(231,"leucocytes",15).
-trace(231,"crp",16).
-trace(231,"leucocytes",17).
-trace(231,"admission nc",18).
-trace(231,"leucocytes",19).
-trace(231,"crp",20).
-trace(231,"leucocytes",21).
-trace(231,"release a",22).
-
-trace(232,"er registration",1).
-trace(232,"er triage",2).
-trace(232,"er sepsis triage",3).
-trace(232,"crp",4).
-trace(232,"leucocytes",5).
-trace(232,"admission nc",6).
-trace(232,"release a",7).
-
-trace(233,"er registration",1).
-trace(233,"er triage",2).
-trace(233,"er sepsis triage",3).
-trace(233,"leucocytes",4).
-trace(233,"crp",5).
-trace(233,"lacticacid",6).
-trace(233,"iv liquid",7).
-trace(233,"iv antibiotics",8).
-trace(233,"admission nc",9).
-trace(233,"crp",10).
-trace(233,"admission nc",11).
-trace(233,"crp",12).
-trace(233,"release a",13).
-
-trace(234,"er registration",1).
-trace(234,"er triage",2).
-trace(234,"er sepsis triage",3).
-trace(234,"lacticacid",4).
-trace(234,"crp",5).
-trace(234,"leucocytes",6).
-trace(234,"iv liquid",7).
-trace(234,"iv antibiotics",8).
-trace(234,"admission nc",9).
-trace(234,"crp",10).
-trace(234,"leucocytes",11).
-trace(234,"leucocytes",12).
-trace(234,"crp",13).
-trace(234,"release a",14).
-trace(234,"return er",15).
-
-trace(235,"er registration",1).
-trace(235,"er triage",2).
-trace(235,"crp",3).
-trace(235,"leucocytes",4).
-trace(235,"er sepsis triage",5).
-trace(235,"iv antibiotics",6).
-trace(235,"admission nc",7).
-trace(235,"lacticacid",8).
-trace(235,"admission nc",9).
-trace(235,"release b",10).
-
-trace(236,"er registration",1).
-trace(236,"er triage",2).
-trace(236,"er sepsis triage",3).
-trace(236,"iv liquid",4).
-trace(236,"iv antibiotics",5).
-trace(236,"lacticacid",6).
-trace(236,"leucocytes",7).
-trace(236,"crp",8).
-trace(236,"admission nc",9).
-trace(236,"leucocytes",10).
-trace(236,"crp",11).
-trace(236,"admission nc",12).
-trace(236,"release a",13).
-
-trace(237,"er registration",1).
-trace(237,"er triage",2).
-trace(237,"er sepsis triage",3).
-trace(237,"lacticacid",4).
-trace(237,"crp",5).
-trace(237,"leucocytes",6).
-trace(237,"iv liquid",7).
-trace(237,"iv antibiotics",8).
-trace(237,"admission nc",9).
-trace(237,"leucocytes",10).
-trace(237,"crp",11).
-trace(237,"release a",12).
-
-trace(238,"er registration",1).
-trace(238,"er triage",2).
-trace(238,"er sepsis triage",3).
-trace(238,"lacticacid",4).
-trace(238,"crp",5).
-trace(238,"leucocytes",6).
-trace(238,"iv antibiotics",7).
-trace(238,"admission nc",8).
-trace(238,"admission nc",9).
-trace(238,"crp",10).
-trace(238,"leucocytes",11).
-trace(238,"crp",12).
-trace(238,"release d",13).
-trace(238,"return er",14).
-
-trace(239,"er registration",1).
-trace(239,"er triage",2).
-trace(239,"er sepsis triage",3).
-trace(239,"crp",4).
-trace(239,"lacticacid",5).
-trace(239,"leucocytes",6).
-trace(239,"iv liquid",7).
-trace(239,"iv antibiotics",8).
-
-trace(240,"leucocytes",1).
-trace(240,"er registration",2).
-trace(240,"er triage",3).
-trace(240,"er sepsis triage",4).
-trace(240,"crp",5).
-trace(240,"lacticacid",6).
-trace(240,"leucocytes",7).
-trace(240,"iv antibiotics",8).
-trace(240,"admission nc",9).
-trace(240,"admission nc",10).
-trace(240,"leucocytes",11).
-trace(240,"release a",12).
-
-trace(241,"er registration",1).
-trace(241,"er triage",2).
-trace(241,"er sepsis triage",3).
-trace(241,"lacticacid",4).
-trace(241,"crp",5).
-trace(241,"leucocytes",6).
-trace(241,"admission nc",7).
-trace(241,"release a",8).
-trace(241,"return er",9).
-
-trace(242,"er registration",1).
-trace(242,"er triage",2).
-trace(242,"leucocytes",3).
-trace(242,"lacticacid",4).
-trace(242,"crp",5).
-trace(242,"er sepsis triage",6).
-trace(242,"iv liquid",7).
-trace(242,"iv antibiotics",8).
-trace(242,"admission nc",9).
-trace(242,"crp",10).
-trace(242,"leucocytes",11).
-trace(242,"release a",12).
-trace(242,"return er",13).
-
-trace(243,"er registration",1).
-trace(243,"er triage",2).
-trace(243,"er sepsis triage",3).
-trace(243,"iv liquid",4).
-trace(243,"iv antibiotics",5).
-trace(243,"leucocytes",6).
-trace(243,"lacticacid",7).
-trace(243,"crp",8).
-
-trace(244,"er registration",1).
-trace(244,"er triage",2).
-trace(244,"lacticacid",3).
-trace(244,"leucocytes",4).
-trace(244,"crp",5).
-trace(244,"er sepsis triage",6).
-trace(244,"iv liquid",7).
-trace(244,"iv antibiotics",8).
-trace(244,"admission nc",9).
-trace(244,"crp",10).
-trace(244,"leucocytes",11).
-trace(244,"admission nc",12).
-trace(244,"leucocytes",13).
-trace(244,"crp",14).
-trace(244,"release a",15).
-trace(244,"return er",16).
-
-trace(245,"er registration",1).
-trace(245,"er triage",2).
-trace(245,"er sepsis triage",3).
-trace(245,"lacticacid",4).
-trace(245,"leucocytes",5).
-trace(245,"crp",6).
-trace(245,"iv liquid",7).
-trace(245,"iv antibiotics",8).
-trace(245,"admission nc",9).
-trace(245,"admission nc",10).
-trace(245,"leucocytes",11).
-trace(245,"crp",12).
-trace(245,"release a",13).
-trace(245,"return er",14).
-
-trace(246,"er registration",1).
-trace(246,"er triage",2).
-trace(246,"er sepsis triage",3).
-trace(246,"iv liquid",4).
-trace(246,"leucocytes",5).
-trace(246,"lacticacid",6).
-trace(246,"crp",7).
-trace(246,"iv antibiotics",8).
-
-trace(247,"er registration",1).
-trace(247,"er triage",2).
-trace(247,"crp",3).
-trace(247,"lacticacid",4).
-trace(247,"leucocytes",5).
-trace(247,"er sepsis triage",6).
-trace(247,"iv liquid",7).
-trace(247,"iv antibiotics",8).
-trace(247,"admission nc",9).
-trace(247,"crp",10).
-trace(247,"leucocytes",11).
-trace(247,"leucocytes",12).
-trace(247,"crp",13).
-trace(247,"release a",14).
-trace(247,"return er",15).
-
-trace(248,"er registration",1).
-trace(248,"er triage",2).
-trace(248,"er sepsis triage",3).
-trace(248,"lacticacid",4).
-trace(248,"crp",5).
-trace(248,"leucocytes",6).
-
-trace(249,"er registration",1).
-trace(249,"er triage",2).
-trace(249,"er sepsis triage",3).
-trace(249,"crp",4).
-trace(249,"leucocytes",5).
-trace(249,"lacticacid",6).
-trace(249,"admission nc",7).
-trace(249,"iv liquid",8).
-trace(249,"iv antibiotics",9).
-trace(249,"crp",10).
-trace(249,"release a",11).
-
-trace(250,"er registration",1).
-trace(250,"er triage",2).
-trace(250,"er sepsis triage",3).
-trace(250,"lacticacid",4).
-trace(250,"leucocytes",5).
-trace(250,"crp",6).
-trace(250,"admission nc",7).
-trace(250,"admission nc",8).
-trace(250,"release a",9).
-
-trace(251,"er registration",1).
-trace(251,"er triage",2).
-trace(251,"er sepsis triage",3).
-trace(251,"iv liquid",4).
-trace(251,"crp",5).
-trace(251,"lacticacid",6).
-trace(251,"leucocytes",7).
-trace(251,"iv antibiotics",8).
-trace(251,"admission nc",9).
-trace(251,"leucocytes",10).
-trace(251,"crp",11).
-trace(251,"admission nc",12).
-trace(251,"crp",13).
-trace(251,"leucocytes",14).
-trace(251,"release a",15).
-trace(251,"return er",16).
-
-trace(252,"er registration",1).
-trace(252,"er triage",2).
-trace(252,"er sepsis triage",3).
-trace(252,"lacticacid",4).
-trace(252,"leucocytes",5).
-trace(252,"crp",6).
-trace(252,"iv liquid",7).
-trace(252,"iv antibiotics",8).
-trace(252,"admission nc",9).
-trace(252,"crp",10).
-trace(252,"leucocytes",11).
-trace(252,"admission nc",12).
-trace(252,"crp",13).
-trace(252,"leucocytes",14).
-trace(252,"leucocytes",15).
-trace(252,"crp",16).
-trace(252,"crp",17).
-trace(252,"release a",18).
-
-trace(253,"er registration",1).
-trace(253,"er triage",2).
-trace(253,"er sepsis triage",3).
-trace(253,"crp",4).
-trace(253,"leucocytes",5).
-trace(253,"lacticacid",6).
-trace(253,"admission nc",7).
-trace(253,"admission nc",8).
-trace(253,"crp",9).
-trace(253,"leucocytes",10).
-trace(253,"leucocytes",11).
-trace(253,"crp",12).
-trace(253,"leucocytes",13).
-trace(253,"crp",14).
-trace(253,"leucocytes",15).
-trace(253,"crp",16).
-trace(253,"crp",17).
-trace(253,"leucocytes",18).
-trace(253,"leucocytes",19).
-trace(253,"crp",20).
-trace(253,"release c",21).
-
-trace(254,"er registration",1).
-trace(254,"er triage",2).
-trace(254,"er sepsis triage",3).
-trace(254,"lacticacid",4).
-trace(254,"crp",5).
-trace(254,"leucocytes",6).
-trace(254,"iv antibiotics",7).
-trace(254,"admission nc",8).
-trace(254,"iv liquid",9).
-trace(254,"crp",10).
-trace(254,"leucocytes",11).
-trace(254,"crp",12).
-trace(254,"leucocytes",13).
-trace(254,"release a",14).
-
-trace(255,"er registration",1).
-trace(255,"er triage",2).
-trace(255,"er sepsis triage",3).
-trace(255,"iv liquid",4).
-trace(255,"iv antibiotics",5).
-trace(255,"lacticacid",6).
-trace(255,"crp",7).
-trace(255,"leucocytes",8).
-trace(255,"admission nc",9).
-trace(255,"admission nc",10).
-trace(255,"leucocytes",11).
-trace(255,"crp",12).
-trace(255,"crp",13).
-trace(255,"crp",14).
-trace(255,"leucocytes",15).
-trace(255,"crp",16).
-trace(255,"release a",17).
-trace(255,"return er",18).
-
-trace(256,"er registration",1).
-trace(256,"er triage",2).
-trace(256,"er sepsis triage",3).
-trace(256,"crp",4).
-trace(256,"leucocytes",5).
-trace(256,"admission nc",6).
-trace(256,"crp",7).
-trace(256,"release a",8).
-trace(256,"return er",9).
-
-trace(257,"er registration",1).
-trace(257,"er triage",2).
-trace(257,"crp",3).
-trace(257,"leucocytes",4).
-trace(257,"lacticacid",5).
-trace(257,"er sepsis triage",6).
-trace(257,"iv liquid",7).
-trace(257,"iv antibiotics",8).
-trace(257,"admission nc",9).
-trace(257,"admission ic",10).
-trace(257,"crp",11).
-trace(257,"lacticacid",12).
-trace(257,"leucocytes",13).
-trace(257,"lacticacid",14).
-trace(257,"leucocytes",15).
-trace(257,"crp",16).
-trace(257,"lacticacid",17).
-trace(257,"admission ic",18).
-trace(257,"lacticacid",19).
-trace(257,"crp",20).
-trace(257,"leucocytes",21).
-trace(257,"lacticacid",22).
-trace(257,"leucocytes",23).
-trace(257,"crp",24).
-trace(257,"leucocytes",25).
-trace(257,"crp",26).
-trace(257,"lacticacid",27).
-trace(257,"admission nc",28).
-trace(257,"crp",29).
-trace(257,"leucocytes",30).
-trace(257,"crp",31).
-trace(257,"leucocytes",32).
-trace(257,"crp",33).
-trace(257,"leucocytes",34).
-trace(257,"admission nc",35).
-trace(257,"crp",36).
-trace(257,"leucocytes",37).
-trace(257,"release a",38).
-trace(257,"return er",39).
-
-trace(258,"er registration",1).
-trace(258,"er triage",2).
-trace(258,"er sepsis triage",3).
-trace(258,"lacticacid",4).
-trace(258,"leucocytes",5).
-trace(258,"crp",6).
-trace(258,"iv liquid",7).
-trace(258,"iv antibiotics",8).
-trace(258,"admission nc",9).
-trace(258,"crp",10).
-trace(258,"leucocytes",11).
-trace(258,"leucocytes",12).
-trace(258,"crp",13).
-trace(258,"release a",14).
-
-trace(259,"er registration",1).
-trace(259,"er triage",2).
-trace(259,"er sepsis triage",3).
-trace(259,"iv liquid",4).
-trace(259,"iv antibiotics",5).
-trace(259,"crp",6).
-trace(259,"leucocytes",7).
-trace(259,"lacticacid",8).
-trace(259,"admission nc",9).
-trace(259,"leucocytes",10).
-trace(259,"leucocytes",11).
-trace(259,"leucocytes",12).
-trace(259,"crp",13).
-trace(259,"admission nc",14).
-trace(259,"leucocytes",15).
-trace(259,"crp",16).
-trace(259,"crp",17).
-trace(259,"release a",18).
-
-trace(260,"er registration",1).
-trace(260,"er triage",2).
-trace(260,"er sepsis triage",3).
-trace(260,"leucocytes",4).
-trace(260,"crp",5).
-trace(260,"lacticacid",6).
-trace(260,"iv liquid",7).
-trace(260,"iv antibiotics",8).
-trace(260,"admission nc",9).
-trace(260,"leucocytes",10).
-trace(260,"crp",11).
-trace(260,"crp",12).
-trace(260,"leucocytes",13).
-trace(260,"leucocytes",14).
-trace(260,"crp",15).
-trace(260,"leucocytes",16).
-trace(260,"admission nc",17).
-trace(260,"crp",18).
-trace(260,"leucocytes",19).
-trace(260,"leucocytes",20).
-trace(260,"leucocytes",21).
-trace(260,"crp",22).
-trace(260,"crp",23).
-trace(260,"leucocytes",24).
-trace(260,"release a",25).
-
-trace(261,"er registration",1).
-trace(261,"er triage",2).
-trace(261,"er sepsis triage",3).
-trace(261,"leucocytes",4).
-trace(261,"crp",5).
-trace(261,"lacticacid",6).
-trace(261,"iv liquid",7).
-trace(261,"iv antibiotics",8).
-trace(261,"admission ic",9).
-trace(261,"lacticacid",10).
-trace(261,"leucocytes",11).
-trace(261,"crp",12).
-trace(261,"lacticacid",13).
-trace(261,"crp",14).
-trace(261,"lacticacid",15).
-trace(261,"leucocytes",16).
-trace(261,"admission nc",17).
-trace(261,"crp",18).
-trace(261,"leucocytes",19).
-trace(261,"crp",20).
-trace(261,"release a",21).
-
-trace(262,"leucocytes",1).
-trace(262,"crp",2).
-trace(262,"er registration",3).
-trace(262,"er triage",4).
-trace(262,"er sepsis triage",5).
-trace(262,"lacticacid",6).
-trace(262,"leucocytes",7).
-trace(262,"crp",8).
-trace(262,"iv liquid",9).
-trace(262,"iv antibiotics",10).
-trace(262,"admission nc",11).
-trace(262,"leucocytes",12).
-trace(262,"crp",13).
-trace(262,"lacticacid",14).
-trace(262,"leucocytes",15).
-trace(262,"crp",16).
-trace(262,"admission nc",17).
-trace(262,"admission nc",18).
-trace(262,"crp",19).
-trace(262,"leucocytes",20).
-trace(262,"crp",21).
-trace(262,"leucocytes",22).
-trace(262,"crp",23).
-trace(262,"admission nc",24).
-trace(262,"release b",25).
-
-trace(263,"er registration",1).
-trace(263,"er triage",2).
-trace(263,"crp",3).
-trace(263,"leucocytes",4).
-trace(263,"lacticacid",5).
-trace(263,"er sepsis triage",6).
-trace(263,"iv liquid",7).
-trace(263,"iv antibiotics",8).
-trace(263,"admission ic",9).
-trace(263,"lacticacid",10).
-trace(263,"crp",11).
-trace(263,"leucocytes",12).
-trace(263,"leucocytes",13).
-trace(263,"crp",14).
-trace(263,"lacticacid",15).
-trace(263,"crp",16).
-trace(263,"lacticacid",17).
-trace(263,"leucocytes",18).
-trace(263,"admission nc",19).
-trace(263,"leucocytes",20).
-trace(263,"crp",21).
-trace(263,"release a",22).
-trace(263,"return er",23).
-
-trace(264,"er registration",1).
-trace(264,"er triage",2).
-trace(264,"leucocytes",3).
-trace(264,"crp",4).
-trace(264,"lacticacid",5).
-trace(264,"er sepsis triage",6).
-trace(264,"iv antibiotics",7).
-trace(264,"admission nc",8).
-trace(264,"crp",9).
-trace(264,"leucocytes",10).
-trace(264,"release a",11).
-
-trace(265,"er registration",1).
-trace(265,"er triage",2).
-trace(265,"lacticacid",3).
-trace(265,"crp",4).
-trace(265,"leucocytes",5).
-trace(265,"er sepsis triage",6).
-trace(265,"iv liquid",7).
-trace(265,"iv antibiotics",8).
-trace(265,"admission nc",9).
-trace(265,"crp",10).
-trace(265,"leucocytes",11).
-trace(265,"release a",12).
-trace(265,"return er",13).
-
-trace(266,"er registration",1).
-trace(266,"er triage",2).
-trace(266,"er sepsis triage",3).
-trace(266,"iv liquid",4).
-trace(266,"iv antibiotics",5).
-trace(266,"crp",6).
-trace(266,"lacticacid",7).
-trace(266,"leucocytes",8).
-trace(266,"admission ic",9).
-trace(266,"leucocytes",10).
-trace(266,"crp",11).
-trace(266,"lacticacid",12).
-trace(266,"lacticacid",13).
-trace(266,"crp",14).
-trace(266,"leucocytes",15).
-trace(266,"lacticacid",16).
-trace(266,"leucocytes",17).
-trace(266,"crp",18).
-trace(266,"admission nc",19).
-trace(266,"release a",20).
-trace(266,"return er",21).
-
-trace(267,"er registration",1).
-trace(267,"er triage",2).
-trace(267,"er sepsis triage",3).
-trace(267,"leucocytes",4).
-trace(267,"crp",5).
-trace(267,"lacticacid",6).
-trace(267,"iv liquid",7).
-trace(267,"iv antibiotics",8).
-trace(267,"admission nc",9).
-trace(267,"crp",10).
-trace(267,"leucocytes",11).
-trace(267,"crp",12).
-trace(267,"leucocytes",13).
-trace(267,"crp",14).
-trace(267,"release a",15).
-
-trace(268,"er registration",1).
-trace(268,"er triage",2).
-trace(268,"er sepsis triage",3).
-trace(268,"leucocytes",4).
-trace(268,"crp",5).
-trace(268,"lacticacid",6).
-trace(268,"iv liquid",7).
-trace(268,"iv antibiotics",8).
-trace(268,"admission nc",9).
-trace(268,"admission nc",10).
-trace(268,"admission nc",11).
-trace(268,"crp",12).
-trace(268,"leucocytes",13).
-trace(268,"crp",14).
-trace(268,"leucocytes",15).
-trace(268,"release a",16).
-
-trace(269,"er registration",1).
-trace(269,"er triage",2).
-trace(269,"er sepsis triage",3).
-trace(269,"leucocytes",4).
-trace(269,"crp",5).
-trace(269,"lacticacid",6).
-trace(269,"iv liquid",7).
-trace(269,"iv antibiotics",8).
-trace(269,"admission nc",9).
-trace(269,"leucocytes",10).
-trace(269,"crp",11).
-trace(269,"release a",12).
-
-trace(270,"er registration",1).
-trace(270,"er triage",2).
-trace(270,"er sepsis triage",3).
-trace(270,"leucocytes",4).
-trace(270,"crp",5).
-trace(270,"lacticacid",6).
-trace(270,"iv antibiotics",7).
-trace(270,"admission nc",8).
-trace(270,"lacticacid",9).
-trace(270,"release a",10).
-
-trace(271,"er registration",1).
-trace(271,"er triage",2).
-trace(271,"er sepsis triage",3).
-trace(271,"lacticacid",4).
-trace(271,"crp",5).
-trace(271,"leucocytes",6).
-trace(271,"iv liquid",7).
-trace(271,"iv antibiotics",8).
-trace(271,"admission nc",9).
-trace(271,"leucocytes",10).
-trace(271,"crp",11).
-trace(271,"crp",12).
-trace(271,"leucocytes",13).
-trace(271,"admission nc",14).
-trace(271,"crp",15).
-trace(271,"leucocytes",16).
-trace(271,"crp",17).
-trace(271,"admission nc",18).
-trace(271,"admission nc",19).
-trace(271,"crp",20).
-trace(271,"crp",21).
-trace(271,"leucocytes",22).
-trace(271,"crp",23).
-trace(271,"leucocytes",24).
-trace(271,"crp",25).
-trace(271,"crp",26).
-trace(271,"leucocytes",27).
-trace(271,"crp",28).
-trace(271,"crp",29).
-trace(271,"admission nc",30).
-trace(271,"release d",31).
-
-trace(272,"er registration",1).
-trace(272,"er triage",2).
-trace(272,"leucocytes",3).
-trace(272,"crp",4).
-trace(272,"er sepsis triage",5).
-trace(272,"iv liquid",6).
-trace(272,"iv antibiotics",7).
-trace(272,"admission nc",8).
-trace(272,"admission nc",9).
-trace(272,"crp",10).
-trace(272,"leucocytes",11).
-trace(272,"crp",12).
-trace(272,"release a",13).
-
-trace(273,"er registration",1).
-trace(273,"er triage",2).
-trace(273,"crp",3).
-trace(273,"lacticacid",4).
-trace(273,"leucocytes",5).
-trace(273,"er sepsis triage",6).
-trace(273,"iv liquid",7).
-trace(273,"iv antibiotics",8).
-trace(273,"admission nc",9).
-trace(273,"admission nc",10).
-trace(273,"leucocytes",11).
-trace(273,"crp",12).
-trace(273,"release a",13).
-trace(273,"return er",14).
-
-trace(274,"er registration",1).
-trace(274,"leucocytes",2).
-trace(274,"crp",3).
-trace(274,"lacticacid",4).
-trace(274,"er triage",5).
-trace(274,"er sepsis triage",6).
-trace(274,"iv antibiotics",7).
-trace(274,"admission ic",8).
-trace(274,"lacticacid",9).
-trace(274,"leucocytes",10).
-trace(274,"crp",11).
-trace(274,"lacticacid",12).
-trace(274,"leucocytes",13).
-trace(274,"crp",14).
-trace(274,"crp",15).
-trace(274,"leucocytes",16).
-trace(274,"lacticacid",17).
-trace(274,"admission nc",18).
-trace(274,"leucocytes",19).
-trace(274,"crp",20).
-trace(274,"leucocytes",21).
-trace(274,"crp",22).
-trace(274,"release a",23).
-
-trace(275,"er registration",1).
-trace(275,"er triage",2).
-trace(275,"er sepsis triage",3).
-trace(275,"leucocytes",4).
-trace(275,"crp",5).
-trace(275,"lacticacid",6).
-trace(275,"iv liquid",7).
-trace(275,"iv antibiotics",8).
-trace(275,"admission nc",9).
-trace(275,"lacticacid",10).
-trace(275,"crp",11).
-trace(275,"crp",12).
-trace(275,"lacticacid",13).
-trace(275,"leucocytes",14).
-trace(275,"leucocytes",15).
-trace(275,"crp",16).
-trace(275,"leucocytes",17).
-trace(275,"crp",18).
-trace(275,"release b",19).
-
-trace(276,"er registration",1).
-trace(276,"er triage",2).
-trace(276,"er sepsis triage",3).
-trace(276,"leucocytes",4).
-trace(276,"crp",5).
-trace(276,"lacticacid",6).
-trace(276,"iv antibiotics",7).
-trace(276,"iv liquid",8).
-trace(276,"admission nc",9).
-trace(276,"leucocytes",10).
-trace(276,"crp",11).
-trace(276,"leucocytes",12).
-trace(276,"crp",13).
-trace(276,"release a",14).
-
-trace(277,"er registration",1).
-trace(277,"er triage",2).
-trace(277,"er sepsis triage",3).
-trace(277,"lacticacid",4).
-trace(277,"crp",5).
-trace(277,"leucocytes",6).
-trace(277,"iv antibiotics",7).
-
-trace(278,"er registration",1).
-trace(278,"er triage",2).
-trace(278,"lacticacid",3).
-trace(278,"crp",4).
-trace(278,"leucocytes",5).
-trace(278,"iv liquid",6).
-trace(278,"er sepsis triage",7).
-trace(278,"admission nc",8).
-trace(278,"iv antibiotics",9).
-trace(278,"crp",10).
-trace(278,"crp",11).
-trace(278,"leucocytes",12).
-trace(278,"crp",13).
-trace(278,"leucocytes",14).
-trace(278,"release a",15).
-trace(278,"return er",16).
-
-trace(279,"iv liquid",1).
-trace(279,"er registration",2).
-trace(279,"er triage",3).
-trace(279,"er sepsis triage",4).
-trace(279,"iv antibiotics",5).
-trace(279,"leucocytes",6).
-trace(279,"lacticacid",7).
-trace(279,"crp",8).
-trace(279,"admission nc",9).
-trace(279,"leucocytes",10).
-trace(279,"crp",11).
-trace(279,"leucocytes",12).
-trace(279,"crp",13).
-trace(279,"release a",14).
-trace(279,"return er",15).
-
-trace(280,"er registration",1).
-trace(280,"er triage",2).
-trace(280,"er sepsis triage",3).
-trace(280,"leucocytes",4).
-trace(280,"lacticacid",5).
-trace(280,"crp",6).
-trace(280,"iv liquid",7).
-trace(280,"iv antibiotics",8).
-trace(280,"admission nc",9).
-trace(280,"leucocytes",10).
-trace(280,"leucocytes",11).
-trace(280,"crp",12).
-trace(280,"crp",13).
-trace(280,"crp",14).
-trace(280,"release a",15).
-trace(280,"return er",16).
-
-trace(281,"er registration",1).
-trace(281,"er triage",2).
-trace(281,"er sepsis triage",3).
-trace(281,"lacticacid",4).
-trace(281,"crp",5).
-trace(281,"leucocytes",6).
-trace(281,"iv liquid",7).
-trace(281,"iv antibiotics",8).
-trace(281,"admission nc",9).
-trace(281,"admission nc",10).
-trace(281,"crp",11).
-trace(281,"leucocytes",12).
-trace(281,"release a",13).
-
-trace(282,"er registration",1).
-trace(282,"er triage",2).
-trace(282,"er sepsis triage",3).
-trace(282,"lacticacid",4).
-trace(282,"leucocytes",5).
-trace(282,"crp",6).
-trace(282,"iv liquid",7).
-trace(282,"iv antibiotics",8).
-trace(282,"admission nc",9).
-trace(282,"leucocytes",10).
-trace(282,"leucocytes",11).
-trace(282,"release a",12).
-trace(282,"return er",13).
-
-trace(283,"er registration",1).
-trace(283,"er triage",2).
-trace(283,"er sepsis triage",3).
-trace(283,"crp",4).
-trace(283,"leucocytes",5).
-trace(283,"admission nc",6).
-trace(283,"leucocytes",7).
-trace(283,"crp",8).
-trace(283,"admission nc",9).
-trace(283,"leucocytes",10).
-trace(283,"crp",11).
-trace(283,"release a",12).
-
-trace(284,"er registration",1).
-trace(284,"er triage",2).
-trace(284,"er sepsis triage",3).
-trace(284,"iv liquid",4).
-trace(284,"iv antibiotics",5).
-trace(284,"lacticacid",6).
-trace(284,"leucocytes",7).
-trace(284,"crp",8).
-trace(284,"admission nc",9).
-trace(284,"leucocytes",10).
-trace(284,"crp",11).
-trace(284,"admission nc",12).
-trace(284,"crp",13).
-trace(284,"leucocytes",14).
-trace(284,"crp",15).
-trace(284,"release a",16).
-
-trace(285,"er registration",1).
-trace(285,"er triage",2).
-trace(285,"er sepsis triage",3).
-trace(285,"iv liquid",4).
-trace(285,"leucocytes",5).
-trace(285,"crp",6).
-trace(285,"lacticacid",7).
-trace(285,"iv antibiotics",8).
-trace(285,"admission nc",9).
-trace(285,"crp",10).
-trace(285,"leucocytes",11).
-
-trace(286,"er registration",1).
-trace(286,"er triage",2).
-trace(286,"er sepsis triage",3).
-trace(286,"iv liquid",4).
-trace(286,"iv antibiotics",5).
-trace(286,"crp",6).
-trace(286,"leucocytes",7).
-trace(286,"lacticacid",8).
-trace(286,"admission nc",9).
-trace(286,"crp",10).
-trace(286,"leucocytes",11).
-trace(286,"release a",12).
-trace(286,"return er",13).
-
-trace(287,"er registration",1).
-trace(287,"er triage",2).
-trace(287,"er sepsis triage",3).
-trace(287,"crp",4).
-trace(287,"leucocytes",5).
-
-trace(288,"er registration",1).
-trace(288,"lacticacid",2).
-trace(288,"leucocytes",3).
-trace(288,"crp",4).
-trace(288,"er triage",5).
-trace(288,"er sepsis triage",6).
-trace(288,"iv antibiotics",7).
-trace(288,"iv liquid",8).
-trace(288,"admission nc",9).
-trace(288,"crp",10).
-trace(288,"leucocytes",11).
-trace(288,"release a",12).
-trace(288,"return er",13).
-
-trace(289,"er registration",1).
-trace(289,"er triage",2).
-trace(289,"er sepsis triage",3).
-trace(289,"iv liquid",4).
-trace(289,"leucocytes",5).
-trace(289,"crp",6).
-trace(289,"lacticacid",7).
-trace(289,"iv antibiotics",8).
-trace(289,"admission ic",9).
-trace(289,"leucocytes",10).
-trace(289,"crp",11).
-trace(289,"lacticacid",12).
-trace(289,"crp",13).
-trace(289,"lacticacid",14).
-trace(289,"leucocytes",15).
-trace(289,"leucocytes",16).
-trace(289,"lacticacid",17).
-trace(289,"crp",18).
-trace(289,"admission nc",19).
-trace(289,"release b",20).
-
-trace(290,"er registration",1).
-trace(290,"er triage",2).
-trace(290,"er sepsis triage",3).
-trace(290,"iv liquid",4).
-trace(290,"iv antibiotics",5).
-trace(290,"leucocytes",6).
-trace(290,"crp",7).
-trace(290,"lacticacid",8).
-trace(290,"admission nc",9).
-trace(290,"crp",10).
-trace(290,"crp",11).
-trace(290,"leucocytes",12).
-trace(290,"leucocytes",13).
-trace(290,"crp",14).
-trace(290,"crp",15).
-trace(290,"leucocytes",16).
-trace(290,"release a",17).
-
-trace(291,"leucocytes",1).
-trace(291,"crp",2).
-trace(291,"er registration",3).
-trace(291,"er triage",4).
-trace(291,"er sepsis triage",5).
-trace(291,"iv liquid",6).
-trace(291,"lacticacid",7).
-trace(291,"leucocytes",8).
-trace(291,"crp",9).
-trace(291,"iv antibiotics",10).
-trace(291,"admission nc",11).
-trace(291,"leucocytes",12).
-trace(291,"crp",13).
-trace(291,"admission nc",14).
-trace(291,"crp",15).
-trace(291,"leucocytes",16).
-trace(291,"leucocytes",17).
-trace(291,"leucocytes",18).
-trace(291,"crp",19).
-trace(291,"leucocytes",20).
-trace(291,"leucocytes",21).
-trace(291,"leucocytes",22).
-trace(291,"leucocytes",23).
-trace(291,"leucocytes",24).
-trace(291,"crp",25).
-trace(291,"leucocytes",26).
-trace(291,"leucocytes",27).
-trace(291,"leucocytes",28).
-trace(291,"leucocytes",29).
-trace(291,"leucocytes",30).
-trace(291,"leucocytes",31).
-trace(291,"crp",32).
-trace(291,"crp",33).
-trace(291,"leucocytes",34).
-trace(291,"leucocytes",35).
-trace(291,"crp",36).
-trace(291,"leucocytes",37).
-trace(291,"crp",38).
-trace(291,"crp",39).
-trace(291,"leucocytes",40).
-trace(291,"leucocytes",41).
-trace(291,"crp",42).
-trace(291,"leucocytes",43).
-trace(291,"leucocytes",44).
-trace(291,"crp",45).
-trace(291,"leucocytes",46).
-trace(291,"crp",47).
-trace(291,"leucocytes",48).
-trace(291,"crp",49).
-trace(291,"leucocytes",50).
-trace(291,"leucocytes",51).
-trace(291,"leucocytes",52).
-trace(291,"crp",53).
-trace(291,"crp",54).
-trace(291,"leucocytes",55).
-trace(291,"crp",56).
-trace(291,"leucocytes",57).
-trace(291,"leucocytes",58).
-trace(291,"crp",59).
-trace(291,"leucocytes",60).
-trace(291,"admission ic",61).
-trace(291,"leucocytes",62).
-trace(291,"crp",63).
-trace(291,"lacticacid",64).
-trace(291,"crp",65).
-trace(291,"lacticacid",66).
-trace(291,"leucocytes",67).
-trace(291,"lacticacid",68).
-trace(291,"leucocytes",69).
-trace(291,"crp",70).
-trace(291,"leucocytes",71).
-trace(291,"crp",72).
-trace(291,"lacticacid",73).
-trace(291,"admission nc",74).
-trace(291,"leucocytes",75).
-trace(291,"leucocytes",76).
-trace(291,"leucocytes",77).
-trace(291,"leucocytes",78).
-trace(291,"crp",79).
-trace(291,"leucocytes",80).
-trace(291,"leucocytes",81).
-trace(291,"crp",82).
-trace(291,"leucocytes",83).
-trace(291,"leucocytes",84).
-trace(291,"crp",85).
-trace(291,"crp",86).
-trace(291,"leucocytes",87).
-trace(291,"release d",88).
-
-trace(292,"er registration",1).
-trace(292,"er triage",2).
-trace(292,"er sepsis triage",3).
-trace(292,"crp",4).
-trace(292,"lacticacid",5).
-trace(292,"leucocytes",6).
-trace(292,"iv liquid",7).
-trace(292,"iv antibiotics",8).
-trace(292,"admission nc",9).
-trace(292,"release c",10).
-
-trace(293,"er registration",1).
-trace(293,"er triage",2).
-trace(293,"er sepsis triage",3).
-trace(293,"leucocytes",4).
-trace(293,"crp",5).
-trace(293,"lacticacid",6).
-
-trace(294,"er registration",1).
-trace(294,"er triage",2).
-trace(294,"er sepsis triage",3).
-trace(294,"leucocytes",4).
-trace(294,"crp",5).
-trace(294,"lacticacid",6).
-trace(294,"iv antibiotics",7).
-trace(294,"iv liquid",8).
-trace(294,"admission ic",9).
-trace(294,"crp",10).
-trace(294,"lacticacid",11).
-trace(294,"leucocytes",12).
-trace(294,"lacticacid",13).
-trace(294,"lacticacid",14).
-trace(294,"lacticacid",15).
-trace(294,"crp",16).
-trace(294,"lacticacid",17).
-trace(294,"leucocytes",18).
-trace(294,"lacticacid",19).
-trace(294,"lacticacid",20).
-trace(294,"lacticacid",21).
-trace(294,"lacticacid",22).
-trace(294,"lacticacid",23).
-trace(294,"leucocytes",24).
-trace(294,"crp",25).
-trace(294,"admission nc",26).
-trace(294,"crp",27).
-trace(294,"leucocytes",28).
-trace(294,"leucocytes",29).
-trace(294,"crp",30).
-trace(294,"release a",31).
-
-trace(295,"er registration",1).
-trace(295,"er triage",2).
-trace(295,"lacticacid",3).
-trace(295,"leucocytes",4).
-trace(295,"crp",5).
-trace(295,"er sepsis triage",6).
-trace(295,"iv liquid",7).
-trace(295,"iv antibiotics",8).
-trace(295,"admission nc",9).
-trace(295,"crp",10).
-trace(295,"leucocytes",11).
-trace(295,"crp",12).
-trace(295,"leucocytes",13).
-trace(295,"release a",14).
-
-trace(296,"er registration",1).
-trace(296,"er triage",2).
-trace(296,"er sepsis triage",3).
-trace(296,"crp",4).
-trace(296,"lacticacid",5).
-trace(296,"leucocytes",6).
-trace(296,"iv liquid",7).
-trace(296,"iv antibiotics",8).
-trace(296,"admission nc",9).
-trace(296,"crp",10).
-trace(296,"leucocytes",11).
-trace(296,"release a",12).
-
-trace(297,"er registration",1).
-trace(297,"er triage",2).
-trace(297,"er sepsis triage",3).
-trace(297,"leucocytes",4).
-trace(297,"crp",5).
-trace(297,"lacticacid",6).
-trace(297,"iv liquid",7).
-trace(297,"iv antibiotics",8).
-trace(297,"admission ic",9).
-trace(297,"lacticacid",10).
-trace(297,"leucocytes",11).
-trace(297,"crp",12).
-trace(297,"leucocytes",13).
-trace(297,"crp",14).
-trace(297,"lacticacid",15).
-trace(297,"admission nc",16).
-trace(297,"leucocytes",17).
-trace(297,"crp",18).
-trace(297,"crp",19).
-trace(297,"leucocytes",20).
-trace(297,"leucocytes",21).
-trace(297,"leucocytes",22).
-trace(297,"crp",23).
-trace(297,"leucocytes",24).
-trace(297,"crp",25).
-trace(297,"release a",26).
-trace(297,"return er",27).
-
-trace(298,"er registration",1).
-trace(298,"er triage",2).
-trace(298,"er sepsis triage",3).
-trace(298,"crp",4).
-trace(298,"lacticacid",5).
-trace(298,"leucocytes",6).
-trace(298,"iv liquid",7).
-trace(298,"iv antibiotics",8).
-trace(298,"admission nc",9).
-trace(298,"leucocytes",10).
-trace(298,"crp",11).
-trace(298,"crp",12).
-trace(298,"leucocytes",13).
-trace(298,"leucocytes",14).
-trace(298,"crp",15).
-trace(298,"crp",16).
-trace(298,"crp",17).
-trace(298,"release a",18).
-
-trace(299,"er registration",1).
-trace(299,"er triage",2).
-trace(299,"er sepsis triage",3).
-trace(299,"lacticacid",4).
-trace(299,"crp",5).
-trace(299,"leucocytes",6).
-trace(299,"iv antibiotics",7).
-trace(299,"iv liquid",8).
-trace(299,"admission nc",9).
-trace(299,"leucocytes",10).
-trace(299,"crp",11).
-trace(299,"leucocytes",12).
-trace(299,"leucocytes",13).
-trace(299,"crp",14).
-trace(299,"crp",15).
-trace(299,"leucocytes",16).
-trace(299,"leucocytes",17).
-trace(299,"release a",18).
-trace(299,"return er",19).
-
-trace(300,"er registration",1).
-trace(300,"er triage",2).
-trace(300,"er sepsis triage",3).
-trace(300,"lacticacid",4).
-trace(300,"leucocytes",5).
-trace(300,"crp",6).
-trace(300,"iv liquid",7).
-trace(300,"iv antibiotics",8).
-trace(300,"admission nc",9).
-trace(300,"crp",10).
-trace(300,"leucocytes",11).
-trace(300,"leucocytes",12).
-trace(300,"crp",13).
-trace(300,"leucocytes",14).
-trace(300,"crp",15).
-trace(300,"leucocytes",16).
-trace(300,"leucocytes",17).
-trace(300,"crp",18).
-trace(300,"leucocytes",19).
-trace(300,"leucocytes",20).
-trace(300,"crp",21).
-trace(300,"release a",22).
-trace(300,"return er",23).
-
-trace(301,"leucocytes",1).
-trace(301,"crp",2).
-trace(301,"er registration",3).
-trace(301,"er triage",4).
-trace(301,"er sepsis triage",5).
-trace(301,"iv antibiotics",6).
-trace(301,"admission nc",7).
-trace(301,"leucocytes",8).
-trace(301,"crp",9).
-trace(301,"leucocytes",10).
-trace(301,"crp",11).
-trace(301,"crp",12).
-trace(301,"crp",13).
-trace(301,"leucocytes",14).
-trace(301,"crp",15).
-trace(301,"release a",16).
-
-trace(302,"er registration",1).
-trace(302,"er triage",2).
-trace(302,"er sepsis triage",3).
-trace(302,"iv liquid",4).
-trace(302,"iv antibiotics",5).
-trace(302,"lacticacid",6).
-trace(302,"leucocytes",7).
-trace(302,"crp",8).
-trace(302,"admission nc",9).
-trace(302,"crp",10).
-trace(302,"leucocytes",11).
-trace(302,"leucocytes",12).
-trace(302,"crp",13).
-trace(302,"leucocytes",14).
-trace(302,"release a",15).
-
-trace(303,"er registration",1).
-trace(303,"er triage",2).
-trace(303,"lacticacid",3).
-trace(303,"crp",4).
-trace(303,"leucocytes",5).
-trace(303,"er sepsis triage",6).
-trace(303,"iv liquid",7).
-trace(303,"iv antibiotics",8).
-trace(303,"admission nc",9).
-trace(303,"crp",10).
-trace(303,"leucocytes",11).
-trace(303,"leucocytes",12).
-trace(303,"crp",13).
-trace(303,"admission nc",14).
-trace(303,"leucocytes",15).
-trace(303,"crp",16).
-trace(303,"leucocytes",17).
-trace(303,"leucocytes",18).
-trace(303,"crp",19).
-trace(303,"leucocytes",20).
-trace(303,"crp",21).
-trace(303,"leucocytes",22).
-trace(303,"crp",23).
-trace(303,"leucocytes",24).
-trace(303,"crp",25).
-trace(303,"crp",26).
-trace(303,"leucocytes",27).
-trace(303,"crp",28).
-trace(303,"leucocytes",29).
-trace(303,"crp",30).
-trace(303,"release c",31).
-trace(303,"return er",32).
-
-trace(304,"er registration",1).
-trace(304,"er triage",2).
-trace(304,"er sepsis triage",3).
-trace(304,"crp",4).
-trace(304,"leucocytes",5).
-
-trace(305,"er registration",1).
-trace(305,"er triage",2).
-trace(305,"er sepsis triage",3).
-trace(305,"leucocytes",4).
-trace(305,"crp",5).
-trace(305,"lacticacid",6).
-trace(305,"admission nc",7).
-trace(305,"leucocytes",8).
-trace(305,"crp",9).
-trace(305,"admission nc",10).
-trace(305,"crp",11).
-trace(305,"leucocytes",12).
-trace(305,"leucocytes",13).
-trace(305,"crp",14).
-trace(305,"leucocytes",15).
-trace(305,"crp",16).
-trace(305,"release a",17).
-trace(305,"return er",18).
-
-trace(306,"er registration",1).
-trace(306,"er triage",2).
-trace(306,"lacticacid",3).
-trace(306,"crp",4).
-trace(306,"leucocytes",5).
-trace(306,"er sepsis triage",6).
-trace(306,"iv liquid",7).
-trace(306,"iv antibiotics",8).
-trace(306,"admission nc",9).
-trace(306,"leucocytes",10).
-trace(306,"crp",11).
-trace(306,"crp",12).
-trace(306,"leucocytes",13).
-trace(306,"admission nc",14).
-trace(306,"leucocytes",15).
-trace(306,"crp",16).
-trace(306,"admission nc",17).
-trace(306,"leucocytes",18).
-trace(306,"crp",19).
-trace(306,"release a",20).
-
-trace(307,"leucocytes",1).
-trace(307,"crp",2).
-trace(307,"er registration",3).
-trace(307,"er triage",4).
-trace(307,"er sepsis triage",5).
-trace(307,"iv antibiotics",6).
-trace(307,"admission nc",7).
-trace(307,"release a",8).
-
-trace(308,"er registration",1).
-trace(308,"er triage",2).
-trace(308,"er sepsis triage",3).
-trace(308,"leucocytes",4).
-trace(308,"lacticacid",5).
-trace(308,"crp",6).
-
-trace(309,"er registration",1).
-trace(309,"er triage",2).
-trace(309,"er sepsis triage",3).
-trace(309,"lacticacid",4).
-trace(309,"crp",5).
-trace(309,"leucocytes",6).
-trace(309,"iv liquid",7).
-trace(309,"iv antibiotics",8).
-trace(309,"admission nc",9).
-trace(309,"crp",10).
-trace(309,"leucocytes",11).
-trace(309,"leucocytes",12).
-trace(309,"crp",13).
-trace(309,"crp",14).
-trace(309,"leucocytes",15).
-trace(309,"release a",16).
-trace(309,"return er",17).
-
-trace(310,"er registration",1).
-trace(310,"er triage",2).
-trace(310,"er sepsis triage",3).
-trace(310,"iv liquid",4).
-trace(310,"leucocytes",5).
-trace(310,"crp",6).
-trace(310,"iv antibiotics",7).
-trace(310,"admission nc",8).
-trace(310,"crp",9).
-trace(310,"leucocytes",10).
-trace(310,"release a",11).
-
-trace(311,"er registration",1).
-trace(311,"er triage",2).
-trace(311,"lacticacid",3).
-trace(311,"leucocytes",4).
-trace(311,"crp",5).
-trace(311,"er sepsis triage",6).
-trace(311,"iv liquid",7).
-trace(311,"leucocytes",8).
-trace(311,"iv antibiotics",9).
-trace(311,"admission nc",10).
-trace(311,"admission nc",11).
-trace(311,"leucocytes",12).
-trace(311,"crp",13).
-trace(311,"crp",14).
-trace(311,"leucocytes",15).
-trace(311,"leucocytes",16).
-trace(311,"crp",17).
-trace(311,"release a",18).
-trace(311,"return er",19).
-
-trace(312,"er registration",1).
-trace(312,"er triage",2).
-trace(312,"er sepsis triage",3).
-trace(312,"leucocytes",4).
-trace(312,"crp",5).
-trace(312,"iv antibiotics",6).
-trace(312,"admission nc",7).
-trace(312,"admission nc",8).
-trace(312,"admission nc",9).
-trace(312,"crp",10).
-trace(312,"release a",11).
-
-trace(313,"er registration",1).
-trace(313,"er triage",2).
-trace(313,"er sepsis triage",3).
-trace(313,"leucocytes",4).
-
-trace(314,"er registration",1).
-trace(314,"er triage",2).
-trace(314,"er sepsis triage",3).
-trace(314,"leucocytes",4).
-trace(314,"crp",5).
-trace(314,"lacticacid",6).
-trace(314,"iv antibiotics",7).
-trace(314,"iv liquid",8).
-trace(314,"admission nc",9).
-trace(314,"leucocytes",10).
-trace(314,"release a",11).
-
-trace(315,"er registration",1).
-trace(315,"er triage",2).
-trace(315,"er sepsis triage",3).
-trace(315,"iv liquid",4).
-trace(315,"leucocytes",5).
-trace(315,"lacticacid",6).
-trace(315,"crp",7).
-trace(315,"iv antibiotics",8).
-trace(315,"admission nc",9).
-trace(315,"admission nc",10).
-trace(315,"leucocytes",11).
-trace(315,"leucocytes",12).
-trace(315,"crp",13).
-trace(315,"release a",14).
-
-trace(316,"er registration",1).
-trace(316,"er triage",2).
-trace(316,"er sepsis triage",3).
-trace(316,"leucocytes",4).
-trace(316,"lacticacid",5).
-trace(316,"crp",6).
-trace(316,"admission nc",7).
-trace(316,"iv liquid",8).
-trace(316,"iv antibiotics",9).
-
-trace(317,"er registration",1).
-trace(317,"er triage",2).
-trace(317,"er sepsis triage",3).
-trace(317,"lacticacid",4).
-trace(317,"leucocytes",5).
-trace(317,"crp",6).
-trace(317,"iv antibiotics",7).
-trace(317,"admission nc",8).
-trace(317,"admission nc",9).
-trace(317,"crp",10).
-trace(317,"leucocytes",11).
-trace(317,"crp",12).
-trace(317,"leucocytes",13).
-trace(317,"release a",14).
-trace(317,"return er",15).
-
-trace(318,"er registration",1).
-trace(318,"er triage",2).
-trace(318,"er sepsis triage",3).
-trace(318,"crp",4).
-trace(318,"lacticacid",5).
-trace(318,"leucocytes",6).
-trace(318,"iv liquid",7).
-trace(318,"iv antibiotics",8).
-trace(318,"admission nc",9).
-trace(318,"leucocytes",10).
-trace(318,"crp",11).
-trace(318,"leucocytes",12).
-trace(318,"crp",13).
-trace(318,"release a",14).
-trace(318,"return er",15).
-
-trace(319,"er registration",1).
-trace(319,"er triage",2).
-trace(319,"er sepsis triage",3).
-trace(319,"iv antibiotics",4).
-trace(319,"leucocytes",5).
-trace(319,"crp",6).
-trace(319,"lacticacid",7).
-trace(319,"iv liquid",8).
-trace(319,"admission nc",9).
-trace(319,"crp",10).
-trace(319,"leucocytes",11).
-trace(319,"crp",12).
-trace(319,"release a",13).
-
-trace(320,"er registration",1).
-trace(320,"er triage",2).
-trace(320,"er sepsis triage",3).
-trace(320,"lacticacid",4).
-trace(320,"crp",5).
-trace(320,"leucocytes",6).
-trace(320,"iv liquid",7).
-trace(320,"iv antibiotics",8).
-trace(320,"admission nc",9).
-trace(320,"release a",10).
-
-trace(321,"er registration",1).
-trace(321,"er triage",2).
-trace(321,"leucocytes",3).
-trace(321,"crp",4).
-trace(321,"er sepsis triage",5).
-
-trace(322,"er registration",1).
-trace(322,"er triage",2).
-trace(322,"er sepsis triage",3).
-trace(322,"lacticacid",4).
-trace(322,"leucocytes",5).
-trace(322,"crp",6).
-trace(322,"iv antibiotics",7).
-trace(322,"iv liquid",8).
-trace(322,"admission nc",9).
-trace(322,"leucocytes",10).
-trace(322,"leucocytes",11).
-trace(322,"crp",12).
-trace(322,"leucocytes",13).
-trace(322,"leucocytes",14).
-trace(322,"crp",15).
-trace(322,"leucocytes",16).
-trace(322,"crp",17).
-trace(322,"crp",18).
-trace(322,"leucocytes",19).
-trace(322,"leucocytes",20).
-trace(322,"crp",21).
-trace(322,"release a",22).
-
-trace(323,"er registration",1).
-trace(323,"er triage",2).
-trace(323,"er sepsis triage",3).
-trace(323,"leucocytes",4).
-trace(323,"lacticacid",5).
-trace(323,"crp",6).
-trace(323,"iv liquid",7).
-trace(323,"iv antibiotics",8).
-trace(323,"admission nc",9).
-trace(323,"crp",10).
-trace(323,"leucocytes",11).
-trace(323,"leucocytes",12).
-trace(323,"crp",13).
-trace(323,"admission ic",14).
-trace(323,"leucocytes",15).
-trace(323,"crp",16).
-trace(323,"lacticacid",17).
-trace(323,"lacticacid",18).
-trace(323,"crp",19).
-trace(323,"leucocytes",20).
-trace(323,"lacticacid",21).
-trace(323,"leucocytes",22).
-trace(323,"crp",23).
-trace(323,"admission nc",24).
-trace(323,"leucocytes",25).
-trace(323,"leucocytes",26).
-trace(323,"crp",27).
-trace(323,"release a",28).
-trace(323,"return er",29).
-
-trace(324,"er registration",1).
-trace(324,"er triage",2).
-trace(324,"er sepsis triage",3).
-trace(324,"crp",4).
-trace(324,"leucocytes",5).
-trace(324,"lacticacid",6).
-
-trace(325,"er registration",1).
-trace(325,"er triage",2).
-trace(325,"er sepsis triage",3).
-trace(325,"crp",4).
-trace(325,"leucocytes",5).
-trace(325,"admission nc",6).
-trace(325,"leucocytes",7).
-trace(325,"crp",8).
-trace(325,"crp",9).
-trace(325,"leucocytes",10).
-trace(325,"release a",11).
-trace(325,"return er",12).
-
-trace(326,"er registration",1).
-trace(326,"lacticacid",2).
-trace(326,"leucocytes",3).
-trace(326,"crp",4).
-trace(326,"er triage",5).
-trace(326,"er sepsis triage",6).
-
-trace(327,"er registration",1).
-trace(327,"er triage",2).
-trace(327,"er sepsis triage",3).
-trace(327,"crp",4).
-trace(327,"lacticacid",5).
-trace(327,"leucocytes",6).
-
-trace(328,"er registration",1).
-trace(328,"er triage",2).
-trace(328,"er sepsis triage",3).
-trace(328,"leucocytes",4).
-trace(328,"crp",5).
-trace(328,"admission nc",6).
-trace(328,"release a",7).
-
-trace(329,"er registration",1).
-trace(329,"er triage",2).
-trace(329,"leucocytes",3).
-trace(329,"crp",4).
-trace(329,"lacticacid",5).
-trace(329,"er sepsis triage",6).
-trace(329,"iv antibiotics",7).
-trace(329,"iv liquid",8).
-trace(329,"admission nc",9).
-trace(329,"admission nc",10).
-trace(329,"crp",11).
-trace(329,"leucocytes",12).
-trace(329,"leucocytes",13).
-trace(329,"crp",14).
-trace(329,"release a",15).
-trace(329,"return er",16).
-
-trace(330,"er registration",1).
-trace(330,"er triage",2).
-trace(330,"er sepsis triage",3).
-trace(330,"iv liquid",4).
-trace(330,"iv antibiotics",5).
-trace(330,"crp",6).
-trace(330,"leucocytes",7).
-trace(330,"lacticacid",8).
-trace(330,"admission nc",9).
-trace(330,"leucocytes",10).
-trace(330,"crp",11).
-trace(330,"admission nc",12).
-trace(330,"leucocytes",13).
-trace(330,"crp",14).
-trace(330,"leucocytes",15).
-trace(330,"crp",16).
-trace(330,"release a",17).
-
-trace(331,"er registration",1).
-trace(331,"leucocytes",2).
-trace(331,"lacticacid",3).
-trace(331,"crp",4).
-trace(331,"er triage",5).
-trace(331,"er sepsis triage",6).
-trace(331,"iv antibiotics",7).
-
-trace(332,"er registration",1).
-trace(332,"er triage",2).
-trace(332,"er sepsis triage",3).
-trace(332,"leucocytes",4).
-trace(332,"crp",5).
-trace(332,"lacticacid",6).
-trace(332,"iv liquid",7).
-trace(332,"iv antibiotics",8).
-trace(332,"admission nc",9).
-trace(332,"leucocytes",10).
-trace(332,"crp",11).
-trace(332,"crp",12).
-trace(332,"leucocytes",13).
-trace(332,"release a",14).
-
-trace(333,"crp",1).
-trace(333,"leucocytes",2).
-trace(333,"er registration",3).
-trace(333,"er triage",4).
-trace(333,"er sepsis triage",5).
-trace(333,"admission nc",6).
-trace(333,"crp",7).
-trace(333,"crp",8).
-trace(333,"release a",9).
-
-trace(334,"er registration",1).
-trace(334,"er triage",2).
-trace(334,"er sepsis triage",3).
-trace(334,"crp",4).
-trace(334,"lacticacid",5).
-trace(334,"leucocytes",6).
-trace(334,"iv liquid",7).
-trace(334,"iv antibiotics",8).
-trace(334,"admission nc",9).
-trace(334,"leucocytes",10).
-trace(334,"leucocytes",11).
-trace(334,"crp",12).
-trace(334,"release a",13).
-trace(334,"return er",14).
-
-trace(335,"er registration",1).
-trace(335,"er triage",2).
-trace(335,"lacticacid",3).
-trace(335,"crp",4).
-trace(335,"leucocytes",5).
-trace(335,"er sepsis triage",6).
-trace(335,"iv liquid",7).
-trace(335,"iv antibiotics",8).
-trace(335,"admission nc",9).
-trace(335,"leucocytes",10).
-trace(335,"crp",11).
-trace(335,"lacticacid",12).
-trace(335,"crp",13).
-trace(335,"leucocytes",14).
-trace(335,"leucocytes",15).
-trace(335,"crp",16).
-trace(335,"release a",17).
-trace(335,"return er",18).
-
-trace(336,"er registration",1).
-trace(336,"er triage",2).
-trace(336,"er sepsis triage",3).
-trace(336,"iv liquid",4).
-trace(336,"iv antibiotics",5).
-trace(336,"leucocytes",6).
-trace(336,"lacticacid",7).
-trace(336,"crp",8).
-trace(336,"admission nc",9).
-trace(336,"leucocytes",10).
-trace(336,"crp",11).
-trace(336,"release a",12).
-trace(336,"return er",13).
-
-trace(337,"er registration",1).
-trace(337,"er triage",2).
-trace(337,"er sepsis triage",3).
-trace(337,"leucocytes",4).
-trace(337,"crp",5).
-
-trace(338,"er registration",1).
-trace(338,"er triage",2).
-trace(338,"leucocytes",3).
-trace(338,"crp",4).
-trace(338,"er sepsis triage",5).
-trace(338,"iv liquid",6).
-trace(338,"iv antibiotics",7).
-trace(338,"release b",8).
-trace(338,"admission nc",9).
-
-trace(339,"er registration",1).
-trace(339,"er triage",2).
-trace(339,"er sepsis triage",3).
-trace(339,"lacticacid",4).
-trace(339,"leucocytes",5).
-trace(339,"crp",6).
-trace(339,"iv antibiotics",7).
-trace(339,"admission nc",8).
-trace(339,"crp",9).
-trace(339,"leucocytes",10).
-trace(339,"admission nc",11).
-trace(339,"leucocytes",12).
-trace(339,"crp",13).
-trace(339,"crp",14).
-trace(339,"release a",15).
-
-trace(340,"er registration",1).
-trace(340,"er triage",2).
-trace(340,"crp",3).
-trace(340,"lacticacid",4).
-trace(340,"leucocytes",5).
-trace(340,"er sepsis triage",6).
-trace(340,"iv liquid",7).
-trace(340,"iv antibiotics",8).
-
-trace(341,"er registration",1).
-trace(341,"er triage",2).
-trace(341,"er sepsis triage",3).
-trace(341,"lacticacid",4).
-trace(341,"leucocytes",5).
-trace(341,"crp",6).
-trace(341,"iv liquid",7).
-trace(341,"iv antibiotics",8).
-trace(341,"admission ic",9).
-trace(341,"leucocytes",10).
-trace(341,"lacticacid",11).
-trace(341,"crp",12).
-trace(341,"leucocytes",13).
-trace(341,"crp",14).
-trace(341,"lacticacid",15).
-trace(341,"lacticacid",16).
-trace(341,"lacticacid",17).
-trace(341,"crp",18).
-trace(341,"leucocytes",19).
-trace(341,"admission nc",20).
-trace(341,"leucocytes",21).
-trace(341,"crp",22).
-trace(341,"leucocytes",23).
-trace(341,"crp",24).
-trace(341,"crp",25).
-trace(341,"leucocytes",26).
-trace(341,"crp",27).
-trace(341,"release a",28).
-trace(341,"return er",29).
-
-trace(342,"er registration",1).
-trace(342,"er sepsis triage",2).
-trace(342,"er triage",3).
-trace(342,"iv antibiotics",4).
-trace(342,"leucocytes",5).
-trace(342,"crp",6).
-trace(342,"iv liquid",7).
-trace(342,"admission nc",8).
-trace(342,"crp",9).
-trace(342,"leucocytes",10).
-trace(342,"crp",11).
-trace(342,"leucocytes",12).
-trace(342,"crp",13).
-trace(342,"crp",14).
-trace(342,"leucocytes",15).
-trace(342,"release a",16).
-
-trace(343,"er registration",1).
-trace(343,"er triage",2).
-trace(343,"er sepsis triage",3).
-trace(343,"iv antibiotics",4).
-trace(343,"leucocytes",5).
-trace(343,"lacticacid",6).
-trace(343,"crp",7).
-trace(343,"iv liquid",8).
-trace(343,"admission nc",9).
-trace(343,"leucocytes",10).
-trace(343,"crp",11).
-trace(343,"admission nc",12).
-trace(343,"release c",13).
-
-trace(344,"leucocytes",1).
-trace(344,"crp",2).
-trace(344,"er registration",3).
-trace(344,"er triage",4).
-trace(344,"er sepsis triage",5).
-trace(344,"admission nc",6).
-trace(344,"crp",7).
-trace(344,"leucocytes",8).
-trace(344,"admission nc",9).
-trace(344,"crp",10).
-trace(344,"leucocytes",11).
-trace(344,"crp",12).
-trace(344,"leucocytes",13).
-trace(344,"crp",14).
-trace(344,"release c",15).
-
-trace(345,"er registration",1).
-trace(345,"er sepsis triage",2).
-trace(345,"er triage",3).
-trace(345,"crp",4).
-trace(345,"leucocytes",5).
-trace(345,"lacticacid",6).
-trace(345,"lacticacid",7).
-trace(345,"iv liquid",8).
-trace(345,"iv antibiotics",9).
-trace(345,"admission ic",10).
-trace(345,"lacticacid",11).
-trace(345,"leucocytes",12).
-trace(345,"crp",13).
-trace(345,"lacticacid",14).
-trace(345,"crp",15).
-trace(345,"lacticacid",16).
-trace(345,"leucocytes",17).
-trace(345,"admission nc",18).
-trace(345,"leucocytes",19).
-trace(345,"crp",20).
-trace(345,"leucocytes",21).
-trace(345,"leucocytes",22).
-trace(345,"crp",23).
-trace(345,"leucocytes",24).
-trace(345,"crp",25).
-trace(345,"leucocytes",26).
-trace(345,"crp",27).
-trace(345,"leucocytes",28).
-trace(345,"crp",29).
-trace(345,"leucocytes",30).
-trace(345,"crp",31).
-trace(345,"leucocytes",32).
-trace(345,"leucocytes",33).
-trace(345,"crp",34).
-trace(345,"leucocytes",35).
-trace(345,"crp",36).
-trace(345,"release a",37).
-
-trace(346,"er registration",1).
-trace(346,"er triage",2).
-trace(346,"er sepsis triage",3).
-trace(346,"lacticacid",4).
-trace(346,"crp",5).
-trace(346,"leucocytes",6).
-trace(346,"admission nc",7).
-trace(346,"admission nc",8).
-trace(346,"leucocytes",9).
-trace(346,"crp",10).
-trace(346,"crp",11).
-trace(346,"leucocytes",12).
-trace(346,"release e",13).
-
-trace(347,"er registration",1).
-trace(347,"er triage",2).
-trace(347,"er sepsis triage",3).
-trace(347,"iv liquid",4).
-trace(347,"lacticacid",5).
-trace(347,"crp",6).
-trace(347,"leucocytes",7).
-trace(347,"iv antibiotics",8).
-trace(347,"admission nc",9).
-trace(347,"leucocytes",10).
-trace(347,"crp",11).
-trace(347,"admission ic",12).
-trace(347,"crp",13).
-trace(347,"leucocytes",14).
-trace(347,"lacticacid",15).
-trace(347,"leucocytes",16).
-trace(347,"leucocytes",17).
-trace(347,"lacticacid",18).
-trace(347,"leucocytes",19).
-trace(347,"crp",20).
-trace(347,"lacticacid",21).
-trace(347,"crp",22).
-trace(347,"leucocytes",23).
-trace(347,"lacticacid",24).
-trace(347,"crp",25).
-trace(347,"lacticacid",26).
-trace(347,"leucocytes",27).
-trace(347,"crp",28).
-trace(347,"lacticacid",29).
-trace(347,"leucocytes",30).
-trace(347,"lacticacid",31).
-trace(347,"leucocytes",32).
-trace(347,"crp",33).
-trace(347,"crp",34).
-trace(347,"leucocytes",35).
-trace(347,"lacticacid",36).
-trace(347,"crp",37).
-trace(347,"leucocytes",38).
-trace(347,"lacticacid",39).
-trace(347,"lacticacid",40).
-trace(347,"leucocytes",41).
-trace(347,"crp",42).
-trace(347,"lacticacid",43).
-trace(347,"crp",44).
-trace(347,"leucocytes",45).
-trace(347,"leucocytes",46).
-trace(347,"crp",47).
-trace(347,"lacticacid",48).
-trace(347,"crp",49).
-trace(347,"leucocytes",50).
-trace(347,"lacticacid",51).
-trace(347,"crp",52).
-trace(347,"leucocytes",53).
-trace(347,"lacticacid",54).
-trace(347,"lacticacid",55).
-trace(347,"leucocytes",56).
-trace(347,"crp",57).
-trace(347,"lacticacid",58).
-trace(347,"crp",59).
-trace(347,"leucocytes",60).
-trace(347,"lacticacid",61).
-trace(347,"leucocytes",62).
-trace(347,"crp",63).
-trace(347,"leucocytes",64).
-trace(347,"crp",65).
-trace(347,"leucocytes",66).
-trace(347,"lacticacid",67).
-trace(347,"leucocytes",68).
-trace(347,"lacticacid",69).
-trace(347,"crp",70).
-trace(347,"lacticacid",71).
-trace(347,"leucocytes",72).
-trace(347,"crp",73).
-trace(347,"crp",74).
-trace(347,"lacticacid",75).
-trace(347,"leucocytes",76).
-trace(347,"crp",77).
-trace(347,"leucocytes",78).
-trace(347,"lacticacid",79).
-trace(347,"crp",80).
-trace(347,"lacticacid",81).
-trace(347,"leucocytes",82).
-trace(347,"admission ic",83).
-trace(347,"crp",84).
-trace(347,"lacticacid",85).
-trace(347,"leucocytes",86).
-trace(347,"leucocytes",87).
-trace(347,"leucocytes",88).
-trace(347,"crp",89).
-trace(347,"lacticacid",90).
-trace(347,"lacticacid",91).
-trace(347,"crp",92).
-trace(347,"lacticacid",93).
-trace(347,"leucocytes",94).
-trace(347,"crp",95).
-trace(347,"leucocytes",96).
-trace(347,"lacticacid",97).
-trace(347,"crp",98).
-trace(347,"lacticacid",99).
-trace(347,"leucocytes",100).
-trace(347,"crp",101).
-trace(347,"lacticacid",102).
-trace(347,"leucocytes",103).
-trace(347,"lacticacid",104).
-trace(347,"crp",105).
-trace(347,"leucocytes",106).
-trace(347,"lacticacid",107).
-trace(347,"leucocytes",108).
-trace(347,"crp",109).
-trace(347,"crp",110).
-trace(347,"leucocytes",111).
-trace(347,"lacticacid",112).
-trace(347,"leucocytes",113).
-trace(347,"crp",114).
-trace(347,"lacticacid",115).
-trace(347,"crp",116).
-trace(347,"leucocytes",117).
-trace(347,"lacticacid",118).
-trace(347,"lacticacid",119).
-trace(347,"leucocytes",120).
-trace(347,"crp",121).
-trace(347,"lacticacid",122).
-trace(347,"leucocytes",123).
-trace(347,"crp",124).
-trace(347,"lacticacid",125).
-trace(347,"leucocytes",126).
-trace(347,"crp",127).
-trace(347,"lacticacid",128).
-trace(347,"crp",129).
-trace(347,"leucocytes",130).
-trace(347,"lacticacid",131).
-trace(347,"crp",132).
-trace(347,"leucocytes",133).
-trace(347,"leucocytes",134).
-trace(347,"crp",135).
-trace(347,"lacticacid",136).
-trace(347,"lacticacid",137).
-trace(347,"leucocytes",138).
-trace(347,"crp",139).
-trace(347,"crp",140).
-trace(347,"lacticacid",141).
-trace(347,"leucocytes",142).
-trace(347,"leucocytes",143).
-trace(347,"crp",144).
-trace(347,"lacticacid",145).
-trace(347,"lacticacid",146).
-trace(347,"crp",147).
-trace(347,"leucocytes",148).
-trace(347,"crp",149).
-trace(347,"lacticacid",150).
-trace(347,"leucocytes",151).
-trace(347,"crp",152).
-trace(347,"lacticacid",153).
-trace(347,"leucocytes",154).
-trace(347,"leucocytes",155).
-trace(347,"lacticacid",156).
-trace(347,"crp",157).
-trace(347,"leucocytes",158).
-trace(347,"lacticacid",159).
-trace(347,"crp",160).
-trace(347,"crp",161).
-trace(347,"lacticacid",162).
-trace(347,"leucocytes",163).
-trace(347,"leucocytes",164).
-trace(347,"admission nc",165).
-trace(347,"leucocytes",166).
-trace(347,"crp",167).
-trace(347,"leucocytes",168).
-trace(347,"release a",169).
-trace(347,"return er",170).
-
-trace(348,"er registration",1).
-trace(348,"er triage",2).
-trace(348,"er sepsis triage",3).
-trace(348,"iv liquid",4).
-trace(348,"lacticacid",5).
-trace(348,"leucocytes",6).
-trace(348,"crp",7).
-trace(348,"iv antibiotics",8).
-trace(348,"admission ic",9).
-trace(348,"crp",10).
-trace(348,"leucocytes",11).
-trace(348,"lacticacid",12).
-trace(348,"leucocytes",13).
-trace(348,"lacticacid",14).
-trace(348,"crp",15).
-trace(348,"crp",16).
-trace(348,"leucocytes",17).
-trace(348,"lacticacid",18).
-trace(348,"lacticacid",19).
-trace(348,"crp",20).
-trace(348,"leucocytes",21).
-trace(348,"admission nc",22).
-trace(348,"leucocytes",23).
-trace(348,"crp",24).
-trace(348,"crp",25).
-trace(348,"leucocytes",26).
-trace(348,"crp",27).
-trace(348,"leucocytes",28).
-trace(348,"crp",29).
-trace(348,"leucocytes",30).
-trace(348,"leucocytes",31).
-trace(348,"crp",32).
-trace(348,"crp",33).
-trace(348,"leucocytes",34).
-trace(348,"release a",35).
-
-trace(349,"er registration",1).
-trace(349,"er triage",2).
-trace(349,"er sepsis triage",3).
-trace(349,"crp",4).
-trace(349,"leucocytes",5).
-trace(349,"admission nc",6).
-trace(349,"crp",7).
-trace(349,"leucocytes",8).
-trace(349,"crp",9).
-trace(349,"leucocytes",10).
-trace(349,"leucocytes",11).
-trace(349,"leucocytes",12).
-trace(349,"leucocytes",13).
-trace(349,"leucocytes",14).
-trace(349,"leucocytes",15).
-trace(349,"leucocytes",16).
-trace(349,"leucocytes",17).
-trace(349,"leucocytes",18).
-trace(349,"crp",19).
-trace(349,"release a",20).
-
-trace(350,"er registration",1).
-trace(350,"er triage",2).
-trace(350,"er sepsis triage",3).
-trace(350,"lacticacid",4).
-trace(350,"leucocytes",5).
-trace(350,"crp",6).
-trace(350,"iv liquid",7).
-trace(350,"iv antibiotics",8).
-trace(350,"admission nc",9).
-trace(350,"admission nc",10).
-trace(350,"crp",11).
-trace(350,"crp",12).
-trace(350,"crp",13).
-trace(350,"release a",14).
-trace(350,"return er",15).
-
-trace(351,"er registration",1).
-trace(351,"er triage",2).
-trace(351,"er sepsis triage",3).
-trace(351,"crp",4).
-trace(351,"leucocytes",5).
-trace(351,"lacticacid",6).
-trace(351,"iv liquid",7).
-trace(351,"iv antibiotics",8).
-trace(351,"admission nc",9).
-trace(351,"leucocytes",10).
-trace(351,"lacticacid",11).
-trace(351,"crp",12).
-trace(351,"admission nc",13).
-trace(351,"crp",14).
-trace(351,"leucocytes",15).
-trace(351,"leucocytes",16).
-trace(351,"crp",17).
-trace(351,"release a",18).
-trace(351,"return er",19).
-
-trace(352,"er registration",1).
-trace(352,"er triage",2).
-trace(352,"lacticacid",3).
-trace(352,"crp",4).
-trace(352,"leucocytes",5).
-trace(352,"er sepsis triage",6).
-trace(352,"iv liquid",7).
-trace(352,"iv antibiotics",8).
-
-trace(353,"er registration",1).
-trace(353,"er triage",2).
-trace(353,"er sepsis triage",3).
-trace(353,"lacticacid",4).
-trace(353,"crp",5).
-trace(353,"leucocytes",6).
-trace(353,"iv liquid",7).
-trace(353,"iv antibiotics",8).
-trace(353,"admission nc",9).
-trace(353,"leucocytes",10).
-trace(353,"crp",11).
-trace(353,"release a",12).
-
-trace(354,"er registration",1).
-trace(354,"er triage",2).
-trace(354,"crp",3).
-trace(354,"leucocytes",4).
-trace(354,"er sepsis triage",5).
-trace(354,"admission nc",6).
-trace(354,"release a",7).
-
-trace(355,"er registration",1).
-trace(355,"er triage",2).
-trace(355,"er sepsis triage",3).
-trace(355,"leucocytes",4).
-trace(355,"lacticacid",5).
-trace(355,"crp",6).
-trace(355,"iv antibiotics",7).
-trace(355,"iv liquid",8).
-trace(355,"admission ic",9).
-trace(355,"crp",10).
-trace(355,"lacticacid",11).
-trace(355,"leucocytes",12).
-trace(355,"lacticacid",13).
-trace(355,"leucocytes",14).
-trace(355,"lacticacid",15).
-trace(355,"crp",16).
-trace(355,"leucocytes",17).
-trace(355,"lacticacid",18).
-trace(355,"lacticacid",19).
-trace(355,"leucocytes",20).
-trace(355,"crp",21).
-trace(355,"lacticacid",22).
-trace(355,"admission nc",23).
-trace(355,"leucocytes",24).
-trace(355,"crp",25).
-trace(355,"crp",26).
-trace(355,"crp",27).
-trace(355,"crp",28).
-trace(355,"leucocytes",29).
-trace(355,"crp",30).
-trace(355,"leucocytes",31).
-trace(355,"crp",32).
-trace(355,"leucocytes",33).
-trace(355,"crp",34).
-trace(355,"leucocytes",35).
-trace(355,"crp",36).
-trace(355,"leucocytes",37).
-trace(355,"admission nc",38).
-trace(355,"release a",39).
-trace(355,"return er",40).
-
-trace(356,"er registration",1).
-trace(356,"er triage",2).
-trace(356,"er sepsis triage",3).
-trace(356,"leucocytes",4).
-trace(356,"crp",5).
-trace(356,"iv antibiotics",6).
-trace(356,"iv liquid",7).
-
-trace(357,"er registration",1).
-trace(357,"er triage",2).
-trace(357,"iv liquid",3).
-trace(357,"leucocytes",4).
-trace(357,"crp",5).
-trace(357,"leucocytes",6).
-trace(357,"lacticacid",7).
-trace(357,"er sepsis triage",8).
-trace(357,"iv antibiotics",9).
-
-trace(358,"er registration",1).
-trace(358,"er triage",2).
-trace(358,"er sepsis triage",3).
-trace(358,"leucocytes",4).
-trace(358,"crp",5).
-trace(358,"iv liquid",6).
-trace(358,"iv antibiotics",7).
-trace(358,"admission nc",8).
-trace(358,"crp",9).
-trace(358,"leucocytes",10).
-trace(358,"crp",11).
-trace(358,"leucocytes",12).
-trace(358,"crp",13).
-trace(358,"leucocytes",14).
-trace(358,"release a",15).
-
-trace(359,"er registration",1).
-trace(359,"er triage",2).
-trace(359,"er sepsis triage",3).
-trace(359,"iv liquid",4).
-trace(359,"crp",5).
-trace(359,"lacticacid",6).
-trace(359,"leucocytes",7).
-trace(359,"iv antibiotics",8).
-trace(359,"admission nc",9).
-trace(359,"leucocytes",10).
-trace(359,"crp",11).
-trace(359,"leucocytes",12).
-trace(359,"crp",13).
-trace(359,"leucocytes",14).
-trace(359,"release a",15).
-trace(359,"return er",16).
-
-trace(360,"er registration",1).
-trace(360,"er triage",2).
-trace(360,"er sepsis triage",3).
-trace(360,"crp",4).
-trace(360,"lacticacid",5).
-trace(360,"leucocytes",6).
-trace(360,"iv liquid",7).
-trace(360,"iv antibiotics",8).
-trace(360,"admission nc",9).
-trace(360,"admission nc",10).
-trace(360,"crp",11).
-trace(360,"leucocytes",12).
-trace(360,"crp",13).
-trace(360,"leucocytes",14).
-trace(360,"crp",15).
-trace(360,"leucocytes",16).
-trace(360,"release a",17).
-trace(360,"return er",18).
-
-trace(361,"er registration",1).
-trace(361,"iv liquid",2).
-trace(361,"er triage",3).
-trace(361,"er sepsis triage",4).
-trace(361,"lacticacid",5).
-trace(361,"leucocytes",6).
-trace(361,"crp",7).
-trace(361,"iv antibiotics",8).
-trace(361,"admission nc",9).
-trace(361,"leucocytes",10).
-trace(361,"crp",11).
-trace(361,"release a",12).
-trace(361,"return er",13).
-
-trace(362,"er registration",1).
-trace(362,"er triage",2).
-trace(362,"er sepsis triage",3).
-trace(362,"lacticacid",4).
-trace(362,"crp",5).
-trace(362,"leucocytes",6).
-trace(362,"iv liquid",7).
-trace(362,"iv antibiotics",8).
-trace(362,"admission nc",9).
-trace(362,"crp",10).
-trace(362,"leucocytes",11).
-trace(362,"crp",12).
-trace(362,"admission nc",13).
-trace(362,"crp",14).
-trace(362,"leucocytes",15).
-trace(362,"crp",16).
-trace(362,"crp",17).
-trace(362,"leucocytes",18).
-trace(362,"leucocytes",19).
-trace(362,"leucocytes",20).
-trace(362,"crp",21).
-trace(362,"crp",22).
-trace(362,"leucocytes",23).
-trace(362,"crp",24).
-trace(362,"crp",25).
-trace(362,"leucocytes",26).
-trace(362,"leucocytes",27).
-trace(362,"release a",28).
-
-trace(363,"er registration",1).
-trace(363,"er triage",2).
-trace(363,"er sepsis triage",3).
-trace(363,"crp",4).
-trace(363,"leucocytes",5).
-trace(363,"lacticacid",6).
-trace(363,"iv antibiotics",7).
-trace(363,"iv liquid",8).
-
-trace(364,"er registration",1).
-trace(364,"er triage",2).
-trace(364,"er sepsis triage",3).
-trace(364,"crp",4).
-trace(364,"lacticacid",5).
-trace(364,"leucocytes",6).
-trace(364,"iv liquid",7).
-trace(364,"iv antibiotics",8).
-trace(364,"admission nc",9).
-trace(364,"leucocytes",10).
-trace(364,"crp",11).
-trace(364,"crp",12).
-trace(364,"leucocytes",13).
-trace(364,"crp",14).
-trace(364,"leucocytes",15).
-trace(364,"leucocytes",16).
-trace(364,"crp",17).
-trace(364,"crp",18).
-trace(364,"leucocytes",19).
-trace(364,"leucocytes",20).
-trace(364,"crp",21).
-trace(364,"crp",22).
-trace(364,"leucocytes",23).
-trace(364,"crp",24).
-trace(364,"crp",25).
-trace(364,"release a",26).
-
-trace(365,"er registration",1).
-trace(365,"er triage",2).
-trace(365,"er sepsis triage",3).
-trace(365,"leucocytes",4).
-trace(365,"crp",5).
-trace(365,"lacticacid",6).
-trace(365,"iv antibiotics",7).
-trace(365,"iv liquid",8).
-trace(365,"admission nc",9).
-trace(365,"admission nc",10).
-trace(365,"release b",11).
-
-trace(366,"er registration",1).
-trace(366,"er triage",2).
-trace(366,"er sepsis triage",3).
-trace(366,"crp",4).
-trace(366,"leucocytes",5).
-
-trace(367,"er registration",1).
-trace(367,"er triage",2).
-trace(367,"er sepsis triage",3).
-trace(367,"crp",4).
-trace(367,"lacticacid",5).
-trace(367,"leucocytes",6).
-trace(367,"iv liquid",7).
-trace(367,"iv antibiotics",8).
-
-trace(368,"er registration",1).
-trace(368,"iv liquid",2).
-trace(368,"er triage",3).
-trace(368,"er sepsis triage",4).
-trace(368,"crp",5).
-trace(368,"lacticacid",6).
-trace(368,"leucocytes",7).
-trace(368,"iv antibiotics",8).
-trace(368,"admission nc",9).
-trace(368,"leucocytes",10).
-trace(368,"admission nc",11).
-trace(368,"lacticacid",12).
-trace(368,"crp",13).
-trace(368,"leucocytes",14).
-trace(368,"lacticacid",15).
-trace(368,"leucocytes",16).
-trace(368,"crp",17).
-trace(368,"leucocytes",18).
-trace(368,"crp",19).
-trace(368,"lacticacid",20).
-trace(368,"crp",21).
-trace(368,"leucocytes",22).
-trace(368,"release b",23).
-
-trace(369,"er registration",1).
-trace(369,"er triage",2).
-trace(369,"er sepsis triage",3).
-trace(369,"lacticacid",4).
-trace(369,"leucocytes",5).
-trace(369,"crp",6).
-trace(369,"iv liquid",7).
-trace(369,"iv antibiotics",8).
-trace(369,"admission nc",9).
-trace(369,"leucocytes",10).
-trace(369,"crp",11).
-trace(369,"admission nc",12).
-trace(369,"leucocytes",13).
-trace(369,"crp",14).
-trace(369,"lacticacid",15).
-trace(369,"crp",16).
-trace(369,"leucocytes",17).
-trace(369,"admission nc",18).
-trace(369,"leucocytes",19).
-trace(369,"admission ic",20).
-trace(369,"crp",21).
-trace(369,"lacticacid",22).
-trace(369,"leucocytes",23).
-trace(369,"leucocytes",24).
-trace(369,"leucocytes",25).
-trace(369,"crp",26).
-trace(369,"lacticacid",27).
-trace(369,"leucocytes",28).
-trace(369,"admission nc",29).
-trace(369,"leucocytes",30).
-trace(369,"crp",31).
-trace(369,"leucocytes",32).
-trace(369,"leucocytes",33).
-trace(369,"leucocytes",34).
-trace(369,"leucocytes",35).
-trace(369,"crp",36).
-trace(369,"leucocytes",37).
-trace(369,"crp",38).
-trace(369,"leucocytes",39).
-trace(369,"release d",40).
-trace(369,"return er",41).
-
-trace(370,"er registration",1).
-trace(370,"er triage",2).
-trace(370,"er sepsis triage",3).
-trace(370,"iv liquid",4).
-trace(370,"leucocytes",5).
-trace(370,"crp",6).
-trace(370,"lacticacid",7).
-trace(370,"iv antibiotics",8).
-trace(370,"admission nc",9).
-trace(370,"admission nc",10).
-trace(370,"crp",11).
-trace(370,"leucocytes",12).
-trace(370,"leucocytes",13).
-trace(370,"crp",14).
-trace(370,"crp",15).
-trace(370,"leucocytes",16).
-trace(370,"release a",17).
-trace(370,"return er",18).
-
-trace(371,"er registration",1).
-trace(371,"er triage",2).
-trace(371,"er sepsis triage",3).
-trace(371,"lacticacid",4).
-trace(371,"crp",5).
-trace(371,"leucocytes",6).
-trace(371,"iv liquid",7).
-trace(371,"iv antibiotics",8).
-trace(371,"admission nc",9).
-trace(371,"leucocytes",10).
-trace(371,"crp",11).
-
-trace(372,"er registration",1).
-trace(372,"er triage",2).
-trace(372,"crp",3).
-trace(372,"lacticacid",4).
-trace(372,"leucocytes",5).
-trace(372,"er sepsis triage",6).
-trace(372,"iv liquid",7).
-trace(372,"iv antibiotics",8).
-trace(372,"admission nc",9).
-trace(372,"crp",10).
-trace(372,"leucocytes",11).
-trace(372,"release a",12).
-
-trace(373,"er registration",1).
-trace(373,"iv liquid",2).
-trace(373,"er triage",3).
-trace(373,"er sepsis triage",4).
-trace(373,"crp",5).
-trace(373,"lacticacid",6).
-trace(373,"leucocytes",7).
-trace(373,"iv antibiotics",8).
-trace(373,"admission nc",9).
-trace(373,"admission nc",10).
-trace(373,"leucocytes",11).
-trace(373,"crp",12).
-trace(373,"admission nc",13).
-trace(373,"release a",14).
-
-trace(374,"er registration",1).
-trace(374,"er triage",2).
-trace(374,"er sepsis triage",3).
-trace(374,"iv liquid",4).
-trace(374,"iv antibiotics",5).
-trace(374,"leucocytes",6).
-trace(374,"crp",7).
-trace(374,"lacticacid",8).
-trace(374,"admission nc",9).
-trace(374,"crp",10).
-trace(374,"leucocytes",11).
-trace(374,"leucocytes",12).
-trace(374,"crp",13).
-trace(374,"release a",14).
-trace(374,"return er",15).
-
-trace(375,"crp",1).
-trace(375,"leucocytes",2).
-trace(375,"er registration",3).
-trace(375,"er triage",4).
-trace(375,"er sepsis triage",5).
-trace(375,"admission nc",6).
-trace(375,"crp",7).
-trace(375,"leucocytes",8).
-trace(375,"admission ic",9).
-trace(375,"leucocytes",10).
-trace(375,"crp",11).
-trace(375,"lacticacid",12).
-trace(375,"leucocytes",13).
-trace(375,"leucocytes",14).
-trace(375,"admission ic",15).
-trace(375,"leucocytes",16).
-trace(375,"crp",17).
-trace(375,"lacticacid",18).
-trace(375,"leucocytes",19).
-trace(375,"leucocytes",20).
-trace(375,"leucocytes",21).
-trace(375,"lacticacid",22).
-trace(375,"crp",23).
-trace(375,"leucocytes",24).
-trace(375,"lacticacid",25).
-trace(375,"leucocytes",26).
-trace(375,"crp",27).
-trace(375,"crp",28).
-trace(375,"lacticacid",29).
-trace(375,"leucocytes",30).
-trace(375,"admission nc",31).
-trace(375,"release a",32).
-trace(375,"return er",33).
-
-trace(376,"er registration",1).
-trace(376,"er triage",2).
-trace(376,"er sepsis triage",3).
-trace(376,"iv antibiotics",4).
-trace(376,"crp",5).
-trace(376,"leucocytes",6).
-trace(376,"admission nc",7).
-trace(376,"leucocytes",8).
-trace(376,"crp",9).
-trace(376,"iv liquid",10).
-trace(376,"crp",11).
-trace(376,"leucocytes",12).
-trace(376,"release a",13).
-
-trace(377,"er registration",1).
-trace(377,"er triage",2).
-trace(377,"lacticacid",3).
-trace(377,"leucocytes",4).
-trace(377,"crp",5).
-trace(377,"er sepsis triage",6).
-trace(377,"iv liquid",7).
-trace(377,"iv antibiotics",8).
-trace(377,"admission nc",9).
-trace(377,"leucocytes",10).
-trace(377,"crp",11).
-trace(377,"admission nc",12).
-trace(377,"crp",13).
-trace(377,"leucocytes",14).
-trace(377,"release a",15).
-
-trace(378,"leucocytes",1).
-trace(378,"er registration",2).
-trace(378,"er triage",3).
-trace(378,"er sepsis triage",4).
-trace(378,"leucocytes",5).
-trace(378,"crp",6).
-
-trace(379,"er registration",1).
-trace(379,"er triage",2).
-trace(379,"er sepsis triage",3).
-trace(379,"iv liquid",4).
-trace(379,"iv antibiotics",5).
-trace(379,"leucocytes",6).
-trace(379,"crp",7).
-trace(379,"lacticacid",8).
-trace(379,"admission nc",9).
-trace(379,"crp",10).
-trace(379,"leucocytes",11).
-trace(379,"admission nc",12).
-trace(379,"leucocytes",13).
-trace(379,"crp",14).
-trace(379,"leucocytes",15).
-trace(379,"release a",16).
-
-trace(380,"er registration",1).
-trace(380,"er triage",2).
-trace(380,"leucocytes",3).
-trace(380,"lacticacid",4).
-trace(380,"crp",5).
-trace(380,"er sepsis triage",6).
-trace(380,"iv liquid",7).
-trace(380,"iv antibiotics",8).
-trace(380,"admission nc",9).
-trace(380,"crp",10).
-trace(380,"leucocytes",11).
-trace(380,"leucocytes",12).
-trace(380,"crp",13).
-trace(380,"leucocytes",14).
-trace(380,"crp",15).
-trace(380,"crp",16).
-trace(380,"leucocytes",17).
-trace(380,"crp",18).
-trace(380,"leucocytes",19).
-trace(380,"release b",20).
-
-trace(381,"er registration",1).
-trace(381,"er triage",2).
-trace(381,"er sepsis triage",3).
-trace(381,"leucocytes",4).
-trace(381,"crp",5).
-trace(381,"lacticacid",6).
-trace(381,"iv liquid",7).
-trace(381,"iv antibiotics",8).
-
-trace(382,"er registration",1).
-trace(382,"er triage",2).
-trace(382,"er sepsis triage",3).
-trace(382,"lacticacid",4).
-trace(382,"leucocytes",5).
-trace(382,"crp",6).
-trace(382,"admission nc",7).
-trace(382,"admission nc",8).
-trace(382,"iv antibiotics",9).
-trace(382,"iv liquid",10).
-trace(382,"crp",11).
-trace(382,"leucocytes",12).
-trace(382,"crp",13).
-trace(382,"leucocytes",14).
-trace(382,"crp",15).
-trace(382,"crp",16).
-trace(382,"leucocytes",17).
-trace(382,"admission nc",18).
-trace(382,"admission ic",19).
-trace(382,"lacticacid",20).
-trace(382,"leucocytes",21).
-trace(382,"crp",22).
-trace(382,"crp",23).
-trace(382,"leucocytes",24).
-trace(382,"lacticacid",25).
-trace(382,"admission nc",26).
-trace(382,"release a",27).
-
-trace(383,"er registration",1).
-trace(383,"er triage",2).
-trace(383,"er sepsis triage",3).
-trace(383,"leucocytes",4).
-trace(383,"crp",5).
-
-trace(384,"er registration",1).
-trace(384,"er triage",2).
-trace(384,"er sepsis triage",3).
-trace(384,"lacticacid",4).
-trace(384,"leucocytes",5).
-trace(384,"crp",6).
-trace(384,"iv antibiotics",7).
-trace(384,"iv liquid",8).
-trace(384,"admission nc",9).
-trace(384,"admission ic",10).
-trace(384,"lacticacid",11).
-trace(384,"crp",12).
-trace(384,"leucocytes",13).
-trace(384,"crp",14).
-trace(384,"leucocytes",15).
-trace(384,"lacticacid",16).
-trace(384,"crp",17).
-trace(384,"leucocytes",18).
-trace(384,"lacticacid",19).
-trace(384,"admission nc",20).
-trace(384,"crp",21).
-trace(384,"leucocytes",22).
-trace(384,"crp",23).
-trace(384,"leucocytes",24).
-trace(384,"crp",25).
-trace(384,"leucocytes",26).
-trace(384,"release a",27).
-trace(384,"return er",28).
-
-trace(385,"er registration",1).
-trace(385,"er triage",2).
-trace(385,"er sepsis triage",3).
-trace(385,"leucocytes",4).
-trace(385,"lacticacid",5).
-trace(385,"crp",6).
-trace(385,"iv liquid",7).
-trace(385,"iv antibiotics",8).
-trace(385,"admission nc",9).
-trace(385,"leucocytes",10).
-trace(385,"crp",11).
-trace(385,"crp",12).
-trace(385,"leucocytes",13).
-trace(385,"leucocytes",14).
-trace(385,"leucocytes",15).
-trace(385,"crp",16).
-trace(385,"leucocytes",17).
-trace(385,"crp",18).
-trace(385,"leucocytes",19).
-trace(385,"leucocytes",20).
-trace(385,"crp",21).
-trace(385,"release d",22).
-trace(385,"return er",23).
-
-trace(386,"er registration",1).
-trace(386,"leucocytes",2).
-trace(386,"crp",3).
-trace(386,"lacticacid",4).
-trace(386,"er triage",5).
-trace(386,"er sepsis triage",6).
-trace(386,"iv liquid",7).
-trace(386,"iv antibiotics",8).
-trace(386,"admission nc",9).
-trace(386,"admission nc",10).
-trace(386,"crp",11).
-trace(386,"leucocytes",12).
-trace(386,"crp",13).
-trace(386,"leucocytes",14).
-trace(386,"release a",15).
-trace(386,"return er",16).
-
-trace(387,"crp",1).
-trace(387,"leucocytes",2).
-trace(387,"er registration",3).
-trace(387,"leucocytes",4).
-trace(387,"crp",5).
-trace(387,"er triage",6).
-trace(387,"er sepsis triage",7).
-
-trace(388,"er registration",1).
-trace(388,"er triage",2).
-trace(388,"er sepsis triage",3).
-trace(388,"leucocytes",4).
-trace(388,"crp",5).
-
-trace(389,"er registration",1).
-trace(389,"er triage",2).
-trace(389,"er sepsis triage",3).
-trace(389,"leucocytes",4).
-trace(389,"admission nc",5).
-trace(389,"release a",6).
-trace(389,"return er",7).
-
-trace(390,"er registration",1).
-trace(390,"er triage",2).
-trace(390,"er sepsis triage",3).
-trace(390,"lacticacid",4).
-trace(390,"leucocytes",5).
-trace(390,"crp",6).
-
-trace(391,"er registration",1).
-trace(391,"crp",2).
-trace(391,"leucocytes",3).
-trace(391,"er triage",4).
-trace(391,"er sepsis triage",5).
-trace(391,"iv antibiotics",6).
-trace(391,"admission nc",7).
-trace(391,"release a",8).
-
-trace(392,"er registration",1).
-trace(392,"er triage",2).
-trace(392,"iv liquid",3).
-trace(392,"leucocytes",4).
-trace(392,"crp",5).
-trace(392,"lacticacid",6).
-trace(392,"er sepsis triage",7).
-trace(392,"iv antibiotics",8).
-trace(392,"admission nc",9).
-trace(392,"leucocytes",10).
-trace(392,"crp",11).
-trace(392,"admission nc",12).
-trace(392,"crp",13).
-trace(392,"leucocytes",14).
-trace(392,"release a",15).
-trace(392,"return er",16).
-
-trace(393,"er registration",1).
-trace(393,"er triage",2).
-trace(393,"er sepsis triage",3).
-trace(393,"lacticacid",4).
-trace(393,"leucocytes",5).
-trace(393,"crp",6).
-trace(393,"iv liquid",7).
-trace(393,"iv antibiotics",8).
-trace(393,"admission nc",9).
-trace(393,"leucocytes",10).
-trace(393,"crp",11).
-trace(393,"leucocytes",12).
-trace(393,"crp",13).
-trace(393,"release a",14).
-trace(393,"return er",15).
-
-trace(394,"er registration",1).
-trace(394,"leucocytes",2).
-trace(394,"crp",3).
-trace(394,"lacticacid",4).
-trace(394,"er triage",5).
-trace(394,"er sepsis triage",6).
-trace(394,"iv antibiotics",7).
-trace(394,"iv liquid",8).
-trace(394,"admission nc",9).
-trace(394,"admission ic",10).
-trace(394,"lacticacid",11).
-trace(394,"crp",12).
-trace(394,"leucocytes",13).
-trace(394,"lacticacid",14).
-trace(394,"crp",15).
-trace(394,"leucocytes",16).
-trace(394,"leucocytes",17).
-trace(394,"crp",18).
-trace(394,"lacticacid",19).
-trace(394,"crp",20).
-trace(394,"leucocytes",21).
-trace(394,"lacticacid",22).
-trace(394,"crp",23).
-trace(394,"lacticacid",24).
-trace(394,"leucocytes",25).
-trace(394,"admission nc",26).
-trace(394,"crp",27).
-trace(394,"release a",28).
-
-trace(395,"er registration",1).
-trace(395,"er triage",2).
-trace(395,"er sepsis triage",3).
-trace(395,"leucocytes",4).
-trace(395,"crp",5).
-trace(395,"lacticacid",6).
-trace(395,"iv liquid",7).
-trace(395,"iv antibiotics",8).
-trace(395,"admission nc",9).
-trace(395,"admission ic",10).
-trace(395,"crp",11).
-trace(395,"lacticacid",12).
-trace(395,"leucocytes",13).
-trace(395,"crp",14).
-trace(395,"lacticacid",15).
-trace(395,"leucocytes",16).
-trace(395,"admission nc",17).
-trace(395,"crp",18).
-trace(395,"leucocytes",19).
-trace(395,"release a",20).
-
-trace(396,"er registration",1).
-trace(396,"er triage",2).
-trace(396,"er sepsis triage",3).
-trace(396,"leucocytes",4).
-trace(396,"crp",5).
-trace(396,"lacticacid",6).
-trace(396,"iv liquid",7).
-trace(396,"iv antibiotics",8).
-trace(396,"admission nc",9).
-trace(396,"crp",10).
-trace(396,"leucocytes",11).
-trace(396,"lacticacid",12).
-trace(396,"crp",13).
-trace(396,"leucocytes",14).
-trace(396,"crp",15).
-trace(396,"leucocytes",16).
-trace(396,"leucocytes",17).
-trace(396,"crp",18).
-trace(396,"leucocytes",19).
-trace(396,"crp",20).
-trace(396,"leucocytes",21).
-trace(396,"crp",22).
-trace(396,"leucocytes",23).
-trace(396,"crp",24).
-trace(396,"release a",25).
-
-trace(397,"er registration",1).
-trace(397,"er triage",2).
-trace(397,"er sepsis triage",3).
-trace(397,"iv liquid",4).
-trace(397,"lacticacid",5).
-trace(397,"leucocytes",6).
-trace(397,"crp",7).
-trace(397,"iv antibiotics",8).
-trace(397,"admission nc",9).
-trace(397,"admission nc",10).
-trace(397,"crp",11).
-trace(397,"leucocytes",12).
-trace(397,"crp",13).
-trace(397,"leucocytes",14).
-trace(397,"crp",15).
-trace(397,"release a",16).
-trace(397,"return er",17).
-
-trace(398,"er registration",1).
-trace(398,"er triage",2).
-trace(398,"er sepsis triage",3).
-trace(398,"iv liquid",4).
-trace(398,"leucocytes",5).
-trace(398,"crp",6).
-trace(398,"lacticacid",7).
-trace(398,"iv antibiotics",8).
-trace(398,"admission nc",9).
-trace(398,"admission nc",10).
-trace(398,"release a",11).
-trace(398,"return er",12).
-
-trace(399,"er registration",1).
-trace(399,"er triage",2).
-trace(399,"er sepsis triage",3).
-trace(399,"iv liquid",4).
-trace(399,"leucocytes",5).
-trace(399,"crp",6).
-trace(399,"iv antibiotics",7).
-trace(399,"admission nc",8).
-trace(399,"crp",9).
-trace(399,"leucocytes",10).
-trace(399,"crp",11).
-trace(399,"leucocytes",12).
-trace(399,"leucocytes",13).
-trace(399,"crp",14).
-trace(399,"release a",15).
-trace(399,"return er",16).
-
-trace(400,"er registration",1).
-trace(400,"er triage",2).
-trace(400,"er sepsis triage",3).
-trace(400,"leucocytes",4).
-trace(400,"crp",5).
-trace(400,"lacticacid",6).
-trace(400,"iv liquid",7).
-trace(400,"iv antibiotics",8).
-
-trace(401,"er registration",1).
-trace(401,"er triage",2).
-trace(401,"leucocytes",3).
-trace(401,"crp",4).
-trace(401,"lacticacid",5).
-trace(401,"iv liquid",6).
-trace(401,"admission nc",7).
-trace(401,"er sepsis triage",8).
-trace(401,"iv antibiotics",9).
-trace(401,"release a",10).
-
-trace(402,"er registration",1).
-trace(402,"er triage",2).
-trace(402,"er sepsis triage",3).
-trace(402,"iv liquid",4).
-trace(402,"lacticacid",5).
-trace(402,"crp",6).
-trace(402,"leucocytes",7).
-trace(402,"iv antibiotics",8).
-trace(402,"admission nc",9).
-trace(402,"admission nc",10).
-trace(402,"leucocytes",11).
-trace(402,"crp",12).
-trace(402,"release a",13).
-
-trace(403,"er registration",1).
-trace(403,"er triage",2).
-trace(403,"er sepsis triage",3).
-trace(403,"leucocytes",4).
-trace(403,"crp",5).
-trace(403,"lacticacid",6).
-trace(403,"iv antibiotics",7).
-trace(403,"admission nc",8).
-trace(403,"leucocytes",9).
-trace(403,"crp",10).
-trace(403,"release a",11).
-
-trace(404,"er registration",1).
-trace(404,"er triage",2).
-trace(404,"er sepsis triage",3).
-trace(404,"leucocytes",4).
-trace(404,"lacticacid",5).
-trace(404,"crp",6).
-trace(404,"iv antibiotics",7).
-trace(404,"admission nc",8).
-trace(404,"leucocytes",9).
-trace(404,"crp",10).
-trace(404,"crp",11).
-trace(404,"leucocytes",12).
-trace(404,"release a",13).
-
-trace(405,"er registration",1).
-trace(405,"er triage",2).
-trace(405,"er sepsis triage",3).
-trace(405,"iv liquid",4).
-trace(405,"leucocytes",5).
-trace(405,"lacticacid",6).
-trace(405,"crp",7).
-trace(405,"iv antibiotics",8).
-trace(405,"admission nc",9).
-trace(405,"leucocytes",10).
-trace(405,"crp",11).
-trace(405,"release a",12).
-trace(405,"return er",13).
-
-trace(406,"er registration",1).
-trace(406,"er sepsis triage",2).
-trace(406,"er triage",3).
-trace(406,"crp",4).
-trace(406,"leucocytes",5).
-trace(406,"iv liquid",6).
-trace(406,"iv antibiotics",7).
-trace(406,"lacticacid",8).
-trace(406,"admission ic",9).
-trace(406,"leucocytes",10).
-trace(406,"crp",11).
-trace(406,"leucocytes",12).
-trace(406,"lacticacid",13).
-trace(406,"leucocytes",14).
-trace(406,"crp",15).
-trace(406,"lacticacid",16).
-trace(406,"leucocytes",17).
-
-trace(407,"er registration",1).
-trace(407,"er triage",2).
-trace(407,"leucocytes",3).
-trace(407,"crp",4).
-trace(407,"lacticacid",5).
-trace(407,"er sepsis triage",6).
-trace(407,"iv liquid",7).
-trace(407,"iv antibiotics",8).
-trace(407,"admission nc",9).
-trace(407,"leucocytes",10).
-trace(407,"crp",11).
-trace(407,"crp",12).
-trace(407,"crp",13).
-trace(407,"leucocytes",14).
-trace(407,"release a",15).
-trace(407,"return er",16).
-
-trace(408,"er registration",1).
-trace(408,"er triage",2).
-trace(408,"er sepsis triage",3).
-trace(408,"lacticacid",4).
-trace(408,"leucocytes",5).
-trace(408,"crp",6).
-trace(408,"iv liquid",7).
-trace(408,"iv antibiotics",8).
-trace(408,"admission ic",9).
-trace(408,"lacticacid",10).
-trace(408,"lacticacid",11).
-trace(408,"leucocytes",12).
-trace(408,"lacticacid",13).
-trace(408,"crp",14).
-trace(408,"lacticacid",15).
-trace(408,"leucocytes",16).
-trace(408,"lacticacid",17).
-trace(408,"lacticacid",18).
-trace(408,"leucocytes",19).
-trace(408,"crp",20).
-trace(408,"lacticacid",21).
-trace(408,"lacticacid",22).
-trace(408,"crp",23).
-trace(408,"lacticacid",24).
-trace(408,"leucocytes",25).
-trace(408,"leucocytes",26).
-trace(408,"crp",27).
-trace(408,"lacticacid",28).
-trace(408,"leucocytes",29).
-trace(408,"crp",30).
-trace(408,"lacticacid",31).
-trace(408,"admission nc",32).
-trace(408,"release a",33).
-trace(408,"return er",34).
-
-trace(409,"er registration",1).
-trace(409,"er triage",2).
-trace(409,"er sepsis triage",3).
-trace(409,"lacticacid",4).
-trace(409,"leucocytes",5).
-trace(409,"crp",6).
-trace(409,"admission nc",7).
-
-trace(410,"er registration",1).
-trace(410,"er triage",2).
-trace(410,"er sepsis triage",3).
-trace(410,"iv liquid",4).
-trace(410,"crp",5).
-trace(410,"leucocytes",6).
-trace(410,"lacticacid",7).
-trace(410,"iv antibiotics",8).
-trace(410,"admission nc",9).
-trace(410,"crp",10).
-trace(410,"leucocytes",11).
-trace(410,"leucocytes",12).
-trace(410,"leucocytes",13).
-trace(410,"crp",14).
-trace(410,"lacticacid",15).
-trace(410,"lacticacid",16).
-trace(410,"leucocytes",17).
-trace(410,"crp",18).
-trace(410,"crp",19).
-trace(410,"leucocytes",20).
-trace(410,"release a",21).
-trace(410,"return er",22).
-
-trace(411,"iv liquid",1).
-trace(411,"er registration",2).
-trace(411,"er triage",3).
-trace(411,"er sepsis triage",4).
-trace(411,"leucocytes",5).
-trace(411,"crp",6).
-trace(411,"lacticacid",7).
-trace(411,"iv antibiotics",8).
-trace(411,"admission nc",9).
-trace(411,"leucocytes",10).
-trace(411,"crp",11).
-trace(411,"lacticacid",12).
-trace(411,"crp",13).
-trace(411,"leucocytes",14).
-trace(411,"crp",15).
-trace(411,"leucocytes",16).
-trace(411,"release a",17).
-trace(411,"return er",18).
-
-trace(412,"er registration",1).
-trace(412,"er triage",2).
-trace(412,"er sepsis triage",3).
-trace(412,"iv antibiotics",4).
-trace(412,"lacticacid",5).
-trace(412,"leucocytes",6).
-trace(412,"crp",7).
-trace(412,"admission nc",8).
-trace(412,"release b",9).
-
-trace(413,"er registration",1).
-trace(413,"er triage",2).
-trace(413,"er sepsis triage",3).
-trace(413,"leucocytes",4).
-trace(413,"crp",5).
-trace(413,"lacticacid",6).
-trace(413,"iv liquid",7).
-trace(413,"iv antibiotics",8).
-trace(413,"admission nc",9).
-trace(413,"admission nc",10).
-trace(413,"crp",11).
-trace(413,"leucocytes",12).
-trace(413,"lacticacid",13).
-trace(413,"leucocytes",14).
-trace(413,"leucocytes",15).
-trace(413,"crp",16).
-trace(413,"crp",17).
-trace(413,"leucocytes",18).
-trace(413,"leucocytes",19).
-trace(413,"crp",20).
-trace(413,"leucocytes",21).
-trace(413,"crp",22).
-trace(413,"crp",23).
-trace(413,"leucocytes",24).
-trace(413,"leucocytes",25).
-trace(413,"crp",26).
-trace(413,"release a",27).
-
-trace(414,"er registration",1).
-trace(414,"er triage",2).
-trace(414,"er sepsis triage",3).
-trace(414,"iv liquid",4).
-trace(414,"iv antibiotics",5).
-trace(414,"crp",6).
-trace(414,"lacticacid",7).
-trace(414,"leucocytes",8).
-trace(414,"admission nc",9).
-trace(414,"crp",10).
-trace(414,"leucocytes",11).
-trace(414,"release a",12).
-
-trace(415,"er registration",1).
-trace(415,"er triage",2).
-trace(415,"er sepsis triage",3).
-trace(415,"iv liquid",4).
-trace(415,"crp",5).
-trace(415,"leucocytes",6).
-trace(415,"lacticacid",7).
-trace(415,"iv antibiotics",8).
-trace(415,"admission nc",9).
-trace(415,"crp",10).
-trace(415,"leucocytes",11).
-
-trace(416,"er registration",1).
-trace(416,"er triage",2).
-trace(416,"er sepsis triage",3).
-trace(416,"admission nc",4).
-trace(416,"admission ic",5).
-trace(416,"leucocytes",6).
-trace(416,"crp",7).
-trace(416,"lacticacid",8).
-trace(416,"leucocytes",9).
-trace(416,"lacticacid",10).
-trace(416,"crp",11).
-trace(416,"leucocytes",12).
-trace(416,"crp",13).
-trace(416,"lacticacid",14).
-trace(416,"admission nc",15).
-trace(416,"crp",16).
-trace(416,"leucocytes",17).
-trace(416,"leucocytes",18).
-trace(416,"crp",19).
-trace(416,"crp",20).
-trace(416,"leucocytes",21).
-trace(416,"release a",22).
-
-trace(417,"er registration",1).
-trace(417,"er triage",2).
-trace(417,"er sepsis triage",3).
-trace(417,"iv liquid",4).
-trace(417,"iv antibiotics",5).
-trace(417,"leucocytes",6).
-trace(417,"lacticacid",7).
-trace(417,"crp",8).
-trace(417,"admission nc",9).
-trace(417,"admission nc",10).
-trace(417,"leucocytes",11).
-trace(417,"crp",12).
-trace(417,"crp",13).
-trace(417,"leucocytes",14).
-trace(417,"release c",15).
-
-trace(418,"er registration",1).
-trace(418,"er triage",2).
-trace(418,"leucocytes",3).
-trace(418,"crp",4).
-trace(418,"er sepsis triage",5).
-trace(418,"iv liquid",6).
-trace(418,"lacticacid",7).
-trace(418,"iv antibiotics",8).
-trace(418,"admission nc",9).
-trace(418,"crp",10).
-trace(418,"leucocytes",11).
-trace(418,"crp",12).
-trace(418,"leucocytes",13).
-trace(418,"release a",14).
-
-trace(419,"er registration",1).
-trace(419,"er triage",2).
-trace(419,"er sepsis triage",3).
-trace(419,"iv liquid",4).
-trace(419,"crp",5).
-trace(419,"lacticacid",6).
-trace(419,"leucocytes",7).
-trace(419,"iv antibiotics",8).
-
-trace(420,"er registration",1).
-trace(420,"er triage",2).
-trace(420,"er sepsis triage",3).
-trace(420,"crp",4).
-trace(420,"leucocytes",5).
-trace(420,"iv antibiotics",6).
-
-trace(421,"er registration",1).
-trace(421,"er triage",2).
-trace(421,"crp",3).
-trace(421,"leucocytes",4).
-trace(421,"lacticacid",5).
-trace(421,"admission nc",6).
-trace(421,"er sepsis triage",7).
-trace(421,"iv liquid",8).
-trace(421,"iv antibiotics",9).
-trace(421,"release a",10).
-
-trace(422,"er registration",1).
-trace(422,"er triage",2).
-trace(422,"er sepsis triage",3).
-trace(422,"lacticacid",4).
-trace(422,"leucocytes",5).
-trace(422,"crp",6).
-trace(422,"admission nc",7).
-trace(422,"admission nc",8).
-trace(422,"crp",9).
-trace(422,"leucocytes",10).
-trace(422,"release a",11).
-
-trace(423,"er registration",1).
-trace(423,"er triage",2).
-trace(423,"er sepsis triage",3).
-trace(423,"crp",4).
-trace(423,"leucocytes",5).
-trace(423,"iv liquid",6).
-trace(423,"iv antibiotics",7).
-trace(423,"admission nc",8).
-trace(423,"leucocytes",9).
-trace(423,"crp",10).
-trace(423,"admission nc",11).
-trace(423,"crp",12).
-trace(423,"leucocytes",13).
-trace(423,"crp",14).
-trace(423,"release a",15).
-trace(423,"return er",16).
-
-trace(424,"er registration",1).
-trace(424,"er triage",2).
-trace(424,"er sepsis triage",3).
-trace(424,"leucocytes",4).
-trace(424,"crp",5).
-
-trace(425,"er registration",1).
-trace(425,"iv liquid",2).
-trace(425,"er triage",3).
-trace(425,"lacticacid",4).
-trace(425,"leucocytes",5).
-trace(425,"crp",6).
-trace(425,"er sepsis triage",7).
-trace(425,"iv antibiotics",8).
-trace(425,"admission nc",9).
-trace(425,"release a",10).
-
-trace(426,"er registration",1).
-trace(426,"er sepsis triage",2).
-trace(426,"er triage",3).
-trace(426,"iv liquid",4).
-trace(426,"lacticacid",5).
-trace(426,"crp",6).
-trace(426,"leucocytes",7).
-trace(426,"iv antibiotics",8).
-trace(426,"admission nc",9).
-trace(426,"crp",10).
-trace(426,"lacticacid",11).
-trace(426,"leucocytes",12).
-trace(426,"crp",13).
-trace(426,"leucocytes",14).
-trace(426,"crp",15).
-trace(426,"leucocytes",16).
-trace(426,"leucocytes",17).
-trace(426,"crp",18).
-trace(426,"release b",19).
-
-trace(427,"er registration",1).
-trace(427,"er triage",2).
-trace(427,"er sepsis triage",3).
-trace(427,"iv liquid",4).
-trace(427,"crp",5).
-trace(427,"leucocytes",6).
-trace(427,"lacticacid",7).
-trace(427,"iv antibiotics",8).
-trace(427,"admission nc",9).
-trace(427,"lacticacid",10).
-trace(427,"crp",11).
-trace(427,"leucocytes",12).
-trace(427,"crp",13).
-trace(427,"leucocytes",14).
-trace(427,"lacticacid",15).
-trace(427,"crp",16).
-trace(427,"leucocytes",17).
-trace(427,"lacticacid",18).
-trace(427,"leucocytes",19).
-trace(427,"crp",20).
-trace(427,"release a",21).
-trace(427,"return er",22).
-
-trace(428,"er registration",1).
-trace(428,"er triage",2).
-trace(428,"er sepsis triage",3).
-trace(428,"leucocytes",4).
-trace(428,"lacticacid",5).
-trace(428,"crp",6).
-trace(428,"iv liquid",7).
-trace(428,"iv antibiotics",8).
-trace(428,"admission nc",9).
-trace(428,"leucocytes",10).
-trace(428,"crp",11).
-trace(428,"crp",12).
-trace(428,"leucocytes",13).
-trace(428,"crp",14).
-trace(428,"release a",15).
-trace(428,"return er",16).
-
-trace(429,"er registration",1).
-trace(429,"er triage",2).
-trace(429,"er sepsis triage",3).
-trace(429,"crp",4).
-trace(429,"lacticacid",5).
-trace(429,"leucocytes",6).
-trace(429,"iv liquid",7).
-trace(429,"iv antibiotics",8).
-
-trace(430,"er registration",1).
-trace(430,"er triage",2).
-trace(430,"er sepsis triage",3).
-trace(430,"leucocytes",4).
-trace(430,"crp",5).
-
-trace(431,"er registration",1).
-trace(431,"er triage",2).
-trace(431,"er sepsis triage",3).
-trace(431,"lacticacid",4).
-trace(431,"leucocytes",5).
-trace(431,"crp",6).
-trace(431,"iv liquid",7).
-trace(431,"iv antibiotics",8).
-trace(431,"admission nc",9).
-trace(431,"crp",10).
-trace(431,"leucocytes",11).
-trace(431,"admission nc",12).
-trace(431,"leucocytes",13).
-trace(431,"crp",14).
-trace(431,"crp",15).
-trace(431,"leucocytes",16).
-trace(431,"release a",17).
-
-trace(432,"er registration",1).
-trace(432,"er triage",2).
-trace(432,"leucocytes",3).
-trace(432,"crp",4).
-trace(432,"er sepsis triage",5).
-trace(432,"admission nc",6).
-trace(432,"leucocytes",7).
-trace(432,"crp",8).
-trace(432,"leucocytes",9).
-trace(432,"leucocytes",10).
-trace(432,"crp",11).
-trace(432,"crp",12).
-trace(432,"leucocytes",13).
-trace(432,"release a",14).
-
-trace(433,"er registration",1).
-trace(433,"er triage",2).
-trace(433,"er sepsis triage",3).
-
-trace(434,"er registration",1).
-trace(434,"er triage",2).
-trace(434,"er sepsis triage",3).
-trace(434,"leucocytes",4).
-trace(434,"crp",5).
-trace(434,"lacticacid",6).
-trace(434,"iv liquid",7).
-trace(434,"iv antibiotics",8).
-trace(434,"admission nc",9).
-trace(434,"leucocytes",10).
-trace(434,"crp",11).
-trace(434,"admission nc",12).
-trace(434,"leucocytes",13).
-trace(434,"crp",14).
-trace(434,"release a",15).
-
-trace(435,"er registration",1).
-trace(435,"er triage",2).
-trace(435,"er sepsis triage",3).
-trace(435,"lacticacid",4).
-trace(435,"crp",5).
-trace(435,"leucocytes",6).
-trace(435,"iv liquid",7).
-trace(435,"iv antibiotics",8).
-trace(435,"admission nc",9).
-trace(435,"admission nc",10).
-trace(435,"release a",11).
-
-trace(436,"er registration",1).
-trace(436,"er triage",2).
-trace(436,"lacticacid",3).
-trace(436,"crp",4).
-trace(436,"leucocytes",5).
-trace(436,"er sepsis triage",6).
-trace(436,"iv liquid",7).
-trace(436,"iv antibiotics",8).
-trace(436,"admission nc",9).
-trace(436,"admission nc",10).
-trace(436,"crp",11).
-trace(436,"leucocytes",12).
-trace(436,"leucocytes",13).
-trace(436,"crp",14).
-trace(436,"release b",15).
-
-trace(437,"er registration",1).
-trace(437,"er triage",2).
-trace(437,"er sepsis triage",3).
-trace(437,"leucocytes",4).
-trace(437,"crp",5).
-trace(437,"lacticacid",6).
-trace(437,"iv liquid",7).
-trace(437,"iv antibiotics",8).
-trace(437,"admission ic",9).
-trace(437,"leucocytes",10).
-trace(437,"crp",11).
-trace(437,"lacticacid",12).
-trace(437,"admission nc",13).
-trace(437,"leucocytes",14).
-trace(437,"crp",15).
-trace(437,"release a",16).
-
-trace(438,"er registration",1).
-trace(438,"er triage",2).
-trace(438,"er sepsis triage",3).
-trace(438,"lacticacid",4).
-trace(438,"leucocytes",5).
-trace(438,"crp",6).
-trace(438,"iv liquid",7).
-trace(438,"iv antibiotics",8).
-trace(438,"admission nc",9).
-trace(438,"leucocytes",10).
-trace(438,"admission nc",11).
-trace(438,"leucocytes",12).
-trace(438,"release a",13).
-
-trace(439,"er registration",1).
-trace(439,"er triage",2).
-trace(439,"er sepsis triage",3).
-trace(439,"crp",4).
-trace(439,"leucocytes",5).
-trace(439,"lacticacid",6).
-trace(439,"iv liquid",7).
-trace(439,"iv antibiotics",8).
-trace(439,"admission nc",9).
-trace(439,"crp",10).
-trace(439,"leucocytes",11).
-trace(439,"leucocytes",12).
-trace(439,"crp",13).
-trace(439,"admission nc",14).
-trace(439,"admission nc",15).
-trace(439,"leucocytes",16).
-trace(439,"crp",17).
-trace(439,"leucocytes",18).
-trace(439,"crp",19).
-trace(439,"leucocytes",20).
-trace(439,"leucocytes",21).
-trace(439,"crp",22).
-trace(439,"crp",23).
-trace(439,"leucocytes",24).
-trace(439,"leucocytes",25).
-trace(439,"crp",26).
-trace(439,"leucocytes",27).
-trace(439,"leucocytes",28).
-trace(439,"crp",29).
-trace(439,"release b",30).
-
-trace(440,"er registration",1).
-trace(440,"iv liquid",2).
-trace(440,"er sepsis triage",3).
-trace(440,"iv antibiotics",4).
-trace(440,"er triage",5).
-trace(440,"lacticacid",6).
-trace(440,"leucocytes",7).
-trace(440,"crp",8).
-trace(440,"admission nc",9).
-trace(440,"leucocytes",10).
-trace(440,"crp",11).
-trace(440,"release a",12).
-
-trace(441,"er registration",1).
-trace(441,"er triage",2).
-trace(441,"er sepsis triage",3).
-trace(441,"leucocytes",4).
-trace(441,"crp",5).
-trace(441,"lacticacid",6).
-trace(441,"iv liquid",7).
-trace(441,"iv antibiotics",8).
-trace(441,"admission nc",9).
-trace(441,"crp",10).
-trace(441,"leucocytes",11).
-trace(441,"crp",12).
-trace(441,"leucocytes",13).
-trace(441,"release a",14).
-
-trace(442,"er registration",1).
-trace(442,"er triage",2).
-trace(442,"er sepsis triage",3).
-trace(442,"crp",4).
-trace(442,"leucocytes",5).
-trace(442,"lacticacid",6).
-trace(442,"iv liquid",7).
-trace(442,"iv antibiotics",8).
-trace(442,"admission nc",9).
-trace(442,"crp",10).
-trace(442,"leucocytes",11).
-trace(442,"release a",12).
-
-trace(443,"er registration",1).
-trace(443,"er sepsis triage",2).
-trace(443,"iv antibiotics",3).
-trace(443,"er triage",4).
-trace(443,"crp",5).
-trace(443,"leucocytes",6).
-trace(443,"lacticacid",7).
-trace(443,"iv liquid",8).
-trace(443,"admission nc",9).
-trace(443,"crp",10).
-trace(443,"leucocytes",11).
-trace(443,"admission nc",12).
-trace(443,"release a",13).
-
-trace(444,"er registration",1).
-trace(444,"er triage",2).
-trace(444,"er sepsis triage",3).
-trace(444,"crp",4).
-trace(444,"lacticacid",5).
-trace(444,"leucocytes",6).
-trace(444,"iv liquid",7).
-trace(444,"iv antibiotics",8).
-
-trace(445,"er registration",1).
-trace(445,"er triage",2).
-trace(445,"er sepsis triage",3).
-trace(445,"leucocytes",4).
-trace(445,"crp",5).
-trace(445,"lacticacid",6).
-trace(445,"iv liquid",7).
-trace(445,"iv antibiotics",8).
-trace(445,"admission nc",9).
-trace(445,"admission nc",10).
-trace(445,"crp",11).
-trace(445,"leucocytes",12).
-trace(445,"leucocytes",13).
-trace(445,"crp",14).
-trace(445,"leucocytes",15).
-trace(445,"leucocytes",16).
-trace(445,"crp",17).
-trace(445,"crp",18).
-trace(445,"leucocytes",19).
-trace(445,"crp",20).
-trace(445,"leucocytes",21).
-trace(445,"leucocytes",22).
-trace(445,"leucocytes",23).
-trace(445,"crp",24).
-trace(445,"leucocytes",25).
-trace(445,"crp",26).
-trace(445,"crp",27).
-trace(445,"leucocytes",28).
-trace(445,"release a",29).
-trace(445,"return er",30).
-
-trace(446,"er registration",1).
-trace(446,"er triage",2).
-trace(446,"crp",3).
-trace(446,"leucocytes",4).
-trace(446,"lacticacid",5).
-trace(446,"er sepsis triage",6).
-trace(446,"admission nc",7).
-trace(446,"release b",8).
-
-trace(447,"er registration",1).
-trace(447,"er triage",2).
-trace(447,"er sepsis triage",3).
-trace(447,"leucocytes",4).
-trace(447,"lacticacid",5).
-trace(447,"crp",6).
-trace(447,"iv antibiotics",7).
-trace(447,"admission nc",8).
-trace(447,"crp",9).
-trace(447,"release a",10).
-
-trace(448,"er registration",1).
-trace(448,"er triage",2).
-trace(448,"er sepsis triage",3).
-trace(448,"leucocytes",4).
-trace(448,"crp",5).
-trace(448,"lacticacid",6).
-trace(448,"iv liquid",7).
-trace(448,"iv antibiotics",8).
-trace(448,"admission nc",9).
-trace(448,"admission nc",10).
-trace(448,"leucocytes",11).
-trace(448,"crp",12).
-trace(448,"release a",13).
-
-trace(449,"er registration",1).
-trace(449,"er triage",2).
-trace(449,"er sepsis triage",3).
-trace(449,"leucocytes",4).
-trace(449,"crp",5).
-trace(449,"lacticacid",6).
-trace(449,"iv liquid",7).
-trace(449,"iv antibiotics",8).
-trace(449,"admission nc",9).
-trace(449,"leucocytes",10).
-trace(449,"crp",11).
-trace(449,"release a",12).
-trace(449,"return er",13).
-
-trace(450,"er registration",1).
-trace(450,"er triage",2).
-trace(450,"crp",3).
-trace(450,"leucocytes",4).
-trace(450,"lacticacid",5).
-trace(450,"er sepsis triage",6).
-trace(450,"iv liquid",7).
-trace(450,"iv antibiotics",8).
-trace(450,"admission nc",9).
-trace(450,"leucocytes",10).
-trace(450,"leucocytes",11).
-trace(450,"leucocytes",12).
-trace(450,"crp",13).
-trace(450,"crp",14).
-trace(450,"leucocytes",15).
-trace(450,"leucocytes",16).
-trace(450,"crp",17).
-trace(450,"release b",18).
-
-trace(451,"er registration",1).
-trace(451,"er triage",2).
-trace(451,"crp",3).
-trace(451,"leucocytes",4).
-trace(451,"er sepsis triage",5).
-trace(451,"admission nc",6).
-trace(451,"crp",7).
-trace(451,"leucocytes",8).
-trace(451,"crp",9).
-trace(451,"release a",10).
-trace(451,"return er",11).
-
-trace(452,"er registration",1).
-trace(452,"er triage",2).
-trace(452,"er sepsis triage",3).
-trace(452,"lacticacid",4).
-trace(452,"leucocytes",5).
-trace(452,"crp",6).
-trace(452,"iv liquid",7).
-trace(452,"iv antibiotics",8).
-trace(452,"admission nc",9).
-trace(452,"lacticacid",10).
-trace(452,"crp",11).
-trace(452,"leucocytes",12).
-trace(452,"admission nc",13).
-trace(452,"crp",14).
-trace(452,"lacticacid",15).
-trace(452,"leucocytes",16).
-trace(452,"leucocytes",17).
-trace(452,"crp",18).
-trace(452,"crp",19).
-trace(452,"release a",20).
-trace(452,"return er",21).
-
-trace(453,"er registration",1).
-trace(453,"er triage",2).
-trace(453,"er sepsis triage",3).
-trace(453,"lacticacid",4).
-trace(453,"crp",5).
-trace(453,"leucocytes",6).
-trace(453,"iv antibiotics",7).
-trace(453,"admission nc",8).
-trace(453,"crp",9).
-trace(453,"leucocytes",10).
-trace(453,"admission nc",11).
-trace(453,"crp",12).
-trace(453,"crp",13).
-trace(453,"leucocytes",14).
-trace(453,"release a",15).
-trace(453,"return er",16).
-
-trace(454,"er registration",1).
-trace(454,"er triage",2).
-trace(454,"er sepsis triage",3).
-trace(454,"crp",4).
-trace(454,"leucocytes",5).
-
-trace(455,"er registration",1).
-trace(455,"er triage",2).
-trace(455,"er sepsis triage",3).
-trace(455,"iv antibiotics",4).
-trace(455,"leucocytes",5).
-trace(455,"lacticacid",6).
-trace(455,"crp",7).
-trace(455,"admission nc",8).
-trace(455,"crp",9).
-trace(455,"crp",10).
-trace(455,"leucocytes",11).
-trace(455,"release a",12).
-
-trace(456,"er registration",1).
-trace(456,"er triage",2).
-trace(456,"er sepsis triage",3).
-trace(456,"admission nc",4).
-trace(456,"release a",5).
-
-trace(457,"er registration",1).
-trace(457,"er triage",2).
-trace(457,"er sepsis triage",3).
-trace(457,"lacticacid",4).
-trace(457,"leucocytes",5).
-trace(457,"crp",6).
-trace(457,"iv antibiotics",7).
-trace(457,"admission nc",8).
-trace(457,"crp",9).
-trace(457,"release a",10).
-
-trace(458,"er registration",1).
-trace(458,"er triage",2).
-trace(458,"er sepsis triage",3).
-trace(458,"iv liquid",4).
-trace(458,"iv antibiotics",5).
-trace(458,"crp",6).
-trace(458,"lacticacid",7).
-trace(458,"leucocytes",8).
-
-trace(459,"er registration",1).
-trace(459,"er triage",2).
-trace(459,"er sepsis triage",3).
-trace(459,"leucocytes",4).
-trace(459,"crp",5).
-trace(459,"admission ic",6).
-trace(459,"leucocytes",7).
-trace(459,"leucocytes",8).
-trace(459,"leucocytes",9).
-trace(459,"crp",10).
-trace(459,"crp",11).
-trace(459,"release b",12).
-
-trace(460,"er registration",1).
-trace(460,"er triage",2).
-trace(460,"er sepsis triage",3).
-trace(460,"iv liquid",4).
-trace(460,"lacticacid",5).
-trace(460,"leucocytes",6).
-trace(460,"crp",7).
-trace(460,"iv antibiotics",8).
-trace(460,"admission nc",9).
-trace(460,"leucocytes",10).
-trace(460,"crp",11).
-trace(460,"leucocytes",12).
-trace(460,"crp",13).
-trace(460,"release a",14).
-trace(460,"return er",15).
-
-trace(461,"er registration",1).
-trace(461,"er triage",2).
-trace(461,"er sepsis triage",3).
-trace(461,"lacticacid",4).
-trace(461,"leucocytes",5).
-trace(461,"crp",6).
-trace(461,"admission nc",7).
-trace(461,"admission nc",8).
-trace(461,"crp",9).
-trace(461,"leucocytes",10).
-trace(461,"release a",11).
-trace(461,"return er",12).
-
-trace(462,"er registration",1).
-trace(462,"er triage",2).
-trace(462,"er sepsis triage",3).
-trace(462,"crp",4).
-trace(462,"leucocytes",5).
-trace(462,"lacticacid",6).
-trace(462,"iv liquid",7).
-trace(462,"iv antibiotics",8).
-trace(462,"admission nc",9).
-trace(462,"crp",10).
-trace(462,"leucocytes",11).
-trace(462,"release d",12).
-
-trace(463,"er registration",1).
-trace(463,"er triage",2).
-trace(463,"er sepsis triage",3).
-trace(463,"lacticacid",4).
-trace(463,"leucocytes",5).
-trace(463,"crp",6).
-trace(463,"iv liquid",7).
-trace(463,"iv antibiotics",8).
-trace(463,"admission nc",9).
-trace(463,"leucocytes",10).
-trace(463,"crp",11).
-trace(463,"release a",12).
-trace(463,"return er",13).
-
-trace(464,"er registration",1).
-trace(464,"er triage",2).
-trace(464,"er sepsis triage",3).
-trace(464,"leucocytes",4).
-trace(464,"crp",5).
-trace(464,"lacticacid",6).
-trace(464,"iv liquid",7).
-trace(464,"iv antibiotics",8).
-trace(464,"admission nc",9).
-trace(464,"admission nc",10).
-trace(464,"leucocytes",11).
-trace(464,"crp",12).
-trace(464,"release a",13).
-trace(464,"return er",14).
-
-trace(465,"er registration",1).
-trace(465,"er triage",2).
-trace(465,"er sepsis triage",3).
-trace(465,"leucocytes",4).
-trace(465,"lacticacid",5).
-trace(465,"crp",6).
-trace(465,"iv liquid",7).
-trace(465,"iv antibiotics",8).
-trace(465,"admission nc",9).
-trace(465,"crp",10).
-trace(465,"leucocytes",11).
-trace(465,"release a",12).
-
-trace(466,"er registration",1).
-trace(466,"er triage",2).
-trace(466,"er sepsis triage",3).
-trace(466,"leucocytes",4).
-trace(466,"lacticacid",5).
-trace(466,"crp",6).
-trace(466,"iv liquid",7).
-trace(466,"iv antibiotics",8).
-trace(466,"admission nc",9).
-trace(466,"leucocytes",10).
-trace(466,"crp",11).
-trace(466,"crp",12).
-trace(466,"crp",13).
-trace(466,"leucocytes",14).
-trace(466,"leucocytes",15).
-trace(466,"crp",16).
-trace(466,"release a",17).
-trace(466,"return er",18).
-trace(466,"crp",19).
-trace(466,"lacticacid",20).
-trace(466,"leucocytes",21).
-
-trace(467,"er registration",1).
-trace(467,"er triage",2).
-trace(467,"er sepsis triage",3).
-trace(467,"leucocytes",4).
-trace(467,"lacticacid",5).
-trace(467,"crp",6).
-trace(467,"iv liquid",7).
-trace(467,"iv antibiotics",8).
-trace(467,"admission nc",9).
-trace(467,"crp",10).
-trace(467,"leucocytes",11).
-trace(467,"crp",12).
-trace(467,"leucocytes",13).
-trace(467,"crp",14).
-trace(467,"leucocytes",15).
-trace(467,"leucocytes",16).
-trace(467,"crp",17).
-trace(467,"leucocytes",18).
-trace(467,"crp",19).
-trace(467,"leucocytes",20).
-trace(467,"crp",21).
-trace(467,"release a",22).
-trace(467,"return er",23).
-
-trace(468,"er registration",1).
-trace(468,"er triage",2).
-trace(468,"er sepsis triage",3).
-trace(468,"iv liquid",4).
-trace(468,"iv antibiotics",5).
-trace(468,"crp",6).
-trace(468,"leucocytes",7).
-trace(468,"lacticacid",8).
-trace(468,"admission nc",9).
-trace(468,"release a",10).
-trace(468,"return er",11).
-
-trace(469,"er registration",1).
-trace(469,"er triage",2).
-trace(469,"er sepsis triage",3).
-trace(469,"lacticacid",4).
-trace(469,"crp",5).
-trace(469,"leucocytes",6).
-trace(469,"iv liquid",7).
-trace(469,"iv antibiotics",8).
-trace(469,"admission nc",9).
-trace(469,"leucocytes",10).
-trace(469,"crp",11).
-trace(469,"crp",12).
-trace(469,"leucocytes",13).
-trace(469,"leucocytes",14).
-trace(469,"crp",15).
-trace(469,"release a",16).
-trace(469,"return er",17).
-
-trace(470,"er registration",1).
-trace(470,"er triage",2).
-trace(470,"er sepsis triage",3).
-trace(470,"leucocytes",4).
-trace(470,"crp",5).
-trace(470,"lacticacid",6).
-trace(470,"iv liquid",7).
-trace(470,"iv antibiotics",8).
-trace(470,"admission nc",9).
-trace(470,"leucocytes",10).
-trace(470,"crp",11).
-trace(470,"admission nc",12).
-trace(470,"leucocytes",13).
-trace(470,"crp",14).
-trace(470,"release a",15).
-
-trace(471,"er registration",1).
-trace(471,"er triage",2).
-trace(471,"er sepsis triage",3).
-trace(471,"leucocytes",4).
-trace(471,"lacticacid",5).
-trace(471,"crp",6).
-trace(471,"iv liquid",7).
-trace(471,"iv antibiotics",8).
-
-trace(472,"er registration",1).
-trace(472,"er triage",2).
-trace(472,"er sepsis triage",3).
-trace(472,"crp",4).
-trace(472,"lacticacid",5).
-trace(472,"leucocytes",6).
-trace(472,"iv liquid",7).
-trace(472,"iv antibiotics",8).
-trace(472,"admission nc",9).
-
-trace(473,"er registration",1).
-trace(473,"er triage",2).
-trace(473,"er sepsis triage",3).
-trace(473,"leucocytes",4).
-trace(473,"crp",5).
-
-trace(474,"er registration",1).
-trace(474,"er triage",2).
-trace(474,"er sepsis triage",3).
-trace(474,"lacticacid",4).
-trace(474,"crp",5).
-trace(474,"leucocytes",6).
-trace(474,"iv antibiotics",7).
-trace(474,"iv liquid",8).
-trace(474,"admission nc",9).
-trace(474,"release a",10).
-
-trace(475,"er registration",1).
-trace(475,"er triage",2).
-trace(475,"er sepsis triage",3).
-trace(475,"crp",4).
-trace(475,"leucocytes",5).
-trace(475,"lacticacid",6).
-trace(475,"iv liquid",7).
-trace(475,"iv antibiotics",8).
-trace(475,"er triage",9).
-
-trace(476,"er registration",1).
-trace(476,"er triage",2).
-trace(476,"er sepsis triage",3).
-trace(476,"lacticacid",4).
-trace(476,"leucocytes",5).
-trace(476,"crp",6).
-trace(476,"iv liquid",7).
-trace(476,"iv antibiotics",8).
-trace(476,"admission nc",9).
-trace(476,"crp",10).
-trace(476,"crp",11).
-trace(476,"leucocytes",12).
-trace(476,"crp",13).
-trace(476,"leucocytes",14).
-trace(476,"release a",15).
-trace(476,"return er",16).
-
-trace(477,"er registration",1).
-trace(477,"er triage",2).
-trace(477,"er sepsis triage",3).
-trace(477,"leucocytes",4).
-trace(477,"lacticacid",5).
-trace(477,"crp",6).
-trace(477,"iv liquid",7).
-trace(477,"iv antibiotics",8).
-trace(477,"admission nc",9).
-
-trace(478,"er registration",1).
-trace(478,"er triage",2).
-trace(478,"er sepsis triage",3).
-trace(478,"leucocytes",4).
-trace(478,"crp",5).
-trace(478,"lacticacid",6).
-trace(478,"iv antibiotics",7).
-trace(478,"iv liquid",8).
-trace(478,"admission nc",9).
-trace(478,"crp",10).
-trace(478,"leucocytes",11).
-trace(478,"release a",12).
-
-trace(479,"er registration",1).
-trace(479,"er triage",2).
-trace(479,"er sepsis triage",3).
-trace(479,"leucocytes",4).
-trace(479,"lacticacid",5).
-trace(479,"crp",6).
-trace(479,"iv antibiotics",7).
-trace(479,"iv liquid",8).
-trace(479,"admission nc",9).
-trace(479,"admission nc",10).
-trace(479,"admission nc",11).
-trace(479,"release a",12).
-
-trace(480,"er registration",1).
-trace(480,"er triage",2).
-trace(480,"er sepsis triage",3).
-trace(480,"iv liquid",4).
-trace(480,"iv antibiotics",5).
-trace(480,"leucocytes",6).
-trace(480,"crp",7).
-trace(480,"lacticacid",8).
-trace(480,"admission nc",9).
-trace(480,"crp",10).
-trace(480,"leucocytes",11).
-trace(480,"crp",12).
-trace(480,"leucocytes",13).
-trace(480,"admission nc",14).
-trace(480,"crp",15).
-trace(480,"leucocytes",16).
-trace(480,"crp",17).
-trace(480,"leucocytes",18).
-trace(480,"release b",19).
-
-trace(481,"er registration",1).
-trace(481,"er triage",2).
-trace(481,"er sepsis triage",3).
-trace(481,"crp",4).
-trace(481,"leucocytes",5).
-trace(481,"lacticacid",6).
-trace(481,"iv liquid",7).
-trace(481,"iv antibiotics",8).
-trace(481,"admission ic",9).
-trace(481,"crp",10).
-trace(481,"lacticacid",11).
-trace(481,"leucocytes",12).
-trace(481,"lacticacid",13).
-trace(481,"lacticacid",14).
-trace(481,"crp",15).
-trace(481,"leucocytes",16).
-trace(481,"admission nc",17).
-trace(481,"crp",18).
-trace(481,"leucocytes",19).
-trace(481,"crp",20).
-trace(481,"release a",21).
-trace(481,"return er",22).
-
-trace(482,"er registration",1).
-trace(482,"er triage",2).
-trace(482,"leucocytes",3).
-trace(482,"crp",4).
-trace(482,"admission nc",5).
-trace(482,"er sepsis triage",6).
-trace(482,"admission nc",7).
-trace(482,"leucocytes",8).
-trace(482,"crp",9).
-trace(482,"leucocytes",10).
-trace(482,"crp",11).
-trace(482,"leucocytes",12).
-trace(482,"crp",13).
-trace(482,"release c",14).
-
-trace(483,"er registration",1).
-trace(483,"er triage",2).
-trace(483,"er sepsis triage",3).
-trace(483,"crp",4).
-trace(483,"leucocytes",5).
-
-trace(484,"iv liquid",1).
-trace(484,"er registration",2).
-trace(484,"er triage",3).
-trace(484,"er sepsis triage",4).
-trace(484,"leucocytes",5).
-trace(484,"crp",6).
-trace(484,"lacticacid",7).
-trace(484,"iv antibiotics",8).
-trace(484,"admission nc",9).
-trace(484,"release a",10).
-trace(484,"return er",11).
-
-trace(485,"er registration",1).
-trace(485,"er triage",2).
-trace(485,"er sepsis triage",3).
-trace(485,"iv liquid",4).
-trace(485,"crp",5).
-trace(485,"lacticacid",6).
-trace(485,"leucocytes",7).
-trace(485,"iv antibiotics",8).
-trace(485,"admission nc",9).
-trace(485,"crp",10).
-trace(485,"leucocytes",11).
-trace(485,"crp",12).
-trace(485,"release a",13).
-
-trace(486,"er registration",1).
-trace(486,"er triage",2).
-trace(486,"er sepsis triage",3).
-trace(486,"leucocytes",4).
-trace(486,"crp",5).
-trace(486,"lacticacid",6).
-trace(486,"admission nc",7).
-trace(486,"release b",8).
-
-trace(487,"er registration",1).
-trace(487,"er triage",2).
-trace(487,"er sepsis triage",3).
-trace(487,"leucocytes",4).
-trace(487,"crp",5).
-trace(487,"lacticacid",6).
-trace(487,"iv liquid",7).
-trace(487,"iv antibiotics",8).
-trace(487,"admission nc",9).
-trace(487,"crp",10).
-trace(487,"leucocytes",11).
-trace(487,"admission nc",12).
-trace(487,"leucocytes",13).
-trace(487,"crp",14).
-trace(487,"release c",15).
-
-trace(488,"er triage",1).
-trace(488,"er registration",2).
-trace(488,"er sepsis triage",3).
-trace(488,"iv liquid",4).
-trace(488,"iv antibiotics",5).
-trace(488,"leucocytes",6).
-trace(488,"crp",7).
-trace(488,"lacticacid",8).
-trace(488,"admission nc",9).
-trace(488,"admission nc",10).
-trace(488,"crp",11).
-trace(488,"leucocytes",12).
-trace(488,"crp",13).
-trace(488,"leucocytes",14).
-trace(488,"release c",15).
-trace(488,"return er",16).
-
-trace(489,"crp",1).
-trace(489,"lacticacid",2).
-trace(489,"leucocytes",3).
-trace(489,"er registration",4).
-trace(489,"er triage",5).
-trace(489,"er sepsis triage",6).
-trace(489,"iv liquid",7).
-trace(489,"iv antibiotics",8).
-trace(489,"admission nc",9).
-trace(489,"leucocytes",10).
-trace(489,"crp",11).
-trace(489,"crp",12).
-trace(489,"leucocytes",13).
-trace(489,"crp",14).
-trace(489,"leucocytes",15).
-trace(489,"leucocytes",16).
-trace(489,"crp",17).
-trace(489,"release c",18).
-
-trace(490,"er registration",1).
-trace(490,"crp",2).
-trace(490,"leucocytes",3).
-trace(490,"er triage",4).
-trace(490,"er sepsis triage",5).
-trace(490,"iv antibiotics",6).
-
-trace(491,"er registration",1).
-trace(491,"er triage",2).
-trace(491,"er sepsis triage",3).
-trace(491,"iv liquid",4).
-trace(491,"iv antibiotics",5).
-trace(491,"lacticacid",6).
-trace(491,"leucocytes",7).
-trace(491,"crp",8).
-trace(491,"admission nc",9).
-trace(491,"lacticacid",10).
-trace(491,"leucocytes",11).
-trace(491,"crp",12).
-trace(491,"crp",13).
-trace(491,"leucocytes",14).
-trace(491,"leucocytes",15).
-trace(491,"crp",16).
-trace(491,"release a",17).
-
-trace(492,"er registration",1).
-trace(492,"er triage",2).
-trace(492,"er sepsis triage",3).
-trace(492,"leucocytes",4).
-trace(492,"crp",5).
-trace(492,"lacticacid",6).
-trace(492,"iv liquid",7).
-trace(492,"iv antibiotics",8).
-trace(492,"admission nc",9).
-trace(492,"leucocytes",10).
-trace(492,"crp",11).
-trace(492,"crp",12).
-trace(492,"release a",13).
-
-trace(493,"er registration",1).
-trace(493,"er triage",2).
-trace(493,"er sepsis triage",3).
-trace(493,"crp",4).
-trace(493,"lacticacid",5).
-trace(493,"leucocytes",6).
-trace(493,"iv liquid",7).
-trace(493,"iv antibiotics",8).
-trace(493,"leucocytes",9).
-trace(493,"crp",10).
-trace(493,"lacticacid",11).
-trace(493,"admission ic",12).
-trace(493,"leucocytes",13).
-trace(493,"lacticacid",14).
-trace(493,"leucocytes",15).
-trace(493,"lacticacid",16).
-trace(493,"leucocytes",17).
-trace(493,"crp",18).
-trace(493,"lacticacid",19).
-trace(493,"crp",20).
-trace(493,"leucocytes",21).
-trace(493,"release b",22).
-
-trace(494,"er registration",1).
-trace(494,"er triage",2).
-trace(494,"er sepsis triage",3).
-trace(494,"iv liquid",4).
-trace(494,"crp",5).
-trace(494,"lacticacid",6).
-trace(494,"leucocytes",7).
-trace(494,"iv antibiotics",8).
-trace(494,"admission nc",9).
-trace(494,"crp",10).
-trace(494,"crp",11).
-trace(494,"crp",12).
-trace(494,"release c",13).
-
-trace(495,"er registration",1).
-trace(495,"er triage",2).
-trace(495,"er sepsis triage",3).
-trace(495,"leucocytes",4).
-trace(495,"lacticacid",5).
-trace(495,"crp",6).
-trace(495,"iv antibiotics",7).
-
-trace(496,"iv liquid",1).
-trace(496,"er registration",2).
-trace(496,"er triage",3).
-trace(496,"er sepsis triage",4).
-trace(496,"iv antibiotics",5).
-trace(496,"crp",6).
-trace(496,"leucocytes",7).
-trace(496,"lacticacid",8).
-trace(496,"admission nc",9).
-trace(496,"admission nc",10).
-trace(496,"leucocytes",11).
-trace(496,"crp",12).
-trace(496,"leucocytes",13).
-trace(496,"crp",14).
-trace(496,"release a",15).
-
-trace(497,"er registration",1).
-trace(497,"er triage",2).
-trace(497,"er sepsis triage",3).
-trace(497,"crp",4).
-trace(497,"lacticacid",5).
-trace(497,"leucocytes",6).
-trace(497,"iv liquid",7).
-trace(497,"iv antibiotics",8).
-trace(497,"admission nc",9).
-trace(497,"admission nc",10).
-trace(497,"admission nc",11).
-trace(497,"leucocytes",12).
-trace(497,"leucocytes",13).
-trace(497,"crp",14).
-trace(497,"leucocytes",15).
-trace(497,"crp",16).
-trace(497,"admission ic",17).
-trace(497,"leucocytes",18).
-trace(497,"crp",19).
-trace(497,"lacticacid",20).
-trace(497,"leucocytes",21).
-trace(497,"leucocytes",22).
-trace(497,"leucocytes",23).
-trace(497,"leucocytes",24).
-trace(497,"leucocytes",25).
-trace(497,"leucocytes",26).
-trace(497,"leucocytes",27).
-trace(497,"crp",28).
-trace(497,"lacticacid",29).
-trace(497,"leucocytes",30).
-trace(497,"leucocytes",31).
-trace(497,"leucocytes",32).
-trace(497,"leucocytes",33).
-trace(497,"leucocytes",34).
-trace(497,"leucocytes",35).
-trace(497,"leucocytes",36).
-trace(497,"leucocytes",37).
-trace(497,"lacticacid",38).
-trace(497,"crp",39).
-trace(497,"lacticacid",40).
-trace(497,"leucocytes",41).
-trace(497,"crp",42).
-trace(497,"admission nc",43).
-trace(497,"leucocytes",44).
-trace(497,"leucocytes",45).
-trace(497,"leucocytes",46).
-trace(497,"release a",47).
-trace(497,"return er",48).
-
-trace(498,"er registration",1).
-trace(498,"er triage",2).
-trace(498,"er sepsis triage",3).
-trace(498,"leucocytes",4).
-trace(498,"crp",5).
-trace(498,"lacticacid",6).
-
-trace(499,"er registration",1).
-trace(499,"er triage",2).
-trace(499,"er sepsis triage",3).
-trace(499,"leucocytes",4).
-trace(499,"crp",5).
-trace(499,"admission nc",6).
-trace(499,"crp",7).
-trace(499,"leucocytes",8).
-trace(499,"admission nc",9).
-trace(499,"crp",10).
-trace(499,"leucocytes",11).
-trace(499,"leucocytes",12).
-trace(499,"crp",13).
-trace(499,"crp",14).
-trace(499,"leucocytes",15).
-trace(499,"release b",16).
-
-trace(500,"er registration",1).
-trace(500,"er triage",2).
-trace(500,"er sepsis triage",3).
-trace(500,"lacticacid",4).
-trace(500,"crp",5).
-trace(500,"leucocytes",6).
-trace(500,"iv liquid",7).
-trace(500,"iv antibiotics",8).
-trace(500,"crp",9).
-trace(500,"lacticacid",10).
-trace(500,"leucocytes",11).
-trace(500,"admission ic",12).
-trace(500,"lacticacid",13).
-trace(500,"leucocytes",14).
-trace(500,"crp",15).
-trace(500,"leucocytes",16).
-trace(500,"crp",17).
-trace(500,"lacticacid",18).
-trace(500,"leucocytes",19).
-trace(500,"crp",20).
-trace(500,"lacticacid",21).
-trace(500,"lacticacid",22).
-trace(500,"leucocytes",23).
-trace(500,"crp",24).
-trace(500,"crp",25).
-trace(500,"lacticacid",26).
-trace(500,"leucocytes",27).
-trace(500,"leucocytes",28).
-trace(500,"crp",29).
-trace(500,"lacticacid",30).
-trace(500,"leucocytes",31).
-trace(500,"crp",32).
-trace(500,"lacticacid",33).
-trace(500,"admission nc",34).
-trace(500,"leucocytes",35).
-trace(500,"leucocytes",36).
-trace(500,"crp",37).
-trace(500,"leucocytes",38).
-trace(500,"leucocytes",39).
-trace(500,"crp",40).
-trace(500,"leucocytes",41).
-trace(500,"leucocytes",42).
-trace(500,"crp",43).
-trace(500,"release d",44).
-trace(500,"return er",45).
-
-trace(501,"er registration",1).
-trace(501,"er triage",2).
-trace(501,"er sepsis triage",3).
-trace(501,"crp",4).
-trace(501,"leucocytes",5).
-trace(501,"lacticacid",6).
-trace(501,"iv liquid",7).
-trace(501,"iv antibiotics",8).
-trace(501,"admission nc",9).
-trace(501,"crp",10).
-trace(501,"crp",11).
-trace(501,"leucocytes",12).
-trace(501,"crp",13).
-trace(501,"leucocytes",14).
-trace(501,"leucocytes",15).
-trace(501,"crp",16).
-trace(501,"leucocytes",17).
-trace(501,"crp",18).
-trace(501,"crp",19).
-trace(501,"leucocytes",20).
-trace(501,"crp",21).
-trace(501,"leucocytes",22).
-trace(501,"release a",23).
-
-trace(502,"er registration",1).
-trace(502,"er triage",2).
-trace(502,"leucocytes",3).
-trace(502,"crp",4).
-trace(502,"er sepsis triage",5).
-trace(502,"iv liquid",6).
-trace(502,"iv antibiotics",7).
-trace(502,"admission nc",8).
-trace(502,"leucocytes",9).
-trace(502,"crp",10).
-trace(502,"leucocytes",11).
-trace(502,"crp",12).
-trace(502,"crp",13).
-trace(502,"leucocytes",14).
-trace(502,"crp",15).
-trace(502,"crp",16).
-trace(502,"leucocytes",17).
-trace(502,"crp",18).
-trace(502,"leucocytes",19).
-trace(502,"crp",20).
-trace(502,"leucocytes",21).
-trace(502,"crp",22).
-trace(502,"leucocytes",23).
-trace(502,"leucocytes",24).
-trace(502,"crp",25).
-trace(502,"crp",26).
-trace(502,"leucocytes",27).
-trace(502,"leucocytes",28).
-trace(502,"crp",29).
-trace(502,"crp",30).
-trace(502,"crp",31).
-trace(502,"crp",32).
-trace(502,"leucocytes",33).
-trace(502,"crp",34).
-trace(502,"leucocytes",35).
-trace(502,"crp",36).
-trace(502,"crp",37).
-trace(502,"leucocytes",38).
-trace(502,"release a",39).
-
-trace(503,"er registration",1).
-trace(503,"er triage",2).
-trace(503,"er sepsis triage",3).
-trace(503,"iv liquid",4).
-trace(503,"lacticacid",5).
-trace(503,"leucocytes",6).
-trace(503,"crp",7).
-trace(503,"iv antibiotics",8).
-trace(503,"admission nc",9).
-trace(503,"admission nc",10).
-trace(503,"lacticacid",11).
-trace(503,"leucocytes",12).
-trace(503,"crp",13).
-trace(503,"leucocytes",14).
-trace(503,"crp",15).
-trace(503,"leucocytes",16).
-trace(503,"crp",17).
-trace(503,"crp",18).
-trace(503,"leucocytes",19).
-trace(503,"crp",20).
-trace(503,"release a",21).
-trace(503,"return er",22).
-
-trace(504,"er registration",1).
-trace(504,"er triage",2).
-trace(504,"er sepsis triage",3).
-trace(504,"crp",4).
-trace(504,"lacticacid",5).
-trace(504,"leucocytes",6).
-trace(504,"iv liquid",7).
-trace(504,"iv antibiotics",8).
-trace(504,"admission nc",9).
-trace(504,"leucocytes",10).
-trace(504,"crp",11).
-trace(504,"leucocytes",12).
-trace(504,"leucocytes",13).
-trace(504,"release a",14).
-trace(504,"return er",15).
-
-trace(505,"iv liquid",1).
-trace(505,"er registration",2).
-trace(505,"er triage",3).
-trace(505,"er sepsis triage",4).
-trace(505,"iv antibiotics",5).
-trace(505,"lacticacid",6).
-trace(505,"leucocytes",7).
-trace(505,"crp",8).
-trace(505,"admission nc",9).
-trace(505,"admission nc",10).
-trace(505,"crp",11).
-trace(505,"leucocytes",12).
-trace(505,"leucocytes",13).
-trace(505,"release a",14).
-trace(505,"return er",15).
-
-trace(506,"er registration",1).
-trace(506,"er triage",2).
-trace(506,"er sepsis triage",3).
-trace(506,"leucocytes",4).
-trace(506,"crp",5).
-trace(506,"lacticacid",6).
-
-trace(507,"er registration",1).
-trace(507,"er triage",2).
-trace(507,"er sepsis triage",3).
-trace(507,"lacticacid",4).
-trace(507,"leucocytes",5).
-trace(507,"crp",6).
-trace(507,"iv liquid",7).
-trace(507,"iv antibiotics",8).
-trace(507,"admission nc",9).
-trace(507,"crp",10).
-trace(507,"release a",11).
-trace(507,"return er",12).
-
-trace(508,"er registration",1).
-trace(508,"er triage",2).
-trace(508,"er sepsis triage",3).
-trace(508,"leucocytes",4).
-trace(508,"crp",5).
-trace(508,"lacticacid",6).
-trace(508,"iv liquid",7).
-trace(508,"iv antibiotics",8).
-trace(508,"admission nc",9).
-trace(508,"release a",10).
-
-trace(509,"er registration",1).
-trace(509,"er triage",2).
-trace(509,"er sepsis triage",3).
-trace(509,"leucocytes",4).
-trace(509,"lacticacid",5).
-trace(509,"crp",6).
-trace(509,"iv liquid",7).
-trace(509,"iv antibiotics",8).
-trace(509,"admission nc",9).
-trace(509,"crp",10).
-trace(509,"leucocytes",11).
-trace(509,"release a",12).
-
-trace(510,"er registration",1).
-trace(510,"er triage",2).
-trace(510,"er sepsis triage",3).
-trace(510,"leucocytes",4).
-trace(510,"crp",5).
-trace(510,"lacticacid",6).
-trace(510,"iv liquid",7).
-trace(510,"iv antibiotics",8).
-trace(510,"admission nc",9).
-trace(510,"release a",10).
-
-trace(511,"er registration",1).
-trace(511,"er triage",2).
-trace(511,"er sepsis triage",3).
-trace(511,"crp",4).
-trace(511,"leucocytes",5).
-trace(511,"lacticacid",6).
-trace(511,"iv liquid",7).
-trace(511,"iv antibiotics",8).
-trace(511,"admission nc",9).
-trace(511,"leucocytes",10).
-trace(511,"crp",11).
-trace(511,"release a",12).
-trace(511,"return er",13).
-
-trace(512,"er registration",1).
-trace(512,"er triage",2).
-trace(512,"er sepsis triage",3).
-trace(512,"leucocytes",4).
-trace(512,"lacticacid",5).
-trace(512,"crp",6).
-trace(512,"iv liquid",7).
-trace(512,"iv antibiotics",8).
-trace(512,"admission nc",9).
-trace(512,"crp",10).
-trace(512,"leucocytes",11).
-trace(512,"leucocytes",12).
-trace(512,"crp",13).
-trace(512,"leucocytes",14).
-trace(512,"crp",15).
-trace(512,"crp",16).
-trace(512,"leucocytes",17).
-trace(512,"crp",18).
-trace(512,"leucocytes",19).
-trace(512,"release c",20).
-
-trace(513,"er registration",1).
-trace(513,"er triage",2).
-trace(513,"er sepsis triage",3).
-trace(513,"leucocytes",4).
-trace(513,"lacticacid",5).
-trace(513,"crp",6).
-trace(513,"iv liquid",7).
-trace(513,"iv antibiotics",8).
-trace(513,"admission nc",9).
-trace(513,"leucocytes",10).
-trace(513,"crp",11).
-trace(513,"admission nc",12).
-trace(513,"crp",13).
-trace(513,"leucocytes",14).
-trace(513,"release a",15).
-
-trace(514,"er registration",1).
-trace(514,"er triage",2).
-trace(514,"er sepsis triage",3).
-trace(514,"iv liquid",4).
-trace(514,"iv antibiotics",5).
-trace(514,"leucocytes",6).
-trace(514,"crp",7).
-trace(514,"lacticacid",8).
-trace(514,"admission nc",9).
-trace(514,"admission nc",10).
-trace(514,"crp",11).
-trace(514,"leucocytes",12).
-trace(514,"crp",13).
-trace(514,"leucocytes",14).
-trace(514,"leucocytes",15).
-trace(514,"release a",16).
-
-trace(515,"er registration",1).
-trace(515,"er triage",2).
-trace(515,"er sepsis triage",3).
-trace(515,"leucocytes",4).
-trace(515,"crp",5).
-trace(515,"lacticacid",6).
-
-trace(516,"er registration",1).
-trace(516,"er triage",2).
-trace(516,"er sepsis triage",3).
-trace(516,"iv liquid",4).
-trace(516,"lacticacid",5).
-trace(516,"leucocytes",6).
-trace(516,"crp",7).
-trace(516,"iv antibiotics",8).
-trace(516,"admission nc",9).
-trace(516,"leucocytes",10).
-trace(516,"crp",11).
-trace(516,"leucocytes",12).
-trace(516,"crp",13).
-trace(516,"crp",14).
-trace(516,"leucocytes",15).
-trace(516,"leucocytes",16).
-trace(516,"crp",17).
-trace(516,"leucocytes",18).
-trace(516,"crp",19).
-trace(516,"release c",20).
-trace(516,"return er",21).
-
-trace(517,"er registration",1).
-trace(517,"er triage",2).
-trace(517,"er sepsis triage",3).
-trace(517,"crp",4).
-trace(517,"leucocytes",5).
-trace(517,"lacticacid",6).
-trace(517,"iv liquid",7).
-trace(517,"iv antibiotics",8).
-trace(517,"admission ic",9).
-trace(517,"lacticacid",10).
-trace(517,"lacticacid",11).
-trace(517,"crp",12).
-trace(517,"leucocytes",13).
-trace(517,"admission nc",14).
-trace(517,"leucocytes",15).
-trace(517,"crp",16).
-trace(517,"leucocytes",17).
-trace(517,"crp",18).
-trace(517,"leucocytes",19).
-trace(517,"crp",20).
-trace(517,"leucocytes",21).
-trace(517,"release a",22).
-trace(517,"return er",23).
-
-trace(518,"er registration",1).
-trace(518,"er triage",2).
-trace(518,"er sepsis triage",3).
-trace(518,"leucocytes",4).
-trace(518,"crp",5).
-trace(518,"lacticacid",6).
-trace(518,"iv liquid",7).
-trace(518,"lacticacid",8).
-trace(518,"leucocytes",9).
-trace(518,"crp",10).
-trace(518,"iv antibiotics",11).
-trace(518,"admission nc",12).
-trace(518,"release a",13).
-trace(518,"return er",14).
-
-trace(519,"er registration",1).
-trace(519,"er triage",2).
-trace(519,"er sepsis triage",3).
-trace(519,"crp",4).
-trace(519,"lacticacid",5).
-trace(519,"leucocytes",6).
-trace(519,"iv liquid",7).
-trace(519,"iv antibiotics",8).
-
-trace(520,"er registration",1).
-trace(520,"er triage",2).
-trace(520,"er sepsis triage",3).
-trace(520,"iv liquid",4).
-trace(520,"leucocytes",5).
-trace(520,"crp",6).
-trace(520,"lacticacid",7).
-trace(520,"iv antibiotics",8).
-trace(520,"admission nc",9).
-trace(520,"leucocytes",10).
-trace(520,"crp",11).
-trace(520,"release a",12).
-trace(520,"return er",13).
-
-trace(521,"er registration",1).
-trace(521,"er triage",2).
-trace(521,"er sepsis triage",3).
-trace(521,"lacticacid",4).
-trace(521,"crp",5).
-trace(521,"leucocytes",6).
-trace(521,"iv antibiotics",7).
-trace(521,"admission nc",8).
-trace(521,"iv liquid",9).
-trace(521,"crp",10).
-trace(521,"leucocytes",11).
-trace(521,"release a",12).
-
-trace(522,"er registration",1).
-trace(522,"er triage",2).
-trace(522,"er sepsis triage",3).
-trace(522,"leucocytes",4).
-trace(522,"crp",5).
-trace(522,"lacticacid",6).
-trace(522,"admission nc",7).
-trace(522,"admission nc",8).
-trace(522,"release a",9).
-
-trace(523,"er registration",1).
-trace(523,"er triage",2).
-trace(523,"er sepsis triage",3).
-trace(523,"lacticacid",4).
-trace(523,"crp",5).
-trace(523,"leucocytes",6).
-trace(523,"iv liquid",7).
-trace(523,"iv antibiotics",8).
-trace(523,"admission nc",9).
-trace(523,"release a",10).
-
-trace(524,"er registration",1).
-trace(524,"er triage",2).
-trace(524,"er sepsis triage",3).
-trace(524,"lacticacid",4).
-trace(524,"leucocytes",5).
-trace(524,"crp",6).
-trace(524,"iv antibiotics",7).
-trace(524,"admission ic",8).
-trace(524,"lacticacid",9).
-trace(524,"leucocytes",10).
-trace(524,"crp",11).
-trace(524,"leucocytes",12).
-trace(524,"crp",13).
-trace(524,"lacticacid",14).
-trace(524,"leucocytes",15).
-trace(524,"crp",16).
-trace(524,"lacticacid",17).
-trace(524,"crp",18).
-trace(524,"leucocytes",19).
-trace(524,"lacticacid",20).
-trace(524,"crp",21).
-trace(524,"leucocytes",22).
-trace(524,"lacticacid",23).
-trace(524,"lacticacid",24).
-trace(524,"leucocytes",25).
-trace(524,"crp",26).
-trace(524,"leucocytes",27).
-trace(524,"crp",28).
-trace(524,"lacticacid",29).
-trace(524,"admission nc",30).
-trace(524,"crp",31).
-trace(524,"leucocytes",32).
-trace(524,"crp",33).
-trace(524,"leucocytes",34).
-trace(524,"leucocytes",35).
-trace(524,"admission nc",36).
-trace(524,"release a",37).
-
-trace(525,"er registration",1).
-trace(525,"er triage",2).
-trace(525,"er sepsis triage",3).
-trace(525,"lacticacid",4).
-trace(525,"crp",5).
-trace(525,"leucocytes",6).
-trace(525,"admission nc",7).
-trace(525,"leucocytes",8).
-trace(525,"crp",9).
-trace(525,"admission nc",10).
-trace(525,"leucocytes",11).
-trace(525,"crp",12).
-trace(525,"leucocytes",13).
-trace(525,"crp",14).
-trace(525,"leucocytes",15).
-trace(525,"crp",16).
-trace(525,"leucocytes",17).
-trace(525,"crp",18).
-trace(525,"leucocytes",19).
-trace(525,"crp",20).
-trace(525,"release a",21).
-trace(525,"return er",22).
-
-trace(526,"er registration",1).
-trace(526,"er triage",2).
-trace(526,"er sepsis triage",3).
-trace(526,"leucocytes",4).
-trace(526,"crp",5).
-trace(526,"lacticacid",6).
-trace(526,"iv liquid",7).
-trace(526,"iv antibiotics",8).
-trace(526,"admission nc",9).
-trace(526,"leucocytes",10).
-trace(526,"crp",11).
-trace(526,"crp",12).
-trace(526,"leucocytes",13).
-trace(526,"release a",14).
-
-trace(527,"er registration",1).
-trace(527,"er triage",2).
-trace(527,"er sepsis triage",3).
-trace(527,"lacticacid",4).
-trace(527,"crp",5).
-trace(527,"leucocytes",6).
-trace(527,"iv liquid",7).
-trace(527,"iv antibiotics",8).
-trace(527,"admission nc",9).
-trace(527,"admission nc",10).
-trace(527,"crp",11).
-trace(527,"leucocytes",12).
-trace(527,"crp",13).
-trace(527,"leucocytes",14).
-trace(527,"release a",15).
-trace(527,"return er",16).
-
-trace(528,"er registration",1).
-trace(528,"er triage",2).
-trace(528,"er sepsis triage",3).
-trace(528,"crp",4).
-trace(528,"leucocytes",5).
-trace(528,"lacticacid",6).
-trace(528,"iv antibiotics",7).
-trace(528,"admission nc",8).
-trace(528,"admission nc",9).
-trace(528,"leucocytes",10).
-trace(528,"crp",11).
-trace(528,"leucocytes",12).
-trace(528,"crp",13).
-trace(528,"release a",14).
-
-trace(529,"er registration",1).
-trace(529,"er triage",2).
-trace(529,"er sepsis triage",3).
-trace(529,"iv liquid",4).
-trace(529,"lacticacid",5).
-trace(529,"leucocytes",6).
-trace(529,"crp",7).
-trace(529,"iv antibiotics",8).
-trace(529,"admission nc",9).
-trace(529,"admission nc",10).
-trace(529,"leucocytes",11).
-trace(529,"crp",12).
-trace(529,"release a",13).
-
-trace(530,"er registration",1).
-trace(530,"leucocytes",2).
-trace(530,"crp",3).
-trace(530,"lacticacid",4).
-trace(530,"er triage",5).
-trace(530,"er sepsis triage",6).
-trace(530,"iv antibiotics",7).
-trace(530,"admission nc",8).
-trace(530,"admission nc",9).
-trace(530,"leucocytes",10).
-trace(530,"crp",11).
-trace(530,"admission nc",12).
-trace(530,"admission ic",13).
-trace(530,"lacticacid",14).
-trace(530,"crp",15).
-trace(530,"leucocytes",16).
-trace(530,"lacticacid",17).
-trace(530,"crp",18).
-trace(530,"leucocytes",19).
-trace(530,"leucocytes",20).
-trace(530,"lacticacid",21).
-trace(530,"crp",22).
-trace(530,"admission nc",23).
-trace(530,"leucocytes",24).
-trace(530,"crp",25).
-trace(530,"crp",26).
-trace(530,"leucocytes",27).
-trace(530,"crp",28).
-trace(530,"release a",29).
-
-trace(531,"er registration",1).
-trace(531,"er triage",2).
-trace(531,"iv liquid",3).
-trace(531,"leucocytes",4).
-trace(531,"crp",5).
-trace(531,"lacticacid",6).
-trace(531,"er sepsis triage",7).
-trace(531,"iv antibiotics",8).
-trace(531,"admission nc",9).
-trace(531,"crp",10).
-trace(531,"release a",11).
-trace(531,"return er",12).
-
-trace(532,"er registration",1).
-trace(532,"er triage",2).
-trace(532,"er sepsis triage",3).
-trace(532,"iv liquid",4).
-trace(532,"iv antibiotics",5).
-trace(532,"leucocytes",6).
-trace(532,"lacticacid",7).
-trace(532,"crp",8).
-trace(532,"admission nc",9).
-trace(532,"admission nc",10).
-trace(532,"leucocytes",11).
-trace(532,"crp",12).
-trace(532,"crp",13).
-trace(532,"leucocytes",14).
-trace(532,"crp",15).
-trace(532,"leucocytes",16).
-trace(532,"release a",17).
-
-trace(533,"er registration",1).
-trace(533,"er triage",2).
-trace(533,"er sepsis triage",3).
-trace(533,"lacticacid",4).
-trace(533,"leucocytes",5).
-trace(533,"crp",6).
-trace(533,"iv liquid",7).
-trace(533,"iv antibiotics",8).
-trace(533,"admission nc",9).
-trace(533,"admission nc",10).
-trace(533,"leucocytes",11).
-trace(533,"crp",12).
-trace(533,"leucocytes",13).
-trace(533,"crp",14).
-trace(533,"release a",15).
-trace(533,"return er",16).
-
-trace(534,"er registration",1).
-trace(534,"er triage",2).
-trace(534,"crp",3).
-trace(534,"lacticacid",4).
-trace(534,"leucocytes",5).
-trace(534,"er sepsis triage",6).
-trace(534,"iv liquid",7).
-trace(534,"iv antibiotics",8).
-trace(534,"admission nc",9).
-trace(534,"crp",10).
-trace(534,"leucocytes",11).
-trace(534,"admission nc",12).
-trace(534,"release a",13).
-
-trace(535,"er registration",1).
-trace(535,"er triage",2).
-trace(535,"er sepsis triage",3).
-trace(535,"leucocytes",4).
-trace(535,"crp",5).
-trace(535,"lacticacid",6).
-trace(535,"iv liquid",7).
-trace(535,"iv antibiotics",8).
-trace(535,"admission nc",9).
-trace(535,"leucocytes",10).
-trace(535,"crp",11).
-
-trace(536,"er registration",1).
-trace(536,"er triage",2).
-trace(536,"er sepsis triage",3).
-trace(536,"iv liquid",4).
-trace(536,"leucocytes",5).
-trace(536,"lacticacid",6).
-trace(536,"crp",7).
-trace(536,"iv antibiotics",8).
-trace(536,"admission nc",9).
-trace(536,"release a",10).
-trace(536,"return er",11).
-
-trace(537,"er registration",1).
-trace(537,"er triage",2).
-trace(537,"er sepsis triage",3).
-trace(537,"iv liquid",4).
-trace(537,"lacticacid",5).
-trace(537,"crp",6).
-trace(537,"leucocytes",7).
-trace(537,"iv antibiotics",8).
-trace(537,"admission nc",9).
-trace(537,"crp",10).
-trace(537,"lacticacid",11).
-trace(537,"leucocytes",12).
-trace(537,"admission nc",13).
-trace(537,"leucocytes",14).
-trace(537,"crp",15).
-trace(537,"release a",16).
-trace(537,"return er",17).
-
-trace(538,"er registration",1).
-trace(538,"er triage",2).
-trace(538,"er sepsis triage",3).
-trace(538,"leucocytes",4).
-trace(538,"crp",5).
-
-trace(539,"er registration",1).
-trace(539,"leucocytes",2).
-trace(539,"crp",3).
-trace(539,"lacticacid",4).
-trace(539,"er triage",5).
-trace(539,"er sepsis triage",6).
-trace(539,"iv antibiotics",7).
-trace(539,"iv liquid",8).
-trace(539,"admission nc",9).
-trace(539,"leucocytes",10).
-trace(539,"crp",11).
-trace(539,"release a",12).
-
-trace(540,"er registration",1).
-trace(540,"er triage",2).
-trace(540,"er sepsis triage",3).
-trace(540,"leucocytes",4).
-trace(540,"crp",5).
-trace(540,"lacticacid",6).
-trace(540,"iv liquid",7).
-trace(540,"iv antibiotics",8).
-trace(540,"admission nc",9).
-trace(540,"leucocytes",10).
-trace(540,"crp",11).
-trace(540,"admission nc",12).
-trace(540,"leucocytes",13).
-trace(540,"crp",14).
-trace(540,"admission nc",15).
-trace(540,"release a",16).
-
-trace(541,"er registration",1).
-trace(541,"er triage",2).
-trace(541,"crp",3).
-trace(541,"lacticacid",4).
-trace(541,"leucocytes",5).
-trace(541,"er sepsis triage",6).
-trace(541,"iv liquid",7).
-trace(541,"iv antibiotics",8).
-trace(541,"admission nc",9).
-trace(541,"leucocytes",10).
-trace(541,"crp",11).
-trace(541,"leucocytes",12).
-trace(541,"leucocytes",13).
-trace(541,"crp",14).
-trace(541,"leucocytes",15).
-trace(541,"admission nc",16).
-trace(541,"release a",17).
-trace(541,"return er",18).
-
-trace(542,"er registration",1).
-trace(542,"er triage",2).
-trace(542,"crp",3).
-trace(542,"leucocytes",4).
-trace(542,"lacticacid",5).
-trace(542,"er sepsis triage",6).
-trace(542,"iv liquid",7).
-trace(542,"iv antibiotics",8).
-trace(542,"admission nc",9).
-trace(542,"leucocytes",10).
-trace(542,"crp",11).
-trace(542,"leucocytes",12).
-trace(542,"crp",13).
-trace(542,"leucocytes",14).
-trace(542,"crp",15).
-trace(542,"leucocytes",16).
-trace(542,"release a",17).
-trace(542,"return er",18).
-
-trace(543,"er registration",1).
-trace(543,"er triage",2).
-trace(543,"lacticacid",3).
-trace(543,"crp",4).
-trace(543,"leucocytes",5).
-trace(543,"iv liquid",6).
-trace(543,"er sepsis triage",7).
-trace(543,"iv antibiotics",8).
-trace(543,"admission nc",9).
-trace(543,"admission nc",10).
-trace(543,"crp",11).
-trace(543,"leucocytes",12).
-trace(543,"crp",13).
-trace(543,"leucocytes",14).
-trace(543,"crp",15).
-trace(543,"release a",16).
-trace(543,"return er",17).
-
-trace(544,"er registration",1).
-trace(544,"er triage",2).
-trace(544,"er sepsis triage",3).
-trace(544,"crp",4).
-trace(544,"leucocytes",5).
-trace(544,"lacticacid",6).
-trace(544,"iv liquid",7).
-trace(544,"iv antibiotics",8).
-trace(544,"admission nc",9).
-trace(544,"leucocytes",10).
-trace(544,"crp",11).
-trace(544,"leucocytes",12).
-trace(544,"release d",13).
-
-trace(545,"er registration",1).
-trace(545,"er triage",2).
-trace(545,"er sepsis triage",3).
-trace(545,"iv liquid",4).
-trace(545,"iv antibiotics",5).
-trace(545,"lacticacid",6).
-trace(545,"leucocytes",7).
-trace(545,"crp",8).
-trace(545,"admission nc",9).
-trace(545,"leucocytes",10).
-trace(545,"crp",11).
-trace(545,"release a",12).
-
-trace(546,"er registration",1).
-trace(546,"er triage",2).
-trace(546,"er sepsis triage",3).
-trace(546,"iv liquid",4).
-trace(546,"iv antibiotics",5).
-trace(546,"leucocytes",6).
-trace(546,"lacticacid",7).
-trace(546,"crp",8).
-trace(546,"admission nc",9).
-trace(546,"crp",10).
-trace(546,"leucocytes",11).
-trace(546,"crp",12).
-trace(546,"leucocytes",13).
-trace(546,"release a",14).
-
-trace(547,"er registration",1).
-trace(547,"er triage",2).
-trace(547,"er sepsis triage",3).
-trace(547,"crp",4).
-trace(547,"leucocytes",5).
-trace(547,"lacticacid",6).
-trace(547,"admission nc",7).
-trace(547,"crp",8).
-trace(547,"leucocytes",9).
-trace(547,"release a",10).
-trace(547,"return er",11).
-
-trace(548,"er registration",1).
-trace(548,"er triage",2).
-trace(548,"er sepsis triage",3).
-trace(548,"iv liquid",4).
-trace(548,"leucocytes",5).
-trace(548,"lacticacid",6).
-trace(548,"crp",7).
-trace(548,"iv antibiotics",8).
-trace(548,"admission nc",9).
-
-trace(549,"er registration",1).
-trace(549,"er triage",2).
-trace(549,"er sepsis triage",3).
-trace(549,"lacticacid",4).
-trace(549,"leucocytes",5).
-trace(549,"crp",6).
-trace(549,"iv antibiotics",7).
-trace(549,"iv liquid",8).
-trace(549,"admission nc",9).
-trace(549,"crp",10).
-trace(549,"leucocytes",11).
-trace(549,"leucocytes",12).
-trace(549,"release a",13).
-trace(549,"return er",14).
-
-trace(550,"er registration",1).
-trace(550,"er triage",2).
-trace(550,"er sepsis triage",3).
-trace(550,"crp",4).
-trace(550,"lacticacid",5).
-trace(550,"leucocytes",6).
-trace(550,"admission nc",7).
-trace(550,"leucocytes",8).
-trace(550,"crp",9).
-trace(550,"leucocytes",10).
-trace(550,"crp",11).
-trace(550,"release a",12).
-
-trace(551,"er registration",1).
-trace(551,"er triage",2).
-trace(551,"er sepsis triage",3).
-trace(551,"leucocytes",4).
-trace(551,"crp",5).
-trace(551,"iv liquid",6).
-trace(551,"iv antibiotics",7).
-trace(551,"admission nc",8).
-trace(551,"leucocytes",9).
-trace(551,"leucocytes",10).
-trace(551,"leucocytes",11).
-trace(551,"leucocytes",12).
-trace(551,"leucocytes",13).
-trace(551,"release a",14).
-trace(551,"return er",15).
-
-trace(552,"er registration",1).
-trace(552,"er triage",2).
-trace(552,"er sepsis triage",3).
-
-trace(553,"er registration",1).
-trace(553,"er triage",2).
-trace(553,"er sepsis triage",3).
-trace(553,"iv antibiotics",4).
-trace(553,"iv liquid",5).
-trace(553,"lacticacid",6).
-trace(553,"crp",7).
-trace(553,"leucocytes",8).
-trace(553,"admission nc",9).
-trace(553,"admission nc",10).
-trace(553,"leucocytes",11).
-trace(553,"crp",12).
-trace(553,"leucocytes",13).
-trace(553,"crp",14).
-trace(553,"release a",15).
-
-trace(554,"er registration",1).
-trace(554,"leucocytes",2).
-trace(554,"lacticacid",3).
-trace(554,"crp",4).
-trace(554,"er triage",5).
-trace(554,"er sepsis triage",6).
-trace(554,"iv liquid",7).
-trace(554,"iv antibiotics",8).
-trace(554,"admission nc",9).
-trace(554,"admission nc",10).
-trace(554,"crp",11).
-trace(554,"crp",12).
-trace(554,"leucocytes",13).
-trace(554,"crp",14).
-trace(554,"leucocytes",15).
-trace(554,"release a",16).
-
-trace(555,"er registration",1).
-trace(555,"er triage",2).
-trace(555,"er sepsis triage",3).
-trace(555,"crp",4).
-trace(555,"lacticacid",5).
-trace(555,"leucocytes",6).
-trace(555,"iv liquid",7).
-trace(555,"iv antibiotics",8).
-
-trace(556,"er registration",1).
-trace(556,"er triage",2).
-trace(556,"er sepsis triage",3).
-trace(556,"leucocytes",4).
-trace(556,"crp",5).
-trace(556,"lacticacid",6).
-trace(556,"iv antibiotics",7).
-trace(556,"admission nc",8).
-trace(556,"leucocytes",9).
-trace(556,"crp",10).
-trace(556,"iv liquid",11).
-trace(556,"release a",12).
-trace(556,"return er",13).
-
-trace(557,"er registration",1).
-trace(557,"er triage",2).
-trace(557,"er sepsis triage",3).
-trace(557,"iv liquid",4).
-trace(557,"iv antibiotics",5).
-trace(557,"crp",6).
-trace(557,"lacticacid",7).
-trace(557,"leucocytes",8).
-trace(557,"admission nc",9).
-trace(557,"leucocytes",10).
-trace(557,"crp",11).
-trace(557,"crp",12).
-trace(557,"leucocytes",13).
-trace(557,"release a",14).
-
-trace(558,"er registration",1).
-trace(558,"er triage",2).
-trace(558,"er sepsis triage",3).
-trace(558,"iv liquid",4).
-trace(558,"lacticacid",5).
-trace(558,"crp",6).
-trace(558,"leucocytes",7).
-trace(558,"iv antibiotics",8).
-trace(558,"admission nc",9).
-trace(558,"crp",10).
-trace(558,"leucocytes",11).
-trace(558,"admission nc",12).
-trace(558,"crp",13).
-trace(558,"leucocytes",14).
-trace(558,"crp",15).
-trace(558,"leucocytes",16).
-trace(558,"crp",17).
-trace(558,"leucocytes",18).
-trace(558,"crp",19).
-trace(558,"release a",20).
-
-trace(559,"er registration",1).
-trace(559,"leucocytes",2).
-trace(559,"lacticacid",3).
-trace(559,"crp",4).
-trace(559,"er triage",5).
-trace(559,"er sepsis triage",6).
-trace(559,"iv liquid",7).
-trace(559,"iv antibiotics",8).
-trace(559,"admission nc",9).
-trace(559,"admission nc",10).
-trace(559,"crp",11).
-trace(559,"leucocytes",12).
-trace(559,"release a",13).
-trace(559,"return er",14).
-
-trace(560,"er registration",1).
-trace(560,"er triage",2).
-trace(560,"leucocytes",3).
-trace(560,"crp",4).
-trace(560,"lacticacid",5).
-trace(560,"er sepsis triage",6).
-trace(560,"iv liquid",7).
-trace(560,"iv antibiotics",8).
-trace(560,"admission nc",9).
-trace(560,"admission nc",10).
-trace(560,"leucocytes",11).
-trace(560,"crp",12).
-trace(560,"leucocytes",13).
-trace(560,"leucocytes",14).
-trace(560,"crp",15).
-trace(560,"leucocytes",16).
-trace(560,"crp",17).
-trace(560,"leucocytes",18).
-trace(560,"crp",19).
-trace(560,"crp",20).
-trace(560,"leucocytes",21).
-trace(560,"crp",22).
-trace(560,"leucocytes",23).
-trace(560,"crp",24).
-trace(560,"crp",25).
-trace(560,"leucocytes",26).
-trace(560,"crp",27).
-trace(560,"crp",28).
-trace(560,"crp",29).
-trace(560,"leucocytes",30).
-trace(560,"crp",31).
-trace(560,"crp",32).
-trace(560,"leucocytes",33).
-trace(560,"leucocytes",34).
-trace(560,"leucocytes",35).
-trace(560,"leucocytes",36).
-trace(560,"crp",37).
-trace(560,"release b",38).
-
-trace(561,"er registration",1).
-trace(561,"er triage",2).
-trace(561,"er sepsis triage",3).
-trace(561,"iv liquid",4).
-trace(561,"lacticacid",5).
-trace(561,"crp",6).
-trace(561,"leucocytes",7).
-trace(561,"iv antibiotics",8).
-trace(561,"admission nc",9).
-trace(561,"admission nc",10).
-trace(561,"leucocytes",11).
-trace(561,"crp",12).
-trace(561,"lacticacid",13).
-trace(561,"leucocytes",14).
-trace(561,"crp",15).
-trace(561,"crp",16).
-trace(561,"leucocytes",17).
-trace(561,"release a",18).
-trace(561,"return er",19).
-
-trace(562,"leucocytes",1).
-trace(562,"crp",2).
-trace(562,"er registration",3).
-trace(562,"er triage",4).
-trace(562,"er sepsis triage",5).
-trace(562,"iv antibiotics",6).
-trace(562,"admission nc",7).
-trace(562,"crp",8).
-trace(562,"leucocytes",9).
-trace(562,"admission nc",10).
-trace(562,"crp",11).
-trace(562,"leucocytes",12).
-trace(562,"admission nc",13).
-trace(562,"admission ic",14).
-trace(562,"leucocytes",15).
-trace(562,"lacticacid",16).
-trace(562,"crp",17).
-trace(562,"crp",18).
-trace(562,"lacticacid",19).
-trace(562,"leucocytes",20).
-trace(562,"leucocytes",21).
-trace(562,"leucocytes",22).
-trace(562,"lacticacid",23).
-trace(562,"crp",24).
-trace(562,"admission nc",25).
-trace(562,"leucocytes",26).
-trace(562,"crp",27).
-trace(562,"leucocytes",28).
-trace(562,"crp",29).
-trace(562,"leucocytes",30).
-trace(562,"crp",31).
-trace(562,"crp",32).
-trace(562,"leucocytes",33).
-trace(562,"release a",34).
-
-trace(563,"er registration",1).
-trace(563,"er triage",2).
-trace(563,"er sepsis triage",3).
-trace(563,"iv liquid",4).
-trace(563,"leucocytes",5).
-trace(563,"lacticacid",6).
-trace(563,"crp",7).
-trace(563,"iv antibiotics",8).
-trace(563,"admission nc",9).
-
-trace(564,"er registration",1).
-trace(564,"er triage",2).
-trace(564,"leucocytes",3).
-trace(564,"lacticacid",4).
-trace(564,"crp",5).
-trace(564,"er sepsis triage",6).
-trace(564,"admission nc",7).
-trace(564,"admission nc",8).
-trace(564,"crp",9).
-trace(564,"leucocytes",10).
-trace(564,"leucocytes",11).
-trace(564,"crp",12).
-trace(564,"crp",13).
-trace(564,"leucocytes",14).
-trace(564,"crp",15).
-trace(564,"crp",16).
-trace(564,"leucocytes",17).
-trace(564,"crp",18).
-trace(564,"crp",19).
-trace(564,"release d",20).
-
-trace(565,"er registration",1).
-trace(565,"er triage",2).
-trace(565,"er sepsis triage",3).
-trace(565,"leucocytes",4).
-trace(565,"admission nc",5).
-trace(565,"release a",6).
-
-trace(566,"er registration",1).
-trace(566,"er triage",2).
-trace(566,"er sepsis triage",3).
-trace(566,"lacticacid",4).
-trace(566,"leucocytes",5).
-trace(566,"crp",6).
-trace(566,"iv liquid",7).
-trace(566,"iv antibiotics",8).
-trace(566,"admission nc",9).
-trace(566,"leucocytes",10).
-trace(566,"crp",11).
-trace(566,"crp",12).
-trace(566,"leucocytes",13).
-trace(566,"release a",14).
-
-trace(567,"er registration",1).
-trace(567,"er triage",2).
-trace(567,"er sepsis triage",3).
-trace(567,"lacticacid",4).
-trace(567,"leucocytes",5).
-trace(567,"crp",6).
-trace(567,"iv liquid",7).
-trace(567,"iv antibiotics",8).
-trace(567,"admission nc",9).
-trace(567,"lacticacid",10).
-trace(567,"admission nc",11).
-trace(567,"lacticacid",12).
-trace(567,"leucocytes",13).
-trace(567,"crp",14).
-trace(567,"lacticacid",15).
-trace(567,"crp",16).
-trace(567,"release a",17).
-
-trace(568,"er registration",1).
-trace(568,"er triage",2).
-trace(568,"er sepsis triage",3).
-trace(568,"lacticacid",4).
-trace(568,"leucocytes",5).
-trace(568,"crp",6).
-trace(568,"iv antibiotics",7).
-trace(568,"iv liquid",8).
-
-trace(569,"er registration",1).
-trace(569,"er triage",2).
-trace(569,"er sepsis triage",3).
-
-trace(570,"er registration",1).
-trace(570,"er triage",2).
-trace(570,"er sepsis triage",3).
-trace(570,"crp",4).
-trace(570,"lacticacid",5).
-trace(570,"leucocytes",6).
-trace(570,"iv liquid",7).
-trace(570,"iv antibiotics",8).
-trace(570,"admission nc",9).
-trace(570,"release a",10).
-
-trace(571,"er registration",1).
-trace(571,"lacticacid",2).
-trace(571,"crp",3).
-trace(571,"leucocytes",4).
-trace(571,"er triage",5).
-trace(571,"er sepsis triage",6).
-trace(571,"iv liquid",7).
-trace(571,"iv antibiotics",8).
-trace(571,"admission nc",9).
-trace(571,"release a",10).
-
-trace(572,"er registration",1).
-trace(572,"er triage",2).
-trace(572,"er sepsis triage",3).
-trace(572,"crp",4).
-trace(572,"lacticacid",5).
-trace(572,"leucocytes",6).
-trace(572,"iv liquid",7).
-trace(572,"iv antibiotics",8).
-trace(572,"admission nc",9).
-trace(572,"crp",10).
-trace(572,"leucocytes",11).
-trace(572,"lacticacid",12).
-trace(572,"admission nc",13).
-trace(572,"crp",14).
-trace(572,"leucocytes",15).
-trace(572,"release a",16).
-
-trace(573,"er registration",1).
-trace(573,"er triage",2).
-trace(573,"er sepsis triage",3).
-trace(573,"leucocytes",4).
-trace(573,"lacticacid",5).
-trace(573,"crp",6).
-trace(573,"iv liquid",7).
-trace(573,"iv antibiotics",8).
-trace(573,"admission nc",9).
-trace(573,"leucocytes",10).
-trace(573,"crp",11).
-trace(573,"release a",12).
-
-trace(574,"er registration",1).
-trace(574,"er triage",2).
-trace(574,"er sepsis triage",3).
-trace(574,"crp",4).
-trace(574,"lacticacid",5).
-trace(574,"leucocytes",6).
-trace(574,"iv liquid",7).
-trace(574,"iv antibiotics",8).
-
-trace(575,"er registration",1).
-trace(575,"er triage",2).
-trace(575,"er sepsis triage",3).
-trace(575,"lacticacid",4).
-trace(575,"crp",5).
-trace(575,"leucocytes",6).
-trace(575,"iv antibiotics",7).
-trace(575,"leucocytes",8).
-trace(575,"crp",9).
-trace(575,"iv liquid",10).
-
-trace(576,"er registration",1).
-trace(576,"er triage",2).
-trace(576,"er sepsis triage",3).
-trace(576,"iv liquid",4).
-trace(576,"iv antibiotics",5).
-trace(576,"lacticacid",6).
-trace(576,"leucocytes",7).
-trace(576,"crp",8).
-
-trace(577,"er registration",1).
-trace(577,"er triage",2).
-trace(577,"er sepsis triage",3).
-trace(577,"iv liquid",4).
-trace(577,"iv antibiotics",5).
-trace(577,"lacticacid",6).
-trace(577,"leucocytes",7).
-trace(577,"crp",8).
-trace(577,"admission nc",9).
-trace(577,"leucocytes",10).
-trace(577,"crp",11).
-trace(577,"leucocytes",12).
-trace(577,"crp",13).
-trace(577,"release b",14).
-
-trace(578,"er registration",1).
-trace(578,"crp",2).
-trace(578,"leucocytes",3).
-trace(578,"lacticacid",4).
-trace(578,"er triage",5).
-trace(578,"er sepsis triage",6).
-trace(578,"iv liquid",7).
-trace(578,"iv antibiotics",8).
-trace(578,"admission nc",9).
-trace(578,"crp",10).
-trace(578,"leucocytes",11).
-trace(578,"crp",12).
-trace(578,"leucocytes",13).
-trace(578,"leucocytes",14).
-trace(578,"crp",15).
-trace(578,"release a",16).
-
-trace(579,"er registration",1).
-trace(579,"er triage",2).
-trace(579,"crp",3).
-trace(579,"leucocytes",4).
-trace(579,"er sepsis triage",5).
-trace(579,"iv liquid",6).
-trace(579,"lacticacid",7).
-trace(579,"iv antibiotics",8).
-
-trace(580,"er registration",1).
-trace(580,"er triage",2).
-trace(580,"er sepsis triage",3).
-trace(580,"iv liquid",4).
-trace(580,"iv antibiotics",5).
-trace(580,"leucocytes",6).
-trace(580,"lacticacid",7).
-trace(580,"crp",8).
-trace(580,"admission nc",9).
-trace(580,"crp",10).
-trace(580,"lacticacid",11).
-trace(580,"leucocytes",12).
-trace(580,"leucocytes",13).
-trace(580,"crp",14).
-trace(580,"release a",15).
-
-trace(581,"er registration",1).
-trace(581,"er triage",2).
-trace(581,"leucocytes",3).
-trace(581,"crp",4).
-trace(581,"er sepsis triage",5).
-trace(581,"admission nc",6).
-trace(581,"release a",7).
-trace(581,"return er",8).
-
-trace(582,"er registration",1).
-trace(582,"er triage",2).
-trace(582,"er sepsis triage",3).
-trace(582,"leucocytes",4).
-trace(582,"crp",5).
-trace(582,"admission nc",6).
-trace(582,"leucocytes",7).
-trace(582,"crp",8).
-trace(582,"leucocytes",9).
-trace(582,"crp",10).
-trace(582,"crp",11).
-trace(582,"leucocytes",12).
-trace(582,"crp",13).
-trace(582,"leucocytes",14).
-trace(582,"leucocytes",15).
-trace(582,"crp",16).
-trace(582,"crp",17).
-trace(582,"leucocytes",18).
-trace(582,"release d",19).
-
-trace(583,"er registration",1).
-trace(583,"er triage",2).
-trace(583,"leucocytes",3).
-trace(583,"crp",4).
-trace(583,"lacticacid",5).
-trace(583,"er sepsis triage",6).
-trace(583,"iv liquid",7).
-trace(583,"iv antibiotics",8).
-trace(583,"admission nc",9).
-trace(583,"crp",10).
-trace(583,"leucocytes",11).
-trace(583,"admission nc",12).
-trace(583,"crp",13).
-trace(583,"leucocytes",14).
-trace(583,"crp",15).
-trace(583,"release a",16).
-
-trace(584,"er registration",1).
-trace(584,"iv liquid",2).
-trace(584,"er triage",3).
-trace(584,"er sepsis triage",4).
-trace(584,"iv antibiotics",5).
-trace(584,"lacticacid",6).
-trace(584,"crp",7).
-trace(584,"leucocytes",8).
-trace(584,"admission nc",9).
-trace(584,"crp",10).
-trace(584,"release a",11).
-
-trace(585,"er registration",1).
-trace(585,"er triage",2).
-trace(585,"leucocytes",3).
-trace(585,"crp",4).
-trace(585,"lacticacid",5).
-trace(585,"er sepsis triage",6).
-trace(585,"iv antibiotics",7).
-trace(585,"admission nc",8).
-trace(585,"iv liquid",9).
-
-trace(586,"er registration",1).
-trace(586,"er triage",2).
-trace(586,"er sepsis triage",3).
-trace(586,"leucocytes",4).
-trace(586,"crp",5).
-trace(586,"lacticacid",6).
-trace(586,"iv liquid",7).
-trace(586,"iv antibiotics",8).
-trace(586,"admission nc",9).
-trace(586,"admission nc",10).
-trace(586,"leucocytes",11).
-trace(586,"crp",12).
-trace(586,"release a",13).
-trace(586,"return er",14).
-
-trace(587,"er registration",1).
-trace(587,"er triage",2).
-trace(587,"er sepsis triage",3).
-trace(587,"crp",4).
-trace(587,"leucocytes",5).
-trace(587,"lacticacid",6).
-trace(587,"iv liquid",7).
-trace(587,"iv antibiotics",8).
-trace(587,"admission nc",9).
-
-trace(588,"er registration",1).
-trace(588,"er triage",2).
-trace(588,"er sepsis triage",3).
-
-trace(589,"er registration",1).
-trace(589,"er triage",2).
-trace(589,"er sepsis triage",3).
-trace(589,"leucocytes",4).
-trace(589,"lacticacid",5).
-trace(589,"crp",6).
-trace(589,"iv liquid",7).
-trace(589,"iv antibiotics",8).
-trace(589,"admission nc",9).
-trace(589,"release b",10).
-
-trace(590,"er registration",1).
-trace(590,"er triage",2).
-trace(590,"er sepsis triage",3).
-trace(590,"leucocytes",4).
-trace(590,"crp",5).
-trace(590,"lacticacid",6).
-trace(590,"iv liquid",7).
-trace(590,"iv antibiotics",8).
-trace(590,"admission nc",9).
-trace(590,"crp",10).
-trace(590,"leucocytes",11).
-trace(590,"leucocytes",12).
-trace(590,"crp",13).
-trace(590,"leucocytes",14).
-trace(590,"crp",15).
-trace(590,"release a",16).
-trace(590,"return er",17).
-
-trace(591,"er registration",1).
-trace(591,"er triage",2).
-trace(591,"er sepsis triage",3).
-trace(591,"lacticacid",4).
-trace(591,"leucocytes",5).
-trace(591,"crp",6).
-trace(591,"iv liquid",7).
-trace(591,"iv antibiotics",8).
-trace(591,"admission nc",9).
-trace(591,"crp",10).
-trace(591,"leucocytes",11).
-trace(591,"leucocytes",12).
-trace(591,"crp",13).
-trace(591,"release a",14).
-trace(591,"return er",15).
-
-trace(592,"er registration",1).
-trace(592,"er triage",2).
-trace(592,"er sepsis triage",3).
-trace(592,"crp",4).
-trace(592,"leucocytes",5).
-
-trace(593,"er registration",1).
-trace(593,"er triage",2).
-trace(593,"er sepsis triage",3).
-trace(593,"lacticacid",4).
-trace(593,"crp",5).
-trace(593,"leucocytes",6).
-trace(593,"iv liquid",7).
-trace(593,"iv antibiotics",8).
-trace(593,"admission nc",9).
-trace(593,"crp",10).
-trace(593,"leucocytes",11).
-trace(593,"crp",12).
-trace(593,"leucocytes",13).
-trace(593,"release a",14).
-
-trace(594,"er registration",1).
-trace(594,"er triage",2).
-trace(594,"leucocytes",3).
-trace(594,"lacticacid",4).
-trace(594,"crp",5).
-trace(594,"er sepsis triage",6).
-trace(594,"iv liquid",7).
-trace(594,"iv antibiotics",8).
-
-trace(595,"er registration",1).
-trace(595,"er triage",2).
-trace(595,"er sepsis triage",3).
-trace(595,"iv liquid",4).
-trace(595,"iv antibiotics",5).
-trace(595,"leucocytes",6).
-trace(595,"lacticacid",7).
-trace(595,"crp",8).
-trace(595,"admission nc",9).
-trace(595,"leucocytes",10).
-trace(595,"crp",11).
-trace(595,"crp",12).
-trace(595,"leucocytes",13).
-trace(595,"crp",14).
-trace(595,"leucocytes",15).
-trace(595,"crp",16).
-trace(595,"leucocytes",17).
-trace(595,"crp",18).
-trace(595,"leucocytes",19).
-trace(595,"release a",20).
-trace(595,"return er",21).
-
-trace(596,"er registration",1).
-trace(596,"er triage",2).
-trace(596,"er sepsis triage",3).
-trace(596,"lacticacid",4).
-trace(596,"leucocytes",5).
-trace(596,"crp",6).
-trace(596,"iv liquid",7).
-trace(596,"iv antibiotics",8).
-trace(596,"admission nc",9).
-trace(596,"leucocytes",10).
-trace(596,"crp",11).
-trace(596,"release a",12).
-
-trace(597,"er registration",1).
-trace(597,"er triage",2).
-trace(597,"er sepsis triage",3).
-trace(597,"crp",4).
-trace(597,"leucocytes",5).
-trace(597,"lacticacid",6).
-trace(597,"iv antibiotics",7).
-
-trace(598,"er registration",1).
-trace(598,"iv liquid",2).
-trace(598,"er triage",3).
-trace(598,"leucocytes",4).
-trace(598,"crp",5).
-trace(598,"lacticacid",6).
-trace(598,"er sepsis triage",7).
-trace(598,"iv antibiotics",8).
-trace(598,"admission nc",9).
-trace(598,"lacticacid",10).
-trace(598,"leucocytes",11).
-trace(598,"admission nc",12).
-trace(598,"admission nc",13).
-trace(598,"leucocytes",14).
-trace(598,"crp",15).
-trace(598,"crp",16).
-trace(598,"leucocytes",17).
-trace(598,"leucocytes",18).
-trace(598,"crp",19).
-trace(598,"leucocytes",20).
-trace(598,"release a",21).
-
-trace(599,"er registration",1).
-trace(599,"crp",2).
-trace(599,"lacticacid",3).
-trace(599,"leucocytes",4).
-trace(599,"er triage",5).
-trace(599,"er sepsis triage",6).
-trace(599,"iv liquid",7).
-trace(599,"iv antibiotics",8).
-trace(599,"admission nc",9).
-trace(599,"admission nc",10).
-trace(599,"leucocytes",11).
-trace(599,"crp",12).
-trace(599,"crp",13).
-trace(599,"leucocytes",14).
-trace(599,"release a",15).
-
-trace(600,"er registration",1).
-trace(600,"er triage",2).
-trace(600,"lacticacid",3).
-trace(600,"leucocytes",4).
-trace(600,"crp",5).
-trace(600,"er sepsis triage",6).
-trace(600,"iv liquid",7).
-trace(600,"iv antibiotics",8).
-trace(600,"admission nc",9).
-trace(600,"leucocytes",10).
-trace(600,"crp",11).
-trace(600,"admission nc",12).
-trace(600,"release a",13).
-
-trace(601,"er registration",1).
-trace(601,"er triage",2).
-trace(601,"er sepsis triage",3).
-trace(601,"lacticacid",4).
-trace(601,"leucocytes",5).
-trace(601,"crp",6).
-trace(601,"iv liquid",7).
-trace(601,"iv antibiotics",8).
-trace(601,"admission nc",9).
-trace(601,"leucocytes",10).
-trace(601,"crp",11).
-trace(601,"admission nc",12).
-trace(601,"leucocytes",13).
-trace(601,"crp",14).
-trace(601,"leucocytes",15).
-trace(601,"crp",16).
-trace(601,"leucocytes",17).
-trace(601,"crp",18).
-trace(601,"leucocytes",19).
-trace(601,"crp",20).
-trace(601,"leucocytes",21).
-trace(601,"crp",22).
-trace(601,"release a",23).
-
-trace(602,"er registration",1).
-trace(602,"er triage",2).
-trace(602,"leucocytes",3).
-trace(602,"lacticacid",4).
-trace(602,"crp",5).
-trace(602,"er sepsis triage",6).
-trace(602,"iv liquid",7).
-trace(602,"iv antibiotics",8).
-trace(602,"admission nc",9).
-trace(602,"crp",10).
-trace(602,"leucocytes",11).
-trace(602,"leucocytes",12).
-trace(602,"crp",13).
-trace(602,"leucocytes",14).
-trace(602,"crp",15).
-trace(602,"admission nc",16).
-trace(602,"crp",17).
-trace(602,"leucocytes",18).
-trace(602,"release a",19).
-trace(602,"return er",20).
-
-trace(603,"er sepsis triage",1).
-trace(603,"iv liquid",2).
-trace(603,"iv antibiotics",3).
-trace(603,"er registration",4).
-trace(603,"er triage",5).
-trace(603,"lacticacid",6).
-trace(603,"crp",7).
-trace(603,"leucocytes",8).
-trace(603,"lacticacid",9).
-trace(603,"crp",10).
-trace(603,"leucocytes",11).
-
-trace(604,"er registration",1).
-trace(604,"er triage",2).
-trace(604,"er sepsis triage",3).
-trace(604,"leucocytes",4).
-trace(604,"crp",5).
-trace(604,"er triage",6).
-
-trace(605,"leucocytes",1).
-trace(605,"er registration",2).
-trace(605,"er triage",3).
-trace(605,"er sepsis triage",4).
-trace(605,"iv liquid",5).
-trace(605,"crp",6).
-trace(605,"leucocytes",7).
-trace(605,"lacticacid",8).
-trace(605,"iv antibiotics",9).
-trace(605,"admission nc",10).
-trace(605,"crp",11).
-trace(605,"leucocytes",12).
-trace(605,"release a",13).
-
-trace(606,"er registration",1).
-trace(606,"er triage",2).
-trace(606,"er sepsis triage",3).
-trace(606,"lacticacid",4).
-trace(606,"leucocytes",5).
-trace(606,"crp",6).
-trace(606,"iv liquid",7).
-trace(606,"iv antibiotics",8).
-trace(606,"admission nc",9).
-trace(606,"admission nc",10).
-trace(606,"leucocytes",11).
-trace(606,"crp",12).
-trace(606,"crp",13).
-trace(606,"leucocytes",14).
-trace(606,"release a",15).
-trace(606,"return er",16).
-
-trace(607,"er registration",1).
-trace(607,"er triage",2).
-trace(607,"er sepsis triage",3).
-trace(607,"lacticacid",4).
-trace(607,"leucocytes",5).
-trace(607,"crp",6).
-trace(607,"iv liquid",7).
-trace(607,"iv antibiotics",8).
-trace(607,"admission nc",9).
-trace(607,"admission nc",10).
-trace(607,"crp",11).
-trace(607,"release a",12).
-trace(607,"return er",13).
-
-trace(608,"leucocytes",1).
-trace(608,"crp",2).
-trace(608,"er registration",3).
-trace(608,"er triage",4).
-trace(608,"er sepsis triage",5).
-trace(608,"iv liquid",6).
-trace(608,"lacticacid",7).
-trace(608,"iv antibiotics",8).
-trace(608,"admission nc",9).
-trace(608,"admission nc",10).
-trace(608,"crp",11).
-trace(608,"leucocytes",12).
-trace(608,"crp",13).
-trace(608,"crp",14).
-trace(608,"release a",15).
-
-trace(609,"er registration",1).
-trace(609,"er triage",2).
-trace(609,"er sepsis triage",3).
-trace(609,"lacticacid",4).
-trace(609,"crp",5).
-trace(609,"leucocytes",6).
-trace(609,"iv liquid",7).
-trace(609,"iv antibiotics",8).
-trace(609,"admission nc",9).
-trace(609,"lacticacid",10).
-trace(609,"leucocytes",11).
-trace(609,"crp",12).
-trace(609,"leucocytes",13).
-trace(609,"crp",14).
-trace(609,"crp",15).
-trace(609,"leucocytes",16).
-trace(609,"crp",17).
-trace(609,"leucocytes",18).
-trace(609,"crp",19).
-trace(609,"leucocytes",20).
-trace(609,"crp",21).
-trace(609,"crp",22).
-trace(609,"leucocytes",23).
-trace(609,"leucocytes",24).
-trace(609,"crp",25).
-trace(609,"leucocytes",26).
-trace(609,"crp",27).
-trace(609,"admission nc",28).
-trace(609,"admission nc",29).
-trace(609,"release b",30).
-
-trace(610,"er registration",1).
-trace(610,"er triage",2).
-trace(610,"er sepsis triage",3).
-trace(610,"lacticacid",4).
-trace(610,"crp",5).
-trace(610,"leucocytes",6).
-trace(610,"iv liquid",7).
-trace(610,"iv antibiotics",8).
-trace(610,"admission nc",9).
-trace(610,"admission nc",10).
-trace(610,"lacticacid",11).
-trace(610,"crp",12).
-trace(610,"leucocytes",13).
-trace(610,"leucocytes",14).
-trace(610,"crp",15).
-trace(610,"leucocytes",16).
-trace(610,"crp",17).
-trace(610,"release a",18).
-
-trace(611,"er registration",1).
-trace(611,"er triage",2).
-trace(611,"er sepsis triage",3).
-trace(611,"crp",4).
-trace(611,"leucocytes",5).
-trace(611,"lacticacid",6).
-trace(611,"iv liquid",7).
-trace(611,"iv antibiotics",8).
-trace(611,"admission nc",9).
-trace(611,"crp",10).
-trace(611,"leucocytes",11).
-trace(611,"crp",12).
-trace(611,"leucocytes",13).
-trace(611,"crp",14).
-trace(611,"leucocytes",15).
-trace(611,"release a",16).
-
-trace(612,"er registration",1).
-trace(612,"er triage",2).
-trace(612,"er sepsis triage",3).
-trace(612,"crp",4).
-trace(612,"leucocytes",5).
-trace(612,"lacticacid",6).
-trace(612,"iv liquid",7).
-trace(612,"iv antibiotics",8).
-trace(612,"admission nc",9).
-trace(612,"crp",10).
-trace(612,"crp",11).
-trace(612,"release a",12).
-
-trace(613,"er registration",1).
-trace(613,"er triage",2).
-trace(613,"er sepsis triage",3).
-trace(613,"lacticacid",4).
-trace(613,"crp",5).
-trace(613,"leucocytes",6).
-trace(613,"iv antibiotics",7).
-trace(613,"iv liquid",8).
-trace(613,"admission nc",9).
-trace(613,"admission nc",10).
-trace(613,"leucocytes",11).
-trace(613,"crp",12).
-trace(613,"release a",13).
-trace(613,"return er",14).
-
-trace(614,"er registration",1).
-trace(614,"er triage",2).
-trace(614,"er sepsis triage",3).
-trace(614,"crp",4).
-trace(614,"lacticacid",5).
-trace(614,"leucocytes",6).
-trace(614,"iv liquid",7).
-trace(614,"iv antibiotics",8).
-trace(614,"admission nc",9).
-trace(614,"leucocytes",10).
-trace(614,"crp",11).
-trace(614,"admission nc",12).
-trace(614,"crp",13).
-trace(614,"leucocytes",14).
-trace(614,"release a",15).
-
-trace(615,"er registration",1).
-trace(615,"er triage",2).
-trace(615,"er sepsis triage",3).
-trace(615,"iv liquid",4).
-trace(615,"iv antibiotics",5).
-trace(615,"leucocytes",6).
-trace(615,"crp",7).
-trace(615,"lacticacid",8).
-trace(615,"admission nc",9).
-trace(615,"lacticacid",10).
-trace(615,"leucocytes",11).
-trace(615,"crp",12).
-trace(615,"admission nc",13).
-trace(615,"admission nc",14).
-trace(615,"leucocytes",15).
-trace(615,"crp",16).
-trace(615,"leucocytes",17).
-trace(615,"crp",18).
-trace(615,"release a",19).
-
-trace(616,"er registration",1).
-trace(616,"er triage",2).
-trace(616,"er sepsis triage",3).
-trace(616,"crp",4).
-trace(616,"leucocytes",5).
-trace(616,"lacticacid",6).
-trace(616,"iv liquid",7).
-trace(616,"iv antibiotics",8).
-trace(616,"admission nc",9).
-trace(616,"lacticacid",10).
-trace(616,"crp",11).
-trace(616,"leucocytes",12).
-trace(616,"leucocytes",13).
-trace(616,"crp",14).
-trace(616,"leucocytes",15).
-trace(616,"leucocytes",16).
-trace(616,"leucocytes",17).
-trace(616,"leucocytes",18).
-trace(616,"leucocytes",19).
-trace(616,"admission nc",20).
-trace(616,"release a",21).
-trace(616,"return er",22).
-
-trace(617,"leucocytes",1).
-trace(617,"er registration",2).
-trace(617,"er triage",3).
-trace(617,"er sepsis triage",4).
-trace(617,"iv liquid",5).
-trace(617,"leucocytes",6).
-trace(617,"crp",7).
-trace(617,"lacticacid",8).
-trace(617,"iv antibiotics",9).
-trace(617,"admission nc",10).
-trace(617,"leucocytes",11).
-trace(617,"crp",12).
-trace(617,"release a",13).
-trace(617,"return er",14).
-
-trace(618,"er triage",1).
-trace(618,"er registration",2).
-trace(618,"er sepsis triage",3).
-trace(618,"crp",4).
-trace(618,"leucocytes",5).
-trace(618,"lacticacid",6).
-trace(618,"iv liquid",7).
-trace(618,"iv antibiotics",8).
-trace(618,"admission nc",9).
-trace(618,"leucocytes",10).
-trace(618,"crp",11).
-trace(618,"admission nc",12).
-trace(618,"release a",13).
-trace(618,"return er",14).
-
-trace(619,"er registration",1).
-trace(619,"er triage",2).
-trace(619,"er sepsis triage",3).
-trace(619,"iv liquid",4).
-trace(619,"leucocytes",5).
-trace(619,"crp",6).
-trace(619,"lacticacid",7).
-trace(619,"iv antibiotics",8).
-trace(619,"admission ic",9).
-trace(619,"crp",10).
-trace(619,"lacticacid",11).
-trace(619,"leucocytes",12).
-trace(619,"admission ic",13).
-trace(619,"admission nc",14).
-trace(619,"crp",15).
-trace(619,"leucocytes",16).
-trace(619,"release a",17).
-trace(619,"return er",18).
-
-trace(620,"er registration",1).
-trace(620,"er triage",2).
-trace(620,"er sepsis triage",3).
-trace(620,"crp",4).
-trace(620,"lacticacid",5).
-trace(620,"leucocytes",6).
-trace(620,"iv liquid",7).
-trace(620,"iv antibiotics",8).
-trace(620,"admission nc",9).
-trace(620,"crp",10).
-trace(620,"leucocytes",11).
-trace(620,"leucocytes",12).
-trace(620,"crp",13).
-trace(620,"leucocytes",14).
-trace(620,"crp",15).
-trace(620,"release a",16).
-
-trace(621,"er registration",1).
-trace(621,"er triage",2).
-trace(621,"er sepsis triage",3).
-trace(621,"leucocytes",4).
-trace(621,"crp",5).
-trace(621,"admission nc",6).
-trace(621,"crp",7).
-trace(621,"leucocytes",8).
-trace(621,"crp",9).
-trace(621,"release a",10).
-
-trace(622,"er registration",1).
-trace(622,"er triage",2).
-trace(622,"er sepsis triage",3).
-trace(622,"iv liquid",4).
-trace(622,"leucocytes",5).
-trace(622,"lacticacid",6).
-trace(622,"crp",7).
-trace(622,"iv antibiotics",8).
-trace(622,"admission nc",9).
-trace(622,"admission nc",10).
-trace(622,"crp",11).
-trace(622,"leucocytes",12).
-trace(622,"release a",13).
-
-trace(623,"er registration",1).
-trace(623,"er triage",2).
-trace(623,"er sepsis triage",3).
-trace(623,"leucocytes",4).
-trace(623,"crp",5).
-trace(623,"lacticacid",6).
-
-trace(624,"er registration",1).
-trace(624,"er triage",2).
-trace(624,"crp",3).
-trace(624,"leucocytes",4).
-trace(624,"lacticacid",5).
-trace(624,"er sepsis triage",6).
-trace(624,"iv liquid",7).
-trace(624,"iv antibiotics",8).
-trace(624,"admission nc",9).
-trace(624,"crp",10).
-trace(624,"leucocytes",11).
-trace(624,"leucocytes",12).
-trace(624,"crp",13).
-trace(624,"crp",14).
-trace(624,"leucocytes",15).
-trace(624,"release a",16).
-trace(624,"return er",17).
-
-trace(625,"er registration",1).
-trace(625,"er triage",2).
-trace(625,"er sepsis triage",3).
-trace(625,"lacticacid",4).
-trace(625,"crp",5).
-trace(625,"leucocytes",6).
-trace(625,"iv antibiotics",7).
-trace(625,"admission nc",8).
-trace(625,"crp",9).
-trace(625,"leucocytes",10).
-trace(625,"admission nc",11).
-trace(625,"leucocytes",12).
-trace(625,"crp",13).
-trace(625,"release a",14).
-
-trace(626,"leucocytes",1).
-trace(626,"crp",2).
-trace(626,"er registration",3).
-trace(626,"er triage",4).
-trace(626,"leucocytes",5).
-trace(626,"crp",6).
-trace(626,"lacticacid",7).
-trace(626,"er sepsis triage",8).
-trace(626,"iv liquid",9).
-trace(626,"iv antibiotics",10).
-trace(626,"admission nc",11).
-trace(626,"crp",12).
-trace(626,"release a",13).
-
-trace(627,"er registration",1).
-trace(627,"er triage",2).
-trace(627,"er sepsis triage",3).
-trace(627,"leucocytes",4).
-trace(627,"lacticacid",5).
-trace(627,"crp",6).
-trace(627,"iv antibiotics",7).
-trace(627,"iv liquid",8).
-trace(627,"admission nc",9).
-trace(627,"admission nc",10).
-trace(627,"leucocytes",11).
-trace(627,"crp",12).
-trace(627,"crp",13).
-trace(627,"leucocytes",14).
-trace(627,"crp",15).
-trace(627,"admission nc",16).
-trace(627,"admission nc",17).
-trace(627,"crp",18).
-trace(627,"admission nc",19).
-trace(627,"leucocytes",20).
-trace(627,"crp",21).
-trace(627,"crp",22).
-trace(627,"leucocytes",23).
-trace(627,"release a",24).
-
-trace(628,"er registration",1).
-trace(628,"er triage",2).
-trace(628,"er sepsis triage",3).
-trace(628,"lacticacid",4).
-trace(628,"crp",5).
-trace(628,"leucocytes",6).
-trace(628,"iv antibiotics",7).
-trace(628,"admission nc",8).
-trace(628,"crp",9).
-trace(628,"leucocytes",10).
-trace(628,"admission nc",11).
-trace(628,"crp",12).
-trace(628,"leucocytes",13).
-trace(628,"leucocytes",14).
-trace(628,"crp",15).
-trace(628,"release a",16).
-trace(628,"return er",17).
-
-trace(629,"er sepsis triage",1).
-trace(629,"er registration",2).
-trace(629,"er triage",3).
-trace(629,"crp",4).
-trace(629,"leucocytes",5).
-trace(629,"lacticacid",6).
-trace(629,"iv antibiotics",7).
-trace(629,"iv liquid",8).
-trace(629,"admission nc",9).
-trace(629,"leucocytes",10).
-trace(629,"crp",11).
-trace(629,"admission nc",12).
-trace(629,"leucocytes",13).
-trace(629,"crp",14).
-trace(629,"release b",15).
-
-trace(630,"er registration",1).
-trace(630,"er triage",2).
-trace(630,"er sepsis triage",3).
-trace(630,"iv liquid",4).
-trace(630,"lacticacid",5).
-trace(630,"leucocytes",6).
-trace(630,"crp",7).
-trace(630,"iv antibiotics",8).
-trace(630,"admission nc",9).
-trace(630,"release a",10).
-
-trace(631,"er registration",1).
-trace(631,"er triage",2).
-trace(631,"er sepsis triage",3).
-trace(631,"leucocytes",4).
-trace(631,"lacticacid",5).
-trace(631,"crp",6).
-trace(631,"iv liquid",7).
-trace(631,"iv antibiotics",8).
-
-trace(632,"er registration",1).
-trace(632,"iv liquid",2).
-trace(632,"er triage",3).
-trace(632,"er sepsis triage",4).
-trace(632,"lacticacid",5).
-trace(632,"leucocytes",6).
-trace(632,"crp",7).
-trace(632,"iv antibiotics",8).
-trace(632,"admission ic",9).
-trace(632,"lacticacid",10).
-trace(632,"leucocytes",11).
-trace(632,"lacticacid",12).
-trace(632,"crp",13).
-trace(632,"admission nc",14).
-trace(632,"crp",15).
-trace(632,"leucocytes",16).
-trace(632,"release a",17).
-
-trace(633,"er triage",1).
-trace(633,"leucocytes",2).
-trace(633,"crp",3).
-trace(633,"lacticacid",4).
-trace(633,"leucocytes",5).
-trace(633,"er registration",6).
-trace(633,"admission ic",7).
-trace(633,"lacticacid",8).
-trace(633,"leucocytes",9).
-trace(633,"crp",10).
-trace(633,"crp",11).
-trace(633,"lacticacid",12).
-trace(633,"leucocytes",13).
-trace(633,"crp",14).
-trace(633,"leucocytes",15).
-trace(633,"lacticacid",16).
-trace(633,"leucocytes",17).
-trace(633,"lacticacid",18).
-trace(633,"crp",19).
-trace(633,"leucocytes",20).
-trace(633,"crp",21).
-trace(633,"lacticacid",22).
-trace(633,"lacticacid",23).
-trace(633,"crp",24).
-trace(633,"leucocytes",25).
-trace(633,"admission nc",26).
-trace(633,"leucocytes",27).
-trace(633,"crp",28).
-trace(633,"release a",29).
-trace(633,"return er",30).
-
-trace(634,"leucocytes",1).
-trace(634,"er registration",2).
-trace(634,"er triage",3).
-trace(634,"er sepsis triage",4).
-trace(634,"crp",5).
-trace(634,"lacticacid",6).
-trace(634,"leucocytes",7).
-trace(634,"iv liquid",8).
-trace(634,"iv antibiotics",9).
-trace(634,"admission nc",10).
-trace(634,"crp",11).
-trace(634,"leucocytes",12).
-trace(634,"release a",13).
-
-trace(635,"er registration",1).
-trace(635,"er triage",2).
-trace(635,"er sepsis triage",3).
-trace(635,"leucocytes",4).
-trace(635,"crp",5).
-trace(635,"lacticacid",6).
-trace(635,"iv liquid",7).
-trace(635,"iv antibiotics",8).
-trace(635,"admission nc",9).
-trace(635,"leucocytes",10).
-trace(635,"crp",11).
-trace(635,"release a",12).
-
-trace(636,"er registration",1).
-trace(636,"er triage",2).
-trace(636,"er sepsis triage",3).
-trace(636,"lacticacid",4).
-trace(636,"crp",5).
-trace(636,"leucocytes",6).
-trace(636,"iv antibiotics",7).
-trace(636,"admission nc",8).
-trace(636,"crp",9).
-trace(636,"crp",10).
-trace(636,"leucocytes",11).
-trace(636,"release a",12).
-
-trace(637,"er registration",1).
-trace(637,"er triage",2).
-trace(637,"er sepsis triage",3).
-trace(637,"crp",4).
-trace(637,"lacticacid",5).
-trace(637,"leucocytes",6).
-trace(637,"iv antibiotics",7).
-trace(637,"iv liquid",8).
-trace(637,"admission nc",9).
-trace(637,"crp",10).
-trace(637,"leucocytes",11).
-trace(637,"crp",12).
-trace(637,"release a",13).
-trace(637,"return er",14).
-
-trace(638,"er registration",1).
-trace(638,"er triage",2).
-trace(638,"er sepsis triage",3).
-trace(638,"leucocytes",4).
-trace(638,"crp",5).
-
-trace(639,"er registration",1).
-trace(639,"er triage",2).
-trace(639,"er sepsis triage",3).
-trace(639,"iv liquid",4).
-trace(639,"crp",5).
-trace(639,"leucocytes",6).
-trace(639,"lacticacid",7).
-trace(639,"iv antibiotics",8).
-trace(639,"admission nc",9).
-trace(639,"crp",10).
-trace(639,"leucocytes",11).
-trace(639,"leucocytes",12).
-trace(639,"crp",13).
-trace(639,"admission nc",14).
-trace(639,"admission nc",15).
-trace(639,"admission nc",16).
-trace(639,"crp",17).
-trace(639,"leucocytes",18).
-trace(639,"admission nc",19).
-trace(639,"leucocytes",20).
-trace(639,"leucocytes",21).
-trace(639,"crp",22).
-trace(639,"crp",23).
-trace(639,"leucocytes",24).
-trace(639,"leucocytes",25).
-trace(639,"crp",26).
-trace(639,"leucocytes",27).
-trace(639,"crp",28).
-trace(639,"release b",29).
-
-trace(640,"er registration",1).
-trace(640,"er triage",2).
-trace(640,"er sepsis triage",3).
-trace(640,"crp",4).
-trace(640,"leucocytes",5).
-
-trace(641,"er registration",1).
-trace(641,"er triage",2).
-trace(641,"er sepsis triage",3).
-trace(641,"leucocytes",4).
-trace(641,"lacticacid",5).
-trace(641,"crp",6).
-trace(641,"iv liquid",7).
-trace(641,"iv antibiotics",8).
-trace(641,"admission nc",9).
-trace(641,"leucocytes",10).
-trace(641,"crp",11).
-trace(641,"lacticacid",12).
-trace(641,"crp",13).
-trace(641,"leucocytes",14).
-trace(641,"admission nc",15).
-trace(641,"crp",16).
-trace(641,"leucocytes",17).
-trace(641,"leucocytes",18).
-trace(641,"crp",19).
-trace(641,"release a",20).
-
-trace(642,"er registration",1).
-trace(642,"er triage",2).
-trace(642,"er sepsis triage",3).
-trace(642,"iv liquid",4).
-trace(642,"iv antibiotics",5).
-trace(642,"leucocytes",6).
-trace(642,"crp",7).
-trace(642,"lacticacid",8).
-trace(642,"admission nc",9).
-trace(642,"crp",10).
-trace(642,"leucocytes",11).
-trace(642,"leucocytes",12).
-trace(642,"crp",13).
-trace(642,"release a",14).
-trace(642,"return er",15).
-
-trace(643,"er registration",1).
-trace(643,"er triage",2).
-trace(643,"er sepsis triage",3).
-trace(643,"crp",4).
-trace(643,"lacticacid",5).
-trace(643,"leucocytes",6).
-trace(643,"iv liquid",7).
-trace(643,"iv antibiotics",8).
-
-trace(644,"er registration",1).
-trace(644,"er triage",2).
-trace(644,"er sepsis triage",3).
-trace(644,"crp",4).
-trace(644,"leucocytes",5).
-
-trace(645,"er registration",1).
-trace(645,"er triage",2).
-trace(645,"er sepsis triage",3).
-trace(645,"leucocytes",4).
-trace(645,"lacticacid",5).
-trace(645,"crp",6).
-trace(645,"iv antibiotics",7).
-trace(645,"iv liquid",8).
-
-trace(646,"crp",1).
-trace(646,"leucocytes",2).
-trace(646,"er registration",3).
-trace(646,"er triage",4).
-trace(646,"er sepsis triage",5).
-trace(646,"lacticacid",6).
-trace(646,"crp",7).
-trace(646,"leucocytes",8).
-trace(646,"iv liquid",9).
-trace(646,"iv antibiotics",10).
-trace(646,"admission nc",11).
-trace(646,"release b",12).
-
-trace(647,"er registration",1).
-trace(647,"er triage",2).
-trace(647,"er sepsis triage",3).
-trace(647,"iv liquid",4).
-trace(647,"iv antibiotics",5).
-trace(647,"crp",6).
-trace(647,"leucocytes",7).
-trace(647,"lacticacid",8).
-trace(647,"admission nc",9).
-trace(647,"admission ic",10).
-trace(647,"lacticacid",11).
-trace(647,"leucocytes",12).
-trace(647,"crp",13).
-trace(647,"lacticacid",14).
-trace(647,"leucocytes",15).
-trace(647,"crp",16).
-trace(647,"lacticacid",17).
-trace(647,"lacticacid",18).
-trace(647,"leucocytes",19).
-trace(647,"crp",20).
-trace(647,"lacticacid",21).
-trace(647,"leucocytes",22).
-trace(647,"crp",23).
-trace(647,"lacticacid",24).
-trace(647,"leucocytes",25).
-trace(647,"crp",26).
-trace(647,"lacticacid",27).
-trace(647,"leucocytes",28).
-trace(647,"crp",29).
-trace(647,"leucocytes",30).
-trace(647,"crp",31).
-trace(647,"lacticacid",32).
-trace(647,"lacticacid",33).
-trace(647,"leucocytes",34).
-trace(647,"crp",35).
-trace(647,"leucocytes",36).
-trace(647,"crp",37).
-trace(647,"lacticacid",38).
-trace(647,"leucocytes",39).
-trace(647,"crp",40).
-trace(647,"lacticacid",41).
-trace(647,"lacticacid",42).
-trace(647,"leucocytes",43).
-trace(647,"crp",44).
-trace(647,"crp",45).
-trace(647,"lacticacid",46).
-trace(647,"leucocytes",47).
-trace(647,"leucocytes",48).
-trace(647,"crp",49).
-trace(647,"lacticacid",50).
-trace(647,"crp",51).
-trace(647,"leucocytes",52).
-trace(647,"lacticacid",53).
-trace(647,"crp",54).
-trace(647,"lacticacid",55).
-trace(647,"leucocytes",56).
-trace(647,"leucocytes",57).
-trace(647,"crp",58).
-trace(647,"lacticacid",59).
-trace(647,"leucocytes",60).
-trace(647,"crp",61).
-trace(647,"lacticacid",62).
-trace(647,"lacticacid",63).
-trace(647,"leucocytes",64).
-trace(647,"crp",65).
-trace(647,"crp",66).
-trace(647,"lacticacid",67).
-trace(647,"leucocytes",68).
-trace(647,"leucocytes",69).
-trace(647,"crp",70).
-trace(647,"lacticacid",71).
-trace(647,"leucocytes",72).
-trace(647,"crp",73).
-trace(647,"lacticacid",74).
-trace(647,"crp",75).
-trace(647,"lacticacid",76).
-trace(647,"leucocytes",77).
-trace(647,"leucocytes",78).
-trace(647,"lacticacid",79).
-trace(647,"crp",80).
-trace(647,"lacticacid",81).
-trace(647,"admission nc",82).
-trace(647,"admission nc",83).
-trace(647,"release a",84).
-
-trace(648,"er registration",1).
-trace(648,"er triage",2).
-trace(648,"er sepsis triage",3).
-trace(648,"lacticacid",4).
-trace(648,"leucocytes",5).
-trace(648,"crp",6).
-trace(648,"iv liquid",7).
-trace(648,"iv antibiotics",8).
-trace(648,"admission nc",9).
-trace(648,"release a",10).
-
-trace(649,"er registration",1).
-trace(649,"er triage",2).
-trace(649,"crp",3).
-trace(649,"leucocytes",4).
-trace(649,"lacticacid",5).
-trace(649,"er sepsis triage",6).
-trace(649,"admission nc",7).
-trace(649,"leucocytes",8).
-trace(649,"crp",9).
-trace(649,"leucocytes",10).
-trace(649,"crp",11).
-trace(649,"crp",12).
-trace(649,"leucocytes",13).
-trace(649,"crp",14).
-trace(649,"leucocytes",15).
-trace(649,"leucocytes",16).
-trace(649,"crp",17).
-trace(649,"crp",18).
-trace(649,"leucocytes",19).
-trace(649,"leucocytes",20).
-trace(649,"crp",21).
-trace(649,"release b",22).
-
-trace(650,"er registration",1).
-trace(650,"er triage",2).
-trace(650,"er sepsis triage",3).
-trace(650,"leucocytes",4).
-trace(650,"crp",5).
-trace(650,"lacticacid",6).
-
-trace(651,"er registration",1).
-trace(651,"er triage",2).
-trace(651,"er sepsis triage",3).
-trace(651,"leucocytes",4).
-trace(651,"crp",5).
-trace(651,"lacticacid",6).
-trace(651,"iv liquid",7).
-trace(651,"iv antibiotics",8).
-trace(651,"admission nc",9).
-trace(651,"admission nc",10).
-trace(651,"crp",11).
-trace(651,"leucocytes",12).
-trace(651,"admission ic",13).
-trace(651,"crp",14).
-trace(651,"lacticacid",15).
-trace(651,"leucocytes",16).
-trace(651,"leucocytes",17).
-trace(651,"lacticacid",18).
-trace(651,"crp",19).
-trace(651,"admission nc",20).
-trace(651,"crp",21).
-trace(651,"leucocytes",22).
-trace(651,"admission nc",23).
-trace(651,"crp",24).
-trace(651,"leucocytes",25).
-trace(651,"leucocytes",26).
-trace(651,"crp",27).
-trace(651,"crp",28).
-trace(651,"leucocytes",29).
-trace(651,"crp",30).
-trace(651,"leucocytes",31).
-trace(651,"crp",32).
-trace(651,"release e",33).
-
-trace(652,"er registration",1).
-trace(652,"er triage",2).
-trace(652,"er sepsis triage",3).
-trace(652,"leucocytes",4).
-trace(652,"lacticacid",5).
-trace(652,"crp",6).
-trace(652,"iv liquid",7).
-trace(652,"iv antibiotics",8).
-trace(652,"admission nc",9).
-trace(652,"leucocytes",10).
-trace(652,"admission nc",11).
-trace(652,"crp",12).
-trace(652,"leucocytes",13).
-trace(652,"release a",14).
-
-trace(653,"er registration",1).
-trace(653,"er triage",2).
-trace(653,"er sepsis triage",3).
-trace(653,"leucocytes",4).
-trace(653,"crp",5).
-trace(653,"iv antibiotics",6).
-trace(653,"iv liquid",7).
-trace(653,"admission nc",8).
-trace(653,"leucocytes",9).
-trace(653,"leucocytes",10).
-trace(653,"leucocytes",11).
-trace(653,"release b",12).
-
-trace(654,"er registration",1).
-trace(654,"er triage",2).
-trace(654,"lacticacid",3).
-trace(654,"leucocytes",4).
-trace(654,"crp",5).
-trace(654,"er sepsis triage",6).
-trace(654,"iv liquid",7).
-trace(654,"iv antibiotics",8).
-trace(654,"admission nc",9).
-trace(654,"admission nc",10).
-trace(654,"crp",11).
-trace(654,"leucocytes",12).
-trace(654,"leucocytes",13).
-trace(654,"crp",14).
-trace(654,"crp",15).
-trace(654,"release a",16).
-trace(654,"return er",17).
-
-trace(655,"er registration",1).
-trace(655,"er triage",2).
-trace(655,"lacticacid",3).
-trace(655,"crp",4).
-trace(655,"leucocytes",5).
-trace(655,"er sepsis triage",6).
-trace(655,"iv liquid",7).
-trace(655,"iv antibiotics",8).
-trace(655,"admission nc",9).
-trace(655,"admission nc",10).
-trace(655,"leucocytes",11).
-trace(655,"crp",12).
-trace(655,"release a",13).
-
-trace(656,"er registration",1).
-trace(656,"er triage",2).
-trace(656,"er sepsis triage",3).
-trace(656,"crp",4).
-trace(656,"leucocytes",5).
-trace(656,"lacticacid",6).
-trace(656,"iv antibiotics",7).
-trace(656,"admission nc",8).
-trace(656,"iv liquid",9).
-trace(656,"crp",10).
-trace(656,"leucocytes",11).
-trace(656,"crp",12).
-trace(656,"leucocytes",13).
-trace(656,"release a",14).
-trace(656,"return er",15).
-
-trace(657,"er registration",1).
-trace(657,"er triage",2).
-trace(657,"iv liquid",3).
-trace(657,"er sepsis triage",4).
-trace(657,"lacticacid",5).
-trace(657,"crp",6).
-trace(657,"leucocytes",7).
-trace(657,"iv antibiotics",8).
-trace(657,"admission nc",9).
-trace(657,"admission nc",10).
-trace(657,"leucocytes",11).
-trace(657,"crp",12).
-trace(657,"leucocytes",13).
-trace(657,"crp",14).
-trace(657,"leucocytes",15).
-trace(657,"crp",16).
-trace(657,"release a",17).
-trace(657,"return er",18).
-
-trace(658,"er registration",1).
-trace(658,"er triage",2).
-trace(658,"crp",3).
-trace(658,"lacticacid",4).
-trace(658,"leucocytes",5).
-trace(658,"er sepsis triage",6).
-trace(658,"iv liquid",7).
-trace(658,"iv antibiotics",8).
-trace(658,"admission nc",9).
-trace(658,"crp",10).
-trace(658,"leucocytes",11).
-trace(658,"crp",12).
-trace(658,"leucocytes",13).
-trace(658,"leucocytes",14).
-trace(658,"leucocytes",15).
-trace(658,"crp",16).
-trace(658,"release a",17).
-trace(658,"return er",18).
-
-trace(659,"er registration",1).
-trace(659,"er triage",2).
-trace(659,"er sepsis triage",3).
-trace(659,"crp",4).
-trace(659,"leucocytes",5).
-
-trace(660,"er registration",1).
-trace(660,"er triage",2).
-trace(660,"er sepsis triage",3).
-
-trace(661,"er registration",1).
-trace(661,"er triage",2).
-trace(661,"er sepsis triage",3).
-trace(661,"crp",4).
-trace(661,"lacticacid",5).
-trace(661,"leucocytes",6).
-
-trace(662,"er registration",1).
-trace(662,"er triage",2).
-trace(662,"er sepsis triage",3).
-trace(662,"lacticacid",4).
-trace(662,"leucocytes",5).
-trace(662,"crp",6).
-trace(662,"iv liquid",7).
-trace(662,"iv antibiotics",8).
-
-trace(663,"er registration",1).
-trace(663,"er triage",2).
-trace(663,"er sepsis triage",3).
-trace(663,"leucocytes",4).
-trace(663,"crp",5).
-trace(663,"admission nc",6).
-trace(663,"crp",7).
-trace(663,"crp",8).
-trace(663,"leucocytes",9).
-trace(663,"crp",10).
-trace(663,"leucocytes",11).
-trace(663,"leucocytes",12).
-trace(663,"crp",13).
-trace(663,"leucocytes",14).
-trace(663,"crp",15).
-trace(663,"release a",16).
-
-trace(664,"er registration",1).
-trace(664,"er triage",2).
-trace(664,"er sepsis triage",3).
-trace(664,"crp",4).
-trace(664,"lacticacid",5).
-trace(664,"leucocytes",6).
-trace(664,"iv liquid",7).
-trace(664,"iv antibiotics",8).
-
-trace(665,"er registration",1).
-trace(665,"lacticacid",2).
-trace(665,"leucocytes",3).
-trace(665,"crp",4).
-trace(665,"er triage",5).
-trace(665,"er sepsis triage",6).
-trace(665,"admission nc",7).
-trace(665,"leucocytes",8).
-trace(665,"crp",9).
-trace(665,"crp",10).
-trace(665,"leucocytes",11).
-trace(665,"release a",12).
-
-trace(666,"crp",1).
-trace(666,"er registration",2).
-trace(666,"er triage",3).
-trace(666,"er sepsis triage",4).
-trace(666,"iv liquid",5).
-trace(666,"lacticacid",6).
-trace(666,"leucocytes",7).
-trace(666,"crp",8).
-trace(666,"iv antibiotics",9).
-trace(666,"admission nc",10).
-trace(666,"admission ic",11).
-trace(666,"leucocytes",12).
-trace(666,"lacticacid",13).
-trace(666,"crp",14).
-trace(666,"lacticacid",15).
-trace(666,"crp",16).
-trace(666,"leucocytes",17).
-trace(666,"admission nc",18).
-trace(666,"leucocytes",19).
-trace(666,"crp",20).
-trace(666,"leucocytes",21).
-trace(666,"crp",22).
-trace(666,"release a",23).
-
-trace(667,"er registration",1).
-trace(667,"er triage",2).
-trace(667,"er sepsis triage",3).
-trace(667,"iv liquid",4).
-trace(667,"iv antibiotics",5).
-trace(667,"lacticacid",6).
-trace(667,"leucocytes",7).
-trace(667,"crp",8).
-trace(667,"admission nc",9).
-trace(667,"crp",10).
-trace(667,"leucocytes",11).
-trace(667,"admission nc",12).
-trace(667,"release a",13).
-trace(667,"return er",14).
-
-trace(668,"er registration",1).
-trace(668,"er triage",2).
-trace(668,"er sepsis triage",3).
-
-trace(669,"er registration",1).
-trace(669,"leucocytes",2).
-trace(669,"crp",3).
-trace(669,"lacticacid",4).
-trace(669,"er triage",5).
-trace(669,"er sepsis triage",6).
-trace(669,"iv liquid",7).
-trace(669,"iv antibiotics",8).
-trace(669,"admission nc",9).
-
-trace(670,"er registration",1).
-trace(670,"er triage",2).
-trace(670,"lacticacid",3).
-trace(670,"leucocytes",4).
-trace(670,"crp",5).
-trace(670,"er sepsis triage",6).
-trace(670,"iv antibiotics",7).
-trace(670,"iv liquid",8).
-trace(670,"admission nc",9).
-trace(670,"admission nc",10).
-trace(670,"crp",11).
-trace(670,"leucocytes",12).
-trace(670,"leucocytes",13).
-trace(670,"crp",14).
-trace(670,"crp",15).
-trace(670,"leucocytes",16).
-trace(670,"release a",17).
-
-trace(671,"er registration",1).
-trace(671,"er triage",2).
-trace(671,"er sepsis triage",3).
-
-trace(672,"er registration",1).
-trace(672,"er triage",2).
-trace(672,"er sepsis triage",3).
-trace(672,"crp",4).
-trace(672,"lacticacid",5).
-trace(672,"leucocytes",6).
-trace(672,"iv antibiotics",7).
-trace(672,"admission nc",8).
-trace(672,"iv liquid",9).
-trace(672,"leucocytes",10).
-trace(672,"crp",11).
-trace(672,"release a",12).
-trace(672,"return er",13).
-
-trace(673,"er registration",1).
-trace(673,"er triage",2).
-trace(673,"er sepsis triage",3).
-trace(673,"leucocytes",4).
-trace(673,"crp",5).
-trace(673,"lacticacid",6).
-trace(673,"iv liquid",7).
-trace(673,"iv antibiotics",8).
-trace(673,"admission nc",9).
-trace(673,"lacticacid",10).
-trace(673,"admission nc",11).
-trace(673,"admission nc",12).
-trace(673,"admission nc",13).
-trace(673,"crp",14).
-trace(673,"leucocytes",15).
-trace(673,"crp",16).
-trace(673,"leucocytes",17).
-trace(673,"crp",18).
-trace(673,"leucocytes",19).
-trace(673,"admission nc",20).
-trace(673,"release a",21).
-
-trace(674,"er registration",1).
-trace(674,"er triage",2).
-trace(674,"er sepsis triage",3).
-trace(674,"leucocytes",4).
-trace(674,"crp",5).
-trace(674,"lacticacid",6).
-trace(674,"iv liquid",7).
-trace(674,"iv antibiotics",8).
-
-trace(675,"er registration",1).
-trace(675,"er triage",2).
-trace(675,"er sepsis triage",3).
-trace(675,"leucocytes",4).
-trace(675,"crp",5).
-trace(675,"lacticacid",6).
-trace(675,"iv liquid",7).
-trace(675,"iv antibiotics",8).
-trace(675,"admission nc",9).
-trace(675,"leucocytes",10).
-trace(675,"crp",11).
-trace(675,"admission nc",12).
-trace(675,"crp",13).
-trace(675,"leucocytes",14).
-trace(675,"release a",15).
-
-trace(676,"er registration",1).
-trace(676,"er triage",2).
-trace(676,"er sepsis triage",3).
-trace(676,"lacticacid",4).
-trace(676,"crp",5).
-trace(676,"leucocytes",6).
-trace(676,"iv antibiotics",7).
-trace(676,"admission nc",8).
-trace(676,"leucocytes",9).
-trace(676,"crp",10).
-trace(676,"admission nc",11).
-trace(676,"leucocytes",12).
-trace(676,"crp",13).
-trace(676,"leucocytes",14).
-trace(676,"crp",15).
-trace(676,"leucocytes",16).
-trace(676,"crp",17).
-trace(676,"crp",18).
-trace(676,"leucocytes",19).
-trace(676,"crp",20).
-trace(676,"leucocytes",21).
-trace(676,"leucocytes",22).
-trace(676,"crp",23).
-trace(676,"release a",24).
-
-trace(677,"er registration",1).
-trace(677,"er triage",2).
-trace(677,"er sepsis triage",3).
-trace(677,"leucocytes",4).
-trace(677,"crp",5).
-trace(677,"lacticacid",6).
-trace(677,"lacticacid",7).
-trace(677,"iv liquid",8).
-trace(677,"iv antibiotics",9).
-trace(677,"crp",10).
-trace(677,"leucocytes",11).
-trace(677,"lacticacid",12).
-trace(677,"admission ic",13).
-trace(677,"lacticacid",14).
-trace(677,"leucocytes",15).
-trace(677,"crp",16).
-trace(677,"lacticacid",17).
-trace(677,"lacticacid",18).
-trace(677,"lacticacid",19).
-trace(677,"leucocytes",20).
-trace(677,"crp",21).
-trace(677,"admission nc",22).
-trace(677,"leucocytes",23).
-trace(677,"crp",24).
-trace(677,"lacticacid",25).
-trace(677,"crp",26).
-trace(677,"leucocytes",27).
-trace(677,"leucocytes",28).
-trace(677,"crp",29).
-trace(677,"lacticacid",30).
-trace(677,"admission nc",31).
-trace(677,"leucocytes",32).
-trace(677,"crp",33).
-trace(677,"leucocytes",34).
-trace(677,"crp",35).
-trace(677,"leucocytes",36).
-trace(677,"crp",37).
-trace(677,"crp",38).
-trace(677,"leucocytes",39).
-trace(677,"release b",40).
-
-trace(678,"er registration",1).
-trace(678,"er triage",2).
-trace(678,"er sepsis triage",3).
-trace(678,"crp",4).
-trace(678,"leucocytes",5).
-trace(678,"iv liquid",6).
-trace(678,"iv antibiotics",7).
-trace(678,"admission ic",8).
-trace(678,"lacticacid",9).
-trace(678,"lacticacid",10).
-trace(678,"leucocytes",11).
-trace(678,"lacticacid",12).
-trace(678,"crp",13).
-trace(678,"lacticacid",14).
-trace(678,"lacticacid",15).
-trace(678,"lacticacid",16).
-trace(678,"leucocytes",17).
-trace(678,"crp",18).
-trace(678,"lacticacid",19).
-trace(678,"leucocytes",20).
-trace(678,"crp",21).
-trace(678,"admission nc",22).
-trace(678,"leucocytes",23).
-trace(678,"crp",24).
-trace(678,"crp",25).
-trace(678,"leucocytes",26).
-trace(678,"crp",27).
-trace(678,"leucocytes",28).
-trace(678,"crp",29).
-trace(678,"leucocytes",30).
-trace(678,"crp",31).
-trace(678,"release a",32).
-
-trace(679,"er registration",1).
-trace(679,"er triage",2).
-trace(679,"er sepsis triage",3).
-trace(679,"leucocytes",4).
-trace(679,"crp",5).
-trace(679,"lacticacid",6).
-
-trace(680,"er registration",1).
-trace(680,"er triage",2).
-trace(680,"er sepsis triage",3).
-trace(680,"crp",4).
-trace(680,"lacticacid",5).
-trace(680,"leucocytes",6).
-trace(680,"iv liquid",7).
-trace(680,"iv antibiotics",8).
-trace(680,"admission nc",9).
-trace(680,"admission nc",10).
-trace(680,"leucocytes",11).
-trace(680,"crp",12).
-trace(680,"leucocytes",13).
-trace(680,"crp",14).
-trace(680,"leucocytes",15).
-trace(680,"leucocytes",16).
-trace(680,"release a",17).
-trace(680,"return er",18).
-
-trace(681,"er registration",1).
-trace(681,"er triage",2).
-trace(681,"er sepsis triage",3).
-trace(681,"leucocytes",4).
-trace(681,"crp",5).
-
-trace(682,"er registration",1).
-trace(682,"er triage",2).
-trace(682,"crp",3).
-trace(682,"lacticacid",4).
-trace(682,"leucocytes",5).
-trace(682,"iv liquid",6).
-trace(682,"admission nc",7).
-trace(682,"er sepsis triage",8).
-trace(682,"iv antibiotics",9).
-trace(682,"admission ic",10).
-trace(682,"crp",11).
-trace(682,"lacticacid",12).
-trace(682,"leucocytes",13).
-trace(682,"leucocytes",14).
-trace(682,"crp",15).
-trace(682,"lacticacid",16).
-trace(682,"admission nc",17).
-trace(682,"leucocytes",18).
-trace(682,"crp",19).
-trace(682,"crp",20).
-trace(682,"leucocytes",21).
-trace(682,"release a",22).
-
-trace(683,"er registration",1).
-trace(683,"er triage",2).
-trace(683,"er sepsis triage",3).
-trace(683,"crp",4).
-trace(683,"leucocytes",5).
-trace(683,"admission nc",6).
-trace(683,"release a",7).
-
-trace(684,"er registration",1).
-trace(684,"er triage",2).
-trace(684,"er sepsis triage",3).
-trace(684,"leucocytes",4).
-trace(684,"crp",5).
-trace(684,"lacticacid",6).
-trace(684,"iv liquid",7).
-trace(684,"iv antibiotics",8).
-trace(684,"crp",9).
-trace(684,"leucocytes",10).
-
-trace(685,"er registration",1).
-trace(685,"iv liquid",2).
-trace(685,"er triage",3).
-trace(685,"er sepsis triage",4).
-trace(685,"lacticacid",5).
-trace(685,"leucocytes",6).
-trace(685,"crp",7).
-trace(685,"iv antibiotics",8).
-trace(685,"admission nc",9).
-trace(685,"crp",10).
-trace(685,"crp",11).
-trace(685,"leucocytes",12).
-trace(685,"admission nc",13).
-trace(685,"admission nc",14).
-trace(685,"leucocytes",15).
-trace(685,"crp",16).
-trace(685,"release a",17).
-
-trace(686,"er sepsis triage",1).
-trace(686,"iv antibiotics",2).
-trace(686,"iv liquid",3).
-trace(686,"er registration",4).
-trace(686,"er triage",5).
-trace(686,"crp",6).
-trace(686,"leucocytes",7).
-trace(686,"lacticacid",8).
-trace(686,"admission nc",9).
-trace(686,"admission nc",10).
-trace(686,"crp",11).
-trace(686,"leucocytes",12).
-trace(686,"admission nc",13).
-trace(686,"leucocytes",14).
-trace(686,"crp",15).
-trace(686,"leucocytes",16).
-trace(686,"admission nc",17).
-trace(686,"leucocytes",18).
-trace(686,"leucocytes",19).
-trace(686,"release a",20).
-trace(686,"return er",21).
-
-trace(687,"er registration",1).
-trace(687,"er triage",2).
-trace(687,"er sepsis triage",3).
-trace(687,"leucocytes",4).
-trace(687,"crp",5).
-trace(687,"lacticacid",6).
-trace(687,"iv antibiotics",7).
-trace(687,"admission nc",8).
-trace(687,"crp",9).
-trace(687,"leucocytes",10).
-trace(687,"leucocytes",11).
-trace(687,"crp",12).
-trace(687,"release a",13).
-trace(687,"return er",14).
-
-trace(688,"er registration",1).
-trace(688,"er triage",2).
-trace(688,"er sepsis triage",3).
-trace(688,"leucocytes",4).
-trace(688,"crp",5).
-trace(688,"lacticacid",6).
-trace(688,"iv liquid",7).
-trace(688,"iv antibiotics",8).
-trace(688,"admission nc",9).
-trace(688,"admission ic",10).
-trace(688,"leucocytes",11).
-trace(688,"crp",12).
-trace(688,"lacticacid",13).
-trace(688,"lacticacid",14).
-trace(688,"leucocytes",15).
-trace(688,"crp",16).
-trace(688,"leucocytes",17).
-trace(688,"crp",18).
-trace(688,"lacticacid",19).
-trace(688,"crp",20).
-trace(688,"lacticacid",21).
-trace(688,"leucocytes",22).
-trace(688,"crp",23).
-trace(688,"lacticacid",24).
-trace(688,"leucocytes",25).
-trace(688,"leucocytes",26).
-trace(688,"crp",27).
-trace(688,"lacticacid",28).
-trace(688,"crp",29).
-trace(688,"lacticacid",30).
-trace(688,"leucocytes",31).
-trace(688,"lacticacid",32).
-trace(688,"crp",33).
-trace(688,"leucocytes",34).
-trace(688,"crp",35).
-trace(688,"lacticacid",36).
-trace(688,"leucocytes",37).
-trace(688,"lacticacid",38).
-trace(688,"leucocytes",39).
-trace(688,"crp",40).
-trace(688,"lacticacid",41).
-trace(688,"leucocytes",42).
-trace(688,"crp",43).
-trace(688,"crp",44).
-trace(688,"leucocytes",45).
-trace(688,"lacticacid",46).
-trace(688,"lacticacid",47).
-trace(688,"crp",48).
-trace(688,"leucocytes",49).
-trace(688,"leucocytes",50).
-trace(688,"crp",51).
-trace(688,"lacticacid",52).
-trace(688,"admission nc",53).
-trace(688,"crp",54).
-trace(688,"leucocytes",55).
-trace(688,"admission nc",56).
-trace(688,"admission nc",57).
-trace(688,"leucocytes",58).
-trace(688,"admission nc",59).
-trace(688,"release a",60).
-trace(688,"return er",61).
-
-trace(689,"er registration",1).
-trace(689,"er triage",2).
-trace(689,"er sepsis triage",3).
-trace(689,"leucocytes",4).
-trace(689,"crp",5).
-trace(689,"lacticacid",6).
-trace(689,"iv liquid",7).
-trace(689,"iv antibiotics",8).
-trace(689,"leucocytes",9).
-trace(689,"crp",10).
-
-trace(690,"er registration",1).
-trace(690,"er triage",2).
-trace(690,"crp",3).
-trace(690,"leucocytes",4).
-trace(690,"lacticacid",5).
-trace(690,"er sepsis triage",6).
-trace(690,"iv antibiotics",7).
-trace(690,"admission nc",8).
-trace(690,"admission nc",9).
-trace(690,"leucocytes",10).
-trace(690,"crp",11).
-trace(690,"leucocytes",12).
-trace(690,"crp",13).
-trace(690,"release d",14).
-trace(690,"return er",15).
-
-trace(691,"er registration",1).
-trace(691,"er triage",2).
-trace(691,"er sepsis triage",3).
-trace(691,"lacticacid",4).
-trace(691,"crp",5).
-trace(691,"leucocytes",6).
-trace(691,"iv antibiotics",7).
-trace(691,"admission nc",8).
-trace(691,"leucocytes",9).
-trace(691,"release a",10).
-
-trace(692,"er registration",1).
-trace(692,"er triage",2).
-trace(692,"er sepsis triage",3).
-trace(692,"leucocytes",4).
-trace(692,"crp",5).
-trace(692,"iv liquid",6).
-trace(692,"iv antibiotics",7).
-trace(692,"admission nc",8).
-trace(692,"leucocytes",9).
-trace(692,"crp",10).
-trace(692,"admission nc",11).
-trace(692,"crp",12).
-trace(692,"crp",13).
-trace(692,"release a",14).
-
-trace(693,"er registration",1).
-trace(693,"leucocytes",2).
-trace(693,"lacticacid",3).
-trace(693,"crp",4).
-trace(693,"er triage",5).
-trace(693,"er sepsis triage",6).
-trace(693,"iv antibiotics",7).
-trace(693,"iv liquid",8).
-
-trace(694,"er registration",1).
-trace(694,"er triage",2).
-trace(694,"er sepsis triage",3).
-trace(694,"crp",4).
-trace(694,"leucocytes",5).
-trace(694,"iv liquid",6).
-trace(694,"iv antibiotics",7).
-trace(694,"lacticacid",8).
-
-trace(695,"er registration",1).
-trace(695,"er triage",2).
-trace(695,"er sepsis triage",3).
-trace(695,"crp",4).
-trace(695,"lacticacid",5).
-trace(695,"leucocytes",6).
-trace(695,"iv liquid",7).
-trace(695,"iv antibiotics",8).
-trace(695,"admission nc",9).
-trace(695,"leucocytes",10).
-trace(695,"crp",11).
-trace(695,"release b",12).
-
-trace(696,"er registration",1).
-trace(696,"er triage",2).
-trace(696,"er sepsis triage",3).
-trace(696,"leucocytes",4).
-trace(696,"leucocytes",5).
-trace(696,"crp",6).
-
-trace(697,"er registration",1).
-trace(697,"er triage",2).
-trace(697,"er sepsis triage",3).
-trace(697,"crp",4).
-trace(697,"leucocytes",5).
-trace(697,"lacticacid",6).
-trace(697,"iv liquid",7).
-trace(697,"iv antibiotics",8).
-trace(697,"admission nc",9).
-trace(697,"crp",10).
-trace(697,"leucocytes",11).
-trace(697,"lacticacid",12).
-trace(697,"leucocytes",13).
-trace(697,"crp",14).
-trace(697,"leucocytes",15).
-trace(697,"crp",16).
-trace(697,"leucocytes",17).
-trace(697,"crp",18).
-trace(697,"crp",19).
-trace(697,"leucocytes",20).
-trace(697,"crp",21).
-trace(697,"leucocytes",22).
-trace(697,"release c",23).
-trace(697,"return er",24).
-
-trace(698,"iv liquid",1).
-trace(698,"er registration",2).
-trace(698,"er triage",3).
-trace(698,"er sepsis triage",4).
-trace(698,"lacticacid",5).
-trace(698,"leucocytes",6).
-trace(698,"crp",7).
-trace(698,"iv antibiotics",8).
-trace(698,"admission nc",9).
-trace(698,"leucocytes",10).
-trace(698,"crp",11).
-trace(698,"lacticacid",12).
-trace(698,"crp",13).
-trace(698,"lacticacid",14).
-trace(698,"leucocytes",15).
-trace(698,"release b",16).
-
-trace(699,"er registration",1).
-trace(699,"iv liquid",2).
-trace(699,"er triage",3).
-trace(699,"leucocytes",4).
-trace(699,"crp",5).
-trace(699,"lacticacid",6).
-trace(699,"er sepsis triage",7).
-trace(699,"iv antibiotics",8).
-trace(699,"admission nc",9).
-trace(699,"admission nc",10).
-trace(699,"leucocytes",11).
-trace(699,"crp",12).
-trace(699,"crp",13).
-trace(699,"release a",14).
-trace(699,"return er",15).
-
-trace(700,"er registration",1).
-trace(700,"er triage",2).
-trace(700,"er sepsis triage",3).
-trace(700,"lacticacid",4).
-trace(700,"leucocytes",5).
-trace(700,"crp",6).
-trace(700,"iv liquid",7).
-trace(700,"iv antibiotics",8).
-trace(700,"admission nc",9).
-trace(700,"crp",10).
-trace(700,"leucocytes",11).
-trace(700,"leucocytes",12).
-trace(700,"crp",13).
-trace(700,"release a",14).
-
-trace(701,"er registration",1).
-trace(701,"er triage",2).
-trace(701,"er sepsis triage",3).
-trace(701,"iv liquid",4).
-trace(701,"leucocytes",5).
-trace(701,"crp",6).
-trace(701,"lacticacid",7).
-trace(701,"iv antibiotics",8).
-trace(701,"admission nc",9).
-trace(701,"release a",10).
-trace(701,"return er",11).
-
-trace(702,"er registration",1).
-trace(702,"er triage",2).
-trace(702,"er sepsis triage",3).
-trace(702,"leucocytes",4).
-trace(702,"crp",5).
-trace(702,"lacticacid",6).
-trace(702,"iv liquid",7).
-trace(702,"iv antibiotics",8).
-trace(702,"admission nc",9).
-trace(702,"crp",10).
-trace(702,"leucocytes",11).
-trace(702,"release a",12).
-
-trace(703,"er registration",1).
-trace(703,"iv liquid",2).
-trace(703,"er triage",3).
-trace(703,"er sepsis triage",4).
-trace(703,"lacticacid",5).
-trace(703,"crp",6).
-trace(703,"leucocytes",7).
-trace(703,"iv antibiotics",8).
-
-trace(704,"er registration",1).
-trace(704,"er triage",2).
-trace(704,"leucocytes",3).
-trace(704,"crp",4).
-trace(704,"lacticacid",5).
-trace(704,"er sepsis triage",6).
-trace(704,"iv liquid",7).
-trace(704,"iv antibiotics",8).
-trace(704,"admission nc",9).
-trace(704,"leucocytes",10).
-trace(704,"crp",11).
-trace(704,"leucocytes",12).
-trace(704,"crp",13).
-trace(704,"leucocytes",14).
-trace(704,"crp",15).
-trace(704,"release a",16).
-
-trace(705,"er registration",1).
-trace(705,"er triage",2).
-trace(705,"er sepsis triage",3).
-trace(705,"crp",4).
-trace(705,"lacticacid",5).
-trace(705,"leucocytes",6).
-trace(705,"admission nc",7).
-trace(705,"leucocytes",8).
-trace(705,"crp",9).
-trace(705,"leucocytes",10).
-trace(705,"admission nc",11).
-trace(705,"lacticacid",12).
-trace(705,"crp",13).
-trace(705,"leucocytes",14).
-trace(705,"release b",15).
-
-trace(706,"er registration",1).
-trace(706,"er triage",2).
-trace(706,"er sepsis triage",3).
-trace(706,"leucocytes",4).
-trace(706,"crp",5).
-trace(706,"lacticacid",6).
-trace(706,"iv antibiotics",7).
-trace(706,"admission nc",8).
-trace(706,"leucocytes",9).
-trace(706,"crp",10).
-trace(706,"lacticacid",11).
-trace(706,"admission nc",12).
-trace(706,"iv liquid",13).
-trace(706,"crp",14).
-trace(706,"leucocytes",15).
-trace(706,"release a",16).
-trace(706,"return er",17).
-
-trace(707,"er registration",1).
-trace(707,"er triage",2).
-trace(707,"er sepsis triage",3).
-trace(707,"iv liquid",4).
-trace(707,"lacticacid",5).
-trace(707,"crp",6).
-trace(707,"leucocytes",7).
-trace(707,"iv antibiotics",8).
-trace(707,"admission nc",9).
-trace(707,"leucocytes",10).
-trace(707,"crp",11).
-trace(707,"leucocytes",12).
-trace(707,"crp",13).
-trace(707,"leucocytes",14).
-trace(707,"crp",15).
-trace(707,"release a",16).
-
-trace(708,"er registration",1).
-trace(708,"er triage",2).
-trace(708,"er sepsis triage",3).
-trace(708,"lacticacid",4).
-trace(708,"leucocytes",5).
-trace(708,"crp",6).
-trace(708,"iv antibiotics",7).
-trace(708,"admission ic",8).
-trace(708,"crp",9).
-trace(708,"leucocytes",10).
-trace(708,"lacticacid",11).
-trace(708,"leucocytes",12).
-trace(708,"crp",13).
-trace(708,"lacticacid",14).
-trace(708,"admission nc",15).
-trace(708,"admission nc",16).
-trace(708,"leucocytes",17).
-trace(708,"crp",18).
-trace(708,"crp",19).
-trace(708,"leucocytes",20).
-trace(708,"release a",21).
-
-trace(709,"er registration",1).
-trace(709,"er triage",2).
-trace(709,"er sepsis triage",3).
-trace(709,"lacticacid",4).
-trace(709,"crp",5).
-trace(709,"leucocytes",6).
-trace(709,"admission nc",7).
-trace(709,"release a",8).
-trace(709,"return er",9).
-
-trace(710,"er registration",1).
-trace(710,"er triage",2).
-trace(710,"er sepsis triage",3).
-trace(710,"leucocytes",4).
-trace(710,"crp",5).
-trace(710,"admission nc",6).
-trace(710,"leucocytes",7).
-trace(710,"admission nc",8).
-trace(710,"leucocytes",9).
-trace(710,"leucocytes",10).
-trace(710,"leucocytes",11).
-trace(710,"leucocytes",12).
-trace(710,"leucocytes",13).
-trace(710,"leucocytes",14).
-trace(710,"leucocytes",15).
-trace(710,"leucocytes",16).
-trace(710,"crp",17).
-trace(710,"leucocytes",18).
-trace(710,"leucocytes",19).
-trace(710,"leucocytes",20).
-trace(710,"leucocytes",21).
-trace(710,"leucocytes",22).
-trace(710,"release e",23).
-
-trace(711,"er registration",1).
-trace(711,"er triage",2).
-trace(711,"er sepsis triage",3).
-trace(711,"admission nc",4).
-trace(711,"release a",5).
-
-trace(712,"er registration",1).
-trace(712,"er triage",2).
-trace(712,"er sepsis triage",3).
-trace(712,"lacticacid",4).
-trace(712,"leucocytes",5).
-trace(712,"crp",6).
-trace(712,"iv liquid",7).
-trace(712,"iv antibiotics",8).
-
-trace(713,"er registration",1).
-trace(713,"er triage",2).
-trace(713,"er sepsis triage",3).
-trace(713,"lacticacid",4).
-trace(713,"leucocytes",5).
-trace(713,"crp",6).
-trace(713,"admission nc",7).
-trace(713,"crp",8).
-trace(713,"leucocytes",9).
-trace(713,"crp",10).
-trace(713,"leucocytes",11).
-trace(713,"leucocytes",12).
-trace(713,"crp",13).
-trace(713,"release a",14).
-
-trace(714,"er registration",1).
-trace(714,"er triage",2).
-trace(714,"er sepsis triage",3).
-
-trace(715,"er registration",1).
-trace(715,"er triage",2).
-trace(715,"er sepsis triage",3).
-trace(715,"leucocytes",4).
-trace(715,"crp",5).
-trace(715,"lacticacid",6).
-trace(715,"iv antibiotics",7).
-trace(715,"admission nc",8).
-trace(715,"crp",9).
-trace(715,"leucocytes",10).
-trace(715,"admission ic",11).
-trace(715,"leucocytes",12).
-trace(715,"crp",13).
-trace(715,"lacticacid",14).
-trace(715,"leucocytes",15).
-trace(715,"crp",16).
-trace(715,"lacticacid",17).
-trace(715,"lacticacid",18).
-trace(715,"crp",19).
-trace(715,"leucocytes",20).
-trace(715,"leucocytes",21).
-trace(715,"crp",22).
-trace(715,"lacticacid",23).
-trace(715,"crp",24).
-trace(715,"lacticacid",25).
-trace(715,"leucocytes",26).
-trace(715,"lacticacid",27).
-trace(715,"crp",28).
-trace(715,"leucocytes",29).
-trace(715,"lacticacid",30).
-trace(715,"leucocytes",31).
-trace(715,"crp",32).
-trace(715,"leucocytes",33).
-trace(715,"lacticacid",34).
-trace(715,"crp",35).
-trace(715,"admission nc",36).
-trace(715,"release a",37).
-
-trace(716,"er registration",1).
-trace(716,"er triage",2).
-trace(716,"er sepsis triage",3).
-trace(716,"leucocytes",4).
-trace(716,"crp",5).
-trace(716,"lacticacid",6).
-trace(716,"iv liquid",7).
-trace(716,"iv antibiotics",8).
-
-trace(717,"er registration",1).
-trace(717,"er triage",2).
-trace(717,"er sepsis triage",3).
-trace(717,"leucocytes",4).
-trace(717,"lacticacid",5).
-trace(717,"crp",6).
-trace(717,"iv liquid",7).
-trace(717,"iv antibiotics",8).
-trace(717,"admission nc",9).
-trace(717,"crp",10).
-trace(717,"leucocytes",11).
-trace(717,"crp",12).
-trace(717,"leucocytes",13).
-trace(717,"release c",14).
-
-trace(718,"er registration",1).
-trace(718,"er triage",2).
-trace(718,"er sepsis triage",3).
-trace(718,"crp",4).
-trace(718,"leucocytes",5).
-trace(718,"lacticacid",6).
-trace(718,"iv liquid",7).
-trace(718,"iv antibiotics",8).
-trace(718,"admission ic",9).
-trace(718,"crp",10).
-trace(718,"leucocytes",11).
-trace(718,"lacticacid",12).
-trace(718,"admission nc",13).
-trace(718,"admission nc",14).
-trace(718,"leucocytes",15).
-trace(718,"crp",16).
-trace(718,"release d",17).
-
-trace(719,"er registration",1).
-trace(719,"er triage",2).
-trace(719,"er sepsis triage",3).
-trace(719,"crp",4).
-trace(719,"leucocytes",5).
-trace(719,"admission nc",6).
-trace(719,"crp",7).
-trace(719,"leucocytes",8).
-trace(719,"leucocytes",9).
-trace(719,"crp",10).
-trace(719,"release e",11).
-
-trace(720,"er registration",1).
-trace(720,"er triage",2).
-trace(720,"er sepsis triage",3).
-trace(720,"lacticacid",4).
-trace(720,"leucocytes",5).
-trace(720,"crp",6).
-trace(720,"iv liquid",7).
-trace(720,"iv antibiotics",8).
-trace(720,"admission nc",9).
-trace(720,"leucocytes",10).
-trace(720,"crp",11).
-trace(720,"leucocytes",12).
-trace(720,"crp",13).
-trace(720,"leucocytes",14).
-trace(720,"crp",15).
-trace(720,"leucocytes",16).
-trace(720,"crp",17).
-trace(720,"release a",18).
-
-trace(721,"er registration",1).
-trace(721,"er triage",2).
-trace(721,"er sepsis triage",3).
-trace(721,"crp",4).
-trace(721,"leucocytes",5).
-
-trace(722,"er registration",1).
-trace(722,"er triage",2).
-trace(722,"er sepsis triage",3).
-trace(722,"iv liquid",4).
-trace(722,"iv antibiotics",5).
-trace(722,"crp",6).
-trace(722,"leucocytes",7).
-trace(722,"lacticacid",8).
-trace(722,"admission ic",9).
-trace(722,"crp",10).
-trace(722,"lacticacid",11).
-trace(722,"leucocytes",12).
-trace(722,"lacticacid",13).
-trace(722,"crp",14).
-trace(722,"leucocytes",15).
-trace(722,"admission nc",16).
-trace(722,"crp",17).
-trace(722,"leucocytes",18).
-trace(722,"release a",19).
-trace(722,"return er",20).
-
-trace(723,"er registration",1).
-trace(723,"iv liquid",2).
-trace(723,"er triage",3).
-trace(723,"er sepsis triage",4).
-trace(723,"lacticacid",5).
-trace(723,"leucocytes",6).
-trace(723,"crp",7).
-trace(723,"iv antibiotics",8).
-trace(723,"admission nc",9).
-trace(723,"crp",10).
-trace(723,"leucocytes",11).
-trace(723,"release a",12).
-
-trace(724,"er registration",1).
-trace(724,"er sepsis triage",2).
-trace(724,"iv liquid",3).
-trace(724,"iv antibiotics",4).
-trace(724,"er triage",5).
-trace(724,"leucocytes",6).
-trace(724,"lacticacid",7).
-trace(724,"crp",8).
-trace(724,"admission nc",9).
-trace(724,"admission nc",10).
-trace(724,"leucocytes",11).
-trace(724,"crp",12).
-trace(724,"release a",13).
-
-trace(725,"er registration",1).
-trace(725,"er triage",2).
-trace(725,"er sepsis triage",3).
-trace(725,"leucocytes",4).
-trace(725,"crp",5).
-trace(725,"lacticacid",6).
-trace(725,"iv liquid",7).
-trace(725,"iv antibiotics",8).
-trace(725,"admission nc",9).
-trace(725,"leucocytes",10).
-trace(725,"crp",11).
-trace(725,"release a",12).
-
-trace(726,"er registration",1).
-trace(726,"er triage",2).
-trace(726,"er sepsis triage",3).
-trace(726,"crp",4).
-trace(726,"lacticacid",5).
-trace(726,"leucocytes",6).
-trace(726,"iv liquid",7).
-trace(726,"iv antibiotics",8).
-trace(726,"admission nc",9).
-trace(726,"admission nc",10).
-trace(726,"crp",11).
-trace(726,"leucocytes",12).
-trace(726,"crp",13).
-trace(726,"crp",14).
-trace(726,"release a",15).
-
-trace(727,"er registration",1).
-trace(727,"er triage",2).
-trace(727,"er sepsis triage",3).
-trace(727,"iv liquid",4).
-trace(727,"lacticacid",5).
-trace(727,"leucocytes",6).
-trace(727,"crp",7).
-trace(727,"iv antibiotics",8).
-trace(727,"admission nc",9).
-trace(727,"leucocytes",10).
-trace(727,"crp",11).
-trace(727,"leucocytes",12).
-trace(727,"leucocytes",13).
-trace(727,"crp",14).
-trace(727,"crp",15).
-trace(727,"leucocytes",16).
-trace(727,"release a",17).
-
-trace(728,"er registration",1).
-trace(728,"er triage",2).
-trace(728,"er sepsis triage",3).
-trace(728,"crp",4).
-trace(728,"lacticacid",5).
-trace(728,"leucocytes",6).
-trace(728,"iv liquid",7).
-trace(728,"iv antibiotics",8).
-trace(728,"admission nc",9).
-trace(728,"admission nc",10).
-trace(728,"leucocytes",11).
-trace(728,"crp",12).
-trace(728,"crp",13).
-trace(728,"release a",14).
-
-trace(729,"er registration",1).
-trace(729,"er triage",2).
-trace(729,"er sepsis triage",3).
-trace(729,"leucocytes",4).
-trace(729,"lacticacid",5).
-trace(729,"crp",6).
-trace(729,"iv liquid",7).
-trace(729,"iv antibiotics",8).
-trace(729,"admission nc",9).
-trace(729,"crp",10).
-trace(729,"leucocytes",11).
-trace(729,"lacticacid",12).
-trace(729,"lacticacid",13).
-trace(729,"crp",14).
-trace(729,"admission nc",15).
-trace(729,"crp",16).
-trace(729,"lacticacid",17).
-trace(729,"leucocytes",18).
-trace(729,"crp",19).
-trace(729,"admission nc",20).
-trace(729,"release a",21).
-
-trace(730,"er registration",1).
-trace(730,"er triage",2).
-trace(730,"lacticacid",3).
-trace(730,"leucocytes",4).
-trace(730,"crp",5).
-trace(730,"er sepsis triage",6).
-trace(730,"iv liquid",7).
-trace(730,"iv antibiotics",8).
-trace(730,"admission nc",9).
-trace(730,"leucocytes",10).
-trace(730,"crp",11).
-trace(730,"admission nc",12).
-trace(730,"crp",13).
-trace(730,"release a",14).
-
-trace(731,"er registration",1).
-trace(731,"er triage",2).
-trace(731,"er sepsis triage",3).
-trace(731,"lacticacid",4).
-trace(731,"crp",5).
-trace(731,"leucocytes",6).
-trace(731,"iv liquid",7).
-trace(731,"iv antibiotics",8).
-trace(731,"admission nc",9).
-trace(731,"crp",10).
-trace(731,"crp",11).
-trace(731,"release a",12).
-
-trace(732,"er registration",1).
-trace(732,"er triage",2).
-trace(732,"er sepsis triage",3).
-trace(732,"leucocytes",4).
-trace(732,"crp",5).
-trace(732,"admission nc",6).
-trace(732,"leucocytes",7).
-trace(732,"crp",8).
-trace(732,"release a",9).
-trace(732,"return er",10).
-
-trace(733,"er registration",1).
-trace(733,"er triage",2).
-trace(733,"er sepsis triage",3).
-trace(733,"leucocytes",4).
-trace(733,"lacticacid",5).
-trace(733,"crp",6).
-trace(733,"iv liquid",7).
-trace(733,"iv antibiotics",8).
-trace(733,"admission nc",9).
-trace(733,"release a",10).
-trace(733,"return er",11).
-
-trace(734,"er registration",1).
-trace(734,"er triage",2).
-trace(734,"er sepsis triage",3).
-trace(734,"crp",4).
-trace(734,"lacticacid",5).
-trace(734,"leucocytes",6).
-trace(734,"iv liquid",7).
-trace(734,"iv antibiotics",8).
-trace(734,"admission nc",9).
-trace(734,"crp",10).
-trace(734,"leucocytes",11).
-trace(734,"leucocytes",12).
-trace(734,"crp",13).
-trace(734,"release c",14).
-trace(734,"return er",15).
-
-trace(735,"er registration",1).
-trace(735,"er triage",2).
-trace(735,"er sepsis triage",3).
-trace(735,"iv liquid",4).
-trace(735,"leucocytes",5).
-trace(735,"crp",6).
-trace(735,"lacticacid",7).
-trace(735,"iv antibiotics",8).
-trace(735,"admission nc",9).
-trace(735,"crp",10).
-trace(735,"crp",11).
-trace(735,"release a",12).
-
-trace(736,"er registration",1).
-trace(736,"er triage",2).
-trace(736,"leucocytes",3).
-trace(736,"crp",4).
-trace(736,"lacticacid",5).
-trace(736,"er sepsis triage",6).
-trace(736,"iv liquid",7).
-trace(736,"iv antibiotics",8).
-
-trace(737,"er registration",1).
-trace(737,"er triage",2).
-trace(737,"er sepsis triage",3).
-trace(737,"iv liquid",4).
-trace(737,"crp",5).
-trace(737,"leucocytes",6).
-trace(737,"lacticacid",7).
-trace(737,"iv antibiotics",8).
-trace(737,"admission nc",9).
-trace(737,"admission nc",10).
-trace(737,"leucocytes",11).
-trace(737,"crp",12).
-trace(737,"crp",13).
-trace(737,"leucocytes",14).
-trace(737,"release a",15).
-
-trace(738,"er registration",1).
-trace(738,"er triage",2).
-trace(738,"er sepsis triage",3).
-trace(738,"iv liquid",4).
-trace(738,"crp",5).
-trace(738,"leucocytes",6).
-trace(738,"lacticacid",7).
-trace(738,"iv antibiotics",8).
-trace(738,"admission nc",9).
-trace(738,"leucocytes",10).
-trace(738,"crp",11).
-trace(738,"admission nc",12).
-trace(738,"leucocytes",13).
-trace(738,"crp",14).
-trace(738,"crp",15).
-trace(738,"leucocytes",16).
-trace(738,"crp",17).
-trace(738,"leucocytes",18).
-trace(738,"release c",19).
-
-trace(739,"er registration",1).
-trace(739,"er triage",2).
-trace(739,"er sepsis triage",3).
-trace(739,"iv liquid",4).
-trace(739,"iv antibiotics",5).
-trace(739,"leucocytes",6).
-trace(739,"crp",7).
-trace(739,"lacticacid",8).
-trace(739,"admission nc",9).
-trace(739,"crp",10).
-trace(739,"release a",11).
-
-trace(740,"er registration",1).
-trace(740,"er triage",2).
-trace(740,"er sepsis triage",3).
-trace(740,"leucocytes",4).
-trace(740,"crp",5).
-
-trace(741,"er registration",1).
-trace(741,"er triage",2).
-trace(741,"er sepsis triage",3).
-trace(741,"crp",4).
-trace(741,"lacticacid",5).
-trace(741,"leucocytes",6).
-trace(741,"admission nc",7).
-trace(741,"crp",8).
-trace(741,"leucocytes",9).
-trace(741,"lacticacid",10).
-trace(741,"leucocytes",11).
-trace(741,"crp",12).
-trace(741,"release a",13).
-
-trace(742,"er registration",1).
-trace(742,"er triage",2).
-trace(742,"er sepsis triage",3).
-trace(742,"iv liquid",4).
-trace(742,"iv antibiotics",5).
-trace(742,"crp",6).
-trace(742,"leucocytes",7).
-trace(742,"lacticacid",8).
-trace(742,"admission ic",9).
-trace(742,"lacticacid",10).
-trace(742,"release b",11).
-
-trace(743,"er registration",1).
-trace(743,"er triage",2).
-trace(743,"er sepsis triage",3).
-trace(743,"iv liquid",4).
-trace(743,"iv antibiotics",5).
-trace(743,"lacticacid",6).
-trace(743,"leucocytes",7).
-trace(743,"crp",8).
-trace(743,"admission ic",9).
-trace(743,"leucocytes",10).
-trace(743,"crp",11).
-trace(743,"lacticacid",12).
-trace(743,"crp",13).
-trace(743,"lacticacid",14).
-trace(743,"leucocytes",15).
-trace(743,"lacticacid",16).
-trace(743,"crp",17).
-trace(743,"leucocytes",18).
-trace(743,"lacticacid",19).
-trace(743,"admission nc",20).
-trace(743,"crp",21).
-trace(743,"leucocytes",22).
-trace(743,"leucocytes",23).
-trace(743,"crp",24).
-trace(743,"crp",25).
-trace(743,"leucocytes",26).
-trace(743,"crp",27).
-trace(743,"leucocytes",28).
-trace(743,"crp",29).
-trace(743,"leucocytes",30).
-trace(743,"leucocytes",31).
-trace(743,"crp",32).
-trace(743,"release a",33).
-
-trace(744,"er registration",1).
-trace(744,"er triage",2).
-trace(744,"er sepsis triage",3).
-trace(744,"crp",4).
-trace(744,"leucocytes",5).
-trace(744,"lacticacid",6).
-trace(744,"iv antibiotics",7).
-trace(744,"admission nc",8).
-trace(744,"leucocytes",9).
-trace(744,"crp",10).
-trace(744,"leucocytes",11).
-trace(744,"crp",12).
-trace(744,"release a",13).
-
-trace(745,"er registration",1).
-trace(745,"er triage",2).
-trace(745,"er sepsis triage",3).
-trace(745,"leucocytes",4).
-trace(745,"lacticacid",5).
-trace(745,"crp",6).
-trace(745,"iv liquid",7).
-trace(745,"iv antibiotics",8).
-trace(745,"admission nc",9).
-trace(745,"lacticacid",10).
-trace(745,"admission nc",11).
-trace(745,"leucocytes",12).
-trace(745,"crp",13).
-trace(745,"release a",14).
-
-trace(746,"er registration",1).
-trace(746,"er triage",2).
-trace(746,"er sepsis triage",3).
-trace(746,"leucocytes",4).
-trace(746,"lacticacid",5).
-trace(746,"crp",6).
-trace(746,"iv liquid",7).
-trace(746,"iv antibiotics",8).
-trace(746,"admission nc",9).
-trace(746,"crp",10).
-trace(746,"leucocytes",11).
-trace(746,"release a",12).
-
-trace(747,"er registration",1).
-trace(747,"er triage",2).
-trace(747,"er sepsis triage",3).
-trace(747,"iv liquid",4).
-trace(747,"leucocytes",5).
-trace(747,"lacticacid",6).
-trace(747,"crp",7).
-trace(747,"iv antibiotics",8).
-trace(747,"admission nc",9).
-trace(747,"crp",10).
-trace(747,"leucocytes",11).
-trace(747,"crp",12).
-trace(747,"leucocytes",13).
-trace(747,"release a",14).
-trace(747,"return er",15).
-
-trace(748,"er registration",1).
-trace(748,"er triage",2).
-trace(748,"leucocytes",3).
-trace(748,"crp",4).
-trace(748,"er sepsis triage",5).
-
-trace(749,"er registration",1).
-trace(749,"er triage",2).
-trace(749,"er sepsis triage",3).
-trace(749,"crp",4).
-trace(749,"lacticacid",5).
-trace(749,"leucocytes",6).
-trace(749,"admission nc",7).
-trace(749,"admission nc",8).
-trace(749,"crp",9).
-trace(749,"crp",10).
-trace(749,"crp",11).
-trace(749,"release a",12).
-
-trace(750,"er registration",1).
-trace(750,"er triage",2).
-trace(750,"er sepsis triage",3).
-trace(750,"leucocytes",4).
-trace(750,"lacticacid",5).
-trace(750,"crp",6).
-trace(750,"admission nc",7).
-trace(750,"admission nc",8).
-trace(750,"admission ic",9).
-trace(750,"lacticacid",10).
-trace(750,"leucocytes",11).
-trace(750,"crp",12).
-trace(750,"leucocytes",13).
-trace(750,"lacticacid",14).
-trace(750,"iv liquid",15).
-trace(750,"iv antibiotics",16).
-trace(750,"leucocytes",17).
-trace(750,"crp",18).
-trace(750,"lacticacid",19).
-trace(750,"lacticacid",20).
-trace(750,"leucocytes",21).
-trace(750,"crp",22).
-trace(750,"admission nc",23).
-trace(750,"leucocytes",24).
-trace(750,"leucocytes",25).
-trace(750,"release a",26).
-trace(750,"return er",27).
-
-trace(751,"er registration",1).
-trace(751,"er triage",2).
-trace(751,"er sepsis triage",3).
-trace(751,"crp",4).
-trace(751,"leucocytes",5).
-trace(751,"lacticacid",6).
-trace(751,"iv liquid",7).
-trace(751,"iv antibiotics",8).
-trace(751,"admission nc",9).
-trace(751,"leucocytes",10).
-trace(751,"crp",11).
-trace(751,"leucocytes",12).
-trace(751,"crp",13).
-trace(751,"release a",14).
-
-trace(752,"er registration",1).
-trace(752,"er triage",2).
-trace(752,"lacticacid",3).
-trace(752,"leucocytes",4).
-trace(752,"crp",5).
-trace(752,"er sepsis triage",6).
-trace(752,"iv liquid",7).
-trace(752,"iv antibiotics",8).
-trace(752,"admission nc",9).
-trace(752,"crp",10).
-trace(752,"release a",11).
-
-trace(753,"er registration",1).
-trace(753,"er triage",2).
-trace(753,"er sepsis triage",3).
-trace(753,"crp",4).
-trace(753,"lacticacid",5).
-trace(753,"leucocytes",6).
-trace(753,"iv liquid",7).
-trace(753,"iv antibiotics",8).
-
-trace(754,"er registration",1).
-trace(754,"er triage",2).
-trace(754,"er sepsis triage",3).
-trace(754,"iv liquid",4).
-trace(754,"leucocytes",5).
-trace(754,"lacticacid",6).
-trace(754,"crp",7).
-trace(754,"iv antibiotics",8).
-trace(754,"admission nc",9).
-trace(754,"crp",10).
-trace(754,"leucocytes",11).
-trace(754,"lacticacid",12).
-trace(754,"lacticacid",13).
-trace(754,"crp",14).
-trace(754,"leucocytes",15).
-trace(754,"leucocytes",16).
-trace(754,"crp",17).
-trace(754,"lacticacid",18).
-trace(754,"release e",19).
-
-trace(755,"er registration",1).
-trace(755,"er triage",2).
-trace(755,"er sepsis triage",3).
-trace(755,"crp",4).
-trace(755,"leucocytes",5).
-trace(755,"lacticacid",6).
-trace(755,"iv liquid",7).
-trace(755,"iv antibiotics",8).
-
-trace(756,"er registration",1).
-trace(756,"er triage",2).
-trace(756,"er sepsis triage",3).
-trace(756,"lacticacid",4).
-trace(756,"leucocytes",5).
-trace(756,"crp",6).
-trace(756,"iv liquid",7).
-trace(756,"iv antibiotics",8).
-trace(756,"admission nc",9).
-trace(756,"leucocytes",10).
-trace(756,"crp",11).
-trace(756,"release a",12).
-trace(756,"return er",13).
-
-trace(757,"er registration",1).
-trace(757,"er triage",2).
-trace(757,"leucocytes",3).
-trace(757,"lacticacid",4).
-trace(757,"crp",5).
-trace(757,"admission ic",6).
-trace(757,"er sepsis triage",7).
-trace(757,"iv liquid",8).
-trace(757,"iv antibiotics",9).
-trace(757,"leucocytes",10).
-trace(757,"lacticacid",11).
-trace(757,"crp",12).
-trace(757,"crp",13).
-trace(757,"lacticacid",14).
-trace(757,"leucocytes",15).
-trace(757,"admission nc",16).
-trace(757,"leucocytes",17).
-trace(757,"crp",18).
-trace(757,"release a",19).
-
-trace(758,"er registration",1).
-trace(758,"er triage",2).
-trace(758,"er sepsis triage",3).
-trace(758,"lacticacid",4).
-trace(758,"crp",5).
-trace(758,"leucocytes",6).
-trace(758,"iv liquid",7).
-trace(758,"iv antibiotics",8).
-trace(758,"admission nc",9).
-trace(758,"leucocytes",10).
-trace(758,"crp",11).
-trace(758,"leucocytes",12).
-trace(758,"crp",13).
-trace(758,"release a",14).
-trace(758,"return er",15).
-
-trace(759,"er registration",1).
-trace(759,"er triage",2).
-trace(759,"er sepsis triage",3).
-trace(759,"crp",4).
-trace(759,"lacticacid",5).
-trace(759,"leucocytes",6).
-trace(759,"iv liquid",7).
-trace(759,"iv antibiotics",8).
-trace(759,"admission nc",9).
-trace(759,"crp",10).
-trace(759,"leucocytes",11).
-trace(759,"leucocytes",12).
-trace(759,"release a",13).
-trace(759,"return er",14).
-
-trace(760,"er registration",1).
-trace(760,"er triage",2).
-trace(760,"er sepsis triage",3).
-trace(760,"iv liquid",4).
-trace(760,"crp",5).
-trace(760,"leucocytes",6).
-trace(760,"lacticacid",7).
-trace(760,"iv antibiotics",8).
-
-trace(761,"er registration",1).
-trace(761,"er triage",2).
-trace(761,"er sepsis triage",3).
-trace(761,"crp",4).
-trace(761,"leucocytes",5).
-
-trace(762,"er registration",1).
-trace(762,"er triage",2).
-trace(762,"er sepsis triage",3).
-trace(762,"crp",4).
-trace(762,"leucocytes",5).
-trace(762,"lacticacid",6).
-trace(762,"iv liquid",7).
-trace(762,"iv antibiotics",8).
-trace(762,"admission nc",9).
-trace(762,"crp",10).
-trace(762,"leucocytes",11).
-trace(762,"crp",12).
-trace(762,"leucocytes",13).
-trace(762,"crp",14).
-trace(762,"crp",15).
-trace(762,"leucocytes",16).
-trace(762,"release d",17).
-trace(762,"return er",18).
-
-trace(763,"er registration",1).
-trace(763,"iv liquid",2).
-trace(763,"er triage",3).
-trace(763,"er sepsis triage",4).
-trace(763,"crp",5).
-trace(763,"leucocytes",6).
-trace(763,"iv antibiotics",7).
-trace(763,"admission nc",8).
-trace(763,"leucocytes",9).
-trace(763,"crp",10).
-trace(763,"release a",11).
-
-trace(764,"er registration",1).
-trace(764,"er triage",2).
-trace(764,"er sepsis triage",3).
-trace(764,"iv liquid",4).
-trace(764,"leucocytes",5).
-trace(764,"crp",6).
-trace(764,"lacticacid",7).
-trace(764,"iv antibiotics",8).
-
-trace(765,"er registration",1).
-trace(765,"er triage",2).
-trace(765,"er sepsis triage",3).
-trace(765,"leucocytes",4).
-trace(765,"crp",5).
-
-trace(766,"iv liquid",1).
-trace(766,"er registration",2).
-trace(766,"er triage",3).
-trace(766,"er sepsis triage",4).
-trace(766,"iv antibiotics",5).
-trace(766,"leucocytes",6).
-trace(766,"crp",7).
-trace(766,"lacticacid",8).
-trace(766,"admission nc",9).
-trace(766,"admission nc",10).
-trace(766,"crp",11).
-trace(766,"leucocytes",12).
-trace(766,"crp",13).
-trace(766,"leucocytes",14).
-trace(766,"crp",15).
-trace(766,"release a",16).
-trace(766,"return er",17).
-
-trace(767,"er registration",1).
-trace(767,"er triage",2).
-trace(767,"er sepsis triage",3).
-trace(767,"leucocytes",4).
-trace(767,"crp",5).
-
-trace(768,"er registration",1).
-trace(768,"er triage",2).
-trace(768,"er sepsis triage",3).
-trace(768,"leucocytes",4).
-trace(768,"crp",5).
-trace(768,"lacticacid",6).
-trace(768,"admission nc",7).
-trace(768,"leucocytes",8).
-trace(768,"crp",9).
-trace(768,"lacticacid",10).
-
-trace(769,"er registration",1).
-trace(769,"er triage",2).
-trace(769,"er sepsis triage",3).
-trace(769,"crp",4).
-trace(769,"leucocytes",5).
-trace(769,"lacticacid",6).
-trace(769,"iv liquid",7).
-trace(769,"iv antibiotics",8).
-trace(769,"admission nc",9).
-trace(769,"leucocytes",10).
-trace(769,"crp",11).
-trace(769,"admission nc",12).
-trace(769,"crp",13).
-trace(769,"leucocytes",14).
-trace(769,"release a",15).
-
-trace(770,"er registration",1).
-trace(770,"er triage",2).
-trace(770,"er sepsis triage",3).
-trace(770,"crp",4).
-trace(770,"leucocytes",5).
-trace(770,"lacticacid",6).
-trace(770,"iv liquid",7).
-trace(770,"iv antibiotics",8).
-trace(770,"admission nc",9).
-trace(770,"lacticacid",10).
-trace(770,"admission nc",11).
-trace(770,"leucocytes",12).
-trace(770,"crp",13).
-trace(770,"release a",14).
-trace(770,"return er",15).
-
-trace(771,"er registration",1).
-trace(771,"iv liquid",2).
-trace(771,"er triage",3).
-trace(771,"er sepsis triage",4).
-trace(771,"leucocytes",5).
-trace(771,"crp",6).
-trace(771,"lacticacid",7).
-trace(771,"iv antibiotics",8).
-trace(771,"admission ic",9).
-trace(771,"leucocytes",10).
-trace(771,"crp",11).
-trace(771,"lacticacid",12).
-trace(771,"admission nc",13).
-trace(771,"leucocytes",14).
-trace(771,"admission nc",15).
-trace(771,"release a",16).
-trace(771,"return er",17).
-
-trace(772,"er registration",1).
-trace(772,"er triage",2).
-trace(772,"er sepsis triage",3).
-trace(772,"crp",4).
-trace(772,"lacticacid",5).
-trace(772,"leucocytes",6).
-trace(772,"iv liquid",7).
-trace(772,"iv antibiotics",8).
-trace(772,"admission nc",9).
-trace(772,"leucocytes",10).
-trace(772,"crp",11).
-trace(772,"leucocytes",12).
-trace(772,"crp",13).
-trace(772,"crp",14).
-trace(772,"leucocytes",15).
-trace(772,"crp",16).
-trace(772,"leucocytes",17).
-trace(772,"crp",18).
-trace(772,"leucocytes",19).
-trace(772,"release a",20).
-trace(772,"return er",21).
-
-trace(773,"er registration",1).
-trace(773,"er triage",2).
-trace(773,"er sepsis triage",3).
-trace(773,"leucocytes",4).
-trace(773,"crp",5).
-
-trace(774,"er registration",1).
-trace(774,"er triage",2).
-trace(774,"er sepsis triage",3).
-trace(774,"lacticacid",4).
-trace(774,"crp",5).
-trace(774,"leucocytes",6).
-trace(774,"iv liquid",7).
-trace(774,"iv antibiotics",8).
-trace(774,"admission nc",9).
-trace(774,"crp",10).
-trace(774,"leucocytes",11).
-trace(774,"crp",12).
-trace(774,"leucocytes",13).
-trace(774,"release a",14).
-trace(774,"return er",15).
-
-trace(775,"er registration",1).
-trace(775,"er triage",2).
-trace(775,"er sepsis triage",3).
-trace(775,"iv liquid",4).
-trace(775,"iv antibiotics",5).
-trace(775,"crp",6).
-trace(775,"lacticacid",7).
-trace(775,"leucocytes",8).
-trace(775,"admission ic",9).
-trace(775,"leucocytes",10).
-trace(775,"crp",11).
-trace(775,"lacticacid",12).
-trace(775,"lacticacid",13).
-trace(775,"crp",14).
-trace(775,"leucocytes",15).
-trace(775,"admission nc",16).
-trace(775,"crp",17).
-trace(775,"crp",18).
-trace(775,"leucocytes",19).
-trace(775,"release a",20).
-
-trace(776,"er registration",1).
-trace(776,"er triage",2).
-trace(776,"er sepsis triage",3).
-trace(776,"lacticacid",4).
-trace(776,"leucocytes",5).
-trace(776,"crp",6).
-trace(776,"iv liquid",7).
-trace(776,"iv antibiotics",8).
-trace(776,"admission nc",9).
-trace(776,"admission nc",10).
-trace(776,"crp",11).
-trace(776,"leucocytes",12).
-trace(776,"crp",13).
-trace(776,"admission ic",14).
-trace(776,"lacticacid",15).
-trace(776,"crp",16).
-trace(776,"leucocytes",17).
-trace(776,"lacticacid",18).
-trace(776,"admission nc",19).
-trace(776,"admission nc",20).
-trace(776,"crp",21).
-trace(776,"leucocytes",22).
-trace(776,"crp",23).
-trace(776,"leucocytes",24).
-trace(776,"crp",25).
-trace(776,"leucocytes",26).
-trace(776,"crp",27).
-trace(776,"leucocytes",28).
-trace(776,"crp",29).
-trace(776,"leucocytes",30).
-trace(776,"crp",31).
-trace(776,"leucocytes",32).
-trace(776,"crp",33).
-trace(776,"release a",34).
-trace(776,"return er",35).
-
-trace(777,"er registration",1).
-trace(777,"er triage",2).
-trace(777,"er sepsis triage",3).
-trace(777,"crp",4).
-trace(777,"leucocytes",5).
-trace(777,"lacticacid",6).
-trace(777,"iv antibiotics",7).
-trace(777,"iv liquid",8).
-trace(777,"admission nc",9).
-trace(777,"leucocytes",10).
-trace(777,"crp",11).
-
-trace(778,"er registration",1).
-trace(778,"er triage",2).
-trace(778,"er sepsis triage",3).
-trace(778,"iv liquid",4).
-trace(778,"crp",5).
-trace(778,"leucocytes",6).
-trace(778,"lacticacid",7).
-trace(778,"iv antibiotics",8).
-trace(778,"lacticacid",9).
-
-trace(779,"er registration",1).
-trace(779,"er triage",2).
-trace(779,"er sepsis triage",3).
-trace(779,"lacticacid",4).
-trace(779,"leucocytes",5).
-trace(779,"crp",6).
-trace(779,"iv antibiotics",7).
-trace(779,"admission nc",8).
-trace(779,"crp",9).
-trace(779,"leucocytes",10).
-trace(779,"crp",11).
-trace(779,"leucocytes",12).
-trace(779,"crp",13).
-trace(779,"leucocytes",14).
-trace(779,"crp",15).
-trace(779,"leucocytes",16).
-trace(779,"crp",17).
-trace(779,"crp",18).
-trace(779,"leucocytes",19).
-trace(779,"release a",20).
-trace(779,"return er",21).
-trace(779,"crp",22).
-trace(779,"leucocytes",23).
-trace(779,"lacticacid",24).
-
-trace(780,"er registration",1).
-trace(780,"er triage",2).
-trace(780,"er sepsis triage",3).
-trace(780,"leucocytes",4).
-trace(780,"crp",5).
-trace(780,"lacticacid",6).
-trace(780,"iv liquid",7).
-trace(780,"iv antibiotics",8).
-trace(780,"admission nc",9).
-trace(780,"admission nc",10).
-trace(780,"leucocytes",11).
-trace(780,"release a",12).
-
-trace(781,"er registration",1).
-trace(781,"er triage",2).
-trace(781,"er sepsis triage",3).
-
-trace(782,"er registration",1).
-trace(782,"er triage",2).
-trace(782,"er sepsis triage",3).
-trace(782,"iv liquid",4).
-trace(782,"iv antibiotics",5).
-trace(782,"crp",6).
-trace(782,"leucocytes",7).
-trace(782,"lacticacid",8).
-trace(782,"admission nc",9).
-trace(782,"crp",10).
-trace(782,"leucocytes",11).
-trace(782,"crp",12).
-trace(782,"leucocytes",13).
-trace(782,"leucocytes",14).
-trace(782,"crp",15).
-trace(782,"crp",16).
-trace(782,"release a",17).
-
-trace(783,"er registration",1).
-trace(783,"er triage",2).
-trace(783,"er sepsis triage",3).
-trace(783,"leucocytes",4).
-trace(783,"crp",5).
-trace(783,"lacticacid",6).
-trace(783,"iv liquid",7).
-trace(783,"iv antibiotics",8).
-trace(783,"admission nc",9).
-trace(783,"crp",10).
-trace(783,"release a",11).
-trace(783,"return er",12).
-
-trace(784,"er registration",1).
-trace(784,"er triage",2).
-trace(784,"er sepsis triage",3).
-trace(784,"crp",4).
-trace(784,"lacticacid",5).
-trace(784,"leucocytes",6).
-trace(784,"iv antibiotics",7).
-trace(784,"admission nc",8).
-trace(784,"leucocytes",9).
-trace(784,"crp",10).
-trace(784,"admission nc",11).
-trace(784,"iv liquid",12).
-trace(784,"crp",13).
-trace(784,"leucocytes",14).
-trace(784,"leucocytes",15).
-trace(784,"crp",16).
-trace(784,"release a",17).
-trace(784,"return er",18).
-
-trace(785,"er registration",1).
-trace(785,"er triage",2).
-trace(785,"er sepsis triage",3).
-trace(785,"leucocytes",4).
-trace(785,"crp",5).
-trace(785,"admission nc",6).
-trace(785,"admission nc",7).
-trace(785,"release a",8).
-trace(785,"return er",9).
-
-trace(786,"er registration",1).
-trace(786,"er triage",2).
-trace(786,"er sepsis triage",3).
-trace(786,"iv liquid",4).
-trace(786,"iv antibiotics",5).
-trace(786,"lacticacid",6).
-trace(786,"leucocytes",7).
-trace(786,"crp",8).
-trace(786,"admission nc",9).
-trace(786,"crp",10).
-trace(786,"release a",11).
-trace(786,"return er",12).
-
-trace(787,"er registration",1).
-trace(787,"er triage",2).
-trace(787,"er sepsis triage",3).
-trace(787,"leucocytes",4).
-trace(787,"crp",5).
-trace(787,"lacticacid",6).
-trace(787,"iv liquid",7).
-trace(787,"iv antibiotics",8).
-trace(787,"admission nc",9).
-trace(787,"admission nc",10).
-trace(787,"leucocytes",11).
-trace(787,"release a",12).
-trace(787,"return er",13).
-
-trace(788,"er registration",1).
-trace(788,"er triage",2).
-trace(788,"leucocytes",3).
-trace(788,"crp",4).
-trace(788,"lacticacid",5).
-trace(788,"er sepsis triage",6).
-trace(788,"iv liquid",7).
-trace(788,"iv antibiotics",8).
-
-trace(789,"er registration",1).
-trace(789,"er triage",2).
-trace(789,"er sepsis triage",3).
-
-trace(790,"er registration",1).
-trace(790,"er triage",2).
-trace(790,"er sepsis triage",3).
-trace(790,"iv antibiotics",4).
-trace(790,"crp",5).
-trace(790,"lacticacid",6).
-trace(790,"leucocytes",7).
-trace(790,"iv liquid",8).
-trace(790,"admission nc",9).
-trace(790,"crp",10).
-trace(790,"leucocytes",11).
-trace(790,"admission nc",12).
-trace(790,"crp",13).
-trace(790,"leucocytes",14).
-trace(790,"release a",15).
-
-trace(791,"iv liquid",1).
-trace(791,"er registration",2).
-trace(791,"er triage",3).
-trace(791,"leucocytes",4).
-trace(791,"crp",5).
-trace(791,"lacticacid",6).
-trace(791,"er sepsis triage",7).
-trace(791,"iv antibiotics",8).
-trace(791,"admission ic",9).
-trace(791,"lacticacid",10).
-trace(791,"crp",11).
-trace(791,"leucocytes",12).
-
-trace(792,"er registration",1).
-trace(792,"er triage",2).
-trace(792,"er sepsis triage",3).
-trace(792,"iv liquid",4).
-trace(792,"lacticacid",5).
-trace(792,"leucocytes",6).
-trace(792,"crp",7).
-trace(792,"iv antibiotics",8).
-trace(792,"admission ic",9).
-trace(792,"lacticacid",10).
-trace(792,"crp",11).
-trace(792,"leucocytes",12).
-trace(792,"admission nc",13).
-trace(792,"admission nc",14).
-trace(792,"release a",15).
-
-trace(793,"er registration",1).
-trace(793,"er triage",2).
-trace(793,"er sepsis triage",3).
-trace(793,"iv liquid",4).
-trace(793,"iv antibiotics",5).
-trace(793,"crp",6).
-trace(793,"leucocytes",7).
-trace(793,"lacticacid",8).
-trace(793,"admission nc",9).
-trace(793,"leucocytes",10).
-trace(793,"crp",11).
-trace(793,"leucocytes",12).
-trace(793,"crp",13).
-trace(793,"leucocytes",14).
-trace(793,"crp",15).
-trace(793,"admission nc",16).
-trace(793,"leucocytes",17).
-trace(793,"crp",18).
-trace(793,"crp",19).
-trace(793,"leucocytes",20).
-trace(793,"leucocytes",21).
-trace(793,"crp",22).
-trace(793,"release d",23).
-
-trace(794,"er registration",1).
-trace(794,"er triage",2).
-trace(794,"er sepsis triage",3).
-trace(794,"leucocytes",4).
-trace(794,"crp",5).
-trace(794,"lacticacid",6).
-trace(794,"iv liquid",7).
-trace(794,"iv antibiotics",8).
-trace(794,"admission nc",9).
-trace(794,"admission nc",10).
-trace(794,"crp",11).
-trace(794,"leucocytes",12).
-trace(794,"lacticacid",13).
-trace(794,"leucocytes",14).
-trace(794,"crp",15).
-trace(794,"release a",16).
-
-trace(795,"er registration",1).
-trace(795,"er triage",2).
-trace(795,"er sepsis triage",3).
-trace(795,"leucocytes",4).
-trace(795,"crp",5).
-trace(795,"admission nc",6).
-trace(795,"leucocytes",7).
-trace(795,"release a",8).
-trace(795,"return er",9).
-
-trace(796,"er registration",1).
-trace(796,"er triage",2).
-trace(796,"er sepsis triage",3).
-trace(796,"iv liquid",4).
-trace(796,"crp",5).
-trace(796,"leucocytes",6).
-trace(796,"lacticacid",7).
-trace(796,"iv antibiotics",8).
-
-trace(797,"er registration",1).
-trace(797,"er triage",2).
-trace(797,"er sepsis triage",3).
-trace(797,"crp",4).
-trace(797,"leucocytes",5).
-trace(797,"lacticacid",6).
-trace(797,"iv liquid",7).
-trace(797,"iv antibiotics",8).
-trace(797,"admission nc",9).
-trace(797,"leucocytes",10).
-trace(797,"crp",11).
-trace(797,"leucocytes",12).
-trace(797,"crp",13).
-trace(797,"release a",14).
-
-trace(798,"er registration",1).
-trace(798,"er triage",2).
-trace(798,"er sepsis triage",3).
-trace(798,"iv liquid",4).
-trace(798,"iv antibiotics",5).
-trace(798,"leucocytes",6).
-trace(798,"crp",7).
-trace(798,"lacticacid",8).
-trace(798,"admission nc",9).
-trace(798,"release a",10).
-
-trace(799,"leucocytes",1).
-trace(799,"crp",2).
-trace(799,"er registration",3).
-trace(799,"er triage",4).
-trace(799,"er sepsis triage",5).
-trace(799,"crp",6).
-trace(799,"lacticacid",7).
-trace(799,"leucocytes",8).
-trace(799,"iv liquid",9).
-trace(799,"iv antibiotics",10).
-trace(799,"admission nc",11).
-trace(799,"leucocytes",12).
-trace(799,"crp",13).
-trace(799,"admission nc",14).
-trace(799,"crp",15).
-trace(799,"leucocytes",16).
-trace(799,"leucocytes",17).
-trace(799,"leucocytes",18).
-trace(799,"crp",19).
-trace(799,"leucocytes",20).
-trace(799,"crp",21).
-trace(799,"crp",22).
-trace(799,"leucocytes",23).
-trace(799,"crp",24).
-trace(799,"leucocytes",25).
-trace(799,"leucocytes",26).
-trace(799,"crp",27).
-trace(799,"leucocytes",28).
-trace(799,"crp",29).
-trace(799,"release a",30).
-
-trace(800,"er registration",1).
-trace(800,"er triage",2).
-trace(800,"er sepsis triage",3).
-trace(800,"iv liquid",4).
-trace(800,"leucocytes",5).
-trace(800,"crp",6).
-trace(800,"lacticacid",7).
-trace(800,"iv antibiotics",8).
-trace(800,"admission nc",9).
-trace(800,"leucocytes",10).
-trace(800,"crp",11).
-trace(800,"release a",12).
-trace(800,"return er",13).
-
-trace(801,"iv liquid",1).
-trace(801,"er registration",2).
-trace(801,"er triage",3).
-trace(801,"er sepsis triage",4).
-trace(801,"lacticacid",5).
-trace(801,"leucocytes",6).
-trace(801,"crp",7).
-trace(801,"iv antibiotics",8).
-trace(801,"admission ic",9).
-trace(801,"leucocytes",10).
-trace(801,"crp",11).
-trace(801,"lacticacid",12).
-trace(801,"crp",13).
-trace(801,"lacticacid",14).
-trace(801,"leucocytes",15).
-trace(801,"admission nc",16).
-trace(801,"leucocytes",17).
-trace(801,"crp",18).
-trace(801,"leucocytes",19).
-trace(801,"crp",20).
-trace(801,"leucocytes",21).
-trace(801,"crp",22).
-trace(801,"leucocytes",23).
-trace(801,"crp",24).
-trace(801,"crp",25).
-trace(801,"leucocytes",26).
-trace(801,"leucocytes",27).
-trace(801,"crp",28).
-trace(801,"leucocytes",29).
-trace(801,"crp",30).
-trace(801,"release a",31).
-
-trace(802,"er registration",1).
-trace(802,"er triage",2).
-trace(802,"er sepsis triage",3).
-trace(802,"lacticacid",4).
-trace(802,"leucocytes",5).
-trace(802,"crp",6).
-
-trace(803,"er registration",1).
-trace(803,"er triage",2).
-trace(803,"er sepsis triage",3).
-trace(803,"iv liquid",4).
-trace(803,"iv antibiotics",5).
-trace(803,"leucocytes",6).
-trace(803,"lacticacid",7).
-trace(803,"crp",8).
-trace(803,"admission nc",9).
-trace(803,"leucocytes",10).
-trace(803,"crp",11).
-trace(803,"release a",12).
-trace(803,"return er",13).
-
-trace(804,"er registration",1).
-trace(804,"er triage",2).
-trace(804,"er sepsis triage",3).
-trace(804,"iv liquid",4).
-trace(804,"lacticacid",5).
-trace(804,"leucocytes",6).
-trace(804,"crp",7).
-trace(804,"iv antibiotics",8).
-trace(804,"admission ic",9).
-trace(804,"crp",10).
-trace(804,"leucocytes",11).
-trace(804,"lacticacid",12).
-trace(804,"lacticacid",13).
-trace(804,"leucocytes",14).
-trace(804,"admission nc",15).
-trace(804,"crp",16).
-trace(804,"release a",17).
-trace(804,"return er",18).
-
-trace(805,"er registration",1).
-trace(805,"er triage",2).
-trace(805,"er sepsis triage",3).
-trace(805,"lacticacid",4).
-trace(805,"crp",5).
-trace(805,"leucocytes",6).
-trace(805,"iv liquid",7).
-trace(805,"iv antibiotics",8).
-trace(805,"admission nc",9).
-
-trace(806,"crp",1).
-trace(806,"leucocytes",2).
-trace(806,"lacticacid",3).
-trace(806,"er registration",4).
-trace(806,"er triage",5).
-trace(806,"er sepsis triage",6).
-trace(806,"iv antibiotics",7).
-trace(806,"iv liquid",8).
-
-trace(807,"er registration",1).
-trace(807,"er triage",2).
-trace(807,"crp",3).
-trace(807,"leucocytes",4).
-trace(807,"lacticacid",5).
-trace(807,"er sepsis triage",6).
-trace(807,"iv liquid",7).
-trace(807,"iv antibiotics",8).
-trace(807,"admission nc",9).
-trace(807,"crp",10).
-trace(807,"leucocytes",11).
-trace(807,"crp",12).
-trace(807,"crp",13).
-trace(807,"release a",14).
-
-trace(808,"er registration",1).
-trace(808,"er triage",2).
-trace(808,"er sepsis triage",3).
-trace(808,"iv liquid",4).
-trace(808,"lacticacid",5).
-trace(808,"crp",6).
-trace(808,"leucocytes",7).
-trace(808,"iv antibiotics",8).
-trace(808,"admission nc",9).
-trace(808,"leucocytes",10).
-trace(808,"crp",11).
-trace(808,"admission nc",12).
-trace(808,"crp",13).
-trace(808,"release a",14).
-
-trace(809,"er registration",1).
-trace(809,"er triage",2).
-trace(809,"er sepsis triage",3).
-trace(809,"crp",4).
-trace(809,"leucocytes",5).
-trace(809,"lacticacid",6).
-trace(809,"iv antibiotics",7).
-trace(809,"iv liquid",8).
-trace(809,"admission nc",9).
-trace(809,"leucocytes",10).
-trace(809,"crp",11).
-trace(809,"release a",12).
-trace(809,"return er",13).
-
-trace(810,"er registration",1).
-trace(810,"er triage",2).
-trace(810,"leucocytes",3).
-trace(810,"crp",4).
-trace(810,"lacticacid",5).
-trace(810,"er sepsis triage",6).
-trace(810,"iv liquid",7).
-trace(810,"iv antibiotics",8).
-trace(810,"admission nc",9).
-trace(810,"release a",10).
-
-trace(811,"er registration",1).
-trace(811,"er triage",2).
-trace(811,"er sepsis triage",3).
-trace(811,"leucocytes",4).
-trace(811,"crp",5).
-trace(811,"lacticacid",6).
-trace(811,"iv antibiotics",7).
-trace(811,"admission nc",8).
-trace(811,"iv liquid",9).
-trace(811,"leucocytes",10).
-trace(811,"crp",11).
-trace(811,"crp",12).
-trace(811,"leucocytes",13).
-trace(811,"release a",14).
-
-trace(812,"er registration",1).
-trace(812,"er triage",2).
-trace(812,"er sepsis triage",3).
-trace(812,"iv liquid",4).
-trace(812,"crp",5).
-trace(812,"leucocytes",6).
-trace(812,"lacticacid",7).
-trace(812,"iv antibiotics",8).
-trace(812,"admission nc",9).
-trace(812,"leucocytes",10).
-trace(812,"crp",11).
-trace(812,"crp",12).
-trace(812,"leucocytes",13).
-trace(812,"leucocytes",14).
-trace(812,"crp",15).
-trace(812,"release a",16).
-trace(812,"return er",17).
-trace(812,"crp",18).
-trace(812,"leucocytes",19).
-
-trace(813,"er registration",1).
-trace(813,"iv liquid",2).
-trace(813,"er triage",3).
-trace(813,"er sepsis triage",4).
-trace(813,"iv antibiotics",5).
-trace(813,"lacticacid",6).
-trace(813,"leucocytes",7).
-trace(813,"crp",8).
-trace(813,"admission nc",9).
-trace(813,"crp",10).
-trace(813,"leucocytes",11).
-trace(813,"release a",12).
-trace(813,"return er",13).
-
-trace(814,"er registration",1).
-trace(814,"er triage",2).
-trace(814,"er sepsis triage",3).
-trace(814,"iv liquid",4).
-trace(814,"leucocytes",5).
-trace(814,"lacticacid",6).
-trace(814,"crp",7).
-trace(814,"iv antibiotics",8).
-trace(814,"admission nc",9).
-
-trace(815,"er registration",1).
-trace(815,"er triage",2).
-trace(815,"er sepsis triage",3).
-trace(815,"leucocytes",4).
-trace(815,"lacticacid",5).
-trace(815,"crp",6).
-trace(815,"iv liquid",7).
-trace(815,"iv antibiotics",8).
-
-trace(816,"er registration",1).
-trace(816,"er triage",2).
-trace(816,"er sepsis triage",3).
-trace(816,"iv liquid",4).
-trace(816,"crp",5).
-trace(816,"lacticacid",6).
-trace(816,"leucocytes",7).
-trace(816,"iv antibiotics",8).
-trace(816,"admission nc",9).
-trace(816,"crp",10).
-trace(816,"leucocytes",11).
-trace(816,"crp",12).
-trace(816,"crp",13).
-trace(816,"admission ic",14).
-trace(816,"leucocytes",15).
-trace(816,"crp",16).
-trace(816,"lacticacid",17).
-trace(816,"leucocytes",18).
-trace(816,"lacticacid",19).
-trace(816,"leucocytes",20).
-trace(816,"crp",21).
-trace(816,"leucocytes",22).
-trace(816,"lacticacid",23).
-trace(816,"leucocytes",24).
-trace(816,"leucocytes",25).
-trace(816,"leucocytes",26).
-trace(816,"leucocytes",27).
-trace(816,"leucocytes",28).
-trace(816,"leucocytes",29).
-trace(816,"release b",30).
-
-trace(817,"er registration",1).
-trace(817,"er triage",2).
-trace(817,"er sepsis triage",3).
-trace(817,"lacticacid",4).
-trace(817,"crp",5).
-trace(817,"leucocytes",6).
-trace(817,"iv liquid",7).
-trace(817,"iv antibiotics",8).
-trace(817,"admission nc",9).
-trace(817,"crp",10).
-trace(817,"leucocytes",11).
-trace(817,"admission nc",12).
-trace(817,"leucocytes",13).
-trace(817,"crp",14).
-trace(817,"leucocytes",15).
-trace(817,"crp",16).
-trace(817,"leucocytes",17).
-trace(817,"crp",18).
-trace(817,"crp",19).
-trace(817,"leucocytes",20).
-trace(817,"release a",21).
-
-trace(818,"er registration",1).
-trace(818,"er triage",2).
-trace(818,"er sepsis triage",3).
-trace(818,"leucocytes",4).
-trace(818,"lacticacid",5).
-trace(818,"crp",6).
-trace(818,"iv antibiotics",7).
-trace(818,"admission ic",8).
-trace(818,"crp",9).
-trace(818,"lacticacid",10).
-trace(818,"leucocytes",11).
-trace(818,"leucocytes",12).
-trace(818,"leucocytes",13).
-trace(818,"leucocytes",14).
-trace(818,"leucocytes",15).
-trace(818,"crp",16).
-trace(818,"lacticacid",17).
-trace(818,"leucocytes",18).
-trace(818,"crp",19).
-trace(818,"lacticacid",20).
-trace(818,"lacticacid",21).
-trace(818,"crp",22).
-trace(818,"leucocytes",23).
-trace(818,"admission nc",24).
-trace(818,"leucocytes",25).
-trace(818,"crp",26).
-trace(818,"leucocytes",27).
-trace(818,"crp",28).
-trace(818,"leucocytes",29).
-trace(818,"crp",30).
-trace(818,"crp",31).
-trace(818,"leucocytes",32).
-trace(818,"leucocytes",33).
-trace(818,"crp",34).
-trace(818,"leucocytes",35).
-trace(818,"crp",36).
-trace(818,"crp",37).
-trace(818,"leucocytes",38).
-trace(818,"leucocytes",39).
-trace(818,"crp",40).
-trace(818,"leucocytes",41).
-trace(818,"crp",42).
-trace(818,"leucocytes",43).
-trace(818,"crp",44).
-trace(818,"leucocytes",45).
-trace(818,"crp",46).
-trace(818,"leucocytes",47).
-trace(818,"crp",48).
-trace(818,"leucocytes",49).
-trace(818,"crp",50).
-trace(818,"release a",51).
-
-trace(819,"er registration",1).
-trace(819,"er triage",2).
-trace(819,"crp",3).
-trace(819,"lacticacid",4).
-trace(819,"leucocytes",5).
-trace(819,"er sepsis triage",6).
-trace(819,"iv liquid",7).
-trace(819,"iv antibiotics",8).
-trace(819,"admission nc",9).
-trace(819,"admission nc",10).
-trace(819,"leucocytes",11).
-trace(819,"crp",12).
-trace(819,"crp",13).
-trace(819,"leucocytes",14).
-trace(819,"crp",15).
-trace(819,"leucocytes",16).
-trace(819,"leucocytes",17).
-trace(819,"crp",18).
-trace(819,"release d",19).
-trace(819,"return er",20).
-
-trace(820,"er registration",1).
-trace(820,"er triage",2).
-trace(820,"er sepsis triage",3).
-trace(820,"lacticacid",4).
-trace(820,"leucocytes",5).
-trace(820,"crp",6).
-trace(820,"iv liquid",7).
-trace(820,"iv antibiotics",8).
-trace(820,"admission nc",9).
-trace(820,"release a",10).
-
-trace(821,"er registration",1).
-trace(821,"leucocytes",2).
-trace(821,"crp",3).
-trace(821,"er triage",4).
-trace(821,"er sepsis triage",5).
-trace(821,"iv liquid",6).
-trace(821,"iv antibiotics",7).
-
-trace(822,"er registration",1).
-trace(822,"er triage",2).
-trace(822,"er sepsis triage",3).
-trace(822,"leucocytes",4).
-trace(822,"crp",5).
-trace(822,"lacticacid",6).
-
-trace(823,"er registration",1).
-trace(823,"er triage",2).
-trace(823,"er sepsis triage",3).
-trace(823,"iv antibiotics",4).
-trace(823,"crp",5).
-trace(823,"leucocytes",6).
-trace(823,"lacticacid",7).
-trace(823,"admission nc",8).
-trace(823,"release a",9).
-trace(823,"return er",10).
-
-trace(824,"er registration",1).
-trace(824,"er triage",2).
-trace(824,"crp",3).
-trace(824,"leucocytes",4).
-trace(824,"lacticacid",5).
-trace(824,"admission nc",6).
-trace(824,"er sepsis triage",7).
-trace(824,"iv liquid",8).
-trace(824,"iv antibiotics",9).
-trace(824,"admission nc",10).
-trace(824,"leucocytes",11).
-trace(824,"crp",12).
-trace(824,"release a",13).
-
-trace(825,"er registration",1).
-trace(825,"er triage",2).
-trace(825,"er sepsis triage",3).
-
-trace(826,"er registration",1).
-trace(826,"er triage",2).
-trace(826,"er sepsis triage",3).
-trace(826,"lacticacid",4).
-trace(826,"crp",5).
-trace(826,"leucocytes",6).
-trace(826,"iv liquid",7).
-trace(826,"iv antibiotics",8).
-
-trace(827,"er registration",1).
-trace(827,"er triage",2).
-trace(827,"er sepsis triage",3).
-trace(827,"crp",4).
-trace(827,"leucocytes",5).
-trace(827,"iv liquid",6).
-trace(827,"iv antibiotics",7).
-
-trace(828,"er registration",1).
-trace(828,"er triage",2).
-trace(828,"er sepsis triage",3).
-trace(828,"leucocytes",4).
-trace(828,"crp",5).
-trace(828,"lacticacid",6).
-trace(828,"iv liquid",7).
-trace(828,"iv antibiotics",8).
-trace(828,"admission nc",9).
-trace(828,"crp",10).
-trace(828,"leucocytes",11).
-trace(828,"release a",12).
-
-trace(829,"er registration",1).
-trace(829,"er triage",2).
-trace(829,"er sepsis triage",3).
-trace(829,"lacticacid",4).
-trace(829,"leucocytes",5).
-trace(829,"crp",6).
-trace(829,"iv liquid",7).
-trace(829,"iv antibiotics",8).
-trace(829,"admission nc",9).
-trace(829,"release a",10).
-
-trace(830,"er registration",1).
-trace(830,"er triage",2).
-trace(830,"er sepsis triage",3).
-trace(830,"iv liquid",4).
-trace(830,"iv antibiotics",5).
-trace(830,"crp",6).
-trace(830,"leucocytes",7).
-trace(830,"lacticacid",8).
-trace(830,"admission ic",9).
-trace(830,"lacticacid",10).
-trace(830,"crp",11).
-trace(830,"leucocytes",12).
-trace(830,"crp",13).
-trace(830,"leucocytes",14).
-trace(830,"lacticacid",15).
-trace(830,"admission nc",16).
-trace(830,"release a",17).
-trace(830,"return er",18).
-
-trace(831,"er registration",1).
-trace(831,"er triage",2).
-trace(831,"er sepsis triage",3).
-trace(831,"leucocytes",4).
-trace(831,"crp",5).
-trace(831,"iv antibiotics",6).
-trace(831,"admission nc",7).
-trace(831,"crp",8).
-trace(831,"crp",9).
-trace(831,"crp",10).
-trace(831,"crp",11).
-trace(831,"release a",12).
-trace(831,"return er",13).
-
-trace(832,"leucocytes",1).
-trace(832,"crp",2).
-trace(832,"er registration",3).
-trace(832,"er triage",4).
-trace(832,"er sepsis triage",5).
-trace(832,"iv liquid",6).
-trace(832,"iv antibiotics",7).
-trace(832,"crp",8).
-trace(832,"leucocytes",9).
-trace(832,"lacticacid",10).
-trace(832,"admission nc",11).
-trace(832,"leucocytes",12).
-trace(832,"lacticacid",13).
-trace(832,"admission nc",14).
-trace(832,"leucocytes",15).
-trace(832,"crp",16).
-trace(832,"admission ic",17).
-trace(832,"lacticacid",18).
-trace(832,"leucocytes",19).
-trace(832,"crp",20).
-trace(832,"release b",21).
-
-trace(833,"er registration",1).
-trace(833,"er triage",2).
-trace(833,"er sepsis triage",3).
-trace(833,"lacticacid",4).
-trace(833,"crp",5).
-trace(833,"leucocytes",6).
-trace(833,"iv antibiotics",7).
-trace(833,"admission nc",8).
-trace(833,"crp",9).
-trace(833,"leucocytes",10).
-trace(833,"admission nc",11).
-trace(833,"crp",12).
-trace(833,"leucocytes",13).
-trace(833,"leucocytes",14).
-trace(833,"crp",15).
-trace(833,"leucocytes",16).
-trace(833,"crp",17).
-trace(833,"release a",18).
-
-trace(834,"er registration",1).
-trace(834,"er triage",2).
-trace(834,"er sepsis triage",3).
-trace(834,"leucocytes",4).
-trace(834,"crp",5).
-trace(834,"admission nc",6).
-trace(834,"admission nc",7).
-trace(834,"leucocytes",8).
-trace(834,"crp",9).
-trace(834,"release a",10).
-
-trace(835,"er registration",1).
-trace(835,"er triage",2).
-trace(835,"er sepsis triage",3).
-trace(835,"leucocytes",4).
-trace(835,"crp",5).
-trace(835,"lacticacid",6).
-
-trace(836,"er registration",1).
-trace(836,"er triage",2).
-trace(836,"er sepsis triage",3).
-
-trace(837,"er registration",1).
-trace(837,"er triage",2).
-trace(837,"er sepsis triage",3).
-trace(837,"lacticacid",4).
-trace(837,"leucocytes",5).
-trace(837,"crp",6).
-trace(837,"iv liquid",7).
-trace(837,"iv antibiotics",8).
-trace(837,"admission nc",9).
-trace(837,"release a",10).
-
-trace(838,"er registration",1).
-trace(838,"er triage",2).
-trace(838,"er sepsis triage",3).
-trace(838,"iv liquid",4).
-trace(838,"lacticacid",5).
-trace(838,"leucocytes",6).
-trace(838,"crp",7).
-trace(838,"iv antibiotics",8).
-
-trace(839,"er registration",1).
-trace(839,"er triage",2).
-trace(839,"er sepsis triage",3).
-trace(839,"leucocytes",4).
-trace(839,"crp",5).
-trace(839,"lacticacid",6).
-trace(839,"iv liquid",7).
-trace(839,"iv antibiotics",8).
-
-trace(840,"er registration",1).
-trace(840,"er triage",2).
-trace(840,"er sepsis triage",3).
-trace(840,"leucocytes",4).
-trace(840,"crp",5).
-trace(840,"admission nc",6).
-trace(840,"release a",7).
-trace(840,"return er",8).
-
-trace(841,"er registration",1).
-trace(841,"er triage",2).
-trace(841,"er sepsis triage",3).
-trace(841,"iv liquid",4).
-trace(841,"leucocytes",5).
-trace(841,"crp",6).
-trace(841,"lacticacid",7).
-trace(841,"iv antibiotics",8).
-trace(841,"admission nc",9).
-trace(841,"admission nc",10).
-trace(841,"crp",11).
-trace(841,"leucocytes",12).
-trace(841,"crp",13).
-trace(841,"release a",14).
-trace(841,"return er",15).
-
-trace(842,"er registration",1).
-trace(842,"er triage",2).
-trace(842,"er sepsis triage",3).
-trace(842,"crp",4).
-trace(842,"lacticacid",5).
-trace(842,"leucocytes",6).
-trace(842,"iv liquid",7).
-trace(842,"iv antibiotics",8).
-trace(842,"admission nc",9).
-trace(842,"release a",10).
-
-trace(843,"er registration",1).
-trace(843,"er triage",2).
-trace(843,"leucocytes",3).
-trace(843,"crp",4).
-trace(843,"lacticacid",5).
-trace(843,"er sepsis triage",6).
-trace(843,"iv liquid",7).
-trace(843,"iv antibiotics",8).
-trace(843,"admission nc",9).
-trace(843,"leucocytes",10).
-trace(843,"crp",11).
-trace(843,"release a",12).
-trace(843,"return er",13).
-
-trace(844,"er registration",1).
-trace(844,"er triage",2).
-trace(844,"er sepsis triage",3).
-trace(844,"crp",4).
-trace(844,"leucocytes",5).
-trace(844,"lacticacid",6).
-trace(844,"iv liquid",7).
-trace(844,"iv antibiotics",8).
-
-trace(845,"er registration",1).
-trace(845,"lacticacid",2).
-trace(845,"leucocytes",3).
-trace(845,"crp",4).
-trace(845,"er triage",5).
-trace(845,"er sepsis triage",6).
-trace(845,"iv antibiotics",7).
-
-trace(846,"er registration",1).
-trace(846,"er triage",2).
-trace(846,"er sepsis triage",3).
-trace(846,"iv liquid",4).
-trace(846,"iv antibiotics",5).
-trace(846,"leucocytes",6).
-trace(846,"lacticacid",7).
-trace(846,"crp",8).
-trace(846,"admission ic",9).
-trace(846,"lacticacid",10).
-trace(846,"crp",11).
-trace(846,"lacticacid",12).
-trace(846,"leucocytes",13).
-trace(846,"lacticacid",14).
-trace(846,"crp",15).
-trace(846,"leucocytes",16).
-trace(846,"admission nc",17).
-trace(846,"leucocytes",18).
-trace(846,"crp",19).
-trace(846,"release a",20).
-
-trace(847,"er registration",1).
-trace(847,"er triage",2).
-trace(847,"er sepsis triage",3).
-trace(847,"crp",4).
-trace(847,"leucocytes",5).
-trace(847,"lacticacid",6).
-trace(847,"admission nc",7).
-trace(847,"release b",8).
-
-trace(848,"er registration",1).
-trace(848,"iv liquid",2).
-trace(848,"er triage",3).
-trace(848,"er sepsis triage",4).
-trace(848,"iv antibiotics",5).
-trace(848,"lacticacid",6).
-trace(848,"leucocytes",7).
-trace(848,"crp",8).
-trace(848,"admission nc",9).
-trace(848,"release b",10).
-
-trace(849,"er registration",1).
-trace(849,"er triage",2).
-trace(849,"er sepsis triage",3).
-trace(849,"iv liquid",4).
-trace(849,"crp",5).
-trace(849,"lacticacid",6).
-trace(849,"leucocytes",7).
-trace(849,"iv antibiotics",8).
-trace(849,"admission nc",9).
-trace(849,"er triage",10).
-trace(849,"leucocytes",11).
-trace(849,"crp",12).
-trace(849,"crp",13).
-trace(849,"leucocytes",14).
-trace(849,"release a",15).
-trace(849,"return er",16).
-
-trace(850,"er registration",1).
-trace(850,"er triage",2).
-trace(850,"leucocytes",3).
-trace(850,"lacticacid",4).
-trace(850,"crp",5).
-trace(850,"er sepsis triage",6).
-
-trace(851,"er registration",1).
-trace(851,"er triage",2).
-trace(851,"lacticacid",3).
-trace(851,"leucocytes",4).
-trace(851,"crp",5).
-trace(851,"er sepsis triage",6).
-trace(851,"iv liquid",7).
-trace(851,"iv antibiotics",8).
-
-trace(852,"er registration",1).
-trace(852,"er triage",2).
-trace(852,"er sepsis triage",3).
-trace(852,"leucocytes",4).
-trace(852,"crp",5).
-trace(852,"lacticacid",6).
-trace(852,"iv antibiotics",7).
-trace(852,"iv liquid",8).
-trace(852,"admission nc",9).
-trace(852,"admission nc",10).
-trace(852,"leucocytes",11).
-trace(852,"crp",12).
-trace(852,"leucocytes",13).
-trace(852,"crp",14).
-trace(852,"leucocytes",15).
-trace(852,"release a",16).
-
-trace(853,"er registration",1).
-trace(853,"er triage",2).
-trace(853,"er sepsis triage",3).
-trace(853,"iv liquid",4).
-trace(853,"iv antibiotics",5).
-trace(853,"leucocytes",6).
-trace(853,"lacticacid",7).
-trace(853,"crp",8).
-trace(853,"admission nc",9).
-trace(853,"leucocytes",10).
-trace(853,"crp",11).
-trace(853,"release a",12).
-trace(853,"return er",13).
-
-trace(854,"er registration",1).
-trace(854,"er triage",2).
-trace(854,"er sepsis triage",3).
-trace(854,"leucocytes",4).
-trace(854,"crp",5).
-trace(854,"admission nc",6).
-trace(854,"admission ic",7).
-trace(854,"leucocytes",8).
-trace(854,"crp",9).
-trace(854,"lacticacid",10).
-trace(854,"crp",11).
-trace(854,"lacticacid",12).
-trace(854,"leucocytes",13).
-trace(854,"leucocytes",14).
-trace(854,"crp",15).
-trace(854,"lacticacid",16).
-trace(854,"admission nc",17).
-trace(854,"release a",18).
-trace(854,"return er",19).
-
-trace(855,"er registration",1).
-trace(855,"er triage",2).
-trace(855,"er sepsis triage",3).
-trace(855,"iv liquid",4).
-trace(855,"iv antibiotics",5).
-trace(855,"leucocytes",6).
-trace(855,"lacticacid",7).
-trace(855,"crp",8).
-trace(855,"admission nc",9).
-trace(855,"leucocytes",10).
-trace(855,"crp",11).
-trace(855,"release a",12).
-
-trace(856,"er registration",1).
-trace(856,"er triage",2).
-trace(856,"er sepsis triage",3).
-trace(856,"leucocytes",4).
-trace(856,"crp",5).
-trace(856,"lacticacid",6).
-trace(856,"iv liquid",7).
-trace(856,"iv antibiotics",8).
-trace(856,"admission nc",9).
-trace(856,"leucocytes",10).
-trace(856,"crp",11).
-trace(856,"release a",12).
-trace(856,"return er",13).
-
-trace(857,"er registration",1).
-trace(857,"er triage",2).
-trace(857,"er sepsis triage",3).
-trace(857,"lacticacid",4).
-trace(857,"leucocytes",5).
-trace(857,"crp",6).
-trace(857,"iv liquid",7).
-trace(857,"iv antibiotics",8).
-trace(857,"admission nc",9).
-trace(857,"leucocytes",10).
-trace(857,"crp",11).
-trace(857,"admission nc",12).
-trace(857,"crp",13).
-trace(857,"leucocytes",14).
-trace(857,"release a",15).
-
-trace(858,"er registration",1).
-trace(858,"crp",2).
-trace(858,"lacticacid",3).
-trace(858,"leucocytes",4).
-trace(858,"er triage",5).
-trace(858,"er sepsis triage",6).
-trace(858,"iv liquid",7).
-trace(858,"iv antibiotics",8).
-trace(858,"admission nc",9).
-trace(858,"leucocytes",10).
-trace(858,"crp",11).
-trace(858,"release a",12).
-
-trace(859,"er registration",1).
-trace(859,"er triage",2).
-trace(859,"er sepsis triage",3).
-trace(859,"leucocytes",4).
-trace(859,"crp",5).
-trace(859,"iv liquid",6).
-trace(859,"iv antibiotics",7).
-trace(859,"admission nc",8).
-trace(859,"admission nc",9).
-trace(859,"release b",10).
-
-trace(860,"er registration",1).
-trace(860,"er triage",2).
-trace(860,"er sepsis triage",3).
-trace(860,"iv liquid",4).
-trace(860,"iv antibiotics",5).
-trace(860,"crp",6).
-trace(860,"lacticacid",7).
-trace(860,"leucocytes",8).
-trace(860,"admission nc",9).
-trace(860,"leucocytes",10).
-trace(860,"crp",11).
-trace(860,"leucocytes",12).
-trace(860,"leucocytes",13).
-trace(860,"crp",14).
-trace(860,"crp",15).
-trace(860,"leucocytes",16).
-trace(860,"admission nc",17).
-trace(860,"release c",18).
-
-trace(861,"er registration",1).
-trace(861,"er triage",2).
-trace(861,"er sepsis triage",3).
-trace(861,"iv liquid",4).
-trace(861,"leucocytes",5).
-trace(861,"crp",6).
-trace(861,"lacticacid",7).
-trace(861,"iv antibiotics",8).
-trace(861,"admission nc",9).
-trace(861,"admission nc",10).
-trace(861,"crp",11).
-trace(861,"leucocytes",12).
-trace(861,"release a",13).
-
-trace(862,"er registration",1).
-trace(862,"er triage",2).
-trace(862,"er sepsis triage",3).
-trace(862,"crp",4).
-trace(862,"leucocytes",5).
-trace(862,"lacticacid",6).
-trace(862,"iv antibiotics",7).
-trace(862,"admission nc",8).
-trace(862,"crp",9).
-trace(862,"leucocytes",10).
-trace(862,"iv liquid",11).
-
-trace(863,"er registration",1).
-trace(863,"er triage",2).
-trace(863,"er sepsis triage",3).
-trace(863,"lacticacid",4).
-trace(863,"leucocytes",5).
-trace(863,"crp",6).
-trace(863,"iv liquid",7).
-trace(863,"iv antibiotics",8).
-
-trace(864,"er registration",1).
-trace(864,"er triage",2).
-trace(864,"leucocytes",3).
-trace(864,"crp",4).
-trace(864,"lacticacid",5).
-trace(864,"er sepsis triage",6).
-trace(864,"iv liquid",7).
-trace(864,"iv antibiotics",8).
-trace(864,"admission nc",9).
-trace(864,"leucocytes",10).
-trace(864,"crp",11).
-trace(864,"lacticacid",12).
-trace(864,"leucocytes",13).
-trace(864,"crp",14).
-trace(864,"crp",15).
-trace(864,"release a",16).
-
-trace(865,"er registration",1).
-trace(865,"er triage",2).
-trace(865,"er sepsis triage",3).
-trace(865,"iv liquid",4).
-trace(865,"leucocytes",5).
-trace(865,"crp",6).
-trace(865,"lacticacid",7).
-trace(865,"iv antibiotics",8).
-trace(865,"admission nc",9).
-trace(865,"admission nc",10).
-trace(865,"crp",11).
-trace(865,"leucocytes",12).
-trace(865,"leucocytes",13).
-trace(865,"crp",14).
-trace(865,"release a",15).
-trace(865,"return er",16).
-
-trace(866,"er registration",1).
-trace(866,"er triage",2).
-trace(866,"er sepsis triage",3).
-trace(866,"leucocytes",4).
-trace(866,"crp",5).
-trace(866,"lacticacid",6).
-trace(866,"admission nc",7).
-trace(866,"release a",8).
-
-trace(867,"er registration",1).
-trace(867,"er triage",2).
-trace(867,"er sepsis triage",3).
-trace(867,"leucocytes",4).
-trace(867,"crp",5).
-trace(867,"admission nc",6).
-
-trace(868,"er triage",1).
-trace(868,"er registration",2).
-trace(868,"leucocytes",3).
-trace(868,"crp",4).
-trace(868,"lacticacid",5).
-trace(868,"er sepsis triage",6).
-trace(868,"admission nc",7).
-trace(868,"iv liquid",8).
-trace(868,"iv antibiotics",9).
-
-trace(869,"er registration",1).
-trace(869,"er triage",2).
-trace(869,"er sepsis triage",3).
-trace(869,"iv liquid",4).
-trace(869,"iv antibiotics",5).
-trace(869,"crp",6).
-trace(869,"lacticacid",7).
-trace(869,"leucocytes",8).
-trace(869,"admission nc",9).
-trace(869,"leucocytes",10).
-trace(869,"crp",11).
-trace(869,"release b",12).
-
-trace(870,"er registration",1).
-trace(870,"er triage",2).
-trace(870,"er sepsis triage",3).
-trace(870,"iv liquid",4).
-trace(870,"crp",5).
-trace(870,"leucocytes",6).
-trace(870,"lacticacid",7).
-trace(870,"iv antibiotics",8).
-trace(870,"admission nc",9).
-trace(870,"leucocytes",10).
-trace(870,"admission nc",11).
-trace(870,"crp",12).
-trace(870,"lacticacid",13).
-trace(870,"leucocytes",14).
-trace(870,"lacticacid",15).
-trace(870,"crp",16).
-trace(870,"leucocytes",17).
-trace(870,"lacticacid",18).
-trace(870,"admission ic",19).
-trace(870,"crp",20).
-trace(870,"lacticacid",21).
-trace(870,"leucocytes",22).
-trace(870,"crp",23).
-trace(870,"leucocytes",24).
-trace(870,"lacticacid",25).
-trace(870,"lacticacid",26).
-trace(870,"leucocytes",27).
-trace(870,"crp",28).
-trace(870,"crp",29).
-trace(870,"lacticacid",30).
-trace(870,"leucocytes",31).
-trace(870,"crp",32).
-trace(870,"leucocytes",33).
-trace(870,"lacticacid",34).
-trace(870,"leucocytes",35).
-trace(870,"crp",36).
-trace(870,"lacticacid",37).
-trace(870,"lacticacid",38).
-trace(870,"crp",39).
-trace(870,"leucocytes",40).
-trace(870,"lacticacid",41).
-trace(870,"leucocytes",42).
-trace(870,"crp",43).
-trace(870,"lacticacid",44).
-trace(870,"leucocytes",45).
-trace(870,"lacticacid",46).
-trace(870,"crp",47).
-trace(870,"leucocytes",48).
-trace(870,"lacticacid",49).
-trace(870,"crp",50).
-trace(870,"leucocytes",51).
-trace(870,"lacticacid",52).
-trace(870,"lacticacid",53).
-trace(870,"leucocytes",54).
-trace(870,"crp",55).
-trace(870,"leucocytes",56).
-trace(870,"lacticacid",57).
-trace(870,"crp",58).
-trace(870,"crp",59).
-trace(870,"lacticacid",60).
-trace(870,"leucocytes",61).
-trace(870,"crp",62).
-trace(870,"leucocytes",63).
-trace(870,"lacticacid",64).
-trace(870,"crp",65).
-trace(870,"leucocytes",66).
-trace(870,"lacticacid",67).
-trace(870,"leucocytes",68).
-trace(870,"lacticacid",69).
-trace(870,"crp",70).
-trace(870,"crp",71).
-trace(870,"leucocytes",72).
-trace(870,"lacticacid",73).
-trace(870,"crp",74).
-trace(870,"leucocytes",75).
-trace(870,"lacticacid",76).
-trace(870,"lacticacid",77).
-trace(870,"leucocytes",78).
-trace(870,"crp",79).
-trace(870,"leucocytes",80).
-trace(870,"crp",81).
-trace(870,"lacticacid",82).
-trace(870,"leucocytes",83).
-trace(870,"lacticacid",84).
-trace(870,"crp",85).
-trace(870,"crp",86).
-trace(870,"lacticacid",87).
-trace(870,"leucocytes",88).
-trace(870,"leucocytes",89).
-trace(870,"crp",90).
-trace(870,"lacticacid",91).
-trace(870,"leucocytes",92).
-trace(870,"crp",93).
-trace(870,"lacticacid",94).
-trace(870,"leucocytes",95).
-trace(870,"lacticacid",96).
-trace(870,"crp",97).
-trace(870,"admission nc",98).
-trace(870,"leucocytes",99).
-trace(870,"crp",100).
-trace(870,"leucocytes",101).
-trace(870,"crp",102).
-trace(870,"crp",103).
-trace(870,"leucocytes",104).
-trace(870,"leucocytes",105).
-trace(870,"crp",106).
-trace(870,"leucocytes",107).
-trace(870,"crp",108).
-trace(870,"crp",109).
-trace(870,"leucocytes",110).
-trace(870,"leucocytes",111).
-trace(870,"crp",112).
-trace(870,"crp",113).
-trace(870,"leucocytes",114).
-trace(870,"leucocytes",115).
-trace(870,"crp",116).
-trace(870,"crp",117).
-trace(870,"leucocytes",118).
-trace(870,"crp",119).
-trace(870,"leucocytes",120).
-trace(870,"leucocytes",121).
-trace(870,"crp",122).
-trace(870,"leucocytes",123).
-trace(870,"crp",124).
-trace(870,"leucocytes",125).
-trace(870,"leucocytes",126).
-trace(870,"crp",127).
-trace(870,"admission nc",128).
-trace(870,"crp",129).
-trace(870,"leucocytes",130).
-trace(870,"leucocytes",131).
-trace(870,"crp",132).
-trace(870,"leucocytes",133).
-trace(870,"crp",134).
-trace(870,"leucocytes",135).
-trace(870,"crp",136).
-trace(870,"crp",137).
-trace(870,"leucocytes",138).
-trace(870,"crp",139).
-trace(870,"leucocytes",140).
-trace(870,"crp",141).
-trace(870,"leucocytes",142).
-trace(870,"leucocytes",143).
-trace(870,"crp",144).
-trace(870,"crp",145).
-trace(870,"leucocytes",146).
-trace(870,"leucocytes",147).
-trace(870,"crp",148).
-trace(870,"crp",149).
-trace(870,"leucocytes",150).
-trace(870,"leucocytes",151).
-trace(870,"crp",152).
-trace(870,"leucocytes",153).
-trace(870,"crp",154).
-trace(870,"crp",155).
-trace(870,"leucocytes",156).
-trace(870,"leucocytes",157).
-trace(870,"leucocytes",158).
-trace(870,"crp",159).
-trace(870,"leucocytes",160).
-trace(870,"crp",161).
-trace(870,"leucocytes",162).
-trace(870,"crp",163).
-trace(870,"crp",164).
-trace(870,"leucocytes",165).
-trace(870,"crp",166).
-trace(870,"leucocytes",167).
-trace(870,"leucocytes",168).
-trace(870,"crp",169).
-trace(870,"leucocytes",170).
-trace(870,"crp",171).
-trace(870,"crp",172).
-trace(870,"leucocytes",173).
-trace(870,"leucocytes",174).
-trace(870,"crp",175).
-trace(870,"leucocytes",176).
-trace(870,"crp",177).
-trace(870,"crp",178).
-trace(870,"leucocytes",179).
-trace(870,"leucocytes",180).
-trace(870,"crp",181).
-trace(870,"leucocytes",182).
-trace(870,"crp",183).
-trace(870,"leucocytes",184).
-trace(870,"release c",185).
-
-trace(871,"er registration",1).
-trace(871,"er triage",2).
-trace(871,"er sepsis triage",3).
-trace(871,"iv liquid",4).
-trace(871,"lacticacid",5).
-trace(871,"leucocytes",6).
-trace(871,"crp",7).
-trace(871,"iv antibiotics",8).
-trace(871,"admission nc",9).
-trace(871,"admission nc",10).
-trace(871,"crp",11).
-trace(871,"leucocytes",12).
-trace(871,"release a",13).
-
-trace(872,"er registration",1).
-trace(872,"er triage",2).
-trace(872,"er sepsis triage",3).
-trace(872,"iv liquid",4).
-trace(872,"iv antibiotics",5).
-trace(872,"lacticacid",6).
-trace(872,"leucocytes",7).
-trace(872,"crp",8).
-trace(872,"admission nc",9).
-trace(872,"admission nc",10).
-trace(872,"admission ic",11).
-trace(872,"leucocytes",12).
-trace(872,"crp",13).
-trace(872,"lacticacid",14).
-trace(872,"lacticacid",15).
-trace(872,"lacticacid",16).
-trace(872,"leucocytes",17).
-trace(872,"crp",18).
-trace(872,"admission nc",19).
-trace(872,"leucocytes",20).
-trace(872,"crp",21).
-trace(872,"release a",22).
-trace(872,"return er",23).
-
-trace(873,"er registration",1).
-trace(873,"er triage",2).
-trace(873,"er sepsis triage",3).
-trace(873,"crp",4).
-trace(873,"lacticacid",5).
-trace(873,"leucocytes",6).
-trace(873,"iv antibiotics",7).
-
-trace(874,"er registration",1).
-trace(874,"er triage",2).
-trace(874,"er sepsis triage",3).
-trace(874,"iv liquid",4).
-trace(874,"crp",5).
-trace(874,"leucocytes",6).
-trace(874,"lacticacid",7).
-trace(874,"iv antibiotics",8).
-trace(874,"admission nc",9).
-trace(874,"leucocytes",10).
-trace(874,"crp",11).
-trace(874,"leucocytes",12).
-trace(874,"crp",13).
-trace(874,"release a",14).
-
-trace(875,"er registration",1).
-trace(875,"er triage",2).
-trace(875,"crp",3).
-trace(875,"lacticacid",4).
-trace(875,"leucocytes",5).
-trace(875,"er sepsis triage",6).
-trace(875,"iv liquid",7).
-trace(875,"iv antibiotics",8).
-trace(875,"admission ic",9).
-trace(875,"leucocytes",10).
-trace(875,"crp",11).
-trace(875,"lacticacid",12).
-trace(875,"crp",13).
-trace(875,"leucocytes",14).
-trace(875,"lacticacid",15).
-trace(875,"release b",16).
-
-trace(876,"er registration",1).
-trace(876,"er triage",2).
-trace(876,"er sepsis triage",3).
-trace(876,"iv liquid",4).
-trace(876,"iv antibiotics",5).
-trace(876,"lacticacid",6).
-trace(876,"leucocytes",7).
-trace(876,"crp",8).
-trace(876,"admission nc",9).
-trace(876,"admission nc",10).
-trace(876,"leucocytes",11).
-trace(876,"crp",12).
-trace(876,"leucocytes",13).
-trace(876,"crp",14).
-trace(876,"release a",15).
-
-trace(877,"er registration",1).
-trace(877,"er triage",2).
-trace(877,"er sepsis triage",3).
-trace(877,"lacticacid",4).
-trace(877,"crp",5).
-trace(877,"leucocytes",6).
-trace(877,"iv antibiotics",7).
-trace(877,"admission nc",8).
-trace(877,"leucocytes",9).
-trace(877,"crp",10).
-trace(877,"admission nc",11).
-trace(877,"crp",12).
-trace(877,"leucocytes",13).
-trace(877,"crp",14).
-trace(877,"release a",15).
-
-trace(878,"er registration",1).
-trace(878,"er triage",2).
-trace(878,"lacticacid",3).
-trace(878,"leucocytes",4).
-trace(878,"crp",5).
-trace(878,"er sepsis triage",6).
-trace(878,"iv liquid",7).
-trace(878,"iv antibiotics",8).
-
-trace(879,"er registration",1).
-trace(879,"er triage",2).
-trace(879,"er sepsis triage",3).
-trace(879,"leucocytes",4).
-trace(879,"crp",5).
-trace(879,"lacticacid",6).
-trace(879,"iv liquid",7).
-trace(879,"iv antibiotics",8).
-trace(879,"admission nc",9).
-trace(879,"crp",10).
-trace(879,"admission ic",11).
-trace(879,"crp",12).
-trace(879,"leucocytes",13).
-trace(879,"lacticacid",14).
-trace(879,"lacticacid",15).
-trace(879,"leucocytes",16).
-trace(879,"crp",17).
-trace(879,"leucocytes",18).
-trace(879,"lacticacid",19).
-trace(879,"crp",20).
-trace(879,"crp",21).
-trace(879,"leucocytes",22).
-trace(879,"lacticacid",23).
-trace(879,"lacticacid",24).
-trace(879,"crp",25).
-trace(879,"leucocytes",26).
-trace(879,"admission nc",27).
-trace(879,"leucocytes",28).
-trace(879,"crp",29).
-trace(879,"admission nc",30).
-trace(879,"leucocytes",31).
-trace(879,"crp",32).
-trace(879,"crp",33).
-trace(879,"leucocytes",34).
-trace(879,"release d",35).
-trace(879,"return er",36).
-
-trace(880,"er registration",1).
-trace(880,"crp",2).
-trace(880,"leucocytes",3).
-trace(880,"lacticacid",4).
-trace(880,"er triage",5).
-trace(880,"er sepsis triage",6).
-trace(880,"iv liquid",7).
-trace(880,"iv antibiotics",8).
-trace(880,"admission nc",9).
-trace(880,"crp",10).
-trace(880,"leucocytes",11).
-trace(880,"leucocytes",12).
-trace(880,"crp",13).
-trace(880,"release a",14).
-trace(880,"return er",15).
-
-trace(881,"er registration",1).
-trace(881,"er triage",2).
-trace(881,"er sepsis triage",3).
-trace(881,"leucocytes",4).
-trace(881,"crp",5).
-trace(881,"lacticacid",6).
-trace(881,"iv liquid",7).
-trace(881,"iv antibiotics",8).
-trace(881,"admission nc",9).
-trace(881,"leucocytes",10).
-trace(881,"crp",11).
-trace(881,"admission nc",12).
-trace(881,"release a",13).
-trace(881,"return er",14).
-
-trace(882,"er registration",1).
-trace(882,"er triage",2).
-trace(882,"er sepsis triage",3).
-trace(882,"leucocytes",4).
-trace(882,"crp",5).
-trace(882,"lacticacid",6).
-trace(882,"iv liquid",7).
-trace(882,"iv antibiotics",8).
-trace(882,"admission nc",9).
-trace(882,"crp",10).
-trace(882,"leucocytes",11).
-trace(882,"leucocytes",12).
-trace(882,"crp",13).
-trace(882,"leucocytes",14).
-trace(882,"crp",15).
-trace(882,"leucocytes",16).
-trace(882,"crp",17).
-trace(882,"leucocytes",18).
-trace(882,"crp",19).
-trace(882,"leucocytes",20).
-trace(882,"crp",21).
-trace(882,"leucocytes",22).
-trace(882,"crp",23).
-trace(882,"crp",24).
-trace(882,"leucocytes",25).
-trace(882,"leucocytes",26).
-trace(882,"crp",27).
-trace(882,"release a",28).
-trace(882,"return er",29).
-
-trace(883,"er registration",1).
-trace(883,"er triage",2).
-trace(883,"er sepsis triage",3).
-trace(883,"iv liquid",4).
-trace(883,"lacticacid",5).
-trace(883,"leucocytes",6).
-trace(883,"crp",7).
-trace(883,"iv antibiotics",8).
-trace(883,"admission nc",9).
-trace(883,"leucocytes",10).
-trace(883,"crp",11).
-trace(883,"release a",12).
-
-trace(884,"er registration",1).
-trace(884,"er triage",2).
-trace(884,"er sepsis triage",3).
-trace(884,"iv liquid",4).
-trace(884,"lacticacid",5).
-trace(884,"leucocytes",6).
-trace(884,"crp",7).
-trace(884,"iv antibiotics",8).
-trace(884,"crp",9).
-trace(884,"leucocytes",10).
-trace(884,"admission nc",11).
-trace(884,"admission nc",12).
-trace(884,"crp",13).
-trace(884,"leucocytes",14).
-trace(884,"release a",15).
-
-trace(885,"er registration",1).
-trace(885,"er triage",2).
-trace(885,"er sepsis triage",3).
-trace(885,"crp",4).
-trace(885,"lacticacid",5).
-trace(885,"leucocytes",6).
-trace(885,"iv antibiotics",7).
-trace(885,"iv liquid",8).
-trace(885,"admission nc",9).
-trace(885,"leucocytes",10).
-trace(885,"crp",11).
-trace(885,"release a",12).
-trace(885,"return er",13).
-
-trace(886,"er registration",1).
-trace(886,"er triage",2).
-trace(886,"er sepsis triage",3).
-trace(886,"crp",4).
-trace(886,"leucocytes",5).
-trace(886,"admission nc",6).
-trace(886,"crp",7).
-trace(886,"release d",8).
-
-trace(887,"er registration",1).
-trace(887,"er triage",2).
-trace(887,"er sepsis triage",3).
-trace(887,"crp",4).
-trace(887,"lacticacid",5).
-trace(887,"leucocytes",6).
-trace(887,"iv liquid",7).
-trace(887,"iv antibiotics",8).
-trace(887,"admission ic",9).
-trace(887,"crp",10).
-trace(887,"leucocytes",11).
-trace(887,"lacticacid",12).
-trace(887,"lacticacid",13).
-trace(887,"leucocytes",14).
-trace(887,"crp",15).
-trace(887,"lacticacid",16).
-trace(887,"leucocytes",17).
-trace(887,"crp",18).
-trace(887,"leucocytes",19).
-trace(887,"crp",20).
-trace(887,"lacticacid",21).
-trace(887,"leucocytes",22).
-trace(887,"crp",23).
-trace(887,"lacticacid",24).
-trace(887,"admission nc",25).
-trace(887,"crp",26).
-trace(887,"leucocytes",27).
-trace(887,"crp",28).
-trace(887,"leucocytes",29).
-trace(887,"release a",30).
-
-trace(888,"er registration",1).
-trace(888,"er triage",2).
-trace(888,"er sepsis triage",3).
-trace(888,"crp",4).
-trace(888,"lacticacid",5).
-trace(888,"leucocytes",6).
-trace(888,"iv antibiotics",7).
-trace(888,"admission nc",8).
-trace(888,"leucocytes",9).
-trace(888,"crp",10).
-trace(888,"crp",11).
-trace(888,"release a",12).
-trace(888,"return er",13).
-
-trace(889,"er registration",1).
-trace(889,"er triage",2).
-trace(889,"er sepsis triage",3).
-trace(889,"leucocytes",4).
-trace(889,"crp",5).
-trace(889,"lacticacid",6).
-trace(889,"leucocytes",7).
-trace(889,"crp",8).
-trace(889,"lacticacid",9).
-trace(889,"iv liquid",10).
-trace(889,"iv antibiotics",11).
-trace(889,"admission nc",12).
-trace(889,"crp",13).
-trace(889,"release a",14).
-
-trace(890,"er registration",1).
-trace(890,"er triage",2).
-trace(890,"er sepsis triage",3).
-trace(890,"lacticacid",4).
-trace(890,"crp",5).
-trace(890,"leucocytes",6).
-trace(890,"iv liquid",7).
-trace(890,"iv antibiotics",8).
-trace(890,"admission ic",9).
-trace(890,"lacticacid",10).
-trace(890,"leucocytes",11).
-trace(890,"crp",12).
-trace(890,"admission nc",13).
-trace(890,"leucocytes",14).
-trace(890,"crp",15).
-trace(890,"release a",16).
-
-trace(891,"er registration",1).
-trace(891,"er triage",2).
-trace(891,"er sepsis triage",3).
-trace(891,"leucocytes",4).
-trace(891,"lacticacid",5).
-trace(891,"crp",6).
-trace(891,"iv liquid",7).
-trace(891,"iv antibiotics",8).
-trace(891,"admission nc",9).
-trace(891,"crp",10).
-trace(891,"leucocytes",11).
-trace(891,"leucocytes",12).
-trace(891,"crp",13).
-trace(891,"leucocytes",14).
-trace(891,"crp",15).
-trace(891,"release a",16).
-
-trace(892,"er registration",1).
-trace(892,"er triage",2).
-trace(892,"er sepsis triage",3).
-trace(892,"leucocytes",4).
-trace(892,"admission nc",5).
-trace(892,"leucocytes",6).
-trace(892,"release a",7).
-
-trace(893,"er registration",1).
-trace(893,"iv liquid",2).
-trace(893,"er triage",3).
-trace(893,"er sepsis triage",4).
-trace(893,"iv antibiotics",5).
-trace(893,"crp",6).
-trace(893,"leucocytes",7).
-trace(893,"lacticacid",8).
-trace(893,"admission nc",9).
-trace(893,"release a",10).
-
-trace(894,"er registration",1).
-trace(894,"er triage",2).
-trace(894,"er sepsis triage",3).
-trace(894,"iv liquid",4).
-trace(894,"iv antibiotics",5).
-trace(894,"crp",6).
-trace(894,"leucocytes",7).
-trace(894,"lacticacid",8).
-trace(894,"admission nc",9).
-trace(894,"crp",10).
-trace(894,"leucocytes",11).
-trace(894,"admission nc",12).
-trace(894,"release a",13).
-
-trace(895,"er registration",1).
-trace(895,"er triage",2).
-trace(895,"er sepsis triage",3).
-trace(895,"leucocytes",4).
-trace(895,"crp",5).
-trace(895,"lacticacid",6).
-trace(895,"iv liquid",7).
-trace(895,"iv antibiotics",8).
-trace(895,"admission nc",9).
-trace(895,"crp",10).
-trace(895,"crp",11).
-trace(895,"release a",12).
-trace(895,"return er",13).
-
-trace(896,"er registration",1).
-trace(896,"er triage",2).
-trace(896,"er sepsis triage",3).
-trace(896,"crp",4).
-trace(896,"leucocytes",5).
-trace(896,"lacticacid",6).
-trace(896,"iv liquid",7).
-trace(896,"iv antibiotics",8).
-trace(896,"admission nc",9).
-trace(896,"admission nc",10).
-trace(896,"release a",11).
-
-trace(897,"er registration",1).
-trace(897,"er triage",2).
-trace(897,"crp",3).
-trace(897,"leucocytes",4).
-trace(897,"lacticacid",5).
-trace(897,"er sepsis triage",6).
-trace(897,"iv liquid",7).
-trace(897,"iv antibiotics",8).
-trace(897,"admission nc",9).
-trace(897,"leucocytes",10).
-trace(897,"crp",11).
-trace(897,"crp",12).
-trace(897,"release a",13).
-
-trace(898,"er registration",1).
-trace(898,"er triage",2).
-trace(898,"er sepsis triage",3).
-trace(898,"crp",4).
-trace(898,"leucocytes",5).
-trace(898,"lacticacid",6).
-trace(898,"iv liquid",7).
-trace(898,"iv antibiotics",8).
-
-trace(899,"er registration",1).
-trace(899,"er triage",2).
-trace(899,"er sepsis triage",3).
-trace(899,"iv liquid",4).
-trace(899,"lacticacid",5).
-trace(899,"leucocytes",6).
-trace(899,"crp",7).
-trace(899,"iv antibiotics",8).
-trace(899,"admission nc",9).
-trace(899,"crp",10).
-trace(899,"leucocytes",11).
-trace(899,"leucocytes",12).
-trace(899,"crp",13).
-trace(899,"release a",14).
-
-trace(900,"er registration",1).
-trace(900,"er triage",2).
-trace(900,"er sepsis triage",3).
-trace(900,"leucocytes",4).
-trace(900,"crp",5).
-trace(900,"admission nc",6).
-trace(900,"crp",7).
-trace(900,"leucocytes",8).
-trace(900,"release a",9).
-
-trace(901,"er registration",1).
-trace(901,"er triage",2).
-trace(901,"er sepsis triage",3).
-trace(901,"iv liquid",4).
-trace(901,"iv antibiotics",5).
-trace(901,"leucocytes",6).
-trace(901,"lacticacid",7).
-trace(901,"crp",8).
-trace(901,"admission ic",9).
-trace(901,"leucocytes",10).
-trace(901,"lacticacid",11).
-trace(901,"crp",12).
-trace(901,"admission nc",13).
-trace(901,"crp",14).
-trace(901,"leucocytes",15).
-trace(901,"leucocytes",16).
-trace(901,"release a",17).
-
-trace(902,"er registration",1).
-trace(902,"crp",2).
-trace(902,"leucocytes",3).
-trace(902,"lacticacid",4).
-trace(902,"er triage",5).
-trace(902,"er sepsis triage",6).
-trace(902,"iv liquid",7).
-trace(902,"iv antibiotics",8).
-trace(902,"admission nc",9).
-trace(902,"crp",10).
-trace(902,"leucocytes",11).
-trace(902,"release a",12).
-
-trace(903,"er registration",1).
-trace(903,"er triage",2).
-trace(903,"er sepsis triage",3).
-trace(903,"leucocytes",4).
-trace(903,"crp",5).
-
-trace(904,"er registration",1).
-trace(904,"er triage",2).
-trace(904,"er sepsis triage",3).
-trace(904,"leucocytes",4).
-trace(904,"crp",5).
-
-trace(905,"er registration",1).
-trace(905,"er triage",2).
-trace(905,"er sepsis triage",3).
-trace(905,"iv antibiotics",4).
-trace(905,"iv liquid",5).
-trace(905,"leucocytes",6).
-trace(905,"crp",7).
-trace(905,"lacticacid",8).
-trace(905,"admission nc",9).
-trace(905,"leucocytes",10).
-trace(905,"crp",11).
-trace(905,"release a",12).
-
-trace(906,"er registration",1).
-trace(906,"er triage",2).
-trace(906,"leucocytes",3).
-trace(906,"crp",4).
-trace(906,"lacticacid",5).
-trace(906,"er sepsis triage",6).
-trace(906,"iv liquid",7).
-trace(906,"iv antibiotics",8).
-trace(906,"admission ic",9).
-trace(906,"leucocytes",10).
-trace(906,"crp",11).
-trace(906,"lacticacid",12).
-
-trace(907,"er registration",1).
-trace(907,"er triage",2).
-trace(907,"lacticacid",3).
-trace(907,"crp",4).
-trace(907,"leucocytes",5).
-trace(907,"er sepsis triage",6).
-trace(907,"iv liquid",7).
-trace(907,"iv antibiotics",8).
-trace(907,"admission nc",9).
-trace(907,"leucocytes",10).
-trace(907,"crp",11).
-trace(907,"crp",12).
-trace(907,"leucocytes",13).
-trace(907,"leucocytes",14).
-trace(907,"crp",15).
-trace(907,"release a",16).
-
-trace(908,"er registration",1).
-trace(908,"er triage",2).
-trace(908,"er sepsis triage",3).
-trace(908,"iv liquid",4).
-trace(908,"iv antibiotics",5).
-trace(908,"admission ic",6).
-trace(908,"crp",7).
-trace(908,"leucocytes",8).
-trace(908,"lacticacid",9).
-trace(908,"crp",10).
-trace(908,"leucocytes",11).
-trace(908,"lacticacid",12).
-trace(908,"crp",13).
-trace(908,"lacticacid",14).
-trace(908,"leucocytes",15).
-trace(908,"leucocytes",16).
-trace(908,"crp",17).
-trace(908,"lacticacid",18).
-trace(908,"leucocytes",19).
-trace(908,"crp",20).
-trace(908,"lacticacid",21).
-trace(908,"admission nc",22).
-trace(908,"leucocytes",23).
-trace(908,"crp",24).
-trace(908,"release a",25).
-trace(908,"return er",26).
-
-trace(909,"er registration",1).
-trace(909,"er triage",2).
-trace(909,"crp",3).
-trace(909,"leucocytes",4).
-trace(909,"lacticacid",5).
-trace(909,"er sepsis triage",6).
-trace(909,"iv liquid",7).
-trace(909,"iv antibiotics",8).
-trace(909,"admission nc",9).
-trace(909,"leucocytes",10).
-trace(909,"admission nc",11).
-trace(909,"leucocytes",12).
-trace(909,"leucocytes",13).
-trace(909,"leucocytes",14).
-trace(909,"leucocytes",15).
-trace(909,"release a",16).
-trace(909,"return er",17).
-
-trace(910,"iv liquid",1).
-trace(910,"er registration",2).
-trace(910,"er triage",3).
-trace(910,"er sepsis triage",4).
-trace(910,"lacticacid",5).
-trace(910,"leucocytes",6).
-trace(910,"crp",7).
-trace(910,"iv antibiotics",8).
-trace(910,"admission ic",9).
-trace(910,"lacticacid",10).
-trace(910,"crp",11).
-trace(910,"leucocytes",12).
-trace(910,"leucocytes",13).
-trace(910,"crp",14).
-trace(910,"lacticacid",15).
-trace(910,"leucocytes",16).
-trace(910,"lacticacid",17).
-trace(910,"crp",18).
-trace(910,"crp",19).
-trace(910,"leucocytes",20).
-trace(910,"lacticacid",21).
-trace(910,"crp",22).
-trace(910,"lacticacid",23).
-trace(910,"leucocytes",24).
-trace(910,"lacticacid",25).
-trace(910,"leucocytes",26).
-trace(910,"crp",27).
-trace(910,"crp",28).
-trace(910,"leucocytes",29).
-trace(910,"lacticacid",30).
-trace(910,"admission nc",31).
-trace(910,"crp",32).
-trace(910,"leucocytes",33).
-trace(910,"leucocytes",34).
-trace(910,"release a",35).
-trace(910,"return er",36).
-
-trace(911,"er registration",1).
-trace(911,"er triage",2).
-trace(911,"er sepsis triage",3).
-trace(911,"leucocytes",4).
-trace(911,"crp",5).
-
-trace(912,"er registration",1).
-trace(912,"er triage",2).
-trace(912,"er sepsis triage",3).
-trace(912,"crp",4).
-trace(912,"leucocytes",5).
-
-trace(913,"er registration",1).
-trace(913,"er triage",2).
-trace(913,"er sepsis triage",3).
-trace(913,"leucocytes",4).
-trace(913,"crp",5).
-trace(913,"lacticacid",6).
-trace(913,"iv liquid",7).
-trace(913,"iv antibiotics",8).
-trace(913,"admission nc",9).
-trace(913,"crp",10).
-trace(913,"release a",11).
-trace(913,"return er",12).
-
-trace(914,"er registration",1).
-trace(914,"er triage",2).
-trace(914,"er sepsis triage",3).
-trace(914,"leucocytes",4).
-trace(914,"lacticacid",5).
-trace(914,"crp",6).
-trace(914,"admission nc",7).
-trace(914,"lacticacid",8).
-trace(914,"leucocytes",9).
-trace(914,"crp",10).
-trace(914,"admission nc",11).
-trace(914,"admission nc",12).
-trace(914,"release c",13).
-
-trace(915,"er registration",1).
-trace(915,"er triage",2).
-trace(915,"er sepsis triage",3).
-trace(915,"leucocytes",4).
-trace(915,"lacticacid",5).
-trace(915,"crp",6).
-trace(915,"iv antibiotics",7).
-
-trace(916,"er registration",1).
-trace(916,"er triage",2).
-trace(916,"er sepsis triage",3).
-trace(916,"crp",4).
-trace(916,"leucocytes",5).
-trace(916,"lacticacid",6).
-trace(916,"iv antibiotics",7).
-trace(916,"iv liquid",8).
-trace(916,"admission nc",9).
-trace(916,"leucocytes",10).
-trace(916,"crp",11).
-trace(916,"admission nc",12).
-trace(916,"crp",13).
-trace(916,"leucocytes",14).
-trace(916,"release a",15).
-trace(916,"return er",16).
-
-trace(917,"er registration",1).
-trace(917,"er triage",2).
-trace(917,"er sepsis triage",3).
-trace(917,"leucocytes",4).
-trace(917,"lacticacid",5).
-trace(917,"crp",6).
-trace(917,"iv liquid",7).
-trace(917,"iv antibiotics",8).
-trace(917,"admission nc",9).
-trace(917,"leucocytes",10).
-trace(917,"crp",11).
-trace(917,"crp",12).
-trace(917,"release a",13).
-
-trace(918,"crp",1).
-trace(918,"leucocytes",2).
-trace(918,"er registration",3).
-trace(918,"er triage",4).
-trace(918,"er sepsis triage",5).
-trace(918,"leucocytes",6).
-trace(918,"crp",7).
-trace(918,"iv liquid",8).
-trace(918,"iv antibiotics",9).
-
-trace(919,"er registration",1).
-trace(919,"er triage",2).
-trace(919,"er sepsis triage",3).
-trace(919,"iv liquid",4).
-trace(919,"leucocytes",5).
-trace(919,"crp",6).
-trace(919,"lacticacid",7).
-trace(919,"iv antibiotics",8).
-trace(919,"admission nc",9).
-trace(919,"leucocytes",10).
-trace(919,"crp",11).
-trace(919,"crp",12).
-trace(919,"release a",13).
-
-trace(920,"er registration",1).
-trace(920,"er triage",2).
-trace(920,"er sepsis triage",3).
-trace(920,"crp",4).
-trace(920,"lacticacid",5).
-trace(920,"leucocytes",6).
-trace(920,"iv liquid",7).
-trace(920,"iv antibiotics",8).
-trace(920,"admission ic",9).
-trace(920,"lacticacid",10).
-trace(920,"leucocytes",11).
-trace(920,"crp",12).
-trace(920,"lacticacid",13).
-trace(920,"leucocytes",14).
-trace(920,"crp",15).
-trace(920,"lacticacid",16).
-trace(920,"admission nc",17).
-trace(920,"leucocytes",18).
-trace(920,"crp",19).
-trace(920,"leucocytes",20).
-trace(920,"crp",21).
-trace(920,"crp",22).
-trace(920,"leucocytes",23).
-trace(920,"leucocytes",24).
-trace(920,"crp",25).
-trace(920,"leucocytes",26).
-trace(920,"crp",27).
-trace(920,"leucocytes",28).
-trace(920,"crp",29).
-trace(920,"release a",30).
-trace(920,"return er",31).
-
-trace(921,"er registration",1).
-trace(921,"er triage",2).
-trace(921,"er sepsis triage",3).
-trace(921,"leucocytes",4).
-trace(921,"lacticacid",5).
-trace(921,"crp",6).
-trace(921,"iv antibiotics",7).
-trace(921,"iv liquid",8).
-trace(921,"admission nc",9).
-trace(921,"crp",10).
-trace(921,"leucocytes",11).
-trace(921,"release a",12).
-trace(921,"return er",13).
-
-trace(922,"er registration",1).
-trace(922,"er triage",2).
-trace(922,"er sepsis triage",3).
-trace(922,"lacticacid",4).
-trace(922,"crp",5).
-trace(922,"leucocytes",6).
-trace(922,"iv liquid",7).
-trace(922,"iv antibiotics",8).
-trace(922,"admission nc",9).
-trace(922,"leucocytes",10).
-trace(922,"crp",11).
-trace(922,"release a",12).
-trace(922,"return er",13).
-
-trace(923,"er registration",1).
-trace(923,"er triage",2).
-trace(923,"er sepsis triage",3).
-trace(923,"leucocytes",4).
-trace(923,"lacticacid",5).
-trace(923,"crp",6).
-trace(923,"iv antibiotics",7).
-trace(923,"iv liquid",8).
-trace(923,"admission nc",9).
-trace(923,"admission nc",10).
-trace(923,"leucocytes",11).
-trace(923,"crp",12).
-trace(923,"crp",13).
-trace(923,"leucocytes",14).
-trace(923,"release a",15).
-
-trace(924,"er registration",1).
-trace(924,"er triage",2).
-trace(924,"er sepsis triage",3).
-trace(924,"leucocytes",4).
-trace(924,"crp",5).
-trace(924,"lacticacid",6).
-trace(924,"iv liquid",7).
-trace(924,"iv antibiotics",8).
-trace(924,"admission nc",9).
-trace(924,"leucocytes",10).
-trace(924,"crp",11).
-trace(924,"admission nc",12).
-trace(924,"leucocytes",13).
-trace(924,"crp",14).
-trace(924,"crp",15).
-trace(924,"crp",16).
-trace(924,"leucocytes",17).
-trace(924,"leucocytes",18).
-trace(924,"crp",19).
-trace(924,"leucocytes",20).
-trace(924,"admission ic",21).
-trace(924,"leucocytes",22).
-trace(924,"crp",23).
-trace(924,"lacticacid",24).
-trace(924,"leucocytes",25).
-trace(924,"leucocytes",26).
-trace(924,"leucocytes",27).
-trace(924,"lacticacid",28).
-trace(924,"leucocytes",29).
-trace(924,"crp",30).
-trace(924,"leucocytes",31).
-trace(924,"leucocytes",32).
-trace(924,"leucocytes",33).
-trace(924,"leucocytes",34).
-trace(924,"crp",35).
-trace(924,"lacticacid",36).
-trace(924,"leucocytes",37).
-trace(924,"leucocytes",38).
-trace(924,"crp",39).
-trace(924,"lacticacid",40).
-trace(924,"admission nc",41).
-trace(924,"leucocytes",42).
-trace(924,"crp",43).
-trace(924,"release a",44).
-trace(924,"return er",45).
-
-trace(925,"er registration",1).
-trace(925,"er triage",2).
-trace(925,"er sepsis triage",3).
-trace(925,"iv antibiotics",4).
-trace(925,"iv liquid",5).
-trace(925,"leucocytes",6).
-trace(925,"crp",7).
-trace(925,"lacticacid",8).
-trace(925,"admission nc",9).
-trace(925,"crp",10).
-trace(925,"leucocytes",11).
-trace(925,"admission nc",12).
-trace(925,"crp",13).
-trace(925,"leucocytes",14).
-trace(925,"release a",15).
-trace(925,"return er",16).
-
-trace(926,"er registration",1).
-trace(926,"er triage",2).
-trace(926,"er sepsis triage",3).
-trace(926,"leucocytes",4).
-trace(926,"lacticacid",5).
-trace(926,"crp",6).
-trace(926,"iv liquid",7).
-trace(926,"iv antibiotics",8).
-trace(926,"admission nc",9).
-trace(926,"admission nc",10).
-trace(926,"crp",11).
-trace(926,"leucocytes",12).
-trace(926,"release a",13).
-
-trace(927,"er registration",1).
-trace(927,"leucocytes",2).
-trace(927,"crp",3).
-trace(927,"lacticacid",4).
-trace(927,"iv liquid",5).
-trace(927,"er triage",6).
-trace(927,"er sepsis triage",7).
-trace(927,"iv antibiotics",8).
-
-trace(928,"er registration",1).
-trace(928,"er triage",2).
-trace(928,"er sepsis triage",3).
-trace(928,"leucocytes",4).
-trace(928,"crp",5).
-trace(928,"admission nc",6).
-trace(928,"admission nc",7).
-trace(928,"leucocytes",8).
-trace(928,"crp",9).
-trace(928,"crp",10).
-trace(928,"leucocytes",11).
-trace(928,"leucocytes",12).
-trace(928,"leucocytes",13).
-trace(928,"crp",14).
-trace(928,"release a",15).
-
-trace(929,"er registration",1).
-trace(929,"crp",2).
-trace(929,"leucocytes",3).
-trace(929,"lacticacid",4).
-trace(929,"er triage",5).
-trace(929,"er sepsis triage",6).
-trace(929,"iv liquid",7).
-trace(929,"iv antibiotics",8).
-trace(929,"admission nc",9).
-trace(929,"crp",10).
-trace(929,"leucocytes",11).
-trace(929,"crp",12).
-trace(929,"release a",13).
-
-trace(930,"er registration",1).
-trace(930,"er triage",2).
-trace(930,"er sepsis triage",3).
-trace(930,"leucocytes",4).
-trace(930,"crp",5).
-trace(930,"lacticacid",6).
-trace(930,"iv antibiotics",7).
-trace(930,"iv liquid",8).
-trace(930,"admission ic",9).
-trace(930,"crp",10).
-trace(930,"leucocytes",11).
-trace(930,"lacticacid",12).
-trace(930,"leucocytes",13).
-trace(930,"lacticacid",14).
-trace(930,"lacticacid",15).
-trace(930,"crp",16).
-trace(930,"leucocytes",17).
-trace(930,"leucocytes",18).
-trace(930,"crp",19).
-trace(930,"lacticacid",20).
-trace(930,"leucocytes",21).
-trace(930,"lacticacid",22).
-trace(930,"crp",23).
-trace(930,"lacticacid",24).
-trace(930,"leucocytes",25).
-trace(930,"crp",26).
-trace(930,"admission nc",27).
-trace(930,"leucocytes",28).
-trace(930,"crp",29).
-trace(930,"leucocytes",30).
-trace(930,"leucocytes",31).
-trace(930,"crp",32).
-trace(930,"leucocytes",33).
-trace(930,"crp",34).
-trace(930,"leucocytes",35).
-trace(930,"release a",36).
-
-trace(931,"er registration",1).
-trace(931,"er triage",2).
-trace(931,"leucocytes",3).
-trace(931,"crp",4).
-trace(931,"er sepsis triage",5).
-
-trace(932,"er registration",1).
-trace(932,"er triage",2).
-trace(932,"er sepsis triage",3).
-trace(932,"crp",4).
-trace(932,"leucocytes",5).
-
-trace(933,"er registration",1).
-trace(933,"er triage",2).
-trace(933,"er sepsis triage",3).
-trace(933,"crp",4).
-trace(933,"leucocytes",5).
-trace(933,"lacticacid",6).
-trace(933,"iv antibiotics",7).
-trace(933,"iv liquid",8).
-trace(933,"admission nc",9).
-trace(933,"lacticacid",10).
-trace(933,"crp",11).
-trace(933,"leucocytes",12).
-trace(933,"admission ic",13).
-trace(933,"leucocytes",14).
-trace(933,"crp",15).
-trace(933,"lacticacid",16).
-trace(933,"admission nc",17).
-trace(933,"crp",18).
-trace(933,"leucocytes",19).
-trace(933,"leucocytes",20).
-trace(933,"crp",21).
-trace(933,"leucocytes",22).
-trace(933,"crp",23).
-trace(933,"leucocytes",24).
-trace(933,"crp",25).
-trace(933,"leucocytes",26).
-trace(933,"crp",27).
-trace(933,"leucocytes",28).
-trace(933,"crp",29).
-trace(933,"leucocytes",30).
-trace(933,"crp",31).
-trace(933,"leucocytes",32).
-trace(933,"crp",33).
-trace(933,"leucocytes",34).
-trace(933,"crp",35).
-trace(933,"crp",36).
-trace(933,"leucocytes",37).
-trace(933,"leucocytes",38).
-trace(933,"crp",39).
-trace(933,"crp",40).
-trace(933,"leucocytes",41).
-trace(933,"leucocytes",42).
-trace(933,"crp",43).
-trace(933,"crp",44).
-trace(933,"leucocytes",45).
-trace(933,"crp",46).
-trace(933,"leucocytes",47).
-trace(933,"admission nc",48).
-trace(933,"leucocytes",49).
-trace(933,"crp",50).
-trace(933,"release a",51).
-trace(933,"return er",52).
-
-trace(934,"er registration",1).
-trace(934,"er triage",2).
-trace(934,"er sepsis triage",3).
-trace(934,"crp",4).
-trace(934,"leucocytes",5).
-trace(934,"lacticacid",6).
-trace(934,"iv liquid",7).
-trace(934,"iv antibiotics",8).
-
-trace(935,"er registration",1).
-trace(935,"crp",2).
-trace(935,"leucocytes",3).
-trace(935,"er triage",4).
-trace(935,"er sepsis triage",5).
-
-trace(936,"er registration",1).
-trace(936,"er triage",2).
-trace(936,"er sepsis triage",3).
-trace(936,"leucocytes",4).
-trace(936,"crp",5).
-trace(936,"lacticacid",6).
-trace(936,"iv antibiotics",7).
-trace(936,"admission nc",8).
-trace(936,"iv liquid",9).
-trace(936,"leucocytes",10).
-trace(936,"crp",11).
-trace(936,"crp",12).
-trace(936,"leucocytes",13).
-trace(936,"admission nc",14).
-trace(936,"admission nc",15).
-trace(936,"release a",16).
-trace(936,"return er",17).
-
-trace(937,"er registration",1).
-trace(937,"er triage",2).
-trace(937,"er sepsis triage",3).
-trace(937,"leucocytes",4).
-trace(937,"crp",5).
-trace(937,"admission nc",6).
-trace(937,"crp",7).
-trace(937,"release a",8).
-
-trace(938,"er registration",1).
-trace(938,"er triage",2).
-trace(938,"er sepsis triage",3).
-trace(938,"crp",4).
-trace(938,"leucocytes",5).
-trace(938,"lacticacid",6).
-trace(938,"admission nc",7).
-trace(938,"release a",8).
-trace(938,"return er",9).
-
-trace(939,"er registration",1).
-trace(939,"crp",2).
-trace(939,"leucocytes",3).
-trace(939,"lacticacid",4).
-trace(939,"er triage",5).
-trace(939,"er sepsis triage",6).
-trace(939,"iv antibiotics",7).
-trace(939,"admission nc",8).
-trace(939,"release a",9).
-
-trace(940,"er registration",1).
-trace(940,"er triage",2).
-trace(940,"er sepsis triage",3).
-trace(940,"leucocytes",4).
-trace(940,"crp",5).
-trace(940,"lacticacid",6).
-trace(940,"iv liquid",7).
-trace(940,"iv antibiotics",8).
-trace(940,"admission nc",9).
-trace(940,"leucocytes",10).
-trace(940,"crp",11).
-trace(940,"crp",12).
-trace(940,"leucocytes",13).
-trace(940,"leucocytes",14).
-trace(940,"crp",15).
-trace(940,"release a",16).
-
-trace(941,"er registration",1).
-trace(941,"er triage",2).
-trace(941,"lacticacid",3).
-trace(941,"leucocytes",4).
-trace(941,"crp",5).
-trace(941,"er sepsis triage",6).
-trace(941,"iv liquid",7).
-trace(941,"iv antibiotics",8).
-trace(941,"admission nc",9).
-trace(941,"lacticacid",10).
-trace(941,"crp",11).
-trace(941,"leucocytes",12).
-trace(941,"admission nc",13).
-trace(941,"leucocytes",14).
-trace(941,"crp",15).
-trace(941,"crp",16).
-trace(941,"leucocytes",17).
-trace(941,"release a",18).
-trace(941,"return er",19).
-
-trace(942,"er registration",1).
-trace(942,"er triage",2).
-trace(942,"er sepsis triage",3).
-trace(942,"crp",4).
-trace(942,"lacticacid",5).
-trace(942,"leucocytes",6).
-trace(942,"iv liquid",7).
-trace(942,"iv antibiotics",8).
-trace(942,"admission nc",9).
-trace(942,"admission nc",10).
-trace(942,"crp",11).
-trace(942,"leucocytes",12).
-trace(942,"release a",13).
-
-trace(943,"er registration",1).
-trace(943,"er triage",2).
-trace(943,"er sepsis triage",3).
-trace(943,"lacticacid",4).
-trace(943,"leucocytes",5).
-trace(943,"crp",6).
-trace(943,"iv antibiotics",7).
-trace(943,"iv liquid",8).
-trace(943,"admission nc",9).
-trace(943,"leucocytes",10).
-trace(943,"crp",11).
-
-trace(944,"er registration",1).
-trace(944,"er triage",2).
-trace(944,"er sepsis triage",3).
-trace(944,"leucocytes",4).
-trace(944,"crp",5).
-trace(944,"lacticacid",6).
-trace(944,"admission nc",7).
-trace(944,"crp",8).
-trace(944,"release a",9).
-
-trace(945,"leucocytes",1).
-trace(945,"crp",2).
-trace(945,"er registration",3).
-trace(945,"er triage",4).
-trace(945,"er sepsis triage",5).
-
-trace(946,"er registration",1).
-trace(946,"er triage",2).
-trace(946,"er sepsis triage",3).
-trace(946,"lacticacid",4).
-trace(946,"crp",5).
-trace(946,"leucocytes",6).
-trace(946,"iv liquid",7).
-trace(946,"iv antibiotics",8).
-
-trace(947,"er registration",1).
-trace(947,"er triage",2).
-trace(947,"er sepsis triage",3).
-trace(947,"leucocytes",4).
-trace(947,"crp",5).
-trace(947,"iv antibiotics",6).
-trace(947,"leucocytes",7).
-trace(947,"crp",8).
-
-trace(948,"er registration",1).
-trace(948,"er triage",2).
-trace(948,"er sepsis triage",3).
-trace(948,"leucocytes",4).
-trace(948,"lacticacid",5).
-trace(948,"crp",6).
-trace(948,"iv liquid",7).
-trace(948,"iv antibiotics",8).
-trace(948,"admission nc",9).
-trace(948,"admission nc",10).
-trace(948,"crp",11).
-trace(948,"leucocytes",12).
-trace(948,"admission nc",13).
-trace(948,"crp",14).
-trace(948,"leucocytes",15).
-trace(948,"release a",16).
-
-trace(949,"er registration",1).
-trace(949,"er triage",2).
-trace(949,"er sepsis triage",3).
-
-trace(950,"er registration",1).
-trace(950,"er triage",2).
-trace(950,"er sepsis triage",3).
-trace(950,"iv liquid",4).
-trace(950,"iv antibiotics",5).
-trace(950,"lacticacid",6).
-trace(950,"crp",7).
-trace(950,"leucocytes",8).
-
-trace(951,"er registration",1).
-trace(951,"lacticacid",2).
-trace(951,"leucocytes",3).
-trace(951,"crp",4).
-trace(951,"er triage",5).
-trace(951,"er sepsis triage",6).
-trace(951,"iv liquid",7).
-trace(951,"iv antibiotics",8).
-trace(951,"leucocytes",9).
-
-trace(952,"er registration",1).
-trace(952,"er triage",2).
-trace(952,"er sepsis triage",3).
-trace(952,"leucocytes",4).
-trace(952,"lacticacid",5).
-trace(952,"crp",6).
-trace(952,"iv liquid",7).
-trace(952,"iv antibiotics",8).
-
-trace(953,"er registration",1).
-trace(953,"er triage",2).
-trace(953,"er sepsis triage",3).
-trace(953,"iv antibiotics",4).
-trace(953,"crp",5).
-trace(953,"lacticacid",6).
-trace(953,"leucocytes",7).
-trace(953,"admission nc",8).
-trace(953,"leucocytes",9).
-trace(953,"crp",10).
-trace(953,"release a",11).
-trace(953,"return er",12).
-
-trace(954,"er registration",1).
-trace(954,"er triage",2).
-trace(954,"er sepsis triage",3).
-trace(954,"iv liquid",4).
-trace(954,"leucocytes",5).
-trace(954,"crp",6).
-trace(954,"lacticacid",7).
-trace(954,"iv antibiotics",8).
-trace(954,"admission nc",9).
-trace(954,"crp",10).
-trace(954,"leucocytes",11).
-trace(954,"leucocytes",12).
-trace(954,"crp",13).
-trace(954,"crp",14).
-trace(954,"leucocytes",15).
-trace(954,"leucocytes",16).
-trace(954,"leucocytes",17).
-trace(954,"leucocytes",18).
-trace(954,"leucocytes",19).
-trace(954,"crp",20).
-trace(954,"leucocytes",21).
-trace(954,"crp",22).
-trace(954,"leucocytes",23).
-trace(954,"crp",24).
-trace(954,"leucocytes",25).
-trace(954,"leucocytes",26).
-trace(954,"release a",27).
-
-trace(955,"er registration",1).
-trace(955,"er triage",2).
-trace(955,"er sepsis triage",3).
-trace(955,"iv liquid",4).
-trace(955,"iv antibiotics",5).
-trace(955,"leucocytes",6).
-trace(955,"lacticacid",7).
-trace(955,"crp",8).
-
-trace(956,"er registration",1).
-trace(956,"er triage",2).
-trace(956,"er sepsis triage",3).
-
-trace(957,"iv liquid",1).
-trace(957,"er registration",2).
-trace(957,"er triage",3).
-trace(957,"er sepsis triage",4).
-trace(957,"crp",5).
-trace(957,"lacticacid",6).
-trace(957,"leucocytes",7).
-trace(957,"iv antibiotics",8).
-trace(957,"admission nc",9).
-trace(957,"crp",10).
-trace(957,"crp",11).
-trace(957,"leucocytes",12).
-trace(957,"crp",13).
-trace(957,"leucocytes",14).
-trace(957,"crp",15).
-trace(957,"leucocytes",16).
-trace(957,"crp",17).
-trace(957,"release c",18).
-
-trace(958,"er registration",1).
-trace(958,"er triage",2).
-trace(958,"er sepsis triage",3).
-trace(958,"lacticacid",4).
-trace(958,"leucocytes",5).
-trace(958,"crp",6).
-trace(958,"iv liquid",7).
-trace(958,"iv antibiotics",8).
-trace(958,"admission nc",9).
-trace(958,"crp",10).
-trace(958,"leucocytes",11).
-trace(958,"leucocytes",12).
-trace(958,"crp",13).
-trace(958,"leucocytes",14).
-trace(958,"crp",15).
-trace(958,"crp",16).
-trace(958,"leucocytes",17).
-trace(958,"leucocytes",18).
-trace(958,"crp",19).
-trace(958,"release a",20).
-
-trace(959,"er registration",1).
-trace(959,"lacticacid",2).
-trace(959,"leucocytes",3).
-trace(959,"crp",4).
-trace(959,"iv liquid",5).
-trace(959,"er triage",6).
-trace(959,"er sepsis triage",7).
-trace(959,"iv antibiotics",8).
-trace(959,"admission nc",9).
-trace(959,"crp",10).
-trace(959,"leucocytes",11).
-trace(959,"release a",12).
-
-trace(960,"er registration",1).
-trace(960,"er triage",2).
-trace(960,"er sepsis triage",3).
-trace(960,"leucocytes",4).
-trace(960,"crp",5).
-trace(960,"lacticacid",6).
-trace(960,"iv liquid",7).
-trace(960,"iv antibiotics",8).
-trace(960,"admission nc",9).
-trace(960,"leucocytes",10).
-trace(960,"leucocytes",11).
-trace(960,"crp",12).
-trace(960,"crp",13).
-trace(960,"leucocytes",14).
-trace(960,"crp",15).
-trace(960,"leucocytes",16).
-trace(960,"leucocytes",17).
-trace(960,"crp",18).
-trace(960,"leucocytes",19).
-trace(960,"crp",20).
-trace(960,"leucocytes",21).
-trace(960,"crp",22).
-trace(960,"release a",23).
-
-trace(961,"er registration",1).
-trace(961,"er triage",2).
-trace(961,"er sepsis triage",3).
-
-trace(962,"er registration",1).
-trace(962,"er triage",2).
-trace(962,"er sepsis triage",3).
-trace(962,"leucocytes",4).
-trace(962,"crp",5).
-trace(962,"lacticacid",6).
-trace(962,"lacticacid",7).
-trace(962,"iv liquid",8).
-trace(962,"iv antibiotics",9).
-trace(962,"admission nc",10).
-trace(962,"leucocytes",11).
-trace(962,"crp",12).
-trace(962,"admission nc",13).
-trace(962,"crp",14).
-trace(962,"leucocytes",15).
-trace(962,"crp",16).
-trace(962,"leucocytes",17).
-trace(962,"release a",18).
-trace(962,"return er",19).
-
-trace(963,"er registration",1).
-trace(963,"er triage",2).
-trace(963,"er sepsis triage",3).
-trace(963,"iv liquid",4).
-trace(963,"lacticacid",5).
-trace(963,"leucocytes",6).
-trace(963,"crp",7).
-trace(963,"iv antibiotics",8).
-trace(963,"admission nc",9).
-trace(963,"crp",10).
-trace(963,"lacticacid",11).
-trace(963,"leucocytes",12).
-trace(963,"leucocytes",13).
-trace(963,"leucocytes",14).
-trace(963,"crp",15).
-trace(963,"lacticacid",16).
-trace(963,"release a",17).
-
-trace(964,"er registration",1).
-trace(964,"er triage",2).
-trace(964,"leucocytes",3).
-trace(964,"lacticacid",4).
-trace(964,"crp",5).
-trace(964,"er sepsis triage",6).
-trace(964,"iv liquid",7).
-trace(964,"iv antibiotics",8).
-trace(964,"admission nc",9).
-trace(964,"admission nc",10).
-trace(964,"leucocytes",11).
-trace(964,"crp",12).
-trace(964,"release a",13).
-trace(964,"return er",14).
-
-trace(965,"er registration",1).
-trace(965,"er triage",2).
-trace(965,"er sepsis triage",3).
-trace(965,"iv liquid",4).
-trace(965,"crp",5).
-trace(965,"leucocytes",6).
-trace(965,"lacticacid",7).
-trace(965,"iv antibiotics",8).
-trace(965,"admission nc",9).
-trace(965,"crp",10).
-trace(965,"leucocytes",11).
-trace(965,"crp",12).
-trace(965,"leucocytes",13).
-trace(965,"release a",14).
-
-trace(966,"er registration",1).
-trace(966,"er triage",2).
-trace(966,"er sepsis triage",3).
-trace(966,"leucocytes",4).
-trace(966,"crp",5).
-trace(966,"lacticacid",6).
-trace(966,"admission nc",7).
-trace(966,"leucocytes",8).
-trace(966,"crp",9).
-trace(966,"admission nc",10).
-trace(966,"release a",11).
-
-trace(967,"er registration",1).
-trace(967,"er triage",2).
-trace(967,"er sepsis triage",3).
-trace(967,"crp",4).
-trace(967,"lacticacid",5).
-trace(967,"leucocytes",6).
-
-trace(968,"er registration",1).
-trace(968,"er triage",2).
-trace(968,"er sepsis triage",3).
-trace(968,"crp",4).
-trace(968,"lacticacid",5).
-trace(968,"leucocytes",6).
-trace(968,"iv liquid",7).
-trace(968,"iv antibiotics",8).
-trace(968,"admission nc",9).
-trace(968,"leucocytes",10).
-trace(968,"admission nc",11).
-trace(968,"crp",12).
-trace(968,"crp",13).
-trace(968,"leucocytes",14).
-trace(968,"leucocytes",15).
-trace(968,"leucocytes",16).
-trace(968,"leucocytes",17).
-trace(968,"crp",18).
-trace(968,"release d",19).
-
-trace(969,"er registration",1).
-trace(969,"er triage",2).
-trace(969,"iv liquid",3).
-trace(969,"leucocytes",4).
-trace(969,"crp",5).
-trace(969,"lacticacid",6).
-trace(969,"er sepsis triage",7).
-trace(969,"iv antibiotics",8).
-
-trace(970,"er registration",1).
-trace(970,"er triage",2).
-trace(970,"er sepsis triage",3).
-trace(970,"iv liquid",4).
-trace(970,"lacticacid",5).
-trace(970,"crp",6).
-trace(970,"leucocytes",7).
-trace(970,"iv antibiotics",8).
-trace(970,"admission nc",9).
-trace(970,"leucocytes",10).
-trace(970,"crp",11).
-trace(970,"crp",12).
-trace(970,"release b",13).
-
-trace(971,"er registration",1).
-trace(971,"er triage",2).
-trace(971,"er sepsis triage",3).
-trace(971,"lacticacid",4).
-trace(971,"crp",5).
-trace(971,"leucocytes",6).
-trace(971,"iv liquid",7).
-trace(971,"iv antibiotics",8).
-trace(971,"admission ic",9).
-trace(971,"leucocytes",10).
-trace(971,"lacticacid",11).
-trace(971,"crp",12).
-trace(971,"admission nc",13).
-trace(971,"release a",14).
-
-trace(972,"er registration",1).
-trace(972,"er triage",2).
-trace(972,"er sepsis triage",3).
-trace(972,"leucocytes",4).
-trace(972,"crp",5).
-trace(972,"lacticacid",6).
-trace(972,"iv liquid",7).
-trace(972,"iv antibiotics",8).
-trace(972,"admission nc",9).
-trace(972,"leucocytes",10).
-trace(972,"crp",11).
-trace(972,"leucocytes",12).
-trace(972,"crp",13).
-trace(972,"crp",14).
-trace(972,"leucocytes",15).
-trace(972,"leucocytes",16).
-trace(972,"crp",17).
-trace(972,"leucocytes",18).
-trace(972,"crp",19).
-trace(972,"leucocytes",20).
-trace(972,"crp",21).
-trace(972,"release a",22).
-trace(972,"leucocytes",23).
-trace(972,"return er",24).
-
-trace(973,"er registration",1).
-trace(973,"er triage",2).
-trace(973,"er sepsis triage",3).
-trace(973,"crp",4).
-trace(973,"leucocytes",5).
-trace(973,"iv liquid",6).
-trace(973,"iv antibiotics",7).
-trace(973,"admission nc",8).
-trace(973,"leucocytes",9).
-trace(973,"crp",10).
-trace(973,"admission ic",11).
-trace(973,"crp",12).
-trace(973,"lacticacid",13).
-trace(973,"leucocytes",14).
-trace(973,"crp",15).
-trace(973,"lacticacid",16).
-trace(973,"leucocytes",17).
-trace(973,"leucocytes",18).
-trace(973,"crp",19).
-trace(973,"lacticacid",20).
-trace(973,"leucocytes",21).
-trace(973,"lacticacid",22).
-trace(973,"crp",23).
-trace(973,"lacticacid",24).
-trace(973,"crp",25).
-trace(973,"leucocytes",26).
-trace(973,"crp",27).
-trace(973,"leucocytes",28).
-trace(973,"lacticacid",29).
-trace(973,"lacticacid",30).
-trace(973,"leucocytes",31).
-trace(973,"crp",32).
-trace(973,"lacticacid",33).
-trace(973,"crp",34).
-trace(973,"leucocytes",35).
-trace(973,"leucocytes",36).
-trace(973,"crp",37).
-trace(973,"lacticacid",38).
-trace(973,"leucocytes",39).
-trace(973,"crp",40).
-trace(973,"lacticacid",41).
-trace(973,"crp",42).
-trace(973,"leucocytes",43).
-trace(973,"lacticacid",44).
-trace(973,"lacticacid",45).
-trace(973,"leucocytes",46).
-trace(973,"crp",47).
-trace(973,"leucocytes",48).
-trace(973,"lacticacid",49).
-trace(973,"crp",50).
-trace(973,"admission nc",51).
-trace(973,"release a",52).
-
-trace(974,"er registration",1).
-trace(974,"er triage",2).
-trace(974,"iv liquid",3).
-trace(974,"crp",4).
-trace(974,"leucocytes",5).
-trace(974,"lacticacid",6).
-trace(974,"er sepsis triage",7).
-trace(974,"iv antibiotics",8).
-trace(974,"admission nc",9).
-trace(974,"release a",10).
-
-trace(975,"er registration",1).
-trace(975,"er triage",2).
-trace(975,"er sepsis triage",3).
-trace(975,"leucocytes",4).
-trace(975,"crp",5).
-trace(975,"lacticacid",6).
-trace(975,"iv liquid",7).
-trace(975,"iv antibiotics",8).
-trace(975,"admission nc",9).
-trace(975,"leucocytes",10).
-trace(975,"crp",11).
-trace(975,"release a",12).
-
-trace(976,"er registration",1).
-trace(976,"er triage",2).
-trace(976,"leucocytes",3).
-trace(976,"lacticacid",4).
-trace(976,"crp",5).
-trace(976,"er sepsis triage",6).
-trace(976,"iv antibiotics",7).
-trace(976,"admission nc",8).
-trace(976,"admission nc",9).
-trace(976,"leucocytes",10).
-trace(976,"crp",11).
-trace(976,"crp",12).
-trace(976,"leucocytes",13).
-trace(976,"release a",14).
-trace(976,"return er",15).
-
-trace(977,"er registration",1).
-trace(977,"er triage",2).
-trace(977,"er sepsis triage",3).
-trace(977,"leucocytes",4).
-trace(977,"crp",5).
-trace(977,"lacticacid",6).
-trace(977,"iv liquid",7).
-trace(977,"iv antibiotics",8).
-trace(977,"leucocytes",9).
-trace(977,"admission nc",10).
-trace(977,"crp",11).
-trace(977,"leucocytes",12).
-trace(977,"release a",13).
-trace(977,"return er",14).
-
-trace(978,"er registration",1).
-trace(978,"er triage",2).
-trace(978,"er sepsis triage",3).
-trace(978,"lacticacid",4).
-trace(978,"leucocytes",5).
-trace(978,"crp",6).
-trace(978,"admission nc",7).
-trace(978,"crp",8).
-trace(978,"leucocytes",9).
-trace(978,"release a",10).
-
-trace(979,"er registration",1).
-trace(979,"er triage",2).
-trace(979,"er sepsis triage",3).
-
-trace(980,"er registration",1).
-trace(980,"er triage",2).
-trace(980,"er sepsis triage",3).
-trace(980,"lacticacid",4).
-trace(980,"crp",5).
-trace(980,"leucocytes",6).
-trace(980,"iv antibiotics",7).
-trace(980,"admission nc",8).
-trace(980,"lacticacid",9).
-trace(980,"iv liquid",10).
-trace(980,"leucocytes",11).
-trace(980,"crp",12).
-trace(980,"release a",13).
-
-trace(981,"er registration",1).
-trace(981,"er triage",2).
-trace(981,"er sepsis triage",3).
-trace(981,"crp",4).
-trace(981,"lacticacid",5).
-trace(981,"leucocytes",6).
-trace(981,"iv liquid",7).
-trace(981,"iv antibiotics",8).
-trace(981,"admission nc",9).
-trace(981,"admission nc",10).
-trace(981,"crp",11).
-trace(981,"crp",12).
-trace(981,"leucocytes",13).
-trace(981,"leucocytes",14).
-trace(981,"crp",15).
-trace(981,"admission nc",16).
-trace(981,"release a",17).
-
-trace(982,"er registration",1).
-trace(982,"er triage",2).
-trace(982,"er sepsis triage",3).
-trace(982,"leucocytes",4).
-trace(982,"crp",5).
-trace(982,"lacticacid",6).
-trace(982,"iv liquid",7).
-trace(982,"iv antibiotics",8).
-trace(982,"admission nc",9).
-trace(982,"leucocytes",10).
-trace(982,"admission nc",11).
-trace(982,"crp",12).
-trace(982,"leucocytes",13).
-trace(982,"release d",14).
-
-trace(983,"er registration",1).
-trace(983,"er triage",2).
-trace(983,"er sepsis triage",3).
-trace(983,"iv liquid",4).
-trace(983,"leucocytes",5).
-trace(983,"crp",6).
-trace(983,"lacticacid",7).
-trace(983,"iv antibiotics",8).
-trace(983,"admission nc",9).
-trace(983,"admission ic",10).
-trace(983,"lacticacid",11).
-trace(983,"leucocytes",12).
-trace(983,"crp",13).
-trace(983,"lacticacid",14).
-trace(983,"crp",15).
-trace(983,"leucocytes",16).
-trace(983,"admission nc",17).
-trace(983,"release b",18).
-
-trace(984,"er registration",1).
-trace(984,"er triage",2).
-trace(984,"er sepsis triage",3).
-trace(984,"iv liquid",4).
-trace(984,"crp",5).
-trace(984,"leucocytes",6).
-trace(984,"lacticacid",7).
-trace(984,"iv antibiotics",8).
-trace(984,"admission nc",9).
-trace(984,"leucocytes",10).
-trace(984,"crp",11).
-trace(984,"release a",12).
-trace(984,"return er",13).
-
-trace(985,"er registration",1).
-trace(985,"er triage",2).
-trace(985,"er sepsis triage",3).
-trace(985,"lacticacid",4).
-trace(985,"leucocytes",5).
-trace(985,"crp",6).
-trace(985,"iv liquid",7).
-trace(985,"iv antibiotics",8).
-trace(985,"admission ic",9).
-trace(985,"leucocytes",10).
-trace(985,"lacticacid",11).
-trace(985,"crp",12).
-trace(985,"admission nc",13).
-trace(985,"leucocytes",14).
-trace(985,"crp",15).
-trace(985,"leucocytes",16).
-trace(985,"crp",17).
-trace(985,"leucocytes",18).
-trace(985,"crp",19).
-trace(985,"leucocytes",20).
-trace(985,"crp",21).
-trace(985,"leucocytes",22).
-trace(985,"leucocytes",23).
-trace(985,"leucocytes",24).
-trace(985,"leucocytes",25).
-trace(985,"leucocytes",26).
-trace(985,"leucocytes",27).
-trace(985,"leucocytes",28).
-trace(985,"leucocytes",29).
-trace(985,"leucocytes",30).
-trace(985,"crp",31).
-trace(985,"leucocytes",32).
-trace(985,"leucocytes",33).
-trace(985,"leucocytes",34).
-trace(985,"leucocytes",35).
-trace(985,"leucocytes",36).
-trace(985,"leucocytes",37).
-trace(985,"leucocytes",38).
-trace(985,"crp",39).
-trace(985,"leucocytes",40).
-trace(985,"leucocytes",41).
-trace(985,"crp",42).
-trace(985,"release a",43).
-
-trace(986,"er registration",1).
-trace(986,"iv liquid",2).
-trace(986,"er triage",3).
-trace(986,"er sepsis triage",4).
-trace(986,"iv antibiotics",5).
-trace(986,"leucocytes",6).
-trace(986,"lacticacid",7).
-trace(986,"crp",8).
-trace(986,"admission nc",9).
-trace(986,"leucocytes",10).
-trace(986,"lacticacid",11).
-trace(986,"crp",12).
-trace(986,"leucocytes",13).
-trace(986,"crp",14).
-trace(986,"release a",15).
-trace(986,"return er",16).
-
-trace(987,"er registration",1).
-trace(987,"er triage",2).
-trace(987,"er sepsis triage",3).
-trace(987,"iv liquid",4).
-trace(987,"iv antibiotics",5).
-trace(987,"crp",6).
-trace(987,"lacticacid",7).
-trace(987,"leucocytes",8).
-trace(987,"admission nc",9).
-trace(987,"leucocytes",10).
-trace(987,"release a",11).
-
-trace(988,"er registration",1).
-trace(988,"er triage",2).
-trace(988,"er sepsis triage",3).
-trace(988,"lacticacid",4).
-trace(988,"leucocytes",5).
-trace(988,"crp",6).
-trace(988,"iv liquid",7).
-trace(988,"iv antibiotics",8).
-trace(988,"admission nc",9).
-trace(988,"leucocytes",10).
-trace(988,"leucocytes",11).
-trace(988,"crp",12).
-trace(988,"leucocytes",13).
-trace(988,"crp",14).
-trace(988,"leucocytes",15).
-trace(988,"crp",16).
-trace(988,"leucocytes",17).
-trace(988,"crp",18).
-trace(988,"release a",19).
-trace(988,"return er",20).
-
-trace(989,"er registration",1).
-trace(989,"er triage",2).
-trace(989,"leucocytes",3).
-trace(989,"crp",4).
-trace(989,"lacticacid",5).
-trace(989,"er sepsis triage",6).
-trace(989,"iv liquid",7).
-trace(989,"iv antibiotics",8).
-
-trace(990,"er registration",1).
-trace(990,"er triage",2).
-trace(990,"lacticacid",3).
-trace(990,"leucocytes",4).
-trace(990,"crp",5).
-trace(990,"er sepsis triage",6).
-trace(990,"iv liquid",7).
-trace(990,"iv antibiotics",8).
-
-trace(991,"er registration",1).
-trace(991,"er triage",2).
-trace(991,"lacticacid",3).
-trace(991,"leucocytes",4).
-trace(991,"crp",5).
-trace(991,"er sepsis triage",6).
-trace(991,"iv liquid",7).
-trace(991,"iv antibiotics",8).
-trace(991,"admission nc",9).
-trace(991,"admission nc",10).
-trace(991,"leucocytes",11).
-trace(991,"crp",12).
-trace(991,"admission nc",13).
-trace(991,"leucocytes",14).
-trace(991,"leucocytes",15).
-trace(991,"crp",16).
-trace(991,"leucocytes",17).
-trace(991,"leucocytes",18).
-trace(991,"crp",19).
-trace(991,"release a",20).
-
-trace(992,"er registration",1).
-trace(992,"er triage",2).
-trace(992,"leucocytes",3).
-trace(992,"crp",4).
-trace(992,"er sepsis triage",5).
-
-trace(993,"er registration",1).
-trace(993,"er triage",2).
-trace(993,"er sepsis triage",3).
-trace(993,"iv antibiotics",4).
-trace(993,"crp",5).
-trace(993,"leucocytes",6).
-trace(993,"lacticacid",7).
-trace(993,"admission nc",8).
-trace(993,"admission nc",9).
-trace(993,"crp",10).
-trace(993,"leucocytes",11).
-trace(993,"crp",12).
-trace(993,"leucocytes",13).
-trace(993,"release a",14).
-
-trace(994,"er registration",1).
-trace(994,"er triage",2).
-trace(994,"er sepsis triage",3).
-trace(994,"lacticacid",4).
-trace(994,"leucocytes",5).
-trace(994,"crp",6).
-trace(994,"iv liquid",7).
-trace(994,"iv antibiotics",8).
-trace(994,"admission ic",9).
-trace(994,"leucocytes",10).
-trace(994,"lacticacid",11).
-trace(994,"crp",12).
-trace(994,"admission nc",13).
-trace(994,"leucocytes",14).
-trace(994,"crp",15).
-trace(994,"release a",16).
-
-trace(995,"er registration",1).
-trace(995,"er triage",2).
-trace(995,"er sepsis triage",3).
-trace(995,"leucocytes",4).
-trace(995,"lacticacid",5).
-trace(995,"crp",6).
-trace(995,"iv liquid",7).
-trace(995,"iv antibiotics",8).
-trace(995,"admission nc",9).
-trace(995,"admission nc",10).
-trace(995,"release a",11).
-trace(995,"return er",12).
-
-trace(996,"er registration",1).
-trace(996,"er triage",2).
-trace(996,"leucocytes",3).
-trace(996,"crp",4).
-trace(996,"lacticacid",5).
-trace(996,"er sepsis triage",6).
-trace(996,"iv liquid",7).
-trace(996,"iv antibiotics",8).
-trace(996,"admission nc",9).
-trace(996,"leucocytes",10).
-trace(996,"leucocytes",11).
-trace(996,"crp",12).
-trace(996,"leucocytes",13).
-trace(996,"crp",14).
-trace(996,"leucocytes",15).
-trace(996,"crp",16).
-trace(996,"crp",17).
-trace(996,"leucocytes",18).
-trace(996,"crp",19).
-trace(996,"crp",20).
-trace(996,"leucocytes",21).
-trace(996,"leucocytes",22).
-trace(996,"leucocytes",23).
-trace(996,"crp",24).
-trace(996,"release a",25).
-
-trace(997,"er registration",1).
-trace(997,"er triage",2).
-trace(997,"er sepsis triage",3).
-trace(997,"lacticacid",4).
-trace(997,"leucocytes",5).
-trace(997,"crp",6).
-trace(997,"iv liquid",7).
-trace(997,"iv antibiotics",8).
-trace(997,"admission nc",9).
-trace(997,"leucocytes",10).
-trace(997,"leucocytes",11).
-trace(997,"leucocytes",12).
-trace(997,"crp",13).
-trace(997,"release a",14).
-
-trace(998,"er registration",1).
-trace(998,"er triage",2).
-trace(998,"er sepsis triage",3).
-trace(998,"crp",4).
-trace(998,"leucocytes",5).
-
-trace(999,"er registration",1).
-trace(999,"er triage",2).
-trace(999,"er sepsis triage",3).
-trace(999,"leucocytes",4).
-trace(999,"crp",5).
-
-trace(1000,"er registration",1).
-trace(1000,"er triage",2).
-trace(1000,"er sepsis triage",3).
-trace(1000,"crp",4).
-trace(1000,"leucocytes",5).
-
-trace(1001,"er registration",1).
-trace(1001,"er triage",2).
-trace(1001,"er sepsis triage",3).
-trace(1001,"leucocytes",4).
-trace(1001,"crp",5).
-trace(1001,"lacticacid",6).
-trace(1001,"iv liquid",7).
-trace(1001,"iv antibiotics",8).
-trace(1001,"admission nc",9).
-trace(1001,"crp",10).
-trace(1001,"release a",11).
-trace(1001,"return er",12).
-
-trace(1002,"er registration",1).
-trace(1002,"er triage",2).
-trace(1002,"er sepsis triage",3).
-trace(1002,"lacticacid",4).
-trace(1002,"leucocytes",5).
-trace(1002,"crp",6).
-trace(1002,"iv liquid",7).
-trace(1002,"iv antibiotics",8).
-trace(1002,"admission nc",9).
-trace(1002,"admission nc",10).
-trace(1002,"crp",11).
-trace(1002,"leucocytes",12).
-trace(1002,"leucocytes",13).
-trace(1002,"crp",14).
-trace(1002,"leucocytes",15).
-trace(1002,"crp",16).
-trace(1002,"leucocytes",17).
-trace(1002,"crp",18).
-trace(1002,"crp",19).
-trace(1002,"leucocytes",20).
-trace(1002,"crp",21).
-trace(1002,"crp",22).
-trace(1002,"leucocytes",23).
-trace(1002,"release a",24).
-trace(1002,"return er",25).
-
-trace(1003,"er triage",1).
-trace(1003,"er registration",2).
-trace(1003,"leucocytes",3).
-trace(1003,"crp",4).
-trace(1003,"lacticacid",5).
-trace(1003,"er sepsis triage",6).
-trace(1003,"iv antibiotics",7).
-
-trace(1004,"er registration",1).
-trace(1004,"er triage",2).
-trace(1004,"er sepsis triage",3).
-trace(1004,"crp",4).
-trace(1004,"leucocytes",5).
-trace(1004,"lacticacid",6).
-trace(1004,"iv antibiotics",7).
-trace(1004,"admission nc",8).
-trace(1004,"leucocytes",9).
-trace(1004,"crp",10).
-trace(1004,"leucocytes",11).
-trace(1004,"crp",12).
-trace(1004,"crp",13).
-trace(1004,"leucocytes",14).
-trace(1004,"leucocytes",15).
-trace(1004,"crp",16).
-trace(1004,"leucocytes",17).
-trace(1004,"crp",18).
-trace(1004,"crp",19).
-trace(1004,"crp",20).
-trace(1004,"release c",21).
-trace(1004,"return er",22).
-
-trace(1005,"er registration",1).
-trace(1005,"er triage",2).
-trace(1005,"er sepsis triage",3).
-trace(1005,"iv liquid",4).
-trace(1005,"lacticacid",5).
-trace(1005,"leucocytes",6).
-trace(1005,"crp",7).
-trace(1005,"iv antibiotics",8).
-trace(1005,"admission nc",9).
-trace(1005,"leucocytes",10).
-trace(1005,"crp",11).
-trace(1005,"leucocytes",12).
-trace(1005,"crp",13).
-trace(1005,"crp",14).
-trace(1005,"leucocytes",15).
-trace(1005,"crp",16).
-trace(1005,"leucocytes",17).
-trace(1005,"leucocytes",18).
-trace(1005,"crp",19).
-trace(1005,"leucocytes",20).
-trace(1005,"crp",21).
-trace(1005,"crp",22).
-trace(1005,"leucocytes",23).
-trace(1005,"release a",24).
-
-trace(1006,"er registration",1).
-trace(1006,"er triage",2).
-trace(1006,"er sepsis triage",3).
-trace(1006,"leucocytes",4).
-trace(1006,"crp",5).
-trace(1006,"lacticacid",6).
-trace(1006,"iv liquid",7).
-trace(1006,"iv antibiotics",8).
-
-trace(1007,"er registration",1).
-trace(1007,"iv liquid",2).
-trace(1007,"er triage",3).
-trace(1007,"leucocytes",4).
-trace(1007,"crp",5).
-trace(1007,"lacticacid",6).
-trace(1007,"er sepsis triage",7).
-trace(1007,"iv antibiotics",8).
-trace(1007,"admission nc",9).
-trace(1007,"crp",10).
-trace(1007,"leucocytes",11).
-trace(1007,"leucocytes",12).
-trace(1007,"crp",13).
-trace(1007,"admission nc",14).
-trace(1007,"release a",15).
-
-trace(1008,"er registration",1).
-trace(1008,"er triage",2).
-trace(1008,"er sepsis triage",3).
-trace(1008,"iv liquid",4).
-trace(1008,"iv antibiotics",5).
-trace(1008,"leucocytes",6).
-trace(1008,"crp",7).
-trace(1008,"lacticacid",8).
-
-trace(1009,"er registration",1).
-trace(1009,"er triage",2).
-trace(1009,"er sepsis triage",3).
-trace(1009,"crp",4).
-trace(1009,"leucocytes",5).
-trace(1009,"admission nc",6).
-trace(1009,"crp",7).
-trace(1009,"leucocytes",8).
-trace(1009,"admission nc",9).
-trace(1009,"leucocytes",10).
-trace(1009,"crp",11).
-trace(1009,"crp",12).
-trace(1009,"release a",13).
-trace(1009,"return er",14).
-
-trace(1010,"er registration",1).
-trace(1010,"er triage",2).
-trace(1010,"er sepsis triage",3).
-trace(1010,"leucocytes",4).
-trace(1010,"lacticacid",5).
-trace(1010,"crp",6).
-trace(1010,"iv liquid",7).
-trace(1010,"iv antibiotics",8).
-
-trace(1011,"er registration",1).
-trace(1011,"er triage",2).
-trace(1011,"er sepsis triage",3).
-trace(1011,"crp",4).
-trace(1011,"leucocytes",5).
-trace(1011,"admission ic",6).
-trace(1011,"crp",7).
-trace(1011,"leucocytes",8).
-trace(1011,"lacticacid",9).
-trace(1011,"leucocytes",10).
-trace(1011,"lacticacid",11).
-trace(1011,"crp",12).
-trace(1011,"lacticacid",13).
-trace(1011,"crp",14).
-trace(1011,"leucocytes",15).
-trace(1011,"leucocytes",16).
-trace(1011,"crp",17).
-trace(1011,"lacticacid",18).
-trace(1011,"crp",19).
-trace(1011,"leucocytes",20).
-trace(1011,"lacticacid",21).
-trace(1011,"leucocytes",22).
-trace(1011,"crp",23).
-trace(1011,"lacticacid",24).
-trace(1011,"leucocytes",25).
-trace(1011,"crp",26).
-trace(1011,"lacticacid",27).
-trace(1011,"leucocytes",28).
-trace(1011,"crp",29).
-trace(1011,"lacticacid",30).
-trace(1011,"lacticacid",31).
-trace(1011,"crp",32).
-trace(1011,"leucocytes",33).
-trace(1011,"admission nc",34).
-trace(1011,"leucocytes",35).
-trace(1011,"crp",36).
-trace(1011,"lacticacid",37).
-trace(1011,"leucocytes",38).
-trace(1011,"leucocytes",39).
-trace(1011,"crp",40).
-trace(1011,"lacticacid",41).
-trace(1011,"crp",42).
-trace(1011,"leucocytes",43).
-trace(1011,"crp",44).
-trace(1011,"admission nc",45).
-trace(1011,"crp",46).
-trace(1011,"leucocytes",47).
-trace(1011,"crp",48).
-trace(1011,"leucocytes",49).
-trace(1011,"crp",50).
-trace(1011,"leucocytes",51).
-trace(1011,"leucocytes",52).
-trace(1011,"crp",53).
-trace(1011,"leucocytes",54).
-trace(1011,"crp",55).
-trace(1011,"crp",56).
-trace(1011,"leucocytes",57).
-trace(1011,"leucocytes",58).
-trace(1011,"crp",59).
-trace(1011,"release a",60).
-trace(1011,"return er",61).
-
-trace(1012,"er registration",1).
-trace(1012,"er triage",2).
-trace(1012,"er sepsis triage",3).
-trace(1012,"lacticacid",4).
-trace(1012,"crp",5).
-trace(1012,"leucocytes",6).
-trace(1012,"iv liquid",7).
-trace(1012,"iv antibiotics",8).
-trace(1012,"admission nc",9).
-trace(1012,"release a",10).
-trace(1012,"return er",11).
-
-trace(1013,"er registration",1).
-trace(1013,"er triage",2).
-trace(1013,"er sepsis triage",3).
-trace(1013,"leucocytes",4).
-trace(1013,"crp",5).
-trace(1013,"admission nc",6).
-trace(1013,"leucocytes",7).
-trace(1013,"crp",8).
-trace(1013,"release a",9).
-
-trace(1014,"er registration",1).
-trace(1014,"er triage",2).
-trace(1014,"er sepsis triage",3).
-trace(1014,"leucocytes",4).
-trace(1014,"lacticacid",5).
-trace(1014,"crp",6).
-trace(1014,"iv liquid",7).
-trace(1014,"iv antibiotics",8).
-trace(1014,"admission nc",9).
-trace(1014,"crp",10).
-trace(1014,"release a",11).
-trace(1014,"return er",12).
-
-trace(1015,"er registration",1).
-trace(1015,"er triage",2).
-trace(1015,"er sepsis triage",3).
-trace(1015,"crp",4).
-trace(1015,"leucocytes",5).
-trace(1015,"lacticacid",6).
-trace(1015,"iv antibiotics",7).
-trace(1015,"admission nc",8).
-
-trace(1016,"er registration",1).
-trace(1016,"er triage",2).
-trace(1016,"er sepsis triage",3).
-
-trace(1017,"er registration",1).
-trace(1017,"er triage",2).
-trace(1017,"er sepsis triage",3).
-trace(1017,"lacticacid",4).
-trace(1017,"crp",5).
-trace(1017,"leucocytes",6).
-trace(1017,"iv antibiotics",7).
-trace(1017,"iv liquid",8).
-trace(1017,"admission nc",9).
-trace(1017,"crp",10).
-trace(1017,"leucocytes",11).
-trace(1017,"leucocytes",12).
-trace(1017,"crp",13).
-trace(1017,"leucocytes",14).
-trace(1017,"crp",15).
-trace(1017,"release a",16).
-trace(1017,"return er",17).
-
-trace(1018,"er registration",1).
-trace(1018,"crp",2).
-trace(1018,"lacticacid",3).
-trace(1018,"leucocytes",4).
-trace(1018,"er triage",5).
-trace(1018,"er sepsis triage",6).
-trace(1018,"iv liquid",7).
-trace(1018,"iv antibiotics",8).
-trace(1018,"admission nc",9).
-trace(1018,"admission nc",10).
-trace(1018,"admission nc",11).
-trace(1018,"release a",12).
-trace(1018,"return er",13).
-
-trace(1019,"er registration",1).
-trace(1019,"er triage",2).
-trace(1019,"er sepsis triage",3).
-trace(1019,"leucocytes",4).
-trace(1019,"crp",5).
-trace(1019,"admission nc",6).
-trace(1019,"admission nc",7).
-trace(1019,"crp",8).
-trace(1019,"leucocytes",9).
-trace(1019,"crp",10).
-trace(1019,"leucocytes",11).
-trace(1019,"crp",12).
-trace(1019,"release a",13).
-
-trace(1020,"er registration",1).
-trace(1020,"er triage",2).
-trace(1020,"er sepsis triage",3).
-
-trace(1021,"er registration",1).
-trace(1021,"er triage",2).
-trace(1021,"crp",3).
-trace(1021,"leucocytes",4).
-trace(1021,"er sepsis triage",5).
-
-trace(1022,"er sepsis triage",1).
-trace(1022,"er registration",2).
-trace(1022,"er triage",3).
-trace(1022,"iv liquid",4).
-trace(1022,"iv antibiotics",5).
-trace(1022,"crp",6).
-trace(1022,"leucocytes",7).
-trace(1022,"lacticacid",8).
-trace(1022,"admission nc",9).
-trace(1022,"crp",10).
-trace(1022,"leucocytes",11).
-trace(1022,"admission nc",12).
-trace(1022,"leucocytes",13).
-trace(1022,"crp",14).
-trace(1022,"leucocytes",15).
-trace(1022,"crp",16).
-trace(1022,"release a",17).
-
-trace(1023,"er registration",1).
-trace(1023,"er triage",2).
-trace(1023,"er sepsis triage",3).
-trace(1023,"iv liquid",4).
-trace(1023,"crp",5).
-trace(1023,"leucocytes",6).
-trace(1023,"lacticacid",7).
-trace(1023,"iv antibiotics",8).
-trace(1023,"admission nc",9).
-trace(1023,"leucocytes",10).
-trace(1023,"crp",11).
-trace(1023,"crp",12).
-trace(1023,"leucocytes",13).
-trace(1023,"leucocytes",14).
-trace(1023,"crp",15).
-trace(1023,"crp",16).
-trace(1023,"leucocytes",17).
-trace(1023,"leucocytes",18).
-trace(1023,"crp",19).
-trace(1023,"release d",20).
-
-trace(1024,"er registration",1).
-trace(1024,"er triage",2).
-trace(1024,"er sepsis triage",3).
-trace(1024,"leucocytes",4).
-trace(1024,"admission nc",5).
-trace(1024,"release a",6).
-
-trace(1025,"er registration",1).
-trace(1025,"er triage",2).
-trace(1025,"crp",3).
-trace(1025,"leucocytes",4).
-trace(1025,"lacticacid",5).
-trace(1025,"er sepsis triage",6).
-trace(1025,"iv liquid",7).
-trace(1025,"iv antibiotics",8).
-
-trace(1026,"er registration",1).
-trace(1026,"er triage",2).
-trace(1026,"er sepsis triage",3).
-trace(1026,"iv liquid",4).
-trace(1026,"iv antibiotics",5).
-trace(1026,"leucocytes",6).
-trace(1026,"lacticacid",7).
-trace(1026,"crp",8).
-trace(1026,"admission nc",9).
-trace(1026,"leucocytes",10).
-trace(1026,"crp",11).
-trace(1026,"leucocytes",12).
-trace(1026,"crp",13).
-trace(1026,"admission nc",14).
-trace(1026,"leucocytes",15).
-trace(1026,"crp",16).
-trace(1026,"leucocytes",17).
-trace(1026,"crp",18).
-trace(1026,"admission nc",19).
-trace(1026,"admission nc",20).
-trace(1026,"release a",21).
-
-trace(1027,"er sepsis triage",1).
-trace(1027,"er registration",2).
-trace(1027,"er triage",3).
-trace(1027,"iv liquid",4).
-trace(1027,"iv antibiotics",5).
-trace(1027,"crp",6).
-trace(1027,"lacticacid",7).
-trace(1027,"leucocytes",8).
-trace(1027,"admission ic",9).
-trace(1027,"lacticacid",10).
-trace(1027,"leucocytes",11).
-trace(1027,"crp",12).
-trace(1027,"lacticacid",13).
-trace(1027,"leucocytes",14).
-trace(1027,"crp",15).
-trace(1027,"lacticacid",16).
-trace(1027,"leucocytes",17).
-trace(1027,"crp",18).
-trace(1027,"lacticacid",19).
-trace(1027,"admission nc",20).
-trace(1027,"crp",21).
-trace(1027,"leucocytes",22).
-trace(1027,"crp",23).
-trace(1027,"leucocytes",24).
-trace(1027,"release a",25).
-trace(1027,"return er",26).
-
-trace(1028,"er registration",1).
-trace(1028,"er triage",2).
-trace(1028,"er sepsis triage",3).
-trace(1028,"leucocytes",4).
-trace(1028,"crp",5).
-trace(1028,"lacticacid",6).
-trace(1028,"iv liquid",7).
-trace(1028,"iv antibiotics",8).
-trace(1028,"admission nc",9).
-trace(1028,"crp",10).
-trace(1028,"leucocytes",11).
-trace(1028,"leucocytes",12).
-trace(1028,"crp",13).
-trace(1028,"release a",14).
-
-trace(1029,"er registration",1).
-trace(1029,"leucocytes",2).
-trace(1029,"crp",3).
-trace(1029,"lacticacid",4).
-trace(1029,"er triage",5).
-trace(1029,"er sepsis triage",6).
-trace(1029,"iv liquid",7).
-trace(1029,"iv antibiotics",8).
-trace(1029,"admission nc",9).
-trace(1029,"crp",10).
-trace(1029,"leucocytes",11).
-trace(1029,"crp",12).
-trace(1029,"admission nc",13).
-trace(1029,"leucocytes",14).
-trace(1029,"crp",15).
-trace(1029,"crp",16).
-trace(1029,"leucocytes",17).
-trace(1029,"release a",18).
-
-trace(1030,"er registration",1).
-trace(1030,"er triage",2).
-trace(1030,"er sepsis triage",3).
-trace(1030,"crp",4).
-trace(1030,"leucocytes",5).
-trace(1030,"iv liquid",6).
-trace(1030,"iv antibiotics",7).
-trace(1030,"admission ic",8).
-trace(1030,"admission nc",9).
-trace(1030,"leucocytes",10).
-trace(1030,"crp",11).
-trace(1030,"leucocytes",12).
-trace(1030,"crp",13).
-trace(1030,"leucocytes",14).
-trace(1030,"crp",15).
-trace(1030,"release a",16).
-
-trace(1031,"er registration",1).
-trace(1031,"er triage",2).
-trace(1031,"er sepsis triage",3).
-trace(1031,"iv liquid",4).
-trace(1031,"crp",5).
-trace(1031,"leucocytes",6).
-trace(1031,"lacticacid",7).
-trace(1031,"iv antibiotics",8).
-trace(1031,"admission nc",9).
-trace(1031,"release a",10).
-
-trace(1032,"crp",1).
-trace(1032,"leucocytes",2).
-trace(1032,"er registration",3).
-trace(1032,"er triage",4).
-trace(1032,"er sepsis triage",5).
-trace(1032,"lacticacid",6).
-trace(1032,"leucocytes",7).
-trace(1032,"crp",8).
-trace(1032,"iv liquid",9).
-trace(1032,"iv antibiotics",10).
-trace(1032,"admission nc",11).
-trace(1032,"crp",12).
-trace(1032,"leucocytes",13).
-trace(1032,"release a",14).
-
-trace(1033,"er registration",1).
-trace(1033,"er triage",2).
-trace(1033,"er sepsis triage",3).
-
-trace(1034,"er registration",1).
-trace(1034,"er triage",2).
-trace(1034,"er sepsis triage",3).
-trace(1034,"leucocytes",4).
-trace(1034,"crp",5).
-
-trace(1035,"er registration",1).
-trace(1035,"er triage",2).
-trace(1035,"er sepsis triage",3).
-
-trace(1036,"er registration",1).
-trace(1036,"er triage",2).
-trace(1036,"er sepsis triage",3).
-trace(1036,"leucocytes",4).
-trace(1036,"crp",5).
-trace(1036,"admission nc",6).
-trace(1036,"leucocytes",7).
-trace(1036,"crp",8).
-trace(1036,"release a",9).
-trace(1036,"return er",10).
-
-trace(1037,"iv liquid",1).
-trace(1037,"er registration",2).
-trace(1037,"er triage",3).
-trace(1037,"er sepsis triage",4).
-trace(1037,"leucocytes",5).
-trace(1037,"lacticacid",6).
-trace(1037,"crp",7).
-trace(1037,"iv antibiotics",8).
-trace(1037,"lacticacid",9).
-trace(1037,"admission ic",10).
-trace(1037,"lacticacid",11).
-trace(1037,"crp",12).
-trace(1037,"lacticacid",13).
-trace(1037,"leucocytes",14).
-trace(1037,"lacticacid",15).
-trace(1037,"leucocytes",16).
-trace(1037,"crp",17).
-trace(1037,"leucocytes",18).
-trace(1037,"lacticacid",19).
-trace(1037,"lacticacid",20).
-trace(1037,"crp",21).
-trace(1037,"leucocytes",22).
-trace(1037,"leucocytes",23).
-trace(1037,"lacticacid",24).
-trace(1037,"crp",25).
-trace(1037,"leucocytes",26).
-trace(1037,"crp",27).
-trace(1037,"lacticacid",28).
-trace(1037,"leucocytes",29).
-trace(1037,"crp",30).
-trace(1037,"lacticacid",31).
-trace(1037,"leucocytes",32).
-trace(1037,"crp",33).
-trace(1037,"lacticacid",34).
-trace(1037,"admission nc",35).
-trace(1037,"leucocytes",36).
-trace(1037,"crp",37).
-trace(1037,"leucocytes",38).
-trace(1037,"crp",39).
-trace(1037,"crp",40).
-trace(1037,"leucocytes",41).
-trace(1037,"crp",42).
-trace(1037,"leucocytes",43).
-trace(1037,"leucocytes",44).
-trace(1037,"crp",45).
-trace(1037,"leucocytes",46).
-trace(1037,"crp",47).
-trace(1037,"leucocytes",48).
-trace(1037,"crp",49).
-trace(1037,"leucocytes",50).
-trace(1037,"crp",51).
-trace(1037,"crp",52).
-trace(1037,"leucocytes",53).
-trace(1037,"leucocytes",54).
-trace(1037,"crp",55).
-trace(1037,"leucocytes",56).
-trace(1037,"leucocytes",57).
-trace(1037,"crp",58).
-trace(1037,"leucocytes",59).
-trace(1037,"crp",60).
-trace(1037,"admission ic",61).
-trace(1037,"lacticacid",62).
-trace(1037,"leucocytes",63).
-trace(1037,"crp",64).
-trace(1037,"leucocytes",65).
-trace(1037,"release b",66).
-
-trace(1038,"er registration",1).
-trace(1038,"er triage",2).
-trace(1038,"er sepsis triage",3).
-trace(1038,"crp",4).
-trace(1038,"leucocytes",5).
-trace(1038,"admission nc",6).
-trace(1038,"leucocytes",7).
-trace(1038,"crp",8).
-trace(1038,"release a",9).
-
-trace(1039,"er registration",1).
-trace(1039,"er triage",2).
-trace(1039,"er sepsis triage",3).
-trace(1039,"crp",4).
-trace(1039,"leucocytes",5).
-trace(1039,"admission nc",6).
-trace(1039,"release a",7).
-
-trace(1040,"er registration",1).
-trace(1040,"er triage",2).
-trace(1040,"er sepsis triage",3).
-trace(1040,"leucocytes",4).
-trace(1040,"crp",5).
-trace(1040,"admission nc",6).
-trace(1040,"leucocytes",7).
-trace(1040,"leucocytes",8).
-trace(1040,"crp",9).
-trace(1040,"crp",10).
-trace(1040,"leucocytes",11).
-trace(1040,"leucocytes",12).
-trace(1040,"crp",13).
-trace(1040,"leucocytes",14).
-trace(1040,"crp",15).
-trace(1040,"release a",16).
-trace(1040,"return er",17).
-
-trace(1041,"er registration",1).
-trace(1041,"er triage",2).
-trace(1041,"er sepsis triage",3).
-trace(1041,"leucocytes",4).
-trace(1041,"crp",5).
-trace(1041,"lacticacid",6).
-trace(1041,"iv liquid",7).
-trace(1041,"iv antibiotics",8).
-
-trace(1042,"er registration",1).
-trace(1042,"er triage",2).
-trace(1042,"er sepsis triage",3).
-trace(1042,"crp",4).
-trace(1042,"leucocytes",5).
-
-trace(1043,"er registration",1).
-trace(1043,"er triage",2).
-trace(1043,"er sepsis triage",3).
-trace(1043,"crp",4).
-trace(1043,"lacticacid",5).
-trace(1043,"leucocytes",6).
-trace(1043,"iv antibiotics",7).
-trace(1043,"admission nc",8).
-trace(1043,"iv liquid",9).
-
-trace(1044,"er registration",1).
-trace(1044,"er triage",2).
-trace(1044,"er sepsis triage",3).
-trace(1044,"iv liquid",4).
-trace(1044,"crp",5).
-trace(1044,"lacticacid",6).
-trace(1044,"leucocytes",7).
-trace(1044,"iv antibiotics",8).
-trace(1044,"admission ic",9).
-trace(1044,"crp",10).
-trace(1044,"leucocytes",11).
-trace(1044,"lacticacid",12).
-trace(1044,"crp",13).
-trace(1044,"lacticacid",14).
-trace(1044,"leucocytes",15).
-trace(1044,"admission ic",16).
-trace(1044,"leucocytes",17).
-trace(1044,"crp",18).
-trace(1044,"lacticacid",19).
-trace(1044,"leucocytes",20).
-trace(1044,"leucocytes",21).
-trace(1044,"crp",22).
-trace(1044,"lacticacid",23).
-trace(1044,"admission nc",24).
-trace(1044,"release a",25).
-
-trace(1045,"er registration",1).
-trace(1045,"er triage",2).
-trace(1045,"er sepsis triage",3).
-trace(1045,"leucocytes",4).
-trace(1045,"crp",5).
-trace(1045,"lacticacid",6).
-trace(1045,"iv antibiotics",7).
-trace(1045,"admission ic",8).
-trace(1045,"crp",9).
-trace(1045,"leucocytes",10).
-trace(1045,"lacticacid",11).
-trace(1045,"lacticacid",12).
-trace(1045,"leucocytes",13).
-trace(1045,"leucocytes",14).
-trace(1045,"crp",15).
-trace(1045,"lacticacid",16).
-trace(1045,"leucocytes",17).
-trace(1045,"crp",18).
-trace(1045,"lacticacid",19).
-trace(1045,"lacticacid",20).
-trace(1045,"leucocytes",21).
-trace(1045,"crp",22).
-trace(1045,"admission nc",23).
-trace(1045,"crp",24).
-trace(1045,"leucocytes",25).
-trace(1045,"crp",26).
-trace(1045,"crp",27).
-trace(1045,"leucocytes",28).
-trace(1045,"crp",29).
-trace(1045,"release a",30).
-
-trace(1046,"er registration",1).
-trace(1046,"er triage",2).
-trace(1046,"er sepsis triage",3).
-
-trace(1047,"er registration",1).
-trace(1047,"er triage",2).
-trace(1047,"er sepsis triage",3).
-
-trace(1048,"er registration",1).
-trace(1048,"er triage",2).
-trace(1048,"er sepsis triage",3).
-trace(1048,"leucocytes",4).
-trace(1048,"lacticacid",5).
-trace(1048,"crp",6).
-trace(1048,"iv liquid",7).
-trace(1048,"iv antibiotics",8).
-trace(1048,"admission nc",9).
-trace(1048,"crp",10).
-trace(1048,"leucocytes",11).
-trace(1048,"lacticacid",12).
-trace(1048,"leucocytes",13).
-trace(1048,"crp",14).
-trace(1048,"release a",15).
-
-trace(1049,"er registration",1).
-trace(1049,"er triage",2).
-trace(1049,"er sepsis triage",3).
-
+trace(0,0,"ER Registration").
+trace(0,1,"Leucocytes").
+trace(0,2,"CRP").
+trace(0,3,"LacticAcid").
+trace(0,4,"ER Triage").
+trace(0,5,"ER Sepsis Triage").
+trace(0,6,"IV Liquid").
+trace(0,7,"IV Antibiotics").
+trace(0,8,"Admission NC").
+trace(0,9,"CRP").
+trace(0,10,"Leucocytes").
+trace(0,11,"Leucocytes").
+trace(0,12,"CRP").
+trace(0,13,"Leucocytes").
+trace(0,14,"CRP").
+trace(0,15,"CRP").
+trace(0,16,"Leucocytes").
+trace(0,17,"Leucocytes").
+trace(0,18,"CRP").
+trace(0,19,"CRP").
+trace(0,20,"Leucocytes").
+trace(0,21,"Release A").
+trace(1,0,"ER Registration").
+trace(1,1,"ER Triage").
+trace(1,2,"CRP").
+trace(1,3,"LacticAcid").
+trace(1,4,"Leucocytes").
+trace(1,5,"ER Sepsis Triage").
+trace(1,6,"IV Liquid").
+trace(1,7,"IV Antibiotics").
+trace(1,8,"Admission NC").
+trace(1,9,"CRP").
+trace(1,10,"CRP").
+trace(1,11,"Release A").
+trace(2,0,"ER Registration").
+trace(2,1,"ER Triage").
+trace(2,2,"ER Sepsis Triage").
+trace(2,3,"Leucocytes").
+trace(2,4,"CRP").
+trace(2,5,"IV Liquid").
+trace(2,6,"IV Antibiotics").
+trace(2,7,"Admission NC").
+trace(2,8,"Admission NC").
+trace(2,9,"Leucocytes").
+trace(2,10,"CRP").
+trace(2,11,"Leucocytes").
+trace(2,12,"CRP").
+trace(2,13,"Release A").
+trace(3,0,"ER Registration").
+trace(3,1,"ER Triage").
+trace(3,2,"ER Sepsis Triage").
+trace(3,3,"CRP").
+trace(3,4,"LacticAcid").
+trace(3,5,"Leucocytes").
+trace(3,6,"IV Liquid").
+trace(3,7,"IV Antibiotics").
+trace(3,8,"Admission NC").
+trace(3,9,"Leucocytes").
+trace(3,10,"CRP").
+trace(3,11,"Release A").
+trace(3,12,"Return ER").
+trace(4,0,"ER Registration").
+trace(4,1,"ER Triage").
+trace(4,2,"ER Sepsis Triage").
+trace(4,3,"IV Liquid").
+trace(4,4,"CRP").
+trace(4,5,"Leucocytes").
+trace(4,6,"LacticAcid").
+trace(4,7,"IV Antibiotics").
+trace(5,0,"ER Registration").
+trace(5,1,"ER Triage").
+trace(5,2,"ER Sepsis Triage").
+trace(5,3,"Leucocytes").
+trace(5,4,"CRP").
+trace(5,5,"LacticAcid").
+trace(5,6,"IV Antibiotics").
+trace(5,7,"IV Liquid").
+trace(5,8,"Admission NC").
+trace(5,9,"Release A").
+trace(6,0,"ER Registration").
+trace(6,1,"ER Triage").
+trace(6,2,"ER Sepsis Triage").
+trace(6,3,"IV Liquid").
+trace(6,4,"IV Antibiotics").
+trace(6,5,"LacticAcid").
+trace(6,6,"CRP").
+trace(6,7,"Leucocytes").
+trace(6,8,"Admission NC").
+trace(6,9,"Leucocytes").
+trace(6,10,"CRP").
+trace(6,11,"Release A").
+trace(7,0,"ER Registration").
+trace(7,1,"ER Triage").
+trace(7,2,"ER Sepsis Triage").
+trace(7,3,"CRP").
+trace(7,4,"LacticAcid").
+trace(7,5,"Leucocytes").
+trace(7,6,"Admission IC").
+trace(7,7,"Admission NC").
+trace(7,8,"CRP").
+trace(7,9,"Leucocytes").
+trace(7,10,"CRP").
+trace(7,11,"Admission NC").
+trace(7,12,"Release B").
+trace(8,0,"ER Registration").
+trace(8,1,"ER Triage").
+trace(8,2,"ER Sepsis Triage").
+trace(8,3,"IV Antibiotics").
+trace(8,4,"Leucocytes").
+trace(8,5,"CRP").
+trace(8,6,"LacticAcid").
+trace(8,7,"Admission NC").
+trace(8,8,"Leucocytes").
+trace(8,9,"CRP").
+trace(8,10,"Release A").
+trace(9,0,"ER Registration").
+trace(9,1,"ER Triage").
+trace(9,2,"ER Sepsis Triage").
+trace(9,3,"CRP").
+trace(9,4,"Leucocytes").
+trace(9,5,"LacticAcid").
+trace(9,6,"IV Liquid").
+trace(9,7,"IV Antibiotics").
+trace(9,8,"Admission NC").
+trace(9,9,"CRP").
+trace(9,10,"Release A").
+trace(10,0,"ER Registration").
+trace(10,1,"ER Triage").
+trace(10,2,"ER Sepsis Triage").
+trace(10,3,"LacticAcid").
+trace(10,4,"CRP").
+trace(10,5,"Leucocytes").
+trace(10,6,"IV Antibiotics").
+trace(10,7,"Admission NC").
+trace(10,8,"Leucocytes").
+trace(10,9,"CRP").
+trace(10,10,"Admission NC").
+trace(10,11,"IV Liquid").
+trace(10,12,"CRP").
+trace(10,13,"Leucocytes").
+trace(10,14,"Release A").
+trace(10,15,"Return ER").
+trace(11,0,"ER Registration").
+trace(11,1,"ER Triage").
+trace(11,2,"ER Sepsis Triage").
+trace(11,3,"Leucocytes").
+trace(11,4,"CRP").
+trace(11,5,"LacticAcid").
+trace(11,6,"IV Liquid").
+trace(11,7,"IV Antibiotics").
+trace(11,8,"Admission NC").
+trace(11,9,"Leucocytes").
+trace(11,10,"Leucocytes").
+trace(11,11,"Leucocytes").
+trace(11,12,"CRP").
+trace(11,13,"Release A").
+trace(11,14,"Return ER").
+trace(12,0,"ER Registration").
+trace(12,1,"ER Triage").
+trace(12,2,"ER Sepsis Triage").
+trace(13,0,"ER Registration").
+trace(13,1,"ER Triage").
+trace(13,2,"ER Sepsis Triage").
+trace(13,3,"CRP").
+trace(13,4,"LacticAcid").
+trace(13,5,"Leucocytes").
+trace(13,6,"Admission NC").
+trace(13,7,"IV Liquid").
+trace(13,8,"IV Antibiotics").
+trace(13,9,"CRP").
+trace(13,10,"Leucocytes").
+trace(13,11,"Release A").
+trace(14,0,"ER Registration").
+trace(14,1,"ER Triage").
+trace(14,2,"ER Sepsis Triage").
+trace(14,3,"IV Liquid").
+trace(14,4,"CRP").
+trace(14,5,"Leucocytes").
+trace(14,6,"LacticAcid").
+trace(14,7,"IV Antibiotics").
+trace(14,8,"Admission NC").
+trace(14,9,"Release A").
+trace(14,10,"Return ER").
+trace(15,0,"ER Registration").
+trace(15,1,"ER Triage").
+trace(15,2,"ER Sepsis Triage").
+trace(16,0,"ER Registration").
+trace(16,1,"ER Triage").
+trace(16,2,"ER Sepsis Triage").
+trace(17,0,"ER Registration").
+trace(17,1,"ER Triage").
+trace(17,2,"ER Sepsis Triage").
+trace(17,3,"CRP").
+trace(17,4,"Leucocytes").
+trace(18,0,"ER Registration").
+trace(18,1,"ER Triage").
+trace(18,2,"ER Sepsis Triage").
+trace(18,3,"Leucocytes").
+trace(18,4,"CRP").
+trace(18,5,"LacticAcid").
+trace(18,6,"IV Liquid").
+trace(18,7,"IV Antibiotics").
+trace(18,8,"Admission NC").
+trace(18,9,"Admission IC").
+trace(18,10,"LacticAcid").
+trace(18,11,"Leucocytes").
+trace(18,12,"CRP").
+trace(18,13,"Admission NC").
+trace(18,14,"Leucocytes").
+trace(18,15,"CRP").
+trace(18,16,"Leucocytes").
+trace(18,17,"Release A").
+trace(18,18,"Return ER").
+trace(19,0,"ER Registration").
+trace(19,1,"ER Triage").
+trace(19,2,"ER Sepsis Triage").
+trace(19,3,"IV Liquid").
+trace(19,4,"IV Antibiotics").
+trace(19,5,"CRP").
+trace(19,6,"LacticAcid").
+trace(19,7,"Leucocytes").
+trace(19,8,"Admission NC").
+trace(19,9,"Release B").
+trace(20,0,"ER Registration").
+trace(20,1,"ER Triage").
+trace(20,2,"ER Sepsis Triage").
+trace(20,3,"Leucocytes").
+trace(20,4,"Admission NC").
+trace(20,5,"Leucocytes").
+trace(20,6,"Leucocytes").
+trace(20,7,"Leucocytes").
+trace(20,8,"Leucocytes").
+trace(20,9,"CRP").
+trace(20,10,"Release B").
+trace(21,0,"ER Registration").
+trace(21,1,"ER Triage").
+trace(21,2,"ER Sepsis Triage").
+trace(21,3,"IV Liquid").
+trace(21,4,"Leucocytes").
+trace(21,5,"LacticAcid").
+trace(21,6,"CRP").
+trace(21,7,"IV Antibiotics").
+trace(21,8,"Admission IC").
+trace(21,9,"LacticAcid").
+trace(21,10,"CRP").
+trace(21,11,"Leucocytes").
+trace(21,12,"LacticAcid").
+trace(21,13,"LacticAcid").
+trace(21,14,"CRP").
+trace(21,15,"Leucocytes").
+trace(21,16,"Admission NC").
+trace(21,17,"Leucocytes").
+trace(21,18,"CRP").
+trace(21,19,"Release A").
+trace(21,20,"Return ER").
+trace(22,0,"ER Registration").
+trace(22,1,"ER Triage").
+trace(22,2,"ER Sepsis Triage").
+trace(22,3,"IV Liquid").
+trace(22,4,"LacticAcid").
+trace(22,5,"Leucocytes").
+trace(22,6,"CRP").
+trace(22,7,"IV Antibiotics").
+trace(22,8,"Admission NC").
+trace(22,9,"CRP").
+trace(22,10,"Release A").
+trace(23,0,"ER Registration").
+trace(23,1,"ER Triage").
+trace(23,2,"Leucocytes").
+trace(23,3,"CRP").
+trace(23,4,"LacticAcid").
+trace(23,5,"ER Sepsis Triage").
+trace(23,6,"Leucocytes").
+trace(23,7,"CRP").
+trace(23,8,"LacticAcid").
+trace(23,9,"Admission NC").
+trace(23,10,"CRP").
+trace(23,11,"Release A").
+trace(23,12,"Return ER").
+trace(24,0,"ER Registration").
+trace(24,1,"ER Triage").
+trace(24,2,"ER Sepsis Triage").
+trace(24,3,"IV Antibiotics").
+trace(24,4,"CRP").
+trace(24,5,"LacticAcid").
+trace(24,6,"Leucocytes").
+trace(24,7,"IV Liquid").
+trace(25,0,"ER Registration").
+trace(25,1,"ER Triage").
+trace(25,2,"ER Sepsis Triage").
+trace(25,3,"Leucocytes").
+trace(25,4,"LacticAcid").
+trace(25,5,"CRP").
+trace(25,6,"Admission IC").
+trace(25,7,"Admission NC").
+trace(25,8,"Admission NC").
+trace(25,9,"Release A").
+trace(26,0,"ER Registration").
+trace(26,1,"ER Triage").
+trace(26,2,"ER Sepsis Triage").
+trace(26,3,"Leucocytes").
+trace(26,4,"LacticAcid").
+trace(26,5,"CRP").
+trace(26,6,"IV Liquid").
+trace(26,7,"IV Antibiotics").
+trace(27,0,"ER Registration").
+trace(27,1,"ER Triage").
+trace(27,2,"ER Sepsis Triage").
+trace(27,3,"IV Liquid").
+trace(27,4,"IV Antibiotics").
+trace(27,5,"LacticAcid").
+trace(27,6,"CRP").
+trace(27,7,"Leucocytes").
+trace(27,8,"Admission NC").
+trace(27,9,"CRP").
+trace(27,10,"Leucocytes").
+trace(27,11,"Release A").
+trace(27,12,"Return ER").
+trace(28,0,"ER Registration").
+trace(28,1,"ER Triage").
+trace(28,2,"ER Sepsis Triage").
+trace(28,3,"IV Liquid").
+trace(28,4,"IV Antibiotics").
+trace(28,5,"CRP").
+trace(28,6,"LacticAcid").
+trace(28,7,"Leucocytes").
+trace(29,0,"ER Registration").
+trace(29,1,"ER Triage").
+trace(29,2,"ER Sepsis Triage").
+trace(29,3,"CRP").
+trace(29,4,"Leucocytes").
+trace(29,5,"LacticAcid").
+trace(29,6,"IV Antibiotics").
+trace(29,7,"Admission NC").
+trace(29,8,"IV Liquid").
+trace(29,9,"Leucocytes").
+trace(29,10,"CRP").
+trace(29,11,"Release C").
+trace(30,0,"ER Registration").
+trace(30,1,"ER Triage").
+trace(30,2,"ER Sepsis Triage").
+trace(30,3,"Leucocytes").
+trace(30,4,"CRP").
+trace(30,5,"LacticAcid").
+trace(30,6,"IV Liquid").
+trace(30,7,"IV Antibiotics").
+trace(30,8,"Admission NC").
+trace(30,9,"Admission NC").
+trace(30,10,"Leucocytes").
+trace(30,11,"CRP").
+trace(30,12,"CRP").
+trace(30,13,"Release A").
+trace(30,14,"Return ER").
+trace(31,0,"ER Registration").
+trace(31,1,"ER Triage").
+trace(31,2,"CRP").
+trace(31,3,"LacticAcid").
+trace(31,4,"Leucocytes").
+trace(31,5,"ER Sepsis Triage").
+trace(31,6,"IV Liquid").
+trace(31,7,"IV Antibiotics").
+trace(32,0,"ER Registration").
+trace(32,1,"ER Triage").
+trace(32,2,"ER Sepsis Triage").
+trace(32,3,"IV Liquid").
+trace(32,4,"IV Antibiotics").
+trace(32,5,"CRP").
+trace(32,6,"Leucocytes").
+trace(32,7,"LacticAcid").
+trace(32,8,"Admission NC").
+trace(32,9,"CRP").
+trace(32,10,"Leucocytes").
+trace(32,11,"Release A").
+trace(33,0,"ER Registration").
+trace(33,1,"ER Triage").
+trace(33,2,"Leucocytes").
+trace(33,3,"CRP").
+trace(33,4,"LacticAcid").
+trace(33,5,"ER Sepsis Triage").
+trace(33,6,"Admission NC").
+trace(33,7,"Admission NC").
+trace(33,8,"Leucocytes").
+trace(33,9,"CRP").
+trace(33,10,"Release A").
+trace(34,0,"IV Liquid").
+trace(34,1,"ER Registration").
+trace(34,2,"ER Triage").
+trace(34,3,"ER Sepsis Triage").
+trace(34,4,"LacticAcid").
+trace(34,5,"CRP").
+trace(34,6,"Leucocytes").
+trace(34,7,"IV Antibiotics").
+trace(35,0,"ER Registration").
+trace(35,1,"ER Sepsis Triage").
+trace(35,2,"IV Antibiotics").
+trace(35,3,"ER Triage").
+trace(35,4,"Leucocytes").
+trace(35,5,"LacticAcid").
+trace(35,6,"CRP").
+trace(35,7,"Admission NC").
+trace(35,8,"Admission NC").
+trace(35,9,"CRP").
+trace(35,10,"LacticAcid").
+trace(35,11,"Leucocytes").
+trace(35,12,"Release A").
+trace(35,13,"Return ER").
+trace(36,0,"ER Registration").
+trace(36,1,"ER Triage").
+trace(36,2,"ER Sepsis Triage").
+trace(36,3,"IV Liquid").
+trace(36,4,"IV Antibiotics").
+trace(36,5,"CRP").
+trace(36,6,"LacticAcid").
+trace(36,7,"Leucocytes").
+trace(36,8,"Admission NC").
+trace(36,9,"Leucocytes").
+trace(36,10,"CRP").
+trace(36,11,"Leucocytes").
+trace(36,12,"CRP").
+trace(36,13,"CRP").
+trace(36,14,"Leucocytes").
+trace(36,15,"Release A").
+trace(37,0,"ER Registration").
+trace(37,1,"ER Triage").
+trace(37,2,"ER Sepsis Triage").
+trace(37,3,"Leucocytes").
+trace(37,4,"CRP").
+trace(38,0,"ER Registration").
+trace(38,1,"ER Triage").
+trace(38,2,"ER Sepsis Triage").
+trace(38,3,"LacticAcid").
+trace(38,4,"Leucocytes").
+trace(38,5,"CRP").
+trace(38,6,"IV Liquid").
+trace(38,7,"IV Antibiotics").
+trace(38,8,"Admission NC").
+trace(38,9,"Leucocytes").
+trace(38,10,"CRP").
+trace(38,11,"CRP").
+trace(38,12,"Leucocytes").
+trace(38,13,"Release A").
+trace(39,0,"ER Registration").
+trace(39,1,"ER Triage").
+trace(39,2,"ER Sepsis Triage").
+trace(39,3,"IV Antibiotics").
+trace(39,4,"IV Liquid").
+trace(39,5,"Leucocytes").
+trace(39,6,"CRP").
+trace(39,7,"LacticAcid").
+trace(39,8,"Admission NC").
+trace(39,9,"Admission NC").
+trace(39,10,"Leucocytes").
+trace(39,11,"CRP").
+trace(39,12,"CRP").
+trace(39,13,"Leucocytes").
+trace(39,14,"Leucocytes").
+trace(39,15,"Leucocytes").
+trace(39,16,"Leucocytes").
+trace(39,17,"Leucocytes").
+trace(39,18,"CRP").
+trace(39,19,"LacticAcid").
+trace(39,20,"Leucocytes").
+trace(39,21,"CRP").
+trace(39,22,"Leucocytes").
+trace(39,23,"Release C").
+trace(40,0,"ER Registration").
+trace(40,1,"ER Triage").
+trace(40,2,"ER Sepsis Triage").
+trace(40,3,"IV Liquid").
+trace(40,4,"IV Antibiotics").
+trace(40,5,"LacticAcid").
+trace(40,6,"CRP").
+trace(40,7,"Leucocytes").
+trace(40,8,"Leucocytes").
+trace(40,9,"CRP").
+trace(40,10,"LacticAcid").
+trace(41,0,"ER Registration").
+trace(41,1,"ER Triage").
+trace(41,2,"ER Sepsis Triage").
+trace(41,3,"Leucocytes").
+trace(41,4,"CRP").
+trace(41,5,"LacticAcid").
+trace(42,0,"ER Registration").
+trace(42,1,"ER Triage").
+trace(42,2,"ER Sepsis Triage").
+trace(42,3,"IV Liquid").
+trace(42,4,"Leucocytes").
+trace(42,5,"LacticAcid").
+trace(42,6,"CRP").
+trace(42,7,"IV Antibiotics").
+trace(42,8,"Admission NC").
+trace(42,9,"CRP").
+trace(42,10,"Leucocytes").
+trace(42,11,"CRP").
+trace(42,12,"Leucocytes").
+trace(42,13,"Release D").
+trace(43,0,"ER Registration").
+trace(43,1,"ER Triage").
+trace(43,2,"ER Sepsis Triage").
+trace(44,0,"ER Registration").
+trace(44,1,"ER Triage").
+trace(44,2,"ER Sepsis Triage").
+trace(44,3,"IV Liquid").
+trace(44,4,"CRP").
+trace(44,5,"LacticAcid").
+trace(44,6,"Leucocytes").
+trace(44,7,"IV Antibiotics").
+trace(44,8,"Admission NC").
+trace(44,9,"CRP").
+trace(44,10,"Leucocytes").
+trace(44,11,"CRP").
+trace(44,12,"Release A").
+trace(44,13,"Return ER").
+trace(45,0,"ER Registration").
+trace(45,1,"ER Triage").
+trace(45,2,"ER Sepsis Triage").
+trace(45,3,"CRP").
+trace(45,4,"Leucocytes").
+trace(45,5,"Admission NC").
+trace(45,6,"CRP").
+trace(45,7,"Leucocytes").
+trace(45,8,"CRP").
+trace(45,9,"Release A").
+trace(46,0,"ER Registration").
+trace(46,1,"ER Triage").
+trace(46,2,"ER Sepsis Triage").
+trace(46,3,"LacticAcid").
+trace(46,4,"Leucocytes").
+trace(46,5,"CRP").
+trace(46,6,"IV Liquid").
+trace(46,7,"IV Antibiotics").
+trace(46,8,"Admission NC").
+trace(46,9,"LacticAcid").
+trace(46,10,"Release A").
+trace(47,0,"ER Registration").
+trace(47,1,"ER Triage").
+trace(47,2,"ER Sepsis Triage").
+trace(47,3,"CRP").
+trace(47,4,"LacticAcid").
+trace(47,5,"Leucocytes").
+trace(47,6,"IV Liquid").
+trace(47,7,"IV Antibiotics").
+trace(47,8,"Admission NC").
+trace(47,9,"CRP").
+trace(47,10,"Leucocytes").
+trace(47,11,"Admission NC").
+trace(47,12,"Release A").
+trace(48,0,"ER Registration").
+trace(48,1,"ER Triage").
+trace(48,2,"ER Sepsis Triage").
+trace(48,3,"CRP").
+trace(48,4,"Admission NC").
+trace(48,5,"Admission NC").
+trace(48,6,"Release A").
+trace(48,7,"Return ER").
+trace(49,0,"ER Registration").
+trace(49,1,"ER Triage").
+trace(49,2,"ER Sepsis Triage").
+trace(50,0,"ER Registration").
+trace(50,1,"ER Triage").
+trace(50,2,"ER Sepsis Triage").
+trace(50,3,"Leucocytes").
+trace(50,4,"CRP").
+trace(50,5,"LacticAcid").
+trace(51,0,"ER Registration").
+trace(51,1,"ER Triage").
+trace(51,2,"ER Sepsis Triage").
+trace(51,3,"CRP").
+trace(51,4,"LacticAcid").
+trace(51,5,"Leucocytes").
+trace(51,6,"IV Liquid").
+trace(51,7,"IV Antibiotics").
+trace(52,0,"ER Registration").
+trace(52,1,"ER Triage").
+trace(52,2,"ER Sepsis Triage").
+trace(52,3,"CRP").
+trace(52,4,"LacticAcid").
+trace(52,5,"Leucocytes").
+trace(52,6,"IV Liquid").
+trace(52,7,"IV Antibiotics").
+trace(53,0,"ER Registration").
+trace(53,1,"ER Triage").
+trace(53,2,"ER Sepsis Triage").
+trace(53,3,"CRP").
+trace(53,4,"LacticAcid").
+trace(53,5,"Leucocytes").
+trace(54,0,"ER Registration").
+trace(54,1,"ER Triage").
+trace(54,2,"ER Sepsis Triage").
+trace(54,3,"CRP").
+trace(54,4,"LacticAcid").
+trace(54,5,"Leucocytes").
+trace(54,6,"IV Liquid").
+trace(54,7,"IV Antibiotics").
+trace(54,8,"Admission NC").
+trace(54,9,"Admission NC").
+trace(54,10,"CRP").
+trace(54,11,"Leucocytes").
+trace(54,12,"CRP").
+trace(54,13,"Release A").
+trace(55,0,"ER Registration").
+trace(55,1,"ER Triage").
+trace(55,2,"ER Sepsis Triage").
+trace(55,3,"CRP").
+trace(55,4,"LacticAcid").
+trace(55,5,"Leucocytes").
+trace(55,6,"IV Liquid").
+trace(55,7,"IV Antibiotics").
+trace(55,8,"Admission NC").
+trace(55,9,"Leucocytes").
+trace(55,10,"CRP").
+trace(55,11,"Release A").
+trace(56,0,"ER Registration").
+trace(56,1,"ER Triage").
+trace(56,2,"ER Sepsis Triage").
+trace(56,3,"Leucocytes").
+trace(56,4,"CRP").
+trace(56,5,"LacticAcid").
+trace(56,6,"IV Liquid").
+trace(56,7,"IV Antibiotics").
+trace(57,0,"ER Registration").
+trace(57,1,"ER Triage").
+trace(57,2,"ER Sepsis Triage").
+trace(57,3,"IV Liquid").
+trace(57,4,"IV Antibiotics").
+trace(57,5,"CRP").
+trace(57,6,"Leucocytes").
+trace(57,7,"LacticAcid").
+trace(58,0,"ER Registration").
+trace(58,1,"Leucocytes").
+trace(58,2,"LacticAcid").
+trace(58,3,"CRP").
+trace(58,4,"ER Triage").
+trace(58,5,"ER Sepsis Triage").
+trace(58,6,"IV Liquid").
+trace(58,7,"IV Antibiotics").
+trace(58,8,"Admission NC").
+trace(58,9,"Leucocytes").
+trace(58,10,"CRP").
+trace(58,11,"Release A").
+trace(58,12,"Return ER").
+trace(59,0,"ER Registration").
+trace(59,1,"ER Triage").
+trace(59,2,"ER Sepsis Triage").
+trace(59,3,"CRP").
+trace(59,4,"LacticAcid").
+trace(59,5,"Leucocytes").
+trace(59,6,"IV Liquid").
+trace(59,7,"IV Antibiotics").
+trace(59,8,"Admission NC").
+trace(59,9,"CRP").
+trace(59,10,"Leucocytes").
+trace(59,11,"Admission NC").
+trace(59,12,"Leucocytes").
+trace(59,13,"CRP").
+trace(59,14,"Release A").
+trace(60,0,"ER Registration").
+trace(60,1,"Leucocytes").
+trace(60,2,"CRP").
+trace(60,3,"LacticAcid").
+trace(60,4,"ER Triage").
+trace(60,5,"ER Sepsis Triage").
+trace(60,6,"IV Liquid").
+trace(60,7,"IV Antibiotics").
+trace(60,8,"Admission NC").
+trace(60,9,"Leucocytes").
+trace(60,10,"Admission NC").
+trace(60,11,"CRP").
+trace(60,12,"Leucocytes").
+trace(60,13,"Release A").
+trace(61,0,"ER Registration").
+trace(61,1,"ER Triage").
+trace(61,2,"ER Sepsis Triage").
+trace(61,3,"CRP").
+trace(61,4,"LacticAcid").
+trace(61,5,"Leucocytes").
+trace(61,6,"IV Liquid").
+trace(61,7,"IV Antibiotics").
+trace(62,0,"ER Registration").
+trace(62,1,"ER Triage").
+trace(62,2,"ER Sepsis Triage").
+trace(62,3,"LacticAcid").
+trace(62,4,"CRP").
+trace(62,5,"Leucocytes").
+trace(62,6,"IV Antibiotics").
+trace(62,7,"IV Liquid").
+trace(62,8,"Admission NC").
+trace(62,9,"Release A").
+trace(62,10,"Return ER").
+trace(63,0,"ER Registration").
+trace(63,1,"ER Triage").
+trace(63,2,"LacticAcid").
+trace(63,3,"CRP").
+trace(63,4,"Leucocytes").
+trace(63,5,"ER Sepsis Triage").
+trace(63,6,"IV Liquid").
+trace(63,7,"IV Antibiotics").
+trace(63,8,"Admission NC").
+trace(63,9,"Admission NC").
+trace(63,10,"CRP").
+trace(63,11,"Leucocytes").
+trace(63,12,"Leucocytes").
+trace(63,13,"CRP").
+trace(63,14,"CRP").
+trace(63,15,"Leucocytes").
+trace(63,16,"Leucocytes").
+trace(63,17,"CRP").
+trace(63,18,"Release B").
+trace(64,0,"ER Registration").
+trace(64,1,"ER Triage").
+trace(64,2,"ER Sepsis Triage").
+trace(65,0,"ER Registration").
+trace(65,1,"ER Triage").
+trace(65,2,"ER Sepsis Triage").
+trace(65,3,"Leucocytes").
+trace(65,4,"LacticAcid").
+trace(65,5,"CRP").
+trace(65,6,"IV Liquid").
+trace(65,7,"IV Antibiotics").
+trace(65,8,"Admission NC").
+trace(65,9,"CRP").
+trace(65,10,"Leucocytes").
+trace(65,11,"LacticAcid").
+trace(65,12,"Admission NC").
+trace(65,13,"CRP").
+trace(65,14,"Leucocytes").
+trace(65,15,"CRP").
+trace(65,16,"CRP").
+trace(65,17,"Leucocytes").
+trace(65,18,"CRP").
+trace(65,19,"Leucocytes").
+trace(65,20,"Release A").
+trace(66,0,"ER Registration").
+trace(66,1,"ER Triage").
+trace(66,2,"CRP").
+trace(66,3,"LacticAcid").
+trace(66,4,"Leucocytes").
+trace(66,5,"ER Sepsis Triage").
+trace(66,6,"IV Liquid").
+trace(66,7,"IV Antibiotics").
+trace(66,8,"Admission NC").
+trace(66,9,"CRP").
+trace(66,10,"Leucocytes").
+trace(66,11,"Leucocytes").
+trace(66,12,"CRP").
+trace(66,13,"Leucocytes").
+trace(66,14,"CRP").
+trace(66,15,"Release A").
+trace(67,0,"ER Registration").
+trace(67,1,"ER Triage").
+trace(67,2,"ER Sepsis Triage").
+trace(67,3,"IV Liquid").
+trace(67,4,"CRP").
+trace(67,5,"LacticAcid").
+trace(67,6,"Leucocytes").
+trace(67,7,"IV Antibiotics").
+trace(67,8,"Admission NC").
+trace(67,9,"Leucocytes").
+trace(67,10,"CRP").
+trace(67,11,"Leucocytes").
+trace(67,12,"CRP").
+trace(67,13,"Leucocytes").
+trace(67,14,"Release A").
+trace(67,15,"Return ER").
+trace(68,0,"ER Registration").
+trace(68,1,"ER Triage").
+trace(68,2,"ER Sepsis Triage").
+trace(68,3,"IV Liquid").
+trace(68,4,"CRP").
+trace(68,5,"LacticAcid").
+trace(68,6,"Leucocytes").
+trace(68,7,"IV Antibiotics").
+trace(68,8,"Admission NC").
+trace(68,9,"CRP").
+trace(68,10,"Leucocytes").
+trace(68,11,"Leucocytes").
+trace(68,12,"CRP").
+trace(68,13,"Leucocytes").
+trace(68,14,"Release A").
+trace(68,15,"Return ER").
+trace(69,0,"ER Registration").
+trace(69,1,"ER Triage").
+trace(69,2,"ER Sepsis Triage").
+trace(69,3,"Leucocytes").
+trace(69,4,"CRP").
+trace(69,5,"Admission NC").
+trace(69,6,"Release A").
+trace(70,0,"ER Registration").
+trace(70,1,"ER Triage").
+trace(70,2,"ER Sepsis Triage").
+trace(70,3,"IV Liquid").
+trace(70,4,"IV Antibiotics").
+trace(70,5,"Leucocytes").
+trace(70,6,"CRP").
+trace(70,7,"LacticAcid").
+trace(70,8,"Admission NC").
+trace(70,9,"CRP").
+trace(70,10,"Admission NC").
+trace(70,11,"CRP").
+trace(70,12,"Release A").
+trace(70,13,"Return ER").
+trace(71,0,"ER Registration").
+trace(71,1,"ER Triage").
+trace(71,2,"ER Sepsis Triage").
+trace(71,3,"Leucocytes").
+trace(71,4,"LacticAcid").
+trace(71,5,"CRP").
+trace(71,6,"Admission NC").
+trace(71,7,"Release A").
+trace(71,8,"Return ER").
+trace(72,0,"ER Registration").
+trace(72,1,"ER Triage").
+trace(72,2,"ER Sepsis Triage").
+trace(72,3,"IV Liquid").
+trace(72,4,"CRP").
+trace(72,5,"LacticAcid").
+trace(72,6,"Leucocytes").
+trace(72,7,"IV Antibiotics").
+trace(72,8,"Admission NC").
+trace(73,0,"ER Registration").
+trace(73,1,"ER Triage").
+trace(73,2,"ER Sepsis Triage").
+trace(73,3,"Leucocytes").
+trace(73,4,"CRP").
+trace(73,5,"LacticAcid").
+trace(73,6,"IV Antibiotics").
+trace(73,7,"Admission NC").
+trace(73,8,"Admission NC").
+trace(73,9,"CRP").
+trace(73,10,"Leucocytes").
+trace(73,11,"Release A").
+trace(73,12,"Return ER").
+trace(74,0,"ER Registration").
+trace(74,1,"ER Triage").
+trace(74,2,"ER Sepsis Triage").
+trace(74,3,"CRP").
+trace(74,4,"Leucocytes").
+trace(75,0,"ER Registration").
+trace(75,1,"ER Triage").
+trace(75,2,"ER Sepsis Triage").
+trace(75,3,"Leucocytes").
+trace(75,4,"LacticAcid").
+trace(75,5,"CRP").
+trace(75,6,"IV Liquid").
+trace(75,7,"IV Antibiotics").
+trace(75,8,"Admission NC").
+trace(75,9,"LacticAcid").
+trace(75,10,"Release B").
+trace(76,0,"ER Registration").
+trace(76,1,"ER Triage").
+trace(76,2,"ER Sepsis Triage").
+trace(76,3,"CRP").
+trace(76,4,"LacticAcid").
+trace(76,5,"Leucocytes").
+trace(76,6,"IV Antibiotics").
+trace(76,7,"IV Liquid").
+trace(76,8,"Admission NC").
+trace(76,9,"Admission NC").
+trace(76,10,"CRP").
+trace(76,11,"Leucocytes").
+trace(76,12,"Leucocytes").
+trace(76,13,"CRP").
+trace(76,14,"Release A").
+trace(77,0,"ER Registration").
+trace(77,1,"ER Triage").
+trace(77,2,"ER Sepsis Triage").
+trace(77,3,"Leucocytes").
+trace(77,4,"LacticAcid").
+trace(77,5,"CRP").
+trace(77,6,"IV Antibiotics").
+trace(77,7,"Admission NC").
+trace(77,8,"IV Liquid").
+trace(77,9,"Leucocytes").
+trace(77,10,"CRP").
+trace(77,11,"Leucocytes").
+trace(77,12,"CRP").
+trace(77,13,"Leucocytes").
+trace(77,14,"Release A").
+trace(77,15,"Return ER").
+trace(78,0,"ER Registration").
+trace(78,1,"ER Triage").
+trace(78,2,"ER Sepsis Triage").
+trace(78,3,"Leucocytes").
+trace(78,4,"LacticAcid").
+trace(78,5,"CRP").
+trace(78,6,"IV Liquid").
+trace(78,7,"IV Antibiotics").
+trace(78,8,"Admission NC").
+trace(78,9,"CRP").
+trace(78,10,"Leucocytes").
+trace(78,11,"Release A").
+trace(78,12,"Return ER").
+trace(79,0,"ER Registration").
+trace(79,1,"ER Triage").
+trace(79,2,"ER Sepsis Triage").
+trace(79,3,"Leucocytes").
+trace(79,4,"CRP").
+trace(80,0,"ER Registration").
+trace(80,1,"ER Triage").
+trace(80,2,"ER Sepsis Triage").
+trace(80,3,"IV Liquid").
+trace(80,4,"IV Antibiotics").
+trace(80,5,"CRP").
+trace(80,6,"Leucocytes").
+trace(80,7,"LacticAcid").
+trace(80,8,"Admission NC").
+trace(80,9,"Admission NC").
+trace(80,10,"CRP").
+trace(80,11,"Leucocytes").
+trace(80,12,"Release D").
+trace(80,13,"Return ER").
+trace(81,0,"ER Registration").
+trace(81,1,"ER Triage").
+trace(81,2,"ER Sepsis Triage").
+trace(81,3,"LacticAcid").
+trace(81,4,"Leucocytes").
+trace(81,5,"CRP").
+trace(81,6,"IV Liquid").
+trace(81,7,"IV Antibiotics").
+trace(81,8,"Admission NC").
+trace(81,9,"CRP").
+trace(81,10,"Release A").
+trace(81,11,"Return ER").
+trace(82,0,"ER Registration").
+trace(82,1,"ER Triage").
+trace(82,2,"ER Sepsis Triage").
+trace(82,3,"LacticAcid").
+trace(82,4,"Leucocytes").
+trace(82,5,"CRP").
+trace(82,6,"IV Liquid").
+trace(82,7,"IV Antibiotics").
+trace(82,8,"Admission NC").
+trace(82,9,"CRP").
+trace(82,10,"Leucocytes").
+trace(82,11,"Leucocytes").
+trace(82,12,"CRP").
+trace(82,13,"Leucocytes").
+trace(82,14,"CRP").
+trace(82,15,"Leucocytes").
+trace(82,16,"Release A").
+trace(83,0,"ER Registration").
+trace(83,1,"ER Triage").
+trace(83,2,"ER Sepsis Triage").
+trace(83,3,"Leucocytes").
+trace(83,4,"CRP").
+trace(83,5,"Admission NC").
+trace(83,6,"Release A").
+trace(84,0,"ER Registration").
+trace(84,1,"ER Triage").
+trace(84,2,"ER Sepsis Triage").
+trace(84,3,"IV Liquid").
+trace(84,4,"IV Antibiotics").
+trace(84,5,"Leucocytes").
+trace(84,6,"CRP").
+trace(84,7,"LacticAcid").
+trace(84,8,"Admission NC").
+trace(84,9,"CRP").
+trace(84,10,"Leucocytes").
+trace(84,11,"Release A").
+trace(85,0,"ER Registration").
+trace(85,1,"ER Triage").
+trace(85,2,"ER Sepsis Triage").
+trace(85,3,"Leucocytes").
+trace(85,4,"CRP").
+trace(86,0,"ER Triage").
+trace(86,1,"ER Registration").
+trace(86,2,"ER Sepsis Triage").
+trace(86,3,"IV Liquid").
+trace(86,4,"IV Antibiotics").
+trace(86,5,"Leucocytes").
+trace(86,6,"CRP").
+trace(86,7,"LacticAcid").
+trace(86,8,"Admission NC").
+trace(86,9,"Leucocytes").
+trace(86,10,"Release A").
+trace(86,11,"Return ER").
+trace(87,0,"ER Registration").
+trace(87,1,"ER Triage").
+trace(87,2,"ER Sepsis Triage").
+trace(87,3,"IV Liquid").
+trace(87,4,"IV Antibiotics").
+trace(87,5,"Leucocytes").
+trace(87,6,"CRP").
+trace(87,7,"LacticAcid").
+trace(87,8,"Admission NC").
+trace(87,9,"CRP").
+trace(87,10,"Leucocytes").
+trace(87,11,"CRP").
+trace(87,12,"Leucocytes").
+trace(87,13,"Release A").
+trace(87,14,"Return ER").
+trace(88,0,"ER Registration").
+trace(88,1,"ER Triage").
+trace(88,2,"ER Sepsis Triage").
+trace(88,3,"Leucocytes").
+trace(88,4,"LacticAcid").
+trace(88,5,"CRP").
+trace(88,6,"IV Liquid").
+trace(88,7,"IV Antibiotics").
+trace(88,8,"Admission NC").
+trace(88,9,"CRP").
+trace(88,10,"Leucocytes").
+trace(88,11,"CRP").
+trace(88,12,"Release A").
+trace(89,0,"ER Registration").
+trace(89,1,"ER Triage").
+trace(89,2,"ER Sepsis Triage").
+trace(89,3,"CRP").
+trace(89,4,"LacticAcid").
+trace(89,5,"Leucocytes").
+trace(89,6,"IV Antibiotics").
+trace(89,7,"Admission NC").
+trace(89,8,"Admission NC").
+trace(89,9,"CRP").
+trace(89,10,"CRP").
+trace(89,11,"Leucocytes").
+trace(89,12,"CRP").
+trace(89,13,"CRP").
+trace(89,14,"Leucocytes").
+trace(89,15,"CRP").
+trace(89,16,"Leucocytes").
+trace(89,17,"CRP").
+trace(89,18,"Leucocytes").
+trace(89,19,"Release A").
+trace(89,20,"Return ER").
+trace(90,0,"ER Registration").
+trace(90,1,"ER Triage").
+trace(90,2,"ER Sepsis Triage").
+trace(90,3,"IV Liquid").
+trace(90,4,"Leucocytes").
+trace(90,5,"CRP").
+trace(90,6,"LacticAcid").
+trace(90,7,"IV Antibiotics").
+trace(90,8,"Admission NC").
+trace(90,9,"Leucocytes").
+trace(90,10,"CRP").
+trace(90,11,"Leucocytes").
+trace(90,12,"Release A").
+trace(90,13,"Return ER").
+trace(91,0,"ER Registration").
+trace(91,1,"ER Triage").
+trace(91,2,"ER Sepsis Triage").
+trace(91,3,"Leucocytes").
+trace(91,4,"CRP").
+trace(91,5,"IV Antibiotics").
+trace(91,6,"IV Liquid").
+trace(92,0,"ER Registration").
+trace(92,1,"ER Triage").
+trace(92,2,"ER Sepsis Triage").
+trace(92,3,"IV Liquid").
+trace(92,4,"IV Antibiotics").
+trace(92,5,"Leucocytes").
+trace(92,6,"CRP").
+trace(92,7,"CRP").
+trace(92,8,"Leucocytes").
+trace(92,9,"LacticAcid").
+trace(92,10,"Admission IC").
+trace(92,11,"CRP").
+trace(92,12,"LacticAcid").
+trace(92,13,"Leucocytes").
+trace(92,14,"Leucocytes").
+trace(92,15,"CRP").
+trace(92,16,"LacticAcid").
+trace(92,17,"Admission NC").
+trace(92,18,"Leucocytes").
+trace(92,19,"CRP").
+trace(92,20,"Release A").
+trace(92,21,"Return ER").
+trace(93,0,"ER Registration").
+trace(93,1,"ER Triage").
+trace(93,2,"ER Sepsis Triage").
+trace(93,3,"Leucocytes").
+trace(93,4,"CRP").
+trace(94,0,"ER Registration").
+trace(94,1,"ER Triage").
+trace(94,2,"ER Sepsis Triage").
+trace(94,3,"Leucocytes").
+trace(94,4,"CRP").
+trace(94,5,"LacticAcid").
+trace(94,6,"IV Liquid").
+trace(94,7,"IV Antibiotics").
+trace(94,8,"Admission NC").
+trace(94,9,"CRP").
+trace(94,10,"Leucocytes").
+trace(94,11,"CRP").
+trace(94,12,"Leucocytes").
+trace(94,13,"CRP").
+trace(94,14,"Release A").
+trace(95,0,"ER Registration").
+trace(95,1,"ER Triage").
+trace(95,2,"ER Sepsis Triage").
+trace(95,3,"CRP").
+trace(95,4,"Leucocytes").
+trace(95,5,"IV Liquid").
+trace(95,6,"IV Antibiotics").
+trace(95,7,"Admission NC").
+trace(95,8,"Admission NC").
+trace(95,9,"CRP").
+trace(95,10,"CRP").
+trace(95,11,"Release A").
+trace(95,12,"Return ER").
+trace(96,0,"ER Registration").
+trace(96,1,"ER Triage").
+trace(96,2,"ER Sepsis Triage").
+trace(96,3,"CRP").
+trace(96,4,"LacticAcid").
+trace(96,5,"Leucocytes").
+trace(96,6,"IV Antibiotics").
+trace(96,7,"IV Liquid").
+trace(96,8,"LacticAcid").
+trace(97,0,"ER Registration").
+trace(97,1,"IV Liquid").
+trace(97,2,"ER Triage").
+trace(97,3,"ER Sepsis Triage").
+trace(97,4,"IV Antibiotics").
+trace(97,5,"CRP").
+trace(97,6,"LacticAcid").
+trace(97,7,"Leucocytes").
+trace(97,8,"Admission IC").
+trace(97,9,"CRP").
+trace(97,10,"LacticAcid").
+trace(97,11,"Leucocytes").
+trace(97,12,"CRP").
+trace(97,13,"Leucocytes").
+trace(97,14,"LacticAcid").
+trace(97,15,"LacticAcid").
+trace(97,16,"CRP").
+trace(97,17,"Leucocytes").
+trace(97,18,"Leucocytes").
+trace(97,19,"CRP").
+trace(97,20,"LacticAcid").
+trace(97,21,"Admission NC").
+trace(97,22,"Release A").
+trace(97,23,"Return ER").
+trace(98,0,"ER Registration").
+trace(98,1,"ER Triage").
+trace(98,2,"ER Sepsis Triage").
+trace(98,3,"IV Liquid").
+trace(98,4,"Leucocytes").
+trace(98,5,"CRP").
+trace(98,6,"IV Antibiotics").
+trace(98,7,"Admission NC").
+trace(98,8,"Admission IC").
+trace(98,9,"LacticAcid").
+trace(98,10,"CRP").
+trace(98,11,"Leucocytes").
+trace(98,12,"Leucocytes").
+trace(98,13,"CRP").
+trace(98,14,"LacticAcid").
+trace(98,15,"LacticAcid").
+trace(98,16,"Leucocytes").
+trace(98,17,"LacticAcid").
+trace(98,18,"CRP").
+trace(98,19,"Leucocytes").
+trace(98,20,"LacticAcid").
+trace(98,21,"LacticAcid").
+trace(98,22,"Leucocytes").
+trace(98,23,"LacticAcid").
+trace(98,24,"CRP").
+trace(98,25,"Admission NC").
+trace(98,26,"Leucocytes").
+trace(98,27,"CRP").
+trace(98,28,"Leucocytes").
+trace(98,29,"CRP").
+trace(98,30,"Release A").
+trace(98,31,"Return ER").
+trace(99,0,"ER Registration").
+trace(99,1,"ER Triage").
+trace(99,2,"ER Sepsis Triage").
+trace(99,3,"LacticAcid").
+trace(99,4,"Leucocytes").
+trace(99,5,"CRP").
+trace(99,6,"IV Antibiotics").
+trace(99,7,"IV Liquid").
+trace(99,8,"Admission NC").
+trace(99,9,"CRP").
+trace(99,10,"Leucocytes").
+trace(99,11,"CRP").
+trace(99,12,"Release A").
+trace(100,0,"IV Liquid").
+trace(100,1,"ER Registration").
+trace(100,2,"ER Triage").
+trace(100,3,"ER Sepsis Triage").
+trace(100,4,"LacticAcid").
+trace(100,5,"CRP").
+trace(100,6,"Leucocytes").
+trace(100,7,"IV Antibiotics").
+trace(100,8,"Admission NC").
+trace(100,9,"Admission NC").
+trace(100,10,"Release A").
+trace(100,11,"Return ER").
+trace(101,0,"ER Registration").
+trace(101,1,"ER Triage").
+trace(101,2,"ER Sepsis Triage").
+trace(101,3,"IV Liquid").
+trace(101,4,"IV Antibiotics").
+trace(101,5,"LacticAcid").
+trace(101,6,"Leucocytes").
+trace(101,7,"CRP").
+trace(102,0,"CRP").
+trace(102,1,"Leucocytes").
+trace(102,2,"ER Registration").
+trace(102,3,"ER Triage").
+trace(102,4,"Leucocytes").
+trace(102,5,"CRP").
+trace(102,6,"ER Sepsis Triage").
+trace(102,7,"IV Liquid").
+trace(102,8,"IV Antibiotics").
+trace(103,0,"ER Registration").
+trace(103,1,"LacticAcid").
+trace(103,2,"CRP").
+trace(103,3,"Leucocytes").
+trace(103,4,"ER Triage").
+trace(103,5,"ER Sepsis Triage").
+trace(103,6,"LacticAcid").
+trace(103,7,"LacticAcid").
+trace(103,8,"IV Liquid").
+trace(103,9,"IV Antibiotics").
+trace(104,0,"ER Registration").
+trace(104,1,"ER Triage").
+trace(104,2,"ER Sepsis Triage").
+trace(104,3,"LacticAcid").
+trace(104,4,"CRP").
+trace(104,5,"Leucocytes").
+trace(104,6,"IV Liquid").
+trace(104,7,"IV Antibiotics").
+trace(104,8,"Admission NC").
+trace(104,9,"Admission IC").
+trace(104,10,"Leucocytes").
+trace(104,11,"LacticAcid").
+trace(104,12,"CRP").
+trace(104,13,"LacticAcid").
+trace(104,14,"Leucocytes").
+trace(104,15,"CRP").
+trace(104,16,"Leucocytes").
+trace(104,17,"CRP").
+trace(104,18,"LacticAcid").
+trace(104,19,"CRP").
+trace(104,20,"LacticAcid").
+trace(104,21,"Leucocytes").
+trace(104,22,"Admission NC").
+trace(104,23,"CRP").
+trace(104,24,"Leucocytes").
+trace(104,25,"Leucocytes").
+trace(104,26,"CRP").
+trace(104,27,"Release A").
+trace(104,28,"Return ER").
+trace(105,0,"ER Registration").
+trace(105,1,"ER Triage").
+trace(105,2,"IV Liquid").
+trace(105,3,"ER Sepsis Triage").
+trace(105,4,"CRP").
+trace(105,5,"LacticAcid").
+trace(105,6,"Leucocytes").
+trace(105,7,"IV Antibiotics").
+trace(105,8,"Admission NC").
+trace(105,9,"Leucocytes").
+trace(105,10,"CRP").
+trace(105,11,"Release A").
+trace(106,0,"ER Registration").
+trace(106,1,"ER Triage").
+trace(106,2,"ER Sepsis Triage").
+trace(106,3,"Leucocytes").
+trace(106,4,"LacticAcid").
+trace(106,5,"CRP").
+trace(106,6,"IV Liquid").
+trace(106,7,"IV Antibiotics").
+trace(107,0,"ER Registration").
+trace(107,1,"ER Triage").
+trace(107,2,"ER Sepsis Triage").
+trace(107,3,"Leucocytes").
+trace(107,4,"CRP").
+trace(107,5,"LacticAcid").
+trace(107,6,"Admission NC").
+trace(107,7,"Release B").
+trace(108,0,"ER Registration").
+trace(108,1,"ER Triage").
+trace(108,2,"ER Sepsis Triage").
+trace(108,3,"Leucocytes").
+trace(108,4,"CRP").
+trace(108,5,"LacticAcid").
+trace(108,6,"IV Liquid").
+trace(108,7,"IV Antibiotics").
+trace(108,8,"Admission NC").
+trace(108,9,"Leucocytes").
+trace(108,10,"Admission NC").
+trace(108,11,"Leucocytes").
+trace(108,12,"Leucocytes").
+trace(108,13,"CRP").
+trace(108,14,"CRP").
+trace(108,15,"CRP").
+trace(108,16,"Leucocytes").
+trace(108,17,"Leucocytes").
+trace(108,18,"Leucocytes").
+trace(108,19,"Leucocytes").
+trace(108,20,"Leucocytes").
+trace(108,21,"CRP").
+trace(108,22,"Admission NC").
+trace(108,23,"Admission NC").
+trace(108,24,"Leucocytes").
+trace(108,25,"Leucocytes").
+trace(108,26,"CRP").
+trace(108,27,"CRP").
+trace(108,28,"Leucocytes").
+trace(108,29,"CRP").
+trace(108,30,"Leucocytes").
+trace(108,31,"Release A").
+trace(108,32,"Return ER").
+trace(109,0,"ER Registration").
+trace(109,1,"ER Triage").
+trace(109,2,"ER Sepsis Triage").
+trace(109,3,"CRP").
+trace(109,4,"Leucocytes").
+trace(109,5,"LacticAcid").
+trace(109,6,"IV Liquid").
+trace(109,7,"IV Antibiotics").
+trace(109,8,"CRP").
+trace(109,9,"Leucocytes").
+trace(109,10,"LacticAcid").
+trace(110,0,"ER Registration").
+trace(110,1,"ER Triage").
+trace(110,2,"ER Sepsis Triage").
+trace(110,3,"Leucocytes").
+trace(110,4,"LacticAcid").
+trace(110,5,"CRP").
+trace(110,6,"IV Liquid").
+trace(110,7,"IV Antibiotics").
+trace(110,8,"Admission NC").
+trace(110,9,"Leucocytes").
+trace(110,10,"CRP").
+trace(110,11,"Leucocytes").
+trace(110,12,"CRP").
+trace(110,13,"Release C").
+trace(111,0,"ER Registration").
+trace(111,1,"ER Triage").
+trace(111,2,"Leucocytes").
+trace(111,3,"CRP").
+trace(111,4,"LacticAcid").
+trace(111,5,"ER Sepsis Triage").
+trace(111,6,"IV Liquid").
+trace(111,7,"IV Antibiotics").
+trace(111,8,"Admission IC").
+trace(111,9,"Admission IC").
+trace(111,10,"Leucocytes").
+trace(111,11,"CRP").
+trace(111,12,"LacticAcid").
+trace(111,13,"Leucocytes").
+trace(111,14,"CRP").
+trace(111,15,"LacticAcid").
+trace(111,16,"Leucocytes").
+trace(111,17,"Leucocytes").
+trace(111,18,"CRP").
+trace(111,19,"LacticAcid").
+trace(111,20,"LacticAcid").
+trace(111,21,"CRP").
+trace(111,22,"LacticAcid").
+trace(111,23,"Leucocytes").
+trace(111,24,"LacticAcid").
+trace(111,25,"Leucocytes").
+trace(111,26,"CRP").
+trace(111,27,"Leucocytes").
+trace(111,28,"LacticAcid").
+trace(111,29,"CRP").
+trace(111,30,"Admission NC").
+trace(111,31,"Release A").
+trace(112,0,"ER Registration").
+trace(112,1,"ER Triage").
+trace(112,2,"ER Sepsis Triage").
+trace(113,0,"ER Registration").
+trace(113,1,"LacticAcid").
+trace(113,2,"Leucocytes").
+trace(113,3,"CRP").
+trace(113,4,"ER Triage").
+trace(113,5,"ER Sepsis Triage").
+trace(113,6,"IV Liquid").
+trace(113,7,"IV Antibiotics").
+trace(113,8,"Admission NC").
+trace(113,9,"Admission NC").
+trace(113,10,"Leucocytes").
+trace(113,11,"CRP").
+trace(113,12,"Release A").
+trace(113,13,"Return ER").
+trace(114,0,"ER Sepsis Triage").
+trace(114,1,"ER Registration").
+trace(114,2,"ER Triage").
+trace(114,3,"Leucocytes").
+trace(114,4,"CRP").
+trace(114,5,"LacticAcid").
+trace(114,6,"IV Liquid").
+trace(114,7,"IV Antibiotics").
+trace(114,8,"Admission IC").
+trace(114,9,"LacticAcid").
+trace(114,10,"CRP").
+trace(114,11,"CRP").
+trace(114,12,"LacticAcid").
+trace(114,13,"Leucocytes").
+trace(114,14,"Admission NC").
+trace(114,15,"Release A").
+trace(114,16,"Return ER").
+trace(115,0,"ER Registration").
+trace(115,1,"ER Triage").
+trace(115,2,"ER Sepsis Triage").
+trace(115,3,"IV Liquid").
+trace(115,4,"CRP").
+trace(115,5,"LacticAcid").
+trace(115,6,"Leucocytes").
+trace(115,7,"IV Antibiotics").
+trace(115,8,"Admission NC").
+trace(115,9,"Leucocytes").
+trace(115,10,"CRP").
+trace(115,11,"Leucocytes").
+trace(115,12,"CRP").
+trace(115,13,"Release A").
+trace(116,0,"ER Registration").
+trace(116,1,"ER Triage").
+trace(116,2,"CRP").
+trace(116,3,"LacticAcid").
+trace(116,4,"Leucocytes").
+trace(116,5,"ER Sepsis Triage").
+trace(116,6,"IV Liquid").
+trace(116,7,"IV Antibiotics").
+trace(116,8,"Admission NC").
+trace(116,9,"Leucocytes").
+trace(116,10,"CRP").
+trace(116,11,"CRP").
+trace(116,12,"Leucocytes").
+trace(116,13,"Release A").
+trace(116,14,"Return ER").
+trace(117,0,"ER Registration").
+trace(117,1,"ER Triage").
+trace(117,2,"ER Sepsis Triage").
+trace(117,3,"CRP").
+trace(117,4,"Leucocytes").
+trace(117,5,"LacticAcid").
+trace(117,6,"IV Antibiotics").
+trace(117,7,"Admission NC").
+trace(117,8,"Admission NC").
+trace(117,9,"IV Liquid").
+trace(117,10,"CRP").
+trace(117,11,"Leucocytes").
+trace(117,12,"Leucocytes").
+trace(117,13,"CRP").
+trace(117,14,"Leucocytes").
+trace(117,15,"Release A").
+trace(118,0,"ER Registration").
+trace(118,1,"CRP").
+trace(118,2,"Leucocytes").
+trace(118,3,"ER Triage").
+trace(118,4,"ER Sepsis Triage").
+trace(118,5,"IV Liquid").
+trace(118,6,"IV Antibiotics").
+trace(118,7,"Admission IC").
+trace(118,8,"LacticAcid").
+trace(118,9,"CRP").
+trace(118,10,"Leucocytes").
+trace(118,11,"LacticAcid").
+trace(118,12,"LacticAcid").
+trace(118,13,"Leucocytes").
+trace(118,14,"CRP").
+trace(118,15,"CRP").
+trace(118,16,"Leucocytes").
+trace(118,17,"LacticAcid").
+trace(118,18,"Leucocytes").
+trace(118,19,"CRP").
+trace(118,20,"LacticAcid").
+trace(118,21,"CRP").
+trace(118,22,"LacticAcid").
+trace(118,23,"Leucocytes").
+trace(118,24,"Leucocytes").
+trace(118,25,"CRP").
+trace(118,26,"LacticAcid").
+trace(118,27,"Leucocytes").
+trace(118,28,"LacticAcid").
+trace(118,29,"CRP").
+trace(118,30,"CRP").
+trace(118,31,"LacticAcid").
+trace(118,32,"Leucocytes").
+trace(118,33,"Leucocytes").
+trace(118,34,"CRP").
+trace(118,35,"LacticAcid").
+trace(118,36,"CRP").
+trace(118,37,"Leucocytes").
+trace(118,38,"LacticAcid").
+trace(118,39,"CRP").
+trace(118,40,"Leucocytes").
+trace(118,41,"LacticAcid").
+trace(118,42,"LacticAcid").
+trace(118,43,"Leucocytes").
+trace(118,44,"CRP").
+trace(118,45,"LacticAcid").
+trace(118,46,"CRP").
+trace(118,47,"Leucocytes").
+trace(118,48,"Leucocytes").
+trace(118,49,"CRP").
+trace(118,50,"LacticAcid").
+trace(118,51,"LacticAcid").
+trace(118,52,"Leucocytes").
+trace(118,53,"CRP").
+trace(118,54,"CRP").
+trace(118,55,"Leucocytes").
+trace(118,56,"LacticAcid").
+trace(118,57,"Leucocytes").
+trace(118,58,"CRP").
+trace(118,59,"LacticAcid").
+trace(118,60,"CRP").
+trace(118,61,"LacticAcid").
+trace(118,62,"Leucocytes").
+trace(118,63,"LacticAcid").
+trace(118,64,"CRP").
+trace(118,65,"Leucocytes").
+trace(118,66,"Leucocytes").
+trace(118,67,"CRP").
+trace(118,68,"LacticAcid").
+trace(118,69,"LacticAcid").
+trace(118,70,"CRP").
+trace(118,71,"Leucocytes").
+trace(118,72,"LacticAcid").
+trace(118,73,"Leucocytes").
+trace(118,74,"CRP").
+trace(118,75,"Leucocytes").
+trace(118,76,"CRP").
+trace(118,77,"LacticAcid").
+trace(118,78,"Leucocytes").
+trace(118,79,"LacticAcid").
+trace(118,80,"CRP").
+trace(118,81,"CRP").
+trace(118,82,"Leucocytes").
+trace(118,83,"LacticAcid").
+trace(118,84,"CRP").
+trace(118,85,"LacticAcid").
+trace(118,86,"Leucocytes").
+trace(118,87,"Leucocytes").
+trace(118,88,"CRP").
+trace(118,89,"Leucocytes").
+trace(118,90,"LacticAcid").
+trace(118,91,"Leucocytes").
+trace(118,92,"CRP").
+trace(118,93,"LacticAcid").
+trace(118,94,"Leucocytes").
+trace(118,95,"LacticAcid").
+trace(118,96,"CRP").
+trace(118,97,"LacticAcid").
+trace(118,98,"Leucocytes").
+trace(118,99,"CRP").
+trace(118,100,"CRP").
+trace(118,101,"LacticAcid").
+trace(118,102,"Leucocytes").
+trace(118,103,"Leucocytes").
+trace(118,104,"CRP").
+trace(118,105,"LacticAcid").
+trace(118,106,"LacticAcid").
+trace(118,107,"LacticAcid").
+trace(118,108,"CRP").
+trace(118,109,"Leucocytes").
+trace(118,110,"Leucocytes").
+trace(118,111,"Leucocytes").
+trace(118,112,"CRP").
+trace(118,113,"LacticAcid").
+trace(118,114,"CRP").
+trace(118,115,"LacticAcid").
+trace(118,116,"Leucocytes").
+trace(118,117,"Release B").
+trace(119,0,"ER Registration").
+trace(119,1,"Leucocytes").
+trace(119,2,"LacticAcid").
+trace(119,3,"CRP").
+trace(119,4,"ER Triage").
+trace(119,5,"ER Sepsis Triage").
+trace(119,6,"IV Liquid").
+trace(119,7,"IV Antibiotics").
+trace(119,8,"Leucocytes").
+trace(120,0,"ER Registration").
+trace(120,1,"ER Triage").
+trace(120,2,"ER Sepsis Triage").
+trace(120,3,"CRP").
+trace(120,4,"LacticAcid").
+trace(120,5,"Leucocytes").
+trace(120,6,"IV Antibiotics").
+trace(120,7,"Admission NC").
+trace(120,8,"Admission NC").
+trace(120,9,"CRP").
+trace(120,10,"Leucocytes").
+trace(120,11,"Release B").
+trace(121,0,"ER Registration").
+trace(121,1,"ER Triage").
+trace(121,2,"ER Sepsis Triage").
+trace(121,3,"Leucocytes").
+trace(121,4,"CRP").
+trace(121,5,"IV Liquid").
+trace(121,6,"IV Antibiotics").
+trace(122,0,"ER Registration").
+trace(122,1,"ER Triage").
+trace(122,2,"CRP").
+trace(122,3,"LacticAcid").
+trace(122,4,"Leucocytes").
+trace(122,5,"ER Sepsis Triage").
+trace(122,6,"IV Antibiotics").
+trace(122,7,"IV Liquid").
+trace(122,8,"Admission NC").
+trace(122,9,"Leucocytes").
+trace(122,10,"CRP").
+trace(122,11,"Leucocytes").
+trace(122,12,"CRP").
+trace(122,13,"Release A").
+trace(123,0,"ER Registration").
+trace(123,1,"ER Triage").
+trace(123,2,"ER Sepsis Triage").
+trace(123,3,"Leucocytes").
+trace(123,4,"CRP").
+trace(123,5,"IV Antibiotics").
+trace(123,6,"Admission NC").
+trace(123,7,"LacticAcid").
+trace(123,8,"Admission NC").
+trace(123,9,"Admission NC").
+trace(123,10,"IV Liquid").
+trace(123,11,"Leucocytes").
+trace(123,12,"CRP").
+trace(123,13,"CRP").
+trace(123,14,"Leucocytes").
+trace(123,15,"Release B").
+trace(124,0,"ER Registration").
+trace(124,1,"ER Triage").
+trace(124,2,"ER Sepsis Triage").
+trace(124,3,"CRP").
+trace(124,4,"LacticAcid").
+trace(124,5,"Leucocytes").
+trace(124,6,"IV Liquid").
+trace(124,7,"IV Antibiotics").
+trace(124,8,"Admission NC").
+trace(124,9,"LacticAcid").
+trace(124,10,"Leucocytes").
+trace(124,11,"CRP").
+trace(124,12,"Admission NC").
+trace(124,13,"Leucocytes").
+trace(124,14,"CRP").
+trace(124,15,"CRP").
+trace(124,16,"Leucocytes").
+trace(124,17,"Leucocytes").
+trace(124,18,"CRP").
+trace(124,19,"CRP").
+trace(124,20,"Leucocytes").
+trace(124,21,"CRP").
+trace(124,22,"CRP").
+trace(124,23,"CRP").
+trace(124,24,"Leucocytes").
+trace(124,25,"CRP").
+trace(124,26,"Leucocytes").
+trace(124,27,"CRP").
+trace(124,28,"CRP").
+trace(124,29,"Release D").
+trace(124,30,"Return ER").
+trace(125,0,"ER Registration").
+trace(125,1,"Leucocytes").
+trace(125,2,"LacticAcid").
+trace(125,3,"CRP").
+trace(125,4,"ER Triage").
+trace(125,5,"ER Sepsis Triage").
+trace(125,6,"IV Antibiotics").
+trace(125,7,"Admission NC").
+trace(125,8,"Admission NC").
+trace(125,9,"IV Liquid").
+trace(125,10,"Release A").
+trace(126,0,"ER Registration").
+trace(126,1,"ER Triage").
+trace(126,2,"ER Sepsis Triage").
+trace(127,0,"ER Registration").
+trace(127,1,"IV Liquid").
+trace(127,2,"ER Triage").
+trace(127,3,"ER Sepsis Triage").
+trace(127,4,"IV Antibiotics").
+trace(127,5,"CRP").
+trace(127,6,"LacticAcid").
+trace(127,7,"Leucocytes").
+trace(127,8,"Admission NC").
+trace(127,9,"Release A").
+trace(128,0,"ER Registration").
+trace(128,1,"ER Triage").
+trace(128,2,"ER Sepsis Triage").
+trace(128,3,"LacticAcid").
+trace(128,4,"Leucocytes").
+trace(128,5,"CRP").
+trace(128,6,"IV Liquid").
+trace(128,7,"IV Antibiotics").
+trace(129,0,"ER Registration").
+trace(129,1,"ER Triage").
+trace(129,2,"ER Sepsis Triage").
+trace(129,3,"CRP").
+trace(129,4,"Leucocytes").
+trace(129,5,"Admission NC").
+trace(129,6,"Release A").
+trace(130,0,"ER Registration").
+trace(130,1,"ER Triage").
+trace(130,2,"ER Sepsis Triage").
+trace(130,3,"Leucocytes").
+trace(130,4,"CRP").
+trace(130,5,"LacticAcid").
+trace(130,6,"IV Liquid").
+trace(130,7,"IV Antibiotics").
+trace(130,8,"Admission NC").
+trace(130,9,"Leucocytes").
+trace(130,10,"CRP").
+trace(130,11,"Admission IC").
+trace(130,12,"Leucocytes").
+trace(130,13,"LacticAcid").
+trace(130,14,"CRP").
+trace(130,15,"Admission NC").
+trace(130,16,"Release A").
+trace(130,17,"Return ER").
+trace(131,0,"ER Registration").
+trace(131,1,"ER Triage").
+trace(131,2,"ER Sepsis Triage").
+trace(131,3,"Leucocytes").
+trace(131,4,"CRP").
+trace(131,5,"LacticAcid").
+trace(131,6,"IV Antibiotics").
+trace(131,7,"IV Liquid").
+trace(131,8,"Admission NC").
+trace(131,9,"Leucocytes").
+trace(131,10,"Admission NC").
+trace(131,11,"CRP").
+trace(131,12,"Leucocytes").
+trace(131,13,"Release A").
+trace(131,14,"Return ER").
+trace(132,0,"ER Registration").
+trace(132,1,"ER Triage").
+trace(132,2,"ER Sepsis Triage").
+trace(132,3,"Leucocytes").
+trace(132,4,"LacticAcid").
+trace(132,5,"CRP").
+trace(132,6,"IV Liquid").
+trace(132,7,"IV Antibiotics").
+trace(132,8,"Admission NC").
+trace(132,9,"Admission NC").
+trace(132,10,"Release A").
+trace(133,0,"ER Registration").
+trace(133,1,"ER Triage").
+trace(133,2,"ER Sepsis Triage").
+trace(133,3,"CRP").
+trace(133,4,"Leucocytes").
+trace(134,0,"ER Registration").
+trace(134,1,"ER Triage").
+trace(134,2,"ER Sepsis Triage").
+trace(134,3,"Leucocytes").
+trace(134,4,"CRP").
+trace(134,5,"Admission NC").
+trace(134,6,"Release A").
+trace(135,0,"ER Registration").
+trace(135,1,"ER Triage").
+trace(135,2,"Leucocytes").
+trace(135,3,"LacticAcid").
+trace(135,4,"CRP").
+trace(135,5,"ER Sepsis Triage").
+trace(135,6,"Admission NC").
+trace(135,7,"CRP").
+trace(135,8,"Leucocytes").
+trace(135,9,"CRP").
+trace(135,10,"Leucocytes").
+trace(135,11,"CRP").
+trace(135,12,"Leucocytes").
+trace(135,13,"CRP").
+trace(135,14,"Leucocytes").
+trace(135,15,"Release A").
+trace(135,16,"Return ER").
+trace(136,0,"ER Registration").
+trace(136,1,"ER Triage").
+trace(136,2,"ER Sepsis Triage").
+trace(136,3,"Leucocytes").
+trace(136,4,"LacticAcid").
+trace(136,5,"CRP").
+trace(136,6,"IV Liquid").
+trace(136,7,"IV Antibiotics").
+trace(136,8,"Admission NC").
+trace(136,9,"Admission NC").
+trace(136,10,"Leucocytes").
+trace(136,11,"CRP").
+trace(136,12,"CRP").
+trace(136,13,"Leucocytes").
+trace(136,14,"Release A").
+trace(137,0,"ER Registration").
+trace(137,1,"ER Triage").
+trace(137,2,"ER Sepsis Triage").
+trace(137,3,"CRP").
+trace(137,4,"LacticAcid").
+trace(137,5,"Leucocytes").
+trace(137,6,"IV Liquid").
+trace(137,7,"IV Antibiotics").
+trace(137,8,"Admission NC").
+trace(137,9,"Leucocytes").
+trace(137,10,"CRP").
+trace(137,11,"Admission NC").
+trace(137,12,"Leucocytes").
+trace(137,13,"CRP").
+trace(137,14,"CRP").
+trace(137,15,"CRP").
+trace(137,16,"Release A").
+trace(138,0,"ER Registration").
+trace(138,1,"ER Triage").
+trace(138,2,"ER Sepsis Triage").
+trace(138,3,"Leucocytes").
+trace(138,4,"CRP").
+trace(138,5,"Admission NC").
+trace(138,6,"Release A").
+trace(139,0,"ER Registration").
+trace(139,1,"ER Triage").
+trace(139,2,"ER Sepsis Triage").
+trace(139,3,"Leucocytes").
+trace(139,4,"CRP").
+trace(139,5,"LacticAcid").
+trace(139,6,"IV Antibiotics").
+trace(139,7,"IV Liquid").
+trace(139,8,"Admission NC").
+trace(139,9,"Admission NC").
+trace(139,10,"Leucocytes").
+trace(139,11,"CRP").
+trace(139,12,"CRP").
+trace(139,13,"Leucocytes").
+trace(139,14,"Release A").
+trace(139,15,"Return ER").
+trace(140,0,"ER Registration").
+trace(140,1,"ER Triage").
+trace(140,2,"ER Sepsis Triage").
+trace(140,3,"CRP").
+trace(140,4,"LacticAcid").
+trace(140,5,"Leucocytes").
+trace(140,6,"IV Antibiotics").
+trace(140,7,"IV Liquid").
+trace(140,8,"Admission NC").
+trace(140,9,"Leucocytes").
+trace(140,10,"CRP").
+trace(140,11,"Admission NC").
+trace(140,12,"Leucocytes").
+trace(140,13,"CRP").
+trace(140,14,"Release A").
+trace(140,15,"Return ER").
+trace(141,0,"ER Registration").
+trace(141,1,"ER Triage").
+trace(141,2,"ER Sepsis Triage").
+trace(141,3,"CRP").
+trace(141,4,"Leucocytes").
+trace(141,5,"LacticAcid").
+trace(141,6,"IV Antibiotics").
+trace(141,7,"IV Liquid").
+trace(141,8,"Admission NC").
+trace(141,9,"Leucocytes").
+trace(141,10,"CRP").
+trace(141,11,"Release B").
+trace(142,0,"ER Registration").
+trace(142,1,"ER Triage").
+trace(142,2,"CRP").
+trace(142,3,"LacticAcid").
+trace(142,4,"Leucocytes").
+trace(142,5,"ER Sepsis Triage").
+trace(142,6,"IV Liquid").
+trace(142,7,"IV Antibiotics").
+trace(142,8,"Admission NC").
+trace(142,9,"CRP").
+trace(142,10,"Leucocytes").
+trace(142,11,"CRP").
+trace(142,12,"Leucocytes").
+trace(142,13,"Release A").
+trace(142,14,"Return ER").
+trace(143,0,"ER Registration").
+trace(143,1,"ER Triage").
+trace(143,2,"ER Sepsis Triage").
+trace(143,3,"CRP").
+trace(143,4,"Leucocytes").
+trace(144,0,"ER Registration").
+trace(144,1,"ER Triage").
+trace(144,2,"ER Sepsis Triage").
+trace(145,0,"ER Registration").
+trace(145,1,"ER Triage").
+trace(145,2,"ER Sepsis Triage").
+trace(145,3,"IV Liquid").
+trace(145,4,"IV Antibiotics").
+trace(145,5,"CRP").
+trace(145,6,"Leucocytes").
+trace(145,7,"LacticAcid").
+trace(146,0,"ER Registration").
+trace(146,1,"ER Triage").
+trace(146,2,"ER Sepsis Triage").
+trace(146,3,"Leucocytes").
+trace(146,4,"LacticAcid").
+trace(146,5,"CRP").
+trace(146,6,"IV Liquid").
+trace(146,7,"IV Antibiotics").
+trace(146,8,"Admission IC").
+trace(146,9,"CRP").
+trace(146,10,"LacticAcid").
+trace(146,11,"Leucocytes").
+trace(146,12,"Admission NC").
+trace(146,13,"CRP").
+trace(146,14,"Leucocytes").
+trace(146,15,"CRP").
+trace(146,16,"Leucocytes").
+trace(146,17,"Leucocytes").
+trace(146,18,"CRP").
+trace(146,19,"Release A").
+trace(146,20,"Return ER").
+trace(147,0,"ER Registration").
+trace(147,1,"ER Triage").
+trace(147,2,"ER Sepsis Triage").
+trace(147,3,"IV Liquid").
+trace(147,4,"CRP").
+trace(147,5,"Leucocytes").
+trace(147,6,"LacticAcid").
+trace(147,7,"IV Antibiotics").
+trace(148,0,"ER Registration").
+trace(148,1,"ER Triage").
+trace(148,2,"ER Sepsis Triage").
+trace(148,3,"IV Liquid").
+trace(148,4,"CRP").
+trace(148,5,"LacticAcid").
+trace(148,6,"Leucocytes").
+trace(148,7,"IV Antibiotics").
+trace(148,8,"Admission NC").
+trace(148,9,"Release A").
+trace(149,0,"ER Registration").
+trace(149,1,"ER Triage").
+trace(149,2,"CRP").
+trace(149,3,"Leucocytes").
+trace(149,4,"ER Sepsis Triage").
+trace(150,0,"ER Registration").
+trace(150,1,"ER Triage").
+trace(150,2,"ER Sepsis Triage").
+trace(150,3,"IV Liquid").
+trace(150,4,"IV Antibiotics").
+trace(150,5,"Leucocytes").
+trace(150,6,"CRP").
+trace(150,7,"LacticAcid").
+trace(150,8,"Admission NC").
+trace(150,9,"CRP").
+trace(150,10,"Leucocytes").
+trace(150,11,"Admission NC").
+trace(150,12,"CRP").
+trace(150,13,"Leucocytes").
+trace(150,14,"Leucocytes").
+trace(150,15,"CRP").
+trace(150,16,"Leucocytes").
+trace(150,17,"CRP").
+trace(150,18,"Release A").
+trace(151,0,"ER Registration").
+trace(151,1,"ER Triage").
+trace(151,2,"ER Sepsis Triage").
+trace(151,3,"LacticAcid").
+trace(151,4,"CRP").
+trace(151,5,"Leucocytes").
+trace(151,6,"IV Liquid").
+trace(151,7,"IV Antibiotics").
+trace(151,8,"Admission IC").
+trace(151,9,"Leucocytes").
+trace(151,10,"CRP").
+trace(151,11,"LacticAcid").
+trace(151,12,"LacticAcid").
+trace(151,13,"CRP").
+trace(151,14,"Leucocytes").
+trace(151,15,"CRP").
+trace(151,16,"LacticAcid").
+trace(151,17,"Leucocytes").
+trace(151,18,"Release A").
+trace(152,0,"ER Registration").
+trace(152,1,"ER Triage").
+trace(152,2,"CRP").
+trace(152,3,"LacticAcid").
+trace(152,4,"Leucocytes").
+trace(152,5,"ER Sepsis Triage").
+trace(152,6,"Admission IC").
+trace(152,7,"LacticAcid").
+trace(152,8,"Leucocytes").
+trace(152,9,"CRP").
+trace(152,10,"LacticAcid").
+trace(152,11,"Leucocytes").
+trace(152,12,"CRP").
+trace(152,13,"LacticAcid").
+trace(152,14,"Admission NC").
+trace(152,15,"Release A").
+trace(152,16,"Return ER").
+trace(153,0,"ER Registration").
+trace(153,1,"ER Triage").
+trace(153,2,"ER Sepsis Triage").
+trace(153,3,"IV Liquid").
+trace(153,4,"IV Antibiotics").
+trace(153,5,"Leucocytes").
+trace(153,6,"LacticAcid").
+trace(153,7,"CRP").
+trace(154,0,"ER Registration").
+trace(154,1,"ER Triage").
+trace(154,2,"ER Sepsis Triage").
+trace(154,3,"LacticAcid").
+trace(154,4,"Leucocytes").
+trace(154,5,"CRP").
+trace(154,6,"IV Liquid").
+trace(154,7,"IV Antibiotics").
+trace(154,8,"Admission NC").
+trace(154,9,"Admission NC").
+trace(154,10,"Leucocytes").
+trace(154,11,"CRP").
+trace(154,12,"Release A").
+trace(155,0,"ER Registration").
+trace(155,1,"ER Triage").
+trace(155,2,"ER Sepsis Triage").
+trace(155,3,"Leucocytes").
+trace(155,4,"LacticAcid").
+trace(155,5,"CRP").
+trace(155,6,"IV Liquid").
+trace(155,7,"IV Antibiotics").
+trace(155,8,"Admission NC").
+trace(155,9,"Leucocytes").
+trace(155,10,"Leucocytes").
+trace(155,11,"CRP").
+trace(155,12,"Leucocytes").
+trace(155,13,"Leucocytes").
+trace(155,14,"CRP").
+trace(155,15,"Release B").
+trace(156,0,"ER Registration").
+trace(156,1,"CRP").
+trace(156,2,"Leucocytes").
+trace(156,3,"ER Triage").
+trace(156,4,"ER Sepsis Triage").
+trace(156,5,"LacticAcid").
+trace(156,6,"IV Liquid").
+trace(156,7,"IV Antibiotics").
+trace(156,8,"Admission NC").
+trace(156,9,"CRP").
+trace(156,10,"Leucocytes").
+trace(156,11,"Leucocytes").
+trace(156,12,"CRP").
+trace(156,13,"CRP").
+trace(156,14,"Leucocytes").
+trace(156,15,"Release A").
+trace(156,16,"Return ER").
+trace(157,0,"ER Registration").
+trace(157,1,"ER Triage").
+trace(157,2,"ER Sepsis Triage").
+trace(157,3,"IV Liquid").
+trace(157,4,"Leucocytes").
+trace(157,5,"CRP").
+trace(157,6,"LacticAcid").
+trace(157,7,"IV Antibiotics").
+trace(157,8,"Admission NC").
+trace(157,9,"Leucocytes").
+trace(157,10,"CRP").
+trace(157,11,"Release A").
+trace(157,12,"Return ER").
+trace(158,0,"ER Registration").
+trace(158,1,"ER Triage").
+trace(158,2,"ER Sepsis Triage").
+trace(158,3,"LacticAcid").
+trace(158,4,"CRP").
+trace(158,5,"Leucocytes").
+trace(158,6,"IV Antibiotics").
+trace(158,7,"Admission NC").
+trace(158,8,"CRP").
+trace(158,9,"Leucocytes").
+trace(158,10,"CRP").
+trace(158,11,"Leucocytes").
+trace(158,12,"Leucocytes").
+trace(158,13,"CRP").
+trace(158,14,"Leucocytes").
+trace(158,15,"CRP").
+trace(158,16,"CRP").
+trace(158,17,"Leucocytes").
+trace(158,18,"Leucocytes").
+trace(158,19,"CRP").
+trace(158,20,"Leucocytes").
+trace(158,21,"CRP").
+trace(158,22,"CRP").
+trace(158,23,"CRP").
+trace(158,24,"Leucocytes").
+trace(158,25,"Release A").
+trace(158,26,"Return ER").
+trace(159,0,"ER Registration").
+trace(159,1,"ER Triage").
+trace(159,2,"CRP").
+trace(159,3,"Leucocytes").
+trace(159,4,"ER Sepsis Triage").
+trace(160,0,"ER Registration").
+trace(160,1,"LacticAcid").
+trace(160,2,"CRP").
+trace(160,3,"Leucocytes").
+trace(160,4,"ER Triage").
+trace(160,5,"ER Sepsis Triage").
+trace(160,6,"IV Antibiotics").
+trace(160,7,"IV Liquid").
+trace(160,8,"Admission NC").
+trace(160,9,"Leucocytes").
+trace(160,10,"CRP").
+trace(160,11,"Leucocytes").
+trace(160,12,"CRP").
+trace(160,13,"Release A").
+trace(161,0,"ER Registration").
+trace(161,1,"ER Triage").
+trace(161,2,"ER Sepsis Triage").
+trace(161,3,"CRP").
+trace(161,4,"Leucocytes").
+trace(161,5,"LacticAcid").
+trace(161,6,"IV Liquid").
+trace(161,7,"IV Antibiotics").
+trace(162,0,"ER Registration").
+trace(162,1,"ER Triage").
+trace(162,2,"ER Sepsis Triage").
+trace(162,3,"Leucocytes").
+trace(162,4,"CRP").
+trace(162,5,"LacticAcid").
+trace(162,6,"IV Liquid").
+trace(162,7,"IV Antibiotics").
+trace(162,8,"Admission IC").
+trace(162,9,"Leucocytes").
+trace(162,10,"CRP").
+trace(162,11,"LacticAcid").
+trace(162,12,"CRP").
+trace(162,13,"LacticAcid").
+trace(162,14,"Leucocytes").
+trace(162,15,"LacticAcid").
+trace(162,16,"Leucocytes").
+trace(162,17,"CRP").
+trace(162,18,"Leucocytes").
+trace(162,19,"CRP").
+trace(162,20,"LacticAcid").
+trace(162,21,"Leucocytes").
+trace(162,22,"CRP").
+trace(162,23,"LacticAcid").
+trace(162,24,"Leucocytes").
+trace(162,25,"LacticAcid").
+trace(162,26,"CRP").
+trace(162,27,"Leucocytes").
+trace(162,28,"LacticAcid").
+trace(162,29,"Leucocytes").
+trace(162,30,"CRP").
+trace(162,31,"Leucocytes").
+trace(162,32,"CRP").
+trace(162,33,"LacticAcid").
+trace(162,34,"Admission NC").
+trace(162,35,"Leucocytes").
+trace(162,36,"CRP").
+trace(162,37,"CRP").
+trace(162,38,"Leucocytes").
+trace(162,39,"CRP").
+trace(162,40,"Leucocytes").
+trace(162,41,"Leucocytes").
+trace(162,42,"Leucocytes").
+trace(162,43,"Leucocytes").
+trace(162,44,"CRP").
+trace(162,45,"CRP").
+trace(162,46,"Leucocytes").
+trace(162,47,"CRP").
+trace(162,48,"Leucocytes").
+trace(162,49,"Leucocytes").
+trace(162,50,"CRP").
+trace(162,51,"CRP").
+trace(162,52,"Leucocytes").
+trace(162,53,"CRP").
+trace(162,54,"Leucocytes").
+trace(162,55,"Leucocytes").
+trace(162,56,"CRP").
+trace(162,57,"Release A").
+trace(162,58,"Return ER").
+trace(163,0,"ER Registration").
+trace(163,1,"ER Triage").
+trace(163,2,"ER Sepsis Triage").
+trace(163,3,"IV Liquid").
+trace(163,4,"Leucocytes").
+trace(163,5,"CRP").
+trace(163,6,"LacticAcid").
+trace(163,7,"IV Antibiotics").
+trace(163,8,"Admission NC").
+trace(163,9,"Admission NC").
+trace(163,10,"Leucocytes").
+trace(163,11,"CRP").
+trace(163,12,"Release A").
+trace(164,0,"Leucocytes").
+trace(164,1,"CRP").
+trace(164,2,"ER Registration").
+trace(164,3,"ER Triage").
+trace(164,4,"ER Sepsis Triage").
+trace(164,5,"IV Liquid").
+trace(164,6,"LacticAcid").
+trace(164,7,"CRP").
+trace(164,8,"Leucocytes").
+trace(164,9,"IV Antibiotics").
+trace(164,10,"Admission NC").
+trace(164,11,"CRP").
+trace(164,12,"CRP").
+trace(164,13,"Leucocytes").
+trace(164,14,"CRP").
+trace(164,15,"Leucocytes").
+trace(164,16,"Release A").
+trace(165,0,"ER Registration").
+trace(165,1,"ER Triage").
+trace(165,2,"ER Sepsis Triage").
+trace(165,3,"IV Liquid").
+trace(165,4,"Leucocytes").
+trace(165,5,"CRP").
+trace(165,6,"LacticAcid").
+trace(165,7,"IV Antibiotics").
+trace(166,0,"ER Registration").
+trace(166,1,"ER Triage").
+trace(166,2,"ER Sepsis Triage").
+trace(166,3,"CRP").
+trace(166,4,"Leucocytes").
+trace(166,5,"LacticAcid").
+trace(166,6,"IV Liquid").
+trace(166,7,"IV Antibiotics").
+trace(166,8,"Admission NC").
+trace(166,9,"CRP").
+trace(166,10,"Leucocytes").
+trace(166,11,"Admission NC").
+trace(166,12,"CRP").
+trace(166,13,"Leucocytes").
+trace(166,14,"Release A").
+trace(167,0,"ER Registration").
+trace(167,1,"ER Triage").
+trace(167,2,"ER Sepsis Triage").
+trace(167,3,"Leucocytes").
+trace(167,4,"CRP").
+trace(168,0,"ER Registration").
+trace(168,1,"ER Triage").
+trace(168,2,"ER Sepsis Triage").
+trace(169,0,"ER Registration").
+trace(169,1,"ER Triage").
+trace(169,2,"ER Sepsis Triage").
+trace(169,3,"Leucocytes").
+trace(169,4,"CRP").
+trace(169,5,"IV Liquid").
+trace(169,6,"IV Antibiotics").
+trace(169,7,"Admission NC").
+trace(169,8,"Admission NC").
+trace(169,9,"CRP").
+trace(169,10,"Leucocytes").
+trace(169,11,"Leucocytes").
+trace(169,12,"CRP").
+trace(169,13,"CRP").
+trace(169,14,"Leucocytes").
+trace(169,15,"CRP").
+trace(169,16,"Leucocytes").
+trace(169,17,"CRP").
+trace(169,18,"Leucocytes").
+trace(169,19,"CRP").
+trace(169,20,"Leucocytes").
+trace(169,21,"CRP").
+trace(169,22,"CRP").
+trace(169,23,"Leucocytes").
+trace(169,24,"CRP").
+trace(169,25,"CRP").
+trace(169,26,"Leucocytes").
+trace(169,27,"Release A").
+trace(170,0,"ER Registration").
+trace(170,1,"ER Triage").
+trace(170,2,"ER Sepsis Triage").
+trace(171,0,"ER Registration").
+trace(171,1,"ER Triage").
+trace(171,2,"ER Sepsis Triage").
+trace(171,3,"CRP").
+trace(171,4,"LacticAcid").
+trace(171,5,"Leucocytes").
+trace(171,6,"IV Liquid").
+trace(171,7,"IV Antibiotics").
+trace(171,8,"Admission NC").
+trace(171,9,"Leucocytes").
+trace(171,10,"CRP").
+trace(171,11,"Admission NC").
+trace(171,12,"CRP").
+trace(171,13,"Leucocytes").
+trace(171,14,"Release A").
+trace(172,0,"ER Registration").
+trace(172,1,"ER Triage").
+trace(172,2,"ER Sepsis Triage").
+trace(172,3,"IV Liquid").
+trace(172,4,"Leucocytes").
+trace(172,5,"CRP").
+trace(172,6,"LacticAcid").
+trace(172,7,"IV Antibiotics").
+trace(172,8,"Admission NC").
+trace(172,9,"Leucocytes").
+trace(172,10,"CRP").
+trace(172,11,"Admission NC").
+trace(172,12,"Leucocytes").
+trace(172,13,"CRP").
+trace(172,14,"Release A").
+trace(172,15,"Return ER").
+trace(173,0,"ER Registration").
+trace(173,1,"ER Triage").
+trace(173,2,"ER Sepsis Triage").
+trace(173,3,"Leucocytes").
+trace(173,4,"LacticAcid").
+trace(173,5,"CRP").
+trace(173,6,"IV Liquid").
+trace(173,7,"IV Antibiotics").
+trace(173,8,"Admission NC").
+trace(174,0,"ER Registration").
+trace(174,1,"ER Triage").
+trace(174,2,"CRP").
+trace(174,3,"LacticAcid").
+trace(174,4,"Leucocytes").
+trace(174,5,"ER Sepsis Triage").
+trace(174,6,"IV Antibiotics").
+trace(174,7,"IV Liquid").
+trace(174,8,"Admission NC").
+trace(174,9,"Admission NC").
+trace(174,10,"Release A").
+trace(174,11,"Return ER").
+trace(175,0,"ER Registration").
+trace(175,1,"ER Triage").
+trace(175,2,"ER Sepsis Triage").
+trace(175,3,"CRP").
+trace(175,4,"Leucocytes").
+trace(175,5,"Admission NC").
+trace(175,6,"Leucocytes").
+trace(175,7,"CRP").
+trace(175,8,"Leucocytes").
+trace(175,9,"Leucocytes").
+trace(175,10,"CRP").
+trace(175,11,"CRP").
+trace(175,12,"Leucocytes").
+trace(175,13,"Release A").
+trace(175,14,"CRP").
+trace(175,15,"Leucocytes").
+trace(176,0,"ER Registration").
+trace(176,1,"ER Triage").
+trace(176,2,"ER Sepsis Triage").
+trace(176,3,"CRP").
+trace(176,4,"Leucocytes").
+trace(176,5,"LacticAcid").
+trace(176,6,"IV Liquid").
+trace(176,7,"IV Antibiotics").
+trace(176,8,"Admission IC").
+trace(176,9,"LacticAcid").
+trace(176,10,"Leucocytes").
+trace(176,11,"LacticAcid").
+trace(176,12,"CRP").
+trace(176,13,"LacticAcid").
+trace(176,14,"CRP").
+trace(176,15,"LacticAcid").
+trace(176,16,"Leucocytes").
+trace(176,17,"LacticAcid").
+trace(176,18,"Leucocytes").
+trace(176,19,"CRP").
+trace(176,20,"Admission NC").
+trace(176,21,"Leucocytes").
+trace(176,22,"CRP").
+trace(176,23,"Admission NC").
+trace(176,24,"CRP").
+trace(176,25,"Leucocytes").
+trace(176,26,"CRP").
+trace(176,27,"CRP").
+trace(176,28,"Release A").
+trace(177,0,"ER Registration").
+trace(177,1,"ER Triage").
+trace(177,2,"ER Sepsis Triage").
+trace(177,3,"Leucocytes").
+trace(177,4,"CRP").
+trace(177,5,"LacticAcid").
+trace(177,6,"IV Liquid").
+trace(177,7,"IV Antibiotics").
+trace(177,8,"Admission NC").
+trace(177,9,"Admission NC").
+trace(177,10,"Leucocytes").
+trace(177,11,"CRP").
+trace(177,12,"Release A").
+trace(178,0,"ER Registration").
+trace(178,1,"ER Triage").
+trace(178,2,"ER Sepsis Triage").
+trace(178,3,"Leucocytes").
+trace(178,4,"LacticAcid").
+trace(178,5,"CRP").
+trace(178,6,"IV Antibiotics").
+trace(178,7,"IV Liquid").
+trace(178,8,"Admission NC").
+trace(178,9,"CRP").
+trace(178,10,"Leucocytes").
+trace(178,11,"CRP").
+trace(178,12,"Admission NC").
+trace(178,13,"Leucocytes").
+trace(178,14,"Leucocytes").
+trace(178,15,"CRP").
+trace(178,16,"Admission NC").
+trace(178,17,"CRP").
+trace(178,18,"Leucocytes").
+trace(178,19,"Release A").
+trace(178,20,"Return ER").
+trace(179,0,"ER Registration").
+trace(179,1,"ER Triage").
+trace(179,2,"ER Sepsis Triage").
+trace(179,3,"IV Liquid").
+trace(179,4,"Leucocytes").
+trace(179,5,"CRP").
+trace(179,6,"LacticAcid").
+trace(179,7,"IV Antibiotics").
+trace(179,8,"Admission NC").
+trace(179,9,"Admission NC").
+trace(179,10,"CRP").
+trace(179,11,"Release A").
+trace(180,0,"ER Registration").
+trace(180,1,"ER Triage").
+trace(180,2,"ER Sepsis Triage").
+trace(180,3,"IV Liquid").
+trace(180,4,"Leucocytes").
+trace(180,5,"LacticAcid").
+trace(180,6,"CRP").
+trace(180,7,"IV Antibiotics").
+trace(180,8,"Admission NC").
+trace(180,9,"Admission IC").
+trace(180,10,"CRP").
+trace(180,11,"LacticAcid").
+trace(180,12,"Leucocytes").
+trace(180,13,"LacticAcid").
+trace(180,14,"Leucocytes").
+trace(180,15,"CRP").
+trace(180,16,"Admission NC").
+trace(180,17,"CRP").
+trace(180,18,"Leucocytes").
+trace(180,19,"CRP").
+trace(180,20,"LacticAcid").
+trace(180,21,"Leucocytes").
+trace(180,22,"CRP").
+trace(180,23,"LacticAcid").
+trace(180,24,"CRP").
+trace(180,25,"Leucocytes").
+trace(180,26,"Leucocytes").
+trace(180,27,"CRP").
+trace(180,28,"Release A").
+trace(181,0,"ER Registration").
+trace(181,1,"ER Triage").
+trace(181,2,"ER Sepsis Triage").
+trace(181,3,"IV Liquid").
+trace(181,4,"IV Antibiotics").
+trace(181,5,"Leucocytes").
+trace(181,6,"CRP").
+trace(181,7,"LacticAcid").
+trace(181,8,"LacticAcid").
+trace(181,9,"Admission NC").
+trace(181,10,"Admission NC").
+trace(181,11,"CRP").
+trace(181,12,"Leucocytes").
+trace(181,13,"Release A").
+trace(182,0,"ER Sepsis Triage").
+trace(182,1,"ER Registration").
+trace(182,2,"ER Triage").
+trace(182,3,"Leucocytes").
+trace(182,4,"CRP").
+trace(183,0,"ER Registration").
+trace(183,1,"ER Triage").
+trace(183,2,"ER Sepsis Triage").
+trace(183,3,"CRP").
+trace(183,4,"Leucocytes").
+trace(183,5,"Admission NC").
+trace(183,6,"Leucocytes").
+trace(183,7,"Leucocytes").
+trace(183,8,"Admission NC").
+trace(183,9,"Release A").
+trace(184,0,"ER Registration").
+trace(184,1,"ER Triage").
+trace(184,2,"ER Sepsis Triage").
+trace(184,3,"LacticAcid").
+trace(184,4,"CRP").
+trace(184,5,"Leucocytes").
+trace(184,6,"IV Liquid").
+trace(184,7,"IV Antibiotics").
+trace(184,8,"Admission NC").
+trace(184,9,"Leucocytes").
+trace(184,10,"CRP").
+trace(184,11,"Leucocytes").
+trace(184,12,"CRP").
+trace(184,13,"Leucocytes").
+trace(184,14,"Release A").
+trace(185,0,"ER Registration").
+trace(185,1,"ER Triage").
+trace(185,2,"ER Sepsis Triage").
+trace(185,3,"CRP").
+trace(185,4,"LacticAcid").
+trace(185,5,"Leucocytes").
+trace(185,6,"IV Liquid").
+trace(185,7,"IV Antibiotics").
+trace(185,8,"Admission NC").
+trace(185,9,"CRP").
+trace(185,10,"Leucocytes").
+trace(185,11,"Release A").
+trace(186,0,"ER Registration").
+trace(186,1,"ER Triage").
+trace(186,2,"CRP").
+trace(186,3,"Leucocytes").
+trace(186,4,"ER Sepsis Triage").
+trace(187,0,"ER Registration").
+trace(187,1,"ER Triage").
+trace(187,2,"ER Sepsis Triage").
+trace(187,3,"IV Liquid").
+trace(187,4,"IV Antibiotics").
+trace(187,5,"Leucocytes").
+trace(187,6,"LacticAcid").
+trace(187,7,"CRP").
+trace(187,8,"Admission NC").
+trace(187,9,"CRP").
+trace(187,10,"Release A").
+trace(188,0,"ER Registration").
+trace(188,1,"ER Triage").
+trace(188,2,"ER Sepsis Triage").
+trace(188,3,"Leucocytes").
+trace(188,4,"CRP").
+trace(188,5,"Admission NC").
+trace(188,6,"Leucocytes").
+trace(188,7,"CRP").
+trace(188,8,"Leucocytes").
+trace(188,9,"Leucocytes").
+trace(188,10,"Leucocytes").
+trace(188,11,"Leucocytes").
+trace(188,12,"Leucocytes").
+trace(188,13,"LacticAcid").
+trace(188,14,"CRP").
+trace(188,15,"Leucocytes").
+trace(188,16,"Release A").
+trace(188,17,"Return ER").
+trace(189,0,"ER Registration").
+trace(189,1,"ER Triage").
+trace(189,2,"ER Sepsis Triage").
+trace(189,3,"CRP").
+trace(189,4,"Leucocytes").
+trace(189,5,"LacticAcid").
+trace(189,6,"IV Antibiotics").
+trace(189,7,"Admission NC").
+trace(189,8,"Admission NC").
+trace(189,9,"Leucocytes").
+trace(189,10,"CRP").
+trace(189,11,"Leucocytes").
+trace(189,12,"CRP").
+trace(189,13,"Release A").
+trace(189,14,"Return ER").
+trace(190,0,"ER Registration").
+trace(190,1,"ER Triage").
+trace(190,2,"ER Sepsis Triage").
+trace(190,3,"Leucocytes").
+trace(190,4,"Admission NC").
+trace(190,5,"Leucocytes").
+trace(190,6,"Leucocytes").
+trace(190,7,"Leucocytes").
+trace(190,8,"CRP").
+trace(190,9,"Leucocytes").
+trace(190,10,"Leucocytes").
+trace(190,11,"Leucocytes").
+trace(190,12,"Leucocytes").
+trace(190,13,"Leucocytes").
+trace(190,14,"Leucocytes").
+trace(190,15,"CRP").
+trace(190,16,"Leucocytes").
+trace(190,17,"Release A").
+trace(191,0,"ER Registration").
+trace(191,1,"ER Triage").
+trace(191,2,"ER Sepsis Triage").
+trace(191,3,"IV Liquid").
+trace(191,4,"IV Antibiotics").
+trace(191,5,"Leucocytes").
+trace(191,6,"LacticAcid").
+trace(191,7,"CRP").
+trace(191,8,"Admission NC").
+trace(191,9,"Leucocytes").
+trace(191,10,"Leucocytes").
+trace(191,11,"CRP").
+trace(191,12,"Release A").
+trace(192,0,"Leucocytes").
+trace(192,1,"CRP").
+trace(192,2,"ER Registration").
+trace(192,3,"ER Triage").
+trace(192,4,"ER Sepsis Triage").
+trace(192,5,"LacticAcid").
+trace(192,6,"Leucocytes").
+trace(192,7,"CRP").
+trace(192,8,"IV Liquid").
+trace(192,9,"IV Antibiotics").
+trace(192,10,"Admission NC").
+trace(192,11,"Leucocytes").
+trace(192,12,"CRP").
+trace(192,13,"CRP").
+trace(192,14,"Leucocytes").
+trace(192,15,"Release A").
+trace(193,0,"ER Registration").
+trace(193,1,"ER Triage").
+trace(193,2,"ER Sepsis Triage").
+trace(193,3,"CRP").
+trace(193,4,"Leucocytes").
+trace(193,5,"LacticAcid").
+trace(193,6,"IV Liquid").
+trace(193,7,"IV Antibiotics").
+trace(193,8,"Admission NC").
+trace(193,9,"Admission NC").
+trace(193,10,"Admission IC").
+trace(193,11,"CRP").
+trace(193,12,"Leucocytes").
+trace(193,13,"LacticAcid").
+trace(193,14,"LacticAcid").
+trace(193,15,"LacticAcid").
+trace(193,16,"Leucocytes").
+trace(193,17,"CRP").
+trace(193,18,"CRP").
+trace(193,19,"LacticAcid").
+trace(193,20,"Leucocytes").
+trace(193,21,"CRP").
+trace(193,22,"Leucocytes").
+trace(193,23,"LacticAcid").
+trace(193,24,"LacticAcid").
+trace(193,25,"CRP").
+trace(193,26,"Leucocytes").
+trace(193,27,"CRP").
+trace(193,28,"Leucocytes").
+trace(193,29,"LacticAcid").
+trace(193,30,"Leucocytes").
+trace(193,31,"LacticAcid").
+trace(193,32,"CRP").
+trace(193,33,"CRP").
+trace(193,34,"Leucocytes").
+trace(193,35,"LacticAcid").
+trace(193,36,"LacticAcid").
+trace(193,37,"Leucocytes").
+trace(193,38,"CRP").
+trace(193,39,"Release E").
+trace(193,40,"Return ER").
+trace(194,0,"ER Registration").
+trace(194,1,"ER Triage").
+trace(194,2,"ER Sepsis Triage").
+trace(194,3,"Leucocytes").
+trace(194,4,"CRP").
+trace(194,5,"Leucocytes").
+trace(195,0,"ER Registration").
+trace(195,1,"ER Triage").
+trace(195,2,"ER Sepsis Triage").
+trace(195,3,"CRP").
+trace(195,4,"Leucocytes").
+trace(195,5,"LacticAcid").
+trace(196,0,"ER Registration").
+trace(196,1,"ER Triage").
+trace(196,2,"ER Sepsis Triage").
+trace(196,3,"CRP").
+trace(196,4,"LacticAcid").
+trace(196,5,"Leucocytes").
+trace(196,6,"Admission NC").
+trace(196,7,"Admission NC").
+trace(196,8,"Release A").
+trace(197,0,"ER Registration").
+trace(197,1,"IV Liquid").
+trace(197,2,"ER Sepsis Triage").
+trace(197,3,"IV Antibiotics").
+trace(197,4,"ER Triage").
+trace(197,5,"LacticAcid").
+trace(197,6,"CRP").
+trace(197,7,"Leucocytes").
+trace(197,8,"Admission NC").
+trace(197,9,"Leucocytes").
+trace(197,10,"CRP").
+trace(197,11,"Release A").
+trace(197,12,"Return ER").
+trace(198,0,"ER Registration").
+trace(198,1,"ER Triage").
+trace(198,2,"ER Sepsis Triage").
+trace(198,3,"Leucocytes").
+trace(198,4,"CRP").
+trace(198,5,"LacticAcid").
+trace(198,6,"IV Liquid").
+trace(198,7,"IV Antibiotics").
+trace(198,8,"Admission NC").
+trace(198,9,"CRP").
+trace(198,10,"Leucocytes").
+trace(198,11,"Release A").
+trace(198,12,"Return ER").
+trace(199,0,"ER Registration").
+trace(199,1,"ER Triage").
+trace(199,2,"ER Sepsis Triage").
+trace(199,3,"LacticAcid").
+trace(199,4,"Leucocytes").
+trace(199,5,"CRP").
+trace(199,6,"Admission NC").
+trace(199,7,"Leucocytes").
+trace(199,8,"CRP").
+trace(199,9,"Leucocytes").
+trace(199,10,"CRP").
+trace(199,11,"Leucocytes").
+trace(199,12,"CRP").
+trace(199,13,"CRP").
+trace(199,14,"Leucocytes").
+trace(199,15,"Leucocytes").
+trace(199,16,"CRP").
+trace(199,17,"CRP").
+trace(199,18,"Leucocytes").
+trace(199,19,"CRP").
+trace(199,20,"LacticAcid").
+trace(199,21,"CRP").
+trace(199,22,"Leucocytes").
+trace(199,23,"CRP").
+trace(199,24,"CRP").
+trace(199,25,"CRP").
+trace(199,26,"CRP").
+trace(199,27,"Leucocytes").
+trace(199,28,"CRP").
+trace(199,29,"Leucocytes").
+trace(199,30,"CRP").
+trace(199,31,"Release A").
+trace(199,32,"Return ER").
+trace(200,0,"ER Registration").
+trace(200,1,"ER Triage").
+trace(200,2,"CRP").
+trace(200,3,"Leucocytes").
+trace(200,4,"ER Sepsis Triage").
+trace(201,0,"ER Registration").
+trace(201,1,"ER Triage").
+trace(201,2,"ER Sepsis Triage").
+trace(201,3,"CRP").
+trace(201,4,"LacticAcid").
+trace(201,5,"Leucocytes").
+trace(201,6,"IV Antibiotics").
+trace(201,7,"Admission NC").
+trace(201,8,"Leucocytes").
+trace(201,9,"CRP").
+trace(201,10,"Release A").
+trace(202,0,"ER Registration").
+trace(202,1,"ER Triage").
+trace(202,2,"ER Sepsis Triage").
+trace(202,3,"Leucocytes").
+trace(202,4,"CRP").
+trace(202,5,"LacticAcid").
+trace(202,6,"IV Liquid").
+trace(202,7,"IV Antibiotics").
+trace(203,0,"ER Registration").
+trace(203,1,"ER Triage").
+trace(203,2,"ER Sepsis Triage").
+trace(203,3,"LacticAcid").
+trace(203,4,"Leucocytes").
+trace(203,5,"CRP").
+trace(203,6,"Admission NC").
+trace(203,7,"CRP").
+trace(203,8,"Leucocytes").
+trace(203,9,"CRP").
+trace(203,10,"Leucocytes").
+trace(203,11,"CRP").
+trace(203,12,"Leucocytes").
+trace(203,13,"CRP").
+trace(203,14,"Release A").
+trace(203,15,"Return ER").
+trace(204,0,"ER Registration").
+trace(204,1,"ER Triage").
+trace(204,2,"ER Sepsis Triage").
+trace(204,3,"CRP").
+trace(204,4,"Leucocytes").
+trace(204,5,"LacticAcid").
+trace(204,6,"IV Liquid").
+trace(204,7,"IV Antibiotics").
+trace(204,8,"Admission NC").
+trace(204,9,"Leucocytes").
+trace(204,10,"CRP").
+trace(204,11,"CRP").
+trace(204,12,"Leucocytes").
+trace(204,13,"Release A").
+trace(205,0,"ER Registration").
+trace(205,1,"ER Triage").
+trace(205,2,"ER Sepsis Triage").
+trace(205,3,"LacticAcid").
+trace(205,4,"Leucocytes").
+trace(205,5,"CRP").
+trace(205,6,"IV Liquid").
+trace(205,7,"IV Antibiotics").
+trace(206,0,"ER Registration").
+trace(206,1,"ER Triage").
+trace(206,2,"ER Sepsis Triage").
+trace(206,3,"IV Liquid").
+trace(206,4,"IV Antibiotics").
+trace(206,5,"LacticAcid").
+trace(206,6,"Leucocytes").
+trace(206,7,"CRP").
+trace(206,8,"Admission NC").
+trace(206,9,"Admission NC").
+trace(206,10,"Leucocytes").
+trace(206,11,"CRP").
+trace(206,12,"Leucocytes").
+trace(206,13,"Leucocytes").
+trace(206,14,"Leucocytes").
+trace(206,15,"Leucocytes").
+trace(206,16,"Leucocytes").
+trace(206,17,"CRP").
+trace(206,18,"Leucocytes").
+trace(206,19,"Leucocytes").
+trace(206,20,"Leucocytes").
+trace(206,21,"CRP").
+trace(206,22,"Leucocytes").
+trace(206,23,"CRP").
+trace(206,24,"Leucocytes").
+trace(206,25,"Leucocytes").
+trace(206,26,"CRP").
+trace(206,27,"Leucocytes").
+trace(206,28,"Release D").
+trace(207,0,"ER Registration").
+trace(207,1,"ER Triage").
+trace(207,2,"ER Sepsis Triage").
+trace(207,3,"CRP").
+trace(207,4,"LacticAcid").
+trace(207,5,"Leucocytes").
+trace(207,6,"IV Antibiotics").
+trace(207,7,"Admission NC").
+trace(207,8,"IV Liquid").
+trace(207,9,"Release B").
+trace(208,0,"ER Registration").
+trace(208,1,"ER Triage").
+trace(208,2,"ER Sepsis Triage").
+trace(208,3,"LacticAcid").
+trace(208,4,"Leucocytes").
+trace(208,5,"CRP").
+trace(208,6,"IV Antibiotics").
+trace(208,7,"Admission NC").
+trace(208,8,"Leucocytes").
+trace(208,9,"CRP").
+trace(208,10,"Release A").
+trace(209,0,"ER Registration").
+trace(209,1,"ER Triage").
+trace(209,2,"ER Sepsis Triage").
+trace(209,3,"Leucocytes").
+trace(209,4,"LacticAcid").
+trace(209,5,"CRP").
+trace(209,6,"IV Antibiotics").
+trace(209,7,"IV Liquid").
+trace(209,8,"Admission NC").
+trace(209,9,"Leucocytes").
+trace(209,10,"CRP").
+trace(209,11,"Admission NC").
+trace(209,12,"CRP").
+trace(209,13,"Leucocytes").
+trace(209,14,"Admission NC").
+trace(209,15,"Leucocytes").
+trace(209,16,"CRP").
+trace(209,17,"Leucocytes").
+trace(209,18,"CRP").
+trace(209,19,"Release A").
+trace(210,0,"ER Registration").
+trace(210,1,"ER Triage").
+trace(210,2,"ER Sepsis Triage").
+trace(210,3,"IV Antibiotics").
+trace(210,4,"Leucocytes").
+trace(210,5,"CRP").
+trace(210,6,"LacticAcid").
+trace(210,7,"Admission NC").
+trace(210,8,"Release A").
+trace(211,0,"ER Registration").
+trace(211,1,"ER Triage").
+trace(211,2,"ER Sepsis Triage").
+trace(211,3,"IV Liquid").
+trace(211,4,"Leucocytes").
+trace(211,5,"CRP").
+trace(211,6,"IV Antibiotics").
+trace(211,7,"Admission NC").
+trace(211,8,"Leucocytes").
+trace(211,9,"Leucocytes").
+trace(211,10,"CRP").
+trace(211,11,"CRP").
+trace(211,12,"Leucocytes").
+trace(211,13,"Release A").
+trace(211,14,"Return ER").
+trace(212,0,"ER Registration").
+trace(212,1,"ER Triage").
+trace(212,2,"ER Sepsis Triage").
+trace(212,3,"CRP").
+trace(212,4,"LacticAcid").
+trace(212,5,"Leucocytes").
+trace(212,6,"IV Liquid").
+trace(212,7,"IV Antibiotics").
+trace(212,8,"Admission NC").
+trace(212,9,"Release A").
+trace(213,0,"ER Registration").
+trace(213,1,"ER Triage").
+trace(213,2,"ER Sepsis Triage").
+trace(213,3,"LacticAcid").
+trace(213,4,"CRP").
+trace(213,5,"Leucocytes").
+trace(213,6,"IV Antibiotics").
+trace(213,7,"Admission NC").
+trace(213,8,"CRP").
+trace(213,9,"CRP").
+trace(213,10,"Leucocytes").
+trace(213,11,"Release A").
+trace(213,12,"Return ER").
+trace(214,0,"ER Registration").
+trace(214,1,"ER Triage").
+trace(214,2,"CRP").
+trace(214,3,"LacticAcid").
+trace(214,4,"Leucocytes").
+trace(214,5,"ER Sepsis Triage").
+trace(214,6,"IV Liquid").
+trace(214,7,"IV Antibiotics").
+trace(215,0,"ER Registration").
+trace(215,1,"ER Triage").
+trace(215,2,"ER Sepsis Triage").
+trace(215,3,"Leucocytes").
+trace(215,4,"LacticAcid").
+trace(215,5,"CRP").
+trace(215,6,"IV Liquid").
+trace(215,7,"IV Antibiotics").
+trace(215,8,"Admission NC").
+trace(215,9,"CRP").
+trace(215,10,"Leucocytes").
+trace(215,11,"Release A").
+trace(216,0,"ER Registration").
+trace(216,1,"ER Triage").
+trace(216,2,"ER Sepsis Triage").
+trace(216,3,"Leucocytes").
+trace(216,4,"CRP").
+trace(216,5,"LacticAcid").
+trace(216,6,"IV Antibiotics").
+trace(216,7,"Admission NC").
+trace(216,8,"Admission NC").
+trace(216,9,"IV Liquid").
+trace(216,10,"CRP").
+trace(216,11,"Leucocytes").
+trace(216,12,"Admission NC").
+trace(216,13,"Leucocytes").
+trace(216,14,"CRP").
+trace(216,15,"Release A").
+trace(216,16,"Return ER").
+trace(217,0,"ER Registration").
+trace(217,1,"ER Sepsis Triage").
+trace(217,2,"ER Triage").
+trace(217,3,"IV Liquid").
+trace(217,4,"IV Antibiotics").
+trace(217,5,"CRP").
+trace(217,6,"Leucocytes").
+trace(217,7,"LacticAcid").
+trace(217,8,"Admission NC").
+trace(217,9,"Admission NC").
+trace(217,10,"Release A").
+trace(217,11,"Return ER").
+trace(218,0,"ER Registration").
+trace(218,1,"ER Triage").
+trace(218,2,"ER Sepsis Triage").
+trace(218,3,"IV Liquid").
+trace(218,4,"CRP").
+trace(218,5,"LacticAcid").
+trace(218,6,"Leucocytes").
+trace(218,7,"IV Antibiotics").
+trace(218,8,"Admission NC").
+trace(218,9,"CRP").
+trace(218,10,"Leucocytes").
+trace(218,11,"Release A").
+trace(219,0,"ER Registration").
+trace(219,1,"ER Triage").
+trace(219,2,"ER Sepsis Triage").
+trace(219,3,"CRP").
+trace(219,4,"Leucocytes").
+trace(219,5,"Admission NC").
+trace(219,6,"Leucocytes").
+trace(219,7,"CRP").
+trace(219,8,"CRP").
+trace(219,9,"Leucocytes").
+trace(219,10,"CRP").
+trace(219,11,"Leucocytes").
+trace(219,12,"Leucocytes").
+trace(219,13,"CRP").
+trace(219,14,"CRP").
+trace(219,15,"Leucocytes").
+trace(219,16,"Release A").
+trace(220,0,"ER Registration").
+trace(220,1,"ER Triage").
+trace(220,2,"ER Sepsis Triage").
+trace(220,3,"CRP").
+trace(220,4,"Leucocytes").
+trace(221,0,"ER Registration").
+trace(221,1,"ER Triage").
+trace(221,2,"ER Sepsis Triage").
+trace(221,3,"CRP").
+trace(221,4,"LacticAcid").
+trace(221,5,"Leucocytes").
+trace(221,6,"IV Liquid").
+trace(221,7,"IV Antibiotics").
+trace(221,8,"Admission NC").
+trace(221,9,"Leucocytes").
+trace(221,10,"CRP").
+trace(221,11,"Release A").
+trace(221,12,"Return ER").
+trace(222,0,"ER Registration").
+trace(222,1,"ER Triage").
+trace(222,2,"ER Sepsis Triage").
+trace(222,3,"CRP").
+trace(222,4,"Leucocytes").
+trace(222,5,"LacticAcid").
+trace(222,6,"IV Antibiotics").
+trace(222,7,"IV Liquid").
+trace(222,8,"Admission NC").
+trace(222,9,"Leucocytes").
+trace(222,10,"CRP").
+trace(222,11,"Admission NC").
+trace(222,12,"Leucocytes").
+trace(222,13,"CRP").
+trace(222,14,"Release A").
+trace(222,15,"Return ER").
+trace(223,0,"ER Registration").
+trace(223,1,"CRP").
+trace(223,2,"LacticAcid").
+trace(223,3,"Leucocytes").
+trace(223,4,"IV Liquid").
+trace(223,5,"ER Triage").
+trace(223,6,"ER Sepsis Triage").
+trace(223,7,"IV Antibiotics").
+trace(224,0,"ER Registration").
+trace(224,1,"ER Triage").
+trace(224,2,"ER Sepsis Triage").
+trace(224,3,"Leucocytes").
+trace(224,4,"CRP").
+trace(224,5,"Admission IC").
+trace(224,6,"CRP").
+trace(224,7,"Leucocytes").
+trace(224,8,"LacticAcid").
+trace(224,9,"Leucocytes").
+trace(224,10,"Leucocytes").
+trace(224,11,"Leucocytes").
+trace(224,12,"Leucocytes").
+trace(224,13,"LacticAcid").
+trace(224,14,"LacticAcid").
+trace(224,15,"Leucocytes").
+trace(224,16,"CRP").
+trace(224,17,"Leucocytes").
+trace(224,18,"LacticAcid").
+trace(224,19,"Leucocytes").
+trace(224,20,"CRP").
+trace(224,21,"LacticAcid").
+trace(224,22,"Release B").
+trace(225,0,"ER Registration").
+trace(225,1,"ER Triage").
+trace(225,2,"ER Sepsis Triage").
+trace(225,3,"Leucocytes").
+trace(225,4,"Leucocytes").
+trace(226,0,"ER Registration").
+trace(226,1,"ER Triage").
+trace(226,2,"ER Sepsis Triage").
+trace(226,3,"Leucocytes").
+trace(226,4,"LacticAcid").
+trace(226,5,"CRP").
+trace(226,6,"IV Antibiotics").
+trace(226,7,"Admission NC").
+trace(226,8,"CRP").
+trace(226,9,"Leucocytes").
+trace(226,10,"Release A").
+trace(226,11,"Return ER").
+trace(227,0,"ER Registration").
+trace(227,1,"ER Triage").
+trace(227,2,"CRP").
+trace(227,3,"LacticAcid").
+trace(227,4,"Leucocytes").
+trace(227,5,"IV Liquid").
+trace(227,6,"ER Sepsis Triage").
+trace(227,7,"IV Antibiotics").
+trace(227,8,"Admission NC").
+trace(227,9,"CRP").
+trace(227,10,"LacticAcid").
+trace(227,11,"CRP").
+trace(227,12,"Release A").
+trace(228,0,"ER Registration").
+trace(228,1,"ER Triage").
+trace(228,2,"ER Sepsis Triage").
+trace(229,0,"ER Registration").
+trace(229,1,"ER Triage").
+trace(229,2,"ER Sepsis Triage").
+trace(229,3,"Leucocytes").
+trace(229,4,"CRP").
+trace(230,0,"ER Registration").
+trace(230,1,"ER Triage").
+trace(230,2,"ER Sepsis Triage").
+trace(230,3,"CRP").
+trace(230,4,"Leucocytes").
+trace(231,0,"ER Registration").
+trace(231,1,"ER Triage").
+trace(231,2,"ER Sepsis Triage").
+trace(231,3,"CRP").
+trace(231,4,"Leucocytes").
+trace(231,5,"LacticAcid").
+trace(231,6,"IV Antibiotics").
+trace(231,7,"IV Liquid").
+trace(231,8,"Admission NC").
+trace(231,9,"CRP").
+trace(231,10,"Leucocytes").
+trace(231,11,"CRP").
+trace(231,12,"Leucocytes").
+trace(231,13,"CRP").
+trace(231,14,"Leucocytes").
+trace(231,15,"CRP").
+trace(231,16,"Leucocytes").
+trace(231,17,"Admission NC").
+trace(231,18,"Leucocytes").
+trace(231,19,"CRP").
+trace(231,20,"Leucocytes").
+trace(231,21,"Release A").
+trace(232,0,"ER Registration").
+trace(232,1,"ER Triage").
+trace(232,2,"ER Sepsis Triage").
+trace(232,3,"CRP").
+trace(232,4,"Leucocytes").
+trace(232,5,"Admission NC").
+trace(232,6,"Release A").
+trace(233,0,"ER Registration").
+trace(233,1,"ER Triage").
+trace(233,2,"ER Sepsis Triage").
+trace(233,3,"Leucocytes").
+trace(233,4,"CRP").
+trace(233,5,"LacticAcid").
+trace(233,6,"IV Liquid").
+trace(233,7,"IV Antibiotics").
+trace(233,8,"Admission NC").
+trace(233,9,"CRP").
+trace(233,10,"Admission NC").
+trace(233,11,"CRP").
+trace(233,12,"Release A").
+trace(234,0,"ER Registration").
+trace(234,1,"ER Triage").
+trace(234,2,"ER Sepsis Triage").
+trace(234,3,"LacticAcid").
+trace(234,4,"CRP").
+trace(234,5,"Leucocytes").
+trace(234,6,"IV Liquid").
+trace(234,7,"IV Antibiotics").
+trace(234,8,"Admission NC").
+trace(234,9,"CRP").
+trace(234,10,"Leucocytes").
+trace(234,11,"Leucocytes").
+trace(234,12,"CRP").
+trace(234,13,"Release A").
+trace(234,14,"Return ER").
+trace(235,0,"ER Registration").
+trace(235,1,"ER Triage").
+trace(235,2,"CRP").
+trace(235,3,"Leucocytes").
+trace(235,4,"ER Sepsis Triage").
+trace(235,5,"IV Antibiotics").
+trace(235,6,"Admission NC").
+trace(235,7,"LacticAcid").
+trace(235,8,"Admission NC").
+trace(235,9,"Release B").
+trace(236,0,"ER Registration").
+trace(236,1,"ER Triage").
+trace(236,2,"ER Sepsis Triage").
+trace(236,3,"IV Liquid").
+trace(236,4,"IV Antibiotics").
+trace(236,5,"LacticAcid").
+trace(236,6,"Leucocytes").
+trace(236,7,"CRP").
+trace(236,8,"Admission NC").
+trace(236,9,"Leucocytes").
+trace(236,10,"CRP").
+trace(236,11,"Admission NC").
+trace(236,12,"Release A").
+trace(237,0,"ER Registration").
+trace(237,1,"ER Triage").
+trace(237,2,"ER Sepsis Triage").
+trace(237,3,"LacticAcid").
+trace(237,4,"CRP").
+trace(237,5,"Leucocytes").
+trace(237,6,"IV Liquid").
+trace(237,7,"IV Antibiotics").
+trace(237,8,"Admission NC").
+trace(237,9,"Leucocytes").
+trace(237,10,"CRP").
+trace(237,11,"Release A").
+trace(238,0,"ER Registration").
+trace(238,1,"ER Triage").
+trace(238,2,"ER Sepsis Triage").
+trace(238,3,"LacticAcid").
+trace(238,4,"CRP").
+trace(238,5,"Leucocytes").
+trace(238,6,"IV Antibiotics").
+trace(238,7,"Admission NC").
+trace(238,8,"Admission NC").
+trace(238,9,"CRP").
+trace(238,10,"Leucocytes").
+trace(238,11,"CRP").
+trace(238,12,"Release D").
+trace(238,13,"Return ER").
+trace(239,0,"ER Registration").
+trace(239,1,"ER Triage").
+trace(239,2,"ER Sepsis Triage").
+trace(239,3,"CRP").
+trace(239,4,"LacticAcid").
+trace(239,5,"Leucocytes").
+trace(239,6,"IV Liquid").
+trace(239,7,"IV Antibiotics").
+trace(240,0,"Leucocytes").
+trace(240,1,"ER Registration").
+trace(240,2,"ER Triage").
+trace(240,3,"ER Sepsis Triage").
+trace(240,4,"CRP").
+trace(240,5,"LacticAcid").
+trace(240,6,"Leucocytes").
+trace(240,7,"IV Antibiotics").
+trace(240,8,"Admission NC").
+trace(240,9,"Admission NC").
+trace(240,10,"Leucocytes").
+trace(240,11,"Release A").
+trace(241,0,"ER Registration").
+trace(241,1,"ER Triage").
+trace(241,2,"ER Sepsis Triage").
+trace(241,3,"LacticAcid").
+trace(241,4,"CRP").
+trace(241,5,"Leucocytes").
+trace(241,6,"Admission NC").
+trace(241,7,"Release A").
+trace(241,8,"Return ER").
+trace(242,0,"ER Registration").
+trace(242,1,"ER Triage").
+trace(242,2,"Leucocytes").
+trace(242,3,"LacticAcid").
+trace(242,4,"CRP").
+trace(242,5,"ER Sepsis Triage").
+trace(242,6,"IV Liquid").
+trace(242,7,"IV Antibiotics").
+trace(242,8,"Admission NC").
+trace(242,9,"CRP").
+trace(242,10,"Leucocytes").
+trace(242,11,"Release A").
+trace(242,12,"Return ER").
+trace(243,0,"ER Registration").
+trace(243,1,"ER Triage").
+trace(243,2,"ER Sepsis Triage").
+trace(243,3,"IV Liquid").
+trace(243,4,"IV Antibiotics").
+trace(243,5,"Leucocytes").
+trace(243,6,"LacticAcid").
+trace(243,7,"CRP").
+trace(244,0,"ER Registration").
+trace(244,1,"ER Triage").
+trace(244,2,"LacticAcid").
+trace(244,3,"Leucocytes").
+trace(244,4,"CRP").
+trace(244,5,"ER Sepsis Triage").
+trace(244,6,"IV Liquid").
+trace(244,7,"IV Antibiotics").
+trace(244,8,"Admission NC").
+trace(244,9,"CRP").
+trace(244,10,"Leucocytes").
+trace(244,11,"Admission NC").
+trace(244,12,"Leucocytes").
+trace(244,13,"CRP").
+trace(244,14,"Release A").
+trace(244,15,"Return ER").
+trace(245,0,"ER Registration").
+trace(245,1,"ER Triage").
+trace(245,2,"ER Sepsis Triage").
+trace(245,3,"LacticAcid").
+trace(245,4,"Leucocytes").
+trace(245,5,"CRP").
+trace(245,6,"IV Liquid").
+trace(245,7,"IV Antibiotics").
+trace(245,8,"Admission NC").
+trace(245,9,"Admission NC").
+trace(245,10,"Leucocytes").
+trace(245,11,"CRP").
+trace(245,12,"Release A").
+trace(245,13,"Return ER").
+trace(246,0,"ER Registration").
+trace(246,1,"ER Triage").
+trace(246,2,"ER Sepsis Triage").
+trace(246,3,"IV Liquid").
+trace(246,4,"Leucocytes").
+trace(246,5,"LacticAcid").
+trace(246,6,"CRP").
+trace(246,7,"IV Antibiotics").
+trace(247,0,"ER Registration").
+trace(247,1,"ER Triage").
+trace(247,2,"CRP").
+trace(247,3,"LacticAcid").
+trace(247,4,"Leucocytes").
+trace(247,5,"ER Sepsis Triage").
+trace(247,6,"IV Liquid").
+trace(247,7,"IV Antibiotics").
+trace(247,8,"Admission NC").
+trace(247,9,"CRP").
+trace(247,10,"Leucocytes").
+trace(247,11,"Leucocytes").
+trace(247,12,"CRP").
+trace(247,13,"Release A").
+trace(247,14,"Return ER").
+trace(248,0,"ER Registration").
+trace(248,1,"ER Triage").
+trace(248,2,"ER Sepsis Triage").
+trace(248,3,"LacticAcid").
+trace(248,4,"CRP").
+trace(248,5,"Leucocytes").
+trace(249,0,"ER Registration").
+trace(249,1,"ER Triage").
+trace(249,2,"ER Sepsis Triage").
+trace(249,3,"CRP").
+trace(249,4,"Leucocytes").
+trace(249,5,"LacticAcid").
+trace(249,6,"Admission NC").
+trace(249,7,"IV Liquid").
+trace(249,8,"IV Antibiotics").
+trace(249,9,"CRP").
+trace(249,10,"Release A").
+trace(250,0,"ER Registration").
+trace(250,1,"ER Triage").
+trace(250,2,"ER Sepsis Triage").
+trace(250,3,"LacticAcid").
+trace(250,4,"Leucocytes").
+trace(250,5,"CRP").
+trace(250,6,"Admission NC").
+trace(250,7,"Admission NC").
+trace(250,8,"Release A").
+trace(251,0,"ER Registration").
+trace(251,1,"ER Triage").
+trace(251,2,"ER Sepsis Triage").
+trace(251,3,"IV Liquid").
+trace(251,4,"CRP").
+trace(251,5,"LacticAcid").
+trace(251,6,"Leucocytes").
+trace(251,7,"IV Antibiotics").
+trace(251,8,"Admission NC").
+trace(251,9,"Leucocytes").
+trace(251,10,"CRP").
+trace(251,11,"Admission NC").
+trace(251,12,"CRP").
+trace(251,13,"Leucocytes").
+trace(251,14,"Release A").
+trace(251,15,"Return ER").
+trace(252,0,"ER Registration").
+trace(252,1,"ER Triage").
+trace(252,2,"ER Sepsis Triage").
+trace(252,3,"LacticAcid").
+trace(252,4,"Leucocytes").
+trace(252,5,"CRP").
+trace(252,6,"IV Liquid").
+trace(252,7,"IV Antibiotics").
+trace(252,8,"Admission NC").
+trace(252,9,"CRP").
+trace(252,10,"Leucocytes").
+trace(252,11,"Admission NC").
+trace(252,12,"CRP").
+trace(252,13,"Leucocytes").
+trace(252,14,"Leucocytes").
+trace(252,15,"CRP").
+trace(252,16,"CRP").
+trace(252,17,"Release A").
+trace(253,0,"ER Registration").
+trace(253,1,"ER Triage").
+trace(253,2,"ER Sepsis Triage").
+trace(253,3,"CRP").
+trace(253,4,"Leucocytes").
+trace(253,5,"LacticAcid").
+trace(253,6,"Admission NC").
+trace(253,7,"Admission NC").
+trace(253,8,"CRP").
+trace(253,9,"Leucocytes").
+trace(253,10,"Leucocytes").
+trace(253,11,"CRP").
+trace(253,12,"Leucocytes").
+trace(253,13,"CRP").
+trace(253,14,"Leucocytes").
+trace(253,15,"CRP").
+trace(253,16,"CRP").
+trace(253,17,"Leucocytes").
+trace(253,18,"Leucocytes").
+trace(253,19,"CRP").
+trace(253,20,"Release C").
+trace(254,0,"ER Registration").
+trace(254,1,"ER Triage").
+trace(254,2,"ER Sepsis Triage").
+trace(254,3,"LacticAcid").
+trace(254,4,"CRP").
+trace(254,5,"Leucocytes").
+trace(254,6,"IV Antibiotics").
+trace(254,7,"Admission NC").
+trace(254,8,"IV Liquid").
+trace(254,9,"CRP").
+trace(254,10,"Leucocytes").
+trace(254,11,"CRP").
+trace(254,12,"Leucocytes").
+trace(254,13,"Release A").
+trace(255,0,"ER Registration").
+trace(255,1,"ER Triage").
+trace(255,2,"ER Sepsis Triage").
+trace(255,3,"IV Liquid").
+trace(255,4,"IV Antibiotics").
+trace(255,5,"LacticAcid").
+trace(255,6,"CRP").
+trace(255,7,"Leucocytes").
+trace(255,8,"Admission NC").
+trace(255,9,"Admission NC").
+trace(255,10,"Leucocytes").
+trace(255,11,"CRP").
+trace(255,12,"CRP").
+trace(255,13,"CRP").
+trace(255,14,"Leucocytes").
+trace(255,15,"CRP").
+trace(255,16,"Release A").
+trace(255,17,"Return ER").
+trace(256,0,"ER Registration").
+trace(256,1,"ER Triage").
+trace(256,2,"ER Sepsis Triage").
+trace(256,3,"CRP").
+trace(256,4,"Leucocytes").
+trace(256,5,"Admission NC").
+trace(256,6,"CRP").
+trace(256,7,"Release A").
+trace(256,8,"Return ER").
+trace(257,0,"ER Registration").
+trace(257,1,"ER Triage").
+trace(257,2,"CRP").
+trace(257,3,"Leucocytes").
+trace(257,4,"LacticAcid").
+trace(257,5,"ER Sepsis Triage").
+trace(257,6,"IV Liquid").
+trace(257,7,"IV Antibiotics").
+trace(257,8,"Admission NC").
+trace(257,9,"Admission IC").
+trace(257,10,"CRP").
+trace(257,11,"LacticAcid").
+trace(257,12,"Leucocytes").
+trace(257,13,"LacticAcid").
+trace(257,14,"Leucocytes").
+trace(257,15,"CRP").
+trace(257,16,"LacticAcid").
+trace(257,17,"Admission IC").
+trace(257,18,"LacticAcid").
+trace(257,19,"CRP").
+trace(257,20,"Leucocytes").
+trace(257,21,"LacticAcid").
+trace(257,22,"Leucocytes").
+trace(257,23,"CRP").
+trace(257,24,"Leucocytes").
+trace(257,25,"CRP").
+trace(257,26,"LacticAcid").
+trace(257,27,"Admission NC").
+trace(257,28,"CRP").
+trace(257,29,"Leucocytes").
+trace(257,30,"CRP").
+trace(257,31,"Leucocytes").
+trace(257,32,"CRP").
+trace(257,33,"Leucocytes").
+trace(257,34,"Admission NC").
+trace(257,35,"CRP").
+trace(257,36,"Leucocytes").
+trace(257,37,"Release A").
+trace(257,38,"Return ER").
+trace(258,0,"ER Registration").
+trace(258,1,"ER Triage").
+trace(258,2,"ER Sepsis Triage").
+trace(258,3,"LacticAcid").
+trace(258,4,"Leucocytes").
+trace(258,5,"CRP").
+trace(258,6,"IV Liquid").
+trace(258,7,"IV Antibiotics").
+trace(258,8,"Admission NC").
+trace(258,9,"CRP").
+trace(258,10,"Leucocytes").
+trace(258,11,"Leucocytes").
+trace(258,12,"CRP").
+trace(258,13,"Release A").
+trace(259,0,"ER Registration").
+trace(259,1,"ER Triage").
+trace(259,2,"ER Sepsis Triage").
+trace(259,3,"IV Liquid").
+trace(259,4,"IV Antibiotics").
+trace(259,5,"CRP").
+trace(259,6,"Leucocytes").
+trace(259,7,"LacticAcid").
+trace(259,8,"Admission NC").
+trace(259,9,"Leucocytes").
+trace(259,10,"Leucocytes").
+trace(259,11,"Leucocytes").
+trace(259,12,"CRP").
+trace(259,13,"Admission NC").
+trace(259,14,"Leucocytes").
+trace(259,15,"CRP").
+trace(259,16,"CRP").
+trace(259,17,"Release A").
+trace(260,0,"ER Registration").
+trace(260,1,"ER Triage").
+trace(260,2,"ER Sepsis Triage").
+trace(260,3,"Leucocytes").
+trace(260,4,"CRP").
+trace(260,5,"LacticAcid").
+trace(260,6,"IV Liquid").
+trace(260,7,"IV Antibiotics").
+trace(260,8,"Admission NC").
+trace(260,9,"Leucocytes").
+trace(260,10,"CRP").
+trace(260,11,"CRP").
+trace(260,12,"Leucocytes").
+trace(260,13,"Leucocytes").
+trace(260,14,"CRP").
+trace(260,15,"Leucocytes").
+trace(260,16,"Admission NC").
+trace(260,17,"CRP").
+trace(260,18,"Leucocytes").
+trace(260,19,"Leucocytes").
+trace(260,20,"Leucocytes").
+trace(260,21,"CRP").
+trace(260,22,"CRP").
+trace(260,23,"Leucocytes").
+trace(260,24,"Release A").
+trace(261,0,"ER Registration").
+trace(261,1,"ER Triage").
+trace(261,2,"ER Sepsis Triage").
+trace(261,3,"Leucocytes").
+trace(261,4,"CRP").
+trace(261,5,"LacticAcid").
+trace(261,6,"IV Liquid").
+trace(261,7,"IV Antibiotics").
+trace(261,8,"Admission IC").
+trace(261,9,"LacticAcid").
+trace(261,10,"Leucocytes").
+trace(261,11,"CRP").
+trace(261,12,"LacticAcid").
+trace(261,13,"CRP").
+trace(261,14,"LacticAcid").
+trace(261,15,"Leucocytes").
+trace(261,16,"Admission NC").
+trace(261,17,"CRP").
+trace(261,18,"Leucocytes").
+trace(261,19,"CRP").
+trace(261,20,"Release A").
+trace(262,0,"Leucocytes").
+trace(262,1,"CRP").
+trace(262,2,"ER Registration").
+trace(262,3,"ER Triage").
+trace(262,4,"ER Sepsis Triage").
+trace(262,5,"LacticAcid").
+trace(262,6,"Leucocytes").
+trace(262,7,"CRP").
+trace(262,8,"IV Liquid").
+trace(262,9,"IV Antibiotics").
+trace(262,10,"Admission NC").
+trace(262,11,"Leucocytes").
+trace(262,12,"CRP").
+trace(262,13,"LacticAcid").
+trace(262,14,"Leucocytes").
+trace(262,15,"CRP").
+trace(262,16,"Admission NC").
+trace(262,17,"Admission NC").
+trace(262,18,"CRP").
+trace(262,19,"Leucocytes").
+trace(262,20,"CRP").
+trace(262,21,"Leucocytes").
+trace(262,22,"CRP").
+trace(262,23,"Admission NC").
+trace(262,24,"Release B").
+trace(263,0,"ER Registration").
+trace(263,1,"ER Triage").
+trace(263,2,"CRP").
+trace(263,3,"Leucocytes").
+trace(263,4,"LacticAcid").
+trace(263,5,"ER Sepsis Triage").
+trace(263,6,"IV Liquid").
+trace(263,7,"IV Antibiotics").
+trace(263,8,"Admission IC").
+trace(263,9,"LacticAcid").
+trace(263,10,"CRP").
+trace(263,11,"Leucocytes").
+trace(263,12,"Leucocytes").
+trace(263,13,"CRP").
+trace(263,14,"LacticAcid").
+trace(263,15,"CRP").
+trace(263,16,"LacticAcid").
+trace(263,17,"Leucocytes").
+trace(263,18,"Admission NC").
+trace(263,19,"Leucocytes").
+trace(263,20,"CRP").
+trace(263,21,"Release A").
+trace(263,22,"Return ER").
+trace(264,0,"ER Registration").
+trace(264,1,"ER Triage").
+trace(264,2,"Leucocytes").
+trace(264,3,"CRP").
+trace(264,4,"LacticAcid").
+trace(264,5,"ER Sepsis Triage").
+trace(264,6,"IV Antibiotics").
+trace(264,7,"Admission NC").
+trace(264,8,"CRP").
+trace(264,9,"Leucocytes").
+trace(264,10,"Release A").
+trace(265,0,"ER Registration").
+trace(265,1,"ER Triage").
+trace(265,2,"LacticAcid").
+trace(265,3,"CRP").
+trace(265,4,"Leucocytes").
+trace(265,5,"ER Sepsis Triage").
+trace(265,6,"IV Liquid").
+trace(265,7,"IV Antibiotics").
+trace(265,8,"Admission NC").
+trace(265,9,"CRP").
+trace(265,10,"Leucocytes").
+trace(265,11,"Release A").
+trace(265,12,"Return ER").
+trace(266,0,"ER Registration").
+trace(266,1,"ER Triage").
+trace(266,2,"ER Sepsis Triage").
+trace(266,3,"IV Liquid").
+trace(266,4,"IV Antibiotics").
+trace(266,5,"CRP").
+trace(266,6,"LacticAcid").
+trace(266,7,"Leucocytes").
+trace(266,8,"Admission IC").
+trace(266,9,"Leucocytes").
+trace(266,10,"CRP").
+trace(266,11,"LacticAcid").
+trace(266,12,"LacticAcid").
+trace(266,13,"CRP").
+trace(266,14,"Leucocytes").
+trace(266,15,"LacticAcid").
+trace(266,16,"Leucocytes").
+trace(266,17,"CRP").
+trace(266,18,"Admission NC").
+trace(266,19,"Release A").
+trace(266,20,"Return ER").
+trace(267,0,"ER Registration").
+trace(267,1,"ER Triage").
+trace(267,2,"ER Sepsis Triage").
+trace(267,3,"Leucocytes").
+trace(267,4,"CRP").
+trace(267,5,"LacticAcid").
+trace(267,6,"IV Liquid").
+trace(267,7,"IV Antibiotics").
+trace(267,8,"Admission NC").
+trace(267,9,"CRP").
+trace(267,10,"Leucocytes").
+trace(267,11,"CRP").
+trace(267,12,"Leucocytes").
+trace(267,13,"CRP").
+trace(267,14,"Release A").
+trace(268,0,"ER Registration").
+trace(268,1,"ER Triage").
+trace(268,2,"ER Sepsis Triage").
+trace(268,3,"Leucocytes").
+trace(268,4,"CRP").
+trace(268,5,"LacticAcid").
+trace(268,6,"IV Liquid").
+trace(268,7,"IV Antibiotics").
+trace(268,8,"Admission NC").
+trace(268,9,"Admission NC").
+trace(268,10,"Admission NC").
+trace(268,11,"CRP").
+trace(268,12,"Leucocytes").
+trace(268,13,"CRP").
+trace(268,14,"Leucocytes").
+trace(268,15,"Release A").
+trace(269,0,"ER Registration").
+trace(269,1,"ER Triage").
+trace(269,2,"ER Sepsis Triage").
+trace(269,3,"Leucocytes").
+trace(269,4,"CRP").
+trace(269,5,"LacticAcid").
+trace(269,6,"IV Liquid").
+trace(269,7,"IV Antibiotics").
+trace(269,8,"Admission NC").
+trace(269,9,"Leucocytes").
+trace(269,10,"CRP").
+trace(269,11,"Release A").
+trace(270,0,"ER Registration").
+trace(270,1,"ER Triage").
+trace(270,2,"ER Sepsis Triage").
+trace(270,3,"Leucocytes").
+trace(270,4,"CRP").
+trace(270,5,"LacticAcid").
+trace(270,6,"IV Antibiotics").
+trace(270,7,"Admission NC").
+trace(270,8,"LacticAcid").
+trace(270,9,"Release A").
+trace(271,0,"ER Registration").
+trace(271,1,"ER Triage").
+trace(271,2,"ER Sepsis Triage").
+trace(271,3,"LacticAcid").
+trace(271,4,"CRP").
+trace(271,5,"Leucocytes").
+trace(271,6,"IV Liquid").
+trace(271,7,"IV Antibiotics").
+trace(271,8,"Admission NC").
+trace(271,9,"Leucocytes").
+trace(271,10,"CRP").
+trace(271,11,"CRP").
+trace(271,12,"Leucocytes").
+trace(271,13,"Admission NC").
+trace(271,14,"CRP").
+trace(271,15,"Leucocytes").
+trace(271,16,"CRP").
+trace(271,17,"Admission NC").
+trace(271,18,"Admission NC").
+trace(271,19,"CRP").
+trace(271,20,"CRP").
+trace(271,21,"Leucocytes").
+trace(271,22,"CRP").
+trace(271,23,"Leucocytes").
+trace(271,24,"CRP").
+trace(271,25,"CRP").
+trace(271,26,"Leucocytes").
+trace(271,27,"CRP").
+trace(271,28,"CRP").
+trace(271,29,"Admission NC").
+trace(271,30,"Release D").
+trace(272,0,"ER Registration").
+trace(272,1,"ER Triage").
+trace(272,2,"Leucocytes").
+trace(272,3,"CRP").
+trace(272,4,"ER Sepsis Triage").
+trace(272,5,"IV Liquid").
+trace(272,6,"IV Antibiotics").
+trace(272,7,"Admission NC").
+trace(272,8,"Admission NC").
+trace(272,9,"CRP").
+trace(272,10,"Leucocytes").
+trace(272,11,"CRP").
+trace(272,12,"Release A").
+trace(273,0,"ER Registration").
+trace(273,1,"ER Triage").
+trace(273,2,"CRP").
+trace(273,3,"LacticAcid").
+trace(273,4,"Leucocytes").
+trace(273,5,"ER Sepsis Triage").
+trace(273,6,"IV Liquid").
+trace(273,7,"IV Antibiotics").
+trace(273,8,"Admission NC").
+trace(273,9,"Admission NC").
+trace(273,10,"Leucocytes").
+trace(273,11,"CRP").
+trace(273,12,"Release A").
+trace(273,13,"Return ER").
+trace(274,0,"ER Registration").
+trace(274,1,"Leucocytes").
+trace(274,2,"CRP").
+trace(274,3,"LacticAcid").
+trace(274,4,"ER Triage").
+trace(274,5,"ER Sepsis Triage").
+trace(274,6,"IV Antibiotics").
+trace(274,7,"Admission IC").
+trace(274,8,"LacticAcid").
+trace(274,9,"Leucocytes").
+trace(274,10,"CRP").
+trace(274,11,"LacticAcid").
+trace(274,12,"Leucocytes").
+trace(274,13,"CRP").
+trace(274,14,"CRP").
+trace(274,15,"Leucocytes").
+trace(274,16,"LacticAcid").
+trace(274,17,"Admission NC").
+trace(274,18,"Leucocytes").
+trace(274,19,"CRP").
+trace(274,20,"Leucocytes").
+trace(274,21,"CRP").
+trace(274,22,"Release A").
+trace(275,0,"ER Registration").
+trace(275,1,"ER Triage").
+trace(275,2,"ER Sepsis Triage").
+trace(275,3,"Leucocytes").
+trace(275,4,"CRP").
+trace(275,5,"LacticAcid").
+trace(275,6,"IV Liquid").
+trace(275,7,"IV Antibiotics").
+trace(275,8,"Admission NC").
+trace(275,9,"LacticAcid").
+trace(275,10,"CRP").
+trace(275,11,"CRP").
+trace(275,12,"LacticAcid").
+trace(275,13,"Leucocytes").
+trace(275,14,"Leucocytes").
+trace(275,15,"CRP").
+trace(275,16,"Leucocytes").
+trace(275,17,"CRP").
+trace(275,18,"Release B").
+trace(276,0,"ER Registration").
+trace(276,1,"ER Triage").
+trace(276,2,"ER Sepsis Triage").
+trace(276,3,"Leucocytes").
+trace(276,4,"CRP").
+trace(276,5,"LacticAcid").
+trace(276,6,"IV Antibiotics").
+trace(276,7,"IV Liquid").
+trace(276,8,"Admission NC").
+trace(276,9,"Leucocytes").
+trace(276,10,"CRP").
+trace(276,11,"Leucocytes").
+trace(276,12,"CRP").
+trace(276,13,"Release A").
+trace(277,0,"ER Registration").
+trace(277,1,"ER Triage").
+trace(277,2,"ER Sepsis Triage").
+trace(277,3,"LacticAcid").
+trace(277,4,"CRP").
+trace(277,5,"Leucocytes").
+trace(277,6,"IV Antibiotics").
+trace(278,0,"ER Registration").
+trace(278,1,"ER Triage").
+trace(278,2,"LacticAcid").
+trace(278,3,"CRP").
+trace(278,4,"Leucocytes").
+trace(278,5,"IV Liquid").
+trace(278,6,"ER Sepsis Triage").
+trace(278,7,"Admission NC").
+trace(278,8,"IV Antibiotics").
+trace(278,9,"CRP").
+trace(278,10,"CRP").
+trace(278,11,"Leucocytes").
+trace(278,12,"CRP").
+trace(278,13,"Leucocytes").
+trace(278,14,"Release A").
+trace(278,15,"Return ER").
+trace(279,0,"IV Liquid").
+trace(279,1,"ER Registration").
+trace(279,2,"ER Triage").
+trace(279,3,"ER Sepsis Triage").
+trace(279,4,"IV Antibiotics").
+trace(279,5,"Leucocytes").
+trace(279,6,"LacticAcid").
+trace(279,7,"CRP").
+trace(279,8,"Admission NC").
+trace(279,9,"Leucocytes").
+trace(279,10,"CRP").
+trace(279,11,"Leucocytes").
+trace(279,12,"CRP").
+trace(279,13,"Release A").
+trace(279,14,"Return ER").
+trace(280,0,"ER Registration").
+trace(280,1,"ER Triage").
+trace(280,2,"ER Sepsis Triage").
+trace(280,3,"Leucocytes").
+trace(280,4,"LacticAcid").
+trace(280,5,"CRP").
+trace(280,6,"IV Liquid").
+trace(280,7,"IV Antibiotics").
+trace(280,8,"Admission NC").
+trace(280,9,"Leucocytes").
+trace(280,10,"Leucocytes").
+trace(280,11,"CRP").
+trace(280,12,"CRP").
+trace(280,13,"CRP").
+trace(280,14,"Release A").
+trace(280,15,"Return ER").
+trace(281,0,"ER Registration").
+trace(281,1,"ER Triage").
+trace(281,2,"ER Sepsis Triage").
+trace(281,3,"LacticAcid").
+trace(281,4,"CRP").
+trace(281,5,"Leucocytes").
+trace(281,6,"IV Liquid").
+trace(281,7,"IV Antibiotics").
+trace(281,8,"Admission NC").
+trace(281,9,"Admission NC").
+trace(281,10,"CRP").
+trace(281,11,"Leucocytes").
+trace(281,12,"Release A").
+trace(282,0,"ER Registration").
+trace(282,1,"ER Triage").
+trace(282,2,"ER Sepsis Triage").
+trace(282,3,"LacticAcid").
+trace(282,4,"Leucocytes").
+trace(282,5,"CRP").
+trace(282,6,"IV Liquid").
+trace(282,7,"IV Antibiotics").
+trace(282,8,"Admission NC").
+trace(282,9,"Leucocytes").
+trace(282,10,"Leucocytes").
+trace(282,11,"Release A").
+trace(282,12,"Return ER").
+trace(283,0,"ER Registration").
+trace(283,1,"ER Triage").
+trace(283,2,"ER Sepsis Triage").
+trace(283,3,"CRP").
+trace(283,4,"Leucocytes").
+trace(283,5,"Admission NC").
+trace(283,6,"Leucocytes").
+trace(283,7,"CRP").
+trace(283,8,"Admission NC").
+trace(283,9,"Leucocytes").
+trace(283,10,"CRP").
+trace(283,11,"Release A").
+trace(284,0,"ER Registration").
+trace(284,1,"ER Triage").
+trace(284,2,"ER Sepsis Triage").
+trace(284,3,"IV Liquid").
+trace(284,4,"IV Antibiotics").
+trace(284,5,"LacticAcid").
+trace(284,6,"Leucocytes").
+trace(284,7,"CRP").
+trace(284,8,"Admission NC").
+trace(284,9,"Leucocytes").
+trace(284,10,"CRP").
+trace(284,11,"Admission NC").
+trace(284,12,"CRP").
+trace(284,13,"Leucocytes").
+trace(284,14,"CRP").
+trace(284,15,"Release A").
+trace(285,0,"ER Registration").
+trace(285,1,"ER Triage").
+trace(285,2,"ER Sepsis Triage").
+trace(285,3,"IV Liquid").
+trace(285,4,"Leucocytes").
+trace(285,5,"CRP").
+trace(285,6,"LacticAcid").
+trace(285,7,"IV Antibiotics").
+trace(285,8,"Admission NC").
+trace(285,9,"CRP").
+trace(285,10,"Leucocytes").
+trace(286,0,"ER Registration").
+trace(286,1,"ER Triage").
+trace(286,2,"ER Sepsis Triage").
+trace(286,3,"IV Liquid").
+trace(286,4,"IV Antibiotics").
+trace(286,5,"CRP").
+trace(286,6,"Leucocytes").
+trace(286,7,"LacticAcid").
+trace(286,8,"Admission NC").
+trace(286,9,"CRP").
+trace(286,10,"Leucocytes").
+trace(286,11,"Release A").
+trace(286,12,"Return ER").
+trace(287,0,"ER Registration").
+trace(287,1,"ER Triage").
+trace(287,2,"ER Sepsis Triage").
+trace(287,3,"CRP").
+trace(287,4,"Leucocytes").
+trace(288,0,"ER Registration").
+trace(288,1,"LacticAcid").
+trace(288,2,"Leucocytes").
+trace(288,3,"CRP").
+trace(288,4,"ER Triage").
+trace(288,5,"ER Sepsis Triage").
+trace(288,6,"IV Antibiotics").
+trace(288,7,"IV Liquid").
+trace(288,8,"Admission NC").
+trace(288,9,"CRP").
+trace(288,10,"Leucocytes").
+trace(288,11,"Release A").
+trace(288,12,"Return ER").
+trace(289,0,"ER Registration").
+trace(289,1,"ER Triage").
+trace(289,2,"ER Sepsis Triage").
+trace(289,3,"IV Liquid").
+trace(289,4,"Leucocytes").
+trace(289,5,"CRP").
+trace(289,6,"LacticAcid").
+trace(289,7,"IV Antibiotics").
+trace(289,8,"Admission IC").
+trace(289,9,"Leucocytes").
+trace(289,10,"CRP").
+trace(289,11,"LacticAcid").
+trace(289,12,"CRP").
+trace(289,13,"LacticAcid").
+trace(289,14,"Leucocytes").
+trace(289,15,"Leucocytes").
+trace(289,16,"LacticAcid").
+trace(289,17,"CRP").
+trace(289,18,"Admission NC").
+trace(289,19,"Release B").
+trace(290,0,"ER Registration").
+trace(290,1,"ER Triage").
+trace(290,2,"ER Sepsis Triage").
+trace(290,3,"IV Liquid").
+trace(290,4,"IV Antibiotics").
+trace(290,5,"Leucocytes").
+trace(290,6,"CRP").
+trace(290,7,"LacticAcid").
+trace(290,8,"Admission NC").
+trace(290,9,"CRP").
+trace(290,10,"CRP").
+trace(290,11,"Leucocytes").
+trace(290,12,"Leucocytes").
+trace(290,13,"CRP").
+trace(290,14,"CRP").
+trace(290,15,"Leucocytes").
+trace(290,16,"Release A").
+trace(291,0,"Leucocytes").
+trace(291,1,"CRP").
+trace(291,2,"ER Registration").
+trace(291,3,"ER Triage").
+trace(291,4,"ER Sepsis Triage").
+trace(291,5,"IV Liquid").
+trace(291,6,"LacticAcid").
+trace(291,7,"Leucocytes").
+trace(291,8,"CRP").
+trace(291,9,"IV Antibiotics").
+trace(291,10,"Admission NC").
+trace(291,11,"Leucocytes").
+trace(291,12,"CRP").
+trace(291,13,"Admission NC").
+trace(291,14,"CRP").
+trace(291,15,"Leucocytes").
+trace(291,16,"Leucocytes").
+trace(291,17,"Leucocytes").
+trace(291,18,"CRP").
+trace(291,19,"Leucocytes").
+trace(291,20,"Leucocytes").
+trace(291,21,"Leucocytes").
+trace(291,22,"Leucocytes").
+trace(291,23,"Leucocytes").
+trace(291,24,"CRP").
+trace(291,25,"Leucocytes").
+trace(291,26,"Leucocytes").
+trace(291,27,"Leucocytes").
+trace(291,28,"Leucocytes").
+trace(291,29,"Leucocytes").
+trace(291,30,"Leucocytes").
+trace(291,31,"CRP").
+trace(291,32,"CRP").
+trace(291,33,"Leucocytes").
+trace(291,34,"Leucocytes").
+trace(291,35,"CRP").
+trace(291,36,"Leucocytes").
+trace(291,37,"CRP").
+trace(291,38,"CRP").
+trace(291,39,"Leucocytes").
+trace(291,40,"Leucocytes").
+trace(291,41,"CRP").
+trace(291,42,"Leucocytes").
+trace(291,43,"Leucocytes").
+trace(291,44,"CRP").
+trace(291,45,"Leucocytes").
+trace(291,46,"CRP").
+trace(291,47,"Leucocytes").
+trace(291,48,"CRP").
+trace(291,49,"Leucocytes").
+trace(291,50,"Leucocytes").
+trace(291,51,"Leucocytes").
+trace(291,52,"CRP").
+trace(291,53,"CRP").
+trace(291,54,"Leucocytes").
+trace(291,55,"CRP").
+trace(291,56,"Leucocytes").
+trace(291,57,"Leucocytes").
+trace(291,58,"CRP").
+trace(291,59,"Leucocytes").
+trace(291,60,"Admission IC").
+trace(291,61,"Leucocytes").
+trace(291,62,"CRP").
+trace(291,63,"LacticAcid").
+trace(291,64,"CRP").
+trace(291,65,"LacticAcid").
+trace(291,66,"Leucocytes").
+trace(291,67,"LacticAcid").
+trace(291,68,"Leucocytes").
+trace(291,69,"CRP").
+trace(291,70,"Leucocytes").
+trace(291,71,"CRP").
+trace(291,72,"LacticAcid").
+trace(291,73,"Admission NC").
+trace(291,74,"Leucocytes").
+trace(291,75,"Leucocytes").
+trace(291,76,"Leucocytes").
+trace(291,77,"Leucocytes").
+trace(291,78,"CRP").
+trace(291,79,"Leucocytes").
+trace(291,80,"Leucocytes").
+trace(291,81,"CRP").
+trace(291,82,"Leucocytes").
+trace(291,83,"Leucocytes").
+trace(291,84,"CRP").
+trace(291,85,"CRP").
+trace(291,86,"Leucocytes").
+trace(291,87,"Release D").
+trace(292,0,"ER Registration").
+trace(292,1,"ER Triage").
+trace(292,2,"ER Sepsis Triage").
+trace(292,3,"CRP").
+trace(292,4,"LacticAcid").
+trace(292,5,"Leucocytes").
+trace(292,6,"IV Liquid").
+trace(292,7,"IV Antibiotics").
+trace(292,8,"Admission NC").
+trace(292,9,"Release C").
+trace(293,0,"ER Registration").
+trace(293,1,"ER Triage").
+trace(293,2,"ER Sepsis Triage").
+trace(293,3,"Leucocytes").
+trace(293,4,"CRP").
+trace(293,5,"LacticAcid").
+trace(294,0,"ER Registration").
+trace(294,1,"ER Triage").
+trace(294,2,"ER Sepsis Triage").
+trace(294,3,"Leucocytes").
+trace(294,4,"CRP").
+trace(294,5,"LacticAcid").
+trace(294,6,"IV Antibiotics").
+trace(294,7,"IV Liquid").
+trace(294,8,"Admission IC").
+trace(294,9,"CRP").
+trace(294,10,"LacticAcid").
+trace(294,11,"Leucocytes").
+trace(294,12,"LacticAcid").
+trace(294,13,"LacticAcid").
+trace(294,14,"LacticAcid").
+trace(294,15,"CRP").
+trace(294,16,"LacticAcid").
+trace(294,17,"Leucocytes").
+trace(294,18,"LacticAcid").
+trace(294,19,"LacticAcid").
+trace(294,20,"LacticAcid").
+trace(294,21,"LacticAcid").
+trace(294,22,"LacticAcid").
+trace(294,23,"Leucocytes").
+trace(294,24,"CRP").
+trace(294,25,"Admission NC").
+trace(294,26,"CRP").
+trace(294,27,"Leucocytes").
+trace(294,28,"Leucocytes").
+trace(294,29,"CRP").
+trace(294,30,"Release A").
+trace(295,0,"ER Registration").
+trace(295,1,"ER Triage").
+trace(295,2,"LacticAcid").
+trace(295,3,"Leucocytes").
+trace(295,4,"CRP").
+trace(295,5,"ER Sepsis Triage").
+trace(295,6,"IV Liquid").
+trace(295,7,"IV Antibiotics").
+trace(295,8,"Admission NC").
+trace(295,9,"CRP").
+trace(295,10,"Leucocytes").
+trace(295,11,"CRP").
+trace(295,12,"Leucocytes").
+trace(295,13,"Release A").
+trace(296,0,"ER Registration").
+trace(296,1,"ER Triage").
+trace(296,2,"ER Sepsis Triage").
+trace(296,3,"CRP").
+trace(296,4,"LacticAcid").
+trace(296,5,"Leucocytes").
+trace(296,6,"IV Liquid").
+trace(296,7,"IV Antibiotics").
+trace(296,8,"Admission NC").
+trace(296,9,"CRP").
+trace(296,10,"Leucocytes").
+trace(296,11,"Release A").
+trace(297,0,"ER Registration").
+trace(297,1,"ER Triage").
+trace(297,2,"ER Sepsis Triage").
+trace(297,3,"Leucocytes").
+trace(297,4,"CRP").
+trace(297,5,"LacticAcid").
+trace(297,6,"IV Liquid").
+trace(297,7,"IV Antibiotics").
+trace(297,8,"Admission IC").
+trace(297,9,"LacticAcid").
+trace(297,10,"Leucocytes").
+trace(297,11,"CRP").
+trace(297,12,"Leucocytes").
+trace(297,13,"CRP").
+trace(297,14,"LacticAcid").
+trace(297,15,"Admission NC").
+trace(297,16,"Leucocytes").
+trace(297,17,"CRP").
+trace(297,18,"CRP").
+trace(297,19,"Leucocytes").
+trace(297,20,"Leucocytes").
+trace(297,21,"Leucocytes").
+trace(297,22,"CRP").
+trace(297,23,"Leucocytes").
+trace(297,24,"CRP").
+trace(297,25,"Release A").
+trace(297,26,"Return ER").
+trace(298,0,"ER Registration").
+trace(298,1,"ER Triage").
+trace(298,2,"ER Sepsis Triage").
+trace(298,3,"CRP").
+trace(298,4,"LacticAcid").
+trace(298,5,"Leucocytes").
+trace(298,6,"IV Liquid").
+trace(298,7,"IV Antibiotics").
+trace(298,8,"Admission NC").
+trace(298,9,"Leucocytes").
+trace(298,10,"CRP").
+trace(298,11,"CRP").
+trace(298,12,"Leucocytes").
+trace(298,13,"Leucocytes").
+trace(298,14,"CRP").
+trace(298,15,"CRP").
+trace(298,16,"CRP").
+trace(298,17,"Release A").
+trace(299,0,"ER Registration").
+trace(299,1,"ER Triage").
+trace(299,2,"ER Sepsis Triage").
+trace(299,3,"LacticAcid").
+trace(299,4,"CRP").
+trace(299,5,"Leucocytes").
+trace(299,6,"IV Antibiotics").
+trace(299,7,"IV Liquid").
+trace(299,8,"Admission NC").
+trace(299,9,"Leucocytes").
+trace(299,10,"CRP").
+trace(299,11,"Leucocytes").
+trace(299,12,"Leucocytes").
+trace(299,13,"CRP").
+trace(299,14,"CRP").
+trace(299,15,"Leucocytes").
+trace(299,16,"Leucocytes").
+trace(299,17,"Release A").
+trace(299,18,"Return ER").
+trace(300,0,"ER Registration").
+trace(300,1,"ER Triage").
+trace(300,2,"ER Sepsis Triage").
+trace(300,3,"LacticAcid").
+trace(300,4,"Leucocytes").
+trace(300,5,"CRP").
+trace(300,6,"IV Liquid").
+trace(300,7,"IV Antibiotics").
+trace(300,8,"Admission NC").
+trace(300,9,"CRP").
+trace(300,10,"Leucocytes").
+trace(300,11,"Leucocytes").
+trace(300,12,"CRP").
+trace(300,13,"Leucocytes").
+trace(300,14,"CRP").
+trace(300,15,"Leucocytes").
+trace(300,16,"Leucocytes").
+trace(300,17,"CRP").
+trace(300,18,"Leucocytes").
+trace(300,19,"Leucocytes").
+trace(300,20,"CRP").
+trace(300,21,"Release A").
+trace(300,22,"Return ER").
+trace(301,0,"Leucocytes").
+trace(301,1,"CRP").
+trace(301,2,"ER Registration").
+trace(301,3,"ER Triage").
+trace(301,4,"ER Sepsis Triage").
+trace(301,5,"IV Antibiotics").
+trace(301,6,"Admission NC").
+trace(301,7,"Leucocytes").
+trace(301,8,"CRP").
+trace(301,9,"Leucocytes").
+trace(301,10,"CRP").
+trace(301,11,"CRP").
+trace(301,12,"CRP").
+trace(301,13,"Leucocytes").
+trace(301,14,"CRP").
+trace(301,15,"Release A").
+trace(302,0,"ER Registration").
+trace(302,1,"ER Triage").
+trace(302,2,"ER Sepsis Triage").
+trace(302,3,"IV Liquid").
+trace(302,4,"IV Antibiotics").
+trace(302,5,"LacticAcid").
+trace(302,6,"Leucocytes").
+trace(302,7,"CRP").
+trace(302,8,"Admission NC").
+trace(302,9,"CRP").
+trace(302,10,"Leucocytes").
+trace(302,11,"Leucocytes").
+trace(302,12,"CRP").
+trace(302,13,"Leucocytes").
+trace(302,14,"Release A").
+trace(303,0,"ER Registration").
+trace(303,1,"ER Triage").
+trace(303,2,"LacticAcid").
+trace(303,3,"CRP").
+trace(303,4,"Leucocytes").
+trace(303,5,"ER Sepsis Triage").
+trace(303,6,"IV Liquid").
+trace(303,7,"IV Antibiotics").
+trace(303,8,"Admission NC").
+trace(303,9,"CRP").
+trace(303,10,"Leucocytes").
+trace(303,11,"Leucocytes").
+trace(303,12,"CRP").
+trace(303,13,"Admission NC").
+trace(303,14,"Leucocytes").
+trace(303,15,"CRP").
+trace(303,16,"Leucocytes").
+trace(303,17,"Leucocytes").
+trace(303,18,"CRP").
+trace(303,19,"Leucocytes").
+trace(303,20,"CRP").
+trace(303,21,"Leucocytes").
+trace(303,22,"CRP").
+trace(303,23,"Leucocytes").
+trace(303,24,"CRP").
+trace(303,25,"CRP").
+trace(303,26,"Leucocytes").
+trace(303,27,"CRP").
+trace(303,28,"Leucocytes").
+trace(303,29,"CRP").
+trace(303,30,"Release C").
+trace(303,31,"Return ER").
+trace(304,0,"ER Registration").
+trace(304,1,"ER Triage").
+trace(304,2,"ER Sepsis Triage").
+trace(304,3,"CRP").
+trace(304,4,"Leucocytes").
+trace(305,0,"ER Registration").
+trace(305,1,"ER Triage").
+trace(305,2,"ER Sepsis Triage").
+trace(305,3,"Leucocytes").
+trace(305,4,"CRP").
+trace(305,5,"LacticAcid").
+trace(305,6,"Admission NC").
+trace(305,7,"Leucocytes").
+trace(305,8,"CRP").
+trace(305,9,"Admission NC").
+trace(305,10,"CRP").
+trace(305,11,"Leucocytes").
+trace(305,12,"Leucocytes").
+trace(305,13,"CRP").
+trace(305,14,"Leucocytes").
+trace(305,15,"CRP").
+trace(305,16,"Release A").
+trace(305,17,"Return ER").
+trace(306,0,"ER Registration").
+trace(306,1,"ER Triage").
+trace(306,2,"LacticAcid").
+trace(306,3,"CRP").
+trace(306,4,"Leucocytes").
+trace(306,5,"ER Sepsis Triage").
+trace(306,6,"IV Liquid").
+trace(306,7,"IV Antibiotics").
+trace(306,8,"Admission NC").
+trace(306,9,"Leucocytes").
+trace(306,10,"CRP").
+trace(306,11,"CRP").
+trace(306,12,"Leucocytes").
+trace(306,13,"Admission NC").
+trace(306,14,"Leucocytes").
+trace(306,15,"CRP").
+trace(306,16,"Admission NC").
+trace(306,17,"Leucocytes").
+trace(306,18,"CRP").
+trace(306,19,"Release A").
+trace(307,0,"Leucocytes").
+trace(307,1,"CRP").
+trace(307,2,"ER Registration").
+trace(307,3,"ER Triage").
+trace(307,4,"ER Sepsis Triage").
+trace(307,5,"IV Antibiotics").
+trace(307,6,"Admission NC").
+trace(307,7,"Release A").
+trace(308,0,"ER Registration").
+trace(308,1,"ER Triage").
+trace(308,2,"ER Sepsis Triage").
+trace(308,3,"Leucocytes").
+trace(308,4,"LacticAcid").
+trace(308,5,"CRP").
+trace(309,0,"ER Registration").
+trace(309,1,"ER Triage").
+trace(309,2,"ER Sepsis Triage").
+trace(309,3,"LacticAcid").
+trace(309,4,"CRP").
+trace(309,5,"Leucocytes").
+trace(309,6,"IV Liquid").
+trace(309,7,"IV Antibiotics").
+trace(309,8,"Admission NC").
+trace(309,9,"CRP").
+trace(309,10,"Leucocytes").
+trace(309,11,"Leucocytes").
+trace(309,12,"CRP").
+trace(309,13,"CRP").
+trace(309,14,"Leucocytes").
+trace(309,15,"Release A").
+trace(309,16,"Return ER").
+trace(310,0,"ER Registration").
+trace(310,1,"ER Triage").
+trace(310,2,"ER Sepsis Triage").
+trace(310,3,"IV Liquid").
+trace(310,4,"Leucocytes").
+trace(310,5,"CRP").
+trace(310,6,"IV Antibiotics").
+trace(310,7,"Admission NC").
+trace(310,8,"CRP").
+trace(310,9,"Leucocytes").
+trace(310,10,"Release A").
+trace(311,0,"ER Registration").
+trace(311,1,"ER Triage").
+trace(311,2,"LacticAcid").
+trace(311,3,"Leucocytes").
+trace(311,4,"CRP").
+trace(311,5,"ER Sepsis Triage").
+trace(311,6,"IV Liquid").
+trace(311,7,"Leucocytes").
+trace(311,8,"IV Antibiotics").
+trace(311,9,"Admission NC").
+trace(311,10,"Admission NC").
+trace(311,11,"Leucocytes").
+trace(311,12,"CRP").
+trace(311,13,"CRP").
+trace(311,14,"Leucocytes").
+trace(311,15,"Leucocytes").
+trace(311,16,"CRP").
+trace(311,17,"Release A").
+trace(311,18,"Return ER").
+trace(312,0,"ER Registration").
+trace(312,1,"ER Triage").
+trace(312,2,"ER Sepsis Triage").
+trace(312,3,"Leucocytes").
+trace(312,4,"CRP").
+trace(312,5,"IV Antibiotics").
+trace(312,6,"Admission NC").
+trace(312,7,"Admission NC").
+trace(312,8,"Admission NC").
+trace(312,9,"CRP").
+trace(312,10,"Release A").
+trace(313,0,"ER Registration").
+trace(313,1,"ER Triage").
+trace(313,2,"ER Sepsis Triage").
+trace(313,3,"Leucocytes").
+trace(314,0,"ER Registration").
+trace(314,1,"ER Triage").
+trace(314,2,"ER Sepsis Triage").
+trace(314,3,"Leucocytes").
+trace(314,4,"CRP").
+trace(314,5,"LacticAcid").
+trace(314,6,"IV Antibiotics").
+trace(314,7,"IV Liquid").
+trace(314,8,"Admission NC").
+trace(314,9,"Leucocytes").
+trace(314,10,"Release A").
+trace(315,0,"ER Registration").
+trace(315,1,"ER Triage").
+trace(315,2,"ER Sepsis Triage").
+trace(315,3,"IV Liquid").
+trace(315,4,"Leucocytes").
+trace(315,5,"LacticAcid").
+trace(315,6,"CRP").
+trace(315,7,"IV Antibiotics").
+trace(315,8,"Admission NC").
+trace(315,9,"Admission NC").
+trace(315,10,"Leucocytes").
+trace(315,11,"Leucocytes").
+trace(315,12,"CRP").
+trace(315,13,"Release A").
+trace(316,0,"ER Registration").
+trace(316,1,"ER Triage").
+trace(316,2,"ER Sepsis Triage").
+trace(316,3,"Leucocytes").
+trace(316,4,"LacticAcid").
+trace(316,5,"CRP").
+trace(316,6,"Admission NC").
+trace(316,7,"IV Liquid").
+trace(316,8,"IV Antibiotics").
+trace(317,0,"ER Registration").
+trace(317,1,"ER Triage").
+trace(317,2,"ER Sepsis Triage").
+trace(317,3,"LacticAcid").
+trace(317,4,"Leucocytes").
+trace(317,5,"CRP").
+trace(317,6,"IV Antibiotics").
+trace(317,7,"Admission NC").
+trace(317,8,"Admission NC").
+trace(317,9,"CRP").
+trace(317,10,"Leucocytes").
+trace(317,11,"CRP").
+trace(317,12,"Leucocytes").
+trace(317,13,"Release A").
+trace(317,14,"Return ER").
+trace(318,0,"ER Registration").
+trace(318,1,"ER Triage").
+trace(318,2,"ER Sepsis Triage").
+trace(318,3,"CRP").
+trace(318,4,"LacticAcid").
+trace(318,5,"Leucocytes").
+trace(318,6,"IV Liquid").
+trace(318,7,"IV Antibiotics").
+trace(318,8,"Admission NC").
+trace(318,9,"Leucocytes").
+trace(318,10,"CRP").
+trace(318,11,"Leucocytes").
+trace(318,12,"CRP").
+trace(318,13,"Release A").
+trace(318,14,"Return ER").
+trace(319,0,"ER Registration").
+trace(319,1,"ER Triage").
+trace(319,2,"ER Sepsis Triage").
+trace(319,3,"IV Antibiotics").
+trace(319,4,"Leucocytes").
+trace(319,5,"CRP").
+trace(319,6,"LacticAcid").
+trace(319,7,"IV Liquid").
+trace(319,8,"Admission NC").
+trace(319,9,"CRP").
+trace(319,10,"Leucocytes").
+trace(319,11,"CRP").
+trace(319,12,"Release A").
+trace(320,0,"ER Registration").
+trace(320,1,"ER Triage").
+trace(320,2,"ER Sepsis Triage").
+trace(320,3,"LacticAcid").
+trace(320,4,"CRP").
+trace(320,5,"Leucocytes").
+trace(320,6,"IV Liquid").
+trace(320,7,"IV Antibiotics").
+trace(320,8,"Admission NC").
+trace(320,9,"Release A").
+trace(321,0,"ER Registration").
+trace(321,1,"ER Triage").
+trace(321,2,"Leucocytes").
+trace(321,3,"CRP").
+trace(321,4,"ER Sepsis Triage").
+trace(322,0,"ER Registration").
+trace(322,1,"ER Triage").
+trace(322,2,"ER Sepsis Triage").
+trace(322,3,"LacticAcid").
+trace(322,4,"Leucocytes").
+trace(322,5,"CRP").
+trace(322,6,"IV Antibiotics").
+trace(322,7,"IV Liquid").
+trace(322,8,"Admission NC").
+trace(322,9,"Leucocytes").
+trace(322,10,"Leucocytes").
+trace(322,11,"CRP").
+trace(322,12,"Leucocytes").
+trace(322,13,"Leucocytes").
+trace(322,14,"CRP").
+trace(322,15,"Leucocytes").
+trace(322,16,"CRP").
+trace(322,17,"CRP").
+trace(322,18,"Leucocytes").
+trace(322,19,"Leucocytes").
+trace(322,20,"CRP").
+trace(322,21,"Release A").
+trace(323,0,"ER Registration").
+trace(323,1,"ER Triage").
+trace(323,2,"ER Sepsis Triage").
+trace(323,3,"Leucocytes").
+trace(323,4,"LacticAcid").
+trace(323,5,"CRP").
+trace(323,6,"IV Liquid").
+trace(323,7,"IV Antibiotics").
+trace(323,8,"Admission NC").
+trace(323,9,"CRP").
+trace(323,10,"Leucocytes").
+trace(323,11,"Leucocytes").
+trace(323,12,"CRP").
+trace(323,13,"Admission IC").
+trace(323,14,"Leucocytes").
+trace(323,15,"CRP").
+trace(323,16,"LacticAcid").
+trace(323,17,"LacticAcid").
+trace(323,18,"CRP").
+trace(323,19,"Leucocytes").
+trace(323,20,"LacticAcid").
+trace(323,21,"Leucocytes").
+trace(323,22,"CRP").
+trace(323,23,"Admission NC").
+trace(323,24,"Leucocytes").
+trace(323,25,"Leucocytes").
+trace(323,26,"CRP").
+trace(323,27,"Release A").
+trace(323,28,"Return ER").
+trace(324,0,"ER Registration").
+trace(324,1,"ER Triage").
+trace(324,2,"ER Sepsis Triage").
+trace(324,3,"CRP").
+trace(324,4,"Leucocytes").
+trace(324,5,"LacticAcid").
+trace(325,0,"ER Registration").
+trace(325,1,"ER Triage").
+trace(325,2,"ER Sepsis Triage").
+trace(325,3,"CRP").
+trace(325,4,"Leucocytes").
+trace(325,5,"Admission NC").
+trace(325,6,"Leucocytes").
+trace(325,7,"CRP").
+trace(325,8,"CRP").
+trace(325,9,"Leucocytes").
+trace(325,10,"Release A").
+trace(325,11,"Return ER").
+trace(326,0,"ER Registration").
+trace(326,1,"LacticAcid").
+trace(326,2,"Leucocytes").
+trace(326,3,"CRP").
+trace(326,4,"ER Triage").
+trace(326,5,"ER Sepsis Triage").
+trace(327,0,"ER Registration").
+trace(327,1,"ER Triage").
+trace(327,2,"ER Sepsis Triage").
+trace(327,3,"CRP").
+trace(327,4,"LacticAcid").
+trace(327,5,"Leucocytes").
+trace(328,0,"ER Registration").
+trace(328,1,"ER Triage").
+trace(328,2,"ER Sepsis Triage").
+trace(328,3,"Leucocytes").
+trace(328,4,"CRP").
+trace(328,5,"Admission NC").
+trace(328,6,"Release A").
+trace(329,0,"ER Registration").
+trace(329,1,"ER Triage").
+trace(329,2,"Leucocytes").
+trace(329,3,"CRP").
+trace(329,4,"LacticAcid").
+trace(329,5,"ER Sepsis Triage").
+trace(329,6,"IV Antibiotics").
+trace(329,7,"IV Liquid").
+trace(329,8,"Admission NC").
+trace(329,9,"Admission NC").
+trace(329,10,"CRP").
+trace(329,11,"Leucocytes").
+trace(329,12,"Leucocytes").
+trace(329,13,"CRP").
+trace(329,14,"Release A").
+trace(329,15,"Return ER").
+trace(330,0,"ER Registration").
+trace(330,1,"ER Triage").
+trace(330,2,"ER Sepsis Triage").
+trace(330,3,"IV Liquid").
+trace(330,4,"IV Antibiotics").
+trace(330,5,"CRP").
+trace(330,6,"Leucocytes").
+trace(330,7,"LacticAcid").
+trace(330,8,"Admission NC").
+trace(330,9,"Leucocytes").
+trace(330,10,"CRP").
+trace(330,11,"Admission NC").
+trace(330,12,"Leucocytes").
+trace(330,13,"CRP").
+trace(330,14,"Leucocytes").
+trace(330,15,"CRP").
+trace(330,16,"Release A").
+trace(331,0,"ER Registration").
+trace(331,1,"Leucocytes").
+trace(331,2,"LacticAcid").
+trace(331,3,"CRP").
+trace(331,4,"ER Triage").
+trace(331,5,"ER Sepsis Triage").
+trace(331,6,"IV Antibiotics").
+trace(332,0,"ER Registration").
+trace(332,1,"ER Triage").
+trace(332,2,"ER Sepsis Triage").
+trace(332,3,"Leucocytes").
+trace(332,4,"CRP").
+trace(332,5,"LacticAcid").
+trace(332,6,"IV Liquid").
+trace(332,7,"IV Antibiotics").
+trace(332,8,"Admission NC").
+trace(332,9,"Leucocytes").
+trace(332,10,"CRP").
+trace(332,11,"CRP").
+trace(332,12,"Leucocytes").
+trace(332,13,"Release A").
+trace(333,0,"CRP").
+trace(333,1,"Leucocytes").
+trace(333,2,"ER Registration").
+trace(333,3,"ER Triage").
+trace(333,4,"ER Sepsis Triage").
+trace(333,5,"Admission NC").
+trace(333,6,"CRP").
+trace(333,7,"CRP").
+trace(333,8,"Release A").
+trace(334,0,"ER Registration").
+trace(334,1,"ER Triage").
+trace(334,2,"ER Sepsis Triage").
+trace(334,3,"CRP").
+trace(334,4,"LacticAcid").
+trace(334,5,"Leucocytes").
+trace(334,6,"IV Liquid").
+trace(334,7,"IV Antibiotics").
+trace(334,8,"Admission NC").
+trace(334,9,"Leucocytes").
+trace(334,10,"Leucocytes").
+trace(334,11,"CRP").
+trace(334,12,"Release A").
+trace(334,13,"Return ER").
+trace(335,0,"ER Registration").
+trace(335,1,"ER Triage").
+trace(335,2,"LacticAcid").
+trace(335,3,"CRP").
+trace(335,4,"Leucocytes").
+trace(335,5,"ER Sepsis Triage").
+trace(335,6,"IV Liquid").
+trace(335,7,"IV Antibiotics").
+trace(335,8,"Admission NC").
+trace(335,9,"Leucocytes").
+trace(335,10,"CRP").
+trace(335,11,"LacticAcid").
+trace(335,12,"CRP").
+trace(335,13,"Leucocytes").
+trace(335,14,"Leucocytes").
+trace(335,15,"CRP").
+trace(335,16,"Release A").
+trace(335,17,"Return ER").
+trace(336,0,"ER Registration").
+trace(336,1,"ER Triage").
+trace(336,2,"ER Sepsis Triage").
+trace(336,3,"IV Liquid").
+trace(336,4,"IV Antibiotics").
+trace(336,5,"Leucocytes").
+trace(336,6,"LacticAcid").
+trace(336,7,"CRP").
+trace(336,8,"Admission NC").
+trace(336,9,"Leucocytes").
+trace(336,10,"CRP").
+trace(336,11,"Release A").
+trace(336,12,"Return ER").
+trace(337,0,"ER Registration").
+trace(337,1,"ER Triage").
+trace(337,2,"ER Sepsis Triage").
+trace(337,3,"Leucocytes").
+trace(337,4,"CRP").
+trace(338,0,"ER Registration").
+trace(338,1,"ER Triage").
+trace(338,2,"Leucocytes").
+trace(338,3,"CRP").
+trace(338,4,"ER Sepsis Triage").
+trace(338,5,"IV Liquid").
+trace(338,6,"IV Antibiotics").
+trace(338,7,"Release B").
+trace(338,8,"Admission NC").
+trace(339,0,"ER Registration").
+trace(339,1,"ER Triage").
+trace(339,2,"ER Sepsis Triage").
+trace(339,3,"LacticAcid").
+trace(339,4,"Leucocytes").
+trace(339,5,"CRP").
+trace(339,6,"IV Antibiotics").
+trace(339,7,"Admission NC").
+trace(339,8,"CRP").
+trace(339,9,"Leucocytes").
+trace(339,10,"Admission NC").
+trace(339,11,"Leucocytes").
+trace(339,12,"CRP").
+trace(339,13,"CRP").
+trace(339,14,"Release A").
+trace(340,0,"ER Registration").
+trace(340,1,"ER Triage").
+trace(340,2,"CRP").
+trace(340,3,"LacticAcid").
+trace(340,4,"Leucocytes").
+trace(340,5,"ER Sepsis Triage").
+trace(340,6,"IV Liquid").
+trace(340,7,"IV Antibiotics").
+trace(341,0,"ER Registration").
+trace(341,1,"ER Triage").
+trace(341,2,"ER Sepsis Triage").
+trace(341,3,"LacticAcid").
+trace(341,4,"Leucocytes").
+trace(341,5,"CRP").
+trace(341,6,"IV Liquid").
+trace(341,7,"IV Antibiotics").
+trace(341,8,"Admission IC").
+trace(341,9,"Leucocytes").
+trace(341,10,"LacticAcid").
+trace(341,11,"CRP").
+trace(341,12,"Leucocytes").
+trace(341,13,"CRP").
+trace(341,14,"LacticAcid").
+trace(341,15,"LacticAcid").
+trace(341,16,"LacticAcid").
+trace(341,17,"CRP").
+trace(341,18,"Leucocytes").
+trace(341,19,"Admission NC").
+trace(341,20,"Leucocytes").
+trace(341,21,"CRP").
+trace(341,22,"Leucocytes").
+trace(341,23,"CRP").
+trace(341,24,"CRP").
+trace(341,25,"Leucocytes").
+trace(341,26,"CRP").
+trace(341,27,"Release A").
+trace(341,28,"Return ER").
+trace(342,0,"ER Registration").
+trace(342,1,"ER Sepsis Triage").
+trace(342,2,"ER Triage").
+trace(342,3,"IV Antibiotics").
+trace(342,4,"Leucocytes").
+trace(342,5,"CRP").
+trace(342,6,"IV Liquid").
+trace(342,7,"Admission NC").
+trace(342,8,"CRP").
+trace(342,9,"Leucocytes").
+trace(342,10,"CRP").
+trace(342,11,"Leucocytes").
+trace(342,12,"CRP").
+trace(342,13,"CRP").
+trace(342,14,"Leucocytes").
+trace(342,15,"Release A").
+trace(343,0,"ER Registration").
+trace(343,1,"ER Triage").
+trace(343,2,"ER Sepsis Triage").
+trace(343,3,"IV Antibiotics").
+trace(343,4,"Leucocytes").
+trace(343,5,"LacticAcid").
+trace(343,6,"CRP").
+trace(343,7,"IV Liquid").
+trace(343,8,"Admission NC").
+trace(343,9,"Leucocytes").
+trace(343,10,"CRP").
+trace(343,11,"Admission NC").
+trace(343,12,"Release C").
+trace(344,0,"Leucocytes").
+trace(344,1,"CRP").
+trace(344,2,"ER Registration").
+trace(344,3,"ER Triage").
+trace(344,4,"ER Sepsis Triage").
+trace(344,5,"Admission NC").
+trace(344,6,"CRP").
+trace(344,7,"Leucocytes").
+trace(344,8,"Admission NC").
+trace(344,9,"CRP").
+trace(344,10,"Leucocytes").
+trace(344,11,"CRP").
+trace(344,12,"Leucocytes").
+trace(344,13,"CRP").
+trace(344,14,"Release C").
+trace(345,0,"ER Registration").
+trace(345,1,"ER Sepsis Triage").
+trace(345,2,"ER Triage").
+trace(345,3,"CRP").
+trace(345,4,"Leucocytes").
+trace(345,5,"LacticAcid").
+trace(345,6,"LacticAcid").
+trace(345,7,"IV Liquid").
+trace(345,8,"IV Antibiotics").
+trace(345,9,"Admission IC").
+trace(345,10,"LacticAcid").
+trace(345,11,"Leucocytes").
+trace(345,12,"CRP").
+trace(345,13,"LacticAcid").
+trace(345,14,"CRP").
+trace(345,15,"LacticAcid").
+trace(345,16,"Leucocytes").
+trace(345,17,"Admission NC").
+trace(345,18,"Leucocytes").
+trace(345,19,"CRP").
+trace(345,20,"Leucocytes").
+trace(345,21,"Leucocytes").
+trace(345,22,"CRP").
+trace(345,23,"Leucocytes").
+trace(345,24,"CRP").
+trace(345,25,"Leucocytes").
+trace(345,26,"CRP").
+trace(345,27,"Leucocytes").
+trace(345,28,"CRP").
+trace(345,29,"Leucocytes").
+trace(345,30,"CRP").
+trace(345,31,"Leucocytes").
+trace(345,32,"Leucocytes").
+trace(345,33,"CRP").
+trace(345,34,"Leucocytes").
+trace(345,35,"CRP").
+trace(345,36,"Release A").
+trace(346,0,"ER Registration").
+trace(346,1,"ER Triage").
+trace(346,2,"ER Sepsis Triage").
+trace(346,3,"LacticAcid").
+trace(346,4,"CRP").
+trace(346,5,"Leucocytes").
+trace(346,6,"Admission NC").
+trace(346,7,"Admission NC").
+trace(346,8,"Leucocytes").
+trace(346,9,"CRP").
+trace(346,10,"CRP").
+trace(346,11,"Leucocytes").
+trace(346,12,"Release E").
+trace(347,0,"ER Registration").
+trace(347,1,"ER Triage").
+trace(347,2,"ER Sepsis Triage").
+trace(347,3,"IV Liquid").
+trace(347,4,"LacticAcid").
+trace(347,5,"CRP").
+trace(347,6,"Leucocytes").
+trace(347,7,"IV Antibiotics").
+trace(347,8,"Admission NC").
+trace(347,9,"Leucocytes").
+trace(347,10,"CRP").
+trace(347,11,"Admission IC").
+trace(347,12,"CRP").
+trace(347,13,"Leucocytes").
+trace(347,14,"LacticAcid").
+trace(347,15,"Leucocytes").
+trace(347,16,"Leucocytes").
+trace(347,17,"LacticAcid").
+trace(347,18,"Leucocytes").
+trace(347,19,"CRP").
+trace(347,20,"LacticAcid").
+trace(347,21,"CRP").
+trace(347,22,"Leucocytes").
+trace(347,23,"LacticAcid").
+trace(347,24,"CRP").
+trace(347,25,"LacticAcid").
+trace(347,26,"Leucocytes").
+trace(347,27,"CRP").
+trace(347,28,"LacticAcid").
+trace(347,29,"Leucocytes").
+trace(347,30,"LacticAcid").
+trace(347,31,"Leucocytes").
+trace(347,32,"CRP").
+trace(347,33,"CRP").
+trace(347,34,"Leucocytes").
+trace(347,35,"LacticAcid").
+trace(347,36,"CRP").
+trace(347,37,"Leucocytes").
+trace(347,38,"LacticAcid").
+trace(347,39,"LacticAcid").
+trace(347,40,"Leucocytes").
+trace(347,41,"CRP").
+trace(347,42,"LacticAcid").
+trace(347,43,"CRP").
+trace(347,44,"Leucocytes").
+trace(347,45,"Leucocytes").
+trace(347,46,"CRP").
+trace(347,47,"LacticAcid").
+trace(347,48,"CRP").
+trace(347,49,"Leucocytes").
+trace(347,50,"LacticAcid").
+trace(347,51,"CRP").
+trace(347,52,"Leucocytes").
+trace(347,53,"LacticAcid").
+trace(347,54,"LacticAcid").
+trace(347,55,"Leucocytes").
+trace(347,56,"CRP").
+trace(347,57,"LacticAcid").
+trace(347,58,"CRP").
+trace(347,59,"Leucocytes").
+trace(347,60,"LacticAcid").
+trace(347,61,"Leucocytes").
+trace(347,62,"CRP").
+trace(347,63,"Leucocytes").
+trace(347,64,"CRP").
+trace(347,65,"Leucocytes").
+trace(347,66,"LacticAcid").
+trace(347,67,"Leucocytes").
+trace(347,68,"LacticAcid").
+trace(347,69,"CRP").
+trace(347,70,"LacticAcid").
+trace(347,71,"Leucocytes").
+trace(347,72,"CRP").
+trace(347,73,"CRP").
+trace(347,74,"LacticAcid").
+trace(347,75,"Leucocytes").
+trace(347,76,"CRP").
+trace(347,77,"Leucocytes").
+trace(347,78,"LacticAcid").
+trace(347,79,"CRP").
+trace(347,80,"LacticAcid").
+trace(347,81,"Leucocytes").
+trace(347,82,"Admission IC").
+trace(347,83,"CRP").
+trace(347,84,"LacticAcid").
+trace(347,85,"Leucocytes").
+trace(347,86,"Leucocytes").
+trace(347,87,"Leucocytes").
+trace(347,88,"CRP").
+trace(347,89,"LacticAcid").
+trace(347,90,"LacticAcid").
+trace(347,91,"CRP").
+trace(347,92,"LacticAcid").
+trace(347,93,"Leucocytes").
+trace(347,94,"CRP").
+trace(347,95,"Leucocytes").
+trace(347,96,"LacticAcid").
+trace(347,97,"CRP").
+trace(347,98,"LacticAcid").
+trace(347,99,"Leucocytes").
+trace(347,100,"CRP").
+trace(347,101,"LacticAcid").
+trace(347,102,"Leucocytes").
+trace(347,103,"LacticAcid").
+trace(347,104,"CRP").
+trace(347,105,"Leucocytes").
+trace(347,106,"LacticAcid").
+trace(347,107,"Leucocytes").
+trace(347,108,"CRP").
+trace(347,109,"CRP").
+trace(347,110,"Leucocytes").
+trace(347,111,"LacticAcid").
+trace(347,112,"Leucocytes").
+trace(347,113,"CRP").
+trace(347,114,"LacticAcid").
+trace(347,115,"CRP").
+trace(347,116,"Leucocytes").
+trace(347,117,"LacticAcid").
+trace(347,118,"LacticAcid").
+trace(347,119,"Leucocytes").
+trace(347,120,"CRP").
+trace(347,121,"LacticAcid").
+trace(347,122,"Leucocytes").
+trace(347,123,"CRP").
+trace(347,124,"LacticAcid").
+trace(347,125,"Leucocytes").
+trace(347,126,"CRP").
+trace(347,127,"LacticAcid").
+trace(347,128,"CRP").
+trace(347,129,"Leucocytes").
+trace(347,130,"LacticAcid").
+trace(347,131,"CRP").
+trace(347,132,"Leucocytes").
+trace(347,133,"Leucocytes").
+trace(347,134,"CRP").
+trace(347,135,"LacticAcid").
+trace(347,136,"LacticAcid").
+trace(347,137,"Leucocytes").
+trace(347,138,"CRP").
+trace(347,139,"CRP").
+trace(347,140,"LacticAcid").
+trace(347,141,"Leucocytes").
+trace(347,142,"Leucocytes").
+trace(347,143,"CRP").
+trace(347,144,"LacticAcid").
+trace(347,145,"LacticAcid").
+trace(347,146,"CRP").
+trace(347,147,"Leucocytes").
+trace(347,148,"CRP").
+trace(347,149,"LacticAcid").
+trace(347,150,"Leucocytes").
+trace(347,151,"CRP").
+trace(347,152,"LacticAcid").
+trace(347,153,"Leucocytes").
+trace(347,154,"Leucocytes").
+trace(347,155,"LacticAcid").
+trace(347,156,"CRP").
+trace(347,157,"Leucocytes").
+trace(347,158,"LacticAcid").
+trace(347,159,"CRP").
+trace(347,160,"CRP").
+trace(347,161,"LacticAcid").
+trace(347,162,"Leucocytes").
+trace(347,163,"Leucocytes").
+trace(347,164,"Admission NC").
+trace(347,165,"Leucocytes").
+trace(347,166,"CRP").
+trace(347,167,"Leucocytes").
+trace(347,168,"Release A").
+trace(347,169,"Return ER").
+trace(348,0,"ER Registration").
+trace(348,1,"ER Triage").
+trace(348,2,"ER Sepsis Triage").
+trace(348,3,"IV Liquid").
+trace(348,4,"LacticAcid").
+trace(348,5,"Leucocytes").
+trace(348,6,"CRP").
+trace(348,7,"IV Antibiotics").
+trace(348,8,"Admission IC").
+trace(348,9,"CRP").
+trace(348,10,"Leucocytes").
+trace(348,11,"LacticAcid").
+trace(348,12,"Leucocytes").
+trace(348,13,"LacticAcid").
+trace(348,14,"CRP").
+trace(348,15,"CRP").
+trace(348,16,"Leucocytes").
+trace(348,17,"LacticAcid").
+trace(348,18,"LacticAcid").
+trace(348,19,"CRP").
+trace(348,20,"Leucocytes").
+trace(348,21,"Admission NC").
+trace(348,22,"Leucocytes").
+trace(348,23,"CRP").
+trace(348,24,"CRP").
+trace(348,25,"Leucocytes").
+trace(348,26,"CRP").
+trace(348,27,"Leucocytes").
+trace(348,28,"CRP").
+trace(348,29,"Leucocytes").
+trace(348,30,"Leucocytes").
+trace(348,31,"CRP").
+trace(348,32,"CRP").
+trace(348,33,"Leucocytes").
+trace(348,34,"Release A").
+trace(349,0,"ER Registration").
+trace(349,1,"ER Triage").
+trace(349,2,"ER Sepsis Triage").
+trace(349,3,"CRP").
+trace(349,4,"Leucocytes").
+trace(349,5,"Admission NC").
+trace(349,6,"CRP").
+trace(349,7,"Leucocytes").
+trace(349,8,"CRP").
+trace(349,9,"Leucocytes").
+trace(349,10,"Leucocytes").
+trace(349,11,"Leucocytes").
+trace(349,12,"Leucocytes").
+trace(349,13,"Leucocytes").
+trace(349,14,"Leucocytes").
+trace(349,15,"Leucocytes").
+trace(349,16,"Leucocytes").
+trace(349,17,"Leucocytes").
+trace(349,18,"CRP").
+trace(349,19,"Release A").
+trace(350,0,"ER Registration").
+trace(350,1,"ER Triage").
+trace(350,2,"ER Sepsis Triage").
+trace(350,3,"LacticAcid").
+trace(350,4,"Leucocytes").
+trace(350,5,"CRP").
+trace(350,6,"IV Liquid").
+trace(350,7,"IV Antibiotics").
+trace(350,8,"Admission NC").
+trace(350,9,"Admission NC").
+trace(350,10,"CRP").
+trace(350,11,"CRP").
+trace(350,12,"CRP").
+trace(350,13,"Release A").
+trace(350,14,"Return ER").
+trace(351,0,"ER Registration").
+trace(351,1,"ER Triage").
+trace(351,2,"ER Sepsis Triage").
+trace(351,3,"CRP").
+trace(351,4,"Leucocytes").
+trace(351,5,"LacticAcid").
+trace(351,6,"IV Liquid").
+trace(351,7,"IV Antibiotics").
+trace(351,8,"Admission NC").
+trace(351,9,"Leucocytes").
+trace(351,10,"LacticAcid").
+trace(351,11,"CRP").
+trace(351,12,"Admission NC").
+trace(351,13,"CRP").
+trace(351,14,"Leucocytes").
+trace(351,15,"Leucocytes").
+trace(351,16,"CRP").
+trace(351,17,"Release A").
+trace(351,18,"Return ER").
+trace(352,0,"ER Registration").
+trace(352,1,"ER Triage").
+trace(352,2,"LacticAcid").
+trace(352,3,"CRP").
+trace(352,4,"Leucocytes").
+trace(352,5,"ER Sepsis Triage").
+trace(352,6,"IV Liquid").
+trace(352,7,"IV Antibiotics").
+trace(353,0,"ER Registration").
+trace(353,1,"ER Triage").
+trace(353,2,"ER Sepsis Triage").
+trace(353,3,"LacticAcid").
+trace(353,4,"CRP").
+trace(353,5,"Leucocytes").
+trace(353,6,"IV Liquid").
+trace(353,7,"IV Antibiotics").
+trace(353,8,"Admission NC").
+trace(353,9,"Leucocytes").
+trace(353,10,"CRP").
+trace(353,11,"Release A").
+trace(354,0,"ER Registration").
+trace(354,1,"ER Triage").
+trace(354,2,"CRP").
+trace(354,3,"Leucocytes").
+trace(354,4,"ER Sepsis Triage").
+trace(354,5,"Admission NC").
+trace(354,6,"Release A").
+trace(355,0,"ER Registration").
+trace(355,1,"ER Triage").
+trace(355,2,"ER Sepsis Triage").
+trace(355,3,"Leucocytes").
+trace(355,4,"LacticAcid").
+trace(355,5,"CRP").
+trace(355,6,"IV Antibiotics").
+trace(355,7,"IV Liquid").
+trace(355,8,"Admission IC").
+trace(355,9,"CRP").
+trace(355,10,"LacticAcid").
+trace(355,11,"Leucocytes").
+trace(355,12,"LacticAcid").
+trace(355,13,"Leucocytes").
+trace(355,14,"LacticAcid").
+trace(355,15,"CRP").
+trace(355,16,"Leucocytes").
+trace(355,17,"LacticAcid").
+trace(355,18,"LacticAcid").
+trace(355,19,"Leucocytes").
+trace(355,20,"CRP").
+trace(355,21,"LacticAcid").
+trace(355,22,"Admission NC").
+trace(355,23,"Leucocytes").
+trace(355,24,"CRP").
+trace(355,25,"CRP").
+trace(355,26,"CRP").
+trace(355,27,"CRP").
+trace(355,28,"Leucocytes").
+trace(355,29,"CRP").
+trace(355,30,"Leucocytes").
+trace(355,31,"CRP").
+trace(355,32,"Leucocytes").
+trace(355,33,"CRP").
+trace(355,34,"Leucocytes").
+trace(355,35,"CRP").
+trace(355,36,"Leucocytes").
+trace(355,37,"Admission NC").
+trace(355,38,"Release A").
+trace(355,39,"Return ER").
+trace(356,0,"ER Registration").
+trace(356,1,"ER Triage").
+trace(356,2,"ER Sepsis Triage").
+trace(356,3,"Leucocytes").
+trace(356,4,"CRP").
+trace(356,5,"IV Antibiotics").
+trace(356,6,"IV Liquid").
+trace(357,0,"ER Registration").
+trace(357,1,"ER Triage").
+trace(357,2,"IV Liquid").
+trace(357,3,"Leucocytes").
+trace(357,4,"CRP").
+trace(357,5,"Leucocytes").
+trace(357,6,"LacticAcid").
+trace(357,7,"ER Sepsis Triage").
+trace(357,8,"IV Antibiotics").
+trace(358,0,"ER Registration").
+trace(358,1,"ER Triage").
+trace(358,2,"ER Sepsis Triage").
+trace(358,3,"Leucocytes").
+trace(358,4,"CRP").
+trace(358,5,"IV Liquid").
+trace(358,6,"IV Antibiotics").
+trace(358,7,"Admission NC").
+trace(358,8,"CRP").
+trace(358,9,"Leucocytes").
+trace(358,10,"CRP").
+trace(358,11,"Leucocytes").
+trace(358,12,"CRP").
+trace(358,13,"Leucocytes").
+trace(358,14,"Release A").
+trace(359,0,"ER Registration").
+trace(359,1,"ER Triage").
+trace(359,2,"ER Sepsis Triage").
+trace(359,3,"IV Liquid").
+trace(359,4,"CRP").
+trace(359,5,"LacticAcid").
+trace(359,6,"Leucocytes").
+trace(359,7,"IV Antibiotics").
+trace(359,8,"Admission NC").
+trace(359,9,"Leucocytes").
+trace(359,10,"CRP").
+trace(359,11,"Leucocytes").
+trace(359,12,"CRP").
+trace(359,13,"Leucocytes").
+trace(359,14,"Release A").
+trace(359,15,"Return ER").
+trace(360,0,"ER Registration").
+trace(360,1,"ER Triage").
+trace(360,2,"ER Sepsis Triage").
+trace(360,3,"CRP").
+trace(360,4,"LacticAcid").
+trace(360,5,"Leucocytes").
+trace(360,6,"IV Liquid").
+trace(360,7,"IV Antibiotics").
+trace(360,8,"Admission NC").
+trace(360,9,"Admission NC").
+trace(360,10,"CRP").
+trace(360,11,"Leucocytes").
+trace(360,12,"CRP").
+trace(360,13,"Leucocytes").
+trace(360,14,"CRP").
+trace(360,15,"Leucocytes").
+trace(360,16,"Release A").
+trace(360,17,"Return ER").
+trace(361,0,"ER Registration").
+trace(361,1,"IV Liquid").
+trace(361,2,"ER Triage").
+trace(361,3,"ER Sepsis Triage").
+trace(361,4,"LacticAcid").
+trace(361,5,"Leucocytes").
+trace(361,6,"CRP").
+trace(361,7,"IV Antibiotics").
+trace(361,8,"Admission NC").
+trace(361,9,"Leucocytes").
+trace(361,10,"CRP").
+trace(361,11,"Release A").
+trace(361,12,"Return ER").
+trace(362,0,"ER Registration").
+trace(362,1,"ER Triage").
+trace(362,2,"ER Sepsis Triage").
+trace(362,3,"LacticAcid").
+trace(362,4,"CRP").
+trace(362,5,"Leucocytes").
+trace(362,6,"IV Liquid").
+trace(362,7,"IV Antibiotics").
+trace(362,8,"Admission NC").
+trace(362,9,"CRP").
+trace(362,10,"Leucocytes").
+trace(362,11,"CRP").
+trace(362,12,"Admission NC").
+trace(362,13,"CRP").
+trace(362,14,"Leucocytes").
+trace(362,15,"CRP").
+trace(362,16,"CRP").
+trace(362,17,"Leucocytes").
+trace(362,18,"Leucocytes").
+trace(362,19,"Leucocytes").
+trace(362,20,"CRP").
+trace(362,21,"CRP").
+trace(362,22,"Leucocytes").
+trace(362,23,"CRP").
+trace(362,24,"CRP").
+trace(362,25,"Leucocytes").
+trace(362,26,"Leucocytes").
+trace(362,27,"Release A").
+trace(363,0,"ER Registration").
+trace(363,1,"ER Triage").
+trace(363,2,"ER Sepsis Triage").
+trace(363,3,"CRP").
+trace(363,4,"Leucocytes").
+trace(363,5,"LacticAcid").
+trace(363,6,"IV Antibiotics").
+trace(363,7,"IV Liquid").
+trace(364,0,"ER Registration").
+trace(364,1,"ER Triage").
+trace(364,2,"ER Sepsis Triage").
+trace(364,3,"CRP").
+trace(364,4,"LacticAcid").
+trace(364,5,"Leucocytes").
+trace(364,6,"IV Liquid").
+trace(364,7,"IV Antibiotics").
+trace(364,8,"Admission NC").
+trace(364,9,"Leucocytes").
+trace(364,10,"CRP").
+trace(364,11,"CRP").
+trace(364,12,"Leucocytes").
+trace(364,13,"CRP").
+trace(364,14,"Leucocytes").
+trace(364,15,"Leucocytes").
+trace(364,16,"CRP").
+trace(364,17,"CRP").
+trace(364,18,"Leucocytes").
+trace(364,19,"Leucocytes").
+trace(364,20,"CRP").
+trace(364,21,"CRP").
+trace(364,22,"Leucocytes").
+trace(364,23,"CRP").
+trace(364,24,"CRP").
+trace(364,25,"Release A").
+trace(365,0,"ER Registration").
+trace(365,1,"ER Triage").
+trace(365,2,"ER Sepsis Triage").
+trace(365,3,"Leucocytes").
+trace(365,4,"CRP").
+trace(365,5,"LacticAcid").
+trace(365,6,"IV Antibiotics").
+trace(365,7,"IV Liquid").
+trace(365,8,"Admission NC").
+trace(365,9,"Admission NC").
+trace(365,10,"Release B").
+trace(366,0,"ER Registration").
+trace(366,1,"ER Triage").
+trace(366,2,"ER Sepsis Triage").
+trace(366,3,"CRP").
+trace(366,4,"Leucocytes").
+trace(367,0,"ER Registration").
+trace(367,1,"ER Triage").
+trace(367,2,"ER Sepsis Triage").
+trace(367,3,"CRP").
+trace(367,4,"LacticAcid").
+trace(367,5,"Leucocytes").
+trace(367,6,"IV Liquid").
+trace(367,7,"IV Antibiotics").
+trace(368,0,"ER Registration").
+trace(368,1,"IV Liquid").
+trace(368,2,"ER Triage").
+trace(368,3,"ER Sepsis Triage").
+trace(368,4,"CRP").
+trace(368,5,"LacticAcid").
+trace(368,6,"Leucocytes").
+trace(368,7,"IV Antibiotics").
+trace(368,8,"Admission NC").
+trace(368,9,"Leucocytes").
+trace(368,10,"Admission NC").
+trace(368,11,"LacticAcid").
+trace(368,12,"CRP").
+trace(368,13,"Leucocytes").
+trace(368,14,"LacticAcid").
+trace(368,15,"Leucocytes").
+trace(368,16,"CRP").
+trace(368,17,"Leucocytes").
+trace(368,18,"CRP").
+trace(368,19,"LacticAcid").
+trace(368,20,"CRP").
+trace(368,21,"Leucocytes").
+trace(368,22,"Release B").
+trace(369,0,"ER Registration").
+trace(369,1,"ER Triage").
+trace(369,2,"ER Sepsis Triage").
+trace(369,3,"LacticAcid").
+trace(369,4,"Leucocytes").
+trace(369,5,"CRP").
+trace(369,6,"IV Liquid").
+trace(369,7,"IV Antibiotics").
+trace(369,8,"Admission NC").
+trace(369,9,"Leucocytes").
+trace(369,10,"CRP").
+trace(369,11,"Admission NC").
+trace(369,12,"Leucocytes").
+trace(369,13,"CRP").
+trace(369,14,"LacticAcid").
+trace(369,15,"CRP").
+trace(369,16,"Leucocytes").
+trace(369,17,"Admission NC").
+trace(369,18,"Leucocytes").
+trace(369,19,"Admission IC").
+trace(369,20,"CRP").
+trace(369,21,"LacticAcid").
+trace(369,22,"Leucocytes").
+trace(369,23,"Leucocytes").
+trace(369,24,"Leucocytes").
+trace(369,25,"CRP").
+trace(369,26,"LacticAcid").
+trace(369,27,"Leucocytes").
+trace(369,28,"Admission NC").
+trace(369,29,"Leucocytes").
+trace(369,30,"CRP").
+trace(369,31,"Leucocytes").
+trace(369,32,"Leucocytes").
+trace(369,33,"Leucocytes").
+trace(369,34,"Leucocytes").
+trace(369,35,"CRP").
+trace(369,36,"Leucocytes").
+trace(369,37,"CRP").
+trace(369,38,"Leucocytes").
+trace(369,39,"Release D").
+trace(369,40,"Return ER").
+trace(370,0,"ER Registration").
+trace(370,1,"ER Triage").
+trace(370,2,"ER Sepsis Triage").
+trace(370,3,"IV Liquid").
+trace(370,4,"Leucocytes").
+trace(370,5,"CRP").
+trace(370,6,"LacticAcid").
+trace(370,7,"IV Antibiotics").
+trace(370,8,"Admission NC").
+trace(370,9,"Admission NC").
+trace(370,10,"CRP").
+trace(370,11,"Leucocytes").
+trace(370,12,"Leucocytes").
+trace(370,13,"CRP").
+trace(370,14,"CRP").
+trace(370,15,"Leucocytes").
+trace(370,16,"Release A").
+trace(370,17,"Return ER").
+trace(371,0,"ER Registration").
+trace(371,1,"ER Triage").
+trace(371,2,"ER Sepsis Triage").
+trace(371,3,"LacticAcid").
+trace(371,4,"CRP").
+trace(371,5,"Leucocytes").
+trace(371,6,"IV Liquid").
+trace(371,7,"IV Antibiotics").
+trace(371,8,"Admission NC").
+trace(371,9,"Leucocytes").
+trace(371,10,"CRP").
+trace(372,0,"ER Registration").
+trace(372,1,"ER Triage").
+trace(372,2,"CRP").
+trace(372,3,"LacticAcid").
+trace(372,4,"Leucocytes").
+trace(372,5,"ER Sepsis Triage").
+trace(372,6,"IV Liquid").
+trace(372,7,"IV Antibiotics").
+trace(372,8,"Admission NC").
+trace(372,9,"CRP").
+trace(372,10,"Leucocytes").
+trace(372,11,"Release A").
+trace(373,0,"ER Registration").
+trace(373,1,"IV Liquid").
+trace(373,2,"ER Triage").
+trace(373,3,"ER Sepsis Triage").
+trace(373,4,"CRP").
+trace(373,5,"LacticAcid").
+trace(373,6,"Leucocytes").
+trace(373,7,"IV Antibiotics").
+trace(373,8,"Admission NC").
+trace(373,9,"Admission NC").
+trace(373,10,"Leucocytes").
+trace(373,11,"CRP").
+trace(373,12,"Admission NC").
+trace(373,13,"Release A").
+trace(374,0,"ER Registration").
+trace(374,1,"ER Triage").
+trace(374,2,"ER Sepsis Triage").
+trace(374,3,"IV Liquid").
+trace(374,4,"IV Antibiotics").
+trace(374,5,"Leucocytes").
+trace(374,6,"CRP").
+trace(374,7,"LacticAcid").
+trace(374,8,"Admission NC").
+trace(374,9,"CRP").
+trace(374,10,"Leucocytes").
+trace(374,11,"Leucocytes").
+trace(374,12,"CRP").
+trace(374,13,"Release A").
+trace(374,14,"Return ER").
+trace(375,0,"CRP").
+trace(375,1,"Leucocytes").
+trace(375,2,"ER Registration").
+trace(375,3,"ER Triage").
+trace(375,4,"ER Sepsis Triage").
+trace(375,5,"Admission NC").
+trace(375,6,"CRP").
+trace(375,7,"Leucocytes").
+trace(375,8,"Admission IC").
+trace(375,9,"Leucocytes").
+trace(375,10,"CRP").
+trace(375,11,"LacticAcid").
+trace(375,12,"Leucocytes").
+trace(375,13,"Leucocytes").
+trace(375,14,"Admission IC").
+trace(375,15,"Leucocytes").
+trace(375,16,"CRP").
+trace(375,17,"LacticAcid").
+trace(375,18,"Leucocytes").
+trace(375,19,"Leucocytes").
+trace(375,20,"Leucocytes").
+trace(375,21,"LacticAcid").
+trace(375,22,"CRP").
+trace(375,23,"Leucocytes").
+trace(375,24,"LacticAcid").
+trace(375,25,"Leucocytes").
+trace(375,26,"CRP").
+trace(375,27,"CRP").
+trace(375,28,"LacticAcid").
+trace(375,29,"Leucocytes").
+trace(375,30,"Admission NC").
+trace(375,31,"Release A").
+trace(375,32,"Return ER").
+trace(376,0,"ER Registration").
+trace(376,1,"ER Triage").
+trace(376,2,"ER Sepsis Triage").
+trace(376,3,"IV Antibiotics").
+trace(376,4,"CRP").
+trace(376,5,"Leucocytes").
+trace(376,6,"Admission NC").
+trace(376,7,"Leucocytes").
+trace(376,8,"CRP").
+trace(376,9,"IV Liquid").
+trace(376,10,"CRP").
+trace(376,11,"Leucocytes").
+trace(376,12,"Release A").
+trace(377,0,"ER Registration").
+trace(377,1,"ER Triage").
+trace(377,2,"LacticAcid").
+trace(377,3,"Leucocytes").
+trace(377,4,"CRP").
+trace(377,5,"ER Sepsis Triage").
+trace(377,6,"IV Liquid").
+trace(377,7,"IV Antibiotics").
+trace(377,8,"Admission NC").
+trace(377,9,"Leucocytes").
+trace(377,10,"CRP").
+trace(377,11,"Admission NC").
+trace(377,12,"CRP").
+trace(377,13,"Leucocytes").
+trace(377,14,"Release A").
+trace(378,0,"Leucocytes").
+trace(378,1,"ER Registration").
+trace(378,2,"ER Triage").
+trace(378,3,"ER Sepsis Triage").
+trace(378,4,"Leucocytes").
+trace(378,5,"CRP").
+trace(379,0,"ER Registration").
+trace(379,1,"ER Triage").
+trace(379,2,"ER Sepsis Triage").
+trace(379,3,"IV Liquid").
+trace(379,4,"IV Antibiotics").
+trace(379,5,"Leucocytes").
+trace(379,6,"CRP").
+trace(379,7,"LacticAcid").
+trace(379,8,"Admission NC").
+trace(379,9,"CRP").
+trace(379,10,"Leucocytes").
+trace(379,11,"Admission NC").
+trace(379,12,"Leucocytes").
+trace(379,13,"CRP").
+trace(379,14,"Leucocytes").
+trace(379,15,"Release A").
+trace(380,0,"ER Registration").
+trace(380,1,"ER Triage").
+trace(380,2,"Leucocytes").
+trace(380,3,"LacticAcid").
+trace(380,4,"CRP").
+trace(380,5,"ER Sepsis Triage").
+trace(380,6,"IV Liquid").
+trace(380,7,"IV Antibiotics").
+trace(380,8,"Admission NC").
+trace(380,9,"CRP").
+trace(380,10,"Leucocytes").
+trace(380,11,"Leucocytes").
+trace(380,12,"CRP").
+trace(380,13,"Leucocytes").
+trace(380,14,"CRP").
+trace(380,15,"CRP").
+trace(380,16,"Leucocytes").
+trace(380,17,"CRP").
+trace(380,18,"Leucocytes").
+trace(380,19,"Release B").
+trace(381,0,"ER Registration").
+trace(381,1,"ER Triage").
+trace(381,2,"ER Sepsis Triage").
+trace(381,3,"Leucocytes").
+trace(381,4,"CRP").
+trace(381,5,"LacticAcid").
+trace(381,6,"IV Liquid").
+trace(381,7,"IV Antibiotics").
+trace(382,0,"ER Registration").
+trace(382,1,"ER Triage").
+trace(382,2,"ER Sepsis Triage").
+trace(382,3,"LacticAcid").
+trace(382,4,"Leucocytes").
+trace(382,5,"CRP").
+trace(382,6,"Admission NC").
+trace(382,7,"Admission NC").
+trace(382,8,"IV Antibiotics").
+trace(382,9,"IV Liquid").
+trace(382,10,"CRP").
+trace(382,11,"Leucocytes").
+trace(382,12,"CRP").
+trace(382,13,"Leucocytes").
+trace(382,14,"CRP").
+trace(382,15,"CRP").
+trace(382,16,"Leucocytes").
+trace(382,17,"Admission NC").
+trace(382,18,"Admission IC").
+trace(382,19,"LacticAcid").
+trace(382,20,"Leucocytes").
+trace(382,21,"CRP").
+trace(382,22,"CRP").
+trace(382,23,"Leucocytes").
+trace(382,24,"LacticAcid").
+trace(382,25,"Admission NC").
+trace(382,26,"Release A").
+trace(383,0,"ER Registration").
+trace(383,1,"ER Triage").
+trace(383,2,"ER Sepsis Triage").
+trace(383,3,"Leucocytes").
+trace(383,4,"CRP").
+trace(384,0,"ER Registration").
+trace(384,1,"ER Triage").
+trace(384,2,"ER Sepsis Triage").
+trace(384,3,"LacticAcid").
+trace(384,4,"Leucocytes").
+trace(384,5,"CRP").
+trace(384,6,"IV Antibiotics").
+trace(384,7,"IV Liquid").
+trace(384,8,"Admission NC").
+trace(384,9,"Admission IC").
+trace(384,10,"LacticAcid").
+trace(384,11,"CRP").
+trace(384,12,"Leucocytes").
+trace(384,13,"CRP").
+trace(384,14,"Leucocytes").
+trace(384,15,"LacticAcid").
+trace(384,16,"CRP").
+trace(384,17,"Leucocytes").
+trace(384,18,"LacticAcid").
+trace(384,19,"Admission NC").
+trace(384,20,"CRP").
+trace(384,21,"Leucocytes").
+trace(384,22,"CRP").
+trace(384,23,"Leucocytes").
+trace(384,24,"CRP").
+trace(384,25,"Leucocytes").
+trace(384,26,"Release A").
+trace(384,27,"Return ER").
+trace(385,0,"ER Registration").
+trace(385,1,"ER Triage").
+trace(385,2,"ER Sepsis Triage").
+trace(385,3,"Leucocytes").
+trace(385,4,"LacticAcid").
+trace(385,5,"CRP").
+trace(385,6,"IV Liquid").
+trace(385,7,"IV Antibiotics").
+trace(385,8,"Admission NC").
+trace(385,9,"Leucocytes").
+trace(385,10,"CRP").
+trace(385,11,"CRP").
+trace(385,12,"Leucocytes").
+trace(385,13,"Leucocytes").
+trace(385,14,"Leucocytes").
+trace(385,15,"CRP").
+trace(385,16,"Leucocytes").
+trace(385,17,"CRP").
+trace(385,18,"Leucocytes").
+trace(385,19,"Leucocytes").
+trace(385,20,"CRP").
+trace(385,21,"Release D").
+trace(385,22,"Return ER").
+trace(386,0,"ER Registration").
+trace(386,1,"Leucocytes").
+trace(386,2,"CRP").
+trace(386,3,"LacticAcid").
+trace(386,4,"ER Triage").
+trace(386,5,"ER Sepsis Triage").
+trace(386,6,"IV Liquid").
+trace(386,7,"IV Antibiotics").
+trace(386,8,"Admission NC").
+trace(386,9,"Admission NC").
+trace(386,10,"CRP").
+trace(386,11,"Leucocytes").
+trace(386,12,"CRP").
+trace(386,13,"Leucocytes").
+trace(386,14,"Release A").
+trace(386,15,"Return ER").
+trace(387,0,"CRP").
+trace(387,1,"Leucocytes").
+trace(387,2,"ER Registration").
+trace(387,3,"Leucocytes").
+trace(387,4,"CRP").
+trace(387,5,"ER Triage").
+trace(387,6,"ER Sepsis Triage").
+trace(388,0,"ER Registration").
+trace(388,1,"ER Triage").
+trace(388,2,"ER Sepsis Triage").
+trace(388,3,"Leucocytes").
+trace(388,4,"CRP").
+trace(389,0,"ER Registration").
+trace(389,1,"ER Triage").
+trace(389,2,"ER Sepsis Triage").
+trace(389,3,"Leucocytes").
+trace(389,4,"Admission NC").
+trace(389,5,"Release A").
+trace(389,6,"Return ER").
+trace(390,0,"ER Registration").
+trace(390,1,"ER Triage").
+trace(390,2,"ER Sepsis Triage").
+trace(390,3,"LacticAcid").
+trace(390,4,"Leucocytes").
+trace(390,5,"CRP").
+trace(391,0,"ER Registration").
+trace(391,1,"CRP").
+trace(391,2,"Leucocytes").
+trace(391,3,"ER Triage").
+trace(391,4,"ER Sepsis Triage").
+trace(391,5,"IV Antibiotics").
+trace(391,6,"Admission NC").
+trace(391,7,"Release A").
+trace(392,0,"ER Registration").
+trace(392,1,"ER Triage").
+trace(392,2,"IV Liquid").
+trace(392,3,"Leucocytes").
+trace(392,4,"CRP").
+trace(392,5,"LacticAcid").
+trace(392,6,"ER Sepsis Triage").
+trace(392,7,"IV Antibiotics").
+trace(392,8,"Admission NC").
+trace(392,9,"Leucocytes").
+trace(392,10,"CRP").
+trace(392,11,"Admission NC").
+trace(392,12,"CRP").
+trace(392,13,"Leucocytes").
+trace(392,14,"Release A").
+trace(392,15,"Return ER").
+trace(393,0,"ER Registration").
+trace(393,1,"ER Triage").
+trace(393,2,"ER Sepsis Triage").
+trace(393,3,"LacticAcid").
+trace(393,4,"Leucocytes").
+trace(393,5,"CRP").
+trace(393,6,"IV Liquid").
+trace(393,7,"IV Antibiotics").
+trace(393,8,"Admission NC").
+trace(393,9,"Leucocytes").
+trace(393,10,"CRP").
+trace(393,11,"Leucocytes").
+trace(393,12,"CRP").
+trace(393,13,"Release A").
+trace(393,14,"Return ER").
+trace(394,0,"ER Registration").
+trace(394,1,"Leucocytes").
+trace(394,2,"CRP").
+trace(394,3,"LacticAcid").
+trace(394,4,"ER Triage").
+trace(394,5,"ER Sepsis Triage").
+trace(394,6,"IV Antibiotics").
+trace(394,7,"IV Liquid").
+trace(394,8,"Admission NC").
+trace(394,9,"Admission IC").
+trace(394,10,"LacticAcid").
+trace(394,11,"CRP").
+trace(394,12,"Leucocytes").
+trace(394,13,"LacticAcid").
+trace(394,14,"CRP").
+trace(394,15,"Leucocytes").
+trace(394,16,"Leucocytes").
+trace(394,17,"CRP").
+trace(394,18,"LacticAcid").
+trace(394,19,"CRP").
+trace(394,20,"Leucocytes").
+trace(394,21,"LacticAcid").
+trace(394,22,"CRP").
+trace(394,23,"LacticAcid").
+trace(394,24,"Leucocytes").
+trace(394,25,"Admission NC").
+trace(394,26,"CRP").
+trace(394,27,"Release A").
+trace(395,0,"ER Registration").
+trace(395,1,"ER Triage").
+trace(395,2,"ER Sepsis Triage").
+trace(395,3,"Leucocytes").
+trace(395,4,"CRP").
+trace(395,5,"LacticAcid").
+trace(395,6,"IV Liquid").
+trace(395,7,"IV Antibiotics").
+trace(395,8,"Admission NC").
+trace(395,9,"Admission IC").
+trace(395,10,"CRP").
+trace(395,11,"LacticAcid").
+trace(395,12,"Leucocytes").
+trace(395,13,"CRP").
+trace(395,14,"LacticAcid").
+trace(395,15,"Leucocytes").
+trace(395,16,"Admission NC").
+trace(395,17,"CRP").
+trace(395,18,"Leucocytes").
+trace(395,19,"Release A").
+trace(396,0,"ER Registration").
+trace(396,1,"ER Triage").
+trace(396,2,"ER Sepsis Triage").
+trace(396,3,"Leucocytes").
+trace(396,4,"CRP").
+trace(396,5,"LacticAcid").
+trace(396,6,"IV Liquid").
+trace(396,7,"IV Antibiotics").
+trace(396,8,"Admission NC").
+trace(396,9,"CRP").
+trace(396,10,"Leucocytes").
+trace(396,11,"LacticAcid").
+trace(396,12,"CRP").
+trace(396,13,"Leucocytes").
+trace(396,14,"CRP").
+trace(396,15,"Leucocytes").
+trace(396,16,"Leucocytes").
+trace(396,17,"CRP").
+trace(396,18,"Leucocytes").
+trace(396,19,"CRP").
+trace(396,20,"Leucocytes").
+trace(396,21,"CRP").
+trace(396,22,"Leucocytes").
+trace(396,23,"CRP").
+trace(396,24,"Release A").
+trace(397,0,"ER Registration").
+trace(397,1,"ER Triage").
+trace(397,2,"ER Sepsis Triage").
+trace(397,3,"IV Liquid").
+trace(397,4,"LacticAcid").
+trace(397,5,"Leucocytes").
+trace(397,6,"CRP").
+trace(397,7,"IV Antibiotics").
+trace(397,8,"Admission NC").
+trace(397,9,"Admission NC").
+trace(397,10,"CRP").
+trace(397,11,"Leucocytes").
+trace(397,12,"CRP").
+trace(397,13,"Leucocytes").
+trace(397,14,"CRP").
+trace(397,15,"Release A").
+trace(397,16,"Return ER").
+trace(398,0,"ER Registration").
+trace(398,1,"ER Triage").
+trace(398,2,"ER Sepsis Triage").
+trace(398,3,"IV Liquid").
+trace(398,4,"Leucocytes").
+trace(398,5,"CRP").
+trace(398,6,"LacticAcid").
+trace(398,7,"IV Antibiotics").
+trace(398,8,"Admission NC").
+trace(398,9,"Admission NC").
+trace(398,10,"Release A").
+trace(398,11,"Return ER").
+trace(399,0,"ER Registration").
+trace(399,1,"ER Triage").
+trace(399,2,"ER Sepsis Triage").
+trace(399,3,"IV Liquid").
+trace(399,4,"Leucocytes").
+trace(399,5,"CRP").
+trace(399,6,"IV Antibiotics").
+trace(399,7,"Admission NC").
+trace(399,8,"CRP").
+trace(399,9,"Leucocytes").
+trace(399,10,"CRP").
+trace(399,11,"Leucocytes").
+trace(399,12,"Leucocytes").
+trace(399,13,"CRP").
+trace(399,14,"Release A").
+trace(399,15,"Return ER").
+trace(400,0,"ER Registration").
+trace(400,1,"ER Triage").
+trace(400,2,"ER Sepsis Triage").
+trace(400,3,"Leucocytes").
+trace(400,4,"CRP").
+trace(400,5,"LacticAcid").
+trace(400,6,"IV Liquid").
+trace(400,7,"IV Antibiotics").
+trace(401,0,"ER Registration").
+trace(401,1,"ER Triage").
+trace(401,2,"Leucocytes").
+trace(401,3,"CRP").
+trace(401,4,"LacticAcid").
+trace(401,5,"IV Liquid").
+trace(401,6,"Admission NC").
+trace(401,7,"ER Sepsis Triage").
+trace(401,8,"IV Antibiotics").
+trace(401,9,"Release A").
+trace(402,0,"ER Registration").
+trace(402,1,"ER Triage").
+trace(402,2,"ER Sepsis Triage").
+trace(402,3,"IV Liquid").
+trace(402,4,"LacticAcid").
+trace(402,5,"CRP").
+trace(402,6,"Leucocytes").
+trace(402,7,"IV Antibiotics").
+trace(402,8,"Admission NC").
+trace(402,9,"Admission NC").
+trace(402,10,"Leucocytes").
+trace(402,11,"CRP").
+trace(402,12,"Release A").
+trace(403,0,"ER Registration").
+trace(403,1,"ER Triage").
+trace(403,2,"ER Sepsis Triage").
+trace(403,3,"Leucocytes").
+trace(403,4,"CRP").
+trace(403,5,"LacticAcid").
+trace(403,6,"IV Antibiotics").
+trace(403,7,"Admission NC").
+trace(403,8,"Leucocytes").
+trace(403,9,"CRP").
+trace(403,10,"Release A").
+trace(404,0,"ER Registration").
+trace(404,1,"ER Triage").
+trace(404,2,"ER Sepsis Triage").
+trace(404,3,"Leucocytes").
+trace(404,4,"LacticAcid").
+trace(404,5,"CRP").
+trace(404,6,"IV Antibiotics").
+trace(404,7,"Admission NC").
+trace(404,8,"Leucocytes").
+trace(404,9,"CRP").
+trace(404,10,"CRP").
+trace(404,11,"Leucocytes").
+trace(404,12,"Release A").
+trace(405,0,"ER Registration").
+trace(405,1,"ER Triage").
+trace(405,2,"ER Sepsis Triage").
+trace(405,3,"IV Liquid").
+trace(405,4,"Leucocytes").
+trace(405,5,"LacticAcid").
+trace(405,6,"CRP").
+trace(405,7,"IV Antibiotics").
+trace(405,8,"Admission NC").
+trace(405,9,"Leucocytes").
+trace(405,10,"CRP").
+trace(405,11,"Release A").
+trace(405,12,"Return ER").
+trace(406,0,"ER Registration").
+trace(406,1,"ER Sepsis Triage").
+trace(406,2,"ER Triage").
+trace(406,3,"CRP").
+trace(406,4,"Leucocytes").
+trace(406,5,"IV Liquid").
+trace(406,6,"IV Antibiotics").
+trace(406,7,"LacticAcid").
+trace(406,8,"Admission IC").
+trace(406,9,"Leucocytes").
+trace(406,10,"CRP").
+trace(406,11,"Leucocytes").
+trace(406,12,"LacticAcid").
+trace(406,13,"Leucocytes").
+trace(406,14,"CRP").
+trace(406,15,"LacticAcid").
+trace(406,16,"Leucocytes").
+trace(407,0,"ER Registration").
+trace(407,1,"ER Triage").
+trace(407,2,"Leucocytes").
+trace(407,3,"CRP").
+trace(407,4,"LacticAcid").
+trace(407,5,"ER Sepsis Triage").
+trace(407,6,"IV Liquid").
+trace(407,7,"IV Antibiotics").
+trace(407,8,"Admission NC").
+trace(407,9,"Leucocytes").
+trace(407,10,"CRP").
+trace(407,11,"CRP").
+trace(407,12,"CRP").
+trace(407,13,"Leucocytes").
+trace(407,14,"Release A").
+trace(407,15,"Return ER").
+trace(408,0,"ER Registration").
+trace(408,1,"ER Triage").
+trace(408,2,"ER Sepsis Triage").
+trace(408,3,"LacticAcid").
+trace(408,4,"Leucocytes").
+trace(408,5,"CRP").
+trace(408,6,"IV Liquid").
+trace(408,7,"IV Antibiotics").
+trace(408,8,"Admission IC").
+trace(408,9,"LacticAcid").
+trace(408,10,"LacticAcid").
+trace(408,11,"Leucocytes").
+trace(408,12,"LacticAcid").
+trace(408,13,"CRP").
+trace(408,14,"LacticAcid").
+trace(408,15,"Leucocytes").
+trace(408,16,"LacticAcid").
+trace(408,17,"LacticAcid").
+trace(408,18,"Leucocytes").
+trace(408,19,"CRP").
+trace(408,20,"LacticAcid").
+trace(408,21,"LacticAcid").
+trace(408,22,"CRP").
+trace(408,23,"LacticAcid").
+trace(408,24,"Leucocytes").
+trace(408,25,"Leucocytes").
+trace(408,26,"CRP").
+trace(408,27,"LacticAcid").
+trace(408,28,"Leucocytes").
+trace(408,29,"CRP").
+trace(408,30,"LacticAcid").
+trace(408,31,"Admission NC").
+trace(408,32,"Release A").
+trace(408,33,"Return ER").
+trace(409,0,"ER Registration").
+trace(409,1,"ER Triage").
+trace(409,2,"ER Sepsis Triage").
+trace(409,3,"LacticAcid").
+trace(409,4,"Leucocytes").
+trace(409,5,"CRP").
+trace(409,6,"Admission NC").
+trace(410,0,"ER Registration").
+trace(410,1,"ER Triage").
+trace(410,2,"ER Sepsis Triage").
+trace(410,3,"IV Liquid").
+trace(410,4,"CRP").
+trace(410,5,"Leucocytes").
+trace(410,6,"LacticAcid").
+trace(410,7,"IV Antibiotics").
+trace(410,8,"Admission NC").
+trace(410,9,"CRP").
+trace(410,10,"Leucocytes").
+trace(410,11,"Leucocytes").
+trace(410,12,"Leucocytes").
+trace(410,13,"CRP").
+trace(410,14,"LacticAcid").
+trace(410,15,"LacticAcid").
+trace(410,16,"Leucocytes").
+trace(410,17,"CRP").
+trace(410,18,"CRP").
+trace(410,19,"Leucocytes").
+trace(410,20,"Release A").
+trace(410,21,"Return ER").
+trace(411,0,"IV Liquid").
+trace(411,1,"ER Registration").
+trace(411,2,"ER Triage").
+trace(411,3,"ER Sepsis Triage").
+trace(411,4,"Leucocytes").
+trace(411,5,"CRP").
+trace(411,6,"LacticAcid").
+trace(411,7,"IV Antibiotics").
+trace(411,8,"Admission NC").
+trace(411,9,"Leucocytes").
+trace(411,10,"CRP").
+trace(411,11,"LacticAcid").
+trace(411,12,"CRP").
+trace(411,13,"Leucocytes").
+trace(411,14,"CRP").
+trace(411,15,"Leucocytes").
+trace(411,16,"Release A").
+trace(411,17,"Return ER").
+trace(412,0,"ER Registration").
+trace(412,1,"ER Triage").
+trace(412,2,"ER Sepsis Triage").
+trace(412,3,"IV Antibiotics").
+trace(412,4,"LacticAcid").
+trace(412,5,"Leucocytes").
+trace(412,6,"CRP").
+trace(412,7,"Admission NC").
+trace(412,8,"Release B").
+trace(413,0,"ER Registration").
+trace(413,1,"ER Triage").
+trace(413,2,"ER Sepsis Triage").
+trace(413,3,"Leucocytes").
+trace(413,4,"CRP").
+trace(413,5,"LacticAcid").
+trace(413,6,"IV Liquid").
+trace(413,7,"IV Antibiotics").
+trace(413,8,"Admission NC").
+trace(413,9,"Admission NC").
+trace(413,10,"CRP").
+trace(413,11,"Leucocytes").
+trace(413,12,"LacticAcid").
+trace(413,13,"Leucocytes").
+trace(413,14,"Leucocytes").
+trace(413,15,"CRP").
+trace(413,16,"CRP").
+trace(413,17,"Leucocytes").
+trace(413,18,"Leucocytes").
+trace(413,19,"CRP").
+trace(413,20,"Leucocytes").
+trace(413,21,"CRP").
+trace(413,22,"CRP").
+trace(413,23,"Leucocytes").
+trace(413,24,"Leucocytes").
+trace(413,25,"CRP").
+trace(413,26,"Release A").
+trace(414,0,"ER Registration").
+trace(414,1,"ER Triage").
+trace(414,2,"ER Sepsis Triage").
+trace(414,3,"IV Liquid").
+trace(414,4,"IV Antibiotics").
+trace(414,5,"CRP").
+trace(414,6,"LacticAcid").
+trace(414,7,"Leucocytes").
+trace(414,8,"Admission NC").
+trace(414,9,"CRP").
+trace(414,10,"Leucocytes").
+trace(414,11,"Release A").
+trace(415,0,"ER Registration").
+trace(415,1,"ER Triage").
+trace(415,2,"ER Sepsis Triage").
+trace(415,3,"IV Liquid").
+trace(415,4,"CRP").
+trace(415,5,"Leucocytes").
+trace(415,6,"LacticAcid").
+trace(415,7,"IV Antibiotics").
+trace(415,8,"Admission NC").
+trace(415,9,"CRP").
+trace(415,10,"Leucocytes").
+trace(416,0,"ER Registration").
+trace(416,1,"ER Triage").
+trace(416,2,"ER Sepsis Triage").
+trace(416,3,"Admission NC").
+trace(416,4,"Admission IC").
+trace(416,5,"Leucocytes").
+trace(416,6,"CRP").
+trace(416,7,"LacticAcid").
+trace(416,8,"Leucocytes").
+trace(416,9,"LacticAcid").
+trace(416,10,"CRP").
+trace(416,11,"Leucocytes").
+trace(416,12,"CRP").
+trace(416,13,"LacticAcid").
+trace(416,14,"Admission NC").
+trace(416,15,"CRP").
+trace(416,16,"Leucocytes").
+trace(416,17,"Leucocytes").
+trace(416,18,"CRP").
+trace(416,19,"CRP").
+trace(416,20,"Leucocytes").
+trace(416,21,"Release A").
+trace(417,0,"ER Registration").
+trace(417,1,"ER Triage").
+trace(417,2,"ER Sepsis Triage").
+trace(417,3,"IV Liquid").
+trace(417,4,"IV Antibiotics").
+trace(417,5,"Leucocytes").
+trace(417,6,"LacticAcid").
+trace(417,7,"CRP").
+trace(417,8,"Admission NC").
+trace(417,9,"Admission NC").
+trace(417,10,"Leucocytes").
+trace(417,11,"CRP").
+trace(417,12,"CRP").
+trace(417,13,"Leucocytes").
+trace(417,14,"Release C").
+trace(418,0,"ER Registration").
+trace(418,1,"ER Triage").
+trace(418,2,"Leucocytes").
+trace(418,3,"CRP").
+trace(418,4,"ER Sepsis Triage").
+trace(418,5,"IV Liquid").
+trace(418,6,"LacticAcid").
+trace(418,7,"IV Antibiotics").
+trace(418,8,"Admission NC").
+trace(418,9,"CRP").
+trace(418,10,"Leucocytes").
+trace(418,11,"CRP").
+trace(418,12,"Leucocytes").
+trace(418,13,"Release A").
+trace(419,0,"ER Registration").
+trace(419,1,"ER Triage").
+trace(419,2,"ER Sepsis Triage").
+trace(419,3,"IV Liquid").
+trace(419,4,"CRP").
+trace(419,5,"LacticAcid").
+trace(419,6,"Leucocytes").
+trace(419,7,"IV Antibiotics").
+trace(420,0,"ER Registration").
+trace(420,1,"ER Triage").
+trace(420,2,"ER Sepsis Triage").
+trace(420,3,"CRP").
+trace(420,4,"Leucocytes").
+trace(420,5,"IV Antibiotics").
+trace(421,0,"ER Registration").
+trace(421,1,"ER Triage").
+trace(421,2,"CRP").
+trace(421,3,"Leucocytes").
+trace(421,4,"LacticAcid").
+trace(421,5,"Admission NC").
+trace(421,6,"ER Sepsis Triage").
+trace(421,7,"IV Liquid").
+trace(421,8,"IV Antibiotics").
+trace(421,9,"Release A").
+trace(422,0,"ER Registration").
+trace(422,1,"ER Triage").
+trace(422,2,"ER Sepsis Triage").
+trace(422,3,"LacticAcid").
+trace(422,4,"Leucocytes").
+trace(422,5,"CRP").
+trace(422,6,"Admission NC").
+trace(422,7,"Admission NC").
+trace(422,8,"CRP").
+trace(422,9,"Leucocytes").
+trace(422,10,"Release A").
+trace(423,0,"ER Registration").
+trace(423,1,"ER Triage").
+trace(423,2,"ER Sepsis Triage").
+trace(423,3,"CRP").
+trace(423,4,"Leucocytes").
+trace(423,5,"IV Liquid").
+trace(423,6,"IV Antibiotics").
+trace(423,7,"Admission NC").
+trace(423,8,"Leucocytes").
+trace(423,9,"CRP").
+trace(423,10,"Admission NC").
+trace(423,11,"CRP").
+trace(423,12,"Leucocytes").
+trace(423,13,"CRP").
+trace(423,14,"Release A").
+trace(423,15,"Return ER").
+trace(424,0,"ER Registration").
+trace(424,1,"ER Triage").
+trace(424,2,"ER Sepsis Triage").
+trace(424,3,"Leucocytes").
+trace(424,4,"CRP").
+trace(425,0,"ER Registration").
+trace(425,1,"IV Liquid").
+trace(425,2,"ER Triage").
+trace(425,3,"LacticAcid").
+trace(425,4,"Leucocytes").
+trace(425,5,"CRP").
+trace(425,6,"ER Sepsis Triage").
+trace(425,7,"IV Antibiotics").
+trace(425,8,"Admission NC").
+trace(425,9,"Release A").
+trace(426,0,"ER Registration").
+trace(426,1,"ER Sepsis Triage").
+trace(426,2,"ER Triage").
+trace(426,3,"IV Liquid").
+trace(426,4,"LacticAcid").
+trace(426,5,"CRP").
+trace(426,6,"Leucocytes").
+trace(426,7,"IV Antibiotics").
+trace(426,8,"Admission NC").
+trace(426,9,"CRP").
+trace(426,10,"LacticAcid").
+trace(426,11,"Leucocytes").
+trace(426,12,"CRP").
+trace(426,13,"Leucocytes").
+trace(426,14,"CRP").
+trace(426,15,"Leucocytes").
+trace(426,16,"Leucocytes").
+trace(426,17,"CRP").
+trace(426,18,"Release B").
+trace(427,0,"ER Registration").
+trace(427,1,"ER Triage").
+trace(427,2,"ER Sepsis Triage").
+trace(427,3,"IV Liquid").
+trace(427,4,"CRP").
+trace(427,5,"Leucocytes").
+trace(427,6,"LacticAcid").
+trace(427,7,"IV Antibiotics").
+trace(427,8,"Admission NC").
+trace(427,9,"LacticAcid").
+trace(427,10,"CRP").
+trace(427,11,"Leucocytes").
+trace(427,12,"CRP").
+trace(427,13,"Leucocytes").
+trace(427,14,"LacticAcid").
+trace(427,15,"CRP").
+trace(427,16,"Leucocytes").
+trace(427,17,"LacticAcid").
+trace(427,18,"Leucocytes").
+trace(427,19,"CRP").
+trace(427,20,"Release A").
+trace(427,21,"Return ER").
+trace(428,0,"ER Registration").
+trace(428,1,"ER Triage").
+trace(428,2,"ER Sepsis Triage").
+trace(428,3,"Leucocytes").
+trace(428,4,"LacticAcid").
+trace(428,5,"CRP").
+trace(428,6,"IV Liquid").
+trace(428,7,"IV Antibiotics").
+trace(428,8,"Admission NC").
+trace(428,9,"Leucocytes").
+trace(428,10,"CRP").
+trace(428,11,"CRP").
+trace(428,12,"Leucocytes").
+trace(428,13,"CRP").
+trace(428,14,"Release A").
+trace(428,15,"Return ER").
+trace(429,0,"ER Registration").
+trace(429,1,"ER Triage").
+trace(429,2,"ER Sepsis Triage").
+trace(429,3,"CRP").
+trace(429,4,"LacticAcid").
+trace(429,5,"Leucocytes").
+trace(429,6,"IV Liquid").
+trace(429,7,"IV Antibiotics").
+trace(430,0,"ER Registration").
+trace(430,1,"ER Triage").
+trace(430,2,"ER Sepsis Triage").
+trace(430,3,"Leucocytes").
+trace(430,4,"CRP").
+trace(431,0,"ER Registration").
+trace(431,1,"ER Triage").
+trace(431,2,"ER Sepsis Triage").
+trace(431,3,"LacticAcid").
+trace(431,4,"Leucocytes").
+trace(431,5,"CRP").
+trace(431,6,"IV Liquid").
+trace(431,7,"IV Antibiotics").
+trace(431,8,"Admission NC").
+trace(431,9,"CRP").
+trace(431,10,"Leucocytes").
+trace(431,11,"Admission NC").
+trace(431,12,"Leucocytes").
+trace(431,13,"CRP").
+trace(431,14,"CRP").
+trace(431,15,"Leucocytes").
+trace(431,16,"Release A").
+trace(432,0,"ER Registration").
+trace(432,1,"ER Triage").
+trace(432,2,"Leucocytes").
+trace(432,3,"CRP").
+trace(432,4,"ER Sepsis Triage").
+trace(432,5,"Admission NC").
+trace(432,6,"Leucocytes").
+trace(432,7,"CRP").
+trace(432,8,"Leucocytes").
+trace(432,9,"Leucocytes").
+trace(432,10,"CRP").
+trace(432,11,"CRP").
+trace(432,12,"Leucocytes").
+trace(432,13,"Release A").
+trace(433,0,"ER Registration").
+trace(433,1,"ER Triage").
+trace(433,2,"ER Sepsis Triage").
+trace(434,0,"ER Registration").
+trace(434,1,"ER Triage").
+trace(434,2,"ER Sepsis Triage").
+trace(434,3,"Leucocytes").
+trace(434,4,"CRP").
+trace(434,5,"LacticAcid").
+trace(434,6,"IV Liquid").
+trace(434,7,"IV Antibiotics").
+trace(434,8,"Admission NC").
+trace(434,9,"Leucocytes").
+trace(434,10,"CRP").
+trace(434,11,"Admission NC").
+trace(434,12,"Leucocytes").
+trace(434,13,"CRP").
+trace(434,14,"Release A").
+trace(435,0,"ER Registration").
+trace(435,1,"ER Triage").
+trace(435,2,"ER Sepsis Triage").
+trace(435,3,"LacticAcid").
+trace(435,4,"CRP").
+trace(435,5,"Leucocytes").
+trace(435,6,"IV Liquid").
+trace(435,7,"IV Antibiotics").
+trace(435,8,"Admission NC").
+trace(435,9,"Admission NC").
+trace(435,10,"Release A").
+trace(436,0,"ER Registration").
+trace(436,1,"ER Triage").
+trace(436,2,"LacticAcid").
+trace(436,3,"CRP").
+trace(436,4,"Leucocytes").
+trace(436,5,"ER Sepsis Triage").
+trace(436,6,"IV Liquid").
+trace(436,7,"IV Antibiotics").
+trace(436,8,"Admission NC").
+trace(436,9,"Admission NC").
+trace(436,10,"CRP").
+trace(436,11,"Leucocytes").
+trace(436,12,"Leucocytes").
+trace(436,13,"CRP").
+trace(436,14,"Release B").
+trace(437,0,"ER Registration").
+trace(437,1,"ER Triage").
+trace(437,2,"ER Sepsis Triage").
+trace(437,3,"Leucocytes").
+trace(437,4,"CRP").
+trace(437,5,"LacticAcid").
+trace(437,6,"IV Liquid").
+trace(437,7,"IV Antibiotics").
+trace(437,8,"Admission IC").
+trace(437,9,"Leucocytes").
+trace(437,10,"CRP").
+trace(437,11,"LacticAcid").
+trace(437,12,"Admission NC").
+trace(437,13,"Leucocytes").
+trace(437,14,"CRP").
+trace(437,15,"Release A").
+trace(438,0,"ER Registration").
+trace(438,1,"ER Triage").
+trace(438,2,"ER Sepsis Triage").
+trace(438,3,"LacticAcid").
+trace(438,4,"Leucocytes").
+trace(438,5,"CRP").
+trace(438,6,"IV Liquid").
+trace(438,7,"IV Antibiotics").
+trace(438,8,"Admission NC").
+trace(438,9,"Leucocytes").
+trace(438,10,"Admission NC").
+trace(438,11,"Leucocytes").
+trace(438,12,"Release A").
+trace(439,0,"ER Registration").
+trace(439,1,"ER Triage").
+trace(439,2,"ER Sepsis Triage").
+trace(439,3,"CRP").
+trace(439,4,"Leucocytes").
+trace(439,5,"LacticAcid").
+trace(439,6,"IV Liquid").
+trace(439,7,"IV Antibiotics").
+trace(439,8,"Admission NC").
+trace(439,9,"CRP").
+trace(439,10,"Leucocytes").
+trace(439,11,"Leucocytes").
+trace(439,12,"CRP").
+trace(439,13,"Admission NC").
+trace(439,14,"Admission NC").
+trace(439,15,"Leucocytes").
+trace(439,16,"CRP").
+trace(439,17,"Leucocytes").
+trace(439,18,"CRP").
+trace(439,19,"Leucocytes").
+trace(439,20,"Leucocytes").
+trace(439,21,"CRP").
+trace(439,22,"CRP").
+trace(439,23,"Leucocytes").
+trace(439,24,"Leucocytes").
+trace(439,25,"CRP").
+trace(439,26,"Leucocytes").
+trace(439,27,"Leucocytes").
+trace(439,28,"CRP").
+trace(439,29,"Release B").
+trace(440,0,"ER Registration").
+trace(440,1,"IV Liquid").
+trace(440,2,"ER Sepsis Triage").
+trace(440,3,"IV Antibiotics").
+trace(440,4,"ER Triage").
+trace(440,5,"LacticAcid").
+trace(440,6,"Leucocytes").
+trace(440,7,"CRP").
+trace(440,8,"Admission NC").
+trace(440,9,"Leucocytes").
+trace(440,10,"CRP").
+trace(440,11,"Release A").
+trace(441,0,"ER Registration").
+trace(441,1,"ER Triage").
+trace(441,2,"ER Sepsis Triage").
+trace(441,3,"Leucocytes").
+trace(441,4,"CRP").
+trace(441,5,"LacticAcid").
+trace(441,6,"IV Liquid").
+trace(441,7,"IV Antibiotics").
+trace(441,8,"Admission NC").
+trace(441,9,"CRP").
+trace(441,10,"Leucocytes").
+trace(441,11,"CRP").
+trace(441,12,"Leucocytes").
+trace(441,13,"Release A").
+trace(442,0,"ER Registration").
+trace(442,1,"ER Triage").
+trace(442,2,"ER Sepsis Triage").
+trace(442,3,"CRP").
+trace(442,4,"Leucocytes").
+trace(442,5,"LacticAcid").
+trace(442,6,"IV Liquid").
+trace(442,7,"IV Antibiotics").
+trace(442,8,"Admission NC").
+trace(442,9,"CRP").
+trace(442,10,"Leucocytes").
+trace(442,11,"Release A").
+trace(443,0,"ER Registration").
+trace(443,1,"ER Sepsis Triage").
+trace(443,2,"IV Antibiotics").
+trace(443,3,"ER Triage").
+trace(443,4,"CRP").
+trace(443,5,"Leucocytes").
+trace(443,6,"LacticAcid").
+trace(443,7,"IV Liquid").
+trace(443,8,"Admission NC").
+trace(443,9,"CRP").
+trace(443,10,"Leucocytes").
+trace(443,11,"Admission NC").
+trace(443,12,"Release A").
+trace(444,0,"ER Registration").
+trace(444,1,"ER Triage").
+trace(444,2,"ER Sepsis Triage").
+trace(444,3,"CRP").
+trace(444,4,"LacticAcid").
+trace(444,5,"Leucocytes").
+trace(444,6,"IV Liquid").
+trace(444,7,"IV Antibiotics").
+trace(445,0,"ER Registration").
+trace(445,1,"ER Triage").
+trace(445,2,"ER Sepsis Triage").
+trace(445,3,"Leucocytes").
+trace(445,4,"CRP").
+trace(445,5,"LacticAcid").
+trace(445,6,"IV Liquid").
+trace(445,7,"IV Antibiotics").
+trace(445,8,"Admission NC").
+trace(445,9,"Admission NC").
+trace(445,10,"CRP").
+trace(445,11,"Leucocytes").
+trace(445,12,"Leucocytes").
+trace(445,13,"CRP").
+trace(445,14,"Leucocytes").
+trace(445,15,"Leucocytes").
+trace(445,16,"CRP").
+trace(445,17,"CRP").
+trace(445,18,"Leucocytes").
+trace(445,19,"CRP").
+trace(445,20,"Leucocytes").
+trace(445,21,"Leucocytes").
+trace(445,22,"Leucocytes").
+trace(445,23,"CRP").
+trace(445,24,"Leucocytes").
+trace(445,25,"CRP").
+trace(445,26,"CRP").
+trace(445,27,"Leucocytes").
+trace(445,28,"Release A").
+trace(445,29,"Return ER").
+trace(446,0,"ER Registration").
+trace(446,1,"ER Triage").
+trace(446,2,"CRP").
+trace(446,3,"Leucocytes").
+trace(446,4,"LacticAcid").
+trace(446,5,"ER Sepsis Triage").
+trace(446,6,"Admission NC").
+trace(446,7,"Release B").
+trace(447,0,"ER Registration").
+trace(447,1,"ER Triage").
+trace(447,2,"ER Sepsis Triage").
+trace(447,3,"Leucocytes").
+trace(447,4,"LacticAcid").
+trace(447,5,"CRP").
+trace(447,6,"IV Antibiotics").
+trace(447,7,"Admission NC").
+trace(447,8,"CRP").
+trace(447,9,"Release A").
+trace(448,0,"ER Registration").
+trace(448,1,"ER Triage").
+trace(448,2,"ER Sepsis Triage").
+trace(448,3,"Leucocytes").
+trace(448,4,"CRP").
+trace(448,5,"LacticAcid").
+trace(448,6,"IV Liquid").
+trace(448,7,"IV Antibiotics").
+trace(448,8,"Admission NC").
+trace(448,9,"Admission NC").
+trace(448,10,"Leucocytes").
+trace(448,11,"CRP").
+trace(448,12,"Release A").
+trace(449,0,"ER Registration").
+trace(449,1,"ER Triage").
+trace(449,2,"ER Sepsis Triage").
+trace(449,3,"Leucocytes").
+trace(449,4,"CRP").
+trace(449,5,"LacticAcid").
+trace(449,6,"IV Liquid").
+trace(449,7,"IV Antibiotics").
+trace(449,8,"Admission NC").
+trace(449,9,"Leucocytes").
+trace(449,10,"CRP").
+trace(449,11,"Release A").
+trace(449,12,"Return ER").
+trace(450,0,"ER Registration").
+trace(450,1,"ER Triage").
+trace(450,2,"CRP").
+trace(450,3,"Leucocytes").
+trace(450,4,"LacticAcid").
+trace(450,5,"ER Sepsis Triage").
+trace(450,6,"IV Liquid").
+trace(450,7,"IV Antibiotics").
+trace(450,8,"Admission NC").
+trace(450,9,"Leucocytes").
+trace(450,10,"Leucocytes").
+trace(450,11,"Leucocytes").
+trace(450,12,"CRP").
+trace(450,13,"CRP").
+trace(450,14,"Leucocytes").
+trace(450,15,"Leucocytes").
+trace(450,16,"CRP").
+trace(450,17,"Release B").
+trace(451,0,"ER Registration").
+trace(451,1,"ER Triage").
+trace(451,2,"CRP").
+trace(451,3,"Leucocytes").
+trace(451,4,"ER Sepsis Triage").
+trace(451,5,"Admission NC").
+trace(451,6,"CRP").
+trace(451,7,"Leucocytes").
+trace(451,8,"CRP").
+trace(451,9,"Release A").
+trace(451,10,"Return ER").
+trace(452,0,"ER Registration").
+trace(452,1,"ER Triage").
+trace(452,2,"ER Sepsis Triage").
+trace(452,3,"LacticAcid").
+trace(452,4,"Leucocytes").
+trace(452,5,"CRP").
+trace(452,6,"IV Liquid").
+trace(452,7,"IV Antibiotics").
+trace(452,8,"Admission NC").
+trace(452,9,"LacticAcid").
+trace(452,10,"CRP").
+trace(452,11,"Leucocytes").
+trace(452,12,"Admission NC").
+trace(452,13,"CRP").
+trace(452,14,"LacticAcid").
+trace(452,15,"Leucocytes").
+trace(452,16,"Leucocytes").
+trace(452,17,"CRP").
+trace(452,18,"CRP").
+trace(452,19,"Release A").
+trace(452,20,"Return ER").
+trace(453,0,"ER Registration").
+trace(453,1,"ER Triage").
+trace(453,2,"ER Sepsis Triage").
+trace(453,3,"LacticAcid").
+trace(453,4,"CRP").
+trace(453,5,"Leucocytes").
+trace(453,6,"IV Antibiotics").
+trace(453,7,"Admission NC").
+trace(453,8,"CRP").
+trace(453,9,"Leucocytes").
+trace(453,10,"Admission NC").
+trace(453,11,"CRP").
+trace(453,12,"CRP").
+trace(453,13,"Leucocytes").
+trace(453,14,"Release A").
+trace(453,15,"Return ER").
+trace(454,0,"ER Registration").
+trace(454,1,"ER Triage").
+trace(454,2,"ER Sepsis Triage").
+trace(454,3,"CRP").
+trace(454,4,"Leucocytes").
+trace(455,0,"ER Registration").
+trace(455,1,"ER Triage").
+trace(455,2,"ER Sepsis Triage").
+trace(455,3,"IV Antibiotics").
+trace(455,4,"Leucocytes").
+trace(455,5,"LacticAcid").
+trace(455,6,"CRP").
+trace(455,7,"Admission NC").
+trace(455,8,"CRP").
+trace(455,9,"CRP").
+trace(455,10,"Leucocytes").
+trace(455,11,"Release A").
+trace(456,0,"ER Registration").
+trace(456,1,"ER Triage").
+trace(456,2,"ER Sepsis Triage").
+trace(456,3,"Admission NC").
+trace(456,4,"Release A").
+trace(457,0,"ER Registration").
+trace(457,1,"ER Triage").
+trace(457,2,"ER Sepsis Triage").
+trace(457,3,"LacticAcid").
+trace(457,4,"Leucocytes").
+trace(457,5,"CRP").
+trace(457,6,"IV Antibiotics").
+trace(457,7,"Admission NC").
+trace(457,8,"CRP").
+trace(457,9,"Release A").
+trace(458,0,"ER Registration").
+trace(458,1,"ER Triage").
+trace(458,2,"ER Sepsis Triage").
+trace(458,3,"IV Liquid").
+trace(458,4,"IV Antibiotics").
+trace(458,5,"CRP").
+trace(458,6,"LacticAcid").
+trace(458,7,"Leucocytes").
+trace(459,0,"ER Registration").
+trace(459,1,"ER Triage").
+trace(459,2,"ER Sepsis Triage").
+trace(459,3,"Leucocytes").
+trace(459,4,"CRP").
+trace(459,5,"Admission IC").
+trace(459,6,"Leucocytes").
+trace(459,7,"Leucocytes").
+trace(459,8,"Leucocytes").
+trace(459,9,"CRP").
+trace(459,10,"CRP").
+trace(459,11,"Release B").
+trace(460,0,"ER Registration").
+trace(460,1,"ER Triage").
+trace(460,2,"ER Sepsis Triage").
+trace(460,3,"IV Liquid").
+trace(460,4,"LacticAcid").
+trace(460,5,"Leucocytes").
+trace(460,6,"CRP").
+trace(460,7,"IV Antibiotics").
+trace(460,8,"Admission NC").
+trace(460,9,"Leucocytes").
+trace(460,10,"CRP").
+trace(460,11,"Leucocytes").
+trace(460,12,"CRP").
+trace(460,13,"Release A").
+trace(460,14,"Return ER").
+trace(461,0,"ER Registration").
+trace(461,1,"ER Triage").
+trace(461,2,"ER Sepsis Triage").
+trace(461,3,"LacticAcid").
+trace(461,4,"Leucocytes").
+trace(461,5,"CRP").
+trace(461,6,"Admission NC").
+trace(461,7,"Admission NC").
+trace(461,8,"CRP").
+trace(461,9,"Leucocytes").
+trace(461,10,"Release A").
+trace(461,11,"Return ER").
+trace(462,0,"ER Registration").
+trace(462,1,"ER Triage").
+trace(462,2,"ER Sepsis Triage").
+trace(462,3,"CRP").
+trace(462,4,"Leucocytes").
+trace(462,5,"LacticAcid").
+trace(462,6,"IV Liquid").
+trace(462,7,"IV Antibiotics").
+trace(462,8,"Admission NC").
+trace(462,9,"CRP").
+trace(462,10,"Leucocytes").
+trace(462,11,"Release D").
+trace(463,0,"ER Registration").
+trace(463,1,"ER Triage").
+trace(463,2,"ER Sepsis Triage").
+trace(463,3,"LacticAcid").
+trace(463,4,"Leucocytes").
+trace(463,5,"CRP").
+trace(463,6,"IV Liquid").
+trace(463,7,"IV Antibiotics").
+trace(463,8,"Admission NC").
+trace(463,9,"Leucocytes").
+trace(463,10,"CRP").
+trace(463,11,"Release A").
+trace(463,12,"Return ER").
+trace(464,0,"ER Registration").
+trace(464,1,"ER Triage").
+trace(464,2,"ER Sepsis Triage").
+trace(464,3,"Leucocytes").
+trace(464,4,"CRP").
+trace(464,5,"LacticAcid").
+trace(464,6,"IV Liquid").
+trace(464,7,"IV Antibiotics").
+trace(464,8,"Admission NC").
+trace(464,9,"Admission NC").
+trace(464,10,"Leucocytes").
+trace(464,11,"CRP").
+trace(464,12,"Release A").
+trace(464,13,"Return ER").
+trace(465,0,"ER Registration").
+trace(465,1,"ER Triage").
+trace(465,2,"ER Sepsis Triage").
+trace(465,3,"Leucocytes").
+trace(465,4,"LacticAcid").
+trace(465,5,"CRP").
+trace(465,6,"IV Liquid").
+trace(465,7,"IV Antibiotics").
+trace(465,8,"Admission NC").
+trace(465,9,"CRP").
+trace(465,10,"Leucocytes").
+trace(465,11,"Release A").
+trace(466,0,"ER Registration").
+trace(466,1,"ER Triage").
+trace(466,2,"ER Sepsis Triage").
+trace(466,3,"Leucocytes").
+trace(466,4,"LacticAcid").
+trace(466,5,"CRP").
+trace(466,6,"IV Liquid").
+trace(466,7,"IV Antibiotics").
+trace(466,8,"Admission NC").
+trace(466,9,"Leucocytes").
+trace(466,10,"CRP").
+trace(466,11,"CRP").
+trace(466,12,"CRP").
+trace(466,13,"Leucocytes").
+trace(466,14,"Leucocytes").
+trace(466,15,"CRP").
+trace(466,16,"Release A").
+trace(466,17,"Return ER").
+trace(466,18,"CRP").
+trace(466,19,"LacticAcid").
+trace(466,20,"Leucocytes").
+trace(467,0,"ER Registration").
+trace(467,1,"ER Triage").
+trace(467,2,"ER Sepsis Triage").
+trace(467,3,"Leucocytes").
+trace(467,4,"LacticAcid").
+trace(467,5,"CRP").
+trace(467,6,"IV Liquid").
+trace(467,7,"IV Antibiotics").
+trace(467,8,"Admission NC").
+trace(467,9,"CRP").
+trace(467,10,"Leucocytes").
+trace(467,11,"CRP").
+trace(467,12,"Leucocytes").
+trace(467,13,"CRP").
+trace(467,14,"Leucocytes").
+trace(467,15,"Leucocytes").
+trace(467,16,"CRP").
+trace(467,17,"Leucocytes").
+trace(467,18,"CRP").
+trace(467,19,"Leucocytes").
+trace(467,20,"CRP").
+trace(467,21,"Release A").
+trace(467,22,"Return ER").
+trace(468,0,"ER Registration").
+trace(468,1,"ER Triage").
+trace(468,2,"ER Sepsis Triage").
+trace(468,3,"IV Liquid").
+trace(468,4,"IV Antibiotics").
+trace(468,5,"CRP").
+trace(468,6,"Leucocytes").
+trace(468,7,"LacticAcid").
+trace(468,8,"Admission NC").
+trace(468,9,"Release A").
+trace(468,10,"Return ER").
+trace(469,0,"ER Registration").
+trace(469,1,"ER Triage").
+trace(469,2,"ER Sepsis Triage").
+trace(469,3,"LacticAcid").
+trace(469,4,"CRP").
+trace(469,5,"Leucocytes").
+trace(469,6,"IV Liquid").
+trace(469,7,"IV Antibiotics").
+trace(469,8,"Admission NC").
+trace(469,9,"Leucocytes").
+trace(469,10,"CRP").
+trace(469,11,"CRP").
+trace(469,12,"Leucocytes").
+trace(469,13,"Leucocytes").
+trace(469,14,"CRP").
+trace(469,15,"Release A").
+trace(469,16,"Return ER").
+trace(470,0,"ER Registration").
+trace(470,1,"ER Triage").
+trace(470,2,"ER Sepsis Triage").
+trace(470,3,"Leucocytes").
+trace(470,4,"CRP").
+trace(470,5,"LacticAcid").
+trace(470,6,"IV Liquid").
+trace(470,7,"IV Antibiotics").
+trace(470,8,"Admission NC").
+trace(470,9,"Leucocytes").
+trace(470,10,"CRP").
+trace(470,11,"Admission NC").
+trace(470,12,"Leucocytes").
+trace(470,13,"CRP").
+trace(470,14,"Release A").
+trace(471,0,"ER Registration").
+trace(471,1,"ER Triage").
+trace(471,2,"ER Sepsis Triage").
+trace(471,3,"Leucocytes").
+trace(471,4,"LacticAcid").
+trace(471,5,"CRP").
+trace(471,6,"IV Liquid").
+trace(471,7,"IV Antibiotics").
+trace(472,0,"ER Registration").
+trace(472,1,"ER Triage").
+trace(472,2,"ER Sepsis Triage").
+trace(472,3,"CRP").
+trace(472,4,"LacticAcid").
+trace(472,5,"Leucocytes").
+trace(472,6,"IV Liquid").
+trace(472,7,"IV Antibiotics").
+trace(472,8,"Admission NC").
+trace(473,0,"ER Registration").
+trace(473,1,"ER Triage").
+trace(473,2,"ER Sepsis Triage").
+trace(473,3,"Leucocytes").
+trace(473,4,"CRP").
+trace(474,0,"ER Registration").
+trace(474,1,"ER Triage").
+trace(474,2,"ER Sepsis Triage").
+trace(474,3,"LacticAcid").
+trace(474,4,"CRP").
+trace(474,5,"Leucocytes").
+trace(474,6,"IV Antibiotics").
+trace(474,7,"IV Liquid").
+trace(474,8,"Admission NC").
+trace(474,9,"Release A").
+trace(475,0,"ER Registration").
+trace(475,1,"ER Triage").
+trace(475,2,"ER Sepsis Triage").
+trace(475,3,"CRP").
+trace(475,4,"Leucocytes").
+trace(475,5,"LacticAcid").
+trace(475,6,"IV Liquid").
+trace(475,7,"IV Antibiotics").
+trace(475,8,"ER Triage").
+trace(476,0,"ER Registration").
+trace(476,1,"ER Triage").
+trace(476,2,"ER Sepsis Triage").
+trace(476,3,"LacticAcid").
+trace(476,4,"Leucocytes").
+trace(476,5,"CRP").
+trace(476,6,"IV Liquid").
+trace(476,7,"IV Antibiotics").
+trace(476,8,"Admission NC").
+trace(476,9,"CRP").
+trace(476,10,"CRP").
+trace(476,11,"Leucocytes").
+trace(476,12,"CRP").
+trace(476,13,"Leucocytes").
+trace(476,14,"Release A").
+trace(476,15,"Return ER").
+trace(477,0,"ER Registration").
+trace(477,1,"ER Triage").
+trace(477,2,"ER Sepsis Triage").
+trace(477,3,"Leucocytes").
+trace(477,4,"LacticAcid").
+trace(477,5,"CRP").
+trace(477,6,"IV Liquid").
+trace(477,7,"IV Antibiotics").
+trace(477,8,"Admission NC").
+trace(478,0,"ER Registration").
+trace(478,1,"ER Triage").
+trace(478,2,"ER Sepsis Triage").
+trace(478,3,"Leucocytes").
+trace(478,4,"CRP").
+trace(478,5,"LacticAcid").
+trace(478,6,"IV Antibiotics").
+trace(478,7,"IV Liquid").
+trace(478,8,"Admission NC").
+trace(478,9,"CRP").
+trace(478,10,"Leucocytes").
+trace(478,11,"Release A").
+trace(479,0,"ER Registration").
+trace(479,1,"ER Triage").
+trace(479,2,"ER Sepsis Triage").
+trace(479,3,"Leucocytes").
+trace(479,4,"LacticAcid").
+trace(479,5,"CRP").
+trace(479,6,"IV Antibiotics").
+trace(479,7,"IV Liquid").
+trace(479,8,"Admission NC").
+trace(479,9,"Admission NC").
+trace(479,10,"Admission NC").
+trace(479,11,"Release A").
+trace(480,0,"ER Registration").
+trace(480,1,"ER Triage").
+trace(480,2,"ER Sepsis Triage").
+trace(480,3,"IV Liquid").
+trace(480,4,"IV Antibiotics").
+trace(480,5,"Leucocytes").
+trace(480,6,"CRP").
+trace(480,7,"LacticAcid").
+trace(480,8,"Admission NC").
+trace(480,9,"CRP").
+trace(480,10,"Leucocytes").
+trace(480,11,"CRP").
+trace(480,12,"Leucocytes").
+trace(480,13,"Admission NC").
+trace(480,14,"CRP").
+trace(480,15,"Leucocytes").
+trace(480,16,"CRP").
+trace(480,17,"Leucocytes").
+trace(480,18,"Release B").
+trace(481,0,"ER Registration").
+trace(481,1,"ER Triage").
+trace(481,2,"ER Sepsis Triage").
+trace(481,3,"CRP").
+trace(481,4,"Leucocytes").
+trace(481,5,"LacticAcid").
+trace(481,6,"IV Liquid").
+trace(481,7,"IV Antibiotics").
+trace(481,8,"Admission IC").
+trace(481,9,"CRP").
+trace(481,10,"LacticAcid").
+trace(481,11,"Leucocytes").
+trace(481,12,"LacticAcid").
+trace(481,13,"LacticAcid").
+trace(481,14,"CRP").
+trace(481,15,"Leucocytes").
+trace(481,16,"Admission NC").
+trace(481,17,"CRP").
+trace(481,18,"Leucocytes").
+trace(481,19,"CRP").
+trace(481,20,"Release A").
+trace(481,21,"Return ER").
+trace(482,0,"ER Registration").
+trace(482,1,"ER Triage").
+trace(482,2,"Leucocytes").
+trace(482,3,"CRP").
+trace(482,4,"Admission NC").
+trace(482,5,"ER Sepsis Triage").
+trace(482,6,"Admission NC").
+trace(482,7,"Leucocytes").
+trace(482,8,"CRP").
+trace(482,9,"Leucocytes").
+trace(482,10,"CRP").
+trace(482,11,"Leucocytes").
+trace(482,12,"CRP").
+trace(482,13,"Release C").
+trace(483,0,"ER Registration").
+trace(483,1,"ER Triage").
+trace(483,2,"ER Sepsis Triage").
+trace(483,3,"CRP").
+trace(483,4,"Leucocytes").
+trace(484,0,"IV Liquid").
+trace(484,1,"ER Registration").
+trace(484,2,"ER Triage").
+trace(484,3,"ER Sepsis Triage").
+trace(484,4,"Leucocytes").
+trace(484,5,"CRP").
+trace(484,6,"LacticAcid").
+trace(484,7,"IV Antibiotics").
+trace(484,8,"Admission NC").
+trace(484,9,"Release A").
+trace(484,10,"Return ER").
+trace(485,0,"ER Registration").
+trace(485,1,"ER Triage").
+trace(485,2,"ER Sepsis Triage").
+trace(485,3,"IV Liquid").
+trace(485,4,"CRP").
+trace(485,5,"LacticAcid").
+trace(485,6,"Leucocytes").
+trace(485,7,"IV Antibiotics").
+trace(485,8,"Admission NC").
+trace(485,9,"CRP").
+trace(485,10,"Leucocytes").
+trace(485,11,"CRP").
+trace(485,12,"Release A").
+trace(486,0,"ER Registration").
+trace(486,1,"ER Triage").
+trace(486,2,"ER Sepsis Triage").
+trace(486,3,"Leucocytes").
+trace(486,4,"CRP").
+trace(486,5,"LacticAcid").
+trace(486,6,"Admission NC").
+trace(486,7,"Release B").
+trace(487,0,"ER Registration").
+trace(487,1,"ER Triage").
+trace(487,2,"ER Sepsis Triage").
+trace(487,3,"Leucocytes").
+trace(487,4,"CRP").
+trace(487,5,"LacticAcid").
+trace(487,6,"IV Liquid").
+trace(487,7,"IV Antibiotics").
+trace(487,8,"Admission NC").
+trace(487,9,"CRP").
+trace(487,10,"Leucocytes").
+trace(487,11,"Admission NC").
+trace(487,12,"Leucocytes").
+trace(487,13,"CRP").
+trace(487,14,"Release C").
+trace(488,0,"ER Triage").
+trace(488,1,"ER Registration").
+trace(488,2,"ER Sepsis Triage").
+trace(488,3,"IV Liquid").
+trace(488,4,"IV Antibiotics").
+trace(488,5,"Leucocytes").
+trace(488,6,"CRP").
+trace(488,7,"LacticAcid").
+trace(488,8,"Admission NC").
+trace(488,9,"Admission NC").
+trace(488,10,"CRP").
+trace(488,11,"Leucocytes").
+trace(488,12,"CRP").
+trace(488,13,"Leucocytes").
+trace(488,14,"Release C").
+trace(488,15,"Return ER").
+trace(489,0,"CRP").
+trace(489,1,"LacticAcid").
+trace(489,2,"Leucocytes").
+trace(489,3,"ER Registration").
+trace(489,4,"ER Triage").
+trace(489,5,"ER Sepsis Triage").
+trace(489,6,"IV Liquid").
+trace(489,7,"IV Antibiotics").
+trace(489,8,"Admission NC").
+trace(489,9,"Leucocytes").
+trace(489,10,"CRP").
+trace(489,11,"CRP").
+trace(489,12,"Leucocytes").
+trace(489,13,"CRP").
+trace(489,14,"Leucocytes").
+trace(489,15,"Leucocytes").
+trace(489,16,"CRP").
+trace(489,17,"Release C").
+trace(490,0,"ER Registration").
+trace(490,1,"CRP").
+trace(490,2,"Leucocytes").
+trace(490,3,"ER Triage").
+trace(490,4,"ER Sepsis Triage").
+trace(490,5,"IV Antibiotics").
+trace(491,0,"ER Registration").
+trace(491,1,"ER Triage").
+trace(491,2,"ER Sepsis Triage").
+trace(491,3,"IV Liquid").
+trace(491,4,"IV Antibiotics").
+trace(491,5,"LacticAcid").
+trace(491,6,"Leucocytes").
+trace(491,7,"CRP").
+trace(491,8,"Admission NC").
+trace(491,9,"LacticAcid").
+trace(491,10,"Leucocytes").
+trace(491,11,"CRP").
+trace(491,12,"CRP").
+trace(491,13,"Leucocytes").
+trace(491,14,"Leucocytes").
+trace(491,15,"CRP").
+trace(491,16,"Release A").
+trace(492,0,"ER Registration").
+trace(492,1,"ER Triage").
+trace(492,2,"ER Sepsis Triage").
+trace(492,3,"Leucocytes").
+trace(492,4,"CRP").
+trace(492,5,"LacticAcid").
+trace(492,6,"IV Liquid").
+trace(492,7,"IV Antibiotics").
+trace(492,8,"Admission NC").
+trace(492,9,"Leucocytes").
+trace(492,10,"CRP").
+trace(492,11,"CRP").
+trace(492,12,"Release A").
+trace(493,0,"ER Registration").
+trace(493,1,"ER Triage").
+trace(493,2,"ER Sepsis Triage").
+trace(493,3,"CRP").
+trace(493,4,"LacticAcid").
+trace(493,5,"Leucocytes").
+trace(493,6,"IV Liquid").
+trace(493,7,"IV Antibiotics").
+trace(493,8,"Leucocytes").
+trace(493,9,"CRP").
+trace(493,10,"LacticAcid").
+trace(493,11,"Admission IC").
+trace(493,12,"Leucocytes").
+trace(493,13,"LacticAcid").
+trace(493,14,"Leucocytes").
+trace(493,15,"LacticAcid").
+trace(493,16,"Leucocytes").
+trace(493,17,"CRP").
+trace(493,18,"LacticAcid").
+trace(493,19,"CRP").
+trace(493,20,"Leucocytes").
+trace(493,21,"Release B").
+trace(494,0,"ER Registration").
+trace(494,1,"ER Triage").
+trace(494,2,"ER Sepsis Triage").
+trace(494,3,"IV Liquid").
+trace(494,4,"CRP").
+trace(494,5,"LacticAcid").
+trace(494,6,"Leucocytes").
+trace(494,7,"IV Antibiotics").
+trace(494,8,"Admission NC").
+trace(494,9,"CRP").
+trace(494,10,"CRP").
+trace(494,11,"CRP").
+trace(494,12,"Release C").
+trace(495,0,"ER Registration").
+trace(495,1,"ER Triage").
+trace(495,2,"ER Sepsis Triage").
+trace(495,3,"Leucocytes").
+trace(495,4,"LacticAcid").
+trace(495,5,"CRP").
+trace(495,6,"IV Antibiotics").
+trace(496,0,"IV Liquid").
+trace(496,1,"ER Registration").
+trace(496,2,"ER Triage").
+trace(496,3,"ER Sepsis Triage").
+trace(496,4,"IV Antibiotics").
+trace(496,5,"CRP").
+trace(496,6,"Leucocytes").
+trace(496,7,"LacticAcid").
+trace(496,8,"Admission NC").
+trace(496,9,"Admission NC").
+trace(496,10,"Leucocytes").
+trace(496,11,"CRP").
+trace(496,12,"Leucocytes").
+trace(496,13,"CRP").
+trace(496,14,"Release A").
+trace(497,0,"ER Registration").
+trace(497,1,"ER Triage").
+trace(497,2,"ER Sepsis Triage").
+trace(497,3,"CRP").
+trace(497,4,"LacticAcid").
+trace(497,5,"Leucocytes").
+trace(497,6,"IV Liquid").
+trace(497,7,"IV Antibiotics").
+trace(497,8,"Admission NC").
+trace(497,9,"Admission NC").
+trace(497,10,"Admission NC").
+trace(497,11,"Leucocytes").
+trace(497,12,"Leucocytes").
+trace(497,13,"CRP").
+trace(497,14,"Leucocytes").
+trace(497,15,"CRP").
+trace(497,16,"Admission IC").
+trace(497,17,"Leucocytes").
+trace(497,18,"CRP").
+trace(497,19,"LacticAcid").
+trace(497,20,"Leucocytes").
+trace(497,21,"Leucocytes").
+trace(497,22,"Leucocytes").
+trace(497,23,"Leucocytes").
+trace(497,24,"Leucocytes").
+trace(497,25,"Leucocytes").
+trace(497,26,"Leucocytes").
+trace(497,27,"CRP").
+trace(497,28,"LacticAcid").
+trace(497,29,"Leucocytes").
+trace(497,30,"Leucocytes").
+trace(497,31,"Leucocytes").
+trace(497,32,"Leucocytes").
+trace(497,33,"Leucocytes").
+trace(497,34,"Leucocytes").
+trace(497,35,"Leucocytes").
+trace(497,36,"Leucocytes").
+trace(497,37,"LacticAcid").
+trace(497,38,"CRP").
+trace(497,39,"LacticAcid").
+trace(497,40,"Leucocytes").
+trace(497,41,"CRP").
+trace(497,42,"Admission NC").
+trace(497,43,"Leucocytes").
+trace(497,44,"Leucocytes").
+trace(497,45,"Leucocytes").
+trace(497,46,"Release A").
+trace(497,47,"Return ER").
+trace(498,0,"ER Registration").
+trace(498,1,"ER Triage").
+trace(498,2,"ER Sepsis Triage").
+trace(498,3,"Leucocytes").
+trace(498,4,"CRP").
+trace(498,5,"LacticAcid").
+trace(499,0,"ER Registration").
+trace(499,1,"ER Triage").
+trace(499,2,"ER Sepsis Triage").
+trace(499,3,"Leucocytes").
+trace(499,4,"CRP").
+trace(499,5,"Admission NC").
+trace(499,6,"CRP").
+trace(499,7,"Leucocytes").
+trace(499,8,"Admission NC").
+trace(499,9,"CRP").
+trace(499,10,"Leucocytes").
+trace(499,11,"Leucocytes").
+trace(499,12,"CRP").
+trace(499,13,"CRP").
+trace(499,14,"Leucocytes").
+trace(499,15,"Release B").
+trace(500,0,"ER Registration").
+trace(500,1,"ER Triage").
+trace(500,2,"ER Sepsis Triage").
+trace(500,3,"LacticAcid").
+trace(500,4,"CRP").
+trace(500,5,"Leucocytes").
+trace(500,6,"IV Liquid").
+trace(500,7,"IV Antibiotics").
+trace(500,8,"CRP").
+trace(500,9,"LacticAcid").
+trace(500,10,"Leucocytes").
+trace(500,11,"Admission IC").
+trace(500,12,"LacticAcid").
+trace(500,13,"Leucocytes").
+trace(500,14,"CRP").
+trace(500,15,"Leucocytes").
+trace(500,16,"CRP").
+trace(500,17,"LacticAcid").
+trace(500,18,"Leucocytes").
+trace(500,19,"CRP").
+trace(500,20,"LacticAcid").
+trace(500,21,"LacticAcid").
+trace(500,22,"Leucocytes").
+trace(500,23,"CRP").
+trace(500,24,"CRP").
+trace(500,25,"LacticAcid").
+trace(500,26,"Leucocytes").
+trace(500,27,"Leucocytes").
+trace(500,28,"CRP").
+trace(500,29,"LacticAcid").
+trace(500,30,"Leucocytes").
+trace(500,31,"CRP").
+trace(500,32,"LacticAcid").
+trace(500,33,"Admission NC").
+trace(500,34,"Leucocytes").
+trace(500,35,"Leucocytes").
+trace(500,36,"CRP").
+trace(500,37,"Leucocytes").
+trace(500,38,"Leucocytes").
+trace(500,39,"CRP").
+trace(500,40,"Leucocytes").
+trace(500,41,"Leucocytes").
+trace(500,42,"CRP").
+trace(500,43,"Release D").
+trace(500,44,"Return ER").
+trace(501,0,"ER Registration").
+trace(501,1,"ER Triage").
+trace(501,2,"ER Sepsis Triage").
+trace(501,3,"CRP").
+trace(501,4,"Leucocytes").
+trace(501,5,"LacticAcid").
+trace(501,6,"IV Liquid").
+trace(501,7,"IV Antibiotics").
+trace(501,8,"Admission NC").
+trace(501,9,"CRP").
+trace(501,10,"CRP").
+trace(501,11,"Leucocytes").
+trace(501,12,"CRP").
+trace(501,13,"Leucocytes").
+trace(501,14,"Leucocytes").
+trace(501,15,"CRP").
+trace(501,16,"Leucocytes").
+trace(501,17,"CRP").
+trace(501,18,"CRP").
+trace(501,19,"Leucocytes").
+trace(501,20,"CRP").
+trace(501,21,"Leucocytes").
+trace(501,22,"Release A").
+trace(502,0,"ER Registration").
+trace(502,1,"ER Triage").
+trace(502,2,"Leucocytes").
+trace(502,3,"CRP").
+trace(502,4,"ER Sepsis Triage").
+trace(502,5,"IV Liquid").
+trace(502,6,"IV Antibiotics").
+trace(502,7,"Admission NC").
+trace(502,8,"Leucocytes").
+trace(502,9,"CRP").
+trace(502,10,"Leucocytes").
+trace(502,11,"CRP").
+trace(502,12,"CRP").
+trace(502,13,"Leucocytes").
+trace(502,14,"CRP").
+trace(502,15,"CRP").
+trace(502,16,"Leucocytes").
+trace(502,17,"CRP").
+trace(502,18,"Leucocytes").
+trace(502,19,"CRP").
+trace(502,20,"Leucocytes").
+trace(502,21,"CRP").
+trace(502,22,"Leucocytes").
+trace(502,23,"Leucocytes").
+trace(502,24,"CRP").
+trace(502,25,"CRP").
+trace(502,26,"Leucocytes").
+trace(502,27,"Leucocytes").
+trace(502,28,"CRP").
+trace(502,29,"CRP").
+trace(502,30,"CRP").
+trace(502,31,"CRP").
+trace(502,32,"Leucocytes").
+trace(502,33,"CRP").
+trace(502,34,"Leucocytes").
+trace(502,35,"CRP").
+trace(502,36,"CRP").
+trace(502,37,"Leucocytes").
+trace(502,38,"Release A").
+trace(503,0,"ER Registration").
+trace(503,1,"ER Triage").
+trace(503,2,"ER Sepsis Triage").
+trace(503,3,"IV Liquid").
+trace(503,4,"LacticAcid").
+trace(503,5,"Leucocytes").
+trace(503,6,"CRP").
+trace(503,7,"IV Antibiotics").
+trace(503,8,"Admission NC").
+trace(503,9,"Admission NC").
+trace(503,10,"LacticAcid").
+trace(503,11,"Leucocytes").
+trace(503,12,"CRP").
+trace(503,13,"Leucocytes").
+trace(503,14,"CRP").
+trace(503,15,"Leucocytes").
+trace(503,16,"CRP").
+trace(503,17,"CRP").
+trace(503,18,"Leucocytes").
+trace(503,19,"CRP").
+trace(503,20,"Release A").
+trace(503,21,"Return ER").
+trace(504,0,"ER Registration").
+trace(504,1,"ER Triage").
+trace(504,2,"ER Sepsis Triage").
+trace(504,3,"CRP").
+trace(504,4,"LacticAcid").
+trace(504,5,"Leucocytes").
+trace(504,6,"IV Liquid").
+trace(504,7,"IV Antibiotics").
+trace(504,8,"Admission NC").
+trace(504,9,"Leucocytes").
+trace(504,10,"CRP").
+trace(504,11,"Leucocytes").
+trace(504,12,"Leucocytes").
+trace(504,13,"Release A").
+trace(504,14,"Return ER").
+trace(505,0,"IV Liquid").
+trace(505,1,"ER Registration").
+trace(505,2,"ER Triage").
+trace(505,3,"ER Sepsis Triage").
+trace(505,4,"IV Antibiotics").
+trace(505,5,"LacticAcid").
+trace(505,6,"Leucocytes").
+trace(505,7,"CRP").
+trace(505,8,"Admission NC").
+trace(505,9,"Admission NC").
+trace(505,10,"CRP").
+trace(505,11,"Leucocytes").
+trace(505,12,"Leucocytes").
+trace(505,13,"Release A").
+trace(505,14,"Return ER").
+trace(506,0,"ER Registration").
+trace(506,1,"ER Triage").
+trace(506,2,"ER Sepsis Triage").
+trace(506,3,"Leucocytes").
+trace(506,4,"CRP").
+trace(506,5,"LacticAcid").
+trace(507,0,"ER Registration").
+trace(507,1,"ER Triage").
+trace(507,2,"ER Sepsis Triage").
+trace(507,3,"LacticAcid").
+trace(507,4,"Leucocytes").
+trace(507,5,"CRP").
+trace(507,6,"IV Liquid").
+trace(507,7,"IV Antibiotics").
+trace(507,8,"Admission NC").
+trace(507,9,"CRP").
+trace(507,10,"Release A").
+trace(507,11,"Return ER").
+trace(508,0,"ER Registration").
+trace(508,1,"ER Triage").
+trace(508,2,"ER Sepsis Triage").
+trace(508,3,"Leucocytes").
+trace(508,4,"CRP").
+trace(508,5,"LacticAcid").
+trace(508,6,"IV Liquid").
+trace(508,7,"IV Antibiotics").
+trace(508,8,"Admission NC").
+trace(508,9,"Release A").
+trace(509,0,"ER Registration").
+trace(509,1,"ER Triage").
+trace(509,2,"ER Sepsis Triage").
+trace(509,3,"Leucocytes").
+trace(509,4,"LacticAcid").
+trace(509,5,"CRP").
+trace(509,6,"IV Liquid").
+trace(509,7,"IV Antibiotics").
+trace(509,8,"Admission NC").
+trace(509,9,"CRP").
+trace(509,10,"Leucocytes").
+trace(509,11,"Release A").
+trace(510,0,"ER Registration").
+trace(510,1,"ER Triage").
+trace(510,2,"ER Sepsis Triage").
+trace(510,3,"Leucocytes").
+trace(510,4,"CRP").
+trace(510,5,"LacticAcid").
+trace(510,6,"IV Liquid").
+trace(510,7,"IV Antibiotics").
+trace(510,8,"Admission NC").
+trace(510,9,"Release A").
+trace(511,0,"ER Registration").
+trace(511,1,"ER Triage").
+trace(511,2,"ER Sepsis Triage").
+trace(511,3,"CRP").
+trace(511,4,"Leucocytes").
+trace(511,5,"LacticAcid").
+trace(511,6,"IV Liquid").
+trace(511,7,"IV Antibiotics").
+trace(511,8,"Admission NC").
+trace(511,9,"Leucocytes").
+trace(511,10,"CRP").
+trace(511,11,"Release A").
+trace(511,12,"Return ER").
+trace(512,0,"ER Registration").
+trace(512,1,"ER Triage").
+trace(512,2,"ER Sepsis Triage").
+trace(512,3,"Leucocytes").
+trace(512,4,"LacticAcid").
+trace(512,5,"CRP").
+trace(512,6,"IV Liquid").
+trace(512,7,"IV Antibiotics").
+trace(512,8,"Admission NC").
+trace(512,9,"CRP").
+trace(512,10,"Leucocytes").
+trace(512,11,"Leucocytes").
+trace(512,12,"CRP").
+trace(512,13,"Leucocytes").
+trace(512,14,"CRP").
+trace(512,15,"CRP").
+trace(512,16,"Leucocytes").
+trace(512,17,"CRP").
+trace(512,18,"Leucocytes").
+trace(512,19,"Release C").
+trace(513,0,"ER Registration").
+trace(513,1,"ER Triage").
+trace(513,2,"ER Sepsis Triage").
+trace(513,3,"Leucocytes").
+trace(513,4,"LacticAcid").
+trace(513,5,"CRP").
+trace(513,6,"IV Liquid").
+trace(513,7,"IV Antibiotics").
+trace(513,8,"Admission NC").
+trace(513,9,"Leucocytes").
+trace(513,10,"CRP").
+trace(513,11,"Admission NC").
+trace(513,12,"CRP").
+trace(513,13,"Leucocytes").
+trace(513,14,"Release A").
+trace(514,0,"ER Registration").
+trace(514,1,"ER Triage").
+trace(514,2,"ER Sepsis Triage").
+trace(514,3,"IV Liquid").
+trace(514,4,"IV Antibiotics").
+trace(514,5,"Leucocytes").
+trace(514,6,"CRP").
+trace(514,7,"LacticAcid").
+trace(514,8,"Admission NC").
+trace(514,9,"Admission NC").
+trace(514,10,"CRP").
+trace(514,11,"Leucocytes").
+trace(514,12,"CRP").
+trace(514,13,"Leucocytes").
+trace(514,14,"Leucocytes").
+trace(514,15,"Release A").
+trace(515,0,"ER Registration").
+trace(515,1,"ER Triage").
+trace(515,2,"ER Sepsis Triage").
+trace(515,3,"Leucocytes").
+trace(515,4,"CRP").
+trace(515,5,"LacticAcid").
+trace(516,0,"ER Registration").
+trace(516,1,"ER Triage").
+trace(516,2,"ER Sepsis Triage").
+trace(516,3,"IV Liquid").
+trace(516,4,"LacticAcid").
+trace(516,5,"Leucocytes").
+trace(516,6,"CRP").
+trace(516,7,"IV Antibiotics").
+trace(516,8,"Admission NC").
+trace(516,9,"Leucocytes").
+trace(516,10,"CRP").
+trace(516,11,"Leucocytes").
+trace(516,12,"CRP").
+trace(516,13,"CRP").
+trace(516,14,"Leucocytes").
+trace(516,15,"Leucocytes").
+trace(516,16,"CRP").
+trace(516,17,"Leucocytes").
+trace(516,18,"CRP").
+trace(516,19,"Release C").
+trace(516,20,"Return ER").
+trace(517,0,"ER Registration").
+trace(517,1,"ER Triage").
+trace(517,2,"ER Sepsis Triage").
+trace(517,3,"CRP").
+trace(517,4,"Leucocytes").
+trace(517,5,"LacticAcid").
+trace(517,6,"IV Liquid").
+trace(517,7,"IV Antibiotics").
+trace(517,8,"Admission IC").
+trace(517,9,"LacticAcid").
+trace(517,10,"LacticAcid").
+trace(517,11,"CRP").
+trace(517,12,"Leucocytes").
+trace(517,13,"Admission NC").
+trace(517,14,"Leucocytes").
+trace(517,15,"CRP").
+trace(517,16,"Leucocytes").
+trace(517,17,"CRP").
+trace(517,18,"Leucocytes").
+trace(517,19,"CRP").
+trace(517,20,"Leucocytes").
+trace(517,21,"Release A").
+trace(517,22,"Return ER").
+trace(518,0,"ER Registration").
+trace(518,1,"ER Triage").
+trace(518,2,"ER Sepsis Triage").
+trace(518,3,"Leucocytes").
+trace(518,4,"CRP").
+trace(518,5,"LacticAcid").
+trace(518,6,"IV Liquid").
+trace(518,7,"LacticAcid").
+trace(518,8,"Leucocytes").
+trace(518,9,"CRP").
+trace(518,10,"IV Antibiotics").
+trace(518,11,"Admission NC").
+trace(518,12,"Release A").
+trace(518,13,"Return ER").
+trace(519,0,"ER Registration").
+trace(519,1,"ER Triage").
+trace(519,2,"ER Sepsis Triage").
+trace(519,3,"CRP").
+trace(519,4,"LacticAcid").
+trace(519,5,"Leucocytes").
+trace(519,6,"IV Liquid").
+trace(519,7,"IV Antibiotics").
+trace(520,0,"ER Registration").
+trace(520,1,"ER Triage").
+trace(520,2,"ER Sepsis Triage").
+trace(520,3,"IV Liquid").
+trace(520,4,"Leucocytes").
+trace(520,5,"CRP").
+trace(520,6,"LacticAcid").
+trace(520,7,"IV Antibiotics").
+trace(520,8,"Admission NC").
+trace(520,9,"Leucocytes").
+trace(520,10,"CRP").
+trace(520,11,"Release A").
+trace(520,12,"Return ER").
+trace(521,0,"ER Registration").
+trace(521,1,"ER Triage").
+trace(521,2,"ER Sepsis Triage").
+trace(521,3,"LacticAcid").
+trace(521,4,"CRP").
+trace(521,5,"Leucocytes").
+trace(521,6,"IV Antibiotics").
+trace(521,7,"Admission NC").
+trace(521,8,"IV Liquid").
+trace(521,9,"CRP").
+trace(521,10,"Leucocytes").
+trace(521,11,"Release A").
+trace(522,0,"ER Registration").
+trace(522,1,"ER Triage").
+trace(522,2,"ER Sepsis Triage").
+trace(522,3,"Leucocytes").
+trace(522,4,"CRP").
+trace(522,5,"LacticAcid").
+trace(522,6,"Admission NC").
+trace(522,7,"Admission NC").
+trace(522,8,"Release A").
+trace(523,0,"ER Registration").
+trace(523,1,"ER Triage").
+trace(523,2,"ER Sepsis Triage").
+trace(523,3,"LacticAcid").
+trace(523,4,"CRP").
+trace(523,5,"Leucocytes").
+trace(523,6,"IV Liquid").
+trace(523,7,"IV Antibiotics").
+trace(523,8,"Admission NC").
+trace(523,9,"Release A").
+trace(524,0,"ER Registration").
+trace(524,1,"ER Triage").
+trace(524,2,"ER Sepsis Triage").
+trace(524,3,"LacticAcid").
+trace(524,4,"Leucocytes").
+trace(524,5,"CRP").
+trace(524,6,"IV Antibiotics").
+trace(524,7,"Admission IC").
+trace(524,8,"LacticAcid").
+trace(524,9,"Leucocytes").
+trace(524,10,"CRP").
+trace(524,11,"Leucocytes").
+trace(524,12,"CRP").
+trace(524,13,"LacticAcid").
+trace(524,14,"Leucocytes").
+trace(524,15,"CRP").
+trace(524,16,"LacticAcid").
+trace(524,17,"CRP").
+trace(524,18,"Leucocytes").
+trace(524,19,"LacticAcid").
+trace(524,20,"CRP").
+trace(524,21,"Leucocytes").
+trace(524,22,"LacticAcid").
+trace(524,23,"LacticAcid").
+trace(524,24,"Leucocytes").
+trace(524,25,"CRP").
+trace(524,26,"Leucocytes").
+trace(524,27,"CRP").
+trace(524,28,"LacticAcid").
+trace(524,29,"Admission NC").
+trace(524,30,"CRP").
+trace(524,31,"Leucocytes").
+trace(524,32,"CRP").
+trace(524,33,"Leucocytes").
+trace(524,34,"Leucocytes").
+trace(524,35,"Admission NC").
+trace(524,36,"Release A").
+trace(525,0,"ER Registration").
+trace(525,1,"ER Triage").
+trace(525,2,"ER Sepsis Triage").
+trace(525,3,"LacticAcid").
+trace(525,4,"CRP").
+trace(525,5,"Leucocytes").
+trace(525,6,"Admission NC").
+trace(525,7,"Leucocytes").
+trace(525,8,"CRP").
+trace(525,9,"Admission NC").
+trace(525,10,"Leucocytes").
+trace(525,11,"CRP").
+trace(525,12,"Leucocytes").
+trace(525,13,"CRP").
+trace(525,14,"Leucocytes").
+trace(525,15,"CRP").
+trace(525,16,"Leucocytes").
+trace(525,17,"CRP").
+trace(525,18,"Leucocytes").
+trace(525,19,"CRP").
+trace(525,20,"Release A").
+trace(525,21,"Return ER").
+trace(526,0,"ER Registration").
+trace(526,1,"ER Triage").
+trace(526,2,"ER Sepsis Triage").
+trace(526,3,"Leucocytes").
+trace(526,4,"CRP").
+trace(526,5,"LacticAcid").
+trace(526,6,"IV Liquid").
+trace(526,7,"IV Antibiotics").
+trace(526,8,"Admission NC").
+trace(526,9,"Leucocytes").
+trace(526,10,"CRP").
+trace(526,11,"CRP").
+trace(526,12,"Leucocytes").
+trace(526,13,"Release A").
+trace(527,0,"ER Registration").
+trace(527,1,"ER Triage").
+trace(527,2,"ER Sepsis Triage").
+trace(527,3,"LacticAcid").
+trace(527,4,"CRP").
+trace(527,5,"Leucocytes").
+trace(527,6,"IV Liquid").
+trace(527,7,"IV Antibiotics").
+trace(527,8,"Admission NC").
+trace(527,9,"Admission NC").
+trace(527,10,"CRP").
+trace(527,11,"Leucocytes").
+trace(527,12,"CRP").
+trace(527,13,"Leucocytes").
+trace(527,14,"Release A").
+trace(527,15,"Return ER").
+trace(528,0,"ER Registration").
+trace(528,1,"ER Triage").
+trace(528,2,"ER Sepsis Triage").
+trace(528,3,"CRP").
+trace(528,4,"Leucocytes").
+trace(528,5,"LacticAcid").
+trace(528,6,"IV Antibiotics").
+trace(528,7,"Admission NC").
+trace(528,8,"Admission NC").
+trace(528,9,"Leucocytes").
+trace(528,10,"CRP").
+trace(528,11,"Leucocytes").
+trace(528,12,"CRP").
+trace(528,13,"Release A").
+trace(529,0,"ER Registration").
+trace(529,1,"ER Triage").
+trace(529,2,"ER Sepsis Triage").
+trace(529,3,"IV Liquid").
+trace(529,4,"LacticAcid").
+trace(529,5,"Leucocytes").
+trace(529,6,"CRP").
+trace(529,7,"IV Antibiotics").
+trace(529,8,"Admission NC").
+trace(529,9,"Admission NC").
+trace(529,10,"Leucocytes").
+trace(529,11,"CRP").
+trace(529,12,"Release A").
+trace(530,0,"ER Registration").
+trace(530,1,"Leucocytes").
+trace(530,2,"CRP").
+trace(530,3,"LacticAcid").
+trace(530,4,"ER Triage").
+trace(530,5,"ER Sepsis Triage").
+trace(530,6,"IV Antibiotics").
+trace(530,7,"Admission NC").
+trace(530,8,"Admission NC").
+trace(530,9,"Leucocytes").
+trace(530,10,"CRP").
+trace(530,11,"Admission NC").
+trace(530,12,"Admission IC").
+trace(530,13,"LacticAcid").
+trace(530,14,"CRP").
+trace(530,15,"Leucocytes").
+trace(530,16,"LacticAcid").
+trace(530,17,"CRP").
+trace(530,18,"Leucocytes").
+trace(530,19,"Leucocytes").
+trace(530,20,"LacticAcid").
+trace(530,21,"CRP").
+trace(530,22,"Admission NC").
+trace(530,23,"Leucocytes").
+trace(530,24,"CRP").
+trace(530,25,"CRP").
+trace(530,26,"Leucocytes").
+trace(530,27,"CRP").
+trace(530,28,"Release A").
+trace(531,0,"ER Registration").
+trace(531,1,"ER Triage").
+trace(531,2,"IV Liquid").
+trace(531,3,"Leucocytes").
+trace(531,4,"CRP").
+trace(531,5,"LacticAcid").
+trace(531,6,"ER Sepsis Triage").
+trace(531,7,"IV Antibiotics").
+trace(531,8,"Admission NC").
+trace(531,9,"CRP").
+trace(531,10,"Release A").
+trace(531,11,"Return ER").
+trace(532,0,"ER Registration").
+trace(532,1,"ER Triage").
+trace(532,2,"ER Sepsis Triage").
+trace(532,3,"IV Liquid").
+trace(532,4,"IV Antibiotics").
+trace(532,5,"Leucocytes").
+trace(532,6,"LacticAcid").
+trace(532,7,"CRP").
+trace(532,8,"Admission NC").
+trace(532,9,"Admission NC").
+trace(532,10,"Leucocytes").
+trace(532,11,"CRP").
+trace(532,12,"CRP").
+trace(532,13,"Leucocytes").
+trace(532,14,"CRP").
+trace(532,15,"Leucocytes").
+trace(532,16,"Release A").
+trace(533,0,"ER Registration").
+trace(533,1,"ER Triage").
+trace(533,2,"ER Sepsis Triage").
+trace(533,3,"LacticAcid").
+trace(533,4,"Leucocytes").
+trace(533,5,"CRP").
+trace(533,6,"IV Liquid").
+trace(533,7,"IV Antibiotics").
+trace(533,8,"Admission NC").
+trace(533,9,"Admission NC").
+trace(533,10,"Leucocytes").
+trace(533,11,"CRP").
+trace(533,12,"Leucocytes").
+trace(533,13,"CRP").
+trace(533,14,"Release A").
+trace(533,15,"Return ER").
+trace(534,0,"ER Registration").
+trace(534,1,"ER Triage").
+trace(534,2,"CRP").
+trace(534,3,"LacticAcid").
+trace(534,4,"Leucocytes").
+trace(534,5,"ER Sepsis Triage").
+trace(534,6,"IV Liquid").
+trace(534,7,"IV Antibiotics").
+trace(534,8,"Admission NC").
+trace(534,9,"CRP").
+trace(534,10,"Leucocytes").
+trace(534,11,"Admission NC").
+trace(534,12,"Release A").
+trace(535,0,"ER Registration").
+trace(535,1,"ER Triage").
+trace(535,2,"ER Sepsis Triage").
+trace(535,3,"Leucocytes").
+trace(535,4,"CRP").
+trace(535,5,"LacticAcid").
+trace(535,6,"IV Liquid").
+trace(535,7,"IV Antibiotics").
+trace(535,8,"Admission NC").
+trace(535,9,"Leucocytes").
+trace(535,10,"CRP").
+trace(536,0,"ER Registration").
+trace(536,1,"ER Triage").
+trace(536,2,"ER Sepsis Triage").
+trace(536,3,"IV Liquid").
+trace(536,4,"Leucocytes").
+trace(536,5,"LacticAcid").
+trace(536,6,"CRP").
+trace(536,7,"IV Antibiotics").
+trace(536,8,"Admission NC").
+trace(536,9,"Release A").
+trace(536,10,"Return ER").
+trace(537,0,"ER Registration").
+trace(537,1,"ER Triage").
+trace(537,2,"ER Sepsis Triage").
+trace(537,3,"IV Liquid").
+trace(537,4,"LacticAcid").
+trace(537,5,"CRP").
+trace(537,6,"Leucocytes").
+trace(537,7,"IV Antibiotics").
+trace(537,8,"Admission NC").
+trace(537,9,"CRP").
+trace(537,10,"LacticAcid").
+trace(537,11,"Leucocytes").
+trace(537,12,"Admission NC").
+trace(537,13,"Leucocytes").
+trace(537,14,"CRP").
+trace(537,15,"Release A").
+trace(537,16,"Return ER").
+trace(538,0,"ER Registration").
+trace(538,1,"ER Triage").
+trace(538,2,"ER Sepsis Triage").
+trace(538,3,"Leucocytes").
+trace(538,4,"CRP").
+trace(539,0,"ER Registration").
+trace(539,1,"Leucocytes").
+trace(539,2,"CRP").
+trace(539,3,"LacticAcid").
+trace(539,4,"ER Triage").
+trace(539,5,"ER Sepsis Triage").
+trace(539,6,"IV Antibiotics").
+trace(539,7,"IV Liquid").
+trace(539,8,"Admission NC").
+trace(539,9,"Leucocytes").
+trace(539,10,"CRP").
+trace(539,11,"Release A").
+trace(540,0,"ER Registration").
+trace(540,1,"ER Triage").
+trace(540,2,"ER Sepsis Triage").
+trace(540,3,"Leucocytes").
+trace(540,4,"CRP").
+trace(540,5,"LacticAcid").
+trace(540,6,"IV Liquid").
+trace(540,7,"IV Antibiotics").
+trace(540,8,"Admission NC").
+trace(540,9,"Leucocytes").
+trace(540,10,"CRP").
+trace(540,11,"Admission NC").
+trace(540,12,"Leucocytes").
+trace(540,13,"CRP").
+trace(540,14,"Admission NC").
+trace(540,15,"Release A").
+trace(541,0,"ER Registration").
+trace(541,1,"ER Triage").
+trace(541,2,"CRP").
+trace(541,3,"LacticAcid").
+trace(541,4,"Leucocytes").
+trace(541,5,"ER Sepsis Triage").
+trace(541,6,"IV Liquid").
+trace(541,7,"IV Antibiotics").
+trace(541,8,"Admission NC").
+trace(541,9,"Leucocytes").
+trace(541,10,"CRP").
+trace(541,11,"Leucocytes").
+trace(541,12,"Leucocytes").
+trace(541,13,"CRP").
+trace(541,14,"Leucocytes").
+trace(541,15,"Admission NC").
+trace(541,16,"Release A").
+trace(541,17,"Return ER").
+trace(542,0,"ER Registration").
+trace(542,1,"ER Triage").
+trace(542,2,"CRP").
+trace(542,3,"Leucocytes").
+trace(542,4,"LacticAcid").
+trace(542,5,"ER Sepsis Triage").
+trace(542,6,"IV Liquid").
+trace(542,7,"IV Antibiotics").
+trace(542,8,"Admission NC").
+trace(542,9,"Leucocytes").
+trace(542,10,"CRP").
+trace(542,11,"Leucocytes").
+trace(542,12,"CRP").
+trace(542,13,"Leucocytes").
+trace(542,14,"CRP").
+trace(542,15,"Leucocytes").
+trace(542,16,"Release A").
+trace(542,17,"Return ER").
+trace(543,0,"ER Registration").
+trace(543,1,"ER Triage").
+trace(543,2,"LacticAcid").
+trace(543,3,"CRP").
+trace(543,4,"Leucocytes").
+trace(543,5,"IV Liquid").
+trace(543,6,"ER Sepsis Triage").
+trace(543,7,"IV Antibiotics").
+trace(543,8,"Admission NC").
+trace(543,9,"Admission NC").
+trace(543,10,"CRP").
+trace(543,11,"Leucocytes").
+trace(543,12,"CRP").
+trace(543,13,"Leucocytes").
+trace(543,14,"CRP").
+trace(543,15,"Release A").
+trace(543,16,"Return ER").
+trace(544,0,"ER Registration").
+trace(544,1,"ER Triage").
+trace(544,2,"ER Sepsis Triage").
+trace(544,3,"CRP").
+trace(544,4,"Leucocytes").
+trace(544,5,"LacticAcid").
+trace(544,6,"IV Liquid").
+trace(544,7,"IV Antibiotics").
+trace(544,8,"Admission NC").
+trace(544,9,"Leucocytes").
+trace(544,10,"CRP").
+trace(544,11,"Leucocytes").
+trace(544,12,"Release D").
+trace(545,0,"ER Registration").
+trace(545,1,"ER Triage").
+trace(545,2,"ER Sepsis Triage").
+trace(545,3,"IV Liquid").
+trace(545,4,"IV Antibiotics").
+trace(545,5,"LacticAcid").
+trace(545,6,"Leucocytes").
+trace(545,7,"CRP").
+trace(545,8,"Admission NC").
+trace(545,9,"Leucocytes").
+trace(545,10,"CRP").
+trace(545,11,"Release A").
+trace(546,0,"ER Registration").
+trace(546,1,"ER Triage").
+trace(546,2,"ER Sepsis Triage").
+trace(546,3,"IV Liquid").
+trace(546,4,"IV Antibiotics").
+trace(546,5,"Leucocytes").
+trace(546,6,"LacticAcid").
+trace(546,7,"CRP").
+trace(546,8,"Admission NC").
+trace(546,9,"CRP").
+trace(546,10,"Leucocytes").
+trace(546,11,"CRP").
+trace(546,12,"Leucocytes").
+trace(546,13,"Release A").
+trace(547,0,"ER Registration").
+trace(547,1,"ER Triage").
+trace(547,2,"ER Sepsis Triage").
+trace(547,3,"CRP").
+trace(547,4,"Leucocytes").
+trace(547,5,"LacticAcid").
+trace(547,6,"Admission NC").
+trace(547,7,"CRP").
+trace(547,8,"Leucocytes").
+trace(547,9,"Release A").
+trace(547,10,"Return ER").
+trace(548,0,"ER Registration").
+trace(548,1,"ER Triage").
+trace(548,2,"ER Sepsis Triage").
+trace(548,3,"IV Liquid").
+trace(548,4,"Leucocytes").
+trace(548,5,"LacticAcid").
+trace(548,6,"CRP").
+trace(548,7,"IV Antibiotics").
+trace(548,8,"Admission NC").
+trace(549,0,"ER Registration").
+trace(549,1,"ER Triage").
+trace(549,2,"ER Sepsis Triage").
+trace(549,3,"LacticAcid").
+trace(549,4,"Leucocytes").
+trace(549,5,"CRP").
+trace(549,6,"IV Antibiotics").
+trace(549,7,"IV Liquid").
+trace(549,8,"Admission NC").
+trace(549,9,"CRP").
+trace(549,10,"Leucocytes").
+trace(549,11,"Leucocytes").
+trace(549,12,"Release A").
+trace(549,13,"Return ER").
+trace(550,0,"ER Registration").
+trace(550,1,"ER Triage").
+trace(550,2,"ER Sepsis Triage").
+trace(550,3,"CRP").
+trace(550,4,"LacticAcid").
+trace(550,5,"Leucocytes").
+trace(550,6,"Admission NC").
+trace(550,7,"Leucocytes").
+trace(550,8,"CRP").
+trace(550,9,"Leucocytes").
+trace(550,10,"CRP").
+trace(550,11,"Release A").
+trace(551,0,"ER Registration").
+trace(551,1,"ER Triage").
+trace(551,2,"ER Sepsis Triage").
+trace(551,3,"Leucocytes").
+trace(551,4,"CRP").
+trace(551,5,"IV Liquid").
+trace(551,6,"IV Antibiotics").
+trace(551,7,"Admission NC").
+trace(551,8,"Leucocytes").
+trace(551,9,"Leucocytes").
+trace(551,10,"Leucocytes").
+trace(551,11,"Leucocytes").
+trace(551,12,"Leucocytes").
+trace(551,13,"Release A").
+trace(551,14,"Return ER").
+trace(552,0,"ER Registration").
+trace(552,1,"ER Triage").
+trace(552,2,"ER Sepsis Triage").
+trace(553,0,"ER Registration").
+trace(553,1,"ER Triage").
+trace(553,2,"ER Sepsis Triage").
+trace(553,3,"IV Antibiotics").
+trace(553,4,"IV Liquid").
+trace(553,5,"LacticAcid").
+trace(553,6,"CRP").
+trace(553,7,"Leucocytes").
+trace(553,8,"Admission NC").
+trace(553,9,"Admission NC").
+trace(553,10,"Leucocytes").
+trace(553,11,"CRP").
+trace(553,12,"Leucocytes").
+trace(553,13,"CRP").
+trace(553,14,"Release A").
+trace(554,0,"ER Registration").
+trace(554,1,"Leucocytes").
+trace(554,2,"LacticAcid").
+trace(554,3,"CRP").
+trace(554,4,"ER Triage").
+trace(554,5,"ER Sepsis Triage").
+trace(554,6,"IV Liquid").
+trace(554,7,"IV Antibiotics").
+trace(554,8,"Admission NC").
+trace(554,9,"Admission NC").
+trace(554,10,"CRP").
+trace(554,11,"CRP").
+trace(554,12,"Leucocytes").
+trace(554,13,"CRP").
+trace(554,14,"Leucocytes").
+trace(554,15,"Release A").
+trace(555,0,"ER Registration").
+trace(555,1,"ER Triage").
+trace(555,2,"ER Sepsis Triage").
+trace(555,3,"CRP").
+trace(555,4,"LacticAcid").
+trace(555,5,"Leucocytes").
+trace(555,6,"IV Liquid").
+trace(555,7,"IV Antibiotics").
+trace(556,0,"ER Registration").
+trace(556,1,"ER Triage").
+trace(556,2,"ER Sepsis Triage").
+trace(556,3,"Leucocytes").
+trace(556,4,"CRP").
+trace(556,5,"LacticAcid").
+trace(556,6,"IV Antibiotics").
+trace(556,7,"Admission NC").
+trace(556,8,"Leucocytes").
+trace(556,9,"CRP").
+trace(556,10,"IV Liquid").
+trace(556,11,"Release A").
+trace(556,12,"Return ER").
+trace(557,0,"ER Registration").
+trace(557,1,"ER Triage").
+trace(557,2,"ER Sepsis Triage").
+trace(557,3,"IV Liquid").
+trace(557,4,"IV Antibiotics").
+trace(557,5,"CRP").
+trace(557,6,"LacticAcid").
+trace(557,7,"Leucocytes").
+trace(557,8,"Admission NC").
+trace(557,9,"Leucocytes").
+trace(557,10,"CRP").
+trace(557,11,"CRP").
+trace(557,12,"Leucocytes").
+trace(557,13,"Release A").
+trace(558,0,"ER Registration").
+trace(558,1,"ER Triage").
+trace(558,2,"ER Sepsis Triage").
+trace(558,3,"IV Liquid").
+trace(558,4,"LacticAcid").
+trace(558,5,"CRP").
+trace(558,6,"Leucocytes").
+trace(558,7,"IV Antibiotics").
+trace(558,8,"Admission NC").
+trace(558,9,"CRP").
+trace(558,10,"Leucocytes").
+trace(558,11,"Admission NC").
+trace(558,12,"CRP").
+trace(558,13,"Leucocytes").
+trace(558,14,"CRP").
+trace(558,15,"Leucocytes").
+trace(558,16,"CRP").
+trace(558,17,"Leucocytes").
+trace(558,18,"CRP").
+trace(558,19,"Release A").
+trace(559,0,"ER Registration").
+trace(559,1,"Leucocytes").
+trace(559,2,"LacticAcid").
+trace(559,3,"CRP").
+trace(559,4,"ER Triage").
+trace(559,5,"ER Sepsis Triage").
+trace(559,6,"IV Liquid").
+trace(559,7,"IV Antibiotics").
+trace(559,8,"Admission NC").
+trace(559,9,"Admission NC").
+trace(559,10,"CRP").
+trace(559,11,"Leucocytes").
+trace(559,12,"Release A").
+trace(559,13,"Return ER").
+trace(560,0,"ER Registration").
+trace(560,1,"ER Triage").
+trace(560,2,"Leucocytes").
+trace(560,3,"CRP").
+trace(560,4,"LacticAcid").
+trace(560,5,"ER Sepsis Triage").
+trace(560,6,"IV Liquid").
+trace(560,7,"IV Antibiotics").
+trace(560,8,"Admission NC").
+trace(560,9,"Admission NC").
+trace(560,10,"Leucocytes").
+trace(560,11,"CRP").
+trace(560,12,"Leucocytes").
+trace(560,13,"Leucocytes").
+trace(560,14,"CRP").
+trace(560,15,"Leucocytes").
+trace(560,16,"CRP").
+trace(560,17,"Leucocytes").
+trace(560,18,"CRP").
+trace(560,19,"CRP").
+trace(560,20,"Leucocytes").
+trace(560,21,"CRP").
+trace(560,22,"Leucocytes").
+trace(560,23,"CRP").
+trace(560,24,"CRP").
+trace(560,25,"Leucocytes").
+trace(560,26,"CRP").
+trace(560,27,"CRP").
+trace(560,28,"CRP").
+trace(560,29,"Leucocytes").
+trace(560,30,"CRP").
+trace(560,31,"CRP").
+trace(560,32,"Leucocytes").
+trace(560,33,"Leucocytes").
+trace(560,34,"Leucocytes").
+trace(560,35,"Leucocytes").
+trace(560,36,"CRP").
+trace(560,37,"Release B").
+trace(561,0,"ER Registration").
+trace(561,1,"ER Triage").
+trace(561,2,"ER Sepsis Triage").
+trace(561,3,"IV Liquid").
+trace(561,4,"LacticAcid").
+trace(561,5,"CRP").
+trace(561,6,"Leucocytes").
+trace(561,7,"IV Antibiotics").
+trace(561,8,"Admission NC").
+trace(561,9,"Admission NC").
+trace(561,10,"Leucocytes").
+trace(561,11,"CRP").
+trace(561,12,"LacticAcid").
+trace(561,13,"Leucocytes").
+trace(561,14,"CRP").
+trace(561,15,"CRP").
+trace(561,16,"Leucocytes").
+trace(561,17,"Release A").
+trace(561,18,"Return ER").
+trace(562,0,"Leucocytes").
+trace(562,1,"CRP").
+trace(562,2,"ER Registration").
+trace(562,3,"ER Triage").
+trace(562,4,"ER Sepsis Triage").
+trace(562,5,"IV Antibiotics").
+trace(562,6,"Admission NC").
+trace(562,7,"CRP").
+trace(562,8,"Leucocytes").
+trace(562,9,"Admission NC").
+trace(562,10,"CRP").
+trace(562,11,"Leucocytes").
+trace(562,12,"Admission NC").
+trace(562,13,"Admission IC").
+trace(562,14,"Leucocytes").
+trace(562,15,"LacticAcid").
+trace(562,16,"CRP").
+trace(562,17,"CRP").
+trace(562,18,"LacticAcid").
+trace(562,19,"Leucocytes").
+trace(562,20,"Leucocytes").
+trace(562,21,"Leucocytes").
+trace(562,22,"LacticAcid").
+trace(562,23,"CRP").
+trace(562,24,"Admission NC").
+trace(562,25,"Leucocytes").
+trace(562,26,"CRP").
+trace(562,27,"Leucocytes").
+trace(562,28,"CRP").
+trace(562,29,"Leucocytes").
+trace(562,30,"CRP").
+trace(562,31,"CRP").
+trace(562,32,"Leucocytes").
+trace(562,33,"Release A").
+trace(563,0,"ER Registration").
+trace(563,1,"ER Triage").
+trace(563,2,"ER Sepsis Triage").
+trace(563,3,"IV Liquid").
+trace(563,4,"Leucocytes").
+trace(563,5,"LacticAcid").
+trace(563,6,"CRP").
+trace(563,7,"IV Antibiotics").
+trace(563,8,"Admission NC").
+trace(564,0,"ER Registration").
+trace(564,1,"ER Triage").
+trace(564,2,"Leucocytes").
+trace(564,3,"LacticAcid").
+trace(564,4,"CRP").
+trace(564,5,"ER Sepsis Triage").
+trace(564,6,"Admission NC").
+trace(564,7,"Admission NC").
+trace(564,8,"CRP").
+trace(564,9,"Leucocytes").
+trace(564,10,"Leucocytes").
+trace(564,11,"CRP").
+trace(564,12,"CRP").
+trace(564,13,"Leucocytes").
+trace(564,14,"CRP").
+trace(564,15,"CRP").
+trace(564,16,"Leucocytes").
+trace(564,17,"CRP").
+trace(564,18,"CRP").
+trace(564,19,"Release D").
+trace(565,0,"ER Registration").
+trace(565,1,"ER Triage").
+trace(565,2,"ER Sepsis Triage").
+trace(565,3,"Leucocytes").
+trace(565,4,"Admission NC").
+trace(565,5,"Release A").
+trace(566,0,"ER Registration").
+trace(566,1,"ER Triage").
+trace(566,2,"ER Sepsis Triage").
+trace(566,3,"LacticAcid").
+trace(566,4,"Leucocytes").
+trace(566,5,"CRP").
+trace(566,6,"IV Liquid").
+trace(566,7,"IV Antibiotics").
+trace(566,8,"Admission NC").
+trace(566,9,"Leucocytes").
+trace(566,10,"CRP").
+trace(566,11,"CRP").
+trace(566,12,"Leucocytes").
+trace(566,13,"Release A").
+trace(567,0,"ER Registration").
+trace(567,1,"ER Triage").
+trace(567,2,"ER Sepsis Triage").
+trace(567,3,"LacticAcid").
+trace(567,4,"Leucocytes").
+trace(567,5,"CRP").
+trace(567,6,"IV Liquid").
+trace(567,7,"IV Antibiotics").
+trace(567,8,"Admission NC").
+trace(567,9,"LacticAcid").
+trace(567,10,"Admission NC").
+trace(567,11,"LacticAcid").
+trace(567,12,"Leucocytes").
+trace(567,13,"CRP").
+trace(567,14,"LacticAcid").
+trace(567,15,"CRP").
+trace(567,16,"Release A").
+trace(568,0,"ER Registration").
+trace(568,1,"ER Triage").
+trace(568,2,"ER Sepsis Triage").
+trace(568,3,"LacticAcid").
+trace(568,4,"Leucocytes").
+trace(568,5,"CRP").
+trace(568,6,"IV Antibiotics").
+trace(568,7,"IV Liquid").
+trace(569,0,"ER Registration").
+trace(569,1,"ER Triage").
+trace(569,2,"ER Sepsis Triage").
+trace(570,0,"ER Registration").
+trace(570,1,"ER Triage").
+trace(570,2,"ER Sepsis Triage").
+trace(570,3,"CRP").
+trace(570,4,"LacticAcid").
+trace(570,5,"Leucocytes").
+trace(570,6,"IV Liquid").
+trace(570,7,"IV Antibiotics").
+trace(570,8,"Admission NC").
+trace(570,9,"Release A").
+trace(571,0,"ER Registration").
+trace(571,1,"LacticAcid").
+trace(571,2,"CRP").
+trace(571,3,"Leucocytes").
+trace(571,4,"ER Triage").
+trace(571,5,"ER Sepsis Triage").
+trace(571,6,"IV Liquid").
+trace(571,7,"IV Antibiotics").
+trace(571,8,"Admission NC").
+trace(571,9,"Release A").
+trace(572,0,"ER Registration").
+trace(572,1,"ER Triage").
+trace(572,2,"ER Sepsis Triage").
+trace(572,3,"CRP").
+trace(572,4,"LacticAcid").
+trace(572,5,"Leucocytes").
+trace(572,6,"IV Liquid").
+trace(572,7,"IV Antibiotics").
+trace(572,8,"Admission NC").
+trace(572,9,"CRP").
+trace(572,10,"Leucocytes").
+trace(572,11,"LacticAcid").
+trace(572,12,"Admission NC").
+trace(572,13,"CRP").
+trace(572,14,"Leucocytes").
+trace(572,15,"Release A").
+trace(573,0,"ER Registration").
+trace(573,1,"ER Triage").
+trace(573,2,"ER Sepsis Triage").
+trace(573,3,"Leucocytes").
+trace(573,4,"LacticAcid").
+trace(573,5,"CRP").
+trace(573,6,"IV Liquid").
+trace(573,7,"IV Antibiotics").
+trace(573,8,"Admission NC").
+trace(573,9,"Leucocytes").
+trace(573,10,"CRP").
+trace(573,11,"Release A").
+trace(574,0,"ER Registration").
+trace(574,1,"ER Triage").
+trace(574,2,"ER Sepsis Triage").
+trace(574,3,"CRP").
+trace(574,4,"LacticAcid").
+trace(574,5,"Leucocytes").
+trace(574,6,"IV Liquid").
+trace(574,7,"IV Antibiotics").
+trace(575,0,"ER Registration").
+trace(575,1,"ER Triage").
+trace(575,2,"ER Sepsis Triage").
+trace(575,3,"LacticAcid").
+trace(575,4,"CRP").
+trace(575,5,"Leucocytes").
+trace(575,6,"IV Antibiotics").
+trace(575,7,"Leucocytes").
+trace(575,8,"CRP").
+trace(575,9,"IV Liquid").
+trace(576,0,"ER Registration").
+trace(576,1,"ER Triage").
+trace(576,2,"ER Sepsis Triage").
+trace(576,3,"IV Liquid").
+trace(576,4,"IV Antibiotics").
+trace(576,5,"LacticAcid").
+trace(576,6,"Leucocytes").
+trace(576,7,"CRP").
+trace(577,0,"ER Registration").
+trace(577,1,"ER Triage").
+trace(577,2,"ER Sepsis Triage").
+trace(577,3,"IV Liquid").
+trace(577,4,"IV Antibiotics").
+trace(577,5,"LacticAcid").
+trace(577,6,"Leucocytes").
+trace(577,7,"CRP").
+trace(577,8,"Admission NC").
+trace(577,9,"Leucocytes").
+trace(577,10,"CRP").
+trace(577,11,"Leucocytes").
+trace(577,12,"CRP").
+trace(577,13,"Release B").
+trace(578,0,"ER Registration").
+trace(578,1,"CRP").
+trace(578,2,"Leucocytes").
+trace(578,3,"LacticAcid").
+trace(578,4,"ER Triage").
+trace(578,5,"ER Sepsis Triage").
+trace(578,6,"IV Liquid").
+trace(578,7,"IV Antibiotics").
+trace(578,8,"Admission NC").
+trace(578,9,"CRP").
+trace(578,10,"Leucocytes").
+trace(578,11,"CRP").
+trace(578,12,"Leucocytes").
+trace(578,13,"Leucocytes").
+trace(578,14,"CRP").
+trace(578,15,"Release A").
+trace(579,0,"ER Registration").
+trace(579,1,"ER Triage").
+trace(579,2,"CRP").
+trace(579,3,"Leucocytes").
+trace(579,4,"ER Sepsis Triage").
+trace(579,5,"IV Liquid").
+trace(579,6,"LacticAcid").
+trace(579,7,"IV Antibiotics").
+trace(580,0,"ER Registration").
+trace(580,1,"ER Triage").
+trace(580,2,"ER Sepsis Triage").
+trace(580,3,"IV Liquid").
+trace(580,4,"IV Antibiotics").
+trace(580,5,"Leucocytes").
+trace(580,6,"LacticAcid").
+trace(580,7,"CRP").
+trace(580,8,"Admission NC").
+trace(580,9,"CRP").
+trace(580,10,"LacticAcid").
+trace(580,11,"Leucocytes").
+trace(580,12,"Leucocytes").
+trace(580,13,"CRP").
+trace(580,14,"Release A").
+trace(581,0,"ER Registration").
+trace(581,1,"ER Triage").
+trace(581,2,"Leucocytes").
+trace(581,3,"CRP").
+trace(581,4,"ER Sepsis Triage").
+trace(581,5,"Admission NC").
+trace(581,6,"Release A").
+trace(581,7,"Return ER").
+trace(582,0,"ER Registration").
+trace(582,1,"ER Triage").
+trace(582,2,"ER Sepsis Triage").
+trace(582,3,"Leucocytes").
+trace(582,4,"CRP").
+trace(582,5,"Admission NC").
+trace(582,6,"Leucocytes").
+trace(582,7,"CRP").
+trace(582,8,"Leucocytes").
+trace(582,9,"CRP").
+trace(582,10,"CRP").
+trace(582,11,"Leucocytes").
+trace(582,12,"CRP").
+trace(582,13,"Leucocytes").
+trace(582,14,"Leucocytes").
+trace(582,15,"CRP").
+trace(582,16,"CRP").
+trace(582,17,"Leucocytes").
+trace(582,18,"Release D").
+trace(583,0,"ER Registration").
+trace(583,1,"ER Triage").
+trace(583,2,"Leucocytes").
+trace(583,3,"CRP").
+trace(583,4,"LacticAcid").
+trace(583,5,"ER Sepsis Triage").
+trace(583,6,"IV Liquid").
+trace(583,7,"IV Antibiotics").
+trace(583,8,"Admission NC").
+trace(583,9,"CRP").
+trace(583,10,"Leucocytes").
+trace(583,11,"Admission NC").
+trace(583,12,"CRP").
+trace(583,13,"Leucocytes").
+trace(583,14,"CRP").
+trace(583,15,"Release A").
+trace(584,0,"ER Registration").
+trace(584,1,"IV Liquid").
+trace(584,2,"ER Triage").
+trace(584,3,"ER Sepsis Triage").
+trace(584,4,"IV Antibiotics").
+trace(584,5,"LacticAcid").
+trace(584,6,"CRP").
+trace(584,7,"Leucocytes").
+trace(584,8,"Admission NC").
+trace(584,9,"CRP").
+trace(584,10,"Release A").
+trace(585,0,"ER Registration").
+trace(585,1,"ER Triage").
+trace(585,2,"Leucocytes").
+trace(585,3,"CRP").
+trace(585,4,"LacticAcid").
+trace(585,5,"ER Sepsis Triage").
+trace(585,6,"IV Antibiotics").
+trace(585,7,"Admission NC").
+trace(585,8,"IV Liquid").
+trace(586,0,"ER Registration").
+trace(586,1,"ER Triage").
+trace(586,2,"ER Sepsis Triage").
+trace(586,3,"Leucocytes").
+trace(586,4,"CRP").
+trace(586,5,"LacticAcid").
+trace(586,6,"IV Liquid").
+trace(586,7,"IV Antibiotics").
+trace(586,8,"Admission NC").
+trace(586,9,"Admission NC").
+trace(586,10,"Leucocytes").
+trace(586,11,"CRP").
+trace(586,12,"Release A").
+trace(586,13,"Return ER").
+trace(587,0,"ER Registration").
+trace(587,1,"ER Triage").
+trace(587,2,"ER Sepsis Triage").
+trace(587,3,"CRP").
+trace(587,4,"Leucocytes").
+trace(587,5,"LacticAcid").
+trace(587,6,"IV Liquid").
+trace(587,7,"IV Antibiotics").
+trace(587,8,"Admission NC").
+trace(588,0,"ER Registration").
+trace(588,1,"ER Triage").
+trace(588,2,"ER Sepsis Triage").
+trace(589,0,"ER Registration").
+trace(589,1,"ER Triage").
+trace(589,2,"ER Sepsis Triage").
+trace(589,3,"Leucocytes").
+trace(589,4,"LacticAcid").
+trace(589,5,"CRP").
+trace(589,6,"IV Liquid").
+trace(589,7,"IV Antibiotics").
+trace(589,8,"Admission NC").
+trace(589,9,"Release B").
+trace(590,0,"ER Registration").
+trace(590,1,"ER Triage").
+trace(590,2,"ER Sepsis Triage").
+trace(590,3,"Leucocytes").
+trace(590,4,"CRP").
+trace(590,5,"LacticAcid").
+trace(590,6,"IV Liquid").
+trace(590,7,"IV Antibiotics").
+trace(590,8,"Admission NC").
+trace(590,9,"CRP").
+trace(590,10,"Leucocytes").
+trace(590,11,"Leucocytes").
+trace(590,12,"CRP").
+trace(590,13,"Leucocytes").
+trace(590,14,"CRP").
+trace(590,15,"Release A").
+trace(590,16,"Return ER").
+trace(591,0,"ER Registration").
+trace(591,1,"ER Triage").
+trace(591,2,"ER Sepsis Triage").
+trace(591,3,"LacticAcid").
+trace(591,4,"Leucocytes").
+trace(591,5,"CRP").
+trace(591,6,"IV Liquid").
+trace(591,7,"IV Antibiotics").
+trace(591,8,"Admission NC").
+trace(591,9,"CRP").
+trace(591,10,"Leucocytes").
+trace(591,11,"Leucocytes").
+trace(591,12,"CRP").
+trace(591,13,"Release A").
+trace(591,14,"Return ER").
+trace(592,0,"ER Registration").
+trace(592,1,"ER Triage").
+trace(592,2,"ER Sepsis Triage").
+trace(592,3,"CRP").
+trace(592,4,"Leucocytes").
+trace(593,0,"ER Registration").
+trace(593,1,"ER Triage").
+trace(593,2,"ER Sepsis Triage").
+trace(593,3,"LacticAcid").
+trace(593,4,"CRP").
+trace(593,5,"Leucocytes").
+trace(593,6,"IV Liquid").
+trace(593,7,"IV Antibiotics").
+trace(593,8,"Admission NC").
+trace(593,9,"CRP").
+trace(593,10,"Leucocytes").
+trace(593,11,"CRP").
+trace(593,12,"Leucocytes").
+trace(593,13,"Release A").
+trace(594,0,"ER Registration").
+trace(594,1,"ER Triage").
+trace(594,2,"Leucocytes").
+trace(594,3,"LacticAcid").
+trace(594,4,"CRP").
+trace(594,5,"ER Sepsis Triage").
+trace(594,6,"IV Liquid").
+trace(594,7,"IV Antibiotics").
+trace(595,0,"ER Registration").
+trace(595,1,"ER Triage").
+trace(595,2,"ER Sepsis Triage").
+trace(595,3,"IV Liquid").
+trace(595,4,"IV Antibiotics").
+trace(595,5,"Leucocytes").
+trace(595,6,"LacticAcid").
+trace(595,7,"CRP").
+trace(595,8,"Admission NC").
+trace(595,9,"Leucocytes").
+trace(595,10,"CRP").
+trace(595,11,"CRP").
+trace(595,12,"Leucocytes").
+trace(595,13,"CRP").
+trace(595,14,"Leucocytes").
+trace(595,15,"CRP").
+trace(595,16,"Leucocytes").
+trace(595,17,"CRP").
+trace(595,18,"Leucocytes").
+trace(595,19,"Release A").
+trace(595,20,"Return ER").
+trace(596,0,"ER Registration").
+trace(596,1,"ER Triage").
+trace(596,2,"ER Sepsis Triage").
+trace(596,3,"LacticAcid").
+trace(596,4,"Leucocytes").
+trace(596,5,"CRP").
+trace(596,6,"IV Liquid").
+trace(596,7,"IV Antibiotics").
+trace(596,8,"Admission NC").
+trace(596,9,"Leucocytes").
+trace(596,10,"CRP").
+trace(596,11,"Release A").
+trace(597,0,"ER Registration").
+trace(597,1,"ER Triage").
+trace(597,2,"ER Sepsis Triage").
+trace(597,3,"CRP").
+trace(597,4,"Leucocytes").
+trace(597,5,"LacticAcid").
+trace(597,6,"IV Antibiotics").
+trace(598,0,"ER Registration").
+trace(598,1,"IV Liquid").
+trace(598,2,"ER Triage").
+trace(598,3,"Leucocytes").
+trace(598,4,"CRP").
+trace(598,5,"LacticAcid").
+trace(598,6,"ER Sepsis Triage").
+trace(598,7,"IV Antibiotics").
+trace(598,8,"Admission NC").
+trace(598,9,"LacticAcid").
+trace(598,10,"Leucocytes").
+trace(598,11,"Admission NC").
+trace(598,12,"Admission NC").
+trace(598,13,"Leucocytes").
+trace(598,14,"CRP").
+trace(598,15,"CRP").
+trace(598,16,"Leucocytes").
+trace(598,17,"Leucocytes").
+trace(598,18,"CRP").
+trace(598,19,"Leucocytes").
+trace(598,20,"Release A").
+trace(599,0,"ER Registration").
+trace(599,1,"CRP").
+trace(599,2,"LacticAcid").
+trace(599,3,"Leucocytes").
+trace(599,4,"ER Triage").
+trace(599,5,"ER Sepsis Triage").
+trace(599,6,"IV Liquid").
+trace(599,7,"IV Antibiotics").
+trace(599,8,"Admission NC").
+trace(599,9,"Admission NC").
+trace(599,10,"Leucocytes").
+trace(599,11,"CRP").
+trace(599,12,"CRP").
+trace(599,13,"Leucocytes").
+trace(599,14,"Release A").
+trace(600,0,"ER Registration").
+trace(600,1,"ER Triage").
+trace(600,2,"LacticAcid").
+trace(600,3,"Leucocytes").
+trace(600,4,"CRP").
+trace(600,5,"ER Sepsis Triage").
+trace(600,6,"IV Liquid").
+trace(600,7,"IV Antibiotics").
+trace(600,8,"Admission NC").
+trace(600,9,"Leucocytes").
+trace(600,10,"CRP").
+trace(600,11,"Admission NC").
+trace(600,12,"Release A").
+trace(601,0,"ER Registration").
+trace(601,1,"ER Triage").
+trace(601,2,"ER Sepsis Triage").
+trace(601,3,"LacticAcid").
+trace(601,4,"Leucocytes").
+trace(601,5,"CRP").
+trace(601,6,"IV Liquid").
+trace(601,7,"IV Antibiotics").
+trace(601,8,"Admission NC").
+trace(601,9,"Leucocytes").
+trace(601,10,"CRP").
+trace(601,11,"Admission NC").
+trace(601,12,"Leucocytes").
+trace(601,13,"CRP").
+trace(601,14,"Leucocytes").
+trace(601,15,"CRP").
+trace(601,16,"Leucocytes").
+trace(601,17,"CRP").
+trace(601,18,"Leucocytes").
+trace(601,19,"CRP").
+trace(601,20,"Leucocytes").
+trace(601,21,"CRP").
+trace(601,22,"Release A").
+trace(602,0,"ER Registration").
+trace(602,1,"ER Triage").
+trace(602,2,"Leucocytes").
+trace(602,3,"LacticAcid").
+trace(602,4,"CRP").
+trace(602,5,"ER Sepsis Triage").
+trace(602,6,"IV Liquid").
+trace(602,7,"IV Antibiotics").
+trace(602,8,"Admission NC").
+trace(602,9,"CRP").
+trace(602,10,"Leucocytes").
+trace(602,11,"Leucocytes").
+trace(602,12,"CRP").
+trace(602,13,"Leucocytes").
+trace(602,14,"CRP").
+trace(602,15,"Admission NC").
+trace(602,16,"CRP").
+trace(602,17,"Leucocytes").
+trace(602,18,"Release A").
+trace(602,19,"Return ER").
+trace(603,0,"ER Sepsis Triage").
+trace(603,1,"IV Liquid").
+trace(603,2,"IV Antibiotics").
+trace(603,3,"ER Registration").
+trace(603,4,"ER Triage").
+trace(603,5,"LacticAcid").
+trace(603,6,"CRP").
+trace(603,7,"Leucocytes").
+trace(603,8,"LacticAcid").
+trace(603,9,"CRP").
+trace(603,10,"Leucocytes").
+trace(604,0,"ER Registration").
+trace(604,1,"ER Triage").
+trace(604,2,"ER Sepsis Triage").
+trace(604,3,"Leucocytes").
+trace(604,4,"CRP").
+trace(604,5,"ER Triage").
+trace(605,0,"Leucocytes").
+trace(605,1,"ER Registration").
+trace(605,2,"ER Triage").
+trace(605,3,"ER Sepsis Triage").
+trace(605,4,"IV Liquid").
+trace(605,5,"CRP").
+trace(605,6,"Leucocytes").
+trace(605,7,"LacticAcid").
+trace(605,8,"IV Antibiotics").
+trace(605,9,"Admission NC").
+trace(605,10,"CRP").
+trace(605,11,"Leucocytes").
+trace(605,12,"Release A").
+trace(606,0,"ER Registration").
+trace(606,1,"ER Triage").
+trace(606,2,"ER Sepsis Triage").
+trace(606,3,"LacticAcid").
+trace(606,4,"Leucocytes").
+trace(606,5,"CRP").
+trace(606,6,"IV Liquid").
+trace(606,7,"IV Antibiotics").
+trace(606,8,"Admission NC").
+trace(606,9,"Admission NC").
+trace(606,10,"Leucocytes").
+trace(606,11,"CRP").
+trace(606,12,"CRP").
+trace(606,13,"Leucocytes").
+trace(606,14,"Release A").
+trace(606,15,"Return ER").
+trace(607,0,"ER Registration").
+trace(607,1,"ER Triage").
+trace(607,2,"ER Sepsis Triage").
+trace(607,3,"LacticAcid").
+trace(607,4,"Leucocytes").
+trace(607,5,"CRP").
+trace(607,6,"IV Liquid").
+trace(607,7,"IV Antibiotics").
+trace(607,8,"Admission NC").
+trace(607,9,"Admission NC").
+trace(607,10,"CRP").
+trace(607,11,"Release A").
+trace(607,12,"Return ER").
+trace(608,0,"Leucocytes").
+trace(608,1,"CRP").
+trace(608,2,"ER Registration").
+trace(608,3,"ER Triage").
+trace(608,4,"ER Sepsis Triage").
+trace(608,5,"IV Liquid").
+trace(608,6,"LacticAcid").
+trace(608,7,"IV Antibiotics").
+trace(608,8,"Admission NC").
+trace(608,9,"Admission NC").
+trace(608,10,"CRP").
+trace(608,11,"Leucocytes").
+trace(608,12,"CRP").
+trace(608,13,"CRP").
+trace(608,14,"Release A").
+trace(609,0,"ER Registration").
+trace(609,1,"ER Triage").
+trace(609,2,"ER Sepsis Triage").
+trace(609,3,"LacticAcid").
+trace(609,4,"CRP").
+trace(609,5,"Leucocytes").
+trace(609,6,"IV Liquid").
+trace(609,7,"IV Antibiotics").
+trace(609,8,"Admission NC").
+trace(609,9,"LacticAcid").
+trace(609,10,"Leucocytes").
+trace(609,11,"CRP").
+trace(609,12,"Leucocytes").
+trace(609,13,"CRP").
+trace(609,14,"CRP").
+trace(609,15,"Leucocytes").
+trace(609,16,"CRP").
+trace(609,17,"Leucocytes").
+trace(609,18,"CRP").
+trace(609,19,"Leucocytes").
+trace(609,20,"CRP").
+trace(609,21,"CRP").
+trace(609,22,"Leucocytes").
+trace(609,23,"Leucocytes").
+trace(609,24,"CRP").
+trace(609,25,"Leucocytes").
+trace(609,26,"CRP").
+trace(609,27,"Admission NC").
+trace(609,28,"Admission NC").
+trace(609,29,"Release B").
+trace(610,0,"ER Registration").
+trace(610,1,"ER Triage").
+trace(610,2,"ER Sepsis Triage").
+trace(610,3,"LacticAcid").
+trace(610,4,"CRP").
+trace(610,5,"Leucocytes").
+trace(610,6,"IV Liquid").
+trace(610,7,"IV Antibiotics").
+trace(610,8,"Admission NC").
+trace(610,9,"Admission NC").
+trace(610,10,"LacticAcid").
+trace(610,11,"CRP").
+trace(610,12,"Leucocytes").
+trace(610,13,"Leucocytes").
+trace(610,14,"CRP").
+trace(610,15,"Leucocytes").
+trace(610,16,"CRP").
+trace(610,17,"Release A").
+trace(611,0,"ER Registration").
+trace(611,1,"ER Triage").
+trace(611,2,"ER Sepsis Triage").
+trace(611,3,"CRP").
+trace(611,4,"Leucocytes").
+trace(611,5,"LacticAcid").
+trace(611,6,"IV Liquid").
+trace(611,7,"IV Antibiotics").
+trace(611,8,"Admission NC").
+trace(611,9,"CRP").
+trace(611,10,"Leucocytes").
+trace(611,11,"CRP").
+trace(611,12,"Leucocytes").
+trace(611,13,"CRP").
+trace(611,14,"Leucocytes").
+trace(611,15,"Release A").
+trace(612,0,"ER Registration").
+trace(612,1,"ER Triage").
+trace(612,2,"ER Sepsis Triage").
+trace(612,3,"CRP").
+trace(612,4,"Leucocytes").
+trace(612,5,"LacticAcid").
+trace(612,6,"IV Liquid").
+trace(612,7,"IV Antibiotics").
+trace(612,8,"Admission NC").
+trace(612,9,"CRP").
+trace(612,10,"CRP").
+trace(612,11,"Release A").
+trace(613,0,"ER Registration").
+trace(613,1,"ER Triage").
+trace(613,2,"ER Sepsis Triage").
+trace(613,3,"LacticAcid").
+trace(613,4,"CRP").
+trace(613,5,"Leucocytes").
+trace(613,6,"IV Antibiotics").
+trace(613,7,"IV Liquid").
+trace(613,8,"Admission NC").
+trace(613,9,"Admission NC").
+trace(613,10,"Leucocytes").
+trace(613,11,"CRP").
+trace(613,12,"Release A").
+trace(613,13,"Return ER").
+trace(614,0,"ER Registration").
+trace(614,1,"ER Triage").
+trace(614,2,"ER Sepsis Triage").
+trace(614,3,"CRP").
+trace(614,4,"LacticAcid").
+trace(614,5,"Leucocytes").
+trace(614,6,"IV Liquid").
+trace(614,7,"IV Antibiotics").
+trace(614,8,"Admission NC").
+trace(614,9,"Leucocytes").
+trace(614,10,"CRP").
+trace(614,11,"Admission NC").
+trace(614,12,"CRP").
+trace(614,13,"Leucocytes").
+trace(614,14,"Release A").
+trace(615,0,"ER Registration").
+trace(615,1,"ER Triage").
+trace(615,2,"ER Sepsis Triage").
+trace(615,3,"IV Liquid").
+trace(615,4,"IV Antibiotics").
+trace(615,5,"Leucocytes").
+trace(615,6,"CRP").
+trace(615,7,"LacticAcid").
+trace(615,8,"Admission NC").
+trace(615,9,"LacticAcid").
+trace(615,10,"Leucocytes").
+trace(615,11,"CRP").
+trace(615,12,"Admission NC").
+trace(615,13,"Admission NC").
+trace(615,14,"Leucocytes").
+trace(615,15,"CRP").
+trace(615,16,"Leucocytes").
+trace(615,17,"CRP").
+trace(615,18,"Release A").
+trace(616,0,"ER Registration").
+trace(616,1,"ER Triage").
+trace(616,2,"ER Sepsis Triage").
+trace(616,3,"CRP").
+trace(616,4,"Leucocytes").
+trace(616,5,"LacticAcid").
+trace(616,6,"IV Liquid").
+trace(616,7,"IV Antibiotics").
+trace(616,8,"Admission NC").
+trace(616,9,"LacticAcid").
+trace(616,10,"CRP").
+trace(616,11,"Leucocytes").
+trace(616,12,"Leucocytes").
+trace(616,13,"CRP").
+trace(616,14,"Leucocytes").
+trace(616,15,"Leucocytes").
+trace(616,16,"Leucocytes").
+trace(616,17,"Leucocytes").
+trace(616,18,"Leucocytes").
+trace(616,19,"Admission NC").
+trace(616,20,"Release A").
+trace(616,21,"Return ER").
+trace(617,0,"Leucocytes").
+trace(617,1,"ER Registration").
+trace(617,2,"ER Triage").
+trace(617,3,"ER Sepsis Triage").
+trace(617,4,"IV Liquid").
+trace(617,5,"Leucocytes").
+trace(617,6,"CRP").
+trace(617,7,"LacticAcid").
+trace(617,8,"IV Antibiotics").
+trace(617,9,"Admission NC").
+trace(617,10,"Leucocytes").
+trace(617,11,"CRP").
+trace(617,12,"Release A").
+trace(617,13,"Return ER").
+trace(618,0,"ER Triage").
+trace(618,1,"ER Registration").
+trace(618,2,"ER Sepsis Triage").
+trace(618,3,"CRP").
+trace(618,4,"Leucocytes").
+trace(618,5,"LacticAcid").
+trace(618,6,"IV Liquid").
+trace(618,7,"IV Antibiotics").
+trace(618,8,"Admission NC").
+trace(618,9,"Leucocytes").
+trace(618,10,"CRP").
+trace(618,11,"Admission NC").
+trace(618,12,"Release A").
+trace(618,13,"Return ER").
+trace(619,0,"ER Registration").
+trace(619,1,"ER Triage").
+trace(619,2,"ER Sepsis Triage").
+trace(619,3,"IV Liquid").
+trace(619,4,"Leucocytes").
+trace(619,5,"CRP").
+trace(619,6,"LacticAcid").
+trace(619,7,"IV Antibiotics").
+trace(619,8,"Admission IC").
+trace(619,9,"CRP").
+trace(619,10,"LacticAcid").
+trace(619,11,"Leucocytes").
+trace(619,12,"Admission IC").
+trace(619,13,"Admission NC").
+trace(619,14,"CRP").
+trace(619,15,"Leucocytes").
+trace(619,16,"Release A").
+trace(619,17,"Return ER").
+trace(620,0,"ER Registration").
+trace(620,1,"ER Triage").
+trace(620,2,"ER Sepsis Triage").
+trace(620,3,"CRP").
+trace(620,4,"LacticAcid").
+trace(620,5,"Leucocytes").
+trace(620,6,"IV Liquid").
+trace(620,7,"IV Antibiotics").
+trace(620,8,"Admission NC").
+trace(620,9,"CRP").
+trace(620,10,"Leucocytes").
+trace(620,11,"Leucocytes").
+trace(620,12,"CRP").
+trace(620,13,"Leucocytes").
+trace(620,14,"CRP").
+trace(620,15,"Release A").
+trace(621,0,"ER Registration").
+trace(621,1,"ER Triage").
+trace(621,2,"ER Sepsis Triage").
+trace(621,3,"Leucocytes").
+trace(621,4,"CRP").
+trace(621,5,"Admission NC").
+trace(621,6,"CRP").
+trace(621,7,"Leucocytes").
+trace(621,8,"CRP").
+trace(621,9,"Release A").
+trace(622,0,"ER Registration").
+trace(622,1,"ER Triage").
+trace(622,2,"ER Sepsis Triage").
+trace(622,3,"IV Liquid").
+trace(622,4,"Leucocytes").
+trace(622,5,"LacticAcid").
+trace(622,6,"CRP").
+trace(622,7,"IV Antibiotics").
+trace(622,8,"Admission NC").
+trace(622,9,"Admission NC").
+trace(622,10,"CRP").
+trace(622,11,"Leucocytes").
+trace(622,12,"Release A").
+trace(623,0,"ER Registration").
+trace(623,1,"ER Triage").
+trace(623,2,"ER Sepsis Triage").
+trace(623,3,"Leucocytes").
+trace(623,4,"CRP").
+trace(623,5,"LacticAcid").
+trace(624,0,"ER Registration").
+trace(624,1,"ER Triage").
+trace(624,2,"CRP").
+trace(624,3,"Leucocytes").
+trace(624,4,"LacticAcid").
+trace(624,5,"ER Sepsis Triage").
+trace(624,6,"IV Liquid").
+trace(624,7,"IV Antibiotics").
+trace(624,8,"Admission NC").
+trace(624,9,"CRP").
+trace(624,10,"Leucocytes").
+trace(624,11,"Leucocytes").
+trace(624,12,"CRP").
+trace(624,13,"CRP").
+trace(624,14,"Leucocytes").
+trace(624,15,"Release A").
+trace(624,16,"Return ER").
+trace(625,0,"ER Registration").
+trace(625,1,"ER Triage").
+trace(625,2,"ER Sepsis Triage").
+trace(625,3,"LacticAcid").
+trace(625,4,"CRP").
+trace(625,5,"Leucocytes").
+trace(625,6,"IV Antibiotics").
+trace(625,7,"Admission NC").
+trace(625,8,"CRP").
+trace(625,9,"Leucocytes").
+trace(625,10,"Admission NC").
+trace(625,11,"Leucocytes").
+trace(625,12,"CRP").
+trace(625,13,"Release A").
+trace(626,0,"Leucocytes").
+trace(626,1,"CRP").
+trace(626,2,"ER Registration").
+trace(626,3,"ER Triage").
+trace(626,4,"Leucocytes").
+trace(626,5,"CRP").
+trace(626,6,"LacticAcid").
+trace(626,7,"ER Sepsis Triage").
+trace(626,8,"IV Liquid").
+trace(626,9,"IV Antibiotics").
+trace(626,10,"Admission NC").
+trace(626,11,"CRP").
+trace(626,12,"Release A").
+trace(627,0,"ER Registration").
+trace(627,1,"ER Triage").
+trace(627,2,"ER Sepsis Triage").
+trace(627,3,"Leucocytes").
+trace(627,4,"LacticAcid").
+trace(627,5,"CRP").
+trace(627,6,"IV Antibiotics").
+trace(627,7,"IV Liquid").
+trace(627,8,"Admission NC").
+trace(627,9,"Admission NC").
+trace(627,10,"Leucocytes").
+trace(627,11,"CRP").
+trace(627,12,"CRP").
+trace(627,13,"Leucocytes").
+trace(627,14,"CRP").
+trace(627,15,"Admission NC").
+trace(627,16,"Admission NC").
+trace(627,17,"CRP").
+trace(627,18,"Admission NC").
+trace(627,19,"Leucocytes").
+trace(627,20,"CRP").
+trace(627,21,"CRP").
+trace(627,22,"Leucocytes").
+trace(627,23,"Release A").
+trace(628,0,"ER Registration").
+trace(628,1,"ER Triage").
+trace(628,2,"ER Sepsis Triage").
+trace(628,3,"LacticAcid").
+trace(628,4,"CRP").
+trace(628,5,"Leucocytes").
+trace(628,6,"IV Antibiotics").
+trace(628,7,"Admission NC").
+trace(628,8,"CRP").
+trace(628,9,"Leucocytes").
+trace(628,10,"Admission NC").
+trace(628,11,"CRP").
+trace(628,12,"Leucocytes").
+trace(628,13,"Leucocytes").
+trace(628,14,"CRP").
+trace(628,15,"Release A").
+trace(628,16,"Return ER").
+trace(629,0,"ER Sepsis Triage").
+trace(629,1,"ER Registration").
+trace(629,2,"ER Triage").
+trace(629,3,"CRP").
+trace(629,4,"Leucocytes").
+trace(629,5,"LacticAcid").
+trace(629,6,"IV Antibiotics").
+trace(629,7,"IV Liquid").
+trace(629,8,"Admission NC").
+trace(629,9,"Leucocytes").
+trace(629,10,"CRP").
+trace(629,11,"Admission NC").
+trace(629,12,"Leucocytes").
+trace(629,13,"CRP").
+trace(629,14,"Release B").
+trace(630,0,"ER Registration").
+trace(630,1,"ER Triage").
+trace(630,2,"ER Sepsis Triage").
+trace(630,3,"IV Liquid").
+trace(630,4,"LacticAcid").
+trace(630,5,"Leucocytes").
+trace(630,6,"CRP").
+trace(630,7,"IV Antibiotics").
+trace(630,8,"Admission NC").
+trace(630,9,"Release A").
+trace(631,0,"ER Registration").
+trace(631,1,"ER Triage").
+trace(631,2,"ER Sepsis Triage").
+trace(631,3,"Leucocytes").
+trace(631,4,"LacticAcid").
+trace(631,5,"CRP").
+trace(631,6,"IV Liquid").
+trace(631,7,"IV Antibiotics").
+trace(632,0,"ER Registration").
+trace(632,1,"IV Liquid").
+trace(632,2,"ER Triage").
+trace(632,3,"ER Sepsis Triage").
+trace(632,4,"LacticAcid").
+trace(632,5,"Leucocytes").
+trace(632,6,"CRP").
+trace(632,7,"IV Antibiotics").
+trace(632,8,"Admission IC").
+trace(632,9,"LacticAcid").
+trace(632,10,"Leucocytes").
+trace(632,11,"LacticAcid").
+trace(632,12,"CRP").
+trace(632,13,"Admission NC").
+trace(632,14,"CRP").
+trace(632,15,"Leucocytes").
+trace(632,16,"Release A").
+trace(633,0,"ER Triage").
+trace(633,1,"Leucocytes").
+trace(633,2,"CRP").
+trace(633,3,"LacticAcid").
+trace(633,4,"Leucocytes").
+trace(633,5,"ER Registration").
+trace(633,6,"Admission IC").
+trace(633,7,"LacticAcid").
+trace(633,8,"Leucocytes").
+trace(633,9,"CRP").
+trace(633,10,"CRP").
+trace(633,11,"LacticAcid").
+trace(633,12,"Leucocytes").
+trace(633,13,"CRP").
+trace(633,14,"Leucocytes").
+trace(633,15,"LacticAcid").
+trace(633,16,"Leucocytes").
+trace(633,17,"LacticAcid").
+trace(633,18,"CRP").
+trace(633,19,"Leucocytes").
+trace(633,20,"CRP").
+trace(633,21,"LacticAcid").
+trace(633,22,"LacticAcid").
+trace(633,23,"CRP").
+trace(633,24,"Leucocytes").
+trace(633,25,"Admission NC").
+trace(633,26,"Leucocytes").
+trace(633,27,"CRP").
+trace(633,28,"Release A").
+trace(633,29,"Return ER").
+trace(634,0,"Leucocytes").
+trace(634,1,"ER Registration").
+trace(634,2,"ER Triage").
+trace(634,3,"ER Sepsis Triage").
+trace(634,4,"CRP").
+trace(634,5,"LacticAcid").
+trace(634,6,"Leucocytes").
+trace(634,7,"IV Liquid").
+trace(634,8,"IV Antibiotics").
+trace(634,9,"Admission NC").
+trace(634,10,"CRP").
+trace(634,11,"Leucocytes").
+trace(634,12,"Release A").
+trace(635,0,"ER Registration").
+trace(635,1,"ER Triage").
+trace(635,2,"ER Sepsis Triage").
+trace(635,3,"Leucocytes").
+trace(635,4,"CRP").
+trace(635,5,"LacticAcid").
+trace(635,6,"IV Liquid").
+trace(635,7,"IV Antibiotics").
+trace(635,8,"Admission NC").
+trace(635,9,"Leucocytes").
+trace(635,10,"CRP").
+trace(635,11,"Release A").
+trace(636,0,"ER Registration").
+trace(636,1,"ER Triage").
+trace(636,2,"ER Sepsis Triage").
+trace(636,3,"LacticAcid").
+trace(636,4,"CRP").
+trace(636,5,"Leucocytes").
+trace(636,6,"IV Antibiotics").
+trace(636,7,"Admission NC").
+trace(636,8,"CRP").
+trace(636,9,"CRP").
+trace(636,10,"Leucocytes").
+trace(636,11,"Release A").
+trace(637,0,"ER Registration").
+trace(637,1,"ER Triage").
+trace(637,2,"ER Sepsis Triage").
+trace(637,3,"CRP").
+trace(637,4,"LacticAcid").
+trace(637,5,"Leucocytes").
+trace(637,6,"IV Antibiotics").
+trace(637,7,"IV Liquid").
+trace(637,8,"Admission NC").
+trace(637,9,"CRP").
+trace(637,10,"Leucocytes").
+trace(637,11,"CRP").
+trace(637,12,"Release A").
+trace(637,13,"Return ER").
+trace(638,0,"ER Registration").
+trace(638,1,"ER Triage").
+trace(638,2,"ER Sepsis Triage").
+trace(638,3,"Leucocytes").
+trace(638,4,"CRP").
+trace(639,0,"ER Registration").
+trace(639,1,"ER Triage").
+trace(639,2,"ER Sepsis Triage").
+trace(639,3,"IV Liquid").
+trace(639,4,"CRP").
+trace(639,5,"Leucocytes").
+trace(639,6,"LacticAcid").
+trace(639,7,"IV Antibiotics").
+trace(639,8,"Admission NC").
+trace(639,9,"CRP").
+trace(639,10,"Leucocytes").
+trace(639,11,"Leucocytes").
+trace(639,12,"CRP").
+trace(639,13,"Admission NC").
+trace(639,14,"Admission NC").
+trace(639,15,"Admission NC").
+trace(639,16,"CRP").
+trace(639,17,"Leucocytes").
+trace(639,18,"Admission NC").
+trace(639,19,"Leucocytes").
+trace(639,20,"Leucocytes").
+trace(639,21,"CRP").
+trace(639,22,"CRP").
+trace(639,23,"Leucocytes").
+trace(639,24,"Leucocytes").
+trace(639,25,"CRP").
+trace(639,26,"Leucocytes").
+trace(639,27,"CRP").
+trace(639,28,"Release B").
+trace(640,0,"ER Registration").
+trace(640,1,"ER Triage").
+trace(640,2,"ER Sepsis Triage").
+trace(640,3,"CRP").
+trace(640,4,"Leucocytes").
+trace(641,0,"ER Registration").
+trace(641,1,"ER Triage").
+trace(641,2,"ER Sepsis Triage").
+trace(641,3,"Leucocytes").
+trace(641,4,"LacticAcid").
+trace(641,5,"CRP").
+trace(641,6,"IV Liquid").
+trace(641,7,"IV Antibiotics").
+trace(641,8,"Admission NC").
+trace(641,9,"Leucocytes").
+trace(641,10,"CRP").
+trace(641,11,"LacticAcid").
+trace(641,12,"CRP").
+trace(641,13,"Leucocytes").
+trace(641,14,"Admission NC").
+trace(641,15,"CRP").
+trace(641,16,"Leucocytes").
+trace(641,17,"Leucocytes").
+trace(641,18,"CRP").
+trace(641,19,"Release A").
+trace(642,0,"ER Registration").
+trace(642,1,"ER Triage").
+trace(642,2,"ER Sepsis Triage").
+trace(642,3,"IV Liquid").
+trace(642,4,"IV Antibiotics").
+trace(642,5,"Leucocytes").
+trace(642,6,"CRP").
+trace(642,7,"LacticAcid").
+trace(642,8,"Admission NC").
+trace(642,9,"CRP").
+trace(642,10,"Leucocytes").
+trace(642,11,"Leucocytes").
+trace(642,12,"CRP").
+trace(642,13,"Release A").
+trace(642,14,"Return ER").
+trace(643,0,"ER Registration").
+trace(643,1,"ER Triage").
+trace(643,2,"ER Sepsis Triage").
+trace(643,3,"CRP").
+trace(643,4,"LacticAcid").
+trace(643,5,"Leucocytes").
+trace(643,6,"IV Liquid").
+trace(643,7,"IV Antibiotics").
+trace(644,0,"ER Registration").
+trace(644,1,"ER Triage").
+trace(644,2,"ER Sepsis Triage").
+trace(644,3,"CRP").
+trace(644,4,"Leucocytes").
+trace(645,0,"ER Registration").
+trace(645,1,"ER Triage").
+trace(645,2,"ER Sepsis Triage").
+trace(645,3,"Leucocytes").
+trace(645,4,"LacticAcid").
+trace(645,5,"CRP").
+trace(645,6,"IV Antibiotics").
+trace(645,7,"IV Liquid").
+trace(646,0,"CRP").
+trace(646,1,"Leucocytes").
+trace(646,2,"ER Registration").
+trace(646,3,"ER Triage").
+trace(646,4,"ER Sepsis Triage").
+trace(646,5,"LacticAcid").
+trace(646,6,"CRP").
+trace(646,7,"Leucocytes").
+trace(646,8,"IV Liquid").
+trace(646,9,"IV Antibiotics").
+trace(646,10,"Admission NC").
+trace(646,11,"Release B").
+trace(647,0,"ER Registration").
+trace(647,1,"ER Triage").
+trace(647,2,"ER Sepsis Triage").
+trace(647,3,"IV Liquid").
+trace(647,4,"IV Antibiotics").
+trace(647,5,"CRP").
+trace(647,6,"Leucocytes").
+trace(647,7,"LacticAcid").
+trace(647,8,"Admission NC").
+trace(647,9,"Admission IC").
+trace(647,10,"LacticAcid").
+trace(647,11,"Leucocytes").
+trace(647,12,"CRP").
+trace(647,13,"LacticAcid").
+trace(647,14,"Leucocytes").
+trace(647,15,"CRP").
+trace(647,16,"LacticAcid").
+trace(647,17,"LacticAcid").
+trace(647,18,"Leucocytes").
+trace(647,19,"CRP").
+trace(647,20,"LacticAcid").
+trace(647,21,"Leucocytes").
+trace(647,22,"CRP").
+trace(647,23,"LacticAcid").
+trace(647,24,"Leucocytes").
+trace(647,25,"CRP").
+trace(647,26,"LacticAcid").
+trace(647,27,"Leucocytes").
+trace(647,28,"CRP").
+trace(647,29,"Leucocytes").
+trace(647,30,"CRP").
+trace(647,31,"LacticAcid").
+trace(647,32,"LacticAcid").
+trace(647,33,"Leucocytes").
+trace(647,34,"CRP").
+trace(647,35,"Leucocytes").
+trace(647,36,"CRP").
+trace(647,37,"LacticAcid").
+trace(647,38,"Leucocytes").
+trace(647,39,"CRP").
+trace(647,40,"LacticAcid").
+trace(647,41,"LacticAcid").
+trace(647,42,"Leucocytes").
+trace(647,43,"CRP").
+trace(647,44,"CRP").
+trace(647,45,"LacticAcid").
+trace(647,46,"Leucocytes").
+trace(647,47,"Leucocytes").
+trace(647,48,"CRP").
+trace(647,49,"LacticAcid").
+trace(647,50,"CRP").
+trace(647,51,"Leucocytes").
+trace(647,52,"LacticAcid").
+trace(647,53,"CRP").
+trace(647,54,"LacticAcid").
+trace(647,55,"Leucocytes").
+trace(647,56,"Leucocytes").
+trace(647,57,"CRP").
+trace(647,58,"LacticAcid").
+trace(647,59,"Leucocytes").
+trace(647,60,"CRP").
+trace(647,61,"LacticAcid").
+trace(647,62,"LacticAcid").
+trace(647,63,"Leucocytes").
+trace(647,64,"CRP").
+trace(647,65,"CRP").
+trace(647,66,"LacticAcid").
+trace(647,67,"Leucocytes").
+trace(647,68,"Leucocytes").
+trace(647,69,"CRP").
+trace(647,70,"LacticAcid").
+trace(647,71,"Leucocytes").
+trace(647,72,"CRP").
+trace(647,73,"LacticAcid").
+trace(647,74,"CRP").
+trace(647,75,"LacticAcid").
+trace(647,76,"Leucocytes").
+trace(647,77,"Leucocytes").
+trace(647,78,"LacticAcid").
+trace(647,79,"CRP").
+trace(647,80,"LacticAcid").
+trace(647,81,"Admission NC").
+trace(647,82,"Admission NC").
+trace(647,83,"Release A").
+trace(648,0,"ER Registration").
+trace(648,1,"ER Triage").
+trace(648,2,"ER Sepsis Triage").
+trace(648,3,"LacticAcid").
+trace(648,4,"Leucocytes").
+trace(648,5,"CRP").
+trace(648,6,"IV Liquid").
+trace(648,7,"IV Antibiotics").
+trace(648,8,"Admission NC").
+trace(648,9,"Release A").
+trace(649,0,"ER Registration").
+trace(649,1,"ER Triage").
+trace(649,2,"CRP").
+trace(649,3,"Leucocytes").
+trace(649,4,"LacticAcid").
+trace(649,5,"ER Sepsis Triage").
+trace(649,6,"Admission NC").
+trace(649,7,"Leucocytes").
+trace(649,8,"CRP").
+trace(649,9,"Leucocytes").
+trace(649,10,"CRP").
+trace(649,11,"CRP").
+trace(649,12,"Leucocytes").
+trace(649,13,"CRP").
+trace(649,14,"Leucocytes").
+trace(649,15,"Leucocytes").
+trace(649,16,"CRP").
+trace(649,17,"CRP").
+trace(649,18,"Leucocytes").
+trace(649,19,"Leucocytes").
+trace(649,20,"CRP").
+trace(649,21,"Release B").
+trace(650,0,"ER Registration").
+trace(650,1,"ER Triage").
+trace(650,2,"ER Sepsis Triage").
+trace(650,3,"Leucocytes").
+trace(650,4,"CRP").
+trace(650,5,"LacticAcid").
+trace(651,0,"ER Registration").
+trace(651,1,"ER Triage").
+trace(651,2,"ER Sepsis Triage").
+trace(651,3,"Leucocytes").
+trace(651,4,"CRP").
+trace(651,5,"LacticAcid").
+trace(651,6,"IV Liquid").
+trace(651,7,"IV Antibiotics").
+trace(651,8,"Admission NC").
+trace(651,9,"Admission NC").
+trace(651,10,"CRP").
+trace(651,11,"Leucocytes").
+trace(651,12,"Admission IC").
+trace(651,13,"CRP").
+trace(651,14,"LacticAcid").
+trace(651,15,"Leucocytes").
+trace(651,16,"Leucocytes").
+trace(651,17,"LacticAcid").
+trace(651,18,"CRP").
+trace(651,19,"Admission NC").
+trace(651,20,"CRP").
+trace(651,21,"Leucocytes").
+trace(651,22,"Admission NC").
+trace(651,23,"CRP").
+trace(651,24,"Leucocytes").
+trace(651,25,"Leucocytes").
+trace(651,26,"CRP").
+trace(651,27,"CRP").
+trace(651,28,"Leucocytes").
+trace(651,29,"CRP").
+trace(651,30,"Leucocytes").
+trace(651,31,"CRP").
+trace(651,32,"Release E").
+trace(652,0,"ER Registration").
+trace(652,1,"ER Triage").
+trace(652,2,"ER Sepsis Triage").
+trace(652,3,"Leucocytes").
+trace(652,4,"LacticAcid").
+trace(652,5,"CRP").
+trace(652,6,"IV Liquid").
+trace(652,7,"IV Antibiotics").
+trace(652,8,"Admission NC").
+trace(652,9,"Leucocytes").
+trace(652,10,"Admission NC").
+trace(652,11,"CRP").
+trace(652,12,"Leucocytes").
+trace(652,13,"Release A").
+trace(653,0,"ER Registration").
+trace(653,1,"ER Triage").
+trace(653,2,"ER Sepsis Triage").
+trace(653,3,"Leucocytes").
+trace(653,4,"CRP").
+trace(653,5,"IV Antibiotics").
+trace(653,6,"IV Liquid").
+trace(653,7,"Admission NC").
+trace(653,8,"Leucocytes").
+trace(653,9,"Leucocytes").
+trace(653,10,"Leucocytes").
+trace(653,11,"Release B").
+trace(654,0,"ER Registration").
+trace(654,1,"ER Triage").
+trace(654,2,"LacticAcid").
+trace(654,3,"Leucocytes").
+trace(654,4,"CRP").
+trace(654,5,"ER Sepsis Triage").
+trace(654,6,"IV Liquid").
+trace(654,7,"IV Antibiotics").
+trace(654,8,"Admission NC").
+trace(654,9,"Admission NC").
+trace(654,10,"CRP").
+trace(654,11,"Leucocytes").
+trace(654,12,"Leucocytes").
+trace(654,13,"CRP").
+trace(654,14,"CRP").
+trace(654,15,"Release A").
+trace(654,16,"Return ER").
+trace(655,0,"ER Registration").
+trace(655,1,"ER Triage").
+trace(655,2,"LacticAcid").
+trace(655,3,"CRP").
+trace(655,4,"Leucocytes").
+trace(655,5,"ER Sepsis Triage").
+trace(655,6,"IV Liquid").
+trace(655,7,"IV Antibiotics").
+trace(655,8,"Admission NC").
+trace(655,9,"Admission NC").
+trace(655,10,"Leucocytes").
+trace(655,11,"CRP").
+trace(655,12,"Release A").
+trace(656,0,"ER Registration").
+trace(656,1,"ER Triage").
+trace(656,2,"ER Sepsis Triage").
+trace(656,3,"CRP").
+trace(656,4,"Leucocytes").
+trace(656,5,"LacticAcid").
+trace(656,6,"IV Antibiotics").
+trace(656,7,"Admission NC").
+trace(656,8,"IV Liquid").
+trace(656,9,"CRP").
+trace(656,10,"Leucocytes").
+trace(656,11,"CRP").
+trace(656,12,"Leucocytes").
+trace(656,13,"Release A").
+trace(656,14,"Return ER").
+trace(657,0,"ER Registration").
+trace(657,1,"ER Triage").
+trace(657,2,"IV Liquid").
+trace(657,3,"ER Sepsis Triage").
+trace(657,4,"LacticAcid").
+trace(657,5,"CRP").
+trace(657,6,"Leucocytes").
+trace(657,7,"IV Antibiotics").
+trace(657,8,"Admission NC").
+trace(657,9,"Admission NC").
+trace(657,10,"Leucocytes").
+trace(657,11,"CRP").
+trace(657,12,"Leucocytes").
+trace(657,13,"CRP").
+trace(657,14,"Leucocytes").
+trace(657,15,"CRP").
+trace(657,16,"Release A").
+trace(657,17,"Return ER").
+trace(658,0,"ER Registration").
+trace(658,1,"ER Triage").
+trace(658,2,"CRP").
+trace(658,3,"LacticAcid").
+trace(658,4,"Leucocytes").
+trace(658,5,"ER Sepsis Triage").
+trace(658,6,"IV Liquid").
+trace(658,7,"IV Antibiotics").
+trace(658,8,"Admission NC").
+trace(658,9,"CRP").
+trace(658,10,"Leucocytes").
+trace(658,11,"CRP").
+trace(658,12,"Leucocytes").
+trace(658,13,"Leucocytes").
+trace(658,14,"Leucocytes").
+trace(658,15,"CRP").
+trace(658,16,"Release A").
+trace(658,17,"Return ER").
+trace(659,0,"ER Registration").
+trace(659,1,"ER Triage").
+trace(659,2,"ER Sepsis Triage").
+trace(659,3,"CRP").
+trace(659,4,"Leucocytes").
+trace(660,0,"ER Registration").
+trace(660,1,"ER Triage").
+trace(660,2,"ER Sepsis Triage").
+trace(661,0,"ER Registration").
+trace(661,1,"ER Triage").
+trace(661,2,"ER Sepsis Triage").
+trace(661,3,"CRP").
+trace(661,4,"LacticAcid").
+trace(661,5,"Leucocytes").
+trace(662,0,"ER Registration").
+trace(662,1,"ER Triage").
+trace(662,2,"ER Sepsis Triage").
+trace(662,3,"LacticAcid").
+trace(662,4,"Leucocytes").
+trace(662,5,"CRP").
+trace(662,6,"IV Liquid").
+trace(662,7,"IV Antibiotics").
+trace(663,0,"ER Registration").
+trace(663,1,"ER Triage").
+trace(663,2,"ER Sepsis Triage").
+trace(663,3,"Leucocytes").
+trace(663,4,"CRP").
+trace(663,5,"Admission NC").
+trace(663,6,"CRP").
+trace(663,7,"CRP").
+trace(663,8,"Leucocytes").
+trace(663,9,"CRP").
+trace(663,10,"Leucocytes").
+trace(663,11,"Leucocytes").
+trace(663,12,"CRP").
+trace(663,13,"Leucocytes").
+trace(663,14,"CRP").
+trace(663,15,"Release A").
+trace(664,0,"ER Registration").
+trace(664,1,"ER Triage").
+trace(664,2,"ER Sepsis Triage").
+trace(664,3,"CRP").
+trace(664,4,"LacticAcid").
+trace(664,5,"Leucocytes").
+trace(664,6,"IV Liquid").
+trace(664,7,"IV Antibiotics").
+trace(665,0,"ER Registration").
+trace(665,1,"LacticAcid").
+trace(665,2,"Leucocytes").
+trace(665,3,"CRP").
+trace(665,4,"ER Triage").
+trace(665,5,"ER Sepsis Triage").
+trace(665,6,"Admission NC").
+trace(665,7,"Leucocytes").
+trace(665,8,"CRP").
+trace(665,9,"CRP").
+trace(665,10,"Leucocytes").
+trace(665,11,"Release A").
+trace(666,0,"CRP").
+trace(666,1,"ER Registration").
+trace(666,2,"ER Triage").
+trace(666,3,"ER Sepsis Triage").
+trace(666,4,"IV Liquid").
+trace(666,5,"LacticAcid").
+trace(666,6,"Leucocytes").
+trace(666,7,"CRP").
+trace(666,8,"IV Antibiotics").
+trace(666,9,"Admission NC").
+trace(666,10,"Admission IC").
+trace(666,11,"Leucocytes").
+trace(666,12,"LacticAcid").
+trace(666,13,"CRP").
+trace(666,14,"LacticAcid").
+trace(666,15,"CRP").
+trace(666,16,"Leucocytes").
+trace(666,17,"Admission NC").
+trace(666,18,"Leucocytes").
+trace(666,19,"CRP").
+trace(666,20,"Leucocytes").
+trace(666,21,"CRP").
+trace(666,22,"Release A").
+trace(667,0,"ER Registration").
+trace(667,1,"ER Triage").
+trace(667,2,"ER Sepsis Triage").
+trace(667,3,"IV Liquid").
+trace(667,4,"IV Antibiotics").
+trace(667,5,"LacticAcid").
+trace(667,6,"Leucocytes").
+trace(667,7,"CRP").
+trace(667,8,"Admission NC").
+trace(667,9,"CRP").
+trace(667,10,"Leucocytes").
+trace(667,11,"Admission NC").
+trace(667,12,"Release A").
+trace(667,13,"Return ER").
+trace(668,0,"ER Registration").
+trace(668,1,"ER Triage").
+trace(668,2,"ER Sepsis Triage").
+trace(669,0,"ER Registration").
+trace(669,1,"Leucocytes").
+trace(669,2,"CRP").
+trace(669,3,"LacticAcid").
+trace(669,4,"ER Triage").
+trace(669,5,"ER Sepsis Triage").
+trace(669,6,"IV Liquid").
+trace(669,7,"IV Antibiotics").
+trace(669,8,"Admission NC").
+trace(670,0,"ER Registration").
+trace(670,1,"ER Triage").
+trace(670,2,"LacticAcid").
+trace(670,3,"Leucocytes").
+trace(670,4,"CRP").
+trace(670,5,"ER Sepsis Triage").
+trace(670,6,"IV Antibiotics").
+trace(670,7,"IV Liquid").
+trace(670,8,"Admission NC").
+trace(670,9,"Admission NC").
+trace(670,10,"CRP").
+trace(670,11,"Leucocytes").
+trace(670,12,"Leucocytes").
+trace(670,13,"CRP").
+trace(670,14,"CRP").
+trace(670,15,"Leucocytes").
+trace(670,16,"Release A").
+trace(671,0,"ER Registration").
+trace(671,1,"ER Triage").
+trace(671,2,"ER Sepsis Triage").
+trace(672,0,"ER Registration").
+trace(672,1,"ER Triage").
+trace(672,2,"ER Sepsis Triage").
+trace(672,3,"CRP").
+trace(672,4,"LacticAcid").
+trace(672,5,"Leucocytes").
+trace(672,6,"IV Antibiotics").
+trace(672,7,"Admission NC").
+trace(672,8,"IV Liquid").
+trace(672,9,"Leucocytes").
+trace(672,10,"CRP").
+trace(672,11,"Release A").
+trace(672,12,"Return ER").
+trace(673,0,"ER Registration").
+trace(673,1,"ER Triage").
+trace(673,2,"ER Sepsis Triage").
+trace(673,3,"Leucocytes").
+trace(673,4,"CRP").
+trace(673,5,"LacticAcid").
+trace(673,6,"IV Liquid").
+trace(673,7,"IV Antibiotics").
+trace(673,8,"Admission NC").
+trace(673,9,"LacticAcid").
+trace(673,10,"Admission NC").
+trace(673,11,"Admission NC").
+trace(673,12,"Admission NC").
+trace(673,13,"CRP").
+trace(673,14,"Leucocytes").
+trace(673,15,"CRP").
+trace(673,16,"Leucocytes").
+trace(673,17,"CRP").
+trace(673,18,"Leucocytes").
+trace(673,19,"Admission NC").
+trace(673,20,"Release A").
+trace(674,0,"ER Registration").
+trace(674,1,"ER Triage").
+trace(674,2,"ER Sepsis Triage").
+trace(674,3,"Leucocytes").
+trace(674,4,"CRP").
+trace(674,5,"LacticAcid").
+trace(674,6,"IV Liquid").
+trace(674,7,"IV Antibiotics").
+trace(675,0,"ER Registration").
+trace(675,1,"ER Triage").
+trace(675,2,"ER Sepsis Triage").
+trace(675,3,"Leucocytes").
+trace(675,4,"CRP").
+trace(675,5,"LacticAcid").
+trace(675,6,"IV Liquid").
+trace(675,7,"IV Antibiotics").
+trace(675,8,"Admission NC").
+trace(675,9,"Leucocytes").
+trace(675,10,"CRP").
+trace(675,11,"Admission NC").
+trace(675,12,"CRP").
+trace(675,13,"Leucocytes").
+trace(675,14,"Release A").
+trace(676,0,"ER Registration").
+trace(676,1,"ER Triage").
+trace(676,2,"ER Sepsis Triage").
+trace(676,3,"LacticAcid").
+trace(676,4,"CRP").
+trace(676,5,"Leucocytes").
+trace(676,6,"IV Antibiotics").
+trace(676,7,"Admission NC").
+trace(676,8,"Leucocytes").
+trace(676,9,"CRP").
+trace(676,10,"Admission NC").
+trace(676,11,"Leucocytes").
+trace(676,12,"CRP").
+trace(676,13,"Leucocytes").
+trace(676,14,"CRP").
+trace(676,15,"Leucocytes").
+trace(676,16,"CRP").
+trace(676,17,"CRP").
+trace(676,18,"Leucocytes").
+trace(676,19,"CRP").
+trace(676,20,"Leucocytes").
+trace(676,21,"Leucocytes").
+trace(676,22,"CRP").
+trace(676,23,"Release A").
+trace(677,0,"ER Registration").
+trace(677,1,"ER Triage").
+trace(677,2,"ER Sepsis Triage").
+trace(677,3,"Leucocytes").
+trace(677,4,"CRP").
+trace(677,5,"LacticAcid").
+trace(677,6,"LacticAcid").
+trace(677,7,"IV Liquid").
+trace(677,8,"IV Antibiotics").
+trace(677,9,"CRP").
+trace(677,10,"Leucocytes").
+trace(677,11,"LacticAcid").
+trace(677,12,"Admission IC").
+trace(677,13,"LacticAcid").
+trace(677,14,"Leucocytes").
+trace(677,15,"CRP").
+trace(677,16,"LacticAcid").
+trace(677,17,"LacticAcid").
+trace(677,18,"LacticAcid").
+trace(677,19,"Leucocytes").
+trace(677,20,"CRP").
+trace(677,21,"Admission NC").
+trace(677,22,"Leucocytes").
+trace(677,23,"CRP").
+trace(677,24,"LacticAcid").
+trace(677,25,"CRP").
+trace(677,26,"Leucocytes").
+trace(677,27,"Leucocytes").
+trace(677,28,"CRP").
+trace(677,29,"LacticAcid").
+trace(677,30,"Admission NC").
+trace(677,31,"Leucocytes").
+trace(677,32,"CRP").
+trace(677,33,"Leucocytes").
+trace(677,34,"CRP").
+trace(677,35,"Leucocytes").
+trace(677,36,"CRP").
+trace(677,37,"CRP").
+trace(677,38,"Leucocytes").
+trace(677,39,"Release B").
+trace(678,0,"ER Registration").
+trace(678,1,"ER Triage").
+trace(678,2,"ER Sepsis Triage").
+trace(678,3,"CRP").
+trace(678,4,"Leucocytes").
+trace(678,5,"IV Liquid").
+trace(678,6,"IV Antibiotics").
+trace(678,7,"Admission IC").
+trace(678,8,"LacticAcid").
+trace(678,9,"LacticAcid").
+trace(678,10,"Leucocytes").
+trace(678,11,"LacticAcid").
+trace(678,12,"CRP").
+trace(678,13,"LacticAcid").
+trace(678,14,"LacticAcid").
+trace(678,15,"LacticAcid").
+trace(678,16,"Leucocytes").
+trace(678,17,"CRP").
+trace(678,18,"LacticAcid").
+trace(678,19,"Leucocytes").
+trace(678,20,"CRP").
+trace(678,21,"Admission NC").
+trace(678,22,"Leucocytes").
+trace(678,23,"CRP").
+trace(678,24,"CRP").
+trace(678,25,"Leucocytes").
+trace(678,26,"CRP").
+trace(678,27,"Leucocytes").
+trace(678,28,"CRP").
+trace(678,29,"Leucocytes").
+trace(678,30,"CRP").
+trace(678,31,"Release A").
+trace(679,0,"ER Registration").
+trace(679,1,"ER Triage").
+trace(679,2,"ER Sepsis Triage").
+trace(679,3,"Leucocytes").
+trace(679,4,"CRP").
+trace(679,5,"LacticAcid").
+trace(680,0,"ER Registration").
+trace(680,1,"ER Triage").
+trace(680,2,"ER Sepsis Triage").
+trace(680,3,"CRP").
+trace(680,4,"LacticAcid").
+trace(680,5,"Leucocytes").
+trace(680,6,"IV Liquid").
+trace(680,7,"IV Antibiotics").
+trace(680,8,"Admission NC").
+trace(680,9,"Admission NC").
+trace(680,10,"Leucocytes").
+trace(680,11,"CRP").
+trace(680,12,"Leucocytes").
+trace(680,13,"CRP").
+trace(680,14,"Leucocytes").
+trace(680,15,"Leucocytes").
+trace(680,16,"Release A").
+trace(680,17,"Return ER").
+trace(681,0,"ER Registration").
+trace(681,1,"ER Triage").
+trace(681,2,"ER Sepsis Triage").
+trace(681,3,"Leucocytes").
+trace(681,4,"CRP").
+trace(682,0,"ER Registration").
+trace(682,1,"ER Triage").
+trace(682,2,"CRP").
+trace(682,3,"LacticAcid").
+trace(682,4,"Leucocytes").
+trace(682,5,"IV Liquid").
+trace(682,6,"Admission NC").
+trace(682,7,"ER Sepsis Triage").
+trace(682,8,"IV Antibiotics").
+trace(682,9,"Admission IC").
+trace(682,10,"CRP").
+trace(682,11,"LacticAcid").
+trace(682,12,"Leucocytes").
+trace(682,13,"Leucocytes").
+trace(682,14,"CRP").
+trace(682,15,"LacticAcid").
+trace(682,16,"Admission NC").
+trace(682,17,"Leucocytes").
+trace(682,18,"CRP").
+trace(682,19,"CRP").
+trace(682,20,"Leucocytes").
+trace(682,21,"Release A").
+trace(683,0,"ER Registration").
+trace(683,1,"ER Triage").
+trace(683,2,"ER Sepsis Triage").
+trace(683,3,"CRP").
+trace(683,4,"Leucocytes").
+trace(683,5,"Admission NC").
+trace(683,6,"Release A").
+trace(684,0,"ER Registration").
+trace(684,1,"ER Triage").
+trace(684,2,"ER Sepsis Triage").
+trace(684,3,"Leucocytes").
+trace(684,4,"CRP").
+trace(684,5,"LacticAcid").
+trace(684,6,"IV Liquid").
+trace(684,7,"IV Antibiotics").
+trace(684,8,"CRP").
+trace(684,9,"Leucocytes").
+trace(685,0,"ER Registration").
+trace(685,1,"IV Liquid").
+trace(685,2,"ER Triage").
+trace(685,3,"ER Sepsis Triage").
+trace(685,4,"LacticAcid").
+trace(685,5,"Leucocytes").
+trace(685,6,"CRP").
+trace(685,7,"IV Antibiotics").
+trace(685,8,"Admission NC").
+trace(685,9,"CRP").
+trace(685,10,"CRP").
+trace(685,11,"Leucocytes").
+trace(685,12,"Admission NC").
+trace(685,13,"Admission NC").
+trace(685,14,"Leucocytes").
+trace(685,15,"CRP").
+trace(685,16,"Release A").
+trace(686,0,"ER Sepsis Triage").
+trace(686,1,"IV Antibiotics").
+trace(686,2,"IV Liquid").
+trace(686,3,"ER Registration").
+trace(686,4,"ER Triage").
+trace(686,5,"CRP").
+trace(686,6,"Leucocytes").
+trace(686,7,"LacticAcid").
+trace(686,8,"Admission NC").
+trace(686,9,"Admission NC").
+trace(686,10,"CRP").
+trace(686,11,"Leucocytes").
+trace(686,12,"Admission NC").
+trace(686,13,"Leucocytes").
+trace(686,14,"CRP").
+trace(686,15,"Leucocytes").
+trace(686,16,"Admission NC").
+trace(686,17,"Leucocytes").
+trace(686,18,"Leucocytes").
+trace(686,19,"Release A").
+trace(686,20,"Return ER").
+trace(687,0,"ER Registration").
+trace(687,1,"ER Triage").
+trace(687,2,"ER Sepsis Triage").
+trace(687,3,"Leucocytes").
+trace(687,4,"CRP").
+trace(687,5,"LacticAcid").
+trace(687,6,"IV Antibiotics").
+trace(687,7,"Admission NC").
+trace(687,8,"CRP").
+trace(687,9,"Leucocytes").
+trace(687,10,"Leucocytes").
+trace(687,11,"CRP").
+trace(687,12,"Release A").
+trace(687,13,"Return ER").
+trace(688,0,"ER Registration").
+trace(688,1,"ER Triage").
+trace(688,2,"ER Sepsis Triage").
+trace(688,3,"Leucocytes").
+trace(688,4,"CRP").
+trace(688,5,"LacticAcid").
+trace(688,6,"IV Liquid").
+trace(688,7,"IV Antibiotics").
+trace(688,8,"Admission NC").
+trace(688,9,"Admission IC").
+trace(688,10,"Leucocytes").
+trace(688,11,"CRP").
+trace(688,12,"LacticAcid").
+trace(688,13,"LacticAcid").
+trace(688,14,"Leucocytes").
+trace(688,15,"CRP").
+trace(688,16,"Leucocytes").
+trace(688,17,"CRP").
+trace(688,18,"LacticAcid").
+trace(688,19,"CRP").
+trace(688,20,"LacticAcid").
+trace(688,21,"Leucocytes").
+trace(688,22,"CRP").
+trace(688,23,"LacticAcid").
+trace(688,24,"Leucocytes").
+trace(688,25,"Leucocytes").
+trace(688,26,"CRP").
+trace(688,27,"LacticAcid").
+trace(688,28,"CRP").
+trace(688,29,"LacticAcid").
+trace(688,30,"Leucocytes").
+trace(688,31,"LacticAcid").
+trace(688,32,"CRP").
+trace(688,33,"Leucocytes").
+trace(688,34,"CRP").
+trace(688,35,"LacticAcid").
+trace(688,36,"Leucocytes").
+trace(688,37,"LacticAcid").
+trace(688,38,"Leucocytes").
+trace(688,39,"CRP").
+trace(688,40,"LacticAcid").
+trace(688,41,"Leucocytes").
+trace(688,42,"CRP").
+trace(688,43,"CRP").
+trace(688,44,"Leucocytes").
+trace(688,45,"LacticAcid").
+trace(688,46,"LacticAcid").
+trace(688,47,"CRP").
+trace(688,48,"Leucocytes").
+trace(688,49,"Leucocytes").
+trace(688,50,"CRP").
+trace(688,51,"LacticAcid").
+trace(688,52,"Admission NC").
+trace(688,53,"CRP").
+trace(688,54,"Leucocytes").
+trace(688,55,"Admission NC").
+trace(688,56,"Admission NC").
+trace(688,57,"Leucocytes").
+trace(688,58,"Admission NC").
+trace(688,59,"Release A").
+trace(688,60,"Return ER").
+trace(689,0,"ER Registration").
+trace(689,1,"ER Triage").
+trace(689,2,"ER Sepsis Triage").
+trace(689,3,"Leucocytes").
+trace(689,4,"CRP").
+trace(689,5,"LacticAcid").
+trace(689,6,"IV Liquid").
+trace(689,7,"IV Antibiotics").
+trace(689,8,"Leucocytes").
+trace(689,9,"CRP").
+trace(690,0,"ER Registration").
+trace(690,1,"ER Triage").
+trace(690,2,"CRP").
+trace(690,3,"Leucocytes").
+trace(690,4,"LacticAcid").
+trace(690,5,"ER Sepsis Triage").
+trace(690,6,"IV Antibiotics").
+trace(690,7,"Admission NC").
+trace(690,8,"Admission NC").
+trace(690,9,"Leucocytes").
+trace(690,10,"CRP").
+trace(690,11,"Leucocytes").
+trace(690,12,"CRP").
+trace(690,13,"Release D").
+trace(690,14,"Return ER").
+trace(691,0,"ER Registration").
+trace(691,1,"ER Triage").
+trace(691,2,"ER Sepsis Triage").
+trace(691,3,"LacticAcid").
+trace(691,4,"CRP").
+trace(691,5,"Leucocytes").
+trace(691,6,"IV Antibiotics").
+trace(691,7,"Admission NC").
+trace(691,8,"Leucocytes").
+trace(691,9,"Release A").
+trace(692,0,"ER Registration").
+trace(692,1,"ER Triage").
+trace(692,2,"ER Sepsis Triage").
+trace(692,3,"Leucocytes").
+trace(692,4,"CRP").
+trace(692,5,"IV Liquid").
+trace(692,6,"IV Antibiotics").
+trace(692,7,"Admission NC").
+trace(692,8,"Leucocytes").
+trace(692,9,"CRP").
+trace(692,10,"Admission NC").
+trace(692,11,"CRP").
+trace(692,12,"CRP").
+trace(692,13,"Release A").
+trace(693,0,"ER Registration").
+trace(693,1,"Leucocytes").
+trace(693,2,"LacticAcid").
+trace(693,3,"CRP").
+trace(693,4,"ER Triage").
+trace(693,5,"ER Sepsis Triage").
+trace(693,6,"IV Antibiotics").
+trace(693,7,"IV Liquid").
+trace(694,0,"ER Registration").
+trace(694,1,"ER Triage").
+trace(694,2,"ER Sepsis Triage").
+trace(694,3,"CRP").
+trace(694,4,"Leucocytes").
+trace(694,5,"IV Liquid").
+trace(694,6,"IV Antibiotics").
+trace(694,7,"LacticAcid").
+trace(695,0,"ER Registration").
+trace(695,1,"ER Triage").
+trace(695,2,"ER Sepsis Triage").
+trace(695,3,"CRP").
+trace(695,4,"LacticAcid").
+trace(695,5,"Leucocytes").
+trace(695,6,"IV Liquid").
+trace(695,7,"IV Antibiotics").
+trace(695,8,"Admission NC").
+trace(695,9,"Leucocytes").
+trace(695,10,"CRP").
+trace(695,11,"Release B").
+trace(696,0,"ER Registration").
+trace(696,1,"ER Triage").
+trace(696,2,"ER Sepsis Triage").
+trace(696,3,"Leucocytes").
+trace(696,4,"Leucocytes").
+trace(696,5,"CRP").
+trace(697,0,"ER Registration").
+trace(697,1,"ER Triage").
+trace(697,2,"ER Sepsis Triage").
+trace(697,3,"CRP").
+trace(697,4,"Leucocytes").
+trace(697,5,"LacticAcid").
+trace(697,6,"IV Liquid").
+trace(697,7,"IV Antibiotics").
+trace(697,8,"Admission NC").
+trace(697,9,"CRP").
+trace(697,10,"Leucocytes").
+trace(697,11,"LacticAcid").
+trace(697,12,"Leucocytes").
+trace(697,13,"CRP").
+trace(697,14,"Leucocytes").
+trace(697,15,"CRP").
+trace(697,16,"Leucocytes").
+trace(697,17,"CRP").
+trace(697,18,"CRP").
+trace(697,19,"Leucocytes").
+trace(697,20,"CRP").
+trace(697,21,"Leucocytes").
+trace(697,22,"Release C").
+trace(697,23,"Return ER").
+trace(698,0,"IV Liquid").
+trace(698,1,"ER Registration").
+trace(698,2,"ER Triage").
+trace(698,3,"ER Sepsis Triage").
+trace(698,4,"LacticAcid").
+trace(698,5,"Leucocytes").
+trace(698,6,"CRP").
+trace(698,7,"IV Antibiotics").
+trace(698,8,"Admission NC").
+trace(698,9,"Leucocytes").
+trace(698,10,"CRP").
+trace(698,11,"LacticAcid").
+trace(698,12,"CRP").
+trace(698,13,"LacticAcid").
+trace(698,14,"Leucocytes").
+trace(698,15,"Release B").
+trace(699,0,"ER Registration").
+trace(699,1,"IV Liquid").
+trace(699,2,"ER Triage").
+trace(699,3,"Leucocytes").
+trace(699,4,"CRP").
+trace(699,5,"LacticAcid").
+trace(699,6,"ER Sepsis Triage").
+trace(699,7,"IV Antibiotics").
+trace(699,8,"Admission NC").
+trace(699,9,"Admission NC").
+trace(699,10,"Leucocytes").
+trace(699,11,"CRP").
+trace(699,12,"CRP").
+trace(699,13,"Release A").
+trace(699,14,"Return ER").
+trace(700,0,"ER Registration").
+trace(700,1,"ER Triage").
+trace(700,2,"ER Sepsis Triage").
+trace(700,3,"LacticAcid").
+trace(700,4,"Leucocytes").
+trace(700,5,"CRP").
+trace(700,6,"IV Liquid").
+trace(700,7,"IV Antibiotics").
+trace(700,8,"Admission NC").
+trace(700,9,"CRP").
+trace(700,10,"Leucocytes").
+trace(700,11,"Leucocytes").
+trace(700,12,"CRP").
+trace(700,13,"Release A").
+trace(701,0,"ER Registration").
+trace(701,1,"ER Triage").
+trace(701,2,"ER Sepsis Triage").
+trace(701,3,"IV Liquid").
+trace(701,4,"Leucocytes").
+trace(701,5,"CRP").
+trace(701,6,"LacticAcid").
+trace(701,7,"IV Antibiotics").
+trace(701,8,"Admission NC").
+trace(701,9,"Release A").
+trace(701,10,"Return ER").
+trace(702,0,"ER Registration").
+trace(702,1,"ER Triage").
+trace(702,2,"ER Sepsis Triage").
+trace(702,3,"Leucocytes").
+trace(702,4,"CRP").
+trace(702,5,"LacticAcid").
+trace(702,6,"IV Liquid").
+trace(702,7,"IV Antibiotics").
+trace(702,8,"Admission NC").
+trace(702,9,"CRP").
+trace(702,10,"Leucocytes").
+trace(702,11,"Release A").
+trace(703,0,"ER Registration").
+trace(703,1,"IV Liquid").
+trace(703,2,"ER Triage").
+trace(703,3,"ER Sepsis Triage").
+trace(703,4,"LacticAcid").
+trace(703,5,"CRP").
+trace(703,6,"Leucocytes").
+trace(703,7,"IV Antibiotics").
+trace(704,0,"ER Registration").
+trace(704,1,"ER Triage").
+trace(704,2,"Leucocytes").
+trace(704,3,"CRP").
+trace(704,4,"LacticAcid").
+trace(704,5,"ER Sepsis Triage").
+trace(704,6,"IV Liquid").
+trace(704,7,"IV Antibiotics").
+trace(704,8,"Admission NC").
+trace(704,9,"Leucocytes").
+trace(704,10,"CRP").
+trace(704,11,"Leucocytes").
+trace(704,12,"CRP").
+trace(704,13,"Leucocytes").
+trace(704,14,"CRP").
+trace(704,15,"Release A").
+trace(705,0,"ER Registration").
+trace(705,1,"ER Triage").
+trace(705,2,"ER Sepsis Triage").
+trace(705,3,"CRP").
+trace(705,4,"LacticAcid").
+trace(705,5,"Leucocytes").
+trace(705,6,"Admission NC").
+trace(705,7,"Leucocytes").
+trace(705,8,"CRP").
+trace(705,9,"Leucocytes").
+trace(705,10,"Admission NC").
+trace(705,11,"LacticAcid").
+trace(705,12,"CRP").
+trace(705,13,"Leucocytes").
+trace(705,14,"Release B").
+trace(706,0,"ER Registration").
+trace(706,1,"ER Triage").
+trace(706,2,"ER Sepsis Triage").
+trace(706,3,"Leucocytes").
+trace(706,4,"CRP").
+trace(706,5,"LacticAcid").
+trace(706,6,"IV Antibiotics").
+trace(706,7,"Admission NC").
+trace(706,8,"Leucocytes").
+trace(706,9,"CRP").
+trace(706,10,"LacticAcid").
+trace(706,11,"Admission NC").
+trace(706,12,"IV Liquid").
+trace(706,13,"CRP").
+trace(706,14,"Leucocytes").
+trace(706,15,"Release A").
+trace(706,16,"Return ER").
+trace(707,0,"ER Registration").
+trace(707,1,"ER Triage").
+trace(707,2,"ER Sepsis Triage").
+trace(707,3,"IV Liquid").
+trace(707,4,"LacticAcid").
+trace(707,5,"CRP").
+trace(707,6,"Leucocytes").
+trace(707,7,"IV Antibiotics").
+trace(707,8,"Admission NC").
+trace(707,9,"Leucocytes").
+trace(707,10,"CRP").
+trace(707,11,"Leucocytes").
+trace(707,12,"CRP").
+trace(707,13,"Leucocytes").
+trace(707,14,"CRP").
+trace(707,15,"Release A").
+trace(708,0,"ER Registration").
+trace(708,1,"ER Triage").
+trace(708,2,"ER Sepsis Triage").
+trace(708,3,"LacticAcid").
+trace(708,4,"Leucocytes").
+trace(708,5,"CRP").
+trace(708,6,"IV Antibiotics").
+trace(708,7,"Admission IC").
+trace(708,8,"CRP").
+trace(708,9,"Leucocytes").
+trace(708,10,"LacticAcid").
+trace(708,11,"Leucocytes").
+trace(708,12,"CRP").
+trace(708,13,"LacticAcid").
+trace(708,14,"Admission NC").
+trace(708,15,"Admission NC").
+trace(708,16,"Leucocytes").
+trace(708,17,"CRP").
+trace(708,18,"CRP").
+trace(708,19,"Leucocytes").
+trace(708,20,"Release A").
+trace(709,0,"ER Registration").
+trace(709,1,"ER Triage").
+trace(709,2,"ER Sepsis Triage").
+trace(709,3,"LacticAcid").
+trace(709,4,"CRP").
+trace(709,5,"Leucocytes").
+trace(709,6,"Admission NC").
+trace(709,7,"Release A").
+trace(709,8,"Return ER").
+trace(710,0,"ER Registration").
+trace(710,1,"ER Triage").
+trace(710,2,"ER Sepsis Triage").
+trace(710,3,"Leucocytes").
+trace(710,4,"CRP").
+trace(710,5,"Admission NC").
+trace(710,6,"Leucocytes").
+trace(710,7,"Admission NC").
+trace(710,8,"Leucocytes").
+trace(710,9,"Leucocytes").
+trace(710,10,"Leucocytes").
+trace(710,11,"Leucocytes").
+trace(710,12,"Leucocytes").
+trace(710,13,"Leucocytes").
+trace(710,14,"Leucocytes").
+trace(710,15,"Leucocytes").
+trace(710,16,"CRP").
+trace(710,17,"Leucocytes").
+trace(710,18,"Leucocytes").
+trace(710,19,"Leucocytes").
+trace(710,20,"Leucocytes").
+trace(710,21,"Leucocytes").
+trace(710,22,"Release E").
+trace(711,0,"ER Registration").
+trace(711,1,"ER Triage").
+trace(711,2,"ER Sepsis Triage").
+trace(711,3,"Admission NC").
+trace(711,4,"Release A").
+trace(712,0,"ER Registration").
+trace(712,1,"ER Triage").
+trace(712,2,"ER Sepsis Triage").
+trace(712,3,"LacticAcid").
+trace(712,4,"Leucocytes").
+trace(712,5,"CRP").
+trace(712,6,"IV Liquid").
+trace(712,7,"IV Antibiotics").
+trace(713,0,"ER Registration").
+trace(713,1,"ER Triage").
+trace(713,2,"ER Sepsis Triage").
+trace(713,3,"LacticAcid").
+trace(713,4,"Leucocytes").
+trace(713,5,"CRP").
+trace(713,6,"Admission NC").
+trace(713,7,"CRP").
+trace(713,8,"Leucocytes").
+trace(713,9,"CRP").
+trace(713,10,"Leucocytes").
+trace(713,11,"Leucocytes").
+trace(713,12,"CRP").
+trace(713,13,"Release A").
+trace(714,0,"ER Registration").
+trace(714,1,"ER Triage").
+trace(714,2,"ER Sepsis Triage").
+trace(715,0,"ER Registration").
+trace(715,1,"ER Triage").
+trace(715,2,"ER Sepsis Triage").
+trace(715,3,"Leucocytes").
+trace(715,4,"CRP").
+trace(715,5,"LacticAcid").
+trace(715,6,"IV Antibiotics").
+trace(715,7,"Admission NC").
+trace(715,8,"CRP").
+trace(715,9,"Leucocytes").
+trace(715,10,"Admission IC").
+trace(715,11,"Leucocytes").
+trace(715,12,"CRP").
+trace(715,13,"LacticAcid").
+trace(715,14,"Leucocytes").
+trace(715,15,"CRP").
+trace(715,16,"LacticAcid").
+trace(715,17,"LacticAcid").
+trace(715,18,"CRP").
+trace(715,19,"Leucocytes").
+trace(715,20,"Leucocytes").
+trace(715,21,"CRP").
+trace(715,22,"LacticAcid").
+trace(715,23,"CRP").
+trace(715,24,"LacticAcid").
+trace(715,25,"Leucocytes").
+trace(715,26,"LacticAcid").
+trace(715,27,"CRP").
+trace(715,28,"Leucocytes").
+trace(715,29,"LacticAcid").
+trace(715,30,"Leucocytes").
+trace(715,31,"CRP").
+trace(715,32,"Leucocytes").
+trace(715,33,"LacticAcid").
+trace(715,34,"CRP").
+trace(715,35,"Admission NC").
+trace(715,36,"Release A").
+trace(716,0,"ER Registration").
+trace(716,1,"ER Triage").
+trace(716,2,"ER Sepsis Triage").
+trace(716,3,"Leucocytes").
+trace(716,4,"CRP").
+trace(716,5,"LacticAcid").
+trace(716,6,"IV Liquid").
+trace(716,7,"IV Antibiotics").
+trace(717,0,"ER Registration").
+trace(717,1,"ER Triage").
+trace(717,2,"ER Sepsis Triage").
+trace(717,3,"Leucocytes").
+trace(717,4,"LacticAcid").
+trace(717,5,"CRP").
+trace(717,6,"IV Liquid").
+trace(717,7,"IV Antibiotics").
+trace(717,8,"Admission NC").
+trace(717,9,"CRP").
+trace(717,10,"Leucocytes").
+trace(717,11,"CRP").
+trace(717,12,"Leucocytes").
+trace(717,13,"Release C").
+trace(718,0,"ER Registration").
+trace(718,1,"ER Triage").
+trace(718,2,"ER Sepsis Triage").
+trace(718,3,"CRP").
+trace(718,4,"Leucocytes").
+trace(718,5,"LacticAcid").
+trace(718,6,"IV Liquid").
+trace(718,7,"IV Antibiotics").
+trace(718,8,"Admission IC").
+trace(718,9,"CRP").
+trace(718,10,"Leucocytes").
+trace(718,11,"LacticAcid").
+trace(718,12,"Admission NC").
+trace(718,13,"Admission NC").
+trace(718,14,"Leucocytes").
+trace(718,15,"CRP").
+trace(718,16,"Release D").
+trace(719,0,"ER Registration").
+trace(719,1,"ER Triage").
+trace(719,2,"ER Sepsis Triage").
+trace(719,3,"CRP").
+trace(719,4,"Leucocytes").
+trace(719,5,"Admission NC").
+trace(719,6,"CRP").
+trace(719,7,"Leucocytes").
+trace(719,8,"Leucocytes").
+trace(719,9,"CRP").
+trace(719,10,"Release E").
+trace(720,0,"ER Registration").
+trace(720,1,"ER Triage").
+trace(720,2,"ER Sepsis Triage").
+trace(720,3,"LacticAcid").
+trace(720,4,"Leucocytes").
+trace(720,5,"CRP").
+trace(720,6,"IV Liquid").
+trace(720,7,"IV Antibiotics").
+trace(720,8,"Admission NC").
+trace(720,9,"Leucocytes").
+trace(720,10,"CRP").
+trace(720,11,"Leucocytes").
+trace(720,12,"CRP").
+trace(720,13,"Leucocytes").
+trace(720,14,"CRP").
+trace(720,15,"Leucocytes").
+trace(720,16,"CRP").
+trace(720,17,"Release A").
+trace(721,0,"ER Registration").
+trace(721,1,"ER Triage").
+trace(721,2,"ER Sepsis Triage").
+trace(721,3,"CRP").
+trace(721,4,"Leucocytes").
+trace(722,0,"ER Registration").
+trace(722,1,"ER Triage").
+trace(722,2,"ER Sepsis Triage").
+trace(722,3,"IV Liquid").
+trace(722,4,"IV Antibiotics").
+trace(722,5,"CRP").
+trace(722,6,"Leucocytes").
+trace(722,7,"LacticAcid").
+trace(722,8,"Admission IC").
+trace(722,9,"CRP").
+trace(722,10,"LacticAcid").
+trace(722,11,"Leucocytes").
+trace(722,12,"LacticAcid").
+trace(722,13,"CRP").
+trace(722,14,"Leucocytes").
+trace(722,15,"Admission NC").
+trace(722,16,"CRP").
+trace(722,17,"Leucocytes").
+trace(722,18,"Release A").
+trace(722,19,"Return ER").
+trace(723,0,"ER Registration").
+trace(723,1,"IV Liquid").
+trace(723,2,"ER Triage").
+trace(723,3,"ER Sepsis Triage").
+trace(723,4,"LacticAcid").
+trace(723,5,"Leucocytes").
+trace(723,6,"CRP").
+trace(723,7,"IV Antibiotics").
+trace(723,8,"Admission NC").
+trace(723,9,"CRP").
+trace(723,10,"Leucocytes").
+trace(723,11,"Release A").
+trace(724,0,"ER Registration").
+trace(724,1,"ER Sepsis Triage").
+trace(724,2,"IV Liquid").
+trace(724,3,"IV Antibiotics").
+trace(724,4,"ER Triage").
+trace(724,5,"Leucocytes").
+trace(724,6,"LacticAcid").
+trace(724,7,"CRP").
+trace(724,8,"Admission NC").
+trace(724,9,"Admission NC").
+trace(724,10,"Leucocytes").
+trace(724,11,"CRP").
+trace(724,12,"Release A").
+trace(725,0,"ER Registration").
+trace(725,1,"ER Triage").
+trace(725,2,"ER Sepsis Triage").
+trace(725,3,"Leucocytes").
+trace(725,4,"CRP").
+trace(725,5,"LacticAcid").
+trace(725,6,"IV Liquid").
+trace(725,7,"IV Antibiotics").
+trace(725,8,"Admission NC").
+trace(725,9,"Leucocytes").
+trace(725,10,"CRP").
+trace(725,11,"Release A").
+trace(726,0,"ER Registration").
+trace(726,1,"ER Triage").
+trace(726,2,"ER Sepsis Triage").
+trace(726,3,"CRP").
+trace(726,4,"LacticAcid").
+trace(726,5,"Leucocytes").
+trace(726,6,"IV Liquid").
+trace(726,7,"IV Antibiotics").
+trace(726,8,"Admission NC").
+trace(726,9,"Admission NC").
+trace(726,10,"CRP").
+trace(726,11,"Leucocytes").
+trace(726,12,"CRP").
+trace(726,13,"CRP").
+trace(726,14,"Release A").
+trace(727,0,"ER Registration").
+trace(727,1,"ER Triage").
+trace(727,2,"ER Sepsis Triage").
+trace(727,3,"IV Liquid").
+trace(727,4,"LacticAcid").
+trace(727,5,"Leucocytes").
+trace(727,6,"CRP").
+trace(727,7,"IV Antibiotics").
+trace(727,8,"Admission NC").
+trace(727,9,"Leucocytes").
+trace(727,10,"CRP").
+trace(727,11,"Leucocytes").
+trace(727,12,"Leucocytes").
+trace(727,13,"CRP").
+trace(727,14,"CRP").
+trace(727,15,"Leucocytes").
+trace(727,16,"Release A").
+trace(728,0,"ER Registration").
+trace(728,1,"ER Triage").
+trace(728,2,"ER Sepsis Triage").
+trace(728,3,"CRP").
+trace(728,4,"LacticAcid").
+trace(728,5,"Leucocytes").
+trace(728,6,"IV Liquid").
+trace(728,7,"IV Antibiotics").
+trace(728,8,"Admission NC").
+trace(728,9,"Admission NC").
+trace(728,10,"Leucocytes").
+trace(728,11,"CRP").
+trace(728,12,"CRP").
+trace(728,13,"Release A").
+trace(729,0,"ER Registration").
+trace(729,1,"ER Triage").
+trace(729,2,"ER Sepsis Triage").
+trace(729,3,"Leucocytes").
+trace(729,4,"LacticAcid").
+trace(729,5,"CRP").
+trace(729,6,"IV Liquid").
+trace(729,7,"IV Antibiotics").
+trace(729,8,"Admission NC").
+trace(729,9,"CRP").
+trace(729,10,"Leucocytes").
+trace(729,11,"LacticAcid").
+trace(729,12,"LacticAcid").
+trace(729,13,"CRP").
+trace(729,14,"Admission NC").
+trace(729,15,"CRP").
+trace(729,16,"LacticAcid").
+trace(729,17,"Leucocytes").
+trace(729,18,"CRP").
+trace(729,19,"Admission NC").
+trace(729,20,"Release A").
+trace(730,0,"ER Registration").
+trace(730,1,"ER Triage").
+trace(730,2,"LacticAcid").
+trace(730,3,"Leucocytes").
+trace(730,4,"CRP").
+trace(730,5,"ER Sepsis Triage").
+trace(730,6,"IV Liquid").
+trace(730,7,"IV Antibiotics").
+trace(730,8,"Admission NC").
+trace(730,9,"Leucocytes").
+trace(730,10,"CRP").
+trace(730,11,"Admission NC").
+trace(730,12,"CRP").
+trace(730,13,"Release A").
+trace(731,0,"ER Registration").
+trace(731,1,"ER Triage").
+trace(731,2,"ER Sepsis Triage").
+trace(731,3,"LacticAcid").
+trace(731,4,"CRP").
+trace(731,5,"Leucocytes").
+trace(731,6,"IV Liquid").
+trace(731,7,"IV Antibiotics").
+trace(731,8,"Admission NC").
+trace(731,9,"CRP").
+trace(731,10,"CRP").
+trace(731,11,"Release A").
+trace(732,0,"ER Registration").
+trace(732,1,"ER Triage").
+trace(732,2,"ER Sepsis Triage").
+trace(732,3,"Leucocytes").
+trace(732,4,"CRP").
+trace(732,5,"Admission NC").
+trace(732,6,"Leucocytes").
+trace(732,7,"CRP").
+trace(732,8,"Release A").
+trace(732,9,"Return ER").
+trace(733,0,"ER Registration").
+trace(733,1,"ER Triage").
+trace(733,2,"ER Sepsis Triage").
+trace(733,3,"Leucocytes").
+trace(733,4,"LacticAcid").
+trace(733,5,"CRP").
+trace(733,6,"IV Liquid").
+trace(733,7,"IV Antibiotics").
+trace(733,8,"Admission NC").
+trace(733,9,"Release A").
+trace(733,10,"Return ER").
+trace(734,0,"ER Registration").
+trace(734,1,"ER Triage").
+trace(734,2,"ER Sepsis Triage").
+trace(734,3,"CRP").
+trace(734,4,"LacticAcid").
+trace(734,5,"Leucocytes").
+trace(734,6,"IV Liquid").
+trace(734,7,"IV Antibiotics").
+trace(734,8,"Admission NC").
+trace(734,9,"CRP").
+trace(734,10,"Leucocytes").
+trace(734,11,"Leucocytes").
+trace(734,12,"CRP").
+trace(734,13,"Release C").
+trace(734,14,"Return ER").
+trace(735,0,"ER Registration").
+trace(735,1,"ER Triage").
+trace(735,2,"ER Sepsis Triage").
+trace(735,3,"IV Liquid").
+trace(735,4,"Leucocytes").
+trace(735,5,"CRP").
+trace(735,6,"LacticAcid").
+trace(735,7,"IV Antibiotics").
+trace(735,8,"Admission NC").
+trace(735,9,"CRP").
+trace(735,10,"CRP").
+trace(735,11,"Release A").
+trace(736,0,"ER Registration").
+trace(736,1,"ER Triage").
+trace(736,2,"Leucocytes").
+trace(736,3,"CRP").
+trace(736,4,"LacticAcid").
+trace(736,5,"ER Sepsis Triage").
+trace(736,6,"IV Liquid").
+trace(736,7,"IV Antibiotics").
+trace(737,0,"ER Registration").
+trace(737,1,"ER Triage").
+trace(737,2,"ER Sepsis Triage").
+trace(737,3,"IV Liquid").
+trace(737,4,"CRP").
+trace(737,5,"Leucocytes").
+trace(737,6,"LacticAcid").
+trace(737,7,"IV Antibiotics").
+trace(737,8,"Admission NC").
+trace(737,9,"Admission NC").
+trace(737,10,"Leucocytes").
+trace(737,11,"CRP").
+trace(737,12,"CRP").
+trace(737,13,"Leucocytes").
+trace(737,14,"Release A").
+trace(738,0,"ER Registration").
+trace(738,1,"ER Triage").
+trace(738,2,"ER Sepsis Triage").
+trace(738,3,"IV Liquid").
+trace(738,4,"CRP").
+trace(738,5,"Leucocytes").
+trace(738,6,"LacticAcid").
+trace(738,7,"IV Antibiotics").
+trace(738,8,"Admission NC").
+trace(738,9,"Leucocytes").
+trace(738,10,"CRP").
+trace(738,11,"Admission NC").
+trace(738,12,"Leucocytes").
+trace(738,13,"CRP").
+trace(738,14,"CRP").
+trace(738,15,"Leucocytes").
+trace(738,16,"CRP").
+trace(738,17,"Leucocytes").
+trace(738,18,"Release C").
+trace(739,0,"ER Registration").
+trace(739,1,"ER Triage").
+trace(739,2,"ER Sepsis Triage").
+trace(739,3,"IV Liquid").
+trace(739,4,"IV Antibiotics").
+trace(739,5,"Leucocytes").
+trace(739,6,"CRP").
+trace(739,7,"LacticAcid").
+trace(739,8,"Admission NC").
+trace(739,9,"CRP").
+trace(739,10,"Release A").
+trace(740,0,"ER Registration").
+trace(740,1,"ER Triage").
+trace(740,2,"ER Sepsis Triage").
+trace(740,3,"Leucocytes").
+trace(740,4,"CRP").
+trace(741,0,"ER Registration").
+trace(741,1,"ER Triage").
+trace(741,2,"ER Sepsis Triage").
+trace(741,3,"CRP").
+trace(741,4,"LacticAcid").
+trace(741,5,"Leucocytes").
+trace(741,6,"Admission NC").
+trace(741,7,"CRP").
+trace(741,8,"Leucocytes").
+trace(741,9,"LacticAcid").
+trace(741,10,"Leucocytes").
+trace(741,11,"CRP").
+trace(741,12,"Release A").
+trace(742,0,"ER Registration").
+trace(742,1,"ER Triage").
+trace(742,2,"ER Sepsis Triage").
+trace(742,3,"IV Liquid").
+trace(742,4,"IV Antibiotics").
+trace(742,5,"CRP").
+trace(742,6,"Leucocytes").
+trace(742,7,"LacticAcid").
+trace(742,8,"Admission IC").
+trace(742,9,"LacticAcid").
+trace(742,10,"Release B").
+trace(743,0,"ER Registration").
+trace(743,1,"ER Triage").
+trace(743,2,"ER Sepsis Triage").
+trace(743,3,"IV Liquid").
+trace(743,4,"IV Antibiotics").
+trace(743,5,"LacticAcid").
+trace(743,6,"Leucocytes").
+trace(743,7,"CRP").
+trace(743,8,"Admission IC").
+trace(743,9,"Leucocytes").
+trace(743,10,"CRP").
+trace(743,11,"LacticAcid").
+trace(743,12,"CRP").
+trace(743,13,"LacticAcid").
+trace(743,14,"Leucocytes").
+trace(743,15,"LacticAcid").
+trace(743,16,"CRP").
+trace(743,17,"Leucocytes").
+trace(743,18,"LacticAcid").
+trace(743,19,"Admission NC").
+trace(743,20,"CRP").
+trace(743,21,"Leucocytes").
+trace(743,22,"Leucocytes").
+trace(743,23,"CRP").
+trace(743,24,"CRP").
+trace(743,25,"Leucocytes").
+trace(743,26,"CRP").
+trace(743,27,"Leucocytes").
+trace(743,28,"CRP").
+trace(743,29,"Leucocytes").
+trace(743,30,"Leucocytes").
+trace(743,31,"CRP").
+trace(743,32,"Release A").
+trace(744,0,"ER Registration").
+trace(744,1,"ER Triage").
+trace(744,2,"ER Sepsis Triage").
+trace(744,3,"CRP").
+trace(744,4,"Leucocytes").
+trace(744,5,"LacticAcid").
+trace(744,6,"IV Antibiotics").
+trace(744,7,"Admission NC").
+trace(744,8,"Leucocytes").
+trace(744,9,"CRP").
+trace(744,10,"Leucocytes").
+trace(744,11,"CRP").
+trace(744,12,"Release A").
+trace(745,0,"ER Registration").
+trace(745,1,"ER Triage").
+trace(745,2,"ER Sepsis Triage").
+trace(745,3,"Leucocytes").
+trace(745,4,"LacticAcid").
+trace(745,5,"CRP").
+trace(745,6,"IV Liquid").
+trace(745,7,"IV Antibiotics").
+trace(745,8,"Admission NC").
+trace(745,9,"LacticAcid").
+trace(745,10,"Admission NC").
+trace(745,11,"Leucocytes").
+trace(745,12,"CRP").
+trace(745,13,"Release A").
+trace(746,0,"ER Registration").
+trace(746,1,"ER Triage").
+trace(746,2,"ER Sepsis Triage").
+trace(746,3,"Leucocytes").
+trace(746,4,"LacticAcid").
+trace(746,5,"CRP").
+trace(746,6,"IV Liquid").
+trace(746,7,"IV Antibiotics").
+trace(746,8,"Admission NC").
+trace(746,9,"CRP").
+trace(746,10,"Leucocytes").
+trace(746,11,"Release A").
+trace(747,0,"ER Registration").
+trace(747,1,"ER Triage").
+trace(747,2,"ER Sepsis Triage").
+trace(747,3,"IV Liquid").
+trace(747,4,"Leucocytes").
+trace(747,5,"LacticAcid").
+trace(747,6,"CRP").
+trace(747,7,"IV Antibiotics").
+trace(747,8,"Admission NC").
+trace(747,9,"CRP").
+trace(747,10,"Leucocytes").
+trace(747,11,"CRP").
+trace(747,12,"Leucocytes").
+trace(747,13,"Release A").
+trace(747,14,"Return ER").
+trace(748,0,"ER Registration").
+trace(748,1,"ER Triage").
+trace(748,2,"Leucocytes").
+trace(748,3,"CRP").
+trace(748,4,"ER Sepsis Triage").
+trace(749,0,"ER Registration").
+trace(749,1,"ER Triage").
+trace(749,2,"ER Sepsis Triage").
+trace(749,3,"CRP").
+trace(749,4,"LacticAcid").
+trace(749,5,"Leucocytes").
+trace(749,6,"Admission NC").
+trace(749,7,"Admission NC").
+trace(749,8,"CRP").
+trace(749,9,"CRP").
+trace(749,10,"CRP").
+trace(749,11,"Release A").
+trace(750,0,"ER Registration").
+trace(750,1,"ER Triage").
+trace(750,2,"ER Sepsis Triage").
+trace(750,3,"Leucocytes").
+trace(750,4,"LacticAcid").
+trace(750,5,"CRP").
+trace(750,6,"Admission NC").
+trace(750,7,"Admission NC").
+trace(750,8,"Admission IC").
+trace(750,9,"LacticAcid").
+trace(750,10,"Leucocytes").
+trace(750,11,"CRP").
+trace(750,12,"Leucocytes").
+trace(750,13,"LacticAcid").
+trace(750,14,"IV Liquid").
+trace(750,15,"IV Antibiotics").
+trace(750,16,"Leucocytes").
+trace(750,17,"CRP").
+trace(750,18,"LacticAcid").
+trace(750,19,"LacticAcid").
+trace(750,20,"Leucocytes").
+trace(750,21,"CRP").
+trace(750,22,"Admission NC").
+trace(750,23,"Leucocytes").
+trace(750,24,"Leucocytes").
+trace(750,25,"Release A").
+trace(750,26,"Return ER").
+trace(751,0,"ER Registration").
+trace(751,1,"ER Triage").
+trace(751,2,"ER Sepsis Triage").
+trace(751,3,"CRP").
+trace(751,4,"Leucocytes").
+trace(751,5,"LacticAcid").
+trace(751,6,"IV Liquid").
+trace(751,7,"IV Antibiotics").
+trace(751,8,"Admission NC").
+trace(751,9,"Leucocytes").
+trace(751,10,"CRP").
+trace(751,11,"Leucocytes").
+trace(751,12,"CRP").
+trace(751,13,"Release A").
+trace(752,0,"ER Registration").
+trace(752,1,"ER Triage").
+trace(752,2,"LacticAcid").
+trace(752,3,"Leucocytes").
+trace(752,4,"CRP").
+trace(752,5,"ER Sepsis Triage").
+trace(752,6,"IV Liquid").
+trace(752,7,"IV Antibiotics").
+trace(752,8,"Admission NC").
+trace(752,9,"CRP").
+trace(752,10,"Release A").
+trace(753,0,"ER Registration").
+trace(753,1,"ER Triage").
+trace(753,2,"ER Sepsis Triage").
+trace(753,3,"CRP").
+trace(753,4,"LacticAcid").
+trace(753,5,"Leucocytes").
+trace(753,6,"IV Liquid").
+trace(753,7,"IV Antibiotics").
+trace(754,0,"ER Registration").
+trace(754,1,"ER Triage").
+trace(754,2,"ER Sepsis Triage").
+trace(754,3,"IV Liquid").
+trace(754,4,"Leucocytes").
+trace(754,5,"LacticAcid").
+trace(754,6,"CRP").
+trace(754,7,"IV Antibiotics").
+trace(754,8,"Admission NC").
+trace(754,9,"CRP").
+trace(754,10,"Leucocytes").
+trace(754,11,"LacticAcid").
+trace(754,12,"LacticAcid").
+trace(754,13,"CRP").
+trace(754,14,"Leucocytes").
+trace(754,15,"Leucocytes").
+trace(754,16,"CRP").
+trace(754,17,"LacticAcid").
+trace(754,18,"Release E").
+trace(755,0,"ER Registration").
+trace(755,1,"ER Triage").
+trace(755,2,"ER Sepsis Triage").
+trace(755,3,"CRP").
+trace(755,4,"Leucocytes").
+trace(755,5,"LacticAcid").
+trace(755,6,"IV Liquid").
+trace(755,7,"IV Antibiotics").
+trace(756,0,"ER Registration").
+trace(756,1,"ER Triage").
+trace(756,2,"ER Sepsis Triage").
+trace(756,3,"LacticAcid").
+trace(756,4,"Leucocytes").
+trace(756,5,"CRP").
+trace(756,6,"IV Liquid").
+trace(756,7,"IV Antibiotics").
+trace(756,8,"Admission NC").
+trace(756,9,"Leucocytes").
+trace(756,10,"CRP").
+trace(756,11,"Release A").
+trace(756,12,"Return ER").
+trace(757,0,"ER Registration").
+trace(757,1,"ER Triage").
+trace(757,2,"Leucocytes").
+trace(757,3,"LacticAcid").
+trace(757,4,"CRP").
+trace(757,5,"Admission IC").
+trace(757,6,"ER Sepsis Triage").
+trace(757,7,"IV Liquid").
+trace(757,8,"IV Antibiotics").
+trace(757,9,"Leucocytes").
+trace(757,10,"LacticAcid").
+trace(757,11,"CRP").
+trace(757,12,"CRP").
+trace(757,13,"LacticAcid").
+trace(757,14,"Leucocytes").
+trace(757,15,"Admission NC").
+trace(757,16,"Leucocytes").
+trace(757,17,"CRP").
+trace(757,18,"Release A").
+trace(758,0,"ER Registration").
+trace(758,1,"ER Triage").
+trace(758,2,"ER Sepsis Triage").
+trace(758,3,"LacticAcid").
+trace(758,4,"CRP").
+trace(758,5,"Leucocytes").
+trace(758,6,"IV Liquid").
+trace(758,7,"IV Antibiotics").
+trace(758,8,"Admission NC").
+trace(758,9,"Leucocytes").
+trace(758,10,"CRP").
+trace(758,11,"Leucocytes").
+trace(758,12,"CRP").
+trace(758,13,"Release A").
+trace(758,14,"Return ER").
+trace(759,0,"ER Registration").
+trace(759,1,"ER Triage").
+trace(759,2,"ER Sepsis Triage").
+trace(759,3,"CRP").
+trace(759,4,"LacticAcid").
+trace(759,5,"Leucocytes").
+trace(759,6,"IV Liquid").
+trace(759,7,"IV Antibiotics").
+trace(759,8,"Admission NC").
+trace(759,9,"CRP").
+trace(759,10,"Leucocytes").
+trace(759,11,"Leucocytes").
+trace(759,12,"Release A").
+trace(759,13,"Return ER").
+trace(760,0,"ER Registration").
+trace(760,1,"ER Triage").
+trace(760,2,"ER Sepsis Triage").
+trace(760,3,"IV Liquid").
+trace(760,4,"CRP").
+trace(760,5,"Leucocytes").
+trace(760,6,"LacticAcid").
+trace(760,7,"IV Antibiotics").
+trace(761,0,"ER Registration").
+trace(761,1,"ER Triage").
+trace(761,2,"ER Sepsis Triage").
+trace(761,3,"CRP").
+trace(761,4,"Leucocytes").
+trace(762,0,"ER Registration").
+trace(762,1,"ER Triage").
+trace(762,2,"ER Sepsis Triage").
+trace(762,3,"CRP").
+trace(762,4,"Leucocytes").
+trace(762,5,"LacticAcid").
+trace(762,6,"IV Liquid").
+trace(762,7,"IV Antibiotics").
+trace(762,8,"Admission NC").
+trace(762,9,"CRP").
+trace(762,10,"Leucocytes").
+trace(762,11,"CRP").
+trace(762,12,"Leucocytes").
+trace(762,13,"CRP").
+trace(762,14,"CRP").
+trace(762,15,"Leucocytes").
+trace(762,16,"Release D").
+trace(762,17,"Return ER").
+trace(763,0,"ER Registration").
+trace(763,1,"IV Liquid").
+trace(763,2,"ER Triage").
+trace(763,3,"ER Sepsis Triage").
+trace(763,4,"CRP").
+trace(763,5,"Leucocytes").
+trace(763,6,"IV Antibiotics").
+trace(763,7,"Admission NC").
+trace(763,8,"Leucocytes").
+trace(763,9,"CRP").
+trace(763,10,"Release A").
+trace(764,0,"ER Registration").
+trace(764,1,"ER Triage").
+trace(764,2,"ER Sepsis Triage").
+trace(764,3,"IV Liquid").
+trace(764,4,"Leucocytes").
+trace(764,5,"CRP").
+trace(764,6,"LacticAcid").
+trace(764,7,"IV Antibiotics").
+trace(765,0,"ER Registration").
+trace(765,1,"ER Triage").
+trace(765,2,"ER Sepsis Triage").
+trace(765,3,"Leucocytes").
+trace(765,4,"CRP").
+trace(766,0,"IV Liquid").
+trace(766,1,"ER Registration").
+trace(766,2,"ER Triage").
+trace(766,3,"ER Sepsis Triage").
+trace(766,4,"IV Antibiotics").
+trace(766,5,"Leucocytes").
+trace(766,6,"CRP").
+trace(766,7,"LacticAcid").
+trace(766,8,"Admission NC").
+trace(766,9,"Admission NC").
+trace(766,10,"CRP").
+trace(766,11,"Leucocytes").
+trace(766,12,"CRP").
+trace(766,13,"Leucocytes").
+trace(766,14,"CRP").
+trace(766,15,"Release A").
+trace(766,16,"Return ER").
+trace(767,0,"ER Registration").
+trace(767,1,"ER Triage").
+trace(767,2,"ER Sepsis Triage").
+trace(767,3,"Leucocytes").
+trace(767,4,"CRP").
+trace(768,0,"ER Registration").
+trace(768,1,"ER Triage").
+trace(768,2,"ER Sepsis Triage").
+trace(768,3,"Leucocytes").
+trace(768,4,"CRP").
+trace(768,5,"LacticAcid").
+trace(768,6,"Admission NC").
+trace(768,7,"Leucocytes").
+trace(768,8,"CRP").
+trace(768,9,"LacticAcid").
+trace(769,0,"ER Registration").
+trace(769,1,"ER Triage").
+trace(769,2,"ER Sepsis Triage").
+trace(769,3,"CRP").
+trace(769,4,"Leucocytes").
+trace(769,5,"LacticAcid").
+trace(769,6,"IV Liquid").
+trace(769,7,"IV Antibiotics").
+trace(769,8,"Admission NC").
+trace(769,9,"Leucocytes").
+trace(769,10,"CRP").
+trace(769,11,"Admission NC").
+trace(769,12,"CRP").
+trace(769,13,"Leucocytes").
+trace(769,14,"Release A").
+trace(770,0,"ER Registration").
+trace(770,1,"ER Triage").
+trace(770,2,"ER Sepsis Triage").
+trace(770,3,"CRP").
+trace(770,4,"Leucocytes").
+trace(770,5,"LacticAcid").
+trace(770,6,"IV Liquid").
+trace(770,7,"IV Antibiotics").
+trace(770,8,"Admission NC").
+trace(770,9,"LacticAcid").
+trace(770,10,"Admission NC").
+trace(770,11,"Leucocytes").
+trace(770,12,"CRP").
+trace(770,13,"Release A").
+trace(770,14,"Return ER").
+trace(771,0,"ER Registration").
+trace(771,1,"IV Liquid").
+trace(771,2,"ER Triage").
+trace(771,3,"ER Sepsis Triage").
+trace(771,4,"Leucocytes").
+trace(771,5,"CRP").
+trace(771,6,"LacticAcid").
+trace(771,7,"IV Antibiotics").
+trace(771,8,"Admission IC").
+trace(771,9,"Leucocytes").
+trace(771,10,"CRP").
+trace(771,11,"LacticAcid").
+trace(771,12,"Admission NC").
+trace(771,13,"Leucocytes").
+trace(771,14,"Admission NC").
+trace(771,15,"Release A").
+trace(771,16,"Return ER").
+trace(772,0,"ER Registration").
+trace(772,1,"ER Triage").
+trace(772,2,"ER Sepsis Triage").
+trace(772,3,"CRP").
+trace(772,4,"LacticAcid").
+trace(772,5,"Leucocytes").
+trace(772,6,"IV Liquid").
+trace(772,7,"IV Antibiotics").
+trace(772,8,"Admission NC").
+trace(772,9,"Leucocytes").
+trace(772,10,"CRP").
+trace(772,11,"Leucocytes").
+trace(772,12,"CRP").
+trace(772,13,"CRP").
+trace(772,14,"Leucocytes").
+trace(772,15,"CRP").
+trace(772,16,"Leucocytes").
+trace(772,17,"CRP").
+trace(772,18,"Leucocytes").
+trace(772,19,"Release A").
+trace(772,20,"Return ER").
+trace(773,0,"ER Registration").
+trace(773,1,"ER Triage").
+trace(773,2,"ER Sepsis Triage").
+trace(773,3,"Leucocytes").
+trace(773,4,"CRP").
+trace(774,0,"ER Registration").
+trace(774,1,"ER Triage").
+trace(774,2,"ER Sepsis Triage").
+trace(774,3,"LacticAcid").
+trace(774,4,"CRP").
+trace(774,5,"Leucocytes").
+trace(774,6,"IV Liquid").
+trace(774,7,"IV Antibiotics").
+trace(774,8,"Admission NC").
+trace(774,9,"CRP").
+trace(774,10,"Leucocytes").
+trace(774,11,"CRP").
+trace(774,12,"Leucocytes").
+trace(774,13,"Release A").
+trace(774,14,"Return ER").
+trace(775,0,"ER Registration").
+trace(775,1,"ER Triage").
+trace(775,2,"ER Sepsis Triage").
+trace(775,3,"IV Liquid").
+trace(775,4,"IV Antibiotics").
+trace(775,5,"CRP").
+trace(775,6,"LacticAcid").
+trace(775,7,"Leucocytes").
+trace(775,8,"Admission IC").
+trace(775,9,"Leucocytes").
+trace(775,10,"CRP").
+trace(775,11,"LacticAcid").
+trace(775,12,"LacticAcid").
+trace(775,13,"CRP").
+trace(775,14,"Leucocytes").
+trace(775,15,"Admission NC").
+trace(775,16,"CRP").
+trace(775,17,"CRP").
+trace(775,18,"Leucocytes").
+trace(775,19,"Release A").
+trace(776,0,"ER Registration").
+trace(776,1,"ER Triage").
+trace(776,2,"ER Sepsis Triage").
+trace(776,3,"LacticAcid").
+trace(776,4,"Leucocytes").
+trace(776,5,"CRP").
+trace(776,6,"IV Liquid").
+trace(776,7,"IV Antibiotics").
+trace(776,8,"Admission NC").
+trace(776,9,"Admission NC").
+trace(776,10,"CRP").
+trace(776,11,"Leucocytes").
+trace(776,12,"CRP").
+trace(776,13,"Admission IC").
+trace(776,14,"LacticAcid").
+trace(776,15,"CRP").
+trace(776,16,"Leucocytes").
+trace(776,17,"LacticAcid").
+trace(776,18,"Admission NC").
+trace(776,19,"Admission NC").
+trace(776,20,"CRP").
+trace(776,21,"Leucocytes").
+trace(776,22,"CRP").
+trace(776,23,"Leucocytes").
+trace(776,24,"CRP").
+trace(776,25,"Leucocytes").
+trace(776,26,"CRP").
+trace(776,27,"Leucocytes").
+trace(776,28,"CRP").
+trace(776,29,"Leucocytes").
+trace(776,30,"CRP").
+trace(776,31,"Leucocytes").
+trace(776,32,"CRP").
+trace(776,33,"Release A").
+trace(776,34,"Return ER").
+trace(777,0,"ER Registration").
+trace(777,1,"ER Triage").
+trace(777,2,"ER Sepsis Triage").
+trace(777,3,"CRP").
+trace(777,4,"Leucocytes").
+trace(777,5,"LacticAcid").
+trace(777,6,"IV Antibiotics").
+trace(777,7,"IV Liquid").
+trace(777,8,"Admission NC").
+trace(777,9,"Leucocytes").
+trace(777,10,"CRP").
+trace(778,0,"ER Registration").
+trace(778,1,"ER Triage").
+trace(778,2,"ER Sepsis Triage").
+trace(778,3,"IV Liquid").
+trace(778,4,"CRP").
+trace(778,5,"Leucocytes").
+trace(778,6,"LacticAcid").
+trace(778,7,"IV Antibiotics").
+trace(778,8,"LacticAcid").
+trace(779,0,"ER Registration").
+trace(779,1,"ER Triage").
+trace(779,2,"ER Sepsis Triage").
+trace(779,3,"LacticAcid").
+trace(779,4,"Leucocytes").
+trace(779,5,"CRP").
+trace(779,6,"IV Antibiotics").
+trace(779,7,"Admission NC").
+trace(779,8,"CRP").
+trace(779,9,"Leucocytes").
+trace(779,10,"CRP").
+trace(779,11,"Leucocytes").
+trace(779,12,"CRP").
+trace(779,13,"Leucocytes").
+trace(779,14,"CRP").
+trace(779,15,"Leucocytes").
+trace(779,16,"CRP").
+trace(779,17,"CRP").
+trace(779,18,"Leucocytes").
+trace(779,19,"Release A").
+trace(779,20,"Return ER").
+trace(779,21,"CRP").
+trace(779,22,"Leucocytes").
+trace(779,23,"LacticAcid").
+trace(780,0,"ER Registration").
+trace(780,1,"ER Triage").
+trace(780,2,"ER Sepsis Triage").
+trace(780,3,"Leucocytes").
+trace(780,4,"CRP").
+trace(780,5,"LacticAcid").
+trace(780,6,"IV Liquid").
+trace(780,7,"IV Antibiotics").
+trace(780,8,"Admission NC").
+trace(780,9,"Admission NC").
+trace(780,10,"Leucocytes").
+trace(780,11,"Release A").
+trace(781,0,"ER Registration").
+trace(781,1,"ER Triage").
+trace(781,2,"ER Sepsis Triage").
+trace(782,0,"ER Registration").
+trace(782,1,"ER Triage").
+trace(782,2,"ER Sepsis Triage").
+trace(782,3,"IV Liquid").
+trace(782,4,"IV Antibiotics").
+trace(782,5,"CRP").
+trace(782,6,"Leucocytes").
+trace(782,7,"LacticAcid").
+trace(782,8,"Admission NC").
+trace(782,9,"CRP").
+trace(782,10,"Leucocytes").
+trace(782,11,"CRP").
+trace(782,12,"Leucocytes").
+trace(782,13,"Leucocytes").
+trace(782,14,"CRP").
+trace(782,15,"CRP").
+trace(782,16,"Release A").
+trace(783,0,"ER Registration").
+trace(783,1,"ER Triage").
+trace(783,2,"ER Sepsis Triage").
+trace(783,3,"Leucocytes").
+trace(783,4,"CRP").
+trace(783,5,"LacticAcid").
+trace(783,6,"IV Liquid").
+trace(783,7,"IV Antibiotics").
+trace(783,8,"Admission NC").
+trace(783,9,"CRP").
+trace(783,10,"Release A").
+trace(783,11,"Return ER").
+trace(784,0,"ER Registration").
+trace(784,1,"ER Triage").
+trace(784,2,"ER Sepsis Triage").
+trace(784,3,"CRP").
+trace(784,4,"LacticAcid").
+trace(784,5,"Leucocytes").
+trace(784,6,"IV Antibiotics").
+trace(784,7,"Admission NC").
+trace(784,8,"Leucocytes").
+trace(784,9,"CRP").
+trace(784,10,"Admission NC").
+trace(784,11,"IV Liquid").
+trace(784,12,"CRP").
+trace(784,13,"Leucocytes").
+trace(784,14,"Leucocytes").
+trace(784,15,"CRP").
+trace(784,16,"Release A").
+trace(784,17,"Return ER").
+trace(785,0,"ER Registration").
+trace(785,1,"ER Triage").
+trace(785,2,"ER Sepsis Triage").
+trace(785,3,"Leucocytes").
+trace(785,4,"CRP").
+trace(785,5,"Admission NC").
+trace(785,6,"Admission NC").
+trace(785,7,"Release A").
+trace(785,8,"Return ER").
+trace(786,0,"ER Registration").
+trace(786,1,"ER Triage").
+trace(786,2,"ER Sepsis Triage").
+trace(786,3,"IV Liquid").
+trace(786,4,"IV Antibiotics").
+trace(786,5,"LacticAcid").
+trace(786,6,"Leucocytes").
+trace(786,7,"CRP").
+trace(786,8,"Admission NC").
+trace(786,9,"CRP").
+trace(786,10,"Release A").
+trace(786,11,"Return ER").
+trace(787,0,"ER Registration").
+trace(787,1,"ER Triage").
+trace(787,2,"ER Sepsis Triage").
+trace(787,3,"Leucocytes").
+trace(787,4,"CRP").
+trace(787,5,"LacticAcid").
+trace(787,6,"IV Liquid").
+trace(787,7,"IV Antibiotics").
+trace(787,8,"Admission NC").
+trace(787,9,"Admission NC").
+trace(787,10,"Leucocytes").
+trace(787,11,"Release A").
+trace(787,12,"Return ER").
+trace(788,0,"ER Registration").
+trace(788,1,"ER Triage").
+trace(788,2,"Leucocytes").
+trace(788,3,"CRP").
+trace(788,4,"LacticAcid").
+trace(788,5,"ER Sepsis Triage").
+trace(788,6,"IV Liquid").
+trace(788,7,"IV Antibiotics").
+trace(789,0,"ER Registration").
+trace(789,1,"ER Triage").
+trace(789,2,"ER Sepsis Triage").
+trace(790,0,"ER Registration").
+trace(790,1,"ER Triage").
+trace(790,2,"ER Sepsis Triage").
+trace(790,3,"IV Antibiotics").
+trace(790,4,"CRP").
+trace(790,5,"LacticAcid").
+trace(790,6,"Leucocytes").
+trace(790,7,"IV Liquid").
+trace(790,8,"Admission NC").
+trace(790,9,"CRP").
+trace(790,10,"Leucocytes").
+trace(790,11,"Admission NC").
+trace(790,12,"CRP").
+trace(790,13,"Leucocytes").
+trace(790,14,"Release A").
+trace(791,0,"IV Liquid").
+trace(791,1,"ER Registration").
+trace(791,2,"ER Triage").
+trace(791,3,"Leucocytes").
+trace(791,4,"CRP").
+trace(791,5,"LacticAcid").
+trace(791,6,"ER Sepsis Triage").
+trace(791,7,"IV Antibiotics").
+trace(791,8,"Admission IC").
+trace(791,9,"LacticAcid").
+trace(791,10,"CRP").
+trace(791,11,"Leucocytes").
+trace(792,0,"ER Registration").
+trace(792,1,"ER Triage").
+trace(792,2,"ER Sepsis Triage").
+trace(792,3,"IV Liquid").
+trace(792,4,"LacticAcid").
+trace(792,5,"Leucocytes").
+trace(792,6,"CRP").
+trace(792,7,"IV Antibiotics").
+trace(792,8,"Admission IC").
+trace(792,9,"LacticAcid").
+trace(792,10,"CRP").
+trace(792,11,"Leucocytes").
+trace(792,12,"Admission NC").
+trace(792,13,"Admission NC").
+trace(792,14,"Release A").
+trace(793,0,"ER Registration").
+trace(793,1,"ER Triage").
+trace(793,2,"ER Sepsis Triage").
+trace(793,3,"IV Liquid").
+trace(793,4,"IV Antibiotics").
+trace(793,5,"CRP").
+trace(793,6,"Leucocytes").
+trace(793,7,"LacticAcid").
+trace(793,8,"Admission NC").
+trace(793,9,"Leucocytes").
+trace(793,10,"CRP").
+trace(793,11,"Leucocytes").
+trace(793,12,"CRP").
+trace(793,13,"Leucocytes").
+trace(793,14,"CRP").
+trace(793,15,"Admission NC").
+trace(793,16,"Leucocytes").
+trace(793,17,"CRP").
+trace(793,18,"CRP").
+trace(793,19,"Leucocytes").
+trace(793,20,"Leucocytes").
+trace(793,21,"CRP").
+trace(793,22,"Release D").
+trace(794,0,"ER Registration").
+trace(794,1,"ER Triage").
+trace(794,2,"ER Sepsis Triage").
+trace(794,3,"Leucocytes").
+trace(794,4,"CRP").
+trace(794,5,"LacticAcid").
+trace(794,6,"IV Liquid").
+trace(794,7,"IV Antibiotics").
+trace(794,8,"Admission NC").
+trace(794,9,"Admission NC").
+trace(794,10,"CRP").
+trace(794,11,"Leucocytes").
+trace(794,12,"LacticAcid").
+trace(794,13,"Leucocytes").
+trace(794,14,"CRP").
+trace(794,15,"Release A").
+trace(795,0,"ER Registration").
+trace(795,1,"ER Triage").
+trace(795,2,"ER Sepsis Triage").
+trace(795,3,"Leucocytes").
+trace(795,4,"CRP").
+trace(795,5,"Admission NC").
+trace(795,6,"Leucocytes").
+trace(795,7,"Release A").
+trace(795,8,"Return ER").
+trace(796,0,"ER Registration").
+trace(796,1,"ER Triage").
+trace(796,2,"ER Sepsis Triage").
+trace(796,3,"IV Liquid").
+trace(796,4,"CRP").
+trace(796,5,"Leucocytes").
+trace(796,6,"LacticAcid").
+trace(796,7,"IV Antibiotics").
+trace(797,0,"ER Registration").
+trace(797,1,"ER Triage").
+trace(797,2,"ER Sepsis Triage").
+trace(797,3,"CRP").
+trace(797,4,"Leucocytes").
+trace(797,5,"LacticAcid").
+trace(797,6,"IV Liquid").
+trace(797,7,"IV Antibiotics").
+trace(797,8,"Admission NC").
+trace(797,9,"Leucocytes").
+trace(797,10,"CRP").
+trace(797,11,"Leucocytes").
+trace(797,12,"CRP").
+trace(797,13,"Release A").
+trace(798,0,"ER Registration").
+trace(798,1,"ER Triage").
+trace(798,2,"ER Sepsis Triage").
+trace(798,3,"IV Liquid").
+trace(798,4,"IV Antibiotics").
+trace(798,5,"Leucocytes").
+trace(798,6,"CRP").
+trace(798,7,"LacticAcid").
+trace(798,8,"Admission NC").
+trace(798,9,"Release A").
+trace(799,0,"Leucocytes").
+trace(799,1,"CRP").
+trace(799,2,"ER Registration").
+trace(799,3,"ER Triage").
+trace(799,4,"ER Sepsis Triage").
+trace(799,5,"CRP").
+trace(799,6,"LacticAcid").
+trace(799,7,"Leucocytes").
+trace(799,8,"IV Liquid").
+trace(799,9,"IV Antibiotics").
+trace(799,10,"Admission NC").
+trace(799,11,"Leucocytes").
+trace(799,12,"CRP").
+trace(799,13,"Admission NC").
+trace(799,14,"CRP").
+trace(799,15,"Leucocytes").
+trace(799,16,"Leucocytes").
+trace(799,17,"Leucocytes").
+trace(799,18,"CRP").
+trace(799,19,"Leucocytes").
+trace(799,20,"CRP").
+trace(799,21,"CRP").
+trace(799,22,"Leucocytes").
+trace(799,23,"CRP").
+trace(799,24,"Leucocytes").
+trace(799,25,"Leucocytes").
+trace(799,26,"CRP").
+trace(799,27,"Leucocytes").
+trace(799,28,"CRP").
+trace(799,29,"Release A").
+trace(800,0,"ER Registration").
+trace(800,1,"ER Triage").
+trace(800,2,"ER Sepsis Triage").
+trace(800,3,"IV Liquid").
+trace(800,4,"Leucocytes").
+trace(800,5,"CRP").
+trace(800,6,"LacticAcid").
+trace(800,7,"IV Antibiotics").
+trace(800,8,"Admission NC").
+trace(800,9,"Leucocytes").
+trace(800,10,"CRP").
+trace(800,11,"Release A").
+trace(800,12,"Return ER").
+trace(801,0,"IV Liquid").
+trace(801,1,"ER Registration").
+trace(801,2,"ER Triage").
+trace(801,3,"ER Sepsis Triage").
+trace(801,4,"LacticAcid").
+trace(801,5,"Leucocytes").
+trace(801,6,"CRP").
+trace(801,7,"IV Antibiotics").
+trace(801,8,"Admission IC").
+trace(801,9,"Leucocytes").
+trace(801,10,"CRP").
+trace(801,11,"LacticAcid").
+trace(801,12,"CRP").
+trace(801,13,"LacticAcid").
+trace(801,14,"Leucocytes").
+trace(801,15,"Admission NC").
+trace(801,16,"Leucocytes").
+trace(801,17,"CRP").
+trace(801,18,"Leucocytes").
+trace(801,19,"CRP").
+trace(801,20,"Leucocytes").
+trace(801,21,"CRP").
+trace(801,22,"Leucocytes").
+trace(801,23,"CRP").
+trace(801,24,"CRP").
+trace(801,25,"Leucocytes").
+trace(801,26,"Leucocytes").
+trace(801,27,"CRP").
+trace(801,28,"Leucocytes").
+trace(801,29,"CRP").
+trace(801,30,"Release A").
+trace(802,0,"ER Registration").
+trace(802,1,"ER Triage").
+trace(802,2,"ER Sepsis Triage").
+trace(802,3,"LacticAcid").
+trace(802,4,"Leucocytes").
+trace(802,5,"CRP").
+trace(803,0,"ER Registration").
+trace(803,1,"ER Triage").
+trace(803,2,"ER Sepsis Triage").
+trace(803,3,"IV Liquid").
+trace(803,4,"IV Antibiotics").
+trace(803,5,"Leucocytes").
+trace(803,6,"LacticAcid").
+trace(803,7,"CRP").
+trace(803,8,"Admission NC").
+trace(803,9,"Leucocytes").
+trace(803,10,"CRP").
+trace(803,11,"Release A").
+trace(803,12,"Return ER").
+trace(804,0,"ER Registration").
+trace(804,1,"ER Triage").
+trace(804,2,"ER Sepsis Triage").
+trace(804,3,"IV Liquid").
+trace(804,4,"LacticAcid").
+trace(804,5,"Leucocytes").
+trace(804,6,"CRP").
+trace(804,7,"IV Antibiotics").
+trace(804,8,"Admission IC").
+trace(804,9,"CRP").
+trace(804,10,"Leucocytes").
+trace(804,11,"LacticAcid").
+trace(804,12,"LacticAcid").
+trace(804,13,"Leucocytes").
+trace(804,14,"Admission NC").
+trace(804,15,"CRP").
+trace(804,16,"Release A").
+trace(804,17,"Return ER").
+trace(805,0,"ER Registration").
+trace(805,1,"ER Triage").
+trace(805,2,"ER Sepsis Triage").
+trace(805,3,"LacticAcid").
+trace(805,4,"CRP").
+trace(805,5,"Leucocytes").
+trace(805,6,"IV Liquid").
+trace(805,7,"IV Antibiotics").
+trace(805,8,"Admission NC").
+trace(806,0,"CRP").
+trace(806,1,"Leucocytes").
+trace(806,2,"LacticAcid").
+trace(806,3,"ER Registration").
+trace(806,4,"ER Triage").
+trace(806,5,"ER Sepsis Triage").
+trace(806,6,"IV Antibiotics").
+trace(806,7,"IV Liquid").
+trace(807,0,"ER Registration").
+trace(807,1,"ER Triage").
+trace(807,2,"CRP").
+trace(807,3,"Leucocytes").
+trace(807,4,"LacticAcid").
+trace(807,5,"ER Sepsis Triage").
+trace(807,6,"IV Liquid").
+trace(807,7,"IV Antibiotics").
+trace(807,8,"Admission NC").
+trace(807,9,"CRP").
+trace(807,10,"Leucocytes").
+trace(807,11,"CRP").
+trace(807,12,"CRP").
+trace(807,13,"Release A").
+trace(808,0,"ER Registration").
+trace(808,1,"ER Triage").
+trace(808,2,"ER Sepsis Triage").
+trace(808,3,"IV Liquid").
+trace(808,4,"LacticAcid").
+trace(808,5,"CRP").
+trace(808,6,"Leucocytes").
+trace(808,7,"IV Antibiotics").
+trace(808,8,"Admission NC").
+trace(808,9,"Leucocytes").
+trace(808,10,"CRP").
+trace(808,11,"Admission NC").
+trace(808,12,"CRP").
+trace(808,13,"Release A").
+trace(809,0,"ER Registration").
+trace(809,1,"ER Triage").
+trace(809,2,"ER Sepsis Triage").
+trace(809,3,"CRP").
+trace(809,4,"Leucocytes").
+trace(809,5,"LacticAcid").
+trace(809,6,"IV Antibiotics").
+trace(809,7,"IV Liquid").
+trace(809,8,"Admission NC").
+trace(809,9,"Leucocytes").
+trace(809,10,"CRP").
+trace(809,11,"Release A").
+trace(809,12,"Return ER").
+trace(810,0,"ER Registration").
+trace(810,1,"ER Triage").
+trace(810,2,"Leucocytes").
+trace(810,3,"CRP").
+trace(810,4,"LacticAcid").
+trace(810,5,"ER Sepsis Triage").
+trace(810,6,"IV Liquid").
+trace(810,7,"IV Antibiotics").
+trace(810,8,"Admission NC").
+trace(810,9,"Release A").
+trace(811,0,"ER Registration").
+trace(811,1,"ER Triage").
+trace(811,2,"ER Sepsis Triage").
+trace(811,3,"Leucocytes").
+trace(811,4,"CRP").
+trace(811,5,"LacticAcid").
+trace(811,6,"IV Antibiotics").
+trace(811,7,"Admission NC").
+trace(811,8,"IV Liquid").
+trace(811,9,"Leucocytes").
+trace(811,10,"CRP").
+trace(811,11,"CRP").
+trace(811,12,"Leucocytes").
+trace(811,13,"Release A").
+trace(812,0,"ER Registration").
+trace(812,1,"ER Triage").
+trace(812,2,"ER Sepsis Triage").
+trace(812,3,"IV Liquid").
+trace(812,4,"CRP").
+trace(812,5,"Leucocytes").
+trace(812,6,"LacticAcid").
+trace(812,7,"IV Antibiotics").
+trace(812,8,"Admission NC").
+trace(812,9,"Leucocytes").
+trace(812,10,"CRP").
+trace(812,11,"CRP").
+trace(812,12,"Leucocytes").
+trace(812,13,"Leucocytes").
+trace(812,14,"CRP").
+trace(812,15,"Release A").
+trace(812,16,"Return ER").
+trace(812,17,"CRP").
+trace(812,18,"Leucocytes").
+trace(813,0,"ER Registration").
+trace(813,1,"IV Liquid").
+trace(813,2,"ER Triage").
+trace(813,3,"ER Sepsis Triage").
+trace(813,4,"IV Antibiotics").
+trace(813,5,"LacticAcid").
+trace(813,6,"Leucocytes").
+trace(813,7,"CRP").
+trace(813,8,"Admission NC").
+trace(813,9,"CRP").
+trace(813,10,"Leucocytes").
+trace(813,11,"Release A").
+trace(813,12,"Return ER").
+trace(814,0,"ER Registration").
+trace(814,1,"ER Triage").
+trace(814,2,"ER Sepsis Triage").
+trace(814,3,"IV Liquid").
+trace(814,4,"Leucocytes").
+trace(814,5,"LacticAcid").
+trace(814,6,"CRP").
+trace(814,7,"IV Antibiotics").
+trace(814,8,"Admission NC").
+trace(815,0,"ER Registration").
+trace(815,1,"ER Triage").
+trace(815,2,"ER Sepsis Triage").
+trace(815,3,"Leucocytes").
+trace(815,4,"LacticAcid").
+trace(815,5,"CRP").
+trace(815,6,"IV Liquid").
+trace(815,7,"IV Antibiotics").
+trace(816,0,"ER Registration").
+trace(816,1,"ER Triage").
+trace(816,2,"ER Sepsis Triage").
+trace(816,3,"IV Liquid").
+trace(816,4,"CRP").
+trace(816,5,"LacticAcid").
+trace(816,6,"Leucocytes").
+trace(816,7,"IV Antibiotics").
+trace(816,8,"Admission NC").
+trace(816,9,"CRP").
+trace(816,10,"Leucocytes").
+trace(816,11,"CRP").
+trace(816,12,"CRP").
+trace(816,13,"Admission IC").
+trace(816,14,"Leucocytes").
+trace(816,15,"CRP").
+trace(816,16,"LacticAcid").
+trace(816,17,"Leucocytes").
+trace(816,18,"LacticAcid").
+trace(816,19,"Leucocytes").
+trace(816,20,"CRP").
+trace(816,21,"Leucocytes").
+trace(816,22,"LacticAcid").
+trace(816,23,"Leucocytes").
+trace(816,24,"Leucocytes").
+trace(816,25,"Leucocytes").
+trace(816,26,"Leucocytes").
+trace(816,27,"Leucocytes").
+trace(816,28,"Leucocytes").
+trace(816,29,"Release B").
+trace(817,0,"ER Registration").
+trace(817,1,"ER Triage").
+trace(817,2,"ER Sepsis Triage").
+trace(817,3,"LacticAcid").
+trace(817,4,"CRP").
+trace(817,5,"Leucocytes").
+trace(817,6,"IV Liquid").
+trace(817,7,"IV Antibiotics").
+trace(817,8,"Admission NC").
+trace(817,9,"CRP").
+trace(817,10,"Leucocytes").
+trace(817,11,"Admission NC").
+trace(817,12,"Leucocytes").
+trace(817,13,"CRP").
+trace(817,14,"Leucocytes").
+trace(817,15,"CRP").
+trace(817,16,"Leucocytes").
+trace(817,17,"CRP").
+trace(817,18,"CRP").
+trace(817,19,"Leucocytes").
+trace(817,20,"Release A").
+trace(818,0,"ER Registration").
+trace(818,1,"ER Triage").
+trace(818,2,"ER Sepsis Triage").
+trace(818,3,"Leucocytes").
+trace(818,4,"LacticAcid").
+trace(818,5,"CRP").
+trace(818,6,"IV Antibiotics").
+trace(818,7,"Admission IC").
+trace(818,8,"CRP").
+trace(818,9,"LacticAcid").
+trace(818,10,"Leucocytes").
+trace(818,11,"Leucocytes").
+trace(818,12,"Leucocytes").
+trace(818,13,"Leucocytes").
+trace(818,14,"Leucocytes").
+trace(818,15,"CRP").
+trace(818,16,"LacticAcid").
+trace(818,17,"Leucocytes").
+trace(818,18,"CRP").
+trace(818,19,"LacticAcid").
+trace(818,20,"LacticAcid").
+trace(818,21,"CRP").
+trace(818,22,"Leucocytes").
+trace(818,23,"Admission NC").
+trace(818,24,"Leucocytes").
+trace(818,25,"CRP").
+trace(818,26,"Leucocytes").
+trace(818,27,"CRP").
+trace(818,28,"Leucocytes").
+trace(818,29,"CRP").
+trace(818,30,"CRP").
+trace(818,31,"Leucocytes").
+trace(818,32,"Leucocytes").
+trace(818,33,"CRP").
+trace(818,34,"Leucocytes").
+trace(818,35,"CRP").
+trace(818,36,"CRP").
+trace(818,37,"Leucocytes").
+trace(818,38,"Leucocytes").
+trace(818,39,"CRP").
+trace(818,40,"Leucocytes").
+trace(818,41,"CRP").
+trace(818,42,"Leucocytes").
+trace(818,43,"CRP").
+trace(818,44,"Leucocytes").
+trace(818,45,"CRP").
+trace(818,46,"Leucocytes").
+trace(818,47,"CRP").
+trace(818,48,"Leucocytes").
+trace(818,49,"CRP").
+trace(818,50,"Release A").
+trace(819,0,"ER Registration").
+trace(819,1,"ER Triage").
+trace(819,2,"CRP").
+trace(819,3,"LacticAcid").
+trace(819,4,"Leucocytes").
+trace(819,5,"ER Sepsis Triage").
+trace(819,6,"IV Liquid").
+trace(819,7,"IV Antibiotics").
+trace(819,8,"Admission NC").
+trace(819,9,"Admission NC").
+trace(819,10,"Leucocytes").
+trace(819,11,"CRP").
+trace(819,12,"CRP").
+trace(819,13,"Leucocytes").
+trace(819,14,"CRP").
+trace(819,15,"Leucocytes").
+trace(819,16,"Leucocytes").
+trace(819,17,"CRP").
+trace(819,18,"Release D").
+trace(819,19,"Return ER").
+trace(820,0,"ER Registration").
+trace(820,1,"ER Triage").
+trace(820,2,"ER Sepsis Triage").
+trace(820,3,"LacticAcid").
+trace(820,4,"Leucocytes").
+trace(820,5,"CRP").
+trace(820,6,"IV Liquid").
+trace(820,7,"IV Antibiotics").
+trace(820,8,"Admission NC").
+trace(820,9,"Release A").
+trace(821,0,"ER Registration").
+trace(821,1,"Leucocytes").
+trace(821,2,"CRP").
+trace(821,3,"ER Triage").
+trace(821,4,"ER Sepsis Triage").
+trace(821,5,"IV Liquid").
+trace(821,6,"IV Antibiotics").
+trace(822,0,"ER Registration").
+trace(822,1,"ER Triage").
+trace(822,2,"ER Sepsis Triage").
+trace(822,3,"Leucocytes").
+trace(822,4,"CRP").
+trace(822,5,"LacticAcid").
+trace(823,0,"ER Registration").
+trace(823,1,"ER Triage").
+trace(823,2,"ER Sepsis Triage").
+trace(823,3,"IV Antibiotics").
+trace(823,4,"CRP").
+trace(823,5,"Leucocytes").
+trace(823,6,"LacticAcid").
+trace(823,7,"Admission NC").
+trace(823,8,"Release A").
+trace(823,9,"Return ER").
+trace(824,0,"ER Registration").
+trace(824,1,"ER Triage").
+trace(824,2,"CRP").
+trace(824,3,"Leucocytes").
+trace(824,4,"LacticAcid").
+trace(824,5,"Admission NC").
+trace(824,6,"ER Sepsis Triage").
+trace(824,7,"IV Liquid").
+trace(824,8,"IV Antibiotics").
+trace(824,9,"Admission NC").
+trace(824,10,"Leucocytes").
+trace(824,11,"CRP").
+trace(824,12,"Release A").
+trace(825,0,"ER Registration").
+trace(825,1,"ER Triage").
+trace(825,2,"ER Sepsis Triage").
+trace(826,0,"ER Registration").
+trace(826,1,"ER Triage").
+trace(826,2,"ER Sepsis Triage").
+trace(826,3,"LacticAcid").
+trace(826,4,"CRP").
+trace(826,5,"Leucocytes").
+trace(826,6,"IV Liquid").
+trace(826,7,"IV Antibiotics").
+trace(827,0,"ER Registration").
+trace(827,1,"ER Triage").
+trace(827,2,"ER Sepsis Triage").
+trace(827,3,"CRP").
+trace(827,4,"Leucocytes").
+trace(827,5,"IV Liquid").
+trace(827,6,"IV Antibiotics").
+trace(828,0,"ER Registration").
+trace(828,1,"ER Triage").
+trace(828,2,"ER Sepsis Triage").
+trace(828,3,"Leucocytes").
+trace(828,4,"CRP").
+trace(828,5,"LacticAcid").
+trace(828,6,"IV Liquid").
+trace(828,7,"IV Antibiotics").
+trace(828,8,"Admission NC").
+trace(828,9,"CRP").
+trace(828,10,"Leucocytes").
+trace(828,11,"Release A").
+trace(829,0,"ER Registration").
+trace(829,1,"ER Triage").
+trace(829,2,"ER Sepsis Triage").
+trace(829,3,"LacticAcid").
+trace(829,4,"Leucocytes").
+trace(829,5,"CRP").
+trace(829,6,"IV Liquid").
+trace(829,7,"IV Antibiotics").
+trace(829,8,"Admission NC").
+trace(829,9,"Release A").
+trace(830,0,"ER Registration").
+trace(830,1,"ER Triage").
+trace(830,2,"ER Sepsis Triage").
+trace(830,3,"IV Liquid").
+trace(830,4,"IV Antibiotics").
+trace(830,5,"CRP").
+trace(830,6,"Leucocytes").
+trace(830,7,"LacticAcid").
+trace(830,8,"Admission IC").
+trace(830,9,"LacticAcid").
+trace(830,10,"CRP").
+trace(830,11,"Leucocytes").
+trace(830,12,"CRP").
+trace(830,13,"Leucocytes").
+trace(830,14,"LacticAcid").
+trace(830,15,"Admission NC").
+trace(830,16,"Release A").
+trace(830,17,"Return ER").
+trace(831,0,"ER Registration").
+trace(831,1,"ER Triage").
+trace(831,2,"ER Sepsis Triage").
+trace(831,3,"Leucocytes").
+trace(831,4,"CRP").
+trace(831,5,"IV Antibiotics").
+trace(831,6,"Admission NC").
+trace(831,7,"CRP").
+trace(831,8,"CRP").
+trace(831,9,"CRP").
+trace(831,10,"CRP").
+trace(831,11,"Release A").
+trace(831,12,"Return ER").
+trace(832,0,"Leucocytes").
+trace(832,1,"CRP").
+trace(832,2,"ER Registration").
+trace(832,3,"ER Triage").
+trace(832,4,"ER Sepsis Triage").
+trace(832,5,"IV Liquid").
+trace(832,6,"IV Antibiotics").
+trace(832,7,"CRP").
+trace(832,8,"Leucocytes").
+trace(832,9,"LacticAcid").
+trace(832,10,"Admission NC").
+trace(832,11,"Leucocytes").
+trace(832,12,"LacticAcid").
+trace(832,13,"Admission NC").
+trace(832,14,"Leucocytes").
+trace(832,15,"CRP").
+trace(832,16,"Admission IC").
+trace(832,17,"LacticAcid").
+trace(832,18,"Leucocytes").
+trace(832,19,"CRP").
+trace(832,20,"Release B").
+trace(833,0,"ER Registration").
+trace(833,1,"ER Triage").
+trace(833,2,"ER Sepsis Triage").
+trace(833,3,"LacticAcid").
+trace(833,4,"CRP").
+trace(833,5,"Leucocytes").
+trace(833,6,"IV Antibiotics").
+trace(833,7,"Admission NC").
+trace(833,8,"CRP").
+trace(833,9,"Leucocytes").
+trace(833,10,"Admission NC").
+trace(833,11,"CRP").
+trace(833,12,"Leucocytes").
+trace(833,13,"Leucocytes").
+trace(833,14,"CRP").
+trace(833,15,"Leucocytes").
+trace(833,16,"CRP").
+trace(833,17,"Release A").
+trace(834,0,"ER Registration").
+trace(834,1,"ER Triage").
+trace(834,2,"ER Sepsis Triage").
+trace(834,3,"Leucocytes").
+trace(834,4,"CRP").
+trace(834,5,"Admission NC").
+trace(834,6,"Admission NC").
+trace(834,7,"Leucocytes").
+trace(834,8,"CRP").
+trace(834,9,"Release A").
+trace(835,0,"ER Registration").
+trace(835,1,"ER Triage").
+trace(835,2,"ER Sepsis Triage").
+trace(835,3,"Leucocytes").
+trace(835,4,"CRP").
+trace(835,5,"LacticAcid").
+trace(836,0,"ER Registration").
+trace(836,1,"ER Triage").
+trace(836,2,"ER Sepsis Triage").
+trace(837,0,"ER Registration").
+trace(837,1,"ER Triage").
+trace(837,2,"ER Sepsis Triage").
+trace(837,3,"LacticAcid").
+trace(837,4,"Leucocytes").
+trace(837,5,"CRP").
+trace(837,6,"IV Liquid").
+trace(837,7,"IV Antibiotics").
+trace(837,8,"Admission NC").
+trace(837,9,"Release A").
+trace(838,0,"ER Registration").
+trace(838,1,"ER Triage").
+trace(838,2,"ER Sepsis Triage").
+trace(838,3,"IV Liquid").
+trace(838,4,"LacticAcid").
+trace(838,5,"Leucocytes").
+trace(838,6,"CRP").
+trace(838,7,"IV Antibiotics").
+trace(839,0,"ER Registration").
+trace(839,1,"ER Triage").
+trace(839,2,"ER Sepsis Triage").
+trace(839,3,"Leucocytes").
+trace(839,4,"CRP").
+trace(839,5,"LacticAcid").
+trace(839,6,"IV Liquid").
+trace(839,7,"IV Antibiotics").
+trace(840,0,"ER Registration").
+trace(840,1,"ER Triage").
+trace(840,2,"ER Sepsis Triage").
+trace(840,3,"Leucocytes").
+trace(840,4,"CRP").
+trace(840,5,"Admission NC").
+trace(840,6,"Release A").
+trace(840,7,"Return ER").
+trace(841,0,"ER Registration").
+trace(841,1,"ER Triage").
+trace(841,2,"ER Sepsis Triage").
+trace(841,3,"IV Liquid").
+trace(841,4,"Leucocytes").
+trace(841,5,"CRP").
+trace(841,6,"LacticAcid").
+trace(841,7,"IV Antibiotics").
+trace(841,8,"Admission NC").
+trace(841,9,"Admission NC").
+trace(841,10,"CRP").
+trace(841,11,"Leucocytes").
+trace(841,12,"CRP").
+trace(841,13,"Release A").
+trace(841,14,"Return ER").
+trace(842,0,"ER Registration").
+trace(842,1,"ER Triage").
+trace(842,2,"ER Sepsis Triage").
+trace(842,3,"CRP").
+trace(842,4,"LacticAcid").
+trace(842,5,"Leucocytes").
+trace(842,6,"IV Liquid").
+trace(842,7,"IV Antibiotics").
+trace(842,8,"Admission NC").
+trace(842,9,"Release A").
+trace(843,0,"ER Registration").
+trace(843,1,"ER Triage").
+trace(843,2,"Leucocytes").
+trace(843,3,"CRP").
+trace(843,4,"LacticAcid").
+trace(843,5,"ER Sepsis Triage").
+trace(843,6,"IV Liquid").
+trace(843,7,"IV Antibiotics").
+trace(843,8,"Admission NC").
+trace(843,9,"Leucocytes").
+trace(843,10,"CRP").
+trace(843,11,"Release A").
+trace(843,12,"Return ER").
+trace(844,0,"ER Registration").
+trace(844,1,"ER Triage").
+trace(844,2,"ER Sepsis Triage").
+trace(844,3,"CRP").
+trace(844,4,"Leucocytes").
+trace(844,5,"LacticAcid").
+trace(844,6,"IV Liquid").
+trace(844,7,"IV Antibiotics").
+trace(845,0,"ER Registration").
+trace(845,1,"LacticAcid").
+trace(845,2,"Leucocytes").
+trace(845,3,"CRP").
+trace(845,4,"ER Triage").
+trace(845,5,"ER Sepsis Triage").
+trace(845,6,"IV Antibiotics").
+trace(846,0,"ER Registration").
+trace(846,1,"ER Triage").
+trace(846,2,"ER Sepsis Triage").
+trace(846,3,"IV Liquid").
+trace(846,4,"IV Antibiotics").
+trace(846,5,"Leucocytes").
+trace(846,6,"LacticAcid").
+trace(846,7,"CRP").
+trace(846,8,"Admission IC").
+trace(846,9,"LacticAcid").
+trace(846,10,"CRP").
+trace(846,11,"LacticAcid").
+trace(846,12,"Leucocytes").
+trace(846,13,"LacticAcid").
+trace(846,14,"CRP").
+trace(846,15,"Leucocytes").
+trace(846,16,"Admission NC").
+trace(846,17,"Leucocytes").
+trace(846,18,"CRP").
+trace(846,19,"Release A").
+trace(847,0,"ER Registration").
+trace(847,1,"ER Triage").
+trace(847,2,"ER Sepsis Triage").
+trace(847,3,"CRP").
+trace(847,4,"Leucocytes").
+trace(847,5,"LacticAcid").
+trace(847,6,"Admission NC").
+trace(847,7,"Release B").
+trace(848,0,"ER Registration").
+trace(848,1,"IV Liquid").
+trace(848,2,"ER Triage").
+trace(848,3,"ER Sepsis Triage").
+trace(848,4,"IV Antibiotics").
+trace(848,5,"LacticAcid").
+trace(848,6,"Leucocytes").
+trace(848,7,"CRP").
+trace(848,8,"Admission NC").
+trace(848,9,"Release B").
+trace(849,0,"ER Registration").
+trace(849,1,"ER Triage").
+trace(849,2,"ER Sepsis Triage").
+trace(849,3,"IV Liquid").
+trace(849,4,"CRP").
+trace(849,5,"LacticAcid").
+trace(849,6,"Leucocytes").
+trace(849,7,"IV Antibiotics").
+trace(849,8,"Admission NC").
+trace(849,9,"ER Triage").
+trace(849,10,"Leucocytes").
+trace(849,11,"CRP").
+trace(849,12,"CRP").
+trace(849,13,"Leucocytes").
+trace(849,14,"Release A").
+trace(849,15,"Return ER").
+trace(850,0,"ER Registration").
+trace(850,1,"ER Triage").
+trace(850,2,"Leucocytes").
+trace(850,3,"LacticAcid").
+trace(850,4,"CRP").
+trace(850,5,"ER Sepsis Triage").
+trace(851,0,"ER Registration").
+trace(851,1,"ER Triage").
+trace(851,2,"LacticAcid").
+trace(851,3,"Leucocytes").
+trace(851,4,"CRP").
+trace(851,5,"ER Sepsis Triage").
+trace(851,6,"IV Liquid").
+trace(851,7,"IV Antibiotics").
+trace(852,0,"ER Registration").
+trace(852,1,"ER Triage").
+trace(852,2,"ER Sepsis Triage").
+trace(852,3,"Leucocytes").
+trace(852,4,"CRP").
+trace(852,5,"LacticAcid").
+trace(852,6,"IV Antibiotics").
+trace(852,7,"IV Liquid").
+trace(852,8,"Admission NC").
+trace(852,9,"Admission NC").
+trace(852,10,"Leucocytes").
+trace(852,11,"CRP").
+trace(852,12,"Leucocytes").
+trace(852,13,"CRP").
+trace(852,14,"Leucocytes").
+trace(852,15,"Release A").
+trace(853,0,"ER Registration").
+trace(853,1,"ER Triage").
+trace(853,2,"ER Sepsis Triage").
+trace(853,3,"IV Liquid").
+trace(853,4,"IV Antibiotics").
+trace(853,5,"Leucocytes").
+trace(853,6,"LacticAcid").
+trace(853,7,"CRP").
+trace(853,8,"Admission NC").
+trace(853,9,"Leucocytes").
+trace(853,10,"CRP").
+trace(853,11,"Release A").
+trace(853,12,"Return ER").
+trace(854,0,"ER Registration").
+trace(854,1,"ER Triage").
+trace(854,2,"ER Sepsis Triage").
+trace(854,3,"Leucocytes").
+trace(854,4,"CRP").
+trace(854,5,"Admission NC").
+trace(854,6,"Admission IC").
+trace(854,7,"Leucocytes").
+trace(854,8,"CRP").
+trace(854,9,"LacticAcid").
+trace(854,10,"CRP").
+trace(854,11,"LacticAcid").
+trace(854,12,"Leucocytes").
+trace(854,13,"Leucocytes").
+trace(854,14,"CRP").
+trace(854,15,"LacticAcid").
+trace(854,16,"Admission NC").
+trace(854,17,"Release A").
+trace(854,18,"Return ER").
+trace(855,0,"ER Registration").
+trace(855,1,"ER Triage").
+trace(855,2,"ER Sepsis Triage").
+trace(855,3,"IV Liquid").
+trace(855,4,"IV Antibiotics").
+trace(855,5,"Leucocytes").
+trace(855,6,"LacticAcid").
+trace(855,7,"CRP").
+trace(855,8,"Admission NC").
+trace(855,9,"Leucocytes").
+trace(855,10,"CRP").
+trace(855,11,"Release A").
+trace(856,0,"ER Registration").
+trace(856,1,"ER Triage").
+trace(856,2,"ER Sepsis Triage").
+trace(856,3,"Leucocytes").
+trace(856,4,"CRP").
+trace(856,5,"LacticAcid").
+trace(856,6,"IV Liquid").
+trace(856,7,"IV Antibiotics").
+trace(856,8,"Admission NC").
+trace(856,9,"Leucocytes").
+trace(856,10,"CRP").
+trace(856,11,"Release A").
+trace(856,12,"Return ER").
+trace(857,0,"ER Registration").
+trace(857,1,"ER Triage").
+trace(857,2,"ER Sepsis Triage").
+trace(857,3,"LacticAcid").
+trace(857,4,"Leucocytes").
+trace(857,5,"CRP").
+trace(857,6,"IV Liquid").
+trace(857,7,"IV Antibiotics").
+trace(857,8,"Admission NC").
+trace(857,9,"Leucocytes").
+trace(857,10,"CRP").
+trace(857,11,"Admission NC").
+trace(857,12,"CRP").
+trace(857,13,"Leucocytes").
+trace(857,14,"Release A").
+trace(858,0,"ER Registration").
+trace(858,1,"CRP").
+trace(858,2,"LacticAcid").
+trace(858,3,"Leucocytes").
+trace(858,4,"ER Triage").
+trace(858,5,"ER Sepsis Triage").
+trace(858,6,"IV Liquid").
+trace(858,7,"IV Antibiotics").
+trace(858,8,"Admission NC").
+trace(858,9,"Leucocytes").
+trace(858,10,"CRP").
+trace(858,11,"Release A").
+trace(859,0,"ER Registration").
+trace(859,1,"ER Triage").
+trace(859,2,"ER Sepsis Triage").
+trace(859,3,"Leucocytes").
+trace(859,4,"CRP").
+trace(859,5,"IV Liquid").
+trace(859,6,"IV Antibiotics").
+trace(859,7,"Admission NC").
+trace(859,8,"Admission NC").
+trace(859,9,"Release B").
+trace(860,0,"ER Registration").
+trace(860,1,"ER Triage").
+trace(860,2,"ER Sepsis Triage").
+trace(860,3,"IV Liquid").
+trace(860,4,"IV Antibiotics").
+trace(860,5,"CRP").
+trace(860,6,"LacticAcid").
+trace(860,7,"Leucocytes").
+trace(860,8,"Admission NC").
+trace(860,9,"Leucocytes").
+trace(860,10,"CRP").
+trace(860,11,"Leucocytes").
+trace(860,12,"Leucocytes").
+trace(860,13,"CRP").
+trace(860,14,"CRP").
+trace(860,15,"Leucocytes").
+trace(860,16,"Admission NC").
+trace(860,17,"Release C").
+trace(861,0,"ER Registration").
+trace(861,1,"ER Triage").
+trace(861,2,"ER Sepsis Triage").
+trace(861,3,"IV Liquid").
+trace(861,4,"Leucocytes").
+trace(861,5,"CRP").
+trace(861,6,"LacticAcid").
+trace(861,7,"IV Antibiotics").
+trace(861,8,"Admission NC").
+trace(861,9,"Admission NC").
+trace(861,10,"CRP").
+trace(861,11,"Leucocytes").
+trace(861,12,"Release A").
+trace(862,0,"ER Registration").
+trace(862,1,"ER Triage").
+trace(862,2,"ER Sepsis Triage").
+trace(862,3,"CRP").
+trace(862,4,"Leucocytes").
+trace(862,5,"LacticAcid").
+trace(862,6,"IV Antibiotics").
+trace(862,7,"Admission NC").
+trace(862,8,"CRP").
+trace(862,9,"Leucocytes").
+trace(862,10,"IV Liquid").
+trace(863,0,"ER Registration").
+trace(863,1,"ER Triage").
+trace(863,2,"ER Sepsis Triage").
+trace(863,3,"LacticAcid").
+trace(863,4,"Leucocytes").
+trace(863,5,"CRP").
+trace(863,6,"IV Liquid").
+trace(863,7,"IV Antibiotics").
+trace(864,0,"ER Registration").
+trace(864,1,"ER Triage").
+trace(864,2,"Leucocytes").
+trace(864,3,"CRP").
+trace(864,4,"LacticAcid").
+trace(864,5,"ER Sepsis Triage").
+trace(864,6,"IV Liquid").
+trace(864,7,"IV Antibiotics").
+trace(864,8,"Admission NC").
+trace(864,9,"Leucocytes").
+trace(864,10,"CRP").
+trace(864,11,"LacticAcid").
+trace(864,12,"Leucocytes").
+trace(864,13,"CRP").
+trace(864,14,"CRP").
+trace(864,15,"Release A").
+trace(865,0,"ER Registration").
+trace(865,1,"ER Triage").
+trace(865,2,"ER Sepsis Triage").
+trace(865,3,"IV Liquid").
+trace(865,4,"Leucocytes").
+trace(865,5,"CRP").
+trace(865,6,"LacticAcid").
+trace(865,7,"IV Antibiotics").
+trace(865,8,"Admission NC").
+trace(865,9,"Admission NC").
+trace(865,10,"CRP").
+trace(865,11,"Leucocytes").
+trace(865,12,"Leucocytes").
+trace(865,13,"CRP").
+trace(865,14,"Release A").
+trace(865,15,"Return ER").
+trace(866,0,"ER Registration").
+trace(866,1,"ER Triage").
+trace(866,2,"ER Sepsis Triage").
+trace(866,3,"Leucocytes").
+trace(866,4,"CRP").
+trace(866,5,"LacticAcid").
+trace(866,6,"Admission NC").
+trace(866,7,"Release A").
+trace(867,0,"ER Registration").
+trace(867,1,"ER Triage").
+trace(867,2,"ER Sepsis Triage").
+trace(867,3,"Leucocytes").
+trace(867,4,"CRP").
+trace(867,5,"Admission NC").
+trace(868,0,"ER Triage").
+trace(868,1,"ER Registration").
+trace(868,2,"Leucocytes").
+trace(868,3,"CRP").
+trace(868,4,"LacticAcid").
+trace(868,5,"ER Sepsis Triage").
+trace(868,6,"Admission NC").
+trace(868,7,"IV Liquid").
+trace(868,8,"IV Antibiotics").
+trace(869,0,"ER Registration").
+trace(869,1,"ER Triage").
+trace(869,2,"ER Sepsis Triage").
+trace(869,3,"IV Liquid").
+trace(869,4,"IV Antibiotics").
+trace(869,5,"CRP").
+trace(869,6,"LacticAcid").
+trace(869,7,"Leucocytes").
+trace(869,8,"Admission NC").
+trace(869,9,"Leucocytes").
+trace(869,10,"CRP").
+trace(869,11,"Release B").
+trace(870,0,"ER Registration").
+trace(870,1,"ER Triage").
+trace(870,2,"ER Sepsis Triage").
+trace(870,3,"IV Liquid").
+trace(870,4,"CRP").
+trace(870,5,"Leucocytes").
+trace(870,6,"LacticAcid").
+trace(870,7,"IV Antibiotics").
+trace(870,8,"Admission NC").
+trace(870,9,"Leucocytes").
+trace(870,10,"Admission NC").
+trace(870,11,"CRP").
+trace(870,12,"LacticAcid").
+trace(870,13,"Leucocytes").
+trace(870,14,"LacticAcid").
+trace(870,15,"CRP").
+trace(870,16,"Leucocytes").
+trace(870,17,"LacticAcid").
+trace(870,18,"Admission IC").
+trace(870,19,"CRP").
+trace(870,20,"LacticAcid").
+trace(870,21,"Leucocytes").
+trace(870,22,"CRP").
+trace(870,23,"Leucocytes").
+trace(870,24,"LacticAcid").
+trace(870,25,"LacticAcid").
+trace(870,26,"Leucocytes").
+trace(870,27,"CRP").
+trace(870,28,"CRP").
+trace(870,29,"LacticAcid").
+trace(870,30,"Leucocytes").
+trace(870,31,"CRP").
+trace(870,32,"Leucocytes").
+trace(870,33,"LacticAcid").
+trace(870,34,"Leucocytes").
+trace(870,35,"CRP").
+trace(870,36,"LacticAcid").
+trace(870,37,"LacticAcid").
+trace(870,38,"CRP").
+trace(870,39,"Leucocytes").
+trace(870,40,"LacticAcid").
+trace(870,41,"Leucocytes").
+trace(870,42,"CRP").
+trace(870,43,"LacticAcid").
+trace(870,44,"Leucocytes").
+trace(870,45,"LacticAcid").
+trace(870,46,"CRP").
+trace(870,47,"Leucocytes").
+trace(870,48,"LacticAcid").
+trace(870,49,"CRP").
+trace(870,50,"Leucocytes").
+trace(870,51,"LacticAcid").
+trace(870,52,"LacticAcid").
+trace(870,53,"Leucocytes").
+trace(870,54,"CRP").
+trace(870,55,"Leucocytes").
+trace(870,56,"LacticAcid").
+trace(870,57,"CRP").
+trace(870,58,"CRP").
+trace(870,59,"LacticAcid").
+trace(870,60,"Leucocytes").
+trace(870,61,"CRP").
+trace(870,62,"Leucocytes").
+trace(870,63,"LacticAcid").
+trace(870,64,"CRP").
+trace(870,65,"Leucocytes").
+trace(870,66,"LacticAcid").
+trace(870,67,"Leucocytes").
+trace(870,68,"LacticAcid").
+trace(870,69,"CRP").
+trace(870,70,"CRP").
+trace(870,71,"Leucocytes").
+trace(870,72,"LacticAcid").
+trace(870,73,"CRP").
+trace(870,74,"Leucocytes").
+trace(870,75,"LacticAcid").
+trace(870,76,"LacticAcid").
+trace(870,77,"Leucocytes").
+trace(870,78,"CRP").
+trace(870,79,"Leucocytes").
+trace(870,80,"CRP").
+trace(870,81,"LacticAcid").
+trace(870,82,"Leucocytes").
+trace(870,83,"LacticAcid").
+trace(870,84,"CRP").
+trace(870,85,"CRP").
+trace(870,86,"LacticAcid").
+trace(870,87,"Leucocytes").
+trace(870,88,"Leucocytes").
+trace(870,89,"CRP").
+trace(870,90,"LacticAcid").
+trace(870,91,"Leucocytes").
+trace(870,92,"CRP").
+trace(870,93,"LacticAcid").
+trace(870,94,"Leucocytes").
+trace(870,95,"LacticAcid").
+trace(870,96,"CRP").
+trace(870,97,"Admission NC").
+trace(870,98,"Leucocytes").
+trace(870,99,"CRP").
+trace(870,100,"Leucocytes").
+trace(870,101,"CRP").
+trace(870,102,"CRP").
+trace(870,103,"Leucocytes").
+trace(870,104,"Leucocytes").
+trace(870,105,"CRP").
+trace(870,106,"Leucocytes").
+trace(870,107,"CRP").
+trace(870,108,"CRP").
+trace(870,109,"Leucocytes").
+trace(870,110,"Leucocytes").
+trace(870,111,"CRP").
+trace(870,112,"CRP").
+trace(870,113,"Leucocytes").
+trace(870,114,"Leucocytes").
+trace(870,115,"CRP").
+trace(870,116,"CRP").
+trace(870,117,"Leucocytes").
+trace(870,118,"CRP").
+trace(870,119,"Leucocytes").
+trace(870,120,"Leucocytes").
+trace(870,121,"CRP").
+trace(870,122,"Leucocytes").
+trace(870,123,"CRP").
+trace(870,124,"Leucocytes").
+trace(870,125,"Leucocytes").
+trace(870,126,"CRP").
+trace(870,127,"Admission NC").
+trace(870,128,"CRP").
+trace(870,129,"Leucocytes").
+trace(870,130,"Leucocytes").
+trace(870,131,"CRP").
+trace(870,132,"Leucocytes").
+trace(870,133,"CRP").
+trace(870,134,"Leucocytes").
+trace(870,135,"CRP").
+trace(870,136,"CRP").
+trace(870,137,"Leucocytes").
+trace(870,138,"CRP").
+trace(870,139,"Leucocytes").
+trace(870,140,"CRP").
+trace(870,141,"Leucocytes").
+trace(870,142,"Leucocytes").
+trace(870,143,"CRP").
+trace(870,144,"CRP").
+trace(870,145,"Leucocytes").
+trace(870,146,"Leucocytes").
+trace(870,147,"CRP").
+trace(870,148,"CRP").
+trace(870,149,"Leucocytes").
+trace(870,150,"Leucocytes").
+trace(870,151,"CRP").
+trace(870,152,"Leucocytes").
+trace(870,153,"CRP").
+trace(870,154,"CRP").
+trace(870,155,"Leucocytes").
+trace(870,156,"Leucocytes").
+trace(870,157,"Leucocytes").
+trace(870,158,"CRP").
+trace(870,159,"Leucocytes").
+trace(870,160,"CRP").
+trace(870,161,"Leucocytes").
+trace(870,162,"CRP").
+trace(870,163,"CRP").
+trace(870,164,"Leucocytes").
+trace(870,165,"CRP").
+trace(870,166,"Leucocytes").
+trace(870,167,"Leucocytes").
+trace(870,168,"CRP").
+trace(870,169,"Leucocytes").
+trace(870,170,"CRP").
+trace(870,171,"CRP").
+trace(870,172,"Leucocytes").
+trace(870,173,"Leucocytes").
+trace(870,174,"CRP").
+trace(870,175,"Leucocytes").
+trace(870,176,"CRP").
+trace(870,177,"CRP").
+trace(870,178,"Leucocytes").
+trace(870,179,"Leucocytes").
+trace(870,180,"CRP").
+trace(870,181,"Leucocytes").
+trace(870,182,"CRP").
+trace(870,183,"Leucocytes").
+trace(870,184,"Release C").
+trace(871,0,"ER Registration").
+trace(871,1,"ER Triage").
+trace(871,2,"ER Sepsis Triage").
+trace(871,3,"IV Liquid").
+trace(871,4,"LacticAcid").
+trace(871,5,"Leucocytes").
+trace(871,6,"CRP").
+trace(871,7,"IV Antibiotics").
+trace(871,8,"Admission NC").
+trace(871,9,"Admission NC").
+trace(871,10,"CRP").
+trace(871,11,"Leucocytes").
+trace(871,12,"Release A").
+trace(872,0,"ER Registration").
+trace(872,1,"ER Triage").
+trace(872,2,"ER Sepsis Triage").
+trace(872,3,"IV Liquid").
+trace(872,4,"IV Antibiotics").
+trace(872,5,"LacticAcid").
+trace(872,6,"Leucocytes").
+trace(872,7,"CRP").
+trace(872,8,"Admission NC").
+trace(872,9,"Admission NC").
+trace(872,10,"Admission IC").
+trace(872,11,"Leucocytes").
+trace(872,12,"CRP").
+trace(872,13,"LacticAcid").
+trace(872,14,"LacticAcid").
+trace(872,15,"LacticAcid").
+trace(872,16,"Leucocytes").
+trace(872,17,"CRP").
+trace(872,18,"Admission NC").
+trace(872,19,"Leucocytes").
+trace(872,20,"CRP").
+trace(872,21,"Release A").
+trace(872,22,"Return ER").
+trace(873,0,"ER Registration").
+trace(873,1,"ER Triage").
+trace(873,2,"ER Sepsis Triage").
+trace(873,3,"CRP").
+trace(873,4,"LacticAcid").
+trace(873,5,"Leucocytes").
+trace(873,6,"IV Antibiotics").
+trace(874,0,"ER Registration").
+trace(874,1,"ER Triage").
+trace(874,2,"ER Sepsis Triage").
+trace(874,3,"IV Liquid").
+trace(874,4,"CRP").
+trace(874,5,"Leucocytes").
+trace(874,6,"LacticAcid").
+trace(874,7,"IV Antibiotics").
+trace(874,8,"Admission NC").
+trace(874,9,"Leucocytes").
+trace(874,10,"CRP").
+trace(874,11,"Leucocytes").
+trace(874,12,"CRP").
+trace(874,13,"Release A").
+trace(875,0,"ER Registration").
+trace(875,1,"ER Triage").
+trace(875,2,"CRP").
+trace(875,3,"LacticAcid").
+trace(875,4,"Leucocytes").
+trace(875,5,"ER Sepsis Triage").
+trace(875,6,"IV Liquid").
+trace(875,7,"IV Antibiotics").
+trace(875,8,"Admission IC").
+trace(875,9,"Leucocytes").
+trace(875,10,"CRP").
+trace(875,11,"LacticAcid").
+trace(875,12,"CRP").
+trace(875,13,"Leucocytes").
+trace(875,14,"LacticAcid").
+trace(875,15,"Release B").
+trace(876,0,"ER Registration").
+trace(876,1,"ER Triage").
+trace(876,2,"ER Sepsis Triage").
+trace(876,3,"IV Liquid").
+trace(876,4,"IV Antibiotics").
+trace(876,5,"LacticAcid").
+trace(876,6,"Leucocytes").
+trace(876,7,"CRP").
+trace(876,8,"Admission NC").
+trace(876,9,"Admission NC").
+trace(876,10,"Leucocytes").
+trace(876,11,"CRP").
+trace(876,12,"Leucocytes").
+trace(876,13,"CRP").
+trace(876,14,"Release A").
+trace(877,0,"ER Registration").
+trace(877,1,"ER Triage").
+trace(877,2,"ER Sepsis Triage").
+trace(877,3,"LacticAcid").
+trace(877,4,"CRP").
+trace(877,5,"Leucocytes").
+trace(877,6,"IV Antibiotics").
+trace(877,7,"Admission NC").
+trace(877,8,"Leucocytes").
+trace(877,9,"CRP").
+trace(877,10,"Admission NC").
+trace(877,11,"CRP").
+trace(877,12,"Leucocytes").
+trace(877,13,"CRP").
+trace(877,14,"Release A").
+trace(878,0,"ER Registration").
+trace(878,1,"ER Triage").
+trace(878,2,"LacticAcid").
+trace(878,3,"Leucocytes").
+trace(878,4,"CRP").
+trace(878,5,"ER Sepsis Triage").
+trace(878,6,"IV Liquid").
+trace(878,7,"IV Antibiotics").
+trace(879,0,"ER Registration").
+trace(879,1,"ER Triage").
+trace(879,2,"ER Sepsis Triage").
+trace(879,3,"Leucocytes").
+trace(879,4,"CRP").
+trace(879,5,"LacticAcid").
+trace(879,6,"IV Liquid").
+trace(879,7,"IV Antibiotics").
+trace(879,8,"Admission NC").
+trace(879,9,"CRP").
+trace(879,10,"Admission IC").
+trace(879,11,"CRP").
+trace(879,12,"Leucocytes").
+trace(879,13,"LacticAcid").
+trace(879,14,"LacticAcid").
+trace(879,15,"Leucocytes").
+trace(879,16,"CRP").
+trace(879,17,"Leucocytes").
+trace(879,18,"LacticAcid").
+trace(879,19,"CRP").
+trace(879,20,"CRP").
+trace(879,21,"Leucocytes").
+trace(879,22,"LacticAcid").
+trace(879,23,"LacticAcid").
+trace(879,24,"CRP").
+trace(879,25,"Leucocytes").
+trace(879,26,"Admission NC").
+trace(879,27,"Leucocytes").
+trace(879,28,"CRP").
+trace(879,29,"Admission NC").
+trace(879,30,"Leucocytes").
+trace(879,31,"CRP").
+trace(879,32,"CRP").
+trace(879,33,"Leucocytes").
+trace(879,34,"Release D").
+trace(879,35,"Return ER").
+trace(880,0,"ER Registration").
+trace(880,1,"CRP").
+trace(880,2,"Leucocytes").
+trace(880,3,"LacticAcid").
+trace(880,4,"ER Triage").
+trace(880,5,"ER Sepsis Triage").
+trace(880,6,"IV Liquid").
+trace(880,7,"IV Antibiotics").
+trace(880,8,"Admission NC").
+trace(880,9,"CRP").
+trace(880,10,"Leucocytes").
+trace(880,11,"Leucocytes").
+trace(880,12,"CRP").
+trace(880,13,"Release A").
+trace(880,14,"Return ER").
+trace(881,0,"ER Registration").
+trace(881,1,"ER Triage").
+trace(881,2,"ER Sepsis Triage").
+trace(881,3,"Leucocytes").
+trace(881,4,"CRP").
+trace(881,5,"LacticAcid").
+trace(881,6,"IV Liquid").
+trace(881,7,"IV Antibiotics").
+trace(881,8,"Admission NC").
+trace(881,9,"Leucocytes").
+trace(881,10,"CRP").
+trace(881,11,"Admission NC").
+trace(881,12,"Release A").
+trace(881,13,"Return ER").
+trace(882,0,"ER Registration").
+trace(882,1,"ER Triage").
+trace(882,2,"ER Sepsis Triage").
+trace(882,3,"Leucocytes").
+trace(882,4,"CRP").
+trace(882,5,"LacticAcid").
+trace(882,6,"IV Liquid").
+trace(882,7,"IV Antibiotics").
+trace(882,8,"Admission NC").
+trace(882,9,"CRP").
+trace(882,10,"Leucocytes").
+trace(882,11,"Leucocytes").
+trace(882,12,"CRP").
+trace(882,13,"Leucocytes").
+trace(882,14,"CRP").
+trace(882,15,"Leucocytes").
+trace(882,16,"CRP").
+trace(882,17,"Leucocytes").
+trace(882,18,"CRP").
+trace(882,19,"Leucocytes").
+trace(882,20,"CRP").
+trace(882,21,"Leucocytes").
+trace(882,22,"CRP").
+trace(882,23,"CRP").
+trace(882,24,"Leucocytes").
+trace(882,25,"Leucocytes").
+trace(882,26,"CRP").
+trace(882,27,"Release A").
+trace(882,28,"Return ER").
+trace(883,0,"ER Registration").
+trace(883,1,"ER Triage").
+trace(883,2,"ER Sepsis Triage").
+trace(883,3,"IV Liquid").
+trace(883,4,"LacticAcid").
+trace(883,5,"Leucocytes").
+trace(883,6,"CRP").
+trace(883,7,"IV Antibiotics").
+trace(883,8,"Admission NC").
+trace(883,9,"Leucocytes").
+trace(883,10,"CRP").
+trace(883,11,"Release A").
+trace(884,0,"ER Registration").
+trace(884,1,"ER Triage").
+trace(884,2,"ER Sepsis Triage").
+trace(884,3,"IV Liquid").
+trace(884,4,"LacticAcid").
+trace(884,5,"Leucocytes").
+trace(884,6,"CRP").
+trace(884,7,"IV Antibiotics").
+trace(884,8,"CRP").
+trace(884,9,"Leucocytes").
+trace(884,10,"Admission NC").
+trace(884,11,"Admission NC").
+trace(884,12,"CRP").
+trace(884,13,"Leucocytes").
+trace(884,14,"Release A").
+trace(885,0,"ER Registration").
+trace(885,1,"ER Triage").
+trace(885,2,"ER Sepsis Triage").
+trace(885,3,"CRP").
+trace(885,4,"LacticAcid").
+trace(885,5,"Leucocytes").
+trace(885,6,"IV Antibiotics").
+trace(885,7,"IV Liquid").
+trace(885,8,"Admission NC").
+trace(885,9,"Leucocytes").
+trace(885,10,"CRP").
+trace(885,11,"Release A").
+trace(885,12,"Return ER").
+trace(886,0,"ER Registration").
+trace(886,1,"ER Triage").
+trace(886,2,"ER Sepsis Triage").
+trace(886,3,"CRP").
+trace(886,4,"Leucocytes").
+trace(886,5,"Admission NC").
+trace(886,6,"CRP").
+trace(886,7,"Release D").
+trace(887,0,"ER Registration").
+trace(887,1,"ER Triage").
+trace(887,2,"ER Sepsis Triage").
+trace(887,3,"CRP").
+trace(887,4,"LacticAcid").
+trace(887,5,"Leucocytes").
+trace(887,6,"IV Liquid").
+trace(887,7,"IV Antibiotics").
+trace(887,8,"Admission IC").
+trace(887,9,"CRP").
+trace(887,10,"Leucocytes").
+trace(887,11,"LacticAcid").
+trace(887,12,"LacticAcid").
+trace(887,13,"Leucocytes").
+trace(887,14,"CRP").
+trace(887,15,"LacticAcid").
+trace(887,16,"Leucocytes").
+trace(887,17,"CRP").
+trace(887,18,"Leucocytes").
+trace(887,19,"CRP").
+trace(887,20,"LacticAcid").
+trace(887,21,"Leucocytes").
+trace(887,22,"CRP").
+trace(887,23,"LacticAcid").
+trace(887,24,"Admission NC").
+trace(887,25,"CRP").
+trace(887,26,"Leucocytes").
+trace(887,27,"CRP").
+trace(887,28,"Leucocytes").
+trace(887,29,"Release A").
+trace(888,0,"ER Registration").
+trace(888,1,"ER Triage").
+trace(888,2,"ER Sepsis Triage").
+trace(888,3,"CRP").
+trace(888,4,"LacticAcid").
+trace(888,5,"Leucocytes").
+trace(888,6,"IV Antibiotics").
+trace(888,7,"Admission NC").
+trace(888,8,"Leucocytes").
+trace(888,9,"CRP").
+trace(888,10,"CRP").
+trace(888,11,"Release A").
+trace(888,12,"Return ER").
+trace(889,0,"ER Registration").
+trace(889,1,"ER Triage").
+trace(889,2,"ER Sepsis Triage").
+trace(889,3,"Leucocytes").
+trace(889,4,"CRP").
+trace(889,5,"LacticAcid").
+trace(889,6,"Leucocytes").
+trace(889,7,"CRP").
+trace(889,8,"LacticAcid").
+trace(889,9,"IV Liquid").
+trace(889,10,"IV Antibiotics").
+trace(889,11,"Admission NC").
+trace(889,12,"CRP").
+trace(889,13,"Release A").
+trace(890,0,"ER Registration").
+trace(890,1,"ER Triage").
+trace(890,2,"ER Sepsis Triage").
+trace(890,3,"LacticAcid").
+trace(890,4,"CRP").
+trace(890,5,"Leucocytes").
+trace(890,6,"IV Liquid").
+trace(890,7,"IV Antibiotics").
+trace(890,8,"Admission IC").
+trace(890,9,"LacticAcid").
+trace(890,10,"Leucocytes").
+trace(890,11,"CRP").
+trace(890,12,"Admission NC").
+trace(890,13,"Leucocytes").
+trace(890,14,"CRP").
+trace(890,15,"Release A").
+trace(891,0,"ER Registration").
+trace(891,1,"ER Triage").
+trace(891,2,"ER Sepsis Triage").
+trace(891,3,"Leucocytes").
+trace(891,4,"LacticAcid").
+trace(891,5,"CRP").
+trace(891,6,"IV Liquid").
+trace(891,7,"IV Antibiotics").
+trace(891,8,"Admission NC").
+trace(891,9,"CRP").
+trace(891,10,"Leucocytes").
+trace(891,11,"Leucocytes").
+trace(891,12,"CRP").
+trace(891,13,"Leucocytes").
+trace(891,14,"CRP").
+trace(891,15,"Release A").
+trace(892,0,"ER Registration").
+trace(892,1,"ER Triage").
+trace(892,2,"ER Sepsis Triage").
+trace(892,3,"Leucocytes").
+trace(892,4,"Admission NC").
+trace(892,5,"Leucocytes").
+trace(892,6,"Release A").
+trace(893,0,"ER Registration").
+trace(893,1,"IV Liquid").
+trace(893,2,"ER Triage").
+trace(893,3,"ER Sepsis Triage").
+trace(893,4,"IV Antibiotics").
+trace(893,5,"CRP").
+trace(893,6,"Leucocytes").
+trace(893,7,"LacticAcid").
+trace(893,8,"Admission NC").
+trace(893,9,"Release A").
+trace(894,0,"ER Registration").
+trace(894,1,"ER Triage").
+trace(894,2,"ER Sepsis Triage").
+trace(894,3,"IV Liquid").
+trace(894,4,"IV Antibiotics").
+trace(894,5,"CRP").
+trace(894,6,"Leucocytes").
+trace(894,7,"LacticAcid").
+trace(894,8,"Admission NC").
+trace(894,9,"CRP").
+trace(894,10,"Leucocytes").
+trace(894,11,"Admission NC").
+trace(894,12,"Release A").
+trace(895,0,"ER Registration").
+trace(895,1,"ER Triage").
+trace(895,2,"ER Sepsis Triage").
+trace(895,3,"Leucocytes").
+trace(895,4,"CRP").
+trace(895,5,"LacticAcid").
+trace(895,6,"IV Liquid").
+trace(895,7,"IV Antibiotics").
+trace(895,8,"Admission NC").
+trace(895,9,"CRP").
+trace(895,10,"CRP").
+trace(895,11,"Release A").
+trace(895,12,"Return ER").
+trace(896,0,"ER Registration").
+trace(896,1,"ER Triage").
+trace(896,2,"ER Sepsis Triage").
+trace(896,3,"CRP").
+trace(896,4,"Leucocytes").
+trace(896,5,"LacticAcid").
+trace(896,6,"IV Liquid").
+trace(896,7,"IV Antibiotics").
+trace(896,8,"Admission NC").
+trace(896,9,"Admission NC").
+trace(896,10,"Release A").
+trace(897,0,"ER Registration").
+trace(897,1,"ER Triage").
+trace(897,2,"CRP").
+trace(897,3,"Leucocytes").
+trace(897,4,"LacticAcid").
+trace(897,5,"ER Sepsis Triage").
+trace(897,6,"IV Liquid").
+trace(897,7,"IV Antibiotics").
+trace(897,8,"Admission NC").
+trace(897,9,"Leucocytes").
+trace(897,10,"CRP").
+trace(897,11,"CRP").
+trace(897,12,"Release A").
+trace(898,0,"ER Registration").
+trace(898,1,"ER Triage").
+trace(898,2,"ER Sepsis Triage").
+trace(898,3,"CRP").
+trace(898,4,"Leucocytes").
+trace(898,5,"LacticAcid").
+trace(898,6,"IV Liquid").
+trace(898,7,"IV Antibiotics").
+trace(899,0,"ER Registration").
+trace(899,1,"ER Triage").
+trace(899,2,"ER Sepsis Triage").
+trace(899,3,"IV Liquid").
+trace(899,4,"LacticAcid").
+trace(899,5,"Leucocytes").
+trace(899,6,"CRP").
+trace(899,7,"IV Antibiotics").
+trace(899,8,"Admission NC").
+trace(899,9,"CRP").
+trace(899,10,"Leucocytes").
+trace(899,11,"Leucocytes").
+trace(899,12,"CRP").
+trace(899,13,"Release A").
+trace(900,0,"ER Registration").
+trace(900,1,"ER Triage").
+trace(900,2,"ER Sepsis Triage").
+trace(900,3,"Leucocytes").
+trace(900,4,"CRP").
+trace(900,5,"Admission NC").
+trace(900,6,"CRP").
+trace(900,7,"Leucocytes").
+trace(900,8,"Release A").
+trace(901,0,"ER Registration").
+trace(901,1,"ER Triage").
+trace(901,2,"ER Sepsis Triage").
+trace(901,3,"IV Liquid").
+trace(901,4,"IV Antibiotics").
+trace(901,5,"Leucocytes").
+trace(901,6,"LacticAcid").
+trace(901,7,"CRP").
+trace(901,8,"Admission IC").
+trace(901,9,"Leucocytes").
+trace(901,10,"LacticAcid").
+trace(901,11,"CRP").
+trace(901,12,"Admission NC").
+trace(901,13,"CRP").
+trace(901,14,"Leucocytes").
+trace(901,15,"Leucocytes").
+trace(901,16,"Release A").
+trace(902,0,"ER Registration").
+trace(902,1,"CRP").
+trace(902,2,"Leucocytes").
+trace(902,3,"LacticAcid").
+trace(902,4,"ER Triage").
+trace(902,5,"ER Sepsis Triage").
+trace(902,6,"IV Liquid").
+trace(902,7,"IV Antibiotics").
+trace(902,8,"Admission NC").
+trace(902,9,"CRP").
+trace(902,10,"Leucocytes").
+trace(902,11,"Release A").
+trace(903,0,"ER Registration").
+trace(903,1,"ER Triage").
+trace(903,2,"ER Sepsis Triage").
+trace(903,3,"Leucocytes").
+trace(903,4,"CRP").
+trace(904,0,"ER Registration").
+trace(904,1,"ER Triage").
+trace(904,2,"ER Sepsis Triage").
+trace(904,3,"Leucocytes").
+trace(904,4,"CRP").
+trace(905,0,"ER Registration").
+trace(905,1,"ER Triage").
+trace(905,2,"ER Sepsis Triage").
+trace(905,3,"IV Antibiotics").
+trace(905,4,"IV Liquid").
+trace(905,5,"Leucocytes").
+trace(905,6,"CRP").
+trace(905,7,"LacticAcid").
+trace(905,8,"Admission NC").
+trace(905,9,"Leucocytes").
+trace(905,10,"CRP").
+trace(905,11,"Release A").
+trace(906,0,"ER Registration").
+trace(906,1,"ER Triage").
+trace(906,2,"Leucocytes").
+trace(906,3,"CRP").
+trace(906,4,"LacticAcid").
+trace(906,5,"ER Sepsis Triage").
+trace(906,6,"IV Liquid").
+trace(906,7,"IV Antibiotics").
+trace(906,8,"Admission IC").
+trace(906,9,"Leucocytes").
+trace(906,10,"CRP").
+trace(906,11,"LacticAcid").
+trace(907,0,"ER Registration").
+trace(907,1,"ER Triage").
+trace(907,2,"LacticAcid").
+trace(907,3,"CRP").
+trace(907,4,"Leucocytes").
+trace(907,5,"ER Sepsis Triage").
+trace(907,6,"IV Liquid").
+trace(907,7,"IV Antibiotics").
+trace(907,8,"Admission NC").
+trace(907,9,"Leucocytes").
+trace(907,10,"CRP").
+trace(907,11,"CRP").
+trace(907,12,"Leucocytes").
+trace(907,13,"Leucocytes").
+trace(907,14,"CRP").
+trace(907,15,"Release A").
+trace(908,0,"ER Registration").
+trace(908,1,"ER Triage").
+trace(908,2,"ER Sepsis Triage").
+trace(908,3,"IV Liquid").
+trace(908,4,"IV Antibiotics").
+trace(908,5,"Admission IC").
+trace(908,6,"CRP").
+trace(908,7,"Leucocytes").
+trace(908,8,"LacticAcid").
+trace(908,9,"CRP").
+trace(908,10,"Leucocytes").
+trace(908,11,"LacticAcid").
+trace(908,12,"CRP").
+trace(908,13,"LacticAcid").
+trace(908,14,"Leucocytes").
+trace(908,15,"Leucocytes").
+trace(908,16,"CRP").
+trace(908,17,"LacticAcid").
+trace(908,18,"Leucocytes").
+trace(908,19,"CRP").
+trace(908,20,"LacticAcid").
+trace(908,21,"Admission NC").
+trace(908,22,"Leucocytes").
+trace(908,23,"CRP").
+trace(908,24,"Release A").
+trace(908,25,"Return ER").
+trace(909,0,"ER Registration").
+trace(909,1,"ER Triage").
+trace(909,2,"CRP").
+trace(909,3,"Leucocytes").
+trace(909,4,"LacticAcid").
+trace(909,5,"ER Sepsis Triage").
+trace(909,6,"IV Liquid").
+trace(909,7,"IV Antibiotics").
+trace(909,8,"Admission NC").
+trace(909,9,"Leucocytes").
+trace(909,10,"Admission NC").
+trace(909,11,"Leucocytes").
+trace(909,12,"Leucocytes").
+trace(909,13,"Leucocytes").
+trace(909,14,"Leucocytes").
+trace(909,15,"Release A").
+trace(909,16,"Return ER").
+trace(910,0,"IV Liquid").
+trace(910,1,"ER Registration").
+trace(910,2,"ER Triage").
+trace(910,3,"ER Sepsis Triage").
+trace(910,4,"LacticAcid").
+trace(910,5,"Leucocytes").
+trace(910,6,"CRP").
+trace(910,7,"IV Antibiotics").
+trace(910,8,"Admission IC").
+trace(910,9,"LacticAcid").
+trace(910,10,"CRP").
+trace(910,11,"Leucocytes").
+trace(910,12,"Leucocytes").
+trace(910,13,"CRP").
+trace(910,14,"LacticAcid").
+trace(910,15,"Leucocytes").
+trace(910,16,"LacticAcid").
+trace(910,17,"CRP").
+trace(910,18,"CRP").
+trace(910,19,"Leucocytes").
+trace(910,20,"LacticAcid").
+trace(910,21,"CRP").
+trace(910,22,"LacticAcid").
+trace(910,23,"Leucocytes").
+trace(910,24,"LacticAcid").
+trace(910,25,"Leucocytes").
+trace(910,26,"CRP").
+trace(910,27,"CRP").
+trace(910,28,"Leucocytes").
+trace(910,29,"LacticAcid").
+trace(910,30,"Admission NC").
+trace(910,31,"CRP").
+trace(910,32,"Leucocytes").
+trace(910,33,"Leucocytes").
+trace(910,34,"Release A").
+trace(910,35,"Return ER").
+trace(911,0,"ER Registration").
+trace(911,1,"ER Triage").
+trace(911,2,"ER Sepsis Triage").
+trace(911,3,"Leucocytes").
+trace(911,4,"CRP").
+trace(912,0,"ER Registration").
+trace(912,1,"ER Triage").
+trace(912,2,"ER Sepsis Triage").
+trace(912,3,"CRP").
+trace(912,4,"Leucocytes").
+trace(913,0,"ER Registration").
+trace(913,1,"ER Triage").
+trace(913,2,"ER Sepsis Triage").
+trace(913,3,"Leucocytes").
+trace(913,4,"CRP").
+trace(913,5,"LacticAcid").
+trace(913,6,"IV Liquid").
+trace(913,7,"IV Antibiotics").
+trace(913,8,"Admission NC").
+trace(913,9,"CRP").
+trace(913,10,"Release A").
+trace(913,11,"Return ER").
+trace(914,0,"ER Registration").
+trace(914,1,"ER Triage").
+trace(914,2,"ER Sepsis Triage").
+trace(914,3,"Leucocytes").
+trace(914,4,"LacticAcid").
+trace(914,5,"CRP").
+trace(914,6,"Admission NC").
+trace(914,7,"LacticAcid").
+trace(914,8,"Leucocytes").
+trace(914,9,"CRP").
+trace(914,10,"Admission NC").
+trace(914,11,"Admission NC").
+trace(914,12,"Release C").
+trace(915,0,"ER Registration").
+trace(915,1,"ER Triage").
+trace(915,2,"ER Sepsis Triage").
+trace(915,3,"Leucocytes").
+trace(915,4,"LacticAcid").
+trace(915,5,"CRP").
+trace(915,6,"IV Antibiotics").
+trace(916,0,"ER Registration").
+trace(916,1,"ER Triage").
+trace(916,2,"ER Sepsis Triage").
+trace(916,3,"CRP").
+trace(916,4,"Leucocytes").
+trace(916,5,"LacticAcid").
+trace(916,6,"IV Antibiotics").
+trace(916,7,"IV Liquid").
+trace(916,8,"Admission NC").
+trace(916,9,"Leucocytes").
+trace(916,10,"CRP").
+trace(916,11,"Admission NC").
+trace(916,12,"CRP").
+trace(916,13,"Leucocytes").
+trace(916,14,"Release A").
+trace(916,15,"Return ER").
+trace(917,0,"ER Registration").
+trace(917,1,"ER Triage").
+trace(917,2,"ER Sepsis Triage").
+trace(917,3,"Leucocytes").
+trace(917,4,"LacticAcid").
+trace(917,5,"CRP").
+trace(917,6,"IV Liquid").
+trace(917,7,"IV Antibiotics").
+trace(917,8,"Admission NC").
+trace(917,9,"Leucocytes").
+trace(917,10,"CRP").
+trace(917,11,"CRP").
+trace(917,12,"Release A").
+trace(918,0,"CRP").
+trace(918,1,"Leucocytes").
+trace(918,2,"ER Registration").
+trace(918,3,"ER Triage").
+trace(918,4,"ER Sepsis Triage").
+trace(918,5,"Leucocytes").
+trace(918,6,"CRP").
+trace(918,7,"IV Liquid").
+trace(918,8,"IV Antibiotics").
+trace(919,0,"ER Registration").
+trace(919,1,"ER Triage").
+trace(919,2,"ER Sepsis Triage").
+trace(919,3,"IV Liquid").
+trace(919,4,"Leucocytes").
+trace(919,5,"CRP").
+trace(919,6,"LacticAcid").
+trace(919,7,"IV Antibiotics").
+trace(919,8,"Admission NC").
+trace(919,9,"Leucocytes").
+trace(919,10,"CRP").
+trace(919,11,"CRP").
+trace(919,12,"Release A").
+trace(920,0,"ER Registration").
+trace(920,1,"ER Triage").
+trace(920,2,"ER Sepsis Triage").
+trace(920,3,"CRP").
+trace(920,4,"LacticAcid").
+trace(920,5,"Leucocytes").
+trace(920,6,"IV Liquid").
+trace(920,7,"IV Antibiotics").
+trace(920,8,"Admission IC").
+trace(920,9,"LacticAcid").
+trace(920,10,"Leucocytes").
+trace(920,11,"CRP").
+trace(920,12,"LacticAcid").
+trace(920,13,"Leucocytes").
+trace(920,14,"CRP").
+trace(920,15,"LacticAcid").
+trace(920,16,"Admission NC").
+trace(920,17,"Leucocytes").
+trace(920,18,"CRP").
+trace(920,19,"Leucocytes").
+trace(920,20,"CRP").
+trace(920,21,"CRP").
+trace(920,22,"Leucocytes").
+trace(920,23,"Leucocytes").
+trace(920,24,"CRP").
+trace(920,25,"Leucocytes").
+trace(920,26,"CRP").
+trace(920,27,"Leucocytes").
+trace(920,28,"CRP").
+trace(920,29,"Release A").
+trace(920,30,"Return ER").
+trace(921,0,"ER Registration").
+trace(921,1,"ER Triage").
+trace(921,2,"ER Sepsis Triage").
+trace(921,3,"Leucocytes").
+trace(921,4,"LacticAcid").
+trace(921,5,"CRP").
+trace(921,6,"IV Antibiotics").
+trace(921,7,"IV Liquid").
+trace(921,8,"Admission NC").
+trace(921,9,"CRP").
+trace(921,10,"Leucocytes").
+trace(921,11,"Release A").
+trace(921,12,"Return ER").
+trace(922,0,"ER Registration").
+trace(922,1,"ER Triage").
+trace(922,2,"ER Sepsis Triage").
+trace(922,3,"LacticAcid").
+trace(922,4,"CRP").
+trace(922,5,"Leucocytes").
+trace(922,6,"IV Liquid").
+trace(922,7,"IV Antibiotics").
+trace(922,8,"Admission NC").
+trace(922,9,"Leucocytes").
+trace(922,10,"CRP").
+trace(922,11,"Release A").
+trace(922,12,"Return ER").
+trace(923,0,"ER Registration").
+trace(923,1,"ER Triage").
+trace(923,2,"ER Sepsis Triage").
+trace(923,3,"Leucocytes").
+trace(923,4,"LacticAcid").
+trace(923,5,"CRP").
+trace(923,6,"IV Antibiotics").
+trace(923,7,"IV Liquid").
+trace(923,8,"Admission NC").
+trace(923,9,"Admission NC").
+trace(923,10,"Leucocytes").
+trace(923,11,"CRP").
+trace(923,12,"CRP").
+trace(923,13,"Leucocytes").
+trace(923,14,"Release A").
+trace(924,0,"ER Registration").
+trace(924,1,"ER Triage").
+trace(924,2,"ER Sepsis Triage").
+trace(924,3,"Leucocytes").
+trace(924,4,"CRP").
+trace(924,5,"LacticAcid").
+trace(924,6,"IV Liquid").
+trace(924,7,"IV Antibiotics").
+trace(924,8,"Admission NC").
+trace(924,9,"Leucocytes").
+trace(924,10,"CRP").
+trace(924,11,"Admission NC").
+trace(924,12,"Leucocytes").
+trace(924,13,"CRP").
+trace(924,14,"CRP").
+trace(924,15,"CRP").
+trace(924,16,"Leucocytes").
+trace(924,17,"Leucocytes").
+trace(924,18,"CRP").
+trace(924,19,"Leucocytes").
+trace(924,20,"Admission IC").
+trace(924,21,"Leucocytes").
+trace(924,22,"CRP").
+trace(924,23,"LacticAcid").
+trace(924,24,"Leucocytes").
+trace(924,25,"Leucocytes").
+trace(924,26,"Leucocytes").
+trace(924,27,"LacticAcid").
+trace(924,28,"Leucocytes").
+trace(924,29,"CRP").
+trace(924,30,"Leucocytes").
+trace(924,31,"Leucocytes").
+trace(924,32,"Leucocytes").
+trace(924,33,"Leucocytes").
+trace(924,34,"CRP").
+trace(924,35,"LacticAcid").
+trace(924,36,"Leucocytes").
+trace(924,37,"Leucocytes").
+trace(924,38,"CRP").
+trace(924,39,"LacticAcid").
+trace(924,40,"Admission NC").
+trace(924,41,"Leucocytes").
+trace(924,42,"CRP").
+trace(924,43,"Release A").
+trace(924,44,"Return ER").
+trace(925,0,"ER Registration").
+trace(925,1,"ER Triage").
+trace(925,2,"ER Sepsis Triage").
+trace(925,3,"IV Antibiotics").
+trace(925,4,"IV Liquid").
+trace(925,5,"Leucocytes").
+trace(925,6,"CRP").
+trace(925,7,"LacticAcid").
+trace(925,8,"Admission NC").
+trace(925,9,"CRP").
+trace(925,10,"Leucocytes").
+trace(925,11,"Admission NC").
+trace(925,12,"CRP").
+trace(925,13,"Leucocytes").
+trace(925,14,"Release A").
+trace(925,15,"Return ER").
+trace(926,0,"ER Registration").
+trace(926,1,"ER Triage").
+trace(926,2,"ER Sepsis Triage").
+trace(926,3,"Leucocytes").
+trace(926,4,"LacticAcid").
+trace(926,5,"CRP").
+trace(926,6,"IV Liquid").
+trace(926,7,"IV Antibiotics").
+trace(926,8,"Admission NC").
+trace(926,9,"Admission NC").
+trace(926,10,"CRP").
+trace(926,11,"Leucocytes").
+trace(926,12,"Release A").
+trace(927,0,"ER Registration").
+trace(927,1,"Leucocytes").
+trace(927,2,"CRP").
+trace(927,3,"LacticAcid").
+trace(927,4,"IV Liquid").
+trace(927,5,"ER Triage").
+trace(927,6,"ER Sepsis Triage").
+trace(927,7,"IV Antibiotics").
+trace(928,0,"ER Registration").
+trace(928,1,"ER Triage").
+trace(928,2,"ER Sepsis Triage").
+trace(928,3,"Leucocytes").
+trace(928,4,"CRP").
+trace(928,5,"Admission NC").
+trace(928,6,"Admission NC").
+trace(928,7,"Leucocytes").
+trace(928,8,"CRP").
+trace(928,9,"CRP").
+trace(928,10,"Leucocytes").
+trace(928,11,"Leucocytes").
+trace(928,12,"Leucocytes").
+trace(928,13,"CRP").
+trace(928,14,"Release A").
+trace(929,0,"ER Registration").
+trace(929,1,"CRP").
+trace(929,2,"Leucocytes").
+trace(929,3,"LacticAcid").
+trace(929,4,"ER Triage").
+trace(929,5,"ER Sepsis Triage").
+trace(929,6,"IV Liquid").
+trace(929,7,"IV Antibiotics").
+trace(929,8,"Admission NC").
+trace(929,9,"CRP").
+trace(929,10,"Leucocytes").
+trace(929,11,"CRP").
+trace(929,12,"Release A").
+trace(930,0,"ER Registration").
+trace(930,1,"ER Triage").
+trace(930,2,"ER Sepsis Triage").
+trace(930,3,"Leucocytes").
+trace(930,4,"CRP").
+trace(930,5,"LacticAcid").
+trace(930,6,"IV Antibiotics").
+trace(930,7,"IV Liquid").
+trace(930,8,"Admission IC").
+trace(930,9,"CRP").
+trace(930,10,"Leucocytes").
+trace(930,11,"LacticAcid").
+trace(930,12,"Leucocytes").
+trace(930,13,"LacticAcid").
+trace(930,14,"LacticAcid").
+trace(930,15,"CRP").
+trace(930,16,"Leucocytes").
+trace(930,17,"Leucocytes").
+trace(930,18,"CRP").
+trace(930,19,"LacticAcid").
+trace(930,20,"Leucocytes").
+trace(930,21,"LacticAcid").
+trace(930,22,"CRP").
+trace(930,23,"LacticAcid").
+trace(930,24,"Leucocytes").
+trace(930,25,"CRP").
+trace(930,26,"Admission NC").
+trace(930,27,"Leucocytes").
+trace(930,28,"CRP").
+trace(930,29,"Leucocytes").
+trace(930,30,"Leucocytes").
+trace(930,31,"CRP").
+trace(930,32,"Leucocytes").
+trace(930,33,"CRP").
+trace(930,34,"Leucocytes").
+trace(930,35,"Release A").
+trace(931,0,"ER Registration").
+trace(931,1,"ER Triage").
+trace(931,2,"Leucocytes").
+trace(931,3,"CRP").
+trace(931,4,"ER Sepsis Triage").
+trace(932,0,"ER Registration").
+trace(932,1,"ER Triage").
+trace(932,2,"ER Sepsis Triage").
+trace(932,3,"CRP").
+trace(932,4,"Leucocytes").
+trace(933,0,"ER Registration").
+trace(933,1,"ER Triage").
+trace(933,2,"ER Sepsis Triage").
+trace(933,3,"CRP").
+trace(933,4,"Leucocytes").
+trace(933,5,"LacticAcid").
+trace(933,6,"IV Antibiotics").
+trace(933,7,"IV Liquid").
+trace(933,8,"Admission NC").
+trace(933,9,"LacticAcid").
+trace(933,10,"CRP").
+trace(933,11,"Leucocytes").
+trace(933,12,"Admission IC").
+trace(933,13,"Leucocytes").
+trace(933,14,"CRP").
+trace(933,15,"LacticAcid").
+trace(933,16,"Admission NC").
+trace(933,17,"CRP").
+trace(933,18,"Leucocytes").
+trace(933,19,"Leucocytes").
+trace(933,20,"CRP").
+trace(933,21,"Leucocytes").
+trace(933,22,"CRP").
+trace(933,23,"Leucocytes").
+trace(933,24,"CRP").
+trace(933,25,"Leucocytes").
+trace(933,26,"CRP").
+trace(933,27,"Leucocytes").
+trace(933,28,"CRP").
+trace(933,29,"Leucocytes").
+trace(933,30,"CRP").
+trace(933,31,"Leucocytes").
+trace(933,32,"CRP").
+trace(933,33,"Leucocytes").
+trace(933,34,"CRP").
+trace(933,35,"CRP").
+trace(933,36,"Leucocytes").
+trace(933,37,"Leucocytes").
+trace(933,38,"CRP").
+trace(933,39,"CRP").
+trace(933,40,"Leucocytes").
+trace(933,41,"Leucocytes").
+trace(933,42,"CRP").
+trace(933,43,"CRP").
+trace(933,44,"Leucocytes").
+trace(933,45,"CRP").
+trace(933,46,"Leucocytes").
+trace(933,47,"Admission NC").
+trace(933,48,"Leucocytes").
+trace(933,49,"CRP").
+trace(933,50,"Release A").
+trace(933,51,"Return ER").
+trace(934,0,"ER Registration").
+trace(934,1,"ER Triage").
+trace(934,2,"ER Sepsis Triage").
+trace(934,3,"CRP").
+trace(934,4,"Leucocytes").
+trace(934,5,"LacticAcid").
+trace(934,6,"IV Liquid").
+trace(934,7,"IV Antibiotics").
+trace(935,0,"ER Registration").
+trace(935,1,"CRP").
+trace(935,2,"Leucocytes").
+trace(935,3,"ER Triage").
+trace(935,4,"ER Sepsis Triage").
+trace(936,0,"ER Registration").
+trace(936,1,"ER Triage").
+trace(936,2,"ER Sepsis Triage").
+trace(936,3,"Leucocytes").
+trace(936,4,"CRP").
+trace(936,5,"LacticAcid").
+trace(936,6,"IV Antibiotics").
+trace(936,7,"Admission NC").
+trace(936,8,"IV Liquid").
+trace(936,9,"Leucocytes").
+trace(936,10,"CRP").
+trace(936,11,"CRP").
+trace(936,12,"Leucocytes").
+trace(936,13,"Admission NC").
+trace(936,14,"Admission NC").
+trace(936,15,"Release A").
+trace(936,16,"Return ER").
+trace(937,0,"ER Registration").
+trace(937,1,"ER Triage").
+trace(937,2,"ER Sepsis Triage").
+trace(937,3,"Leucocytes").
+trace(937,4,"CRP").
+trace(937,5,"Admission NC").
+trace(937,6,"CRP").
+trace(937,7,"Release A").
+trace(938,0,"ER Registration").
+trace(938,1,"ER Triage").
+trace(938,2,"ER Sepsis Triage").
+trace(938,3,"CRP").
+trace(938,4,"Leucocytes").
+trace(938,5,"LacticAcid").
+trace(938,6,"Admission NC").
+trace(938,7,"Release A").
+trace(938,8,"Return ER").
+trace(939,0,"ER Registration").
+trace(939,1,"CRP").
+trace(939,2,"Leucocytes").
+trace(939,3,"LacticAcid").
+trace(939,4,"ER Triage").
+trace(939,5,"ER Sepsis Triage").
+trace(939,6,"IV Antibiotics").
+trace(939,7,"Admission NC").
+trace(939,8,"Release A").
+trace(940,0,"ER Registration").
+trace(940,1,"ER Triage").
+trace(940,2,"ER Sepsis Triage").
+trace(940,3,"Leucocytes").
+trace(940,4,"CRP").
+trace(940,5,"LacticAcid").
+trace(940,6,"IV Liquid").
+trace(940,7,"IV Antibiotics").
+trace(940,8,"Admission NC").
+trace(940,9,"Leucocytes").
+trace(940,10,"CRP").
+trace(940,11,"CRP").
+trace(940,12,"Leucocytes").
+trace(940,13,"Leucocytes").
+trace(940,14,"CRP").
+trace(940,15,"Release A").
+trace(941,0,"ER Registration").
+trace(941,1,"ER Triage").
+trace(941,2,"LacticAcid").
+trace(941,3,"Leucocytes").
+trace(941,4,"CRP").
+trace(941,5,"ER Sepsis Triage").
+trace(941,6,"IV Liquid").
+trace(941,7,"IV Antibiotics").
+trace(941,8,"Admission NC").
+trace(941,9,"LacticAcid").
+trace(941,10,"CRP").
+trace(941,11,"Leucocytes").
+trace(941,12,"Admission NC").
+trace(941,13,"Leucocytes").
+trace(941,14,"CRP").
+trace(941,15,"CRP").
+trace(941,16,"Leucocytes").
+trace(941,17,"Release A").
+trace(941,18,"Return ER").
+trace(942,0,"ER Registration").
+trace(942,1,"ER Triage").
+trace(942,2,"ER Sepsis Triage").
+trace(942,3,"CRP").
+trace(942,4,"LacticAcid").
+trace(942,5,"Leucocytes").
+trace(942,6,"IV Liquid").
+trace(942,7,"IV Antibiotics").
+trace(942,8,"Admission NC").
+trace(942,9,"Admission NC").
+trace(942,10,"CRP").
+trace(942,11,"Leucocytes").
+trace(942,12,"Release A").
+trace(943,0,"ER Registration").
+trace(943,1,"ER Triage").
+trace(943,2,"ER Sepsis Triage").
+trace(943,3,"LacticAcid").
+trace(943,4,"Leucocytes").
+trace(943,5,"CRP").
+trace(943,6,"IV Antibiotics").
+trace(943,7,"IV Liquid").
+trace(943,8,"Admission NC").
+trace(943,9,"Leucocytes").
+trace(943,10,"CRP").
+trace(944,0,"ER Registration").
+trace(944,1,"ER Triage").
+trace(944,2,"ER Sepsis Triage").
+trace(944,3,"Leucocytes").
+trace(944,4,"CRP").
+trace(944,5,"LacticAcid").
+trace(944,6,"Admission NC").
+trace(944,7,"CRP").
+trace(944,8,"Release A").
+trace(945,0,"Leucocytes").
+trace(945,1,"CRP").
+trace(945,2,"ER Registration").
+trace(945,3,"ER Triage").
+trace(945,4,"ER Sepsis Triage").
+trace(946,0,"ER Registration").
+trace(946,1,"ER Triage").
+trace(946,2,"ER Sepsis Triage").
+trace(946,3,"LacticAcid").
+trace(946,4,"CRP").
+trace(946,5,"Leucocytes").
+trace(946,6,"IV Liquid").
+trace(946,7,"IV Antibiotics").
+trace(947,0,"ER Registration").
+trace(947,1,"ER Triage").
+trace(947,2,"ER Sepsis Triage").
+trace(947,3,"Leucocytes").
+trace(947,4,"CRP").
+trace(947,5,"IV Antibiotics").
+trace(947,6,"Leucocytes").
+trace(947,7,"CRP").
+trace(948,0,"ER Registration").
+trace(948,1,"ER Triage").
+trace(948,2,"ER Sepsis Triage").
+trace(948,3,"Leucocytes").
+trace(948,4,"LacticAcid").
+trace(948,5,"CRP").
+trace(948,6,"IV Liquid").
+trace(948,7,"IV Antibiotics").
+trace(948,8,"Admission NC").
+trace(948,9,"Admission NC").
+trace(948,10,"CRP").
+trace(948,11,"Leucocytes").
+trace(948,12,"Admission NC").
+trace(948,13,"CRP").
+trace(948,14,"Leucocytes").
+trace(948,15,"Release A").
+trace(949,0,"ER Registration").
+trace(949,1,"ER Triage").
+trace(949,2,"ER Sepsis Triage").
+trace(950,0,"ER Registration").
+trace(950,1,"ER Triage").
+trace(950,2,"ER Sepsis Triage").
+trace(950,3,"IV Liquid").
+trace(950,4,"IV Antibiotics").
+trace(950,5,"LacticAcid").
+trace(950,6,"CRP").
+trace(950,7,"Leucocytes").
+trace(951,0,"ER Registration").
+trace(951,1,"LacticAcid").
+trace(951,2,"Leucocytes").
+trace(951,3,"CRP").
+trace(951,4,"ER Triage").
+trace(951,5,"ER Sepsis Triage").
+trace(951,6,"IV Liquid").
+trace(951,7,"IV Antibiotics").
+trace(951,8,"Leucocytes").
+trace(952,0,"ER Registration").
+trace(952,1,"ER Triage").
+trace(952,2,"ER Sepsis Triage").
+trace(952,3,"Leucocytes").
+trace(952,4,"LacticAcid").
+trace(952,5,"CRP").
+trace(952,6,"IV Liquid").
+trace(952,7,"IV Antibiotics").
+trace(953,0,"ER Registration").
+trace(953,1,"ER Triage").
+trace(953,2,"ER Sepsis Triage").
+trace(953,3,"IV Antibiotics").
+trace(953,4,"CRP").
+trace(953,5,"LacticAcid").
+trace(953,6,"Leucocytes").
+trace(953,7,"Admission NC").
+trace(953,8,"Leucocytes").
+trace(953,9,"CRP").
+trace(953,10,"Release A").
+trace(953,11,"Return ER").
+trace(954,0,"ER Registration").
+trace(954,1,"ER Triage").
+trace(954,2,"ER Sepsis Triage").
+trace(954,3,"IV Liquid").
+trace(954,4,"Leucocytes").
+trace(954,5,"CRP").
+trace(954,6,"LacticAcid").
+trace(954,7,"IV Antibiotics").
+trace(954,8,"Admission NC").
+trace(954,9,"CRP").
+trace(954,10,"Leucocytes").
+trace(954,11,"Leucocytes").
+trace(954,12,"CRP").
+trace(954,13,"CRP").
+trace(954,14,"Leucocytes").
+trace(954,15,"Leucocytes").
+trace(954,16,"Leucocytes").
+trace(954,17,"Leucocytes").
+trace(954,18,"Leucocytes").
+trace(954,19,"CRP").
+trace(954,20,"Leucocytes").
+trace(954,21,"CRP").
+trace(954,22,"Leucocytes").
+trace(954,23,"CRP").
+trace(954,24,"Leucocytes").
+trace(954,25,"Leucocytes").
+trace(954,26,"Release A").
+trace(955,0,"ER Registration").
+trace(955,1,"ER Triage").
+trace(955,2,"ER Sepsis Triage").
+trace(955,3,"IV Liquid").
+trace(955,4,"IV Antibiotics").
+trace(955,5,"Leucocytes").
+trace(955,6,"LacticAcid").
+trace(955,7,"CRP").
+trace(956,0,"ER Registration").
+trace(956,1,"ER Triage").
+trace(956,2,"ER Sepsis Triage").
+trace(957,0,"IV Liquid").
+trace(957,1,"ER Registration").
+trace(957,2,"ER Triage").
+trace(957,3,"ER Sepsis Triage").
+trace(957,4,"CRP").
+trace(957,5,"LacticAcid").
+trace(957,6,"Leucocytes").
+trace(957,7,"IV Antibiotics").
+trace(957,8,"Admission NC").
+trace(957,9,"CRP").
+trace(957,10,"CRP").
+trace(957,11,"Leucocytes").
+trace(957,12,"CRP").
+trace(957,13,"Leucocytes").
+trace(957,14,"CRP").
+trace(957,15,"Leucocytes").
+trace(957,16,"CRP").
+trace(957,17,"Release C").
+trace(958,0,"ER Registration").
+trace(958,1,"ER Triage").
+trace(958,2,"ER Sepsis Triage").
+trace(958,3,"LacticAcid").
+trace(958,4,"Leucocytes").
+trace(958,5,"CRP").
+trace(958,6,"IV Liquid").
+trace(958,7,"IV Antibiotics").
+trace(958,8,"Admission NC").
+trace(958,9,"CRP").
+trace(958,10,"Leucocytes").
+trace(958,11,"Leucocytes").
+trace(958,12,"CRP").
+trace(958,13,"Leucocytes").
+trace(958,14,"CRP").
+trace(958,15,"CRP").
+trace(958,16,"Leucocytes").
+trace(958,17,"Leucocytes").
+trace(958,18,"CRP").
+trace(958,19,"Release A").
+trace(959,0,"ER Registration").
+trace(959,1,"LacticAcid").
+trace(959,2,"Leucocytes").
+trace(959,3,"CRP").
+trace(959,4,"IV Liquid").
+trace(959,5,"ER Triage").
+trace(959,6,"ER Sepsis Triage").
+trace(959,7,"IV Antibiotics").
+trace(959,8,"Admission NC").
+trace(959,9,"CRP").
+trace(959,10,"Leucocytes").
+trace(959,11,"Release A").
+trace(960,0,"ER Registration").
+trace(960,1,"ER Triage").
+trace(960,2,"ER Sepsis Triage").
+trace(960,3,"Leucocytes").
+trace(960,4,"CRP").
+trace(960,5,"LacticAcid").
+trace(960,6,"IV Liquid").
+trace(960,7,"IV Antibiotics").
+trace(960,8,"Admission NC").
+trace(960,9,"Leucocytes").
+trace(960,10,"Leucocytes").
+trace(960,11,"CRP").
+trace(960,12,"CRP").
+trace(960,13,"Leucocytes").
+trace(960,14,"CRP").
+trace(960,15,"Leucocytes").
+trace(960,16,"Leucocytes").
+trace(960,17,"CRP").
+trace(960,18,"Leucocytes").
+trace(960,19,"CRP").
+trace(960,20,"Leucocytes").
+trace(960,21,"CRP").
+trace(960,22,"Release A").
+trace(961,0,"ER Registration").
+trace(961,1,"ER Triage").
+trace(961,2,"ER Sepsis Triage").
+trace(962,0,"ER Registration").
+trace(962,1,"ER Triage").
+trace(962,2,"ER Sepsis Triage").
+trace(962,3,"Leucocytes").
+trace(962,4,"CRP").
+trace(962,5,"LacticAcid").
+trace(962,6,"LacticAcid").
+trace(962,7,"IV Liquid").
+trace(962,8,"IV Antibiotics").
+trace(962,9,"Admission NC").
+trace(962,10,"Leucocytes").
+trace(962,11,"CRP").
+trace(962,12,"Admission NC").
+trace(962,13,"CRP").
+trace(962,14,"Leucocytes").
+trace(962,15,"CRP").
+trace(962,16,"Leucocytes").
+trace(962,17,"Release A").
+trace(962,18,"Return ER").
+trace(963,0,"ER Registration").
+trace(963,1,"ER Triage").
+trace(963,2,"ER Sepsis Triage").
+trace(963,3,"IV Liquid").
+trace(963,4,"LacticAcid").
+trace(963,5,"Leucocytes").
+trace(963,6,"CRP").
+trace(963,7,"IV Antibiotics").
+trace(963,8,"Admission NC").
+trace(963,9,"CRP").
+trace(963,10,"LacticAcid").
+trace(963,11,"Leucocytes").
+trace(963,12,"Leucocytes").
+trace(963,13,"Leucocytes").
+trace(963,14,"CRP").
+trace(963,15,"LacticAcid").
+trace(963,16,"Release A").
+trace(964,0,"ER Registration").
+trace(964,1,"ER Triage").
+trace(964,2,"Leucocytes").
+trace(964,3,"LacticAcid").
+trace(964,4,"CRP").
+trace(964,5,"ER Sepsis Triage").
+trace(964,6,"IV Liquid").
+trace(964,7,"IV Antibiotics").
+trace(964,8,"Admission NC").
+trace(964,9,"Admission NC").
+trace(964,10,"Leucocytes").
+trace(964,11,"CRP").
+trace(964,12,"Release A").
+trace(964,13,"Return ER").
+trace(965,0,"ER Registration").
+trace(965,1,"ER Triage").
+trace(965,2,"ER Sepsis Triage").
+trace(965,3,"IV Liquid").
+trace(965,4,"CRP").
+trace(965,5,"Leucocytes").
+trace(965,6,"LacticAcid").
+trace(965,7,"IV Antibiotics").
+trace(965,8,"Admission NC").
+trace(965,9,"CRP").
+trace(965,10,"Leucocytes").
+trace(965,11,"CRP").
+trace(965,12,"Leucocytes").
+trace(965,13,"Release A").
+trace(966,0,"ER Registration").
+trace(966,1,"ER Triage").
+trace(966,2,"ER Sepsis Triage").
+trace(966,3,"Leucocytes").
+trace(966,4,"CRP").
+trace(966,5,"LacticAcid").
+trace(966,6,"Admission NC").
+trace(966,7,"Leucocytes").
+trace(966,8,"CRP").
+trace(966,9,"Admission NC").
+trace(966,10,"Release A").
+trace(967,0,"ER Registration").
+trace(967,1,"ER Triage").
+trace(967,2,"ER Sepsis Triage").
+trace(967,3,"CRP").
+trace(967,4,"LacticAcid").
+trace(967,5,"Leucocytes").
+trace(968,0,"ER Registration").
+trace(968,1,"ER Triage").
+trace(968,2,"ER Sepsis Triage").
+trace(968,3,"CRP").
+trace(968,4,"LacticAcid").
+trace(968,5,"Leucocytes").
+trace(968,6,"IV Liquid").
+trace(968,7,"IV Antibiotics").
+trace(968,8,"Admission NC").
+trace(968,9,"Leucocytes").
+trace(968,10,"Admission NC").
+trace(968,11,"CRP").
+trace(968,12,"CRP").
+trace(968,13,"Leucocytes").
+trace(968,14,"Leucocytes").
+trace(968,15,"Leucocytes").
+trace(968,16,"Leucocytes").
+trace(968,17,"CRP").
+trace(968,18,"Release D").
+trace(969,0,"ER Registration").
+trace(969,1,"ER Triage").
+trace(969,2,"IV Liquid").
+trace(969,3,"Leucocytes").
+trace(969,4,"CRP").
+trace(969,5,"LacticAcid").
+trace(969,6,"ER Sepsis Triage").
+trace(969,7,"IV Antibiotics").
+trace(970,0,"ER Registration").
+trace(970,1,"ER Triage").
+trace(970,2,"ER Sepsis Triage").
+trace(970,3,"IV Liquid").
+trace(970,4,"LacticAcid").
+trace(970,5,"CRP").
+trace(970,6,"Leucocytes").
+trace(970,7,"IV Antibiotics").
+trace(970,8,"Admission NC").
+trace(970,9,"Leucocytes").
+trace(970,10,"CRP").
+trace(970,11,"CRP").
+trace(970,12,"Release B").
+trace(971,0,"ER Registration").
+trace(971,1,"ER Triage").
+trace(971,2,"ER Sepsis Triage").
+trace(971,3,"LacticAcid").
+trace(971,4,"CRP").
+trace(971,5,"Leucocytes").
+trace(971,6,"IV Liquid").
+trace(971,7,"IV Antibiotics").
+trace(971,8,"Admission IC").
+trace(971,9,"Leucocytes").
+trace(971,10,"LacticAcid").
+trace(971,11,"CRP").
+trace(971,12,"Admission NC").
+trace(971,13,"Release A").
+trace(972,0,"ER Registration").
+trace(972,1,"ER Triage").
+trace(972,2,"ER Sepsis Triage").
+trace(972,3,"Leucocytes").
+trace(972,4,"CRP").
+trace(972,5,"LacticAcid").
+trace(972,6,"IV Liquid").
+trace(972,7,"IV Antibiotics").
+trace(972,8,"Admission NC").
+trace(972,9,"Leucocytes").
+trace(972,10,"CRP").
+trace(972,11,"Leucocytes").
+trace(972,12,"CRP").
+trace(972,13,"CRP").
+trace(972,14,"Leucocytes").
+trace(972,15,"Leucocytes").
+trace(972,16,"CRP").
+trace(972,17,"Leucocytes").
+trace(972,18,"CRP").
+trace(972,19,"Leucocytes").
+trace(972,20,"CRP").
+trace(972,21,"Release A").
+trace(972,22,"Leucocytes").
+trace(972,23,"Return ER").
+trace(973,0,"ER Registration").
+trace(973,1,"ER Triage").
+trace(973,2,"ER Sepsis Triage").
+trace(973,3,"CRP").
+trace(973,4,"Leucocytes").
+trace(973,5,"IV Liquid").
+trace(973,6,"IV Antibiotics").
+trace(973,7,"Admission NC").
+trace(973,8,"Leucocytes").
+trace(973,9,"CRP").
+trace(973,10,"Admission IC").
+trace(973,11,"CRP").
+trace(973,12,"LacticAcid").
+trace(973,13,"Leucocytes").
+trace(973,14,"CRP").
+trace(973,15,"LacticAcid").
+trace(973,16,"Leucocytes").
+trace(973,17,"Leucocytes").
+trace(973,18,"CRP").
+trace(973,19,"LacticAcid").
+trace(973,20,"Leucocytes").
+trace(973,21,"LacticAcid").
+trace(973,22,"CRP").
+trace(973,23,"LacticAcid").
+trace(973,24,"CRP").
+trace(973,25,"Leucocytes").
+trace(973,26,"CRP").
+trace(973,27,"Leucocytes").
+trace(973,28,"LacticAcid").
+trace(973,29,"LacticAcid").
+trace(973,30,"Leucocytes").
+trace(973,31,"CRP").
+trace(973,32,"LacticAcid").
+trace(973,33,"CRP").
+trace(973,34,"Leucocytes").
+trace(973,35,"Leucocytes").
+trace(973,36,"CRP").
+trace(973,37,"LacticAcid").
+trace(973,38,"Leucocytes").
+trace(973,39,"CRP").
+trace(973,40,"LacticAcid").
+trace(973,41,"CRP").
+trace(973,42,"Leucocytes").
+trace(973,43,"LacticAcid").
+trace(973,44,"LacticAcid").
+trace(973,45,"Leucocytes").
+trace(973,46,"CRP").
+trace(973,47,"Leucocytes").
+trace(973,48,"LacticAcid").
+trace(973,49,"CRP").
+trace(973,50,"Admission NC").
+trace(973,51,"Release A").
+trace(974,0,"ER Registration").
+trace(974,1,"ER Triage").
+trace(974,2,"IV Liquid").
+trace(974,3,"CRP").
+trace(974,4,"Leucocytes").
+trace(974,5,"LacticAcid").
+trace(974,6,"ER Sepsis Triage").
+trace(974,7,"IV Antibiotics").
+trace(974,8,"Admission NC").
+trace(974,9,"Release A").
+trace(975,0,"ER Registration").
+trace(975,1,"ER Triage").
+trace(975,2,"ER Sepsis Triage").
+trace(975,3,"Leucocytes").
+trace(975,4,"CRP").
+trace(975,5,"LacticAcid").
+trace(975,6,"IV Liquid").
+trace(975,7,"IV Antibiotics").
+trace(975,8,"Admission NC").
+trace(975,9,"Leucocytes").
+trace(975,10,"CRP").
+trace(975,11,"Release A").
+trace(976,0,"ER Registration").
+trace(976,1,"ER Triage").
+trace(976,2,"Leucocytes").
+trace(976,3,"LacticAcid").
+trace(976,4,"CRP").
+trace(976,5,"ER Sepsis Triage").
+trace(976,6,"IV Antibiotics").
+trace(976,7,"Admission NC").
+trace(976,8,"Admission NC").
+trace(976,9,"Leucocytes").
+trace(976,10,"CRP").
+trace(976,11,"CRP").
+trace(976,12,"Leucocytes").
+trace(976,13,"Release A").
+trace(976,14,"Return ER").
+trace(977,0,"ER Registration").
+trace(977,1,"ER Triage").
+trace(977,2,"ER Sepsis Triage").
+trace(977,3,"Leucocytes").
+trace(977,4,"CRP").
+trace(977,5,"LacticAcid").
+trace(977,6,"IV Liquid").
+trace(977,7,"IV Antibiotics").
+trace(977,8,"Leucocytes").
+trace(977,9,"Admission NC").
+trace(977,10,"CRP").
+trace(977,11,"Leucocytes").
+trace(977,12,"Release A").
+trace(977,13,"Return ER").
+trace(978,0,"ER Registration").
+trace(978,1,"ER Triage").
+trace(978,2,"ER Sepsis Triage").
+trace(978,3,"LacticAcid").
+trace(978,4,"Leucocytes").
+trace(978,5,"CRP").
+trace(978,6,"Admission NC").
+trace(978,7,"CRP").
+trace(978,8,"Leucocytes").
+trace(978,9,"Release A").
+trace(979,0,"ER Registration").
+trace(979,1,"ER Triage").
+trace(979,2,"ER Sepsis Triage").
+trace(980,0,"ER Registration").
+trace(980,1,"ER Triage").
+trace(980,2,"ER Sepsis Triage").
+trace(980,3,"LacticAcid").
+trace(980,4,"CRP").
+trace(980,5,"Leucocytes").
+trace(980,6,"IV Antibiotics").
+trace(980,7,"Admission NC").
+trace(980,8,"LacticAcid").
+trace(980,9,"IV Liquid").
+trace(980,10,"Leucocytes").
+trace(980,11,"CRP").
+trace(980,12,"Release A").
+trace(981,0,"ER Registration").
+trace(981,1,"ER Triage").
+trace(981,2,"ER Sepsis Triage").
+trace(981,3,"CRP").
+trace(981,4,"LacticAcid").
+trace(981,5,"Leucocytes").
+trace(981,6,"IV Liquid").
+trace(981,7,"IV Antibiotics").
+trace(981,8,"Admission NC").
+trace(981,9,"Admission NC").
+trace(981,10,"CRP").
+trace(981,11,"CRP").
+trace(981,12,"Leucocytes").
+trace(981,13,"Leucocytes").
+trace(981,14,"CRP").
+trace(981,15,"Admission NC").
+trace(981,16,"Release A").
+trace(982,0,"ER Registration").
+trace(982,1,"ER Triage").
+trace(982,2,"ER Sepsis Triage").
+trace(982,3,"Leucocytes").
+trace(982,4,"CRP").
+trace(982,5,"LacticAcid").
+trace(982,6,"IV Liquid").
+trace(982,7,"IV Antibiotics").
+trace(982,8,"Admission NC").
+trace(982,9,"Leucocytes").
+trace(982,10,"Admission NC").
+trace(982,11,"CRP").
+trace(982,12,"Leucocytes").
+trace(982,13,"Release D").
+trace(983,0,"ER Registration").
+trace(983,1,"ER Triage").
+trace(983,2,"ER Sepsis Triage").
+trace(983,3,"IV Liquid").
+trace(983,4,"Leucocytes").
+trace(983,5,"CRP").
+trace(983,6,"LacticAcid").
+trace(983,7,"IV Antibiotics").
+trace(983,8,"Admission NC").
+trace(983,9,"Admission IC").
+trace(983,10,"LacticAcid").
+trace(983,11,"Leucocytes").
+trace(983,12,"CRP").
+trace(983,13,"LacticAcid").
+trace(983,14,"CRP").
+trace(983,15,"Leucocytes").
+trace(983,16,"Admission NC").
+trace(983,17,"Release B").
+trace(984,0,"ER Registration").
+trace(984,1,"ER Triage").
+trace(984,2,"ER Sepsis Triage").
+trace(984,3,"IV Liquid").
+trace(984,4,"CRP").
+trace(984,5,"Leucocytes").
+trace(984,6,"LacticAcid").
+trace(984,7,"IV Antibiotics").
+trace(984,8,"Admission NC").
+trace(984,9,"Leucocytes").
+trace(984,10,"CRP").
+trace(984,11,"Release A").
+trace(984,12,"Return ER").
+trace(985,0,"ER Registration").
+trace(985,1,"ER Triage").
+trace(985,2,"ER Sepsis Triage").
+trace(985,3,"LacticAcid").
+trace(985,4,"Leucocytes").
+trace(985,5,"CRP").
+trace(985,6,"IV Liquid").
+trace(985,7,"IV Antibiotics").
+trace(985,8,"Admission IC").
+trace(985,9,"Leucocytes").
+trace(985,10,"LacticAcid").
+trace(985,11,"CRP").
+trace(985,12,"Admission NC").
+trace(985,13,"Leucocytes").
+trace(985,14,"CRP").
+trace(985,15,"Leucocytes").
+trace(985,16,"CRP").
+trace(985,17,"Leucocytes").
+trace(985,18,"CRP").
+trace(985,19,"Leucocytes").
+trace(985,20,"CRP").
+trace(985,21,"Leucocytes").
+trace(985,22,"Leucocytes").
+trace(985,23,"Leucocytes").
+trace(985,24,"Leucocytes").
+trace(985,25,"Leucocytes").
+trace(985,26,"Leucocytes").
+trace(985,27,"Leucocytes").
+trace(985,28,"Leucocytes").
+trace(985,29,"Leucocytes").
+trace(985,30,"CRP").
+trace(985,31,"Leucocytes").
+trace(985,32,"Leucocytes").
+trace(985,33,"Leucocytes").
+trace(985,34,"Leucocytes").
+trace(985,35,"Leucocytes").
+trace(985,36,"Leucocytes").
+trace(985,37,"Leucocytes").
+trace(985,38,"CRP").
+trace(985,39,"Leucocytes").
+trace(985,40,"Leucocytes").
+trace(985,41,"CRP").
+trace(985,42,"Release A").
+trace(986,0,"ER Registration").
+trace(986,1,"IV Liquid").
+trace(986,2,"ER Triage").
+trace(986,3,"ER Sepsis Triage").
+trace(986,4,"IV Antibiotics").
+trace(986,5,"Leucocytes").
+trace(986,6,"LacticAcid").
+trace(986,7,"CRP").
+trace(986,8,"Admission NC").
+trace(986,9,"Leucocytes").
+trace(986,10,"LacticAcid").
+trace(986,11,"CRP").
+trace(986,12,"Leucocytes").
+trace(986,13,"CRP").
+trace(986,14,"Release A").
+trace(986,15,"Return ER").
+trace(987,0,"ER Registration").
+trace(987,1,"ER Triage").
+trace(987,2,"ER Sepsis Triage").
+trace(987,3,"IV Liquid").
+trace(987,4,"IV Antibiotics").
+trace(987,5,"CRP").
+trace(987,6,"LacticAcid").
+trace(987,7,"Leucocytes").
+trace(987,8,"Admission NC").
+trace(987,9,"Leucocytes").
+trace(987,10,"Release A").
+trace(988,0,"ER Registration").
+trace(988,1,"ER Triage").
+trace(988,2,"ER Sepsis Triage").
+trace(988,3,"LacticAcid").
+trace(988,4,"Leucocytes").
+trace(988,5,"CRP").
+trace(988,6,"IV Liquid").
+trace(988,7,"IV Antibiotics").
+trace(988,8,"Admission NC").
+trace(988,9,"Leucocytes").
+trace(988,10,"Leucocytes").
+trace(988,11,"CRP").
+trace(988,12,"Leucocytes").
+trace(988,13,"CRP").
+trace(988,14,"Leucocytes").
+trace(988,15,"CRP").
+trace(988,16,"Leucocytes").
+trace(988,17,"CRP").
+trace(988,18,"Release A").
+trace(988,19,"Return ER").
+trace(989,0,"ER Registration").
+trace(989,1,"ER Triage").
+trace(989,2,"Leucocytes").
+trace(989,3,"CRP").
+trace(989,4,"LacticAcid").
+trace(989,5,"ER Sepsis Triage").
+trace(989,6,"IV Liquid").
+trace(989,7,"IV Antibiotics").
+trace(990,0,"ER Registration").
+trace(990,1,"ER Triage").
+trace(990,2,"LacticAcid").
+trace(990,3,"Leucocytes").
+trace(990,4,"CRP").
+trace(990,5,"ER Sepsis Triage").
+trace(990,6,"IV Liquid").
+trace(990,7,"IV Antibiotics").
+trace(991,0,"ER Registration").
+trace(991,1,"ER Triage").
+trace(991,2,"LacticAcid").
+trace(991,3,"Leucocytes").
+trace(991,4,"CRP").
+trace(991,5,"ER Sepsis Triage").
+trace(991,6,"IV Liquid").
+trace(991,7,"IV Antibiotics").
+trace(991,8,"Admission NC").
+trace(991,9,"Admission NC").
+trace(991,10,"Leucocytes").
+trace(991,11,"CRP").
+trace(991,12,"Admission NC").
+trace(991,13,"Leucocytes").
+trace(991,14,"Leucocytes").
+trace(991,15,"CRP").
+trace(991,16,"Leucocytes").
+trace(991,17,"Leucocytes").
+trace(991,18,"CRP").
+trace(991,19,"Release A").
+trace(992,0,"ER Registration").
+trace(992,1,"ER Triage").
+trace(992,2,"Leucocytes").
+trace(992,3,"CRP").
+trace(992,4,"ER Sepsis Triage").
+trace(993,0,"ER Registration").
+trace(993,1,"ER Triage").
+trace(993,2,"ER Sepsis Triage").
+trace(993,3,"IV Antibiotics").
+trace(993,4,"CRP").
+trace(993,5,"Leucocytes").
+trace(993,6,"LacticAcid").
+trace(993,7,"Admission NC").
+trace(993,8,"Admission NC").
+trace(993,9,"CRP").
+trace(993,10,"Leucocytes").
+trace(993,11,"CRP").
+trace(993,12,"Leucocytes").
+trace(993,13,"Release A").
+trace(994,0,"ER Registration").
+trace(994,1,"ER Triage").
+trace(994,2,"ER Sepsis Triage").
+trace(994,3,"LacticAcid").
+trace(994,4,"Leucocytes").
+trace(994,5,"CRP").
+trace(994,6,"IV Liquid").
+trace(994,7,"IV Antibiotics").
+trace(994,8,"Admission IC").
+trace(994,9,"Leucocytes").
+trace(994,10,"LacticAcid").
+trace(994,11,"CRP").
+trace(994,12,"Admission NC").
+trace(994,13,"Leucocytes").
+trace(994,14,"CRP").
+trace(994,15,"Release A").
+trace(995,0,"ER Registration").
+trace(995,1,"ER Triage").
+trace(995,2,"ER Sepsis Triage").
+trace(995,3,"Leucocytes").
+trace(995,4,"LacticAcid").
+trace(995,5,"CRP").
+trace(995,6,"IV Liquid").
+trace(995,7,"IV Antibiotics").
+trace(995,8,"Admission NC").
+trace(995,9,"Admission NC").
+trace(995,10,"Release A").
+trace(995,11,"Return ER").
+trace(996,0,"ER Registration").
+trace(996,1,"ER Triage").
+trace(996,2,"Leucocytes").
+trace(996,3,"CRP").
+trace(996,4,"LacticAcid").
+trace(996,5,"ER Sepsis Triage").
+trace(996,6,"IV Liquid").
+trace(996,7,"IV Antibiotics").
+trace(996,8,"Admission NC").
+trace(996,9,"Leucocytes").
+trace(996,10,"Leucocytes").
+trace(996,11,"CRP").
+trace(996,12,"Leucocytes").
+trace(996,13,"CRP").
+trace(996,14,"Leucocytes").
+trace(996,15,"CRP").
+trace(996,16,"CRP").
+trace(996,17,"Leucocytes").
+trace(996,18,"CRP").
+trace(996,19,"CRP").
+trace(996,20,"Leucocytes").
+trace(996,21,"Leucocytes").
+trace(996,22,"Leucocytes").
+trace(996,23,"CRP").
+trace(996,24,"Release A").
+trace(997,0,"ER Registration").
+trace(997,1,"ER Triage").
+trace(997,2,"ER Sepsis Triage").
+trace(997,3,"LacticAcid").
+trace(997,4,"Leucocytes").
+trace(997,5,"CRP").
+trace(997,6,"IV Liquid").
+trace(997,7,"IV Antibiotics").
+trace(997,8,"Admission NC").
+trace(997,9,"Leucocytes").
+trace(997,10,"Leucocytes").
+trace(997,11,"Leucocytes").
+trace(997,12,"CRP").
+trace(997,13,"Release A").
+trace(998,0,"ER Registration").
+trace(998,1,"ER Triage").
+trace(998,2,"ER Sepsis Triage").
+trace(998,3,"CRP").
+trace(998,4,"Leucocytes").
+trace(999,0,"ER Registration").
+trace(999,1,"ER Triage").
+trace(999,2,"ER Sepsis Triage").
+trace(999,3,"Leucocytes").
+trace(999,4,"CRP").
+trace(1000,0,"ER Registration").
+trace(1000,1,"ER Triage").
+trace(1000,2,"ER Sepsis Triage").
+trace(1000,3,"CRP").
+trace(1000,4,"Leucocytes").
+trace(1001,0,"ER Registration").
+trace(1001,1,"ER Triage").
+trace(1001,2,"ER Sepsis Triage").
+trace(1001,3,"Leucocytes").
+trace(1001,4,"CRP").
+trace(1001,5,"LacticAcid").
+trace(1001,6,"IV Liquid").
+trace(1001,7,"IV Antibiotics").
+trace(1001,8,"Admission NC").
+trace(1001,9,"CRP").
+trace(1001,10,"Release A").
+trace(1001,11,"Return ER").
+trace(1002,0,"ER Registration").
+trace(1002,1,"ER Triage").
+trace(1002,2,"ER Sepsis Triage").
+trace(1002,3,"LacticAcid").
+trace(1002,4,"Leucocytes").
+trace(1002,5,"CRP").
+trace(1002,6,"IV Liquid").
+trace(1002,7,"IV Antibiotics").
+trace(1002,8,"Admission NC").
+trace(1002,9,"Admission NC").
+trace(1002,10,"CRP").
+trace(1002,11,"Leucocytes").
+trace(1002,12,"Leucocytes").
+trace(1002,13,"CRP").
+trace(1002,14,"Leucocytes").
+trace(1002,15,"CRP").
+trace(1002,16,"Leucocytes").
+trace(1002,17,"CRP").
+trace(1002,18,"CRP").
+trace(1002,19,"Leucocytes").
+trace(1002,20,"CRP").
+trace(1002,21,"CRP").
+trace(1002,22,"Leucocytes").
+trace(1002,23,"Release A").
+trace(1002,24,"Return ER").
+trace(1003,0,"ER Triage").
+trace(1003,1,"ER Registration").
+trace(1003,2,"Leucocytes").
+trace(1003,3,"CRP").
+trace(1003,4,"LacticAcid").
+trace(1003,5,"ER Sepsis Triage").
+trace(1003,6,"IV Antibiotics").
+trace(1004,0,"ER Registration").
+trace(1004,1,"ER Triage").
+trace(1004,2,"ER Sepsis Triage").
+trace(1004,3,"CRP").
+trace(1004,4,"Leucocytes").
+trace(1004,5,"LacticAcid").
+trace(1004,6,"IV Antibiotics").
+trace(1004,7,"Admission NC").
+trace(1004,8,"Leucocytes").
+trace(1004,9,"CRP").
+trace(1004,10,"Leucocytes").
+trace(1004,11,"CRP").
+trace(1004,12,"CRP").
+trace(1004,13,"Leucocytes").
+trace(1004,14,"Leucocytes").
+trace(1004,15,"CRP").
+trace(1004,16,"Leucocytes").
+trace(1004,17,"CRP").
+trace(1004,18,"CRP").
+trace(1004,19,"CRP").
+trace(1004,20,"Release C").
+trace(1004,21,"Return ER").
+trace(1005,0,"ER Registration").
+trace(1005,1,"ER Triage").
+trace(1005,2,"ER Sepsis Triage").
+trace(1005,3,"IV Liquid").
+trace(1005,4,"LacticAcid").
+trace(1005,5,"Leucocytes").
+trace(1005,6,"CRP").
+trace(1005,7,"IV Antibiotics").
+trace(1005,8,"Admission NC").
+trace(1005,9,"Leucocytes").
+trace(1005,10,"CRP").
+trace(1005,11,"Leucocytes").
+trace(1005,12,"CRP").
+trace(1005,13,"CRP").
+trace(1005,14,"Leucocytes").
+trace(1005,15,"CRP").
+trace(1005,16,"Leucocytes").
+trace(1005,17,"Leucocytes").
+trace(1005,18,"CRP").
+trace(1005,19,"Leucocytes").
+trace(1005,20,"CRP").
+trace(1005,21,"CRP").
+trace(1005,22,"Leucocytes").
+trace(1005,23,"Release A").
+trace(1006,0,"ER Registration").
+trace(1006,1,"ER Triage").
+trace(1006,2,"ER Sepsis Triage").
+trace(1006,3,"Leucocytes").
+trace(1006,4,"CRP").
+trace(1006,5,"LacticAcid").
+trace(1006,6,"IV Liquid").
+trace(1006,7,"IV Antibiotics").
+trace(1007,0,"ER Registration").
+trace(1007,1,"IV Liquid").
+trace(1007,2,"ER Triage").
+trace(1007,3,"Leucocytes").
+trace(1007,4,"CRP").
+trace(1007,5,"LacticAcid").
+trace(1007,6,"ER Sepsis Triage").
+trace(1007,7,"IV Antibiotics").
+trace(1007,8,"Admission NC").
+trace(1007,9,"CRP").
+trace(1007,10,"Leucocytes").
+trace(1007,11,"Leucocytes").
+trace(1007,12,"CRP").
+trace(1007,13,"Admission NC").
+trace(1007,14,"Release A").
+trace(1008,0,"ER Registration").
+trace(1008,1,"ER Triage").
+trace(1008,2,"ER Sepsis Triage").
+trace(1008,3,"IV Liquid").
+trace(1008,4,"IV Antibiotics").
+trace(1008,5,"Leucocytes").
+trace(1008,6,"CRP").
+trace(1008,7,"LacticAcid").
+trace(1009,0,"ER Registration").
+trace(1009,1,"ER Triage").
+trace(1009,2,"ER Sepsis Triage").
+trace(1009,3,"CRP").
+trace(1009,4,"Leucocytes").
+trace(1009,5,"Admission NC").
+trace(1009,6,"CRP").
+trace(1009,7,"Leucocytes").
+trace(1009,8,"Admission NC").
+trace(1009,9,"Leucocytes").
+trace(1009,10,"CRP").
+trace(1009,11,"CRP").
+trace(1009,12,"Release A").
+trace(1009,13,"Return ER").
+trace(1010,0,"ER Registration").
+trace(1010,1,"ER Triage").
+trace(1010,2,"ER Sepsis Triage").
+trace(1010,3,"Leucocytes").
+trace(1010,4,"LacticAcid").
+trace(1010,5,"CRP").
+trace(1010,6,"IV Liquid").
+trace(1010,7,"IV Antibiotics").
+trace(1011,0,"ER Registration").
+trace(1011,1,"ER Triage").
+trace(1011,2,"ER Sepsis Triage").
+trace(1011,3,"CRP").
+trace(1011,4,"Leucocytes").
+trace(1011,5,"Admission IC").
+trace(1011,6,"CRP").
+trace(1011,7,"Leucocytes").
+trace(1011,8,"LacticAcid").
+trace(1011,9,"Leucocytes").
+trace(1011,10,"LacticAcid").
+trace(1011,11,"CRP").
+trace(1011,12,"LacticAcid").
+trace(1011,13,"CRP").
+trace(1011,14,"Leucocytes").
+trace(1011,15,"Leucocytes").
+trace(1011,16,"CRP").
+trace(1011,17,"LacticAcid").
+trace(1011,18,"CRP").
+trace(1011,19,"Leucocytes").
+trace(1011,20,"LacticAcid").
+trace(1011,21,"Leucocytes").
+trace(1011,22,"CRP").
+trace(1011,23,"LacticAcid").
+trace(1011,24,"Leucocytes").
+trace(1011,25,"CRP").
+trace(1011,26,"LacticAcid").
+trace(1011,27,"Leucocytes").
+trace(1011,28,"CRP").
+trace(1011,29,"LacticAcid").
+trace(1011,30,"LacticAcid").
+trace(1011,31,"CRP").
+trace(1011,32,"Leucocytes").
+trace(1011,33,"Admission NC").
+trace(1011,34,"Leucocytes").
+trace(1011,35,"CRP").
+trace(1011,36,"LacticAcid").
+trace(1011,37,"Leucocytes").
+trace(1011,38,"Leucocytes").
+trace(1011,39,"CRP").
+trace(1011,40,"LacticAcid").
+trace(1011,41,"CRP").
+trace(1011,42,"Leucocytes").
+trace(1011,43,"CRP").
+trace(1011,44,"Admission NC").
+trace(1011,45,"CRP").
+trace(1011,46,"Leucocytes").
+trace(1011,47,"CRP").
+trace(1011,48,"Leucocytes").
+trace(1011,49,"CRP").
+trace(1011,50,"Leucocytes").
+trace(1011,51,"Leucocytes").
+trace(1011,52,"CRP").
+trace(1011,53,"Leucocytes").
+trace(1011,54,"CRP").
+trace(1011,55,"CRP").
+trace(1011,56,"Leucocytes").
+trace(1011,57,"Leucocytes").
+trace(1011,58,"CRP").
+trace(1011,59,"Release A").
+trace(1011,60,"Return ER").
+trace(1012,0,"ER Registration").
+trace(1012,1,"ER Triage").
+trace(1012,2,"ER Sepsis Triage").
+trace(1012,3,"LacticAcid").
+trace(1012,4,"CRP").
+trace(1012,5,"Leucocytes").
+trace(1012,6,"IV Liquid").
+trace(1012,7,"IV Antibiotics").
+trace(1012,8,"Admission NC").
+trace(1012,9,"Release A").
+trace(1012,10,"Return ER").
+trace(1013,0,"ER Registration").
+trace(1013,1,"ER Triage").
+trace(1013,2,"ER Sepsis Triage").
+trace(1013,3,"Leucocytes").
+trace(1013,4,"CRP").
+trace(1013,5,"Admission NC").
+trace(1013,6,"Leucocytes").
+trace(1013,7,"CRP").
+trace(1013,8,"Release A").
+trace(1014,0,"ER Registration").
+trace(1014,1,"ER Triage").
+trace(1014,2,"ER Sepsis Triage").
+trace(1014,3,"Leucocytes").
+trace(1014,4,"LacticAcid").
+trace(1014,5,"CRP").
+trace(1014,6,"IV Liquid").
+trace(1014,7,"IV Antibiotics").
+trace(1014,8,"Admission NC").
+trace(1014,9,"CRP").
+trace(1014,10,"Release A").
+trace(1014,11,"Return ER").
+trace(1015,0,"ER Registration").
+trace(1015,1,"ER Triage").
+trace(1015,2,"ER Sepsis Triage").
+trace(1015,3,"CRP").
+trace(1015,4,"Leucocytes").
+trace(1015,5,"LacticAcid").
+trace(1015,6,"IV Antibiotics").
+trace(1015,7,"Admission NC").
+trace(1016,0,"ER Registration").
+trace(1016,1,"ER Triage").
+trace(1016,2,"ER Sepsis Triage").
+trace(1017,0,"ER Registration").
+trace(1017,1,"ER Triage").
+trace(1017,2,"ER Sepsis Triage").
+trace(1017,3,"LacticAcid").
+trace(1017,4,"CRP").
+trace(1017,5,"Leucocytes").
+trace(1017,6,"IV Antibiotics").
+trace(1017,7,"IV Liquid").
+trace(1017,8,"Admission NC").
+trace(1017,9,"CRP").
+trace(1017,10,"Leucocytes").
+trace(1017,11,"Leucocytes").
+trace(1017,12,"CRP").
+trace(1017,13,"Leucocytes").
+trace(1017,14,"CRP").
+trace(1017,15,"Release A").
+trace(1017,16,"Return ER").
+trace(1018,0,"ER Registration").
+trace(1018,1,"CRP").
+trace(1018,2,"LacticAcid").
+trace(1018,3,"Leucocytes").
+trace(1018,4,"ER Triage").
+trace(1018,5,"ER Sepsis Triage").
+trace(1018,6,"IV Liquid").
+trace(1018,7,"IV Antibiotics").
+trace(1018,8,"Admission NC").
+trace(1018,9,"Admission NC").
+trace(1018,10,"Admission NC").
+trace(1018,11,"Release A").
+trace(1018,12,"Return ER").
+trace(1019,0,"ER Registration").
+trace(1019,1,"ER Triage").
+trace(1019,2,"ER Sepsis Triage").
+trace(1019,3,"Leucocytes").
+trace(1019,4,"CRP").
+trace(1019,5,"Admission NC").
+trace(1019,6,"Admission NC").
+trace(1019,7,"CRP").
+trace(1019,8,"Leucocytes").
+trace(1019,9,"CRP").
+trace(1019,10,"Leucocytes").
+trace(1019,11,"CRP").
+trace(1019,12,"Release A").
+trace(1020,0,"ER Registration").
+trace(1020,1,"ER Triage").
+trace(1020,2,"ER Sepsis Triage").
+trace(1021,0,"ER Registration").
+trace(1021,1,"ER Triage").
+trace(1021,2,"CRP").
+trace(1021,3,"Leucocytes").
+trace(1021,4,"ER Sepsis Triage").
+trace(1022,0,"ER Sepsis Triage").
+trace(1022,1,"ER Registration").
+trace(1022,2,"ER Triage").
+trace(1022,3,"IV Liquid").
+trace(1022,4,"IV Antibiotics").
+trace(1022,5,"CRP").
+trace(1022,6,"Leucocytes").
+trace(1022,7,"LacticAcid").
+trace(1022,8,"Admission NC").
+trace(1022,9,"CRP").
+trace(1022,10,"Leucocytes").
+trace(1022,11,"Admission NC").
+trace(1022,12,"Leucocytes").
+trace(1022,13,"CRP").
+trace(1022,14,"Leucocytes").
+trace(1022,15,"CRP").
+trace(1022,16,"Release A").
+trace(1023,0,"ER Registration").
+trace(1023,1,"ER Triage").
+trace(1023,2,"ER Sepsis Triage").
+trace(1023,3,"IV Liquid").
+trace(1023,4,"CRP").
+trace(1023,5,"Leucocytes").
+trace(1023,6,"LacticAcid").
+trace(1023,7,"IV Antibiotics").
+trace(1023,8,"Admission NC").
+trace(1023,9,"Leucocytes").
+trace(1023,10,"CRP").
+trace(1023,11,"CRP").
+trace(1023,12,"Leucocytes").
+trace(1023,13,"Leucocytes").
+trace(1023,14,"CRP").
+trace(1023,15,"CRP").
+trace(1023,16,"Leucocytes").
+trace(1023,17,"Leucocytes").
+trace(1023,18,"CRP").
+trace(1023,19,"Release D").
+trace(1024,0,"ER Registration").
+trace(1024,1,"ER Triage").
+trace(1024,2,"ER Sepsis Triage").
+trace(1024,3,"Leucocytes").
+trace(1024,4,"Admission NC").
+trace(1024,5,"Release A").
+trace(1025,0,"ER Registration").
+trace(1025,1,"ER Triage").
+trace(1025,2,"CRP").
+trace(1025,3,"Leucocytes").
+trace(1025,4,"LacticAcid").
+trace(1025,5,"ER Sepsis Triage").
+trace(1025,6,"IV Liquid").
+trace(1025,7,"IV Antibiotics").
+trace(1026,0,"ER Registration").
+trace(1026,1,"ER Triage").
+trace(1026,2,"ER Sepsis Triage").
+trace(1026,3,"IV Liquid").
+trace(1026,4,"IV Antibiotics").
+trace(1026,5,"Leucocytes").
+trace(1026,6,"LacticAcid").
+trace(1026,7,"CRP").
+trace(1026,8,"Admission NC").
+trace(1026,9,"Leucocytes").
+trace(1026,10,"CRP").
+trace(1026,11,"Leucocytes").
+trace(1026,12,"CRP").
+trace(1026,13,"Admission NC").
+trace(1026,14,"Leucocytes").
+trace(1026,15,"CRP").
+trace(1026,16,"Leucocytes").
+trace(1026,17,"CRP").
+trace(1026,18,"Admission NC").
+trace(1026,19,"Admission NC").
+trace(1026,20,"Release A").
+trace(1027,0,"ER Sepsis Triage").
+trace(1027,1,"ER Registration").
+trace(1027,2,"ER Triage").
+trace(1027,3,"IV Liquid").
+trace(1027,4,"IV Antibiotics").
+trace(1027,5,"CRP").
+trace(1027,6,"LacticAcid").
+trace(1027,7,"Leucocytes").
+trace(1027,8,"Admission IC").
+trace(1027,9,"LacticAcid").
+trace(1027,10,"Leucocytes").
+trace(1027,11,"CRP").
+trace(1027,12,"LacticAcid").
+trace(1027,13,"Leucocytes").
+trace(1027,14,"CRP").
+trace(1027,15,"LacticAcid").
+trace(1027,16,"Leucocytes").
+trace(1027,17,"CRP").
+trace(1027,18,"LacticAcid").
+trace(1027,19,"Admission NC").
+trace(1027,20,"CRP").
+trace(1027,21,"Leucocytes").
+trace(1027,22,"CRP").
+trace(1027,23,"Leucocytes").
+trace(1027,24,"Release A").
+trace(1027,25,"Return ER").
+trace(1028,0,"ER Registration").
+trace(1028,1,"ER Triage").
+trace(1028,2,"ER Sepsis Triage").
+trace(1028,3,"Leucocytes").
+trace(1028,4,"CRP").
+trace(1028,5,"LacticAcid").
+trace(1028,6,"IV Liquid").
+trace(1028,7,"IV Antibiotics").
+trace(1028,8,"Admission NC").
+trace(1028,9,"CRP").
+trace(1028,10,"Leucocytes").
+trace(1028,11,"Leucocytes").
+trace(1028,12,"CRP").
+trace(1028,13,"Release A").
+trace(1029,0,"ER Registration").
+trace(1029,1,"Leucocytes").
+trace(1029,2,"CRP").
+trace(1029,3,"LacticAcid").
+trace(1029,4,"ER Triage").
+trace(1029,5,"ER Sepsis Triage").
+trace(1029,6,"IV Liquid").
+trace(1029,7,"IV Antibiotics").
+trace(1029,8,"Admission NC").
+trace(1029,9,"CRP").
+trace(1029,10,"Leucocytes").
+trace(1029,11,"CRP").
+trace(1029,12,"Admission NC").
+trace(1029,13,"Leucocytes").
+trace(1029,14,"CRP").
+trace(1029,15,"CRP").
+trace(1029,16,"Leucocytes").
+trace(1029,17,"Release A").
+trace(1030,0,"ER Registration").
+trace(1030,1,"ER Triage").
+trace(1030,2,"ER Sepsis Triage").
+trace(1030,3,"CRP").
+trace(1030,4,"Leucocytes").
+trace(1030,5,"IV Liquid").
+trace(1030,6,"IV Antibiotics").
+trace(1030,7,"Admission IC").
+trace(1030,8,"Admission NC").
+trace(1030,9,"Leucocytes").
+trace(1030,10,"CRP").
+trace(1030,11,"Leucocytes").
+trace(1030,12,"CRP").
+trace(1030,13,"Leucocytes").
+trace(1030,14,"CRP").
+trace(1030,15,"Release A").
+trace(1031,0,"ER Registration").
+trace(1031,1,"ER Triage").
+trace(1031,2,"ER Sepsis Triage").
+trace(1031,3,"IV Liquid").
+trace(1031,4,"CRP").
+trace(1031,5,"Leucocytes").
+trace(1031,6,"LacticAcid").
+trace(1031,7,"IV Antibiotics").
+trace(1031,8,"Admission NC").
+trace(1031,9,"Release A").
+trace(1032,0,"CRP").
+trace(1032,1,"Leucocytes").
+trace(1032,2,"ER Registration").
+trace(1032,3,"ER Triage").
+trace(1032,4,"ER Sepsis Triage").
+trace(1032,5,"LacticAcid").
+trace(1032,6,"Leucocytes").
+trace(1032,7,"CRP").
+trace(1032,8,"IV Liquid").
+trace(1032,9,"IV Antibiotics").
+trace(1032,10,"Admission NC").
+trace(1032,11,"CRP").
+trace(1032,12,"Leucocytes").
+trace(1032,13,"Release A").
+trace(1033,0,"ER Registration").
+trace(1033,1,"ER Triage").
+trace(1033,2,"ER Sepsis Triage").
+trace(1034,0,"ER Registration").
+trace(1034,1,"ER Triage").
+trace(1034,2,"ER Sepsis Triage").
+trace(1034,3,"Leucocytes").
+trace(1034,4,"CRP").
+trace(1035,0,"ER Registration").
+trace(1035,1,"ER Triage").
+trace(1035,2,"ER Sepsis Triage").
+trace(1036,0,"ER Registration").
+trace(1036,1,"ER Triage").
+trace(1036,2,"ER Sepsis Triage").
+trace(1036,3,"Leucocytes").
+trace(1036,4,"CRP").
+trace(1036,5,"Admission NC").
+trace(1036,6,"Leucocytes").
+trace(1036,7,"CRP").
+trace(1036,8,"Release A").
+trace(1036,9,"Return ER").
+trace(1037,0,"IV Liquid").
+trace(1037,1,"ER Registration").
+trace(1037,2,"ER Triage").
+trace(1037,3,"ER Sepsis Triage").
+trace(1037,4,"Leucocytes").
+trace(1037,5,"LacticAcid").
+trace(1037,6,"CRP").
+trace(1037,7,"IV Antibiotics").
+trace(1037,8,"LacticAcid").
+trace(1037,9,"Admission IC").
+trace(1037,10,"LacticAcid").
+trace(1037,11,"CRP").
+trace(1037,12,"LacticAcid").
+trace(1037,13,"Leucocytes").
+trace(1037,14,"LacticAcid").
+trace(1037,15,"Leucocytes").
+trace(1037,16,"CRP").
+trace(1037,17,"Leucocytes").
+trace(1037,18,"LacticAcid").
+trace(1037,19,"LacticAcid").
+trace(1037,20,"CRP").
+trace(1037,21,"Leucocytes").
+trace(1037,22,"Leucocytes").
+trace(1037,23,"LacticAcid").
+trace(1037,24,"CRP").
+trace(1037,25,"Leucocytes").
+trace(1037,26,"CRP").
+trace(1037,27,"LacticAcid").
+trace(1037,28,"Leucocytes").
+trace(1037,29,"CRP").
+trace(1037,30,"LacticAcid").
+trace(1037,31,"Leucocytes").
+trace(1037,32,"CRP").
+trace(1037,33,"LacticAcid").
+trace(1037,34,"Admission NC").
+trace(1037,35,"Leucocytes").
+trace(1037,36,"CRP").
+trace(1037,37,"Leucocytes").
+trace(1037,38,"CRP").
+trace(1037,39,"CRP").
+trace(1037,40,"Leucocytes").
+trace(1037,41,"CRP").
+trace(1037,42,"Leucocytes").
+trace(1037,43,"Leucocytes").
+trace(1037,44,"CRP").
+trace(1037,45,"Leucocytes").
+trace(1037,46,"CRP").
+trace(1037,47,"Leucocytes").
+trace(1037,48,"CRP").
+trace(1037,49,"Leucocytes").
+trace(1037,50,"CRP").
+trace(1037,51,"CRP").
+trace(1037,52,"Leucocytes").
+trace(1037,53,"Leucocytes").
+trace(1037,54,"CRP").
+trace(1037,55,"Leucocytes").
+trace(1037,56,"Leucocytes").
+trace(1037,57,"CRP").
+trace(1037,58,"Leucocytes").
+trace(1037,59,"CRP").
+trace(1037,60,"Admission IC").
+trace(1037,61,"LacticAcid").
+trace(1037,62,"Leucocytes").
+trace(1037,63,"CRP").
+trace(1037,64,"Leucocytes").
+trace(1037,65,"Release B").
+trace(1038,0,"ER Registration").
+trace(1038,1,"ER Triage").
+trace(1038,2,"ER Sepsis Triage").
+trace(1038,3,"CRP").
+trace(1038,4,"Leucocytes").
+trace(1038,5,"Admission NC").
+trace(1038,6,"Leucocytes").
+trace(1038,7,"CRP").
+trace(1038,8,"Release A").
+trace(1039,0,"ER Registration").
+trace(1039,1,"ER Triage").
+trace(1039,2,"ER Sepsis Triage").
+trace(1039,3,"CRP").
+trace(1039,4,"Leucocytes").
+trace(1039,5,"Admission NC").
+trace(1039,6,"Release A").
+trace(1040,0,"ER Registration").
+trace(1040,1,"ER Triage").
+trace(1040,2,"ER Sepsis Triage").
+trace(1040,3,"Leucocytes").
+trace(1040,4,"CRP").
+trace(1040,5,"Admission NC").
+trace(1040,6,"Leucocytes").
+trace(1040,7,"Leucocytes").
+trace(1040,8,"CRP").
+trace(1040,9,"CRP").
+trace(1040,10,"Leucocytes").
+trace(1040,11,"Leucocytes").
+trace(1040,12,"CRP").
+trace(1040,13,"Leucocytes").
+trace(1040,14,"CRP").
+trace(1040,15,"Release A").
+trace(1040,16,"Return ER").
+trace(1041,0,"ER Registration").
+trace(1041,1,"ER Triage").
+trace(1041,2,"ER Sepsis Triage").
+trace(1041,3,"Leucocytes").
+trace(1041,4,"CRP").
+trace(1041,5,"LacticAcid").
+trace(1041,6,"IV Liquid").
+trace(1041,7,"IV Antibiotics").
+trace(1042,0,"ER Registration").
+trace(1042,1,"ER Triage").
+trace(1042,2,"ER Sepsis Triage").
+trace(1042,3,"CRP").
+trace(1042,4,"Leucocytes").
+trace(1043,0,"ER Registration").
+trace(1043,1,"ER Triage").
+trace(1043,2,"ER Sepsis Triage").
+trace(1043,3,"CRP").
+trace(1043,4,"LacticAcid").
+trace(1043,5,"Leucocytes").
+trace(1043,6,"IV Antibiotics").
+trace(1043,7,"Admission NC").
+trace(1043,8,"IV Liquid").
+trace(1044,0,"ER Registration").
+trace(1044,1,"ER Triage").
+trace(1044,2,"ER Sepsis Triage").
+trace(1044,3,"IV Liquid").
+trace(1044,4,"CRP").
+trace(1044,5,"LacticAcid").
+trace(1044,6,"Leucocytes").
+trace(1044,7,"IV Antibiotics").
+trace(1044,8,"Admission IC").
+trace(1044,9,"CRP").
+trace(1044,10,"Leucocytes").
+trace(1044,11,"LacticAcid").
+trace(1044,12,"CRP").
+trace(1044,13,"LacticAcid").
+trace(1044,14,"Leucocytes").
+trace(1044,15,"Admission IC").
+trace(1044,16,"Leucocytes").
+trace(1044,17,"CRP").
+trace(1044,18,"LacticAcid").
+trace(1044,19,"Leucocytes").
+trace(1044,20,"Leucocytes").
+trace(1044,21,"CRP").
+trace(1044,22,"LacticAcid").
+trace(1044,23,"Admission NC").
+trace(1044,24,"Release A").
+trace(1045,0,"ER Registration").
+trace(1045,1,"ER Triage").
+trace(1045,2,"ER Sepsis Triage").
+trace(1045,3,"Leucocytes").
+trace(1045,4,"CRP").
+trace(1045,5,"LacticAcid").
+trace(1045,6,"IV Antibiotics").
+trace(1045,7,"Admission IC").
+trace(1045,8,"CRP").
+trace(1045,9,"Leucocytes").
+trace(1045,10,"LacticAcid").
+trace(1045,11,"LacticAcid").
+trace(1045,12,"Leucocytes").
+trace(1045,13,"Leucocytes").
+trace(1045,14,"CRP").
+trace(1045,15,"LacticAcid").
+trace(1045,16,"Leucocytes").
+trace(1045,17,"CRP").
+trace(1045,18,"LacticAcid").
+trace(1045,19,"LacticAcid").
+trace(1045,20,"Leucocytes").
+trace(1045,21,"CRP").
+trace(1045,22,"Admission NC").
+trace(1045,23,"CRP").
+trace(1045,24,"Leucocytes").
+trace(1045,25,"CRP").
+trace(1045,26,"CRP").
+trace(1045,27,"Leucocytes").
+trace(1045,28,"CRP").
+trace(1045,29,"Release A").
+trace(1046,0,"ER Registration").
+trace(1046,1,"ER Triage").
+trace(1046,2,"ER Sepsis Triage").
+trace(1047,0,"ER Registration").
+trace(1047,1,"ER Triage").
+trace(1047,2,"ER Sepsis Triage").
+trace(1048,0,"ER Registration").
+trace(1048,1,"ER Triage").
+trace(1048,2,"ER Sepsis Triage").
+trace(1048,3,"Leucocytes").
+trace(1048,4,"LacticAcid").
+trace(1048,5,"CRP").
+trace(1048,6,"IV Liquid").
+trace(1048,7,"IV Antibiotics").
+trace(1048,8,"Admission NC").
+trace(1048,9,"CRP").
+trace(1048,10,"Leucocytes").
+trace(1048,11,"LacticAcid").
+trace(1048,12,"Leucocytes").
+trace(1048,13,"CRP").
+trace(1048,14,"Release A").
+trace(1049,0,"ER Registration").
+trace(1049,1,"ER Triage").
+trace(1049,2,"ER Sepsis Triage").
