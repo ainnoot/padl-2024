@@ -29,7 +29,7 @@ ALL_ENCODINGS = [
 	'ltlf_base',
 	'ltlf_xnf',
 	'ltlf_dag',
-	'ad_hoc'
+	'asp_native'
 ]
 
 
