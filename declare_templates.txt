@@ -5,6 +5,7 @@
 
 % Existence templates
 Existence: F(arg_0)
+% Absence 2: !F(arg_0 & F(arg_0)) - This produces the wrong automaton 
 Absence 2: !F(arg_0 & XF(arg_0))
 
 % Choice templates
@@ -13,18 +14,22 @@ Exclusive Choice: (F(arg_0) | F(arg_1)) & !(F(arg_0) & F(arg_1))
 
 % Relation templates
 Responded Existence: F(arg_0) -> F(arg_1)
-Coexistence: F(arg_0) <-> F(arg_1)
+Coexistence: (F(arg_0) -> F(arg_1)) & (F(arg_1) -> F(arg_0))
 Response: G(arg_0 -> F(arg_1))
 Precedence: !arg_1 W arg_0
 Succession: G(arg_0 -> F(arg_1)) & (!arg_1 W arg_0)
 Alternate Response: G(arg_0 -> X(!arg_0 U arg_1))
-Alternate Precedence: (!arg_1 W arg_0) & G(arg_1 -> WX(!arg_1 W arg_0))
-Alternate Succession: G(arg_0 -> X(!arg_0 U arg_1)) & (!arg_1 W arg_0) & G(arg_1 -> WX(!arg_1 W arg_0))
+Alternate Precedence: (!arg_1 W arg_0) & G(arg_1 -> X(!arg_1 W arg_0))
+Alternate Succession: (G(arg_0 -> X(!arg_0 U arg_1)) & (!arg_1 W arg_0)) & G(arg_1 -> X(!arg_1 W arg_0))
 Chain Response: G(arg_0 -> X(arg_1))
 Chain Precedence: G(X(arg_1) -> arg_0)
-Chain Succession: G(arg_0 <-> X(arg_1))
+Chain Succession: G(arg_0 -> X(arg_1)) & G(X(arg_1) -> arg_0)
 
 % Negation templates
 Not Coexistence: !(F(arg_0) & F(arg_1))
 Neg Succession: G(arg_0 -> !F(arg_1))
-Neg Chain Succession: G(arg_0 <-> X(!arg_1))
+
+% See under Theorem 6!
+% Table says G(arg_0 \iff X!b)
+% But "the correct one" is G(arg_0 \iff !X(b))
+Neg Chain Succession: G( (arg_0 -> !X(arg_1)) & (!X(arg_1) -> arg_0) )
