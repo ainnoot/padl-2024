@@ -1,11 +1,11 @@
-constraint_formula(C,@substitute(BaseFormula,B)) :- constraint(C, Template, B), template(Template, BaseFormula).
+constraint_formula(C,@substitute(BaseFormula,B)) :- constraint(C, Template, B), term_template(Template, BaseFormula).
 % Covers all binary operators
 
 subformula(LHS;RHS) :- subformula((_,LHS,RHS)).
 
 root(C, @substitute(Formula,Bindings)) :-
   constraint(C, Template, Bindings), 
-  template(Template, Formula).
+  term_template(Template, Formula).
 
 % Covers all unary operators
 ltlf_unary(negate; next; eventually; always).
@@ -26,8 +26,8 @@ eval(F,T,TID) :-
 
 % Next
 eval(F,T,TID) :-
-	subformula(F), F = (next, F),
-	eval(F, T+1, TID),
+	subformula(F), F = (next, Q),
+	eval(Q, T+1, TID),
 	trace(TID,T,_),
 	not last(TID,T).
 
@@ -86,7 +86,12 @@ eval(F,T,TID) :-
 % Implies
 eval(F,T,TID) :-
 	subformula(F), F = (implies,LHS,RHS),
-	1 {not eval(LHS,T,TID); eval(RHS,T,TID)},
+	eval(LHS, T, TID),
+	eval(RHS, T, TID).
+
+eval(F,T,TID) :-
+	subformula(F), F = (implies,LHS,RHS),
+	not eval(LHS, T, TID),
 	trace(TID,T,_).
 
 % Release -- TODO
@@ -99,4 +104,4 @@ eval(F,T,TID) :-
 
 
 sat(method(ltlf_dag),C,TID) :- eval(F,0,TID), root(C,F).
--sat(method(ltlf_dag),C,TID) :- not eval(F,0,TID), root(C,F), trace(TID,_,_).
+
