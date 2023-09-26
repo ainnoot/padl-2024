@@ -1,6 +1,8 @@
-from pathlib import Path 
 import sys
+import itertools
+from pathlib import Path 
 import clingo
+from argparse import ArgumentParser
 
 BASE_DIR = Path(__file__).parent
 
@@ -21,6 +23,15 @@ activity(A) :- bind(_,_,A).
 #show.
 #show sat/3.
 """
+
+ALL_ENCODINGS = [
+	'automata',
+	'ltlf_base',
+	'ltlf_xnf',
+	'ltlf_dag',
+	'ad_hoc'
+]
+
 
 class bcolors:
     HEADER = '\033[95m'
@@ -77,11 +88,9 @@ def print_witness(model):
 def constraint_name(path):
 	return path.name.split('.')[0]
 
-if __name__ == '__main__':
-	enc_1, enc_2 = sys.argv[1:]
-
+def fuzz_pair(enc_1, enc_2, verbose=False):
+	something_wrong = False
 	for declare_constraint in Path(DECLARE_MODELS_PATH).glob("*.lp"):
-		print(bcolors.HEADER + "% Constraint: " + declare_constraint.stem + bcolors.ENDC, end='... ')
 		ctl = clingo.Control()
 		ctl.add("base", [], FUZZ_PROGRAM)
 		ctl.load(declare_constraint.as_posix())
@@ -97,7 +106,33 @@ if __name__ == '__main__':
 		color = bcolors.OKGREEN if ans.unsatisfiable else bcolors.FAIL
 
 		if ans.unsatisfiable:
-			print(color + "OK!" + bcolors.ENDC)
+			if verbose:
+				print(color + "[OK] {}".format(declare_constraint.stem) + bcolors.ENDC)
+
+		elif ans.satisfiable:
+			print(color + "% [FAIL] {}".format(declare_constraint.stem) + bcolors.ENDC)
+			something_wrong = True
 
 		else:
-			print(color + "WRONG!" + bcolors.ENDC)
+			print(bcolors.FAIL + "[FAIL] Got UNKNOWN from a Datalog program, something is very wrong." + bcolors.ENDC)
+			sys.exit(0)
+
+	final_color = bcolors.OKGREEN if not something_wrong else bcolors.FAIL
+	if not something_wrong:
+		print(final_color + "[OK] Everything works for {}-{}!".format(enc_1, enc_2) + bcolors.ENDC)
+	else:
+		print(final_color + "[FAIL] Take a look into {}-{}!".format(enc_1, enc_2) + bcolors.ENDC)
+
+def fuzz_combinations(verbose=False):
+	for enc_1, enc_2 in itertools.combinations(ALL_ENCODINGS, 2):
+		print(bcolors.WARNING + "Searching counterexamples over DECLARE contraints for {}/{}...".format(enc_1, enc_2) + bcolors.ENDC)
+		fuzz_pair(enc_1, enc_2, verbose=verbose)
+		print()
+
+if __name__ == '__main__':
+	p = ArgumentParser()
+	p.add_argument('-v', '--verbose', action='store_true')
+	args = p.parse_args()
+
+	fuzz_combinations(verbose=args.verbose)
+
