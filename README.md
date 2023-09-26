@@ -1,27 +1,34 @@
 # TODO
 
 - [ ] Add copyright or something to `flloat` classes, `ltlf2dfa` classes, `processtrace2dfa` classes
-- [ ] Check that Declare LTLf definition is correctly in the `declare_templates.txt`
-
-
+- [x] Check that Declare LTLf definition is correctly in the `declare_templates.txt`
+  - Taken from AAAI, seems the most complete
 - [x] rewrite `ltlf_dag` Clingo script to be a "preprocessing" step as in the other encodings
 - [x] custom `flloat` grammar, `LTLfParser` to support `W` operator in Declare constraints
-- [ ] Fuzz syntax tree encoding wrt automata definitions for each constraint
+- [x] Fuzz syntax tree encoding wrt automata definitions for each constraint
   - [x] encoding
-  - [ ] bash scripts
-  - [ ] be sure-sure-sure all encodings work
+  - [x] bash scripts
+  - [x] be sure-sure-sure all encodings work
+    - everything works pair-to-pair
+
 - [ ] Scripts for each task
   - [ ] conformance checking
-  - [ ] query checking
-  - [ ] log generation/bounded satisfiability
+  - ~[ ] query checking~ stesso motivo, l'ho fatto per KR e non scala bene
+  - ~[ ] log generation/bounded satisfiability~ secondo Francesco no, è naive e ASP va male
 - [ ] Scripts to benchmark over a suite of logs
 - [x] Script to map LTLf into facts
   - [x] automaton encoding
   - [x] syntax tree encoding
-- [x] Script to map XES into facts
+  - [x] DAG encoding
+  - [x] ad hoc encoding
+
+- [ ] Script to map XES into facts
+  - script Chiariello usa `trace(TID,A,T)`, uso dappertutto `trace(TID,T,A)`
+
 - [x] Script to map Declare models into facts
   - [x] d4py -- al momento installandola da pip è rotta e non si può usare
   - [x] minerful
+  - [ ] allineare nomim constraint d4py - AAAI
 
 # Fact Schema
 ## Traces
