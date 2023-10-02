@@ -7,14 +7,14 @@ import os
 if __name__ == '__main__':
 	data_folder = sys.argv[1]
 	results_folder = sys.argv[2]
-	logger = sys.argv[3]
-
-	logger_file = open(logger, 'w+')
 
 	shutil.rmtree(results_folder)
 	Path(results_folder).mkdir(parents=True)
 
 	methods = ['asp_native', 'd4py', 'ltlf_base', 'ltlf_xnf', 'automata']
+
+	# Generate all pyrunlim cmd's
+	jobs_to_be_executed = []
 
 	# Run conformance checking with all methods for all available logs and splits
 	for log_folder in Path(data_folder).glob('*'):
@@ -43,14 +43,23 @@ if __name__ == '__main__':
 				"--method={}".format(cf_method),
 				"--output={}".format(str(output_file))
 				]
-				print("Running cmd:", ' '.join(cmd))			
-				run_result = pyrunlim_launch(cmd)
 
-				logging_msg = ' '.join(['CONFORMANCE_CHECKING', cf_method, log_folder.stem, model.stem, str(run_result.real), str(run_result.max_memory)]) + '\n'
-				logger_file.write(logging_msg)
-				logger_file.flush()
 
-	logger_file.close()
+				jobs_to_be_executed.append(((cf_method, log_folder.stem, model.stem), cmd))
+
+
+
+	from multiprocessing import Pool
+	def launch_and_report(x):
+		(method, log, split), cmd = x
+		process_output = pyrunlim_launch(cmd)
+		return "{} {} {} {:.3f} {:.3f}".format(method, log, split, process_output.real, process_output.max_memory)
+
+	with Pool(16) as pool:
+		res = pool.map(launch_and_report, jobs_to_be_executed)
+
+	for line in res:
+		print(line)
 
 
 
