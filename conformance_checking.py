@@ -15,6 +15,7 @@ def parse_args():
     p.add_argument('log', type=str, help='An event log in XES format.')
     p.add_argument('model', type=str, help='A DECLARE model in decl format.')
     p.add_argument('-m', '--method', type=str, default='asp_native')
+    p.add_argument('-o', '--output', type=str, required=True)
 
     methods = [
         'automata',
@@ -51,10 +52,12 @@ def d4py_conformance_checking(args):
 
     return dump_checker_as_tuples(ans.get_metric('state'))
 
+
 def clingo_conformance_checking(args):
+    prg, length = xes2lp(args.log)
     ctl = clingo.Control()
     ctl.add("base", [], reify_decl_model(args.model))
-    ctl.add("base", [], xes2lp(args.log))
+    ctl.add("base", [], prg)
     ctl.add("base", [], "#show. #show (C,TID): sat(_,C,TID).")
 
     for lp_file in Path(args.method).glob('*.lp'):
@@ -69,9 +72,9 @@ def clingo_conformance_checking(args):
 if __name__ == '__main__':
     args = parse_args()
     if args.method == 'd4py':
-        checkers = d4py_conformance_checking(args)
+        output_tuples = d4py_conformance_checking(args)
     else:
-        checkers = clingo_conformance_checking(args)
+        output_tuples = clingo_conformance_checking(args)
 
-    for c in checkers:
-        print(c)
+    with open(args.output, 'w') as f:
+        f.write('\n'.join(output_tuples))

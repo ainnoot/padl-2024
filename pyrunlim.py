@@ -522,6 +522,7 @@ class Process:
             self.kill()
 
 def pyrunlim_launch(argv):
+    print("Pyrunlim argv:", argv)
     def signal_handler(signal, frame):
         process.kill()
     signal.signal(signal.SIGINT, signal_handler)
@@ -531,5 +532,8 @@ def pyrunlim_launch(argv):
     process.run()
 
     return process
+
 if __name__ == '__main__':
-    pyrunlim_launch(sys.argv[1:])
+    process = pyrunlim_launch(sys.argv[1:])
+    print("Elapsed: {:.3f}s Max memory consumption: {:.3f} MB".format(process.real, process.max_memory))
+
