@@ -108,7 +108,7 @@ if __name__ == '__main__':
 		print("Filtered down from {} to {} constraints".format(len(all_constraints.constraints), len(filtered_constraints)))
 
 		# Cutting models
-		thresholds = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+		thresholds = [0.25, 0.50, 0.75, 1.0]
 		models = cut_models(filtered_constraints, thresholds)
 
 		# Time to perform conformance checking with Declare4Py

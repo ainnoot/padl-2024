@@ -3,17 +3,27 @@ from pyrunlim import pyrunlim_launch
 import sys
 import shutil
 import os
+from multiprocessing import Pool
+
+def launch_and_report(x):
+	task, (method, log, split), cmd = x
+	process_output = pyrunlim_launch(cmd)
+	return "{} {} {} {} {:.3f} {:.3f}".format(task, method, log, split, process_output.real, process_output.max_memory)
+
 
 if __name__ == '__main__':
 	data_folder = sys.argv[1]
 	results_folder = sys.argv[2]
+	logger_file = sys.argv[3]
 
 	shutil.rmtree(results_folder)
 	Path(results_folder).mkdir(parents=True)
 
-	methods = ['asp_native', 'd4py', 'ltlf_base', 'ltlf_xnf', 'automata']
+	methods = ['asp_native', 'd4py', 'ltlf_base', 'automata']
+	cf_jobs = []
+	qc_jobs = []
+	lg_jobs = []
 
-	# Generate all pyrunlim cmd's
 	jobs_to_be_executed = []
 
 	# Run conformance checking with all methods for all available logs and splits
@@ -27,13 +37,13 @@ if __name__ == '__main__':
 			print("\t*", model.stem)
 		print()
 
-		#### CONFORMANCE CHECKING	
+		#### CONFORMANCE CHECKING
 		for model in sorted(models):
 			for cf_method in methods:
 				# results/cf/sepsis/asp_native/split_3/ANS
-				output_folder = Path(results_folder, 'conformance_checking', log_folder.stem, cf_method, str(model.stem))
-				output_folder.mkdir(parents=True)
-				output_file = output_folder / 'ANS'
+				output_folder = Path(results_folder, 'conformance_checking', log_folder.stem, cf_method)
+				output_folder.mkdir(parents=True, exist_ok=True)
+				output_file = output_folder / model.stem
 				output_file.touch()
 
 				cmd = [
@@ -44,24 +54,14 @@ if __name__ == '__main__':
 				"--output={}".format(str(output_file))
 				]
 
-
-				jobs_to_be_executed.append(((cf_method, log_folder.stem, model.stem), cmd))
-
-
-
-	from multiprocessing import Pool
-	def launch_and_report(x):
-		(method, log, split), cmd = x
-		process_output = pyrunlim_launch(cmd)
-		return "{} {} {} {:.3f} {:.3f}".format(method, log, split, process_output.real, process_output.max_memory)
-
-	with Pool(16) as pool:
-		res = pool.map(launch_and_report, jobs_to_be_executed)
-
-	for line in res:
-		print(line)
+				# Generate all pyrunlim cmd'			for line in res:
+				jobs_to_be_executed.append(('conformance_checking', (cf_method, log_folder.stem, model.stem), cmd))
 
 
-
+	with open(logger_file, 'w+') as f:
+		for (task, params, cmd) in jobs_to_be_executed:
+			res = launch_and_report((task,params,cmd))
+			f.write(res+'\n')
+			f.flush()
 
 
