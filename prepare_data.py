@@ -40,12 +40,12 @@ def remove_unsupported_constraints(constraints):
 		'Succession',
 		'Alternate Succession',
 		'Chain Succession',
-		'Not Resoponded Existence',
+		'Not Responded Existence',
 		'Not Co-Existence',
 		'Not Succession',
 		'Not Response',
 		'Not Precedence',
-		'Not Chain Succession'
+		'Not Chain Succession',
 		'Not Chain Response',
 		'Not Chain Precedence',
 	])
