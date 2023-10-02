@@ -16,6 +16,7 @@ def parse_args():
     p.add_argument('-l', '--length', type=int, default=15)
     p.add_argument('--max-traces', type=int, default=100)
     p.add_argument('--negative', action='store_true')
+    p.add_argument('-o', '--output', required=True, type=str)
 
     methods = [
         'automata',
@@ -77,5 +78,7 @@ def generate_trace_skeletons(decl, method, length, args):
 if __name__ == '__main__':
     args = parse_args()
     traces = generate_trace_skeletons(args.model, args.method, args.length, args)
-    for t in traces:
-        print(t)
+
+    with open(args.output, 'w+') as f:
+        for t in traces:
+            f.write(t + '\n')
