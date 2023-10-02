@@ -16,6 +16,7 @@ def parse_args():
     p.add_argument('template', type=str, help='A DECLARE template.')
     p.add_argument('-m', '--method', type=str, default='asp_native')
     p.add_argument('-s', '--min-support', type=float, default=0.8)
+    p.add_argument('-o', '--output', type=str)
 
     methods = [
         'automata',
@@ -95,6 +96,7 @@ if __name__ == '__main__':
     else:
         result = clingo_query_checking(args)
 
-    print("Answers: ", len(result))
-    for qid, c in enumerate(result, start=1):
-        print("Query Answer #{}:".format(qid), c)
+    with open(args.output, 'w+') as f:
+        print("Answers: ", len(result))
+        for qid, c in enumerate(result, start=1):
+            print("Query Answer #{}:".format(qid), c)
