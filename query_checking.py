@@ -97,6 +97,6 @@ if __name__ == '__main__':
         result = clingo_query_checking(args)
 
     with open(args.output, 'w+') as f:
-        print("Answers: ", len(result))
+        f.write("Answers: {}\n".format(len(result)))
         for qid, c in enumerate(result, start=1):
-            print("Query Answer #{}:".format(qid), c)
+            f.write("Query Answer #{}: {}\n".format(qid,c))
