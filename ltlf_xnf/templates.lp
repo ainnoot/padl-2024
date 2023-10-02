@@ -1,16 +1,3 @@
-% Existence -- F(arg_0)
-template("Existence", eventually(0,1)).
-template("Existence", atom(1,arg_0)).
-
-% Absence 2 -- !F(arg_0 & XF(arg_0))
-template("Absence 2", negate(0,1)).
-template("Absence 2", eventually(1,2)).
-template("Absence 2", conjunction(2,3,4)).
-template("Absence 2", atom(3,arg_0)).
-template("Absence 2", next(4,5)).
-template("Absence 2", eventually(5,6)).
-template("Absence 2", atom(6,arg_0)).
-
 % Choice -- F(arg_0) | F(arg_1)
 template("Choice", disjunction(0,1,2)).
 template("Choice", eventually(1,3)).
@@ -95,7 +82,7 @@ template("Alternate Response", negate(5,7)).
 template("Alternate Response", atom(6,arg_1)).
 template("Alternate Response", atom(7,arg_0)).
 
-% Alternate Precedence -- (!arg_1 W arg_0) & G(arg_1 -> X(!arg_1 W arg_0))
+% Alternate Precedence -- ( (!arg_1) W arg_0 ) & G( arg_1 -> X( (!arg_1) W arg_0) )
 template("Alternate Precedence", conjunction(0,1,2)).
 template("Alternate Precedence", disjunction(1,3,4)).
 template("Alternate Precedence", always(2,5)).
@@ -157,12 +144,21 @@ template("Chain Response", atom(2,arg_0)).
 template("Chain Response", next(3,4)).
 template("Chain Response", atom(4,arg_1)).
 
-% Chain Precedence -- G(X(arg_1) -> arg_0)
-template("Chain Precedence", always(0,1)).
-template("Chain Precedence", implies(1,2,3)).
-template("Chain Precedence", next(2,4)).
-template("Chain Precedence", atom(3,arg_0)).
-template("Chain Precedence", atom(4,arg_1)).
+% Chain Precedence -- (!arg_1 W arg_0) & G(X(arg_1) -> arg_0)
+template("Chain Precedence", conjunction(0,1,2)).
+template("Chain Precedence", disjunction(1,3,4)).
+template("Chain Precedence", always(2,5)).
+template("Chain Precedence", until(3,6,7)).
+template("Chain Precedence", always(4,8)).
+template("Chain Precedence", implies(5,9,10)).
+template("Chain Precedence", negate(6,11)).
+template("Chain Precedence", atom(7,arg_0)).
+template("Chain Precedence", negate(8,12)).
+template("Chain Precedence", next(9,13)).
+template("Chain Precedence", atom(10,arg_0)).
+template("Chain Precedence", atom(11,arg_1)).
+template("Chain Precedence", atom(12,arg_1)).
+template("Chain Precedence", atom(13,arg_1)).
 
 % Chain Succession -- G(arg_0 -> X(arg_1)) & G(X(arg_1) -> arg_0)
 template("Chain Succession", conjunction(0,1,2)).
@@ -185,25 +181,65 @@ template("Not Coexistence", eventually(3,5)).
 template("Not Coexistence", atom(4,arg_0)).
 template("Not Coexistence", atom(5,arg_1)).
 
-% Neg Succession -- G(arg_0 -> !F(arg_1))
-template("Neg Succession", always(0,1)).
-template("Neg Succession", implies(1,2,3)).
-template("Neg Succession", atom(2,arg_0)).
-template("Neg Succession", negate(3,4)).
-template("Neg Succession", eventually(4,5)).
-template("Neg Succession", atom(5,arg_1)).
+% Not Succession -- G(arg_0 -> !F(arg_1))
+template("Not Succession", always(0,1)).
+template("Not Succession", implies(1,2,3)).
+template("Not Succession", atom(2,arg_0)).
+template("Not Succession", negate(3,4)).
+template("Not Succession", eventually(4,5)).
+template("Not Succession", atom(5,arg_1)).
 
-% Neg Chain Succession -- G( (arg_0 -> !X(arg_1)) & (!X(arg_1) -> arg_0) )
-template("Neg Chain Succession", always(0,1)).
-template("Neg Chain Succession", conjunction(1,2,3)).
-template("Neg Chain Succession", implies(2,4,5)).
-template("Neg Chain Succession", implies(3,6,7)).
-template("Neg Chain Succession", atom(4,arg_0)).
-template("Neg Chain Succession", negate(5,8)).
-template("Neg Chain Succession", negate(6,9)).
-template("Neg Chain Succession", atom(7,arg_0)).
-template("Neg Chain Succession", next(8,10)).
-template("Neg Chain Succession", next(9,11)).
-template("Neg Chain Succession", atom(10,arg_1)).
-template("Neg Chain Succession", atom(11,arg_1)).
+% Not Chain Succession -- G( (arg_0 -> !X(arg_1)) & (!X(arg_1) -> arg_0) )
+template("Not Chain Succession", always(0,1)).
+template("Not Chain Succession", conjunction(1,2,3)).
+template("Not Chain Succession", implies(2,4,5)).
+template("Not Chain Succession", implies(3,6,7)).
+template("Not Chain Succession", atom(4,arg_0)).
+template("Not Chain Succession", negate(5,8)).
+template("Not Chain Succession", negate(6,9)).
+template("Not Chain Succession", atom(7,arg_0)).
+template("Not Chain Succession", next(8,10)).
+template("Not Chain Succession", next(9,11)).
+template("Not Chain Succession", atom(10,arg_1)).
+template("Not Chain Succession", atom(11,arg_1)).
+
+% Not Responded Existence -- F(arg_0) -> !(F(arg_1))
+template("Not Responded Existence", implies(0,1,2)).
+template("Not Responded Existence", eventually(1,3)).
+template("Not Responded Existence", negate(2,4)).
+template("Not Responded Existence", atom(3,arg_0)).
+template("Not Responded Existence", eventually(4,5)).
+template("Not Responded Existence", atom(5,arg_1)).
+
+% Not Response -- G(arg_0 -> !(F arg_1))
+template("Not Response", always(0,1)).
+template("Not Response", implies(1,2,3)).
+template("Not Response", atom(2,arg_0)).
+template("Not Response", negate(3,4)).
+template("Not Response", eventually(4,5)).
+template("Not Response", atom(5,arg_1)).
+
+% Not Precedence -- G(F(arg_1) -> !arg_0)
+template("Not Precedence", always(0,1)).
+template("Not Precedence", implies(1,2,3)).
+template("Not Precedence", eventually(2,4)).
+template("Not Precedence", negate(3,5)).
+template("Not Precedence", atom(4,arg_1)).
+template("Not Precedence", atom(5,arg_0)).
+
+% Not Chain Response -- G(arg_0 -> X(!(arg_1)))
+template("Not Chain Response", always(0,1)).
+template("Not Chain Response", implies(1,2,3)).
+template("Not Chain Response", atom(2,arg_0)).
+template("Not Chain Response", next(3,4)).
+template("Not Chain Response", negate(4,5)).
+template("Not Chain Response", atom(5,arg_1)).
+
+% Not Chain Precedence -- G(X(arg_1) -> !arg_0)
+template("Not Chain Precedence", always(0,1)).
+template("Not Chain Precedence", implies(1,2,3)).
+template("Not Chain Precedence", next(2,4)).
+template("Not Chain Precedence", negate(3,5)).
+template("Not Chain Precedence", atom(4,arg_1)).
+template("Not Chain Precedence", atom(5,arg_0)).
 

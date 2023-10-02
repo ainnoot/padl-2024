@@ -3,12 +3,12 @@ import pm4py
 from pathlib import Path
 
 def xes2lp(log_file):
-    log = pm4py.read_xes(log_file.absolute().as_posix(), return_legacy_log_object=True)
+    log = pm4py.read_xes(Path(log_file).absolute().as_posix(), return_legacy_log_object=True)
     prg = []
     for tid, trace in enumerate(log):
         for t, event in enumerate(trace):
             prg.append('trace({},{},\"{}\").'.format(tid, t, event['concept:name']))
-    return '\n'.join(prg)
+    return '\n'.join(prg), len(log)
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:

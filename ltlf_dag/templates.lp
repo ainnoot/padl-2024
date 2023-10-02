@@ -1,9 +1,3 @@
-% Existence --  F(arg_0)
-term_template("Existence", (eventually,(atom,arg_0))).
-
-% Absence 2 --  !F(arg_0 & XF(arg_0))
-term_template("Absence 2", (negate,(eventually,(conjunction,(atom,arg_0),(next,(eventually,(atom,arg_0))))))).
-
 % Choice --  F(arg_0) | F(arg_1)
 term_template("Choice", (disjunction,(eventually,(atom,arg_0)),(eventually,(atom,arg_1)))).
 
@@ -28,7 +22,7 @@ term_template("Succession", (conjunction,(always,(implies,(atom,arg_0),(eventual
 % Alternate Response --  G(arg_0 -> X(!arg_0 U arg_1))
 term_template("Alternate Response", (always,(implies,(atom,arg_0),(next,(until,(negate,(atom,arg_0)),(atom,arg_1)))))).
 
-% Alternate Precedence --  (!arg_1 W arg_0) & G(arg_1 -> X(!arg_1 W arg_0))
+% Alternate Precedence --  ( (!arg_1) W arg_0 ) & G( arg_1 -> X( (!arg_1) W arg_0) )
 term_template("Alternate Precedence", (conjunction,(disjunction,(until,(negate,(atom,arg_1)),(atom,arg_0)),(always,(negate,(atom,arg_1)))),(always,(implies,(atom,arg_1),(next,(disjunction,(until,(negate,(atom,arg_1)),(atom,arg_0)),(always,(negate,(atom,arg_1))))))))).
 
 % Alternate Succession --  (G(arg_0 -> X(!arg_0 U arg_1)) & (!arg_1 W arg_0)) & G(arg_1 -> X(!arg_1 W arg_0))
@@ -37,8 +31,8 @@ term_template("Alternate Succession", (conjunction,(conjunction,(always,(implies
 % Chain Response --  G(arg_0 -> X(arg_1))
 term_template("Chain Response", (always,(implies,(atom,arg_0),(next,(atom,arg_1))))).
 
-% Chain Precedence --  G(X(arg_1) -> arg_0)
-term_template("Chain Precedence", (always,(implies,(next,(atom,arg_1)),(atom,arg_0)))).
+% Chain Precedence --  (!arg_1 W arg_0) & G(X(arg_1) -> arg_0)
+term_template("Chain Precedence", (conjunction,(disjunction,(until,(negate,(atom,arg_1)),(atom,arg_0)),(always,(negate,(atom,arg_1)))),(always,(implies,(next,(atom,arg_1)),(atom,arg_0))))).
 
 % Chain Succession --  G(arg_0 -> X(arg_1)) & G(X(arg_1) -> arg_0)
 term_template("Chain Succession", (conjunction,(always,(implies,(atom,arg_0),(next,(atom,arg_1)))),(always,(implies,(next,(atom,arg_1)),(atom,arg_0))))).
@@ -46,9 +40,24 @@ term_template("Chain Succession", (conjunction,(always,(implies,(atom,arg_0),(ne
 % Not Coexistence --  !(F(arg_0) & F(arg_1))
 term_template("Not Coexistence", (negate,(conjunction,(eventually,(atom,arg_0)),(eventually,(atom,arg_1))))).
 
-% Neg Succession --  G(arg_0 -> !F(arg_1))
-term_template("Neg Succession", (always,(implies,(atom,arg_0),(negate,(eventually,(atom,arg_1)))))).
+% Not Succession --  G(arg_0 -> !F(arg_1))
+term_template("Not Succession", (always,(implies,(atom,arg_0),(negate,(eventually,(atom,arg_1)))))).
 
-% Neg Chain Succession --  G( (arg_0 -> !X(arg_1)) & (!X(arg_1) -> arg_0) )
-term_template("Neg Chain Succession", (always,(conjunction,(implies,(atom,arg_0),(negate,(next,(atom,arg_1)))),(implies,(negate,(next,(atom,arg_1))),(atom,arg_0))))).
+% Not Chain Succession --  G( (arg_0 -> !X(arg_1)) & (!X(arg_1) -> arg_0) )
+term_template("Not Chain Succession", (always,(conjunction,(implies,(atom,arg_0),(negate,(next,(atom,arg_1)))),(implies,(negate,(next,(atom,arg_1))),(atom,arg_0))))).
+
+% Not Responded Existence --  F(arg_0) -> !(F(arg_1))
+term_template("Not Responded Existence", (implies,(eventually,(atom,arg_0)),(negate,(eventually,(atom,arg_1))))).
+
+% Not Response --  G(arg_0 -> !(F arg_1))
+term_template("Not Response", (always,(implies,(atom,arg_0),(negate,(eventually,(atom,arg_1)))))).
+
+% Not Precedence --  G(F(arg_1) -> !arg_0)
+term_template("Not Precedence", (always,(implies,(eventually,(atom,arg_1)),(negate,(atom,arg_0))))).
+
+% Not Chain Response --  G(arg_0 -> X(!(arg_1)))
+term_template("Not Chain Response", (always,(implies,(atom,arg_0),(next,(negate,(atom,arg_1)))))).
+
+% Not Chain Precedence --  G(X(arg_1) -> !arg_0)
+term_template("Not Chain Precedence", (always,(implies,(next,(atom,arg_1)),(negate,(atom,arg_0))))).
 

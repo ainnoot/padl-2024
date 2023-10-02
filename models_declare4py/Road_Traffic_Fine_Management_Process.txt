@@ -1,4 +1,0 @@
-{'Existence1[Create Fine] | |': 1.0,
- 'Absence2[Create Fine] | |': 1.0,
- 'Exactly1[Create Fine] | |': 1.0,
- 'Init[Create Fine] | |': 1.0}

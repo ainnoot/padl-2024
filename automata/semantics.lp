@@ -34,4 +34,3 @@ cur_state(C,TID,S2,T+1) :-
 
 sat(automata,C,TID)  :- cur_state(C,TID,S,T+1), last(TID,T), constraint(C, Template), accepting(Template, S).
 
-rotto(T) :- #count{S: cur_state(C,TID,S,T)} > 1, trace(TID,T,_), constraint(C,_).
