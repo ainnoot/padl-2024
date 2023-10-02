@@ -76,5 +76,5 @@ if __name__ == '__main__':
     else:
         output_tuples = clingo_conformance_checking(args)
 
-    with open(args.output, 'w') as f:
+    with open(args.output, 'w+') as f:
         f.write('\n'.join(output_tuples))
