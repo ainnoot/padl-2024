@@ -12,12 +12,12 @@ def launch_and_report(x):
 
 
 if __name__ == '__main__':
-	data_folder = sys.argv[1]
-	results_folder = sys.argv[2]
+	data_folder = Path(sys.argv[1])
+	results_folder = Path(sys.argv[2], 'query_checking')
 	logger_file = sys.argv[3]
 
+        Path(results_folder).mkdir(parents=True)
 	shutil.rmtree(results_folder)
-	Path(results_folder).mkdir(parents=True)
 
 	methods = ['asp_native', 'd4py', 'ltlf_base', 'automata']
 	available_templates = [
@@ -47,7 +47,7 @@ if __name__ == '__main__':
 	jobs_to_be_executed = []
 
 	# Run conformance checking with all methods for all available logs and splits
-	for log_folder in Path(data_folder).glob('*'):
+	for log_folder in data_folder.glob('*'):
 		log = Path(log_folder / 'log.xes')
 
 		print("Found a log:", log_folder.stem)
@@ -57,7 +57,7 @@ if __name__ == '__main__':
 				for supp in [0.5, 0.75, 1.0]:
 					# results/cf/sepsis/asp_native/split_3/ANS
 					template_w_supp = '{}_{}'.format('_'.join(template.split(' ')), supp)
-					output_folder = Path(results_folder, 'query_checking', log_folder.stem, qc_method)
+					output_folder = results_folder / log_folder.stem / qc_method
 					output_folder.mkdir(parents=True, exist_ok=True)
 					output_file = output_folder / template_w_supp
 					output_file.touch()
