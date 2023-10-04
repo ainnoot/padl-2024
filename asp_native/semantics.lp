@@ -1,24 +1,5 @@
 last(TID,T) :- trace(TID,T,_), not trace(TID,T+1,_).
 
-% Template: Existence(arg_0)
-% Description: `arg_0` must be executed at least once.
-% Fails when: `arg_0` is never executed.
-%fail(C, TID) :-
-%  constraint(C, "Existence1"),
-%  bind(C, arg_0, X),
-%  not trace(TID, _, X), 
-%  trace(TID, _, _).
-
-% Template: Absence 2
-% Description: `arg_0` can be executed at most once.
-% Fails when: `arg_0` is executed at least two times.
-%fail(C, TID) :-
-%  constraint(C, "Absence"),
-%  bind(C, arg_0, X),
-%  trace(TID,T,X), 
-%  trace(TID,T',X),
-%  T' > T.
-
 % Template: Choice
 % Description: `arg_0` or `arg_1` must be executed.
 % Fails when: `arg_0`, `arg_1` are never executed.
@@ -113,12 +94,6 @@ fail(C,TID) :-
   trace(TID,_,Y),
   not trace(TID,_,X).
 
-% Template: Succession
-% Description: `arg_1` must be executed after `arg_0`, and `arg_0` must precede `arg_1`
-% Fails when: (i) Response fails; (ii) Precedence fails.
-
-% vvv this is very elegant, but wrong!
-% fail/2 definition for response due to missing witnesses mixes with fail/2 definition for precedence
 % constraint(C, "Response"; "Precedence") :- constraint(C, "Succession").
 fail(C,TID) :-
   constraint(C, "Succession"),
@@ -161,20 +136,6 @@ witness(C,T,TID) :-
   T'' = #min{Q: trace(TID,Q,X), Q > T}, 
   trace(TID,T',Y), T'' > T', T' > T.
 
-%%% d4py
-witness_ar_r(C,T,TID) :- 
-  constraint(C, "Alternate Response"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID, T, X), trace(TID, T', Y), T' > T.
-
-fail(C,TID) :-
-  constraint(C, "Alternate Response"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID, T, X), 
-  not witness_ar_r(C,T,TID).
-%%%%
 
 fail(C,TID) :- 
   constraint(C, "Alternate Response"),
@@ -193,6 +154,10 @@ witness(C, T2, TID) :-
   constraint(C, "Alternate Precedence"),
   bind(C, arg_0, X), 
   bind(C, arg_1, Y).
+
+witness(C, T, TID) :-
+  last(TID, T),
+  constraint(C, "Alternate Precedence").
 
 fail(C, TID) :-
   constraint(C, "Alternate Precedence"),
@@ -263,21 +228,6 @@ fail(C,TID) :-
   trace(TID,T,X), 
   not trace(TID,T+1,Y).
 
-%%% d4py
-witness_cr_r(C,T,TID) :- 
-  constraint(C, "Chain Response"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID, T, X), trace(TID, T', Y), T' > T.
-
-fail(C,TID) :-
-  constraint(C, "Chain Response"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID, T, X), 
-  not witness_cr_r(C,T,TID).
-%%%%
-
 % Template: Chain Precedence
 % Description: Task `arg_1` can be executed only immediately after `arg_0`
 
@@ -290,27 +240,9 @@ fail(C, TID) :-
   not trace(TID,T,X).
 
 fail(C, TID) :-
-  constraint(C, "Chain Precedenece"), 
+  constraint(C, "Chain Precedence"), 
   bind(C, arg_1, Y), 
   trace(TID, 0, Y).
-
-%%% d4py
-fail(C,TID) :-
-  constraint(C, "Chain Precedence"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID,T',Y),
-  T = #min{Q: trace(TID,Q,X)},
-  trace(TID,T,X),
-  T' < T.
-
-fail(C,TID) :-
-  constraint(C, "Chain Precedence"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID,_,Y),
-  not trace(TID,_,X).
-%%%%
 
 % Chain Succession
 % ChainSuccession(a,b) := ChainResponse(a,b) & ChainPrecedence(a,b)
@@ -334,107 +266,5 @@ fail(C, TID) :-
   trace(TID,T+1,Y),
   trace(TID,T,_),     % first state is not next of someone!
   not trace(TID,T,X).
-
-
-% Template: Not Coexistence
-% Description: Only one among tasks `arg_0`, `arg_1` can be executed, but not both 
-fail(C,TID) :-
-  constraint(C, "Not Coexistence"), 
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID,_,X),
-  trace(TID,_,Y).
-
-% Template: Not Succession
-% Description: Task `arg_0` cannot be followed by `arg_1` and task `arg_1` cannot be preceded by `arg_0`
-
-fail(C, TID) :-
-  constraint(C, "Not Succession"), 
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID, T, X), 
-  trace(TID, T', Y), 
-  T' > T.
-
-% Template: Not Chain Succession
-% Description: Task `arg_0` and `arg_1` cannot be executed next to each other
-fail(C, TID) :-
-  constraint(C, "Not Chain Succession"), 
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID,T,X),
-  trace(TID,T+1,Y).
-  
-fail(C, TID) :-
-  constraint(C, "Not Chain Succession"), 
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID,T,NX),
-  NX != X,
-  trace(TID,T+1,NY),
-  NY != Y.
-
-fail(C,TID) :- 
-  constraint(C, "Not Chain Succession"), 
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID,T,NX),
-  NX != X,
-  last(TID,T).
-
-
-%%% non sono nel paper ma in declare4py si 
-%%% tesi https://amslaurea.unibo.it/22501/1/tesi.pdf
-
-fail(C,TID) :-
-  constraint(C, "Not Responded Existence"),
-  bind(C, arg_0, X),
-  bind(C, arg_1, Y), 
-  trace(TID, T, X), 
-  trace(TID, T', Y).
-
-fail(C,TID) :-
-  constraint(C, "Not Response"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID, T, X), 
-  trace(TID, T', Y), 
-  T' > T.
-
-fail(C,TID) :-
-  constraint(C, "Not Precedence"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID, T, X), 
-  trace(TID, T', Y), 
-  T' > T.
-
-%fail(C,TID) :-
-%  constraint(C, "Not Chain Response"),
-%  bind(C, arg_0, X), 
-%  bind(C, arg_1, Y), 
-%  ...
-
-fail(C,TID) :-
-  constraint(C, "Not Chain Precedence"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID,T,X),
-  trace(TID,T+1,Y).
-
-fail(C,TID) :-
-  constraint(C, "Not Chain Response"), 
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID, T, X), 
-  trace(TID, T+1, Y).
-
-fail(C,TID) :-
-  constraint(C, "Not Chain Response"), 
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID, T, X), 
-  not trace(TID, T+1, _).
-
 
 sat(adhoc, C, TID) :- constraint(C,_), trace(TID,_,_), not fail(C,TID).
