@@ -65,6 +65,22 @@ true(C, F, Ti, TID) :-
   last(TID, M), 
   true(C, G, Tj, TID).
 
+% WNext
+true(C, F, Ti, TID) :-
+  constraint(C, Template),
+  template(Template, weak_next(F,G)),
+  trace(TID, Ti, _),
+  Tj = Ti + 1,
+  Ti < M,
+  last(TID, M),
+  true(C, G, Tj, TID).
+
+true(C, F, Ti, TID) :-
+  constraint(C, Template), 
+  template(Template, weak_next(F,G)),
+  trace(TID, Ti, _),
+  last(TID, Ti).
+  
 % Prec(a,b) ~ !b W a ~ !b U a | G(!b) -> {!, U, G}
 
 % Until
