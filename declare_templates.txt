@@ -3,15 +3,6 @@
 % DOI: https://doi.org/10.1609/aaai.v28i1.8872
 % 
 
-% + Declare4Py negative templates
-%
-
-% Existence templates
-% Existence1: F(arg_0)
-% Absence 2: !F(arg_0 & F(arg_0)) - This produces the wrong automaton 
-% Absence: !F(arg_0 & XF(arg_0))
-%
-
 % Choice templates
 Choice: F(arg_0) | F(arg_1)
 Exclusive Choice: (F(arg_0) | F(arg_1)) & !(F(arg_0) & F(arg_1))
@@ -28,19 +19,3 @@ Alternate Succession: (G(arg_0 -> X(!arg_0 U arg_1)) & (!arg_1 W arg_0)) & G(arg
 Chain Response: G(arg_0 -> X(arg_1))
 Chain Precedence: (!arg_1 W arg_0) & G(X(arg_1) -> arg_0) & !arg_1
 Chain Succession: G(arg_0 -> X(arg_1)) & G(X(arg_1) -> arg_0)
-
-% Negation templates
-Not Coexistence: !(F(arg_0) & F(arg_1))
-Not Succession: G(arg_0 -> !F(arg_1))
-
-% See under Theorem 6!
-% Table says G(arg_0 \iff X!b)
-% But "the correct one" is G(arg_0 \iff !X(b))
-Not Chain Succession: G( (arg_0 -> !X(arg_1)) & (!X(arg_1) -> arg_0) )
-
-% Declare 4 Py
-Not Responded Existence: F(arg_0) -> !(F(arg_1))
-Not Response: G(arg_0 -> !(F arg_1))
-Not Precedence: G(F(arg_1) -> !arg_0)
-Not Chain Response: G(arg_0 -> X(!(arg_1)))
-Not Chain Precedence: G(X(arg_1) -> !arg_0)
