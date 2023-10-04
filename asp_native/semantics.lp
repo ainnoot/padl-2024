@@ -145,33 +145,32 @@ fail(C,TID) :-
 
 % Template: Alternate Precedence
 % Description: Every `arg_1` must be preceded by `arg_0`, without any other `arg_1` in between.
+% Every b must be preceded by a, without any other b inbetween
 
-witness(C, T2, TID) :-
-  trace(TID, T2, Y),
-  T0 = #max{T: trace(TID, T, Y), T2> T},
-  trace(TID, T1, X),
-  T2 > T1, T1 > T0,
+fail(C,TID) :-
   constraint(C, "Alternate Precedence"),
   bind(C, arg_0, X), 
-  bind(C, arg_1, Y).
-
-witness(C, T, TID) :-
-  last(TID, T),
-  constraint(C, "Alternate Precedence").
-
-fail(C, TID) :-
-  constraint(C, "Alternate Precedence"),
-  bind(C, arg_0, X),
-  bind(C, arg_1, Y),
-  trace(TID, T, Y),
-  not witness(C, T, TID).
-
-%%% CHECK AUTOMATA
-fail(C, TID) :-
-  constraint(C, "Alternate Precedence"), 
-  last(TID, T), 
   bind(C, arg_1, Y), 
-  trace(TID, T, Y).
+  trace(TID,T',Y),
+  T = #min{Q: trace(TID,Q,X)},
+  trace(TID,T,X),
+  T' < T.
+
+fail(C,TID) :-
+  constraint(C, "Alternate Precedence"),
+  bind(C, arg_0, X), 
+  bind(C, arg_1, Y), 
+  trace(TID,_,Y),
+  not trace(TID,_,X).
+
+fail(C,TID) :-
+  constraint(C, "Alternate Precedence"), 
+  bind(C, arg_0, X),
+  bind(C, arg_1, Y), 
+  trace(TID, T0, Y), 
+  trace(TID, T2, Y),
+  T2 > T0,
+  #count{Q: trace(TID,Q,X), Q >= T0, Q <= T2} = 0.
 
 % Template: Alternate Succession
 % Description: Combination of alternate response and alternate precedence. 
