@@ -194,24 +194,6 @@ witness(C, T2, TID) :-
   bind(C, arg_0, X), 
   bind(C, arg_1, Y).
 
-%%% D4Py
-fail(C,TID) :-
-  constraint(C, "Alternate Precedence"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID,T',Y),
-  T = #min{Q: trace(TID,Q,X)},
-  trace(TID,T,X),
-  T' < T.
-
-fail(C,TID) :-
-  constraint(C, "Alternate Precedence"),
-  bind(C, arg_0, X), 
-  bind(C, arg_1, Y), 
-  trace(TID,_,Y),
-  not trace(TID,_,X).
-%%% D4Py
-
 fail(C, TID) :-
   constraint(C, "Alternate Precedence"),
   bind(C, arg_0, X),
