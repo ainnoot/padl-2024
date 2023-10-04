@@ -17,5 +17,5 @@ Alternate Response: G(arg_0 -> X(!arg_0 U arg_1))
 Alternate Precedence: ( (!arg_1) W arg_0 ) & G( arg_1 -> WX( (!arg_1) W arg_0) )
 Alternate Succession: (G(arg_0 -> X(!arg_0 U arg_1)) & (!arg_1 W arg_0)) & G(arg_1 -> X(!arg_1 W arg_0))
 Chain Response: G(arg_0 -> X(arg_1))
-Chain Precedence: (!arg_1 W arg_0) & G(X(arg_1) -> arg_0) & !arg_1
+Chain Precedence: G(X(arg_1) -> arg_0) & !arg_1
 Chain Succession: G(arg_0 -> X(arg_1)) & G(X(arg_1) -> arg_0)
