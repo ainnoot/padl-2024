@@ -289,6 +289,11 @@ fail(C, TID) :-
   trace(TID,T,_),     % first state is not next of someone!
   not trace(TID,T,X).
 
+fail(C, TID) :-
+  constraint(C, "Chain Precedenece"), 
+  bind(C, arg_1, Y), 
+  trace(TID, 0, Y).
+
 %%% d4py
 fail(C,TID) :-
   constraint(C, "Chain Precedence"),
