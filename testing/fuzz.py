@@ -27,8 +27,8 @@ activity(A) :- bind(_,_,A).
 ALL_ENCODINGS = [
 	'automata',
 	'ltlf_base',
-%	'ltlf_xnf',
-%	'ltlf_dag',
+#	'ltlf_xnf',
+#	'ltlf_dag',
 	'asp_native'
 ]
 
