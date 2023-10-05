@@ -43,7 +43,7 @@ fail(C,TID) :-
 % Description: Either `arg_0` and `arg_1` are both executed, or none of them is executed.
 % Fails when: (i) `arg_0` is executed, `arg_1` is not; (ii) `arg_0` is not executed, `arg_1` is.
 fail(C,TID) :-
-  constraint(C, "Coexistence"),
+  constraint(C, "Co-Existence"),
   bind(C, arg_0, X), 
   bind(C, arg_1, Y),
   trace(TID,_,_),
@@ -51,7 +51,7 @@ fail(C,TID) :-
   not trace(TID,_,Y).
 
 fail(C,TID) :-
-  constraint(C, "Coexistence"),
+  constraint(C, "Co-Existence"),
   bind(C, arg_0, X), 
   bind(C, arg_1, Y),
   trace(TID,_,_),

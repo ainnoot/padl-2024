@@ -9,7 +9,7 @@ Exclusive Choice: (F(arg_0) | F(arg_1)) & !(F(arg_0) & F(arg_1))
 
 % Relation templates
 Responded Existence: F(arg_0) -> F(arg_1)
-Coexistence: (F(arg_0) -> F(arg_1)) & (F(arg_1) -> F(arg_0))
+Co-Existence: (F(arg_0) -> F(arg_1)) & (F(arg_1) -> F(arg_0))
 Response: G(arg_0 -> F(arg_1))
 Precedence: !arg_1 W arg_0
 Succession: G(arg_0 -> F(arg_1)) & (!arg_1 W arg_0)

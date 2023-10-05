@@ -35,19 +35,19 @@ def remove_unsupported_constraints(constraints):
 		'Alternate Response',
 		'Chain Response',
 		'Precedence',
-		#'Alternate Precedence', TODO: D4Py has a wrong definition
+		'Alternate Precedence', # TODO: D4Py has a wrong definition
 		'Chain Precedence',
 		'Succession',
 		'Alternate Succession',
 		'Chain Succession',
-		'Not Responded Existence',
-		'Not Co-Existence',
-		'Not Succession',
-		'Not Response',
-		'Not Precedence',
-		'Not Chain Succession',
-		'Not Chain Response',
-		'Not Chain Precedence',
+		#'Not Responded Existence',
+		#'Not Co-Existence',
+		#'Not Succession',
+		#'Not Response',
+		#'Not Precedence',
+		#'Not Chain Succession',
+		#'Not Chain Response',
+		#'Not Chain Precedence',
 	])
 
 	filtered_constraints = []
