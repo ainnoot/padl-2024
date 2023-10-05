@@ -64,9 +64,8 @@ def conformance_checking_experiments(args):
 				))
 				f.flush()
 	f.close()
-				
 
-def query_checking_experiments():
+def query_checking_experiments(args):
 	f = (args.log_folder / 'qc').open('w')
 
 	templates_to_qc = [
@@ -108,8 +107,8 @@ def query_checking_experiments():
 					]
 
 					p_out = pyrunlim_launch(cmd)
-					f.write("{} {} {} {:.3f} {:.3f}\n".format(
-						template,
+					f.write("{} {} {} {} {:.3f} {:.3f}\n".format(
+						'_'.join(template.split(' ')),
 						supp,
 						log_name,
 						method,
