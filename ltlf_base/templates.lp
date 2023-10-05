@@ -26,18 +26,18 @@ template("Responded Existence", eventually(2,4)).
 template("Responded Existence", atom(3,arg_0)).
 template("Responded Existence", atom(4,arg_1)).
 
-% Coexistence -- (F(arg_0) -> F(arg_1)) & (F(arg_1) -> F(arg_0))
-template("Coexistence", conjunction(0,1,2)).
-template("Coexistence", implies(1,3,4)).
-template("Coexistence", implies(2,5,6)).
-template("Coexistence", eventually(3,7)).
-template("Coexistence", eventually(4,8)).
-template("Coexistence", eventually(5,9)).
-template("Coexistence", eventually(6,10)).
-template("Coexistence", atom(7,arg_0)).
-template("Coexistence", atom(8,arg_1)).
-template("Coexistence", atom(9,arg_1)).
-template("Coexistence", atom(10,arg_0)).
+% Co-Existence -- (F(arg_0) -> F(arg_1)) & (F(arg_1) -> F(arg_0))
+template("Co-Existence", conjunction(0,1,2)).
+template("Co-Existence", implies(1,3,4)).
+template("Co-Existence", implies(2,5,6)).
+template("Co-Existence", eventually(3,7)).
+template("Co-Existence", eventually(4,8)).
+template("Co-Existence", eventually(5,9)).
+template("Co-Existence", eventually(6,10)).
+template("Co-Existence", atom(7,arg_0)).
+template("Co-Existence", atom(8,arg_1)).
+template("Co-Existence", atom(9,arg_1)).
+template("Co-Existence", atom(10,arg_0)).
 
 % Response -- G(arg_0 -> F(arg_1))
 template("Response", always(0,1)).
