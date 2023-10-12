@@ -12,6 +12,9 @@ The `testing/fuzz.py` script implements a _bounded model checking_-like approach
 python3 testing/fuzz.py
 ```
 
+## `archived`
+This folder contains encodings that did not make it into the paper, variants of `ltlf_base`. `ltlf_dag` uses a s-expression encoding of LTLf formulae, to share evaluation of subformulae. This is not so relevant on Declare constraints, since the LTLf formulae equivalent of Declare constraints has low-depth thus shared evaluation of subformulae does not have a big effect. `ltlf_xnf` is an alternative encoding of temporal semantics' as normal programs, that evaluates the (equivalent) next normal form of a formula rather than the original formula. This ends up using less maximum memory during evaluation, but the encoding results still subpar wrt `automata` and `asp_native`.
+
 this searches for counterexamples over all the constraints in `testing/declare_constraints` -- all the ones used in the experiments.
 
 # Setting up a virtual environment
