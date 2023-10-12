@@ -121,5 +121,6 @@ def query_checking_experiments(args):
 
 if __name__ == '__main__':
 	args = parse_args()
+	Path(args.log_folder).mkdir(exist_ok=True, parents=True)
 	conformance_checking_experiments(args)
 	query_checking_experiments(args)
