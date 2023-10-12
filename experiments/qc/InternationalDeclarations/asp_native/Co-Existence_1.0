@@ -1,0 +1,5 @@
+Answers: 4
+Query Answer #1: ("Start trip", "End trip")
+Query Answer #2: ("End trip", "Start trip")
+Query Answer #3: ("Permit APPROVED by SUPERVISOR", "Permit FINAL_APPROVED by DIRECTOR")
+Query Answer #4: ("Permit FINAL_APPROVED by DIRECTOR", "Permit APPROVED by SUPERVISOR")
