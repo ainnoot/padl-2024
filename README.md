@@ -65,6 +65,8 @@ The `output logs` folder stores a compact log of experiments' results, that can 
 
 **In the checked out version, the default is running the experiments only for the `asp_native` method. You need to edit the `METHODS` variable in `run_paper_experiments.py` to `['asp_native', 'ltlf_base', 'd4py', 'automata']` in order to run all the experiments.**
 
+**`*_backup` folders are the original data plotted in the paper.**
+
 # Validating outputs
 You can use the `validate.py` script to check that all the methods output the same things, for conformance checking and query checking tasks:
 
