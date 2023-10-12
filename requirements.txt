@@ -3,3 +3,4 @@ pythomata
 flloat
 pm4py
 declare4py
+psutil
