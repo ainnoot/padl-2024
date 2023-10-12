@@ -1,6 +1,0 @@
-Answers: 5
-Query Answer #1: ("Permit APPROVED by SUPERVISOR", "Permit REJECTED by DIRECTOR")
-Query Answer #2: ("Declaration APPROVED by SUPERVISOR", "Declaration REJECTED by DIRECTOR")
-Query Answer #3: ("Permit SUBMITTED by EMPLOYEE", "Permit REJECTED by PRE_APPROVER")
-Query Answer #4: ("Declaration APPROVED by ADMINISTRATION", "Declaration REJECTED by BUDGET OWNER")
-Query Answer #5: ("Permit SUBMITTED by EMPLOYEE", "Permit REJECTED by ADMINISTRATION")

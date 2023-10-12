@@ -1,5 +1,0 @@
-Answers: 4
-Query Answer #1: ("Request For Payment APPROVED by SUPERVISOR", "Request For Payment FINAL_APPROVED by DIRECTOR")
-Query Answer #2: ("Request For Payment FINAL_APPROVED by DIRECTOR", "Request For Payment APPROVED by SUPERVISOR")
-Query Answer #3: ("Permit FINAL_APPROVED by DIRECTOR", "Permit APPROVED by SUPERVISOR")
-Query Answer #4: ("Permit APPROVED by SUPERVISOR", "Permit FINAL_APPROVED by DIRECTOR")
