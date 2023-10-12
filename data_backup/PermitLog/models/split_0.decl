@@ -1,0 +1,6 @@
+Responded Existence[Permit SUBMITTED by EMPLOYEE, Start trip] | |
+Responded Existence[Start trip, Permit SUBMITTED by EMPLOYEE] | |
+Precedence[Start trip, End trip] | |
+Responded Existence[Start trip, End trip] | |
+Chain Precedence[Start trip, End trip] | |
+Choice[Permit SUBMITTED by EMPLOYEE, Start trip] | |

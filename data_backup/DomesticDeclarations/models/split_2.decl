@@ -1,0 +1,39 @@
+Alternate Precedence[Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Response[Declaration SUBMITTED by EMPLOYEE, Request Payment] | |
+Alternate Precedence[Declaration FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Alternate Precedence[Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Alternate Response[Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Response[Declaration FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Alternate Response[Declaration SUBMITTED by EMPLOYEE, Payment Handled] | |
+Choice[Payment Handled, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Precedence[Declaration SUBMITTED by EMPLOYEE, Request Payment] | |
+Responded Existence[Declaration SUBMITTED by EMPLOYEE, Request Payment] | |
+Alternate Response[Declaration FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Chain Precedence[Request Payment, Payment Handled] | |
+Choice[Request Payment, Declaration SUBMITTED by EMPLOYEE] | |
+Alternate Response[Declaration SUBMITTED by EMPLOYEE, Request Payment] | |
+Alternate Precedence[Declaration SUBMITTED by EMPLOYEE, Request Payment] | |
+Alternate Response[Request Payment, Payment Handled] | |
+Choice[Declaration FINAL_APPROVED by SUPERVISOR, Declaration SUBMITTED by EMPLOYEE] | |
+Choice[Request Payment, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Alternate Precedence[Declaration SUBMITTED by EMPLOYEE, Payment Handled] | |
+Responded Existence[Declaration FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Choice[Payment Handled, Declaration SUBMITTED by EMPLOYEE] | |
+Responded Existence[Declaration FINAL_APPROVED by SUPERVISOR, Declaration SUBMITTED by EMPLOYEE] | |
+Precedence[Declaration SUBMITTED by EMPLOYEE, Payment Handled] | |
+Responded Existence[Declaration SUBMITTED by EMPLOYEE, Payment Handled] | |
+Chain Response[Declaration FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Choice[Payment Handled, Request Payment] | |
+Alternate Precedence[Request Payment, Payment Handled] | |
+Choice[Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Responded Existence[Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Responded Existence[Request Payment, Payment Handled] | |
+Precedence[Declaration FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Response[Declaration SUBMITTED by EMPLOYEE, Payment Handled] | |
+Choice[Request Payment, Payment Handled] | |
+Responded Existence[Payment Handled, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Chain Precedence[Declaration FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Alternate Response[Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Choice[Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Responded Existence[Payment Handled, Request Payment] | |
+Choice[Declaration SUBMITTED by EMPLOYEE, Request Payment] | |

@@ -1,0 +1,13 @@
+Alternate Precedence[Request For Payment SUBMITTED by EMPLOYEE, Request For Payment FINAL_APPROVED by SUPERVISOR] | |
+Alternate Precedence[Request For Payment FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Alternate Response[Request Payment, Payment Handled] | |
+Alternate Precedence[Request For Payment SUBMITTED by EMPLOYEE, Request Payment] | |
+Precedence[Request For Payment SUBMITTED by EMPLOYEE, Payment Handled] | |
+Response[Request For Payment SUBMITTED by EMPLOYEE, Request Payment] | |
+Alternate Precedence[Request For Payment FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Responded Existence[Request Payment, Request For Payment SUBMITTED by EMPLOYEE] | |
+Responded Existence[Request For Payment FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Chain Precedence[Request For Payment FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Alternate Response[Request For Payment SUBMITTED by EMPLOYEE, Payment Handled] | |
+Choice[Request Payment, Payment Handled] | |
+Choice[Request Payment, Request For Payment FINAL_APPROVED by SUPERVISOR] | |

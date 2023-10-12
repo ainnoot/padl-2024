@@ -1,0 +1,76 @@
+Precedence[Permit SUBMITTED by EMPLOYEE, Start trip] | |
+Responded Existence[Request Payment, Payment Handled] | |
+Precedence[Start trip, Payment Handled] | |
+Alternate Response[Declaration SUBMITTED by EMPLOYEE, Payment Handled] | |
+Choice[Declaration SUBMITTED by EMPLOYEE, Start trip] | |
+Alternate Response[Start trip, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Chain Precedence[End trip, Declaration SUBMITTED by EMPLOYEE] | |
+Alternate Response[Start trip, End trip] | |
+Alternate Precedence[Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Choice[End trip, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Response[Declaration FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Precedence[Request Payment, Payment Handled] | |
+Alternate Response[End trip, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Choice[Declaration SUBMITTED by EMPLOYEE, End trip] | |
+Choice[Request Payment, End trip] | |
+Choice[Payment Handled, Request Payment] | |
+Responded Existence[End trip, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Responded Existence[Request Payment, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Choice[Declaration FINAL_APPROVED by SUPERVISOR, Start trip] | |
+Choice[Declaration SUBMITTED by EMPLOYEE, Permit SUBMITTED by EMPLOYEE] | |
+Chain Precedence[Declaration FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Responded Existence[End trip, Request Payment] | |
+Choice[Payment Handled, End trip] | |
+Alternate Precedence[Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Alternate Response[Start trip, Declaration SUBMITTED by EMPLOYEE] | |
+Responded Existence[Payment Handled, Request Payment] | |
+Alternate Precedence[Permit SUBMITTED by EMPLOYEE, Start trip] | |
+Response[Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Choice[End trip, Declaration SUBMITTED by EMPLOYEE] | |
+Precedence[Permit SUBMITTED by EMPLOYEE, End trip] | |
+Precedence[Declaration SUBMITTED by EMPLOYEE, Request Payment] | |
+Responded Existence[Declaration FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Choice[End trip, Payment Handled] | |
+Responded Existence[Start trip, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Choice[Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Choice[Start trip, End trip] | |
+Alternate Precedence[Permit SUBMITTED by EMPLOYEE, End trip] | |
+Alternate Precedence[Start trip, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Chain Response[End trip, Declaration SUBMITTED by EMPLOYEE] | |
+Alternate Precedence[End trip, Declaration SUBMITTED by EMPLOYEE] | |
+Response[Start trip, Payment Handled] | |
+Alternate Response[Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Alternate Response[Declaration SUBMITTED by EMPLOYEE, Request Payment] | |
+Response[Declaration SUBMITTED by EMPLOYEE, Request Payment] | |
+Choice[Declaration FINAL_APPROVED by SUPERVISOR, End trip] | |
+Alternate Precedence[Start trip, Declaration SUBMITTED by EMPLOYEE] | |
+Responded Existence[Payment Handled, End trip] | |
+Response[Declaration SUBMITTED by EMPLOYEE, Payment Handled] | |
+Precedence[End trip, Payment Handled] | |
+Precedence[Start trip, End trip] | |
+Alternate Precedence[End trip, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Response[End trip, Payment Handled] | |
+Chain Precedence[Start trip, End trip] | |
+Alternate Precedence[Start trip, Request Payment] | |
+Chain Response[Declaration FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Chain Response[Start trip, End trip] | |
+Responded Existence[Start trip, End trip] | |
+Responded Existence[End trip, Permit SUBMITTED by EMPLOYEE] | |
+Responded Existence[Request Payment, End trip] | |
+Response[Start trip, Request Payment] | |
+Alternate Precedence[Declaration SUBMITTED by EMPLOYEE, Request Payment] | |
+Alternate Response[Start trip, Payment Handled] | |
+Responded Existence[Payment Handled, Start trip] | |
+Alternate Precedence[Request Payment, Payment Handled] | |
+Response[Permit SUBMITTED by EMPLOYEE, End trip] | |
+Alternate Response[End trip, Request Payment] | |
+Response[End trip, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Choice[Payment Handled, Declaration SUBMITTED by EMPLOYEE] | |
+Choice[Payment Handled, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Choice[Start trip, Permit SUBMITTED by EMPLOYEE] | |
+Choice[Start trip, Declaration FINAL_APPROVED by SUPERVISOR] | |
+Responded Existence[Declaration SUBMITTED by EMPLOYEE, Start trip] | |
+Precedence[Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Alternate Response[Declaration FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Responded Existence[Declaration FINAL_APPROVED by SUPERVISOR, Start trip] | |
+Alternate Response[End trip, Payment Handled] | |

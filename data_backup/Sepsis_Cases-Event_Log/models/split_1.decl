@@ -1,0 +1,38 @@
+Choice[ER Triage, ER Sepsis Triage] | |
+Choice[ER Registration, ER Triage] | |
+Response[ER Registration, Leucocytes] | |
+Responded Existence[Leucocytes, CRP] | |
+Responded Existence[ER Triage, ER Sepsis Triage] | |
+Precedence[ER Registration, ER Sepsis Triage] | |
+Responded Existence[ER Triage, Leucocytes] | |
+Responded Existence[ER Sepsis Triage, ER Registration] | |
+Response[ER Registration, ER Triage] | |
+Responded Existence[ER Triage, ER Registration] | |
+Precedence[Leucocytes, CRP] | |
+Choice[ER Sepsis Triage, Leucocytes] | |
+Response[ER Sepsis Triage, CRP] | |
+Choice[ER Triage, Leucocytes] | |
+Choice[ER Registration, Leucocytes] | |
+Precedence[ER Triage, CRP] | |
+Alternate Response[ER Registration, Leucocytes] | |
+Precedence[ER Registration, Leucocytes] | |
+Response[ER Triage, CRP] | |
+Responded Existence[CRP, ER Triage] | |
+Choice[CRP, Leucocytes] | |
+Alternate Precedence[ER Registration, ER Sepsis Triage] | |
+Alternate Response[ER Sepsis Triage, CRP] | |
+Responded Existence[ER Sepsis Triage, ER Triage] | |
+Response[ER Registration, CRP] | |
+Alternate Response[ER Registration, ER Sepsis Triage] | |
+Chain Precedence[ER Triage, ER Sepsis Triage] | |
+Alternate Response[ER Triage, ER Sepsis Triage] | |
+Precedence[ER Registration, ER Triage] | |
+Alternate Precedence[ER Registration, ER Triage] | |
+Precedence[ER Triage, Leucocytes] | |
+Alternate Precedence[ER Triage, ER Sepsis Triage] | |
+Responded Existence[CRP, ER Sepsis Triage] | |
+Responded Existence[ER Registration, CRP] | |
+Precedence[ER Registration, CRP] | |
+Response[Leucocytes, CRP] | |
+Alternate Response[ER Triage, Leucocytes] | |
+Choice[Leucocytes, ER Triage] | |

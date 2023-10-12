@@ -1,0 +1,5 @@
+Answers: 4
+Query Answer #1: ("A_SUBMITTED", "A_PARTLYSUBMITTED")
+Query Answer #2: ("O_CREATED", "O_SENT")
+Query Answer #3: ("O_SELECTED", "O_CREATED")
+Query Answer #4: ("O_SELECTED", "O_SENT")

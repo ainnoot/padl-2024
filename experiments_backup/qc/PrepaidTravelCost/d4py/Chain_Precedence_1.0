@@ -1,0 +1,7 @@
+Answers: 6
+Query Answer #1: ("Permit SUBMITTED by EMPLOYEE", "Permit REJECTED by PRE_APPROVER")
+Query Answer #2: ("Permit SUBMITTED by EMPLOYEE", "Permit APPROVED by ADMINISTRATION")
+Query Answer #3: ("Permit SUBMITTED by EMPLOYEE", "Permit REJECTED by ADMINISTRATION")
+Query Answer #4: ("Request For Payment SUBMITTED by EMPLOYEE", "Request For Payment APPROVED by PRE_APPROVER")
+Query Answer #5: ("Request For Payment SUBMITTED by EMPLOYEE", "Request For Payment REJECTED by PRE_APPROVER")
+Query Answer #6: ("Request For Payment APPROVED by ADMINISTRATION", "Request For Payment REJECTED by BUDGET OWNER")

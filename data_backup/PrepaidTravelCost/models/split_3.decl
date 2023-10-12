@@ -1,0 +1,52 @@
+Alternate Precedence[Request For Payment SUBMITTED by EMPLOYEE, Request For Payment FINAL_APPROVED by SUPERVISOR] | |
+Alternate Precedence[Request For Payment FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Alternate Response[Request Payment, Payment Handled] | |
+Alternate Precedence[Request For Payment SUBMITTED by EMPLOYEE, Request Payment] | |
+Precedence[Request For Payment SUBMITTED by EMPLOYEE, Payment Handled] | |
+Response[Request For Payment SUBMITTED by EMPLOYEE, Request Payment] | |
+Alternate Precedence[Request For Payment FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Responded Existence[Request Payment, Request For Payment SUBMITTED by EMPLOYEE] | |
+Responded Existence[Request For Payment FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Chain Precedence[Request For Payment FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Alternate Response[Request For Payment SUBMITTED by EMPLOYEE, Payment Handled] | |
+Choice[Request Payment, Payment Handled] | |
+Choice[Request Payment, Request For Payment FINAL_APPROVED by SUPERVISOR] | |
+Response[Request For Payment SUBMITTED by EMPLOYEE, Request For Payment FINAL_APPROVED by SUPERVISOR] | |
+Alternate Response[Request For Payment FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Chain Response[Request Payment, Payment Handled] | |
+Responded Existence[Request For Payment FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Precedence[Request For Payment FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Choice[Payment Handled, Request For Payment SUBMITTED by EMPLOYEE] | |
+Alternate Precedence[Request For Payment SUBMITTED by EMPLOYEE, Payment Handled] | |
+Responded Existence[Request For Payment SUBMITTED by EMPLOYEE, Request Payment] | |
+Choice[Request For Payment SUBMITTED by EMPLOYEE, Request Payment] | |
+Chain Precedence[Request Payment, Payment Handled] | |
+Precedence[Request For Payment FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Responded Existence[Request For Payment SUBMITTED by EMPLOYEE, Request For Payment FINAL_APPROVED by SUPERVISOR] | |
+Response[Request For Payment FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Chain Response[Request For Payment FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Response[Request For Payment FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Responded Existence[Payment Handled, Request For Payment FINAL_APPROVED by SUPERVISOR] | |
+Choice[Request Payment, Request For Payment SUBMITTED by EMPLOYEE] | |
+Responded Existence[Payment Handled, Request For Payment SUBMITTED by EMPLOYEE] | |
+Alternate Response[Request For Payment SUBMITTED by EMPLOYEE, Request For Payment FINAL_APPROVED by SUPERVISOR] | |
+Choice[Request For Payment FINAL_APPROVED by SUPERVISOR, Request For Payment SUBMITTED by EMPLOYEE] | |
+Responded Existence[Request For Payment SUBMITTED by EMPLOYEE, Payment Handled] | |
+Choice[Payment Handled, Request Payment] | |
+Choice[Payment Handled, Request For Payment FINAL_APPROVED by SUPERVISOR] | |
+Response[Request Payment, Payment Handled] | |
+Alternate Response[Request For Payment SUBMITTED by EMPLOYEE, Request Payment] | |
+Choice[Request For Payment FINAL_APPROVED by SUPERVISOR, Payment Handled] | |
+Choice[Request For Payment SUBMITTED by EMPLOYEE, Request For Payment FINAL_APPROVED by SUPERVISOR] | |
+Responded Existence[Request Payment, Payment Handled] | |
+Responded Existence[Request For Payment FINAL_APPROVED by SUPERVISOR, Request For Payment SUBMITTED by EMPLOYEE] | |
+Responded Existence[Request Payment, Request For Payment FINAL_APPROVED by SUPERVISOR] | |
+Responded Existence[Payment Handled, Request Payment] | |
+Response[Request For Payment SUBMITTED by EMPLOYEE, Payment Handled] | |
+Precedence[Request For Payment SUBMITTED by EMPLOYEE, Request For Payment FINAL_APPROVED by SUPERVISOR] | |
+Precedence[Request Payment, Payment Handled] | |
+Choice[Request For Payment FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Alternate Precedence[Request Payment, Payment Handled] | |
+Precedence[Request For Payment SUBMITTED by EMPLOYEE, Request Payment] | |
+Alternate Response[Request For Payment FINAL_APPROVED by SUPERVISOR, Request Payment] | |
+Choice[Request For Payment SUBMITTED by EMPLOYEE, Payment Handled] | |
