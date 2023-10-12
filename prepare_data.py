@@ -73,6 +73,11 @@ if __name__ == '__main__':
 		print("Source folder {} does not exist. Abort.".format(source_dir))
 		sys.exit(1)
 
+        if not target_dir.exists():
+                print("Target folder {} does not exist. Abort.".format(target_dir))
+                sys.exit(1)
+
+
 	print("Deleting all contents of target folder: {}".format(target_dir))
 	shutil.rmtree(target_dir)
 
