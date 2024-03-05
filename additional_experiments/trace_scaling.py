@@ -5,14 +5,27 @@ from pathlib import Path
 from memory_profiler import profile, memory_usage
 
 def run_cf(model, method, log):
-	ctl = clingo.Control()
-	ctl.load(model)
-	ctl.load(f'../{method}/templates.lp')
-	ctl.load(f'../{method}/semantics.lp')
-	ctl.load(log)
-	ctl.ground([("base",[])])
-	ans = ctl.solve()
-	return {"total_time": ..., "symbols": ..., "rules": ...}
+
+	def f(model, method, log, outputs):
+		ctl = clingo.Control()
+		ctl.load(model)
+		ctl.load(f'../{method}/templates.lp')
+		ctl.load(f'../{method}/semantics.lp')
+		ctl.load(log)
+		ctl.ground([("base",[])])
+		ans = ctl.solve()
+		outputs["symbolic_atoms"] = len(ctl.symbolic_atoms)
+		outputs["execution_time"] = ctl.statistics["summary"]["times"]["total"]
+		outputs["rules"] = ctl.statistics["problem"]["lp"]["rules"]
+
+	outputs = dict()
+	mem_usage = memory_usage((f, (model, method, log, outputs), dict()), interval=0.05)
+	outputs["memory_peak"] = max(mem_usage)
+	outputs["model"] = model
+	outputs["log"] = log
+	outputs["method"] = method
+
+	return outputs
 
 if __name__ == '__main__':
 	if len(sys.argv) != 4 :
@@ -23,12 +36,7 @@ if __name__ == '__main__':
 	log_root = sys.argv[2]
 	log_glob_expr = sys.argv[3]
 
-	for method in ['asp_native', 'automata', 'ltlf_base']:
+	for method in ['asp_native', 'automata']: # 'ltlf_base']:
 		for log in Path(log_root).glob(log_glob_expr):
-			stats = run_cf(model, method, log.as_posix())
-			stats["peak_memory"] = ...
-			stats["method"] = method
-			stats["log"] = log.as_posix()
-			stats["model"] = model
-			print("Done: {} {} {:.3f}s".format(method, log.as_posix(), elapsed))
-			
+			outputs = run_cf(model, method, log.as_posix())
+			print(outputs)			

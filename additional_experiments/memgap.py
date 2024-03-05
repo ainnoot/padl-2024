@@ -20,7 +20,7 @@ def run(model, log, method):
 		outputs['execution_time'] = ctl.statistics['summary']['times']['total']
 		outputs['rules'] = ctl.statistics['problem']['lp']['rules']
 
-	mem_usage = memory_usage((main, (model, log, method, outputs), dict()))
+	mem_usage = memory_usage((main, (model, log, method, outputs), dict()), , interval=0.05)
 	outputs['memory_peak'] = max(mem_usage)
 	outputs['model'] = model
 	outputs['log'] = log
