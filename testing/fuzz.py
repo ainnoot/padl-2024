@@ -4,12 +4,12 @@ from pathlib import Path
 import clingo
 from argparse import ArgumentParser
 
-BASE_DIR = Path(__file__).parent
+BASE_DIR = Path(__file__).absolute().parents[1]
 
-DECLARE_MODELS_PATH = BASE_DIR / 'declare_constraints'
+DECLARE_MODELS_PATH = BASE_DIR / 'testing' / 'declare_constraints'
 
 FUZZ_PROGRAM = """
-#const t=12.
+#const t=50.
 time(0..t-1).
 activity("*").
 activity(A) :- bind(_,_,A).
@@ -25,8 +25,8 @@ activity(A) :- bind(_,_,A).
 """
 
 ALL_ENCODINGS = [
-	'automata',
-	'ltlf_base',
+  'automata',
+ 	'ltlf_base',
 #	'ltlf_xnf',
 #	'ltlf_dag',
 	'asp_native'
@@ -94,14 +94,15 @@ def fuzz_pair(enc_1, enc_2, verbose=False):
 		ctl = clingo.Control()
 		ctl.add("base", [], FUZZ_PROGRAM)
 		ctl.load(declare_constraint.as_posix())
-		for part in Path(enc_1).glob("*.lp"):
+		for part in (BASE_DIR / enc_1).glob("*.lp"):
 			ctl.load(part.as_posix())
 
-		for part in Path(enc_2).glob("*.lp"):
+		for part in (BASE_DIR / enc_2).glob("*.lp"):
 			ctl.load(part.as_posix())
 
 		ctl.ground([("base",[])], context=Context())
 		ans = ctl.solve(on_model=print_witness)
+
 
 		color = bcolors.OKGREEN if ans.unsatisfiable else bcolors.FAIL
 
@@ -112,6 +113,7 @@ def fuzz_pair(enc_1, enc_2, verbose=False):
 		elif ans.satisfiable:
 			print(color + "% [FAIL] {}".format(declare_constraint.stem) + bcolors.ENDC)
 			something_wrong = True
+			assert ans.unsatisfiable, f"{declare_constraint} has a problem in {enc_1}-{enc_2}"
 
 		else:
 			print(bcolors.FAIL + "[FAIL] Got UNKNOWN from a Datalog program, something is very wrong." + bcolors.ENDC)
@@ -134,5 +136,6 @@ if __name__ == '__main__':
 	p.add_argument('-v', '--verbose', action='store_true')
 	args = p.parse_args()
 
+	print("Base Dir:", BASE_DIR)
 	fuzz_combinations(verbose=args.verbose)
 

@@ -1,14 +1,9 @@
-% All args must be bound in constraints
 :- bind(C,Arg,_), constraint(C, T), not template(T, atom(_,Arg)).
 
-% Don't bind unknown parameters
 :- template(T, atom(_,Arg)), constraint(C,T), not bind(C, Arg, _).
 
-% A state is the last state if it does not have a next state
 last(TID,T) :- trace(TID,T,_), not trace(TID,T+1,_).
 
-% A trace models a constraint if its root subformula (0) is true in the first state
-% eval(Subformula, Constraint, Time, Trace)
 sat(method(ltlf_base),C,TID) :- true(C, 0, 0, TID).
 
 %%%% These follow the Stepped Normal Form: 

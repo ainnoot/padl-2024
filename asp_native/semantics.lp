@@ -78,6 +78,8 @@ fail(C,TID) :-
 % Template: Precedence
 % Description: `arg_1` can be executed only if `arg_0` has been executed before
 % Fails when: `arg_1` is executed, but `arg_0` has not been executed beforehand.
+
+%%% PADL
 fail(C,TID) :-
   constraint(C, "Precedence"),
   bind(C, arg_0, X), 
@@ -93,6 +95,45 @@ fail(C,TID) :-
   bind(C, arg_1, Y), 
   trace(TID,_,Y),
   not trace(TID,_,X).
+%%% PADL 
+
+%witness(C,T,TID) :-
+%  constraint(C, "Precedence"),
+%  bind(C, arg_0, X), 
+%  bind(C, arg_1, Y), 
+%  trace(TID,T,Y), 
+%  trace(TID,T0,X),
+%  T0 < T.
+
+%fail(C,TID) :-
+%  constraint(C, "Precedence"),
+%  bind(C, arg_0, X), 
+%  bind(C, arg_1, Y), 
+%  trace(TID,T,Y), 
+%  not witness(C,T,TID).
+
+%fail(C,TID) :-
+%  constraint(C, "Precedence"),
+%  bind(C, arg_0, X), 
+%  bind(C, arg_1, Y), 
+%  trace(TID,T,Y), 
+%  not trace(TID,_,X).
+
+%fail(C,TID) :- 
+%  constraint(C, "Precedence"), 
+%  bind(C, arg_0, X), 
+%  bind(C, arg_1, Y), 
+%  trace(TID,T,Y), 
+%  not witness(C,TID).
+
+%witness(C,TID) :-
+%  constraint(C, "Precedence"),
+%  bind(C, arg_0, X), 
+%  bind(C, arg_1, Y), 
+%  trace(TID, T', Y),
+%  T' = #min{K: trace(TID,K,Y)}, 
+%  trace(TID, T, X), 
+%  T < T'.
 
 % constraint(C, "Response"; "Precedence") :- constraint(C, "Succession").
 fail(C,TID) :-
@@ -147,6 +188,7 @@ fail(C,TID) :-
 % Description: Every `arg_1` must be preceded by `arg_0`, without any other `arg_1` in between.
 % Every b must be preceded by a, without any other b inbetween
 
+%%% PADL
 fail(C,TID) :-
   constraint(C, "Alternate Precedence"),
   bind(C, arg_0, X), 
@@ -171,6 +213,9 @@ fail(C,TID) :-
   trace(TID, T2, Y),
   T2 > T0,
   #count{Q: trace(TID,Q,X), Q >= T0, Q <= T2} = 0.
+%%%% PADL
+
+
 
 % Template: Alternate Succession
 % Description: Combination of alternate response and alternate precedence. 
