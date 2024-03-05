@@ -12,7 +12,7 @@ if len(sys.argv) != 3:
 	sys.exit(1)
 
 LOG_SIZE = 2000
-TRACE_LENGTHS = [50, 100, 250, 500, 1000]
+TRACE_LENGTHS = [50, 100, 250, 500]
 
 MODEL_FOLDER = Path(sys.argv[1])
 OUTPUT_FOLDER = Path(sys.argv[2])
@@ -26,15 +26,15 @@ class LogCallback:
 		self.idx = 0
 
 	def __call__(self, model):
-		tid = clingo.Number(self.idx)
+		tid = self.idx
 		for symbol in model.symbols(shown=True):
-			t = symbol.arguments[1]
-			a = symbol.arguments[2]
-			self.fp.write(str(clingo.Function('trace',[tid,t,a])) + ".\n")
+			t = symbol.arguments[1].number
+			a = symbol.arguments[2].string
+			self.fp.write("trace({},{},\"{}\").\n".format(tid,t,a))
+		self.fp.flush()
 		self.idx += 1
 
 	def close_file(self, path):
-		self.fp.flush()
 		self.fp.close()
 
 for model_file in models:

@@ -2,6 +2,7 @@ import sys
 import os
 import clingo
 from pathlib import Path
+from memory_profiler import profile, memory_usage
 
 def run_cf(model, method, log):
 	ctl = clingo.Control()
@@ -11,7 +12,7 @@ def run_cf(model, method, log):
 	ctl.load(log)
 	ctl.ground([("base",[])])
 	ans = ctl.solve()
-	return ctl.statistics
+	return {"total_time": ..., "symbols": ..., "rules": ...}
 
 if __name__ == '__main__':
 	if len(sys.argv) != 4 :
@@ -25,6 +26,9 @@ if __name__ == '__main__':
 	for method in ['asp_native', 'automata', 'ltlf_base']:
 		for log in Path(log_root).glob(log_glob_expr):
 			stats = run_cf(model, method, log.as_posix())
-			elapsed = stats['summary']['times']['total']
+			stats["peak_memory"] = ...
+			stats["method"] = method
+			stats["log"] = log.as_posix()
+			stats["model"] = model
 			print("Done: {} {} {:.3f}s".format(method, log.as_posix(), elapsed))
 			
