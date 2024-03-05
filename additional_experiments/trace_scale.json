@@ -35,7 +35,7 @@
 {"symbolic_atoms": 1004003, "execution_time": 9.121105194091797, "rules": 2034004.0, "memory_peak": 401.46484375, "model": "declare_models/alternate_precedence.lp", "log": "synthetic_logs/alternate_precedence_500.lp", "method": "asp_native"},
 {"symbolic_atoms": 204003, "execution_time": 6.231778144836426, "rules": 415004.0, "memory_peak": 635.8671875, "model": "declare_models/alternate_precedence.lp", "log": "synthetic_logs/alternate_precedence_100.lp", "method": "asp_native"},
 {"symbolic_atoms": 104003, "execution_time": 1.0161218643188477, "rules": 228075.0, "memory_peak": 635.87109375, "model": "declare_models/alternate_precedence.lp", "log": "synthetic_logs/alternate_precedence_50.lp", "method": "asp_native"},
-{"symbolic_atoms": 1005166, "execution_time": 8.122881889343262, "rules": 1507168.0, "memory_peak": 855.0, "model": "declare_models/alternate_precedence.lp", "log": "synthetic_logs/alternate_precedence_250.lp", "method": "automata"}
+{"symbolic_atoms": 1005166, "execution_time": 8.122881889343262, "rules": 1507168.0, "memory_peak": 855.0, "model": "declare_models/alternate_precedence.lp", "log": "synthetic_logs/alternate_precedence_250.lp", "method": "automata"},
 {"symbolic_atoms": 2005166, "execution_time": 17.966758966445923, "rules": 3007168.0, "memory_peak": 995.6796875, "model": "declare_models/alternate_precedence.lp", "log": "synthetic_logs/alternate_precedence_500.lp", "method": "automata"},
 {"symbolic_atoms": 405166, "execution_time": 3.04455304145813, "rules": 607168.0, "memory_peak": 741.71484375, "model": "declare_models/alternate_precedence.lp", "log": "synthetic_logs/alternate_precedence_100.lp", "method": "automata"},
 {"symbolic_atoms": 205166, "execution_time": 1.7506170272827148, "rules": 307168.0, "memory_peak": 741.71484375, "model": "declare_models/alternate_precedence.lp", "log": "synthetic_logs/alternate_precedence_50.lp", "method": "automata"},
@@ -45,7 +45,7 @@
 {"symbolic_atoms": 1004003, "execution_time": 9.881728887557983, "rules": 2034004.0, "memory_peak": 405.28515625, "model": "declare_models/chain_precedence.lp", "log": "synthetic_logs/chain_precedence_500.lp", "method": "asp_native"},
 {"symbolic_atoms": 1005166, "execution_time": 7.8615851402282715, "rules": 1507168.0, "memory_peak": 559.5234375, "model": "declare_models/chain_precedence.lp", "log": "synthetic_logs/chain_precedence_250.lp", "method": "automata"},
 {"symbolic_atoms": 405166, "execution_time": 2.61011004447937, "rules": 607168.0, "memory_peak": 452.96875, "model": "declare_models/chain_precedence.lp", "log": "synthetic_logs/chain_precedence_100.lp", "method": "automata"},
-{"symbolic_atoms": 205166, "execution_time": 1.2451739311218262, "rules": 307168.0, "memory_peak": 452.97265625, "model": "declare_models/chain_precedence.lp", "log": "synthetic_logs/chain_precedence_50.lp", "method": "automata"}
+{"symbolic_atoms": 205166, "execution_time": 1.2451739311218262, "rules": 307168.0, "memory_peak": 452.97265625, "model": "declare_models/chain_precedence.lp", "log": "synthetic_logs/chain_precedence_50.lp", "method": "automata"},
 {"symbolic_atoms": 2005166, "execution_time": 16.10365581512451, "rules": 3007168.0, "memory_peak": 850.09375, "model": "declare_models/chain_precedence.lp", "log": "synthetic_logs/chain_precedence_500.lp", "method": "automata"}
 ]
 
