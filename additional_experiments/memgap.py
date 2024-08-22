@@ -33,11 +33,12 @@ def run(model, log, method):
 		from Declare4Py.ProcessMiningTasks.ConformanceChecking.MPDeclareAnalyzer import MPDeclareAnalyzer
 
 		# parse log
+		start = perf_counter()
 		d4py_log = D4PyEventLog()
 		d4py_log.parse_xes_log(log)
 
 		print("Done parsing log...!")
-		start = perf_counter()
+		outputs['parse_log'] = perf_counter() - start
 
 		# parse decl
 		declare_model = DeclareModel()
