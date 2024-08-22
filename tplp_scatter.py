@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import sys
 import matplotlib
-#matplotlib.use("pgf")
+matplotlib.use("pgf")
 from matplotlib import pyplot as plt
 
 matplotlib.rcParams.update({
@@ -19,31 +19,18 @@ if len(sys.argv) != 2:
 	sys.exit(1)
 
 df = pd.read_csv(sys.argv[1])
-f, axes = plt.subplots(1, 2)
-
-time_scatter_ax = axes[0]
-memo_scatter_ax = axes[1]
 
 ### TIME SCATTER
 MAX_TIME_VALUE = df[['asp_real', 'd4py_real']].values.max()
 
-sns.scatterplot(df, x='asp_real', y='d4py_real', size='length', hue='constraint', legend='auto', marker='o', ax=time_scatter_ax)
+g = sns.scatterplot(df, x='asp_real', y='d4py_real', size='length', hue='constraint', legend='auto', marker='o', alpha=0.8)
 
-time_scatter_ax.axline(xy1=(10,10), slope=1, color='red', alpha=0.5)
-time_scatter_ax.set_ylabel("D4Py runtime (s)")
-time_scatter_ax.set_xlabel("ASP runtime (s)")
-time_scatter_ax.set_ylim(0,MAX_TIME_VALUE + 5)
-time_scatter_ax.set_xlim(0,MAX_TIME_VALUE + 5)
+plt.axline(xy1=(10,10), slope=1, color='red', alpha=0.5)
+g.set_ylabel("D4Py runtime (s)")
+g.set_xlabel("ASP runtime (s)")
+g.set_ylim(0,MAX_TIME_VALUE + 5)
+g.set_xlim(0,MAX_TIME_VALUE + 5)
 
-### MEMO SCATTER
-MAX_MEMO_VALUE = df[['asp_memo', 'd4py_memo']].values.max()
+sns.move_legend(g, "upper left", bbox_to_anchor=(1, 1), frameon=False)
 
-sns.scatterplot(df, x='asp_memo', y='d4py_memo', size='length', hue='constraint', legend='auto', marker='o', ax=memo_scatter_ax)
-
-memo_scatter_ax.axline(xy1=(10,10), slope=1, color='red', alpha=0.5)
-memo_scatter_ax.set_ylabel("D4Py Peak Memory (MB)")
-memo_scatter_ax.set_xlabel("ASP Peak Memory (MB)")
-memo_scatter_ax.set_ylim(0,MAX_MEMO_VALUE + 5)
-memo_scatter_ax.set_xlim(0,MAX_MEMO_VALUE + 5)
-
-plt.show()
+plt.savefig('scatters.pdf', dpi=1000, transparent=True, bbox_inches='tight')
