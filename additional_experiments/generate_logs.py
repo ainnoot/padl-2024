@@ -1,6 +1,3 @@
-import Declare4Py
-from Declare4Py.ProcessModels.DeclareModel import DeclareModel
-from Declare4Py.ProcessMiningTasks.ASPLogGeneration.asp_generator import AspGenerator
 from pathlib import Path 
 import sys
 import os
@@ -31,30 +28,38 @@ class LogCallback:
 			t = symbol.arguments[1].number
 			a = symbol.arguments[2].string
 			self.fp.write("trace({},{},\"{}\").\n".format(tid,t,a))
-		self.fp.flush()
 		self.idx += 1
 
-	def close_file(self, path):
+	def close_file(self):
+		self.fp.flush()
 		self.fp.close()
 
 for model_file in models:
 	for sz in TRACE_LENGTHS:
+		print("Processing", model_file.name, sz)
 		ctl = clingo.Control(["-c", "t={}".format(sz)])
 		ctl.load('generate.lp')
 		ctl.load(model_file.as_posix())
-		ctl.load('../asp_native/semantics.lp')
+		ctl.load('../automata/semantics.lp')
+		ctl.load('../automata/templates.lp')
 		ctl.ground([("base", [])])
 		ctl.configuration.solve.models = LOG_SIZE // 2
+		print("Done grounding")
 
 		constraint_name = model_file.stem
 		log_name = "{}_{}.lp".format(constraint_name, sz)
 
-		log = LogCallback((OUTPUT_FOLDER / log_name).as_posix())
+		log_file = OUTPUT_FOLDER / log_name
+		log = LogCallback(log_file.as_posix())
 		ctl.assign_external(clingo.Function("negative"), False)
 		ans = ctl.solve(on_model=log)
+		print("Done solving positive")
+
 		ctl.assign_external(clingo.Function("negative"), True)
 		ans = ctl.solve(on_model=log)
+		print("Done solving negative")
 
 		print("Done generating:", log_name, "Size:", log.idx)
+		log.close_file()
 
 
