@@ -12,7 +12,7 @@ if len(sys.argv) != 3:
 	sys.exit(1)
 
 LOG_SIZE = 2000
-TRACE_LENGTHS = [50, 100, 250, 500]
+TRACE_LENGTHS = [750, 1000] #[50, 100, 250, 500]
 
 MODEL_FOLDER = Path(sys.argv[1])
 OUTPUT_FOLDER = Path(sys.argv[2])
