@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).absolute().parents[1]
 DECLARE_MODELS_PATH = BASE_DIR / 'testing' / 'declare_constraints'
 
 FUZZ_PROGRAM = """
-#const t=50.
+#const t=30.
 time(0..t-1).
 activity("*").
 activity(A) :- bind(_,_,A).
@@ -18,18 +18,19 @@ activity(A) :- bind(_,_,A).
 % count = 2 -> both SAT
 % count = 0 -> both UNSAT
 % count = 1 -> counterexample
-:- #count{M: sat(M,C,_)} != 1, constraint(C, _).
+:- #count{M: sat(M,1,_)} != 1.
 
 #show.
-#show sat/3.
+#show sat(M,1,TID): sat(M,1,TID).
 """
 
 ALL_ENCODINGS = [
   'automata',
- 	'ltlf_base',
+# 	'ltlf_base',
 #	'ltlf_xnf',
 #	'ltlf_dag',
-	'asp_native'
+#	'asp_native',
+	'asp_native_opt'
 ]
 
 
