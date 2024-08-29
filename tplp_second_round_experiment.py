@@ -17,7 +17,9 @@ LENGTHS = [
 	50,
 	100,
 	250,
-	500
+	500,
+	750,
+	1000,
 ]
 
 METHODS = [
@@ -26,11 +28,11 @@ METHODS = [
 ]
 
 BASE_PATH = "additional_experiments"
-LOG_PATH = os.path.join(BASE_PATH, "synthetic_logs")
+LOG_PATH = os.path.join(BASE_PATH, "new_generation")
 MODEL_PATH = os.path.join(BASE_PATH, "declare_models")
 
 def make_command(log, model, method):
-	return ["python3", "conformance_checking.py", log, model, "-m", M, "-o", "/dev/null"]
+	return ["python3", "conformance_checking.py", log, model, "-m", method, "-o", "/dev/null"]
 
 
 rows = []
